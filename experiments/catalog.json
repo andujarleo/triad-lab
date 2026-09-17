@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "experiments": [
+    {
+      "id": "entre-01-observer",
+      "series": "entre",
+      "title": {
+        "en": "Observer and observed",
+        "pt-BR": "Observador e observado"
+      },
+      "status": "recorded",
+      "docs": {
+        "en": "experiments/entre-01-observer/README.md",
+        "pt-BR": "experiments/entre-01-observer/README.pt-BR.md"
+      },
+      "scripts": {
+        "en": "en/entre/simulate_observer_observed_relations.py",
+        "pt-BR": "entre/simulate_observer_observed_relations.py"
+      },
+      "artifacts": [
+        "entre/resultados/observador-observado-relacoes.png",
+        "entre/resultados/observador-observado-relacoes.gif",
+        "en/entre/observer-observed-relations-data.json",
+        "entre/dados/observador-observado-relacoes-dados.json"
+      ]
+    },
+    {
+      "id": "entre-02-between",
+      "series": "entre",
+      "title": {
+        "en": "The between",
+        "pt-BR": "O entre"
+      },
+      "status": "recorded",
+      "docs": {
+        "en": "experiments/entre-02-between/README.md",
+        "pt-BR": "experiments/entre-02-between/README.pt-BR.md"
+      },
+      "scripts": {
+        "en": "en/entre/simulate_consciousness_between.py",
+        "pt-BR": "entre/simulate_consciencia_entre.py"
+      },
+      "artifacts": [
+        "entre/resultados/consciencia-emergida-no-entre.png",
+        "entre/resultados/consciencia-emergida-no-entre.gif",
+        "en/entre/consciousness-between-data.json",
+        "entre/dados/consciencia-entre-dados.json"
+      ]
+    },
+    {
+      "id": "entre-03-chemistry",
+      "series": "entre",
+      "title": {
+        "en": "Eight coupled channels",
+        "pt-BR": "Oito canais acoplados"
+      },
+      "status": "recorded",
+      "docs": {
+        "en": "experiments/entre-03-chemistry/README.md",
+        "pt-BR": "experiments/entre-03-chemistry/README.pt-BR.md"
+      },
+      "scripts": {
+        "en": "en/entre/simulate_neurotransmitters_between.py",
+        "pt-BR": "entre/simulate_neurotransmissores_entre.py"
+      },
+      "artifacts": [
+        "entre/resultados/neurotransmissores-mudanca-no-entre.png",
+        "entre/resultados/neurotransmissores-mudanca-no-entre.gif",
+        "en/entre/neurotransmitters-between-data.json",
+        "entre/dados/neurotransmissores-entre-dados.json"
+      ]
+    },
+    {
+      "id": "entre-04-life-filter",
+      "series": "entre",
+      "title": {
+        "en": "Memory and life filter",
+        "pt-BR": "Memória e filtro de vida"
+      },
+      "status": "recorded",
+      "docs": {
+        "en": "experiments/entre-04-life-filter/README.md",
+        "pt-BR": "experiments/entre-04-life-filter/README.pt-BR.md"
+      },
+      "scripts": {
+        "en": "en/entre/simulate_life_filter_between.py",
+        "pt-BR": "entre/simulate_filtro_vida_entre.py"
+      },
+      "artifacts": [
+        "entre/resultados/memoria-filtro-vida-mudanca.png",
+        "entre/resultados/memoria-filtro-vida-mudanca.gif",
+        "en/entre/life-filter-between-data.json",
+        "entre/dados/filtro-vida-entre-dados.json"
+      ]
+    },
+    {
+      "id": "bravais-01-field",
+      "series": "bravais",
+      "title": {
+        "en": "Emergent 3D field",
+        "pt-BR": "Campo 3D emergente"
+      },
+      "status": "recorded",
+      "docs": {
+        "en": "experiments/bravais-01-field/README.md",
+        "pt-BR": "experiments/bravais-01-field/README.pt-BR.md"
+      },
+      "scripts": {
+        "en": "en/bravais/bravais_pure_3d.py",
+        "pt-BR": "bravais/bravais_puro_3d.py"
+      },
+      "artifacts": [
+        "bravais/resultados/pure_final_slices.png",
+        "bravais/final_state.npz"
+      ]
+    },
+    {
+      "id": "bravais-02-strings",
+      "series": "bravais",
+      "title": {
+        "en": "Strings from a saved state",
+        "pt-BR": "Cordas de um estado salvo"
+      },
+      "status": "recorded",
+      "docs": {
+        "en": "experiments/bravais-02-strings/README.md",
+        "pt-BR": "experiments/bravais-02-strings/README.pt-BR.md"
+      },
+      "scripts": {
+        "en": "en/bravais/bravais_strings.py",
+        "pt-BR": "bravais/bravais_cordas.py"
+      },
+      "artifacts": [
+        "bravais/resultados/cordas_densidade.png",
+        "bravais/final_state.npz"
+      ]
+    },
+    {
+      "id": "bravais-03-scale",
+      "series": "bravais",
+      "title": {
+        "en": "Intrinsic scale",
+        "pt-BR": "Escala própria"
+      },
+      "status": "implementation-available",
+      "docs": {
+        "en": "experiments/bravais-03-scale/README.md",
+        "pt-BR": "experiments/bravais-03-scale/README.pt-BR.md"
+      },
+      "scripts": {
+        "en": "en/bravais/bravais_sweep_L.py",
+        "pt-BR": "bravais/bravais_sweep_L.py"
+      },
+      "artifacts": []
+    }
+  ]
+}

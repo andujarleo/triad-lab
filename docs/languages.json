@@ -1,0 +1,17 @@
+{
+  "default": "en",
+  "languages": [
+    {
+      "tag": "en",
+      "name": "English",
+      "entry": "README.md",
+      "coverage": "home, catalog, seven experiment pages, guides"
+    },
+    {
+      "tag": "pt-BR",
+      "name": "Português",
+      "entry": "docs/pt-BR/README.md",
+      "coverage": "home, catalog, seven experiment pages, guides"
+    }
+  ]
+}

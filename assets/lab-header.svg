@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+<title id="title">TRIAD LAB</title><desc id="desc">A living collection of numerical experiments. Explore, run, record, extend. Decorative lab identity, not measured data.</desc>
+<rect width="1280" height="320" rx="22" fill="#101824"/>
+<path d="M900 0V320M0 258H1280" stroke="#263448"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="54" y="57" font-size="14" letter-spacing="4" fill="#81d9cc">NUMERICAL EXPERIMENTS · OPEN NOTEBOOK</text>
+<text x="48" y="159" font-size="88" font-weight="700" letter-spacing="-3" fill="#f4f7fc">TRIAD <tspan fill="#81d9cc">LAB</tspan></text>
+<text x="54" y="208" font-size="24" fill="#abbcd0">Relations. Memory. Emergent structure.</text>
+<text x="54" y="294" font-size="16" fill="#abbcd0">A living collection of experiments, code and recorded results.</text>
+<path d="M955 73V209" stroke="#81d9cc" stroke-width="2"/>
+<g fill="#81d9cc"><circle cx="955" cy="73" r="5"/><circle cx="955" cy="119" r="5"/><circle cx="955" cy="165" r="5"/><circle cx="955" cy="209" r="5"/></g>
+<g font-size="20" fill="#e4edf7"><text x="979" y="79">Explore</text><text x="979" y="125">Run</text><text x="979" y="171">Record</text><text x="979" y="215">Extend</text></g>
+</g></svg>

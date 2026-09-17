@@ -1,0 +1,22 @@
+{
+  "experiment_id": null,
+  "run_id": null,
+  "recorded_at": null,
+  "source_commit": null,
+  "command": null,
+  "working_directory": null,
+  "environment": {
+    "python": null,
+    "packages": {},
+    "os": null,
+    "hardware": null
+  },
+  "parameters": {},
+  "random_seed": null,
+  "inputs": [],
+  "artifacts": [],
+  "outcome": null,
+  "observations": [],
+  "interpretation": null,
+  "notes": "Template only. Replace fields with observed values. For inputs/artifacts record path and sha256; explain unavailable values here."
+}
