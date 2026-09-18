@@ -1,0 +1,117 @@
+{
+  "question": "Q03",
+  "title": "identifica\u00e7\u00e3o de subespa\u00e7os persistentes (POD/DMD passivos)",
+  "canonical": "TRIAD_QM_CANONICAL_V1",
+  "canonical_sha256": "e7c7d907c7109bbafc73229cb2e1943802feb47df035a7058e71ebec078d9a3e",
+  "qm_comparison": false,
+  "isolate_terms": false,
+  "theta_core_frozen": true,
+  "pilots_1_34_confirmatory": false,
+  "technical_exclusion": "NaN/blowup only",
+  "supported_for_qm": false,
+  "protocol": "PROTOCOL.md",
+  "protocol_sha256": "f565abde737256058c8c7e7f5a3ce963b89039b0555da908a1563f3c867e8c16",
+  "theta_core": {
+    "hbar": 1.0,
+    "m": 1.0,
+    "Lambda": -10.0,
+    "alpha": 0.15,
+    "sigma": 1.5,
+    "Gamma": 0.05,
+    "nu": [
+      10.0,
+      0.5,
+      0.05
+    ],
+    "lambda": [
+      3.0,
+      1.0,
+      0.3
+    ],
+    "fdt_couple": true,
+    "kT": 1.0,
+    "D": 3,
+    "bc": "periodic",
+    "step_mode": "strang"
+  },
+  "box": {
+    "L": 32.0,
+    "N": 64,
+    "dt": 0.0025,
+    "T": 8.0,
+    "V_ext": 0.0,
+    "domain": "[-L/2, L/2)^3"
+  },
+  "initial_condition": {
+    "type": "I0_single_gaussian_atom",
+    "spec": "\u00a79.1",
+    "s": 0.5,
+    "k0": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "norm": 1.0,
+    "y0": 0.0,
+    "note": "1 gaussiana = 1 \u00e1tomo; I0 permitido; n\u00e3o \u00e9 scan"
+  },
+  "fdt": {
+    "f_FDT_e": "2*Gamma*(dx**3)*kT/hbar",
+    "increment": "spec eq 4",
+    "rng": "numpy.random.default_rng(seed) then upload mlx complex64"
+  },
+  "numerics": {
+    "fp": "fp32",
+    "precision": "complex64",
+    "memory": "float32",
+    "backend": "mlx",
+    "device": "Device(gpu, 0)",
+    "solver": "standalone 3D Strang mlx GPU (mesmo passo Q02)",
+    "memory_update": "euler",
+    "record_every": 40,
+    "snap_every": 8,
+    "n_snap": 401,
+    "python": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+    "workers": 1,
+    "neural_engine": false
+  },
+  "seeds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "windows": {
+    "early": {
+      "rule": "t <= 0.2",
+      "t_max": 0.2,
+      "note": "\u00e1tomo ainda vis\u00edvel / morrendo \u2014 medi\u00e7\u00e3o"
+    },
+    "late": {
+      "rule": "last 20% of T",
+      "t_min": 6.4,
+      "T": 8.0,
+      "note": "universo preenchido; janela Q00"
+    }
+  },
+  "analysis": {
+    "pod": "economy SVD of n_snap x n_snap Gram of real-imag stacked centered field",
+    "dmd": "standard SVD-DMD on centered late snapshots",
+    "r_dmd": 8,
+    "r_dmd_fixed_before_run": true,
+    "modes_fed_to_solver": false
+  },
+  "verdict_rule": {
+    "gt_1_of_4_blowup": "NUMERICAL_FAILURE",
+    "late_ev8_ge_0.50_and_rec8_le_0.30_and_ov_ge_0.50": "PARTIAL",
+    "late_ev8_lt_0.20_and_rec8_gt_0.50": "NOT_SUPPORTED",
+    "otherwise": "INCONCLUSIVE",
+    "early_does_not_set_official_verdict": true,
+    "supported_for_qm": false,
+    "no_aesthetic_drop": true
+  },
+  "q02_solver_sha256": "ef65da9774ff65ac9b781595944f59bc1892f04665370a2de190ad22f94ba365",
+  "q02_protocol_v2_sha256": "bb19a387d2c0b8239b1e360bc9e3b96d246c99d20875a52e5be41617ce75f63c",
+  "solver_sha256": "8a9c1cefd4cc98dc753071a8c7c62dfc8d09240c5d328956388c48a2d8ce4115",
+  "executed": "/private/tmp/Q03_subespacos/run_q03.py"
+}

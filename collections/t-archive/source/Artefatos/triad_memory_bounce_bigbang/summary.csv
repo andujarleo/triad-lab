@@ -1,0 +1,2 @@
+backend,grid,L,dt,T,Lambda,nu,lam,initial_sigma,inward_chirp,R_initial,R_min,t_bounce,R_final,bounce_amplitude,bounced,rho_peak_time,memory_peak_time,memory_delay,peak_density_max,participation_final,norm_final
+numpy,40^3,32.0,0.0025,12.0,-10.0,"(10.0, 0.5, 0.05)","(3.0, 1.0, 0.3)",3.2,0.22,3.91918358823039,3.91918358823039,0.0,12.272370827833353,8.353187239602963,False,4.1,4.2,0.10000000000000053,0.14957477911501202,8306.607863865762,1.4916615989981103

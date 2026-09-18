@@ -1,0 +1,471 @@
+{
+  "run": "triad_ninho_pm_long",
+  "run_id": "34",
+  "question": "depois que a caixa enche, acontece mais alguma coisa ate T=60 ou so senta como universo preenchido?",
+  "leitura": "ima / anti-colapso (ninho de sinal, nao interferencia lado-a-lado, nao ninho mesmo-sinal)",
+  "theta_core_unchanged": true,
+  "terms_isolated": false,
+  "kT_retuned": false,
+  "solver": "standalone 3D Strang spec 3+5 (nao triad-lang)",
+  "backend": "numpy",
+  "fp": "fp64",
+  "N": 64,
+  "L": 32.0,
+  "dx": 0.5,
+  "dt": 0.0025,
+  "T": 60.0,
+  "n_steps": 24000,
+  "n_records": 324,
+  "record_every": 80,
+  "record_every_early": 4,
+  "record_every_fill": 40,
+  "early_t": 0.2,
+  "fill_t": 1.0,
+  "seed": 0,
+  "hbar": 1.0,
+  "m": 1.0,
+  "Lambda": -10.0,
+  "alpha": 0.15,
+  "sigma": 1.5,
+  "Gamma": 0.05,
+  "nu": [
+    10.0,
+    0.5,
+    0.05
+  ],
+  "lam": [
+    3.0,
+    1.0,
+    0.3
+  ],
+  "fdt_couple": true,
+  "kT": 1.0,
+  "D": 3,
+  "bc": "periodic",
+  "step_mode": "strang",
+  "V_ext": 0.0,
+  "s_in": 0.5,
+  "s_out": 2.0,
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "phases": [
+    0.0,
+    3.141592653589793
+  ],
+  "phase_labels": [
+    "envelope +",
+    "inner -"
+  ],
+  "raw_amplitudes_equal": true,
+  "ic_formula": "Psi = G_out - G_in, then int |Psi|^2 dV = 1",
+  "normalize": "int |Psi|^2 dV = 1",
+  "y0": 0.0,
+  "f_FDT": 0.0125,
+  "f_FDT_formula": "2*Gamma*(dx**3)*kT/hbar",
+  "noise_amp": 0.015811388300841896,
+  "noise_amp_formula": "sqrt(f_FDT*dt/dx**3)=sqrt(2*Gamma*kT*dt/hbar)",
+  "memory_update": "euler",
+  "max_nu_dt": 0.025,
+  "iso_frac_in": 0.35,
+  "iso_frac_out": 0.08,
+  "re_iso_frac": 0.25,
+  "r_core": 0.75,
+  "r_mid_lo": 1.5,
+  "r_mid_hi": 3.0,
+  "r_far": 8.0,
+  "r_shell_lo": 0.8,
+  "r_shell_hi": 2.5,
+  "contrast_im_min": 3.0,
+  "contrast_mf_min": 3.0,
+  "contrast_hole_min": 3.0,
+  "sign_hole_frac": 0.4,
+  "has_marching_cubes": true,
+  "wall_s": 352.9292208340048,
+  "started_america_sao_paulo": "2026-08-21 13:22:44 BRT",
+  "finished_america_sao_paulo": "2026-08-21 13:28:37 BRT",
+  "blew_up": false,
+  "blow_t": null,
+  "finite_final": true,
+  "peak_finite_all_t": true,
+  "peak_initial": 0.014579860327610177,
+  "peak_final": 3.37245754476715,
+  "peak_max": 4.8514414103632175,
+  "t_peak": 10.4,
+  "norm_initial": 1.0000000000000002,
+  "norm_final": 32692.30725305552,
+  "PR_initial": 141.55978395858352,
+  "PR_final": 28301.59189793128,
+  "R_rms_initial": 2.5224893176766083,
+  "R_rms_final": 16.008873493735845,
+  "r50_initial": 2.23606797749979,
+  "r50_final": 15.75595125658873,
+  "r90_initial": 3.570714214271425,
+  "r90_final": 20.89258241577618,
+  "r90_over_r50_initial": 1.5968719422671311,
+  "r90_over_r50_final": 1.3260121255477635,
+  "contrast_im_initial": 0.9520673849461833,
+  "contrast_im_t0.01": 1.1578174657993292,
+  "contrast_im_t0.02": 1.2710195548104024,
+  "contrast_im_t0.1": 1.2785797013531313,
+  "contrast_im_final": 1.0280050940203316,
+  "contrast_mf_initial": 328729099.2359773,
+  "contrast_mf_t0.01": 7.138718844686539,
+  "contrast_mf_t0.02": 4.148824195460849,
+  "contrast_mf_t0.1": 1.6503655782042155,
+  "contrast_mf_final": 1.0029551185046492,
+  "contrast_oi_initial": 9.657473508708632e+297,
+  "contrast_oi_t0.01": 5.076498595455353,
+  "contrast_oi_t0.02": 4.642411880263576,
+  "contrast_oi_final": 0.6724814789948117,
+  "two_scale_t0": true,
+  "two_scale_t0.01": true,
+  "two_scale_t0.02": true,
+  "two_scale_t0.1": false,
+  "two_scale_mid": false,
+  "two_scale_final": false,
+  "two_scale_hollow_t0": true,
+  "two_scale_hollow_t0.02": true,
+  "sign_nest_t0": true,
+  "sign_nest_t0.01": true,
+  "sign_nest_t0.02": true,
+  "sign_nest_t0.1": false,
+  "sign_nest_mid": false,
+  "sign_nest_final": false,
+  "minus_core_t0": false,
+  "hole_core_t0": true,
+  "re_origin_t0": 0.0,
+  "re_max_t0": 0.12074709241886604,
+  "re_min_t0": 0.0,
+  "re_origin_t0.02": -0.017798544305587638,
+  "re_max_t0.02": 0.21198762454193293,
+  "re_min_t0.02": -0.15324987532066864,
+  "t_last_two_scale": 0.04,
+  "t_two_scale_lost": 0.05,
+  "t_last_sign_nest": 1.0,
+  "t_sign_nest_lost": 0.09,
+  "t_last_nest_visible": 1.0,
+  "n_records_two_scale": 5,
+  "n_records_sign_nest": 24,
+  "two_scale_readable": false,
+  "sign_nest_readable": true,
+  "filled_early": true,
+  "bath_ate_nest_before_read": false,
+  "dpeak_while_two_scale": 0.055548328202745675,
+  "dR_rms_while_two_scale": 13.412129239944774,
+  "collapse_while_nested": false,
+  "mass_core_frac_initial": 0.014133802877084713,
+  "mass_core_frac_final": 7.475561210111507e-05,
+  "Vmem_peak_max": 8.029759569410071,
+  "t_Vmem_peak": 10.0,
+  "Vmem_peak_final": 6.342607064080015,
+  "k_star_final": 10.897399517139595,
+  "k_star_L_final": 348.71678454846705,
+  "peak_n_cells_half_final": 13494,
+  "peak_width_phys_final": 7.38449334054686,
+  "verdict_two_scale": "INCONCLUSIVE",
+  "verdict_sign_nest": "PARTIAL",
+  "verdict_finite_peak": "SUPPORTED",
+  "note_scale": "O perfil radial de duas escalas / oco nao durou tempo bastante. Com este banho (kT=1) as sementes viram universo. kT nao foi retocado.",
+  "note_sign": "Ninho de sinal visivel por tempo; ver t_last_sign_nest.",
+  "note_peak": "peak rho permaneceu finito em todo o T (anti-colapso / singularidade nao foi a infinito neste run).",
+  "snap_t": {
+    "ic": 0.0,
+    "t001": 0.01,
+    "t002": 0.02,
+    "t005": 0.05,
+    "early": 0.1,
+    "t1": 1.0,
+    "t8": 8.0,
+    "mid": 8.0,
+    "t30": 30.0,
+    "late": 60.0
+  },
+  "out": "/Users/leo/Documents/Triad/T/Artefatos/triad_ninho_pm_long",
+  "second_peak": true,
+  "t_second_peak": 13.8,
+  "val_second_peak": 4.170607882167476,
+  "n_peak_maxima_after_t1": 12,
+  "peak_maxima_after_t1": [
+    [
+      10.4,
+      4.8514414103632175
+    ],
+    [
+      13.8,
+      4.170607882167476
+    ],
+    [
+      17.400000000000002,
+      3.5561633728933155
+    ],
+    [
+      22.2,
+      3.485458447367385
+    ],
+    [
+      25.6,
+      3.5091430528600203
+    ],
+    [
+      31.6,
+      3.6707092009372926
+    ],
+    [
+      36.2,
+      3.638264187500915
+    ],
+    [
+      42.6,
+      3.67325060472536
+    ],
+    [
+      45.800000000000004,
+      3.644488349604663
+    ],
+    [
+      50.800000000000004,
+      3.6738785009165147
+    ],
+    [
+      56.4,
+      3.7202737413693727
+    ],
+    [
+      59.6,
+      3.550356872598137
+    ]
+  ],
+  "bounce": true,
+  "t_bounce_min": 28.400000000000002,
+  "t_bounce_rise": 60.0,
+  "bounce_drop": 1.9167941524843255,
+  "bounce_rise": 0.43781028688825785,
+  "collapse_after_fill": false,
+  "sign_rebirth": false,
+  "t_sign_rebirth": null,
+  "n_sign_after_fill": 1,
+  "two_rebirth": false,
+  "t_two_rebirth": null,
+  "n_two_after_fill": 0,
+  "sits_filled": false,
+  "note_long": "Depois de t~1 a caixa ja e universo preenchido. Houve alguma variacao apos o preenchimento (ver flags bounce/second_peak/rebirth). Nao e prova. Volume preenchido = universo, nao ruido.",
+  "peak_oldlate_mean": 3.905657559634172,
+  "peak_oldlate_std": 0.3738220307848835,
+  "peak_oldlate_n": 21,
+  "PR_oldlate_mean": 21616.83311441088,
+  "PR_oldlate_std": 1293.5690921168903,
+  "R_rms_oldlate_mean": 16.019861904061358,
+  "R_rms_oldlate_std": 0.08590771701780353,
+  "norm_oldlate_mean": 20643.161835326297,
+  "norm_oldlate_std": 1495.0611649046689,
+  "k_star_oldlate_mean": 10.775849801375706,
+  "k_star_oldlate_std": 0.0953514419310368,
+  "Vmem_peak_oldlate_mean": 6.842501467128233,
+  "Vmem_peak_oldlate_std": 0.486758983652247,
+  "crystallinity_oldlate_mean": 0.9999947569194728,
+  "crystallinity_oldlate_std": 1.6446273124543238e-06,
+  "k_star_late_mean": 10.89739951713959,
+  "k_star_late_std": 5.329070518200751e-15,
+  "Vmem_peak_late_mean": 6.3397971925025605,
+  "Vmem_peak_late_std": 0.2166104776158359,
+  "crystallinity_late_mean": 0.9999967450273238,
+  "crystallinity_late_std": 1.0741267219529325e-06,
+  "peak_late_over_oldlate": 0.8483531569893434,
+  "PR_late_over_oldlate": 1.308595761628851,
+  "norm_late_over_oldlate": 1.5787695593933597,
+  "cryst_late_minus_oldlate": 1.9881078510142203e-06,
+  "norm_late_mean": 32590.795515243917,
+  "norm_late_std": 71.67090794664327,
+  "norm_late_n": 61,
+  "norm_oldlate_n": 21,
+  "peak_late_mean": 3.3133769208349446,
+  "peak_late_std": 0.15538997935068571,
+  "peak_late_n": 61,
+  "PR_late_mean": 28287.696193356274,
+  "PR_late_std": 19.254816082161078,
+  "PR_late_n": 61,
+  "PR_oldlate_n": 21,
+  "R_rms_late_mean": 16.00399049862743,
+  "R_rms_late_std": 0.003353167854300895,
+  "R_rms_late_n": 61,
+  "R_rms_oldlate_n": 21,
+  "r50_late_mean": 15.743067198149138,
+  "r50_late_std": 0.00987368434925474,
+  "r50_late_n": 61,
+  "r50_oldlate_mean": 15.780998937666705,
+  "r50_oldlate_std": 0.08770163613785421,
+  "r50_oldlate_n": 21,
+  "r90_late_mean": 20.892190032722358,
+  "r90_late_std": 0.001481213545773889,
+  "r90_late_n": 61,
+  "r90_oldlate_mean": 20.893903487075715,
+  "r90_oldlate_std": 0.06573341835858018,
+  "r90_oldlate_n": 21,
+  "contrast_im_late_mean": 1.0218457145818023,
+  "contrast_im_late_std": 0.09306499581859923,
+  "contrast_im_late_n": 61,
+  "contrast_im_oldlate_mean": 0.9834158323284247,
+  "contrast_im_oldlate_std": 0.30049884498444446,
+  "contrast_im_oldlate_n": 21,
+  "contrast_mf_late_mean": 0.9995538222139363,
+  "contrast_mf_late_std": 0.012464097840263474,
+  "contrast_mf_late_n": 61,
+  "contrast_mf_oldlate_mean": 0.9109218751234228,
+  "contrast_mf_oldlate_std": 0.09126945335436651,
+  "contrast_mf_oldlate_n": 21,
+  "k_star_late_n": 61,
+  "k_star_oldlate_n": 21,
+  "Vmem_peak_late_n": 61,
+  "Vmem_peak_oldlate_n": 21,
+  "crystallinity_late_n": 61,
+  "crystallinity_oldlate_n": 21,
+  "iso_used": {
+    "ic": {
+      "method": {
+        "outer": "marching_cubes",
+        "inner": "marching_cubes"
+      },
+      "peak": 0.014579860327610177,
+      "t": 0.0
+    },
+    "early": {
+      "method": {
+        "outer": "marching_cubes",
+        "inner": "marching_cubes"
+      },
+      "peak": 0.12317703369852023,
+      "t": 0.1
+    },
+    "mid": {
+      "method": {
+        "outer": "marching_cubes",
+        "inner": "marching_cubes"
+      },
+      "peak": 4.336503212435524,
+      "t": 8.0
+    },
+    "late": {
+      "method": {
+        "outer": "marching_cubes",
+        "inner": "marching_cubes"
+      },
+      "peak": 3.37245754476715,
+      "t": 60.0
+    },
+    "t002": {
+      "method": {
+        "outer": "marching_cubes",
+        "inner": "marching_cubes"
+      },
+      "peak": 0.04551903812661517,
+      "t": 0.02
+    },
+    "t001": {
+      "method": {
+        "outer": "marching_cubes",
+        "inner": "marching_cubes"
+      },
+      "peak": 0.03234984631382771,
+      "t": 0.01
+    },
+    "ic_re": {
+      "plus": "marching_cubes",
+      "minus": "skip",
+      "re_max": 0.12074709241886604,
+      "re_min": 0.0,
+      "level_plus": 0.03018677310471651,
+      "level_minus": 0.0
+    },
+    "t002_re": {
+      "plus": "marching_cubes",
+      "minus": "marching_cubes",
+      "re_max": 0.21198762454193293,
+      "re_min": -0.15324987532066864,
+      "level_plus": 0.05299690613548323,
+      "level_minus": -0.03831246883016716
+    },
+    "early_re": {
+      "plus": "marching_cubes",
+      "minus": "marching_cubes",
+      "re_max": 0.32382879444815116,
+      "re_min": -0.32591970586184577,
+      "level_plus": 0.08095719861203779,
+      "level_minus": -0.08147992646546144
+    },
+    "late_re": {
+      "plus": "marching_cubes",
+      "minus": "marching_cubes",
+      "re_max": 1.4310082540944324,
+      "re_min": -1.4356056365054246,
+      "level_plus": 0.3577520635236081,
+      "level_minus": -0.35890140912635615
+    },
+    "t005": {
+      "method": {
+        "outer": "marching_cubes",
+        "inner": "marching_cubes"
+      },
+      "peak": 0.057509337979032245,
+      "t": 0.05
+    },
+    "t1": {
+      "method": {
+        "outer": "marching_cubes",
+        "inner": "marching_cubes"
+      },
+      "peak": 1.2365863781750106,
+      "t": 1.0
+    },
+    "t8": {
+      "method": {
+        "outer": "marching_cubes",
+        "inner": "marching_cubes"
+      },
+      "peak": 4.336503212435524,
+      "t": 8.0
+    },
+    "t30": {
+      "method": {
+        "outer": "marching_cubes",
+        "inner": "marching_cubes"
+      },
+      "peak": 3.2962108769163376,
+      "t": 30.0
+    },
+    "t005_re": {
+      "plus": "marching_cubes",
+      "minus": "marching_cubes",
+      "re_max": 0.23954255395106416,
+      "re_min": -0.2111359675352939,
+      "level_plus": 0.05988563848776604,
+      "level_minus": -0.052783991883823475
+    },
+    "t1_re": {
+      "plus": "marching_cubes",
+      "minus": "marching_cubes",
+      "re_max": 1.005628857955839,
+      "re_min": -1.0874033623598627,
+      "level_plus": 0.25140721448895975,
+      "level_minus": -0.27185084058996567
+    },
+    "t8_re": {
+      "plus": "marching_cubes",
+      "minus": "marching_cubes",
+      "re_max": 1.838417485923028,
+      "re_min": -1.850062155056555,
+      "level_plus": 0.459604371480757,
+      "level_minus": -0.46251553876413876
+    },
+    "t30_re": {
+      "plus": "marching_cubes",
+      "minus": "marching_cubes",
+      "re_max": 1.6000838062610592,
+      "re_min": -1.5881565055659854,
+      "level_plus": 0.4000209515652648,
+      "level_minus": -0.39703912639149636
+    }
+  }
+}

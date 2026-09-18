@@ -1,0 +1,45 @@
+{
+  "run": 37,
+  "backend": "numpy",
+  "device": "cpu",
+  "wall_s": 31.0740649090003,
+  "t_start": "2026-08-21 18:09:34 BRT",
+  "t_end": "2026-08-21 18:10:06 BRT",
+  "finite_all": true,
+  "t_fill": 0.005,
+  "t_plant": 0.5,
+  "t_gone": null,
+  "dt_identity": null,
+  "contrast_plant": 47.34574195268162,
+  "peak_w_plant": 1.6038745641708374,
+  "mass_w_plant": 13.799631118774414,
+  "late_norm": 5948.32861328125,
+  "late_peak": 2.329829454421997,
+  "late_PR": 16667.99702428131,
+  "late_contrast": 9.47501596843885,
+  "late_d_com": 0.05070350976407058,
+  "late_y_corr_w": 0.6789731420898634,
+  "late_y_corr_out": 0.7087409366889116,
+  "verdict": "PARTIAL identidade (ainda vivo em T=2)",
+  "reading": "O bolso ainda passava o critério no fim da janela. Surpresa em relação à previsão. Sem retocar λ. Não promove a consciência.",
+  "Theta_core": {
+    "Lambda": -10.0,
+    "alpha": 0.15,
+    "sigma": 1.5,
+    "Gamma": 0.05,
+    "nu": [
+      10.0,
+      0.5,
+      0.05
+    ],
+    "lambda": [
+      3.0,
+      1.0,
+      0.3
+    ],
+    "fdt_couple": true,
+    "kT": 1.0
+  },
+  "script_sha256": "805218f5cf73ca996f30b267915172e07812bfa9821ed47549720b3381d8cc9f",
+  "n_records": 401
+}

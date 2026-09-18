@@ -1,0 +1,68 @@
+{
+  "label": "re-execution of dossier TRIAD \u2014 Dossi\u00ea unificado (2026-08-21) Part I \u00a72.4 A.3 real",
+  "not": "a change of Leonardo's full-triad operational reading",
+  "peak_ini": 1.4366969769095943,
+  "peak_ini_analytic": 1.4366969770013325,
+  "norm_ini": 1.0000000000000002,
+  "PR_ini": 1.968662709604115,
+  "R_rms_ini": 0.6123724353664733,
+  "mem": {
+    "peak_end": 0.003429819606286119,
+    "peak_max": 13.173672820732932,
+    "PR_end": 2656.8703179288163,
+    "norm_end": 1.0000000000011189,
+    "t_collapse": 0.14250000000000002,
+    "wall_s": 59.614996242000416,
+    "Lambda": -10.0,
+    "lam": [
+      3.0,
+      1.0
+    ],
+    "t_peak_max": 0.1575,
+    "n_samples_above_8x": 12,
+    "t_last_above_8x": 0.17
+  },
+  "no_mem": {
+    "peak_end": 8.097538565889609,
+    "peak_max": 12.679609462962741,
+    "PR_end": 0.49882707746976307,
+    "norm_end": 1.0000000000007894,
+    "t_collapse": 0.135,
+    "wall_s": 60.599283204999665,
+    "Lambda": -10.0,
+    "lam": [
+      0.0,
+      0.0
+    ],
+    "t_peak_max": 0.1425
+  },
+  "Lambda_ef": {
+    "peak_end": 12.097267757920918,
+    "peak_max": 16.675047998477698,
+    "PR_end": 0.22347190882438586,
+    "norm_end": 1.0000000000006848,
+    "t_collapse": 0.275,
+    "wall_s": 59.743898441000056,
+    "Lambda": -6.0,
+    "lam": [
+      0.0,
+      0.0
+    ],
+    "t_peak_max": 0.3125
+  },
+  "wall_seconds": 180.01586114499878,
+  "numpy_version": "2.2.4",
+  "stepper_sha256": "7bbc95b990ffa85175826aaa4f054db0a5e233471b63cdb91251308dc9156713",
+  "figures_written": true,
+  "N": 64,
+  "L": 20.0,
+  "dt": 0.0025,
+  "T": 6.0,
+  "n_steps": 2400,
+  "collapse_threshold": 11.493575815276754,
+  "predictions_file": "/workspace/dossie_reexec/predictions_A3.md",
+  "figures": [
+    "/workspace/dossie_reexec/A3/figures/peak_vs_t.png",
+    "/workspace/dossie_reexec/A3/figures/PR_vs_t.png"
+  ]
+}

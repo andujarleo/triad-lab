@@ -1,0 +1,5 @@
+collections/t-archive/source/**/*.npy filter=lfs diff=lfs merge=lfs -text
+collections/t-archive/source/**/*.npz filter=lfs diff=lfs merge=lfs -text
+collections/t-archive/source/**/*.gif filter=lfs diff=lfs merge=lfs -text
+# Keep all other historical bytes unchanged across platforms.
+collections/t-archive/source/** -text

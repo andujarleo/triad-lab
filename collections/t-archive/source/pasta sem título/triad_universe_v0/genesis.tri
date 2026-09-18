@@ -1,0 +1,6 @@
+# TRIAD Universe v0 — direct language-level sealed genesis smoke.
+# The persistent production run is genesis_modal.py because the current .tri
+# surface exposes one-shot qa.modal_relax but not modal_evolve_state yet.
+import triad.qalgo as qa;
+let genesis = qa.modal_relax(1000000, 8, 0);
+print(genesis);

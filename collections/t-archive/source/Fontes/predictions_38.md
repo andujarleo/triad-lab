@@ -1,0 +1,5 @@
+# 38 — o que a gente acha (antes de rodar)
+
+Cubo enche na hora, tipo o 37.
+Os dois plantios aparecem (dois picos, um em +8 e um em −8).
+Em menos de 1 unidade de tempo o cubo come os dois. Talvez um coma o outro antes.

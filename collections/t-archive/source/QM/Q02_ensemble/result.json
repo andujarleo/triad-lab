@@ -1,0 +1,129 @@
+{
+  "question": "Qual \u00e9 a distribui\u00e7\u00e3o natural de comportamentos do substrato sem escolher uma seed bonita?",
+  "id": "Q02",
+  "verdict": "INCONCLUSIVE",
+  "note": "Ensemble OK: 32/32 finitas e peak/PR/R_rms tardios t\u00eam distribui\u00e7\u00e3o bem definida (std finito). Q02 n\u00e3o \u00e9 teste de MQ \u2192 INCONCLUSIVE. Backend mlx GPU fp32 (PROTOCOL_v2). Nunca SUPPORTED para MQ.",
+  "qm_comparison": false,
+  "theta_core_unchanged": true,
+  "terms_isolated": false,
+  "n_seeds": 32,
+  "n_finite": 32,
+  "n_blowup": 0,
+  "excluded_seeds": [],
+  "ensemble_late": {
+    "norm": {
+      "mean": 16769.72452320772,
+      "std": 34.09395258346796,
+      "min": 16714.6416015625,
+      "max": 16846.157513786766,
+      "median": 16772.133185891544,
+      "n": 32
+    },
+    "peak": {
+      "mean": 3.885503963950802,
+      "std": 0.05476800478827513,
+      "min": 3.7499515729791977,
+      "max": 3.9744774594026455,
+      "median": 3.8994141746969784,
+      "n": 32
+    },
+    "PR": {
+      "mean": 19210.271079500642,
+      "std": 21.309731215520557,
+      "min": 19176.09098716451,
+      "max": 19255.243750888887,
+      "median": 19205.09241244942,
+      "n": 32
+    },
+    "R_rms": {
+      "mean": 16.00121597779656,
+      "std": 0.0205257865607135,
+      "min": 15.959317742382044,
+      "max": 16.039464409432536,
+      "median": 15.999238385442588,
+      "n": 32
+    },
+    "k_star": {
+      "mean": 10.805360669866456,
+      "std": 0.08082321971320099,
+      "min": 10.689500003299095,
+      "max": 10.897399517139595,
+      "median": 10.787674773723776,
+      "n": 32
+    },
+    "k_star_L": {
+      "mean": 345.7715414357266,
+      "std": 2.5863430308224316,
+      "min": 342.06400010557104,
+      "max": 348.71678454846705,
+      "median": 345.2055927591608,
+      "n": 32
+    },
+    "Vmem_peak": {
+      "mean": 6.724234923564226,
+      "std": 0.11713963992985373,
+      "min": 6.459142819441418,
+      "max": 7.035174524170511,
+      "median": 6.734141784117502,
+      "n": 32
+    },
+    "crystallinity": {
+      "mean": 0.9999920085949057,
+      "std": 1.3134048371377903e-06,
+      "min": 0.9999887943267822,
+      "max": 0.9999947653097265,
+      "median": 0.9999919796691221,
+      "n": 32
+    }
+  },
+  "empirical_transient": {
+    "t_settle": {
+      "mean": 0.1,
+      "std": 0.0,
+      "min": 0.1,
+      "max": 0.1,
+      "median": 0.1,
+      "n": 32,
+      "n_never": 0
+    },
+    "t_fill": {
+      "mean": 0.1,
+      "std": 0.0,
+      "min": 0.1,
+      "max": 0.1,
+      "median": 0.1,
+      "n": 32,
+      "n_never": 0
+    },
+    "definition_t_settle": "|R_rms(t)-R_rms_late|<0.05*|R_rms_late| and stays through T",
+    "definition_t_fill": "first t with R_rms > 0.9*(L/2)"
+  },
+  "fraction_box_filled": 1.0,
+  "fraction_box_filled_all": 1.0,
+  "n_filled": 32,
+  "peak_max_global": 5.656131267547607,
+  "peak_max_t": 0.7000000000000001,
+  "peak_max_seed": 14,
+  "k_star_late_mean": 10.805360669866456,
+  "k_nyquist": 10.882796185405306,
+  "k_star_on_nyquist": true,
+  "k_star_rel_nyquist": 0.007115406208075216,
+  "k_star_note": "k* m\u00e9dio tardio est\u00e1 a 0.71% do Nyquist (10.8054 vs 10.8828). Espectro ainda pode estar preso \u00e0 grade. Medi\u00e7\u00e3o, n\u00e3o calibra\u00e7\u00e3o.",
+  "backend": "mlx",
+  "precision": "complex64",
+  "device": "Device(gpu, 0)",
+  "protocol": "PROTOCOL_v2",
+  "protocol_v1_sha256": "a2024aff5e29c484ed781f6972d1699f4657997072c528333f1268b95cb648af",
+  "protocol_v2_sha256": "bb19a387d2c0b8239b1e360bc9e3b96d246c99d20875a52e5be41617ce75f63c",
+  "solver_sha256": "ef65da9774ff65ac9b781595944f59bc1892f04665370a2de190ad22f94ba365",
+  "canonical_sha256": "e7c7d907c7109bbafc73229cb2e1943802feb47df035a7058e71ebec078d9a3e",
+  "q01a_solver_sha256": "abcacbacae3010e1b0e2858dbb96c63410387cb8674286dca8da3958d12e5f64",
+  "started_america_sao_paulo": "2026-08-21 13:52:10 BRT",
+  "finished_america_sao_paulo": "2026-08-21 14:00:26 BRT",
+  "supported_for_qm": false,
+  "pilots_1_34_confirmatory": false,
+  "wall_total_s": 495.38847820900264,
+  "workers": 1,
+  "well_defined_distribution": true,
+  "out": "/tmp/Q02_ensemble/out"
+}

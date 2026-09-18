@@ -1,0 +1,96 @@
+{
+  "question": "Q01a",
+  "title": "convergência numérica da tríade completa",
+  "canonical": "TRIAD_QM_CANONICAL_V1",
+  "canonical_sha256": "e7c7d907c7109bbafc73229cb2e1943802feb47df035a7058e71ebec078d9a3e",
+  "qm_comparison": false,
+  "isolate_terms": false,
+  "theta_core_frozen": true,
+  "pilots_27_29_confirmatory": false,
+  "technical_exclusion": "NaN/blowup only",
+  "theta_core": {
+    "hbar": 1.0,
+    "m": 1.0,
+    "Lambda": -10.0,
+    "alpha": 0.15,
+    "sigma": 1.5,
+    "Gamma": 0.05,
+    "nu": [
+      10.0,
+      0.5,
+      0.05
+    ],
+    "lambda": [
+      3.0,
+      1.0,
+      0.3
+    ],
+    "fdt_couple": true,
+    "kT": 1.0,
+    "D": 3,
+    "bc": "periodic",
+    "step_mode": "strang"
+  },
+  "box": {
+    "L": 32.0,
+    "N": [
+      32,
+      48,
+      64
+    ],
+    "dt": 0.0025,
+    "T": 8.0,
+    "V_ext": 0.0,
+    "domain": "[-L/2, L/2)^3"
+  },
+  "initial_condition": {
+    "type": "I0_single_gaussian_atom",
+    "spec": "§9.1",
+    "s": 0.5,
+    "k0": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "norm": 1.0,
+    "y0": 0.0,
+    "note": "1 gaussiana = 1 átomo; I0 permitido; não é scan"
+  },
+  "fdt": {
+    "f_FDT_e": "2*Gamma*(dx**3)*kT/hbar",
+    "increment": "spec eq 4"
+  },
+  "numerics": {
+    "fp": "fp64",
+    "backend": "numpy",
+    "solver": "standalone 3D Strang",
+    "memory_update": "euler",
+    "record_every": 40,
+    "python": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3"
+  },
+  "seeds": [
+    0
+  ],
+  "late_window": {
+    "rule": "last 20% of T",
+    "t_min": 6.4,
+    "T": 8.0
+  },
+  "observables": [
+    "norm",
+    "peak",
+    "PR",
+    "R_rms",
+    "k_star",
+    "k_star_L",
+    "Vmem_peak",
+    "rho"
+  ],
+  "verdict_rule": {
+    "agree_20pct_N48_N64_peak_PR_Rrms": "INCONCLUSIVE (grade grossa; epsilon_num) ou ok-enough para Q01b",
+    "diverge_wildly_or_nan": "NUMERICAL_FAILURE",
+    "supported_for_qm": false
+  },
+  "solver_sha256": "abcacbacae3010e1b0e2858dbb96c63410387cb8674286dca8da3958d12e5f64",
+  "protocol_sha256": "eb127b7d7948e12e9e097ee2e94379821dc51a157033d11bfd449da2d6b1f550"
+}

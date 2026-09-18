@@ -1,0 +1,141 @@
+{
+  "question": "Q04",
+  "title": "linearidade efetiva / superposi\u00e7\u00e3o (campo + plano dos 2 \u00e1tomos)",
+  "canonical": "TRIAD_QM_CANONICAL_V1",
+  "canonical_sha256": "e7c7d907c7109bbafc73229cb2e1943802feb47df035a7058e71ebec078d9a3e",
+  "qm_comparison": false,
+  "isolate_terms": false,
+  "theta_core_frozen": true,
+  "pilots_1_34_confirmatory": false,
+  "technical_exclusion": "NaN/blowup only",
+  "supported_for_qm": false,
+  "protocol": "PROTOCOL.md",
+  "protocol_sha256": "9b6b2f49352cf458d26c4bc22d36037c6057c52829139a784fa4098c489b51df",
+  "deviation": true,
+  "pi": "IC_atom_plane_not_Q03_POD",
+  "theta_core": {
+    "hbar": 1.0,
+    "m": 1.0,
+    "Lambda": -10.0,
+    "alpha": 0.15,
+    "sigma": 1.5,
+    "Gamma": 0.05,
+    "nu": [
+      10.0,
+      0.5,
+      0.05
+    ],
+    "lambda": [
+      3.0,
+      1.0,
+      0.3
+    ],
+    "fdt_couple": true,
+    "kT": 1.0,
+    "D": 3,
+    "bc": "periodic",
+    "step_mode": "strang"
+  },
+  "box": {
+    "L": 32.0,
+    "N": 64,
+    "dt": 0.0025,
+    "T": 8.0,
+    "V_ext": 0.0,
+    "domain": "[-L/2, L/2)^3"
+  },
+  "initial_condition": {
+    "type": "two_atom_gaussians_and_equal_superposition",
+    "s": 0.5,
+    "A": {
+      "center": [
+        -3.0,
+        0.0,
+        0.0
+      ],
+      "k0": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "norm": 1.0
+    },
+    "B": {
+      "center": [
+        3.0,
+        0.0,
+        0.0
+      ],
+      "k0": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "norm": 1.0
+    },
+    "S": "(A+B)/||A+B||_L2",
+    "a": 0.7071067811865475,
+    "b": 0.7071067811865475,
+    "y0": 0.0,
+    "note": "1 gaussiana = 1 \u00e1tomo; posi\u00e7\u00f5es \u00b13 e s=0.5 da ontologia / run 30; n\u00e3o \u00e9 scan"
+  },
+  "fdt": {
+    "f_FDT_e": "2*Gamma*(dx**3)*kT/hbar",
+    "increment": "spec eq 4",
+    "rng": "numpy.random.default_rng(seed) independently per member; identical eta in the triple",
+    "identical_noise": true
+  },
+  "numerics": {
+    "fp": "fp32",
+    "precision": "complex64",
+    "memory": "float32",
+    "backend": "mlx",
+    "device": "Device(gpu, 0)",
+    "solver": "standalone 3D Strang mlx GPU (mesmo passo Q02)",
+    "memory_update": "euler",
+    "snap_every": 8,
+    "n_snap": 401,
+    "python": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+    "workers": 1,
+    "neural_engine": false
+  },
+  "seeds": [
+    0,
+    1
+  ],
+  "members": [
+    "A",
+    "B",
+    "S"
+  ],
+  "windows": {
+    "early_context": {
+      "times": [
+        0.02,
+        0.1,
+        0.2
+      ],
+      "note": "contexto / vida \u00fatil; n\u00e3o veredito"
+    },
+    "late": {
+      "rule": "last 20% of T",
+      "t_min": 6.4,
+      "T": 8.0,
+      "note": "oficial"
+    }
+  },
+  "verdict_rule": {
+    "gt_1_of_2_blowup": "NUMERICAL_FAILURE",
+    "late_R_lin_field_lt_0.20": "PARTIAL",
+    "late_R_lin_field_gt_0.50": "NOT_SUPPORTED",
+    "otherwise": "INCONCLUSIVE",
+    "early_does_not_set_official_verdict": true,
+    "supported_for_qm": false,
+    "no_aesthetic_drop": true
+  },
+  "q02_solver_sha256": "ef65da9774ff65ac9b781595944f59bc1892f04665370a2de190ad22f94ba365",
+  "q03_protocol_sha256": "f565abde737256058c8c7e7f5a3ce963b89039b0555da908a1563f3c867e8c16",
+  "q02_protocol_v2_sha256": "bb19a387d2c0b8239b1e360bc9e3b96d246c99d20875a52e5be41617ce75f63c",
+  "solver_sha256": "c5c271e08e003a3c8a59cc31bdc888d979678c1fad48941daee41db8292eb118",
+  "executed": "/private/tmp/run_q04.py"
+}

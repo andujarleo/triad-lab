@@ -1,0 +1,41 @@
+{
+  "engine": "TriadLang C-native persistent modal P1\u00b7P2\u00b7P3",
+  "D": 3,
+  "active_modes": 1000000,
+  "runtime_reported_virtual_cells_formula": "N^3",
+  "virtual_cells": 1000000000000000000,
+  "field_volume_materialized": false,
+  "search_space_materialized": false,
+  "resident_state": {
+    "psi_re_f32": 1000000,
+    "psi_im_f32": 1000000,
+    "memory_f64": 3000000
+  },
+  "ticks": 64,
+  "steps_per_tick": 8,
+  "total_steps": 512,
+  "dt": 0.001,
+  "physical_time": 0.512,
+  "backend_requested": 1,
+  "seed": 7,
+  "Lambda": -0.5,
+  "alpha": 0.15,
+  "sigma": 1.5,
+  "Gamma": 0.05,
+  "kT": 1.0,
+  "coupling": 0.1,
+  "nu": [
+    2.0,
+    0.5,
+    0.1
+  ],
+  "lambda": [
+    0.05,
+    0.02,
+    0.01
+  ],
+  "observer_feedback": false,
+  "post_hoc_retuning": false,
+  "wall_s": 18.612518657001146,
+  "checkpoint_sha256": "83ca72453bd8afe284e18fc0bdffd4bc6674c425b11d5fe6c74e7b2a718550f5"
+}

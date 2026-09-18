@@ -1,0 +1,196 @@
+{
+  "question": "Existe um regime em que F_t(aA+bB) \u2248 a F_t(A) + b F_t(B) na din\u00e2mica completa? Por quanto tempo a soma de dois \u00e1tomos permanece no plano dos dois \u00e1tomos?",
+  "id": "Q04",
+  "verdict": "INCONCLUSIVE",
+  "verdict_why": "m\u00e9dia late R_lin_field=0.38641 em [0.20, 0.50] (ou n\u00e3o finita de forma \u00fatil).",
+  "qm_comparison": false,
+  "theta_core_unchanged": true,
+  "terms_isolated": false,
+  "deviation": true,
+  "pi": "IC_atom_plane_not_Q03_POD",
+  "n_seeds": 2,
+  "n_finite": 2,
+  "n_blowup": 0,
+  "excluded_seeds": [],
+  "R_lin_field_late_mean": 0.3864101800982129,
+  "R_lin_field": {
+    "t0": 6.619925332835169e-09,
+    "t0.02": 0.2907169381167659,
+    "t0.10": 0.29300814198105496,
+    "t0.20": 0.29514683520453183,
+    "late": 0.3864101800982129
+  },
+  "t_half": null,
+  "t_half_raw": {
+    "0": null,
+    "1": null
+  },
+  "t_leak": 0.02,
+  "t_leak_raw": {
+    "0": 0.02,
+    "1": 0.02
+  },
+  "leak_S_late": 0.9999974168603619,
+  "leak_S_t0.20": 0.9985596142118777,
+  "a": 0.7071067811865475,
+  "b": 0.7071067811865475,
+  "norm_AB": 1.4142135623730951,
+  "R_lin_field_t0_analytic_check": 8.476205040007613e-19,
+  "per_seed": {
+    "0": {
+      "seed": 0,
+      "finite": true,
+      "blew": false,
+      "blow_t": {
+        "A": null,
+        "B": null,
+        "S": null
+      },
+      "wall_s": {
+        "A": 13.361964709009044,
+        "B": 13.55979749999824,
+        "S": 13.543319332995452
+      },
+      "R_lin_field_t0": 6.619925332835169e-09,
+      "R_lin_field_t002": 0.2907032239616102,
+      "R_lin_field_t01": 0.2930220516211139,
+      "R_lin_field_t02": 0.29513822666893,
+      "R_lin_field_late_mean": 0.38637194445107675,
+      "R_lin_Pi_t0": 7.125234585754469e-10,
+      "R_lin_Pi_late_mean": 0.6120097167496449,
+      "leak_S_t02": 0.9985407870813777,
+      "leak_S_late_mean": 0.999998182144994,
+      "t_half": null,
+      "t_leak": 0.02,
+      "pair_sep_available": true,
+      "pair_sep_times": [
+        0.0,
+        0.02,
+        0.04,
+        0.06,
+        0.08,
+        0.1,
+        0.12,
+        0.14,
+        0.16,
+        0.18,
+        0.2,
+        0.22,
+        0.26
+      ],
+      "pair_sep_values": [
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ],
+      "pair_sep_note": null,
+      "n_records": 401,
+      "csv": "/tmp/Q04_linearidade/out/raw/seed00_rlin.csv"
+    },
+    "1": {
+      "seed": 1,
+      "finite": true,
+      "blew": false,
+      "blow_t": {
+        "A": null,
+        "B": null,
+        "S": null
+      },
+      "wall_s": {
+        "A": 13.541897083996446,
+        "B": 13.581049500004156,
+        "S": 14.117901583987987
+      },
+      "R_lin_field_t0": 6.619925332835169e-09,
+      "R_lin_field_t002": 0.2907306522719217,
+      "R_lin_field_t01": 0.292994232340996,
+      "R_lin_field_t02": 0.29515544374013364,
+      "R_lin_field_late_mean": 0.386448415745349,
+      "R_lin_Pi_t0": 7.125234585754469e-10,
+      "R_lin_Pi_late_mean": 0.5373154116666148,
+      "leak_S_t02": 0.9985784413423776,
+      "leak_S_late_mean": 0.9999966515757298,
+      "t_half": null,
+      "t_leak": 0.02,
+      "pair_sep_available": true,
+      "pair_sep_times": [
+        0.0,
+        0.02,
+        0.04,
+        0.06,
+        0.08,
+        0.1,
+        0.12,
+        0.14,
+        0.16
+      ],
+      "pair_sep_values": [
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ],
+      "pair_sep_note": null,
+      "n_records": 401,
+      "csv": "/tmp/Q04_linearidade/out/raw/seed01_rlin.csv"
+    }
+  },
+  "backend": "mlx",
+  "precision": "complex64",
+  "device": "Device(gpu, 0)",
+  "protocol_sha256": "9b6b2f49352cf458d26c4bc22d36037c6057c52829139a784fa4098c489b51df",
+  "solver_sha256": "c5c271e08e003a3c8a59cc31bdc888d979678c1fad48941daee41db8292eb118",
+  "canonical_sha256": "e7c7d907c7109bbafc73229cb2e1943802feb47df035a7058e71ebec078d9a3e",
+  "q02_solver_sha256": "ef65da9774ff65ac9b781595944f59bc1892f04665370a2de190ad22f94ba365",
+  "q03_protocol_sha256": "f565abde737256058c8c7e7f5a3ce963b89039b0555da908a1563f3c867e8c16",
+  "q02_protocol_v2_sha256": "bb19a387d2c0b8239b1e360bc9e3b96d246c99d20875a52e5be41617ce75f63c",
+  "supported_for_qm": false,
+  "pilots_1_34_confirmatory": false,
+  "started_america_sao_paulo": "2026-08-21 14:21:11 BRT",
+  "finished_america_sao_paulo": "2026-08-21 14:22:41 BRT",
+  "wall_total_s": 89.8260110830015,
+  "workers": 1,
+  "windows": {
+    "early_context": "t=0.02,0.10,0.20",
+    "late": "t>=6.4"
+  },
+  "identical_noise": true,
+  "theta_core": {
+    "hbar": 1.0,
+    "m": 1.0,
+    "Lambda": -10.0,
+    "alpha": 0.15,
+    "sigma": 1.5,
+    "Gamma": 0.05,
+    "nu": [
+      10.0,
+      0.5,
+      0.05
+    ],
+    "lambda": [
+      3.0,
+      1.0,
+      0.3
+    ],
+    "fdt_couple": true,
+    "kT": 1.0,
+    "D": 3,
+    "bc": "periodic",
+    "step_mode": "strang"
+  }
+}

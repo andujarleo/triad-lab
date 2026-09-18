@@ -1,0 +1,49 @@
+{"tick": 0, "step_base": 0, "physical_time": 0.0, "wall_s": 0.0, "norm": 1.020000105500316, "interference": 0.0001538235830486809, "memory_energy": 0.0, "finite": 1, "backend_used": 0, "state_digest": "3507ff5e5701b737"}
+{"tick": 1, "step_base": 8, "physical_time": 0.008, "wall_s": 0.28048031399976026, "norm": 1.020772452085783, "interference": 0.007936344952282287, "memory_energy": 1.0046141534131117e-16, "finite": 1, "backend_used": 1, "state_digest": "2bc52c5ea92f4adc"}
+{"tick": 2, "step_base": 16, "physical_time": 0.016, "wall_s": 0.27180051899995306, "norm": 1.021550103603493, "interference": 0.027897897115980928, "memory_energy": 3.964549835834243e-16, "finite": 1, "backend_used": 1, "state_digest": "6d14845a40bb71ce"}
+{"tick": 4, "step_base": 32, "physical_time": 0.032, "wall_s": 0.2612904350003191, "norm": 1.0231754030651516, "interference": 0.06854938715835872, "memory_energy": 1.5437089925774273e-15, "finite": 1, "backend_used": 1, "state_digest": "e398578b6163da67"}
+{"tick": 8, "step_base": 64, "physical_time": 0.064, "wall_s": 0.252880426000047, "norm": 1.0263625154274993, "interference": 0.034918589248462736, "memory_energy": 5.855546265546776e-15, "finite": 1, "backend_used": 1, "state_digest": "ecba5f924df7e272"}
+{"tick": 16, "step_base": 128, "physical_time": 0.128, "wall_s": 0.493338107999989, "norm": 1.0325891493493418, "interference": 0.0011454642606193697, "memory_energy": 2.1116143450581754e-14, "finite": 1, "backend_used": 1, "state_digest": "a7b9d8dfaed72677"}
+{"tick": 32, "step_base": 256, "physical_time": 0.256, "wall_s": 0.2697401479999826, "norm": 1.0449050891605007, "interference": 0.0002903748173349429, "memory_energy": 6.93738723414936e-14, "finite": 1, "backend_used": 1, "state_digest": "dc4ebfa82e75bc72"}
+{"tick": 64, "step_base": 512, "physical_time": 0.512, "wall_s": 0.4654777890000332, "norm": 1.0702037840704823, "interference": 4.053451699956811e-05, "memory_energy": 1.9502946068259344e-13, "finite": 1, "backend_used": 1, "state_digest": "b380c98899f143eb"}
+{
+  "engine": "TriadLang C-native persistent modal P1\u00b7P2\u00b7P3",
+  "D": 3,
+  "active_modes": 1000000,
+  "runtime_reported_virtual_cells_formula": "N^3",
+  "virtual_cells": 1000000000000000000,
+  "field_volume_materialized": false,
+  "search_space_materialized": false,
+  "resident_state": {
+    "psi_re_f32": 1000000,
+    "psi_im_f32": 1000000,
+    "memory_f64": 3000000
+  },
+  "ticks": 64,
+  "steps_per_tick": 8,
+  "total_steps": 512,
+  "dt": 0.001,
+  "physical_time": 0.512,
+  "backend_requested": 1,
+  "seed": 7,
+  "Lambda": -0.5,
+  "alpha": 0.15,
+  "sigma": 1.5,
+  "Gamma": 0.05,
+  "kT": 1.0,
+  "coupling": 0.1,
+  "nu": [
+    2.0,
+    0.5,
+    0.1
+  ],
+  "lambda": [
+    0.05,
+    0.02,
+    0.01
+  ],
+  "observer_feedback": false,
+  "post_hoc_retuning": false,
+  "wall_s": 18.612518657001146,
+  "checkpoint_sha256": "83ca72453bd8afe284e18fc0bdffd4bc6674c425b11d5fe6c74e7b2a718550f5"
+}

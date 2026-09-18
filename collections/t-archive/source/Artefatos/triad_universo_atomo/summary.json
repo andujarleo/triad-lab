@@ -1,0 +1,249 @@
+{
+  "run": "triad_universo_atomo",
+  "run_id": "32",
+  "question": "I0 universo-\u00e1tomo \u2014 ninho 3 escalas / par +/\u2212 / pico finito (environment, n\u00e3o scan)",
+  "leitura": "anti-colapso / \u00edm\u00e3-repele (n\u00e3o MQ, n\u00e3o colapso-como-gravidade)",
+  "theta_core_unchanged": true,
+  "terms_isolated": false,
+  "kT_retuned": false,
+  "solver": "standalone 3D Strang spec \u00a73+\u00a75 (n\u00e3o triad-lang)",
+  "backend": "numpy",
+  "fp": "fp64",
+  "N": 64,
+  "L": 32.0,
+  "dx": 0.5,
+  "dt": 0.0025,
+  "T": 8.0,
+  "n_steps": 3200,
+  "n_records": 117,
+  "record_every": 40,
+  "record_every_early": 4,
+  "early_t": 0.4,
+  "seed": 0,
+  "hbar": 1.0,
+  "m": 1.0,
+  "Lambda": -10.0,
+  "alpha": 0.15,
+  "sigma": 1.5,
+  "Gamma": 0.05,
+  "nu": [
+    10.0,
+    0.5,
+    0.05
+  ],
+  "lam": [
+    3.0,
+    1.0,
+    0.3
+  ],
+  "fdt_couple": true,
+  "kT": 1.0,
+  "D": 3,
+  "bc": "periodic",
+  "step_mode": "strang",
+  "V_ext": 0.0,
+  "s_env": 8.0,
+  "s_in": 1.0,
+  "c_env": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "c_obs": [
+    -2.5,
+    0.0,
+    0.0
+  ],
+  "c_obd": [
+    2.5,
+    0.0,
+    0.0
+  ],
+  "sep_ic": 5.0,
+  "phases": [
+    0.0,
+    0.0,
+    3.141592653589793
+  ],
+  "phase_labels": [
+    "envelope +",
+    "observador +",
+    "observado \u2212"
+  ],
+  "normalize": "int |Psi|^2 dV = 1",
+  "y0": 0.0,
+  "f_FDT": 0.0125,
+  "f_FDT_formula": "2*Gamma*(dx**3)*kT/hbar",
+  "noise_amp": 0.015811388300841896,
+  "noise_amp_formula": "sqrt(f_FDT*dt/dx**3)=sqrt(2*Gamma*kT*dt/hbar)",
+  "memory_update": "euler",
+  "max_nu_dt": 0.025,
+  "iso_frac_in": 0.35,
+  "iso_frac_out": 0.08,
+  "re_iso_frac": 0.25,
+  "has_marching_cubes": false,
+  "wall_s": 116.62883681200037,
+  "started_america_sao_paulo": "2026-08-21 12:37:07 BRT",
+  "finished_america_sao_paulo": "2026-08-21 12:39:03 BRT",
+  "blew_up": false,
+  "blow_t": null,
+  "finite_final": true,
+  "peak_finite_all_t": true,
+  "peak_initial": 0.0013506621572893646,
+  "peak_final": 3.88890236087796,
+  "peak_max": 4.598659080777126,
+  "t_peak": 7.7,
+  "norm_initial": 1.0,
+  "norm_final": 18029.07919289585,
+  "PR_initial": 7436.783130487378,
+  "PR_final": 19568.776302422484,
+  "R_rms_initial": 9.574362479340088,
+  "R_rms_final": 15.960909245505144,
+  "r50_initial": 8.616843969807043,
+  "r50_final": 15.668439615992398,
+  "r90_initial": 13.82931668593933,
+  "r90_final": 20.862646045025066,
+  "pair_sep_initial": 5.0,
+  "pair_sep_final": NaN,
+  "pair_sep_last_two_inner": 5.0,
+  "dsep_while_two_inner": 0.0,
+  "v_sep_while_two_inner": NaN,
+  "n_inner_initial": 2,
+  "n_inner_final": 0,
+  "n_inner_t0.01": 0,
+  "n_inner_t0.02": 0,
+  "n_inner_t0.1": 0,
+  "n_det_rho_initial": 1,
+  "n_det_rho_t0.01": 0,
+  "n_det_rho_t0.02": 0,
+  "n_raw_rho_t0.02": 8636,
+  "n_raw_pos_t0.02": 9655,
+  "n_raw_neg_t0.02": 9398,
+  "two_inner_t0": true,
+  "two_inner_t0.01": false,
+  "two_inner_t0.02": false,
+  "two_inner_t0.1": false,
+  "two_inner_final": false,
+  "nest3_t0": true,
+  "nest3_t0.01": false,
+  "nest3_t0.02": false,
+  "nest3_final": false,
+  "t_last_two_inner": 0.0,
+  "t_two_lost": 0.01,
+  "t_last_nest3": 0.0,
+  "n_records_two_inner": 1,
+  "pair_repel_readable": false,
+  "nest3_readable": false,
+  "filled_early": true,
+  "bath_ate_pair_before_repel": true,
+  "re_plus_initial": 0.03675135585647643,
+  "re_minus_initial": -0.000897003234685319,
+  "re_max_initial": 0.03675135585647643,
+  "re_min_initial": -0.000897003234685319,
+  "Vmem_peak_max": 7.5366410148630525,
+  "t_Vmem_peak": 7.7,
+  "Vmem_peak_final": 6.593055431584062,
+  "k_star_final": 10.701049976290232,
+  "k_star_L_final": 342.4335992412874,
+  "peak_n_cells_half_final": 2830,
+  "peak_width_phys_final": 4.3873533492108905,
+  "verdict_pair_repel": "INCONCLUSIVE",
+  "verdict_finite_peak": "SUPPORTED",
+  "verdict_nest3": "INCONCLUSIVE",
+  "note_pair": "O par +/\u2212 interno n\u00e3o permaneceu n_inner=2 tempo bastante para ler repuls\u00e3o. Com este banho (kT=1) as sementes viram universo antes de um afastamento ser lido. kT n\u00e3o foi retocado.",
+  "note_peak": "peak \u03c1 permaneceu finito em todo o T (anti-colapso / singularidade n\u00e3o foi a infinito neste run).",
+  "note_nest": "O ninho 3 escalas (universo-\u00e1tomo + observador + observado) n\u00e3o durou tempo bastante. Com kT=1 as sementes internas dissolvem; o volume preenchido continua o universo. kT n\u00e3o foi retocado.",
+  "snap_t": {
+    "ic": 0.0,
+    "t001": 0.01,
+    "t002": 0.02,
+    "early": 0.1,
+    "mid": 4.0,
+    "late": 8.0
+  },
+  "out": "/Users/leo/Documents/Triad/T/Artefatos/triad_universo_atomo",
+  "norm_late_mean": 16770.969646418238,
+  "norm_late_std": 784.8260723903803,
+  "norm_late_n": 17,
+  "peak_late_mean": 3.939049954348916,
+  "peak_late_std": 0.274225550515689,
+  "peak_late_n": 17,
+  "PR_late_mean": 19189.117669226314,
+  "PR_late_std": 193.24609551592695,
+  "PR_late_n": 17,
+  "R_rms_late_mean": 15.985991949383132,
+  "R_rms_late_std": 0.019299992216967463,
+  "R_rms_late_n": 17,
+  "pair_sep_late_mean": NaN,
+  "pair_sep_late_std": NaN,
+  "pair_sep_late_n": 0,
+  "n_inner_late_mean": 0.0,
+  "n_inner_late_std": 0.0,
+  "n_inner_late_n": 17,
+  "iso_used": {
+    "ic": {
+      "method": {
+        "outer": "scatter",
+        "inner": "scatter"
+      },
+      "peak": 0.0013506621572893646,
+      "t": 0.0
+    },
+    "early": {
+      "method": {
+        "outer": "scatter",
+        "inner": "scatter"
+      },
+      "peak": 0.12441012614540582,
+      "t": 0.1
+    },
+    "mid": {
+      "method": {
+        "outer": "scatter",
+        "inner": "scatter"
+      },
+      "peak": 3.14723798267128,
+      "t": 4.0
+    },
+    "late": {
+      "method": {
+        "outer": "scatter",
+        "inner": "scatter"
+      },
+      "peak": 3.88890236087796,
+      "t": 8.0
+    },
+    "t002": {
+      "method": {
+        "outer": "scatter",
+        "inner": "scatter"
+      },
+      "peak": 0.02556468487403681,
+      "t": 0.02
+    },
+    "t001": {
+      "method": {
+        "outer": "scatter",
+        "inner": "scatter"
+      },
+      "peak": 0.013039329375106538,
+      "t": 0.01
+    },
+    "ic_re": {
+      "plus": "scatter",
+      "minus": "scatter",
+      "re_max": 0.03675135585647643,
+      "re_min": -0.000897003234685319,
+      "level_plus": 0.009187838964119108,
+      "level_minus": -0.00022425080867132974
+    },
+    "t002_re": {
+      "plus": "scatter",
+      "minus": "scatter",
+      "re_max": 0.14225966099329618,
+      "re_min": -0.15185392075122198,
+      "level_plus": 0.035564915248324044,
+      "level_minus": -0.037963480187805494
+    }
+  }
+}

@@ -1,0 +1,704 @@
+[
+  {
+    "archive": "T.zip",
+    "original_name": "T/",
+    "path": "T/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/",
+    "path": "T/Artefatos/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Conceitos/",
+    "path": "T/Conceitos/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/",
+    "path": "T/QM/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Simulac╠ºo╠âes/",
+    "path": "T/Simulações/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/",
+    "path": "T/pasta sem título/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Fontes/",
+    "path": "T/Fontes/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_phase_to_density_speed/",
+    "path": "T/Artefatos/triad_phase_to_density_speed/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_atoms_3d/",
+    "path": "T/Artefatos/triad_atoms_3d/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_bolso_37/",
+    "path": "T/Artefatos/triad_bolso_37/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_ninho_pm_long/",
+    "path": "T/Artefatos/triad_ninho_pm_long/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_3d_anticollapse_test/",
+    "path": "T/Artefatos/triad_3d_anticollapse_test/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_memory_bounce_bigbang/",
+    "path": "T/Artefatos/triad_memory_bounce_bigbang/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_atoms_gaussians/",
+    "path": "T/Artefatos/triad_atoms_gaussians/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_bigbang_3d_box/",
+    "path": "T/Artefatos/triad_bigbang_3d_box/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_dois_atomos/",
+    "path": "T/Artefatos/triad_dois_atomos/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_R5_reference_N48_full/",
+    "path": "T/Artefatos/triad_R5_reference_N48_full/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_mapa_39/",
+    "path": "T/Artefatos/triad_mapa_39/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_limit_test_fast/",
+    "path": "T/Artefatos/triad_limit_test_fast/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_3d_longrun_compact/",
+    "path": "T/Artefatos/triad_3d_longrun_compact/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_bravais_network_map/",
+    "path": "T/Artefatos/triad_bravais_network_map/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_R5_A2/",
+    "path": "T/Artefatos/triad_R5_A2/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_phase_to_density_speed_refined/",
+    "path": "T/Artefatos/triad_phase_to_density_speed_refined/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_visual_atlas/",
+    "path": "T/Artefatos/triad_visual_atlas/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_singularidade_35/",
+    "path": "T/Artefatos/triad_singularidade_35/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_ninho_pm/",
+    "path": "T/Artefatos/triad_ninho_pm/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_bravais_network_map_v2/",
+    "path": "T/Artefatos/triad_bravais_network_map_v2/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/conceitual/",
+    "path": "T/Artefatos/conceitual/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_nested/",
+    "path": "T/Artefatos/triad_nested/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_R5_reference_N40/",
+    "path": "T/Artefatos/triad_R5_reference_N40/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_atoms_individual_fields/",
+    "path": "T/Artefatos/triad_atoms_individual_fields/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_3d_longrun_fast/",
+    "path": "T/Artefatos/triad_3d_longrun_fast/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_nls_fdt_v2/",
+    "path": "T/Artefatos/triad_nls_fdt_v2/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_field_consciousness_test/",
+    "path": "T/Artefatos/triad_field_consciousness_test/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_bravais_map/",
+    "path": "T/Artefatos/triad_bravais_map/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_chaos_eq/",
+    "path": "T/Artefatos/triad_chaos_eq/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_nls_fdt/",
+    "path": "T/Artefatos/triad_nls_fdt/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_sim/",
+    "path": "T/Artefatos/triad_sim/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_universo_atomo/",
+    "path": "T/Artefatos/triad_universo_atomo/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_dois_bolsos_38/",
+    "path": "T/Artefatos/triad_dois_bolsos_38/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/",
+    "path": "T/Artefatos/triad_reexecucao_36/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_observer_observed_consciousness/",
+    "path": "T/Artefatos/triad_observer_observed_consciousness/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_bigbang_solver_run/",
+    "path": "T/Artefatos/triad_bigbang_solver_run/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q01b_dt_N/",
+    "path": "T/QM/Q01b_dt_N/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q00/",
+    "path": "T/QM/Q00/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q02_ensemble/",
+    "path": "T/QM/Q02_ensemble/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q04_linearidade/",
+    "path": "T/QM/Q04_linearidade/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q03_subespacos/",
+    "path": "T/QM/Q03_subespacos/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q01_convergencia/",
+    "path": "T/QM/Q01_convergencia/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/lab/",
+    "path": "T/pasta sem título/lab/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/triad_r5_passive64_resultados/",
+    "path": "T/pasta sem título/triad_r5_passive64_resultados/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/bravais_outputs_3d/",
+    "path": "T/pasta sem título/bravais_outputs_3d/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/X/",
+    "path": "T/pasta sem título/X/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/triad_soul_hypothesis/",
+    "path": "T/pasta sem título/triad_soul_hypothesis/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/_check/",
+    "path": "T/pasta sem título/_check/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/triad_universe_v0/",
+    "path": "T/pasta sem título/triad_universe_v0/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/bravais_outputs/",
+    "path": "T/pasta sem título/bravais_outputs/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Fontes/__pycache__/",
+    "path": "T/Fontes/__pycache__/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/QM1D/",
+    "path": "T/Artefatos/triad_reexecucao_36/QM1D/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/sidebands/",
+    "path": "T/Artefatos/triad_reexecucao_36/sidebands/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/A3/",
+    "path": "T/Artefatos/triad_reexecucao_36/A3/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/hotbath/",
+    "path": "T/Artefatos/triad_reexecucao_36/hotbath/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/A3_N160/",
+    "path": "T/Artefatos/triad_reexecucao_36/A3_N160/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/tunnel_hist/",
+    "path": "T/Artefatos/triad_reexecucao_36/tunnel_hist/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/kstar/",
+    "path": "T/Artefatos/triad_reexecucao_36/kstar/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/CHSH/",
+    "path": "T/Artefatos/triad_reexecucao_36/CHSH/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/A3_N128/",
+    "path": "T/Artefatos/triad_reexecucao_36/A3_N128/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/bravais/",
+    "path": "T/Artefatos/triad_reexecucao_36/bravais/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/predictions/",
+    "path": "T/Artefatos/triad_reexecucao_36/predictions/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q01b_dt_N/code/",
+    "path": "T/QM/Q01b_dt_N/code/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q01b_dt_N/figures/",
+    "path": "T/QM/Q01b_dt_N/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q01b_dt_N/raw/",
+    "path": "T/QM/Q01b_dt_N/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q02_ensemble/code/",
+    "path": "T/QM/Q02_ensemble/code/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q02_ensemble/figures/",
+    "path": "T/QM/Q02_ensemble/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q02_ensemble/raw/",
+    "path": "T/QM/Q02_ensemble/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q04_linearidade/code/",
+    "path": "T/QM/Q04_linearidade/code/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q04_linearidade/figures/",
+    "path": "T/QM/Q04_linearidade/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q04_linearidade/raw/",
+    "path": "T/QM/Q04_linearidade/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q03_subespacos/code/",
+    "path": "T/QM/Q03_subespacos/code/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q03_subespacos/figures/",
+    "path": "T/QM/Q03_subespacos/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q03_subespacos/raw/",
+    "path": "T/QM/Q03_subespacos/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q01_convergencia/code/",
+    "path": "T/QM/Q01_convergencia/code/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q01_convergencia/figures/",
+    "path": "T/QM/Q01_convergencia/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/QM/Q01_convergencia/raw/",
+    "path": "T/QM/Q01_convergencia/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/lab/_check/",
+    "path": "T/pasta sem título/lab/_check/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/triad_r5_passive64_resultados/triad_r5_passive64/",
+    "path": "T/pasta sem título/triad_r5_passive64_resultados/triad_r5_passive64/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/bravais_outputs_3d/bravais_outputs_3d/",
+    "path": "T/pasta sem título/bravais_outputs_3d/bravais_outputs_3d/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip!/T/pasta sem título/bravais_outputs_3d/X.zip",
+    "original_name": "X/",
+    "path": "X/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip!/T/pasta sem título/bravais_outputs_3d/X.zip",
+    "original_name": "X/bravais_outputs_3d/",
+    "path": "X/bravais_outputs_3d/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip!/T/pasta sem título/bravais_outputs_3d/X.zip",
+    "original_name": "X/bravais_outputs/",
+    "path": "X/bravais_outputs/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip!/T/pasta sem título/X/bravais_outputs_3d.zip",
+    "original_name": "bravais_outputs_3d/",
+    "path": "bravais_outputs_3d/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/X/bravais_outputs_3d/",
+    "path": "T/pasta sem título/X/bravais_outputs_3d/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/triad_universe_v0/__pycache__/",
+    "path": "T/pasta sem título/triad_universe_v0/__pycache__/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/triad_universe_v0/outputs/",
+    "path": "T/pasta sem título/triad_universe_v0/outputs/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/QM1D/figures/",
+    "path": "T/Artefatos/triad_reexecucao_36/QM1D/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/QM1D/raw/",
+    "path": "T/Artefatos/triad_reexecucao_36/QM1D/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/sidebands/figures/",
+    "path": "T/Artefatos/triad_reexecucao_36/sidebands/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/sidebands/raw/",
+    "path": "T/Artefatos/triad_reexecucao_36/sidebands/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/A3/figures/",
+    "path": "T/Artefatos/triad_reexecucao_36/A3/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/A3/raw/",
+    "path": "T/Artefatos/triad_reexecucao_36/A3/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/hotbath/figures/",
+    "path": "T/Artefatos/triad_reexecucao_36/hotbath/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/hotbath/raw/",
+    "path": "T/Artefatos/triad_reexecucao_36/hotbath/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/A3_N160/figures/",
+    "path": "T/Artefatos/triad_reexecucao_36/A3_N160/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/A3_N160/raw/",
+    "path": "T/Artefatos/triad_reexecucao_36/A3_N160/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/tunnel_hist/figures/",
+    "path": "T/Artefatos/triad_reexecucao_36/tunnel_hist/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/tunnel_hist/raw/",
+    "path": "T/Artefatos/triad_reexecucao_36/tunnel_hist/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/kstar/figures/",
+    "path": "T/Artefatos/triad_reexecucao_36/kstar/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/kstar/raw/",
+    "path": "T/Artefatos/triad_reexecucao_36/kstar/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/CHSH/figures/",
+    "path": "T/Artefatos/triad_reexecucao_36/CHSH/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/CHSH/raw/",
+    "path": "T/Artefatos/triad_reexecucao_36/CHSH/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/A3_N128/figures/",
+    "path": "T/Artefatos/triad_reexecucao_36/A3_N128/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/A3_N128/raw/",
+    "path": "T/Artefatos/triad_reexecucao_36/A3_N128/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/bravais/figures/",
+    "path": "T/Artefatos/triad_reexecucao_36/bravais/figures/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/Artefatos/triad_reexecucao_36/bravais/raw/",
+    "path": "T/Artefatos/triad_reexecucao_36/bravais/raw/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/triad_r5_passive64_resultados/triad_r5_passive64/sensitivity/",
+    "path": "T/pasta sem título/triad_r5_passive64_resultados/triad_r5_passive64/sensitivity/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/triad_r5_passive64_resultados/triad_r5_passive64/twin_batch/",
+    "path": "T/pasta sem título/triad_r5_passive64_resultados/triad_r5_passive64/twin_batch/",
+    "kind": "content-directory"
+  },
+  {
+    "archive": "T.zip",
+    "original_name": "T/pasta sem ti╠ütulo/triad_r5_passive64_resultados/triad_r5_passive64/twin_sensitivity/",
+    "path": "T/pasta sem título/triad_r5_passive64_resultados/triad_r5_passive64/twin_sensitivity/",
+    "kind": "content-directory"
+  }
+]

@@ -1,0 +1,2 @@
+snapshot_time,nodes,edges,candidate_spacing_a0,median_bond_length,mean_degree,max_degree,threshold_quantile,peak_prune_min_dist_cells,k_neighbors,radius_gate
+4.4,39,25,4.93153120237518,5.184592558726288,1.2820512820512822,6,0.988,2.0,6,7.6438733636815295

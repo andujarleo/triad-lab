@@ -1,0 +1,62 @@
+{
+  "label": "re-execution of dossier TRIAD \u2014 Dossi\u00ea unificado (2026-08-21) Part I \u00a72.4 A.3 real at N=128",
+  "not": "a change of Leonardo's full-triad operational reading",
+  "peak_ini": 1.4366969770013327,
+  "peak_ini_analytic": 1.4366969770013325,
+  "norm_ini": 0.9999999999999998,
+  "PR_ini": 1.9687012432153013,
+  "R_rms_ini": 0.6123724356957948,
+  "mem": {
+    "peak_end": 0.0023594591354995946,
+    "peak_max": 62.48042536203411,
+    "t_peak_max": 0.41000000000000003,
+    "PR_end": 2444.317743174161,
+    "norm_end": 1.0000000000011924,
+    "t_collapse": 0.1275,
+    "n_samples_above_8x": 89,
+    "t_last_above_8x": 0.635,
+    "dt_above_8x": 0.5075000000000001,
+    "wall_s": 952.685357608998,
+    "Lambda": -10.0,
+    "lam": [
+      3.0,
+      1.0
+    ]
+  },
+  "no_mem": {
+    "peak_end": 65.25968024419336,
+    "peak_max": 84.57483375811472,
+    "t_peak_max": 0.6325000000000001,
+    "PR_end": 0.061550055002127214,
+    "norm_end": 1.000000000001121,
+    "t_collapse": 0.115,
+    "n_samples_above_8x": 2326,
+    "t_last_above_8x": 6.0,
+    "dt_above_8x": 5.885,
+    "wall_s": 957.7015390619999,
+    "Lambda": -10.0,
+    "lam": [
+      0.0,
+      0.0
+    ]
+  },
+  "wall_seconds": 1910.7438296170003,
+  "numpy_version": "2.2.4",
+  "stepper_sha256": "7bbc95b990ffa85175826aaa4f054db0a5e233471b63cdb91251308dc9156713",
+  "runner_sha256": "e1d5fca10a36b9b593e8c84385d36077358fe59117872175f72eb683d29af4fb",
+  "figures_written": true,
+  "N": 128,
+  "L": 20.0,
+  "dx": 0.15625,
+  "dt": 0.0025,
+  "T": 6.0,
+  "n_steps": 2400,
+  "collapse_threshold": 11.493575816010662,
+  "predictions_file": "/workspace/dossie_reexec/predictions_A3_N128.md",
+  "skipped": [
+    "Lambda_ef"
+  ],
+  "figures": [
+    "/workspace/dossie_reexec/A3_N128/figures/peak_vs_t.png"
+  ]
+}

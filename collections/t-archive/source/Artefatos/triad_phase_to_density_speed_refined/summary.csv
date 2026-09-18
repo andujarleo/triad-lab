@@ -1,0 +1,2 @@
+grid,L,dt,relax_T,probe_T,kick_epsilon,kick_width,background_kstarL,density_RMS_radius_speed,phase_RMS_radius_speed,density_arrival_speed,phase_arrival_speed,density_lowk_spectral_slope,phase_lowk_spectral_slope
+36^3,32.0,0.0025,12.0,5.0,0.15,1.25,9.42477796076938,1.4821204971229085,1.893954741499246,7.301416735005514,7.557409400789379,0.8214168694853928,0.23552304410161595

@@ -1,0 +1,60 @@
+{
+  "seed": 0,
+  "finite": true,
+  "blew": false,
+  "blow_t": {
+    "A": null,
+    "B": null,
+    "S": null
+  },
+  "wall_s": {
+    "A": 13.361964709009044,
+    "B": 13.55979749999824,
+    "S": 13.543319332995452
+  },
+  "R_lin_field_t0": 6.619925332835169e-09,
+  "R_lin_field_t002": 0.2907032239616102,
+  "R_lin_field_t01": 0.2930220516211139,
+  "R_lin_field_t02": 0.29513822666893,
+  "R_lin_field_late_mean": 0.38637194445107675,
+  "R_lin_Pi_t0": 7.125234585754469e-10,
+  "R_lin_Pi_late_mean": 0.6120097167496449,
+  "leak_S_t02": 0.9985407870813777,
+  "leak_S_late_mean": 0.999998182144994,
+  "t_half": null,
+  "t_leak": 0.02,
+  "pair_sep_available": true,
+  "pair_sep_times": [
+    0.0,
+    0.02,
+    0.04,
+    0.06,
+    0.08,
+    0.1,
+    0.12,
+    0.14,
+    0.16,
+    0.18,
+    0.2,
+    0.22,
+    0.26
+  ],
+  "pair_sep_values": [
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0,
+    6.0
+  ],
+  "pair_sep_note": null,
+  "n_records": 401,
+  "csv": "/tmp/Q04_linearidade/out/raw/seed00_rlin.csv"
+}
