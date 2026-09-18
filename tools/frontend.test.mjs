@@ -1,9 +1,15 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { filterStudies } from "../web/atlas.js";
+import {
+  filterStudies,
+  readAtlasState,
+  themeSelectionState,
+  atlasURL,
+} from "../web/atlas.js";
 import { planeAt, colorFraction } from "../web/field.js";
 const studies = [
   {
+    id: "record-memory",
     series: "memory",
     title: { en: "Memory", "pt-BR": "Memória" },
     question: { en: "Can history persist?" },
@@ -11,6 +17,7 @@ const studies = [
     availability: { code: true, data: true, figures: false },
   },
   {
+    id: "record-signal",
     series: "signals",
     title: { en: "Signal" },
     question: {},
@@ -80,4 +87,52 @@ test("display scaling keeps endpoints and handles a constant field", () => {
 });
 test("logarithmic scale allocates equal distances to equal density ratios", () => {
   assert.ok(Math.abs(colorFraction(1, 0.01, 100, "log") - 0.5) < 1e-12);
+});
+
+const topics = [
+  { id: "memory-thread", study_ids: ["record-signal"] },
+  { id: "context", study_ids: [] },
+];
+test("topic membership is explicit and combines with existing filters", () => {
+  assert.deepEqual(
+    filterStudies(studies, { theme: "memory-thread", topics }).map((s) => s.id),
+    ["record-signal"],
+  );
+  assert.equal(
+    filterStudies(studies, { theme: "memory-thread", topics, material: "code" })
+      .length,
+    0,
+  );
+  assert.equal(filterStudies(studies, { theme: "context", topics }).length, 0);
+  assert.equal(filterStudies(studies, {}).length, 2);
+});
+test("existing URLs retain filters and new topic choices clear conflicting state", () => {
+  const url = new URL(
+    "https://example.test/?lang=pt-BR&q=memoria&area=memory&material=code#atlas",
+  );
+  const data = { areas: [{ id: "memory" }], research: { topics } };
+  assert.deepEqual(readAtlasState(url, data), {
+    query: "memoria",
+    area: "memory",
+    material: "code",
+    theme: "all",
+  });
+  const chosen = themeSelectionState("memory-thread", topics);
+  assert.deepEqual(chosen, {
+    query: "",
+    area: "all",
+    material: "all",
+    theme: "memory-thread",
+  });
+  const next = atlasURL(url, chosen, "pt-BR");
+  assert.equal(next.search, "?lang=pt-BR&theme=memory-thread");
+  assert.equal(next.hash, "#atlas");
+  assert.equal(atlasURL(next, chosen, "en").search, "?theme=memory-thread");
+  assert.equal(
+    readAtlasState(
+      new URL("https://example.test/?theme=unknown&area=bad"),
+      data,
+    ).theme,
+    "all",
+  );
 });

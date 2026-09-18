@@ -1,11 +1,13 @@
 import { copy, concepts } from "./content.js";
 import { createAtlas } from "./atlas.js";
+import { createResearch } from "./research.js";
 import { createFieldViewer } from "./field.js";
 const repo = "https://github.com/andujarleo/triad-lab";
 const initialURL = new URL(location.href);
 let lang = initialURL.searchParams.get("lang") === "pt-BR" ? "pt-BR" : "en";
 let conceptIndex = 0,
   atlas,
+  research,
   viewer;
 const language = () => lang,
   translate = () => copy[lang];
@@ -117,6 +119,7 @@ function renderLanguage() {
     );
   renderConcepts();
   atlas?.refresh();
+  research?.refresh();
   viewer?.refresh();
   if (!document.querySelector("#catalog-error").hidden) {
     document.querySelector("#results-count").textContent = "";
@@ -137,7 +140,9 @@ try {
     data.format !== 1 ||
     !Array.isArray(data.studies) ||
     !Array.isArray(data.areas) ||
-    !Array.isArray(data.fields)
+    !Array.isArray(data.fields) ||
+    !Array.isArray(data.research?.topics) ||
+    !Array.isArray(data.research?.sources)
   )
     throw new Error("Invalid archive");
   document.querySelector("#hero-image").src = data.hero;
@@ -145,7 +150,15 @@ try {
   document.querySelector("#area-total").textContent = String(
     data.areas.length,
   ).padStart(2, "0");
+  document.querySelector("#theme-total").textContent = String(
+    data.research.topics.length,
+  ).padStart(2, "0");
   atlas = createAtlas(data, { language, translate, onState: writeURL });
+  research = createResearch(data, {
+    language,
+    translate,
+    onTheme: (id) => atlas.selectTheme(id),
+  });
   viewer = createFieldViewer(data.fields, {
     language,
     translate,
@@ -155,6 +168,11 @@ try {
   const message = document.querySelector("#catalog-error");
   message.hidden = false;
   message.textContent = translate().loadError;
+  const researchStatus = document.querySelector("#research-status");
+  researchStatus.dataset.i18n = "researchError";
+  researchStatus.textContent = translate().researchError;
+  researchStatus.hidden = false;
+  document.querySelector("#research-grid").setAttribute("aria-busy", "false");
   document.querySelector("#results-count").textContent = "";
   document.querySelector("#study-grid").setAttribute("aria-busy", "false");
 }

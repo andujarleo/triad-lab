@@ -79,6 +79,82 @@ def local_links(text):
             yield target
 
 
+def nonempty_text(value):
+    return isinstance(value, str) and bool(value.strip())
+
+
+def verify_research(root, study_ids):
+    """Check the two-way research graph and byte-preserved supplied sources."""
+    errors = []
+    catalog = json.loads((root / 'research/catalog.json').read_text())
+    sources = json.loads((root / 'research/sources/catalog.json').read_text())['sources']
+    topics = catalog['topics']
+    topic_ids = {item['id'] for item in topics}
+    source_ids = {item['id'] for item in sources}
+    if len(topic_ids) != len(topics) or len(source_ids) != len(sources):
+        errors.append('duplicate research topic or source ID')
+    languages = catalog['languages']
+    if 'en' not in languages or 'pt-BR' not in languages:
+        errors.append('research must maintain English and Portuguese')
+    source_by_id = {item['id']: item for item in sources}
+    topic_by_id = {item['id']: item for item in topics}
+    for topic in topics:
+        for field in ['title', 'summary', 'docs']:
+            if any(not nonempty_text(topic.get(field, {}).get(lang)) for lang in languages):
+                errors.append(f"missing research translation: {topic['id']}/{field}")
+        for field in ['source_ids', 'study_ids']:
+            if len(topic[field]) != len(set(topic[field])):
+                errors.append(f"duplicate research relation: {topic['id']}/{field}")
+        for path in topic['docs'].values():
+            if not nonempty_text(path):
+                continue  # Reported above as an invalid translation.
+            file = (root / path).resolve()
+            if not file.is_relative_to(root.resolve()) or not file.is_file():
+                errors.append(f'missing or unsafe research document: {path}')
+        if not set(topic['study_ids']) <= study_ids:
+            errors.append(f"unknown linked study: {topic['id']}")
+        for source_id in topic['source_ids']:
+            if source_id not in source_by_id or topic['id'] not in source_by_id[source_id]['topics']:
+                errors.append(f"inconsistent topic/source link: {topic['id']} -> {source_id}")
+    for source in sources:
+        if len(source['topics']) != len(set(source['topics'])):
+            errors.append(f"duplicate research relation: {source['id']}/topics")
+        file = (root / source['path']).resolve()
+        if not file.is_relative_to(root.resolve()) or not file.is_file():
+            errors.append(f"missing or unsafe research source: {source['path']}")
+            continue
+        payload = file.read_bytes()
+        if digest(payload) != source['sha256'] or len(payload) != source['bytes']:
+            errors.append(f"changed research source: {source['path']}")
+        if not source['topics']:
+            errors.append(f"unclassified research source: {source['id']}")
+        for topic_id in source['topics']:
+            if topic_id not in topic_by_id or source['id'] not in topic_by_id[topic_id]['source_ids']:
+                errors.append(f"inconsistent source/topic link: {source['id']} -> {topic_id}")
+    return errors, {'research_topics': len(topics), 'research_sources': len(sources)}
+
+
+def verify_rule_audits(root, studies):
+    """Require the interpretation visible in the site to be traceable for every study."""
+    errors = []
+    statuses = {'documented-deviation', 'not-established', 'context-only', 'complete-record'}
+    for study in studies:
+        review = study.get('rule_audit', {})
+        if review.get('status') not in statuses:
+            errors.append(f"missing or unknown rule audit: {study['id']}")
+        for lang in ['en', 'pt-BR']:
+            if not nonempty_text(review.get('summary', {}).get(lang)):
+                errors.append(f"missing audit translation: {study['id']}/{lang}")
+            path = review.get('report', {}).get(lang, '')
+            if not nonempty_text(path):
+                errors.append(f"missing audit report: {study['id']}/{lang}")
+                continue
+            file = (root / path).resolve()
+            if not file.is_relative_to(root.resolve()) or not file.is_file():
+                errors.append(f"missing audit report: {study['id']}/{lang}")
+    return errors
+
+
 def audit(root):
     ledger = json.loads((root / 'provenance/layout-migration.json').read_text())
     changes = json.loads((root / 'provenance/document-link-changes.json').read_text())
@@ -117,7 +193,7 @@ def audit(root):
     links = 0
     # Audit only maintained repository trees, excluding generated runs and virtualenvs.
     docs = list(root.glob('*.md'))
-    for directory in ['docs', 'simulations', 'provenance', 'templates', 'web']:
+    for directory in ['docs', 'research', 'simulations', 'provenance', 'templates', 'web']:
         docs.extend((root / directory).rglob('*.md'))
     for file in docs:
         for target in local_links(file.read_text()):
@@ -129,7 +205,10 @@ def audit(root):
     for directory in folders:
         if any(part in {'pasta sem título', 'expanded'} for part in Path(directory).parts):
             errors.append(f'unclassified directory: {directory}')
-    return errors, {'studies': len(ids), 'original_paths': len(ledger['content']), 'unique_payloads': len({x['path'] for x in ledger['content']}), 'local_links': links}
+    research_errors, research_counts = verify_research(root, ids)
+    errors.extend(research_errors)
+    errors.extend(verify_rule_audits(root, catalog['experiments']))
+    return errors, {**research_counts, 'studies': len(ids), 'original_paths': len(ledger['content']), 'unique_payloads': len({x['path'] for x in ledger['content']}), 'local_links': links}
 
 
 def main():

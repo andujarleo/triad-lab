@@ -134,6 +134,85 @@ def study_image(root: Path, document_path: str, document: str, files: dict[str, 
     return None
 
 
+AUDIT_STATUSES = {'documented-deviation', 'not-established', 'context-only', 'complete-record'}
+
+
+def localized(value: object, label: str) -> dict:
+    if not isinstance(value, dict) or any(not isinstance(value.get(lang), str) or not value[lang].strip() for lang in LANGUAGES):
+        raise BuildError(f'{label} requires nonempty English and Portuguese text')
+    return value
+
+
+def indexed(records: object, label: str) -> dict:
+    if not isinstance(records, list):
+        raise BuildError(f'{label} must be a list')
+    result = {}
+    for record in records:
+        identifier = record.get('id') if isinstance(record, dict) else None
+        if not isinstance(identifier, str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', identifier) or identifier in result:
+            raise BuildError(f'Invalid or duplicate {label} ID: {identifier}')
+        result[identifier] = record
+    return result
+
+
+def reference_ids(value: object, known: dict | set, label: str) -> list:
+    if not isinstance(value, list) or any(not isinstance(item, str) for item in value):
+        raise BuildError(f'{label} must be a list of IDs')
+    if len(set(value)) != len(value) or any(item not in known for item in value):
+        raise BuildError(f'{label} contains duplicate or unknown IDs')
+    return value
+
+
+def document_paths(root: Path, value: object, label: str) -> dict:
+    paths = localized(value, label)
+    for lang in LANGUAGES:
+        source_file(root, paths[lang])
+    return paths
+
+
+def validate_folder(root: Path, folder: object, prefix: str, label: str) -> Path:
+    if not isinstance(folder, str) or not folder.startswith(prefix + '/'):
+        raise BuildError(f'{label} must be inside {prefix}/')
+    path = (root / folder).resolve()
+    if not path.is_relative_to((root / prefix).resolve()) or not path.is_dir():
+        raise BuildError(f'Missing or unsafe {label}: {folder}')
+    return path
+
+
+def collect_research(root: Path, study_ids: set) -> dict:
+    catalog = json.loads(source_file(root, 'research/catalog.json').read_text(encoding='utf-8'))
+    source_catalog = json.loads(source_file(root, 'research/sources/catalog.json').read_text(encoding='utf-8'))
+    if catalog.get('schema_version') != 1 or source_catalog.get('schema_version') != 1 or catalog.get('languages') != list(LANGUAGES):
+        raise BuildError('Unsupported research catalogue schema or languages')
+    topics = indexed(catalog.get('topics'), 'research topic')
+    sources = indexed(source_catalog.get('sources'), 'research source')
+    slugs = set()
+    for topic in topics.values():
+        slug = topic.get('slug')
+        if not isinstance(slug, str) or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', slug) or slug in slugs:
+            raise BuildError(f'Invalid or duplicate research slug: {slug}')
+        slugs.add(slug)
+        folder = validate_folder(root, topic.get('folder'), 'research', 'topic folder')
+        localized(topic.get('title'), f'{topic["id"]} title')
+        localized(topic.get('summary'), f'{topic["id"]} summary')
+        docs = document_paths(root, topic.get('docs'), f'{topic["id"]} docs')
+        if any(not source_file(root, docs[lang]).is_relative_to(folder) for lang in LANGUAGES):
+            raise BuildError(f'Topic docs must stay inside their folder: {topic["id"]}')
+        reference_ids(topic.get('source_ids'), sources, f'{topic["id"]} source_ids')
+        reference_ids(topic.get('study_ids'), study_ids, f'{topic["id"]} study_ids')
+    for source in sources.values():
+        if not isinstance(source.get('path'), str):
+            raise BuildError(f'Missing source path: {source["id"]}')
+        payload = source_file(root, source['path']).read_bytes()
+        if digest(payload) != source.get('sha256') or len(payload) != source.get('bytes'):
+            raise BuildError(f'Research source integrity mismatch: {source["path"]}')
+        assigned = reference_ids(source.get('topics'), topics, f'{source["id"]} topics')
+        expected = {topic['id'] for topic in topics.values() if source['id'] in topic['source_ids']}
+        if set(assigned) != expected:
+            raise BuildError(f'Research source/topic links disagree: {source["id"]}')
+    return {'topics': list(topics.values()), 'sources': list(sources.values())}
+
+
 def collect_site(root: Path, field_specs: tuple | list | None = None) -> tuple[dict, dict[str, bytes]]:
     """Collect data and original media in memory before touching an output folder."""
     root = root.resolve()
@@ -141,19 +220,29 @@ def collect_site(root: Path, field_specs: tuple | list | None = None) -> tuple[d
     files: dict[str, bytes] = {}
     studies = []
     ids = set()
-    area_ids = {area['id'] for area in catalog['series']}
-    for record in catalog['experiments']:
+    area_ids = set(indexed(catalog['series'], 'simulation area'))
+    for record in indexed(catalog['experiments'], 'simulation study').values():
         if record['id'] in ids or record['series'] not in area_ids:
             raise BuildError(f'Duplicate study ID or unknown area: {record["id"]}')
         ids.add(record['id'])
+        validate_folder(root, record.get('folder'), 'simulations', 'study folder')
+        audit = record.get('rule_audit')
+        if not isinstance(audit, dict) or audit.get('status') not in AUDIT_STATUSES:
+            raise BuildError(f'Missing or invalid rule audit: {record["id"]}')
+        localized(audit.get('summary'), f'{record["id"]} audit summary')
+        document_paths(root, audit.get('report'), f'{record["id"]} audit report')
         study = {key: record[key] for key in ('id', 'folder', 'series', 'title', 'status', 'availability', 'docs')}
-        study.update(question={}, summary={}, image=None)
+        study.update(question={}, summary={}, image=None, rule_audit=audit)
         for language in LANGUAGES:
             document_path = record['docs'][language]
             document = source_file(root, document_path).read_text(encoding='utf-8')
             question, summary = extract_intro(document)
             if not summary:
                 raise BuildError(f'No opening summary found in {document_path}')
+            if 'summary' in record:
+                catalog_summary = localized(record['summary'], f'{record["id"]} catalog summary')[language]
+                if plain_text(catalog_summary) != summary:
+                    raise BuildError(f'Catalog summary differs from maintained introduction: {record["id"]}/{language}')
             study['question'][language] = question
             study['summary'][language] = summary
             if study['image'] is None:
@@ -170,7 +259,7 @@ def collect_site(root: Path, field_specs: tuple | list | None = None) -> tuple[d
         files[url] = json_bytes(field)
         fields.append({key: field[key] for key in ('id', 'title', 'sourcePath', 'sha256')} | {'url': url, 'size': len(files[url])})
     site = {'format': 1, 'repository': REPOSITORY, 'areas': catalog['series'], 'studies': studies,
-            'hero': add_image(root, HERO, files), 'fields': fields}
+            'hero': add_image(root, HERO, files), 'fields': fields, 'research': collect_research(root, ids)}
     files['data/site.json'] = json_bytes(site)
     return site, files
 
@@ -238,7 +327,7 @@ def build(root: Path, output: Path, field_specs: tuple | list | None = None) -> 
         if not any(directory.iterdir()):
             directory.rmdir()
     (output / MARKER).write_bytes(json_bytes({'generator': 'triad-lab-site-v1', 'files': {name: digest(payload) for name, payload in sorted(files.items())}}))
-    return {'studies': len(site['studies']), 'images': len([name for name in files if name.startswith('media/')]),
+    return {'studies': len(site['studies']), 'topics': len(site['research']['topics']), 'sources': len(site['research']['sources']), 'images': len([name for name in files if name.startswith('media/')]),
             'fields': len(site['fields']), 'bytes': sum(map(len, files.values())), 'output': str(output)}
 
 

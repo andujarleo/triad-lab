@@ -1,3 +1,42 @@
+const validMaterials = ["all", "code", "figures", "data", "notes-only"];
+export function readAtlasState(url, data) {
+  const params = url.searchParams;
+  return {
+    query: params.get("q") ?? "",
+    area: data.areas.some((a) => a.id === params.get("area"))
+      ? params.get("area")
+      : "all",
+    material: validMaterials.includes(params.get("material"))
+      ? params.get("material")
+      : "all",
+    theme: data.research.topics.some((t) => t.id === params.get("theme"))
+      ? params.get("theme")
+      : "all",
+  };
+}
+export function themeSelectionState(id, topics) {
+  return {
+    query: "",
+    area: "all",
+    material: "all",
+    theme: topics.some((t) => t.id === id) ? id : "all",
+  };
+}
+export function atlasURL(current, state, language) {
+  const url = new URL(current);
+  const values = {
+    q: state.query,
+    area: state.area,
+    material: state.material,
+    theme: state.theme,
+    lang: language === "en" ? "" : language,
+  };
+  for (const [key, value] of Object.entries(values)) {
+    if (!value || value === "all") url.searchParams.delete(key);
+    else url.searchParams.set(key, value);
+  }
+  return url;
+}
 const normalize = (value) =>
   String(value ?? "")
     .normalize("NFD")
@@ -5,8 +44,18 @@ const normalize = (value) =>
     .toLowerCase();
 export function filterStudies(
   studies,
-  { query = "", area = "all", material = "all" } = {},
+  {
+    query = "",
+    area = "all",
+    material = "all",
+    theme = "all",
+    topics = [],
+  } = {},
 ) {
+  const members =
+    theme === "all"
+      ? null
+      : new Set(topics.find((t) => t.id === theme)?.study_ids ?? []);
   const words = normalize(query).trim().split(/\s+/).filter(Boolean);
   return studies.filter((study) => {
     const text = normalize(
@@ -29,6 +78,7 @@ export function filterStudies(
           !available.figures
         : available[material]);
     return (
+      (!members || members.has(study.id)) &&
       (area === "all" || study.series === area) &&
       matchesMaterial &&
       words.every((word) => text.includes(word))
@@ -47,20 +97,17 @@ export function createAtlas(data, { language, translate, onState }) {
     form = document.querySelector("#atlas-form");
   const search = document.querySelector("#search"),
     area = document.querySelector("#area"),
-    material = document.querySelector("#material");
+    material = document.querySelector("#material"),
+    theme = document.querySelector("#theme");
   const more = document.querySelector("#load-more"),
     count = document.querySelector("#results-count");
-  const url = new URL(location.href);
-  search.value = url.searchParams.get("q") ?? "";
-  const initialArea = url.searchParams.get("area");
-  let lastArea = data.areas.some((a) => a.id === initialArea)
-    ? initialArea
-    : "all";
+  const initial = readAtlasState(new URL(location.href), data);
+  search.value = initial.query;
+  let lastArea = initial.area,
+    lastTheme = initial.theme;
+  material.value = initial.material;
   area.value = lastArea;
-  const validMaterials = ["all", "code", "figures", "data", "notes-only"];
-  material.value = validMaterials.includes(url.searchParams.get("material"))
-    ? url.searchParams.get("material")
-    : "all";
+  theme.value = lastTheme;
   function updateOptions() {
     const current = area.value || lastArea;
     area.replaceChildren(
@@ -70,6 +117,16 @@ export function createAtlas(data, { language, translate, onState }) {
       ),
     );
     area.value = data.areas.some((a) => a.id === current) ? current : lastArea;
+    const currentTheme = theme.value || lastTheme;
+    theme.replaceChildren(
+      new Option(translate().allThemes, "all"),
+      ...data.research.topics.map(
+        (t) => new Option(t.title[language()] || t.title.en, t.id),
+      ),
+    );
+    theme.value = data.research.topics.some((t) => t.id === currentTheme)
+      ? currentTheme
+      : "all";
     ["allMaterial", "code", "figures", "data", "notesOnly"].forEach(
       (key, i) => (material.options[i].text = translate()[key]),
     );
@@ -78,10 +135,13 @@ export function createAtlas(data, { language, translate, onState }) {
     const lang = language(),
       t = translate();
     lastArea = area.value;
+    lastTheme = theme.value;
     const matches = filterStudies(data.studies, {
       query: search.value,
       area: area.value,
       material: material.value,
+      theme: theme.value,
+      topics: data.research.topics,
     });
     const shown = matches.slice(0, limit),
       fragment = document.createDocumentFragment();
@@ -123,7 +183,20 @@ export function createAtlas(data, { language, translate, onState }) {
       const source = make("a", "", t.openStudy);
       source.href = href;
       foot.append(source);
-      card.append(picture, meta, title, summary, foot);
+      const audit = make("details", "study-audit");
+      audit.dataset.status = study.rule_audit.status;
+      audit.append(make("summary", "", t.auditLabels[study.rule_audit.status]));
+      audit.append(
+        make(
+          "p",
+          "",
+          study.rule_audit.summary[lang] || study.rule_audit.summary.en,
+        ),
+      );
+      const report = make("a", "", t.auditReport);
+      report.href = `${data.repository}/blob/main/${study.rule_audit.report[lang] || study.rule_audit.report.en}#study-${encodeURIComponent(study.id)}`;
+      audit.append(report);
+      card.append(picture, meta, title, summary, audit, foot);
       fragment.append(card);
     }
     grid.replaceChildren(fragment);
@@ -135,6 +208,7 @@ export function createAtlas(data, { language, translate, onState }) {
       q: search.value.trim(),
       area: area.value,
       material: material.value,
+      theme: theme.value,
     });
   }
   function reset() {
@@ -142,6 +216,8 @@ export function createAtlas(data, { language, translate, onState }) {
     area.value = "all";
     lastArea = "all";
     material.value = "all";
+    theme.value = "all";
+    lastTheme = "all";
     limit = 12;
     render();
   }
@@ -163,6 +239,16 @@ export function createAtlas(data, { language, translate, onState }) {
       limit = 12;
       render();
     });
+  function selectTheme(id) {
+    const next = themeSelectionState(id, data.research.topics);
+    search.value = next.query;
+    area.value = lastArea = next.area;
+    material.value = next.material;
+    theme.value = lastTheme = next.theme;
+    limit = 12;
+    render();
+  }
+  theme.addEventListener("change", () => selectTheme(theme.value));
   more.addEventListener("click", () => {
     limit += 12;
     render();
@@ -171,6 +257,7 @@ export function createAtlas(data, { language, translate, onState }) {
   updateOptions();
   render();
   return {
+    selectTheme,
     refresh() {
       updateOptions();
       render();

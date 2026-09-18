@@ -90,6 +90,9 @@ class SiteExportTests(unittest.TestCase):
         self.assertGreater(len(site['studies']), 0)
         self.assertEqual([e['id'] for e in site['studies']], [e['id'] for e in catalog['experiments']])
         self.assertEqual(site['areas'], catalog['series'])
+        research = json.loads((ROOT / 'research/catalog.json').read_text())
+        self.assertEqual(site['research']['topics'], research['topics'])
+        self.assertEqual([study['rule_audit'] for study in site['studies']], [study['rule_audit'] for study in catalog['experiments']])
         for study in site['studies']:
             self.assertEqual(set(study['question']), {'en', 'pt-BR'})
             self.assertTrue(all(study['summary'].values()))
@@ -104,6 +107,48 @@ class SiteExportTests(unittest.TestCase):
             self.assertEqual(field['size'], len(files[field['url']]))
             with np.load(ROOT / field['sourcePath'], allow_pickle=False) as archive:
                 np.testing.assert_array_equal(np.array(decoded['values']).reshape(decoded['shape']), archive['rho_f'])
+
+    def test_research_and_audits_export_without_adding_simulation_records(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = self.make_fixture(Path(directory))
+            before = {p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob('*') if p.is_file()}
+            site, files = collect_site(root, field_specs=[])
+            self.assertEqual([study['id'] for study in site['studies']], ['saved-study'])
+            self.assertEqual(site['research']['topics'][0]['study_ids'], ['saved-study'])
+            self.assertEqual(site['research']['topics'][0]['source_ids'], ['authored-note'])
+            self.assertEqual(site['studies'][0]['rule_audit']['status'], 'not-established')
+            self.assertEqual(site['research']['sources'][0]['path'], 'research/sources/note.md')
+            self.assertEqual(json.loads(files['data/site.json'])['research'], site['research'])
+            self.assertEqual(before, {p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob('*') if p.is_file()})
+
+    def test_research_rejects_broken_references_payloads_and_paths(self):
+        cases = ('unknown-study', 'unknown-source', 'duplicate-topic', 'missing-doc', 'escape-doc', 'source-hash', 'source-size', 'source-topic', 'invalid-audit', 'missing-audit-report', 'stale-study-summary')
+        for case in cases:
+            with self.subTest(case=case), tempfile.TemporaryDirectory() as directory:
+                root = self.make_fixture(Path(directory))
+                topics_path = root / 'research/catalog.json'
+                sources_path = root / 'research/sources/catalog.json'
+                studies_path = root / 'simulations/catalog.json'
+                topics = json.loads(topics_path.read_text())
+                sources = json.loads(sources_path.read_text())
+                studies = json.loads(studies_path.read_text())
+                topic = topics['topics'][0]
+                if case == 'unknown-study': topic['study_ids'] = ['missing']
+                elif case == 'unknown-source': topic['source_ids'] = ['missing']
+                elif case == 'duplicate-topic': topics['topics'].append(topic.copy())
+                elif case == 'missing-doc': topic['docs']['en'] = 'research/missing.md'
+                elif case == 'escape-doc': topic['docs']['en'] = '../outside.md'
+                elif case == 'source-hash': sources['sources'][0]['sha256'] = '0' * 64
+                elif case == 'source-size': sources['sources'][0]['bytes'] += 1
+                elif case == 'source-topic': sources['sources'][0]['topics'] = ['missing']
+                elif case == 'stale-study-summary': studies['experiments'][0]['summary'] = {'en': 'Old interpretation', 'pt-BR': 'Interpretacao antiga'}
+                elif case == 'invalid-audit': studies['experiments'][0]['rule_audit']['status'] = 'proven'
+                elif case == 'missing-audit-report': studies['experiments'][0]['rule_audit']['report']['en'] = 'docs/missing.md'
+                topics_path.write_text(json.dumps(topics))
+                sources_path.write_text(json.dumps(sources))
+                studies_path.write_text(json.dumps(studies))
+                with self.assertRaises(BuildError):
+                    collect_site(root, field_specs=[])
 
     def test_build_is_repeatable_and_does_not_overwrite_unknown_files(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -127,7 +172,7 @@ class SiteExportTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             base = Path(directory)
             root = self.make_fixture(base / 'repository')
-            for output in (root, root / 'web', root / 'simulations', root.parent):
+            for output in (root, root / 'web', root / 'experiments', root.parent):
                 with self.subTest(output=str(output)), self.assertRaises(BuildError):
                     build(root, output, field_specs=[])
             self.assertEqual((root / 'web/index.html').read_bytes(), b'<h1>Fixture</h1>')
@@ -140,7 +185,21 @@ class SiteExportTests(unittest.TestCase):
         hero = root / 'simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png'
         hero.parent.mkdir(parents=True)
         hero.write_bytes(PNG)
-        (root / 'simulations/catalog.json').write_text(json.dumps({'series': [], 'experiments': []}))
+        (root / 'research/sources').mkdir(parents=True)
+        (root / 'research/memory').mkdir()
+        (root / 'simulations/memory/record').mkdir(parents=True)
+        (root / 'docs').mkdir()
+        (root / 'docs/audit.md').write_text('# Review\n')
+        for filename in ('README.md', 'README.pt-BR.md'):
+            (root / 'research/memory' / filename).write_text('# Memory\n\nA reading path.\n')
+            (root / 'simulations/memory/record' / filename).write_text('# Saved study\n\n**How is history carried?**\n\nA saved record.\n')
+        source = b'# Authored note\n\nPreserved words.\n'
+        (root / 'research/sources/note.md').write_bytes(source)
+        topic = {'id': 'memory', 'slug': 'memory', 'folder': 'research/memory', 'title': {'en': 'Memory', 'pt-BR': 'Memória'}, 'summary': {'en': 'A reading path', 'pt-BR': 'Um percurso de leitura'}, 'docs': {'en': 'research/memory/README.md', 'pt-BR': 'research/memory/README.pt-BR.md'}, 'source_ids': ['authored-note'], 'study_ids': ['saved-study']}
+        (root / 'research/catalog.json').write_text(json.dumps({'schema_version': 1, 'languages': ['en', 'pt-BR'], 'topics': [topic]}))
+        (root / 'research/sources/catalog.json').write_text(json.dumps({'schema_version': 1, 'sources': [{'id': 'authored-note', 'title': 'Authored note', 'language': 'en', 'path': 'research/sources/note.md', 'sha256': hashlib.sha256(source).hexdigest(), 'bytes': len(source), 'topics': ['memory']}]}))
+        study = {'id': 'saved-study', 'folder': 'simulations/memory/record', 'series': 'memory', 'title': {'en': 'Saved study', 'pt-BR': 'Estudo salvo'}, 'status': 'recorded', 'availability': {'notes': True}, 'docs': {'en': 'simulations/memory/record/README.md', 'pt-BR': 'simulations/memory/record/README.pt-BR.md'}, 'rule_audit': {'status': 'not-established', 'summary': {'en': 'Fidelity remains unestablished.', 'pt-BR': 'A fidelidade não foi estabelecida.'}, 'report': {'en': 'docs/audit.md', 'pt-BR': 'docs/audit.md'}}}
+        (root / 'simulations/catalog.json').write_text(json.dumps({'series': [{'id': 'memory', 'title': {'en': 'Memory', 'pt-BR': 'Memória'}}], 'experiments': [study]}))
         return root
 
 
