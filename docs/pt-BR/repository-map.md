@@ -5,6 +5,7 @@
 Pesquisa e simulações têm lugares separados. Os temas as conectam por IDs do catálogo, mantendo um único conjunto de arquivos para cada estudo.
 
 ```text
+.agents/skills/                   Skills TRIAD: entender, ler, criar
 research/
   <theme>/README.md · README.pt-BR.md
   foundations/                    Leitura comum dos princípios TRIAD

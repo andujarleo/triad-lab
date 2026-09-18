@@ -53,6 +53,7 @@ New TRIAD work follows the [project rules](docs/en/project-rules.md): the comple
 ## Inside the universe
 
 ```text
+.agents/skills/  Agent guidance for understanding, reading and creating in TRIAD
 research/       Themes, readings, connections and preserved research sources
 simulations/    Study questions, code, configurations and recorded results
 docs/           Guides in English and Portuguese; shared equation references
@@ -62,7 +63,7 @@ tools/          Catalog, preservation checks and site build
 templates/      Research, studies and execution records
 ```
 
-[Lab journal](docs/en/journal.md) · [About Leonardo](docs/en/author.md) · [Source preservation](provenance/README.md) · [Add a language](docs/en/languages.md)
+[Work with TRIAD agents](docs/en/agents.md) · [Lab journal](docs/en/journal.md) · [About Leonardo](docs/en/author.md) · [Source preservation](provenance/README.md) · [Add a language](docs/en/languages.md)
 
 <details><summary>Verify and explore locally</summary>
 

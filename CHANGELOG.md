@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-18 — TRIAD skills for agents
+
+- Add three repository-scoped skills: understand TRIAD, read its records and create within its complete-equation method.
+- Explain the reasons for the author’s rules with source-linked examples and paired English/Portuguese working guides.
+- Connect the skills through AGENTS, contribution and navigation pages; check their local references with the repository audit.
+- Preserve the equation, numerical implementations and results; this package guides future work.
+
 ## 2026-09-18 — Official TRIAD identity and visible dynamics
 
 - Adopt the author-supplied symbol, preserve its original bytes and document the identity assets.

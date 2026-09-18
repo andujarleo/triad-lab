@@ -53,6 +53,7 @@ Trabalhos TRIAD novos seguem as [regras do projeto](project-rules.md): equação
 ## Dentro do universo
 
 ```text
+.agents/skills/  Orientações para entender, ler e criar em TRIAD
 research/       Temas, leituras, conexões e fontes de pesquisa preservadas
 simulations/    Perguntas, código, configurações e resultados registrados
 docs/           Guias em inglês e português; referências comuns da equação
@@ -62,7 +63,7 @@ tools/          Catálogo, checagens de preservação e construção do site
 templates/      Pesquisas, estudos e registros de execução
 ```
 
-[Diário do lab](journal.md) · [Sobre Leonardo](author.md) · [Preservação das fontes](../../provenance/README.md) · [Adicionar um idioma](languages.md)
+[Trabalhe com agentes TRIAD](agents.md) · [Diário do lab](journal.md) · [Sobre Leonardo](author.md) · [Preservação das fontes](../../provenance/README.md) · [Adicionar um idioma](languages.md)
 
 <details><summary>Verificar e explorar localmente</summary>
 

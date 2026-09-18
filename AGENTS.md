@@ -2,6 +2,18 @@
 
 Read the [project rules](docs/en/project-rules.md) ([português](docs/pt-BR/project-rules.md)) before editing. These rules record Leonardo Andujar’s explicit instructions for his project and govern its maintained presentation and future work.
 
+## TRIAD skills
+
+Use the relevant repository skill for the task. Each links to the current rules, concrete reasons and recorded examples; read only the supporting material needed.
+
+| Task | Skill |
+|---|---|
+| Explain TRIAD, its vocabulary or why its method matters | [triad-understand](.agents/skills/triad-understand/SKILL.md) |
+| Read an equation, implementation, research connection or saved result | [triad-read](.agents/skills/triad-read/SKILL.md) |
+| Create or extend research, simulations, applications or presentation | [triad-create](.agents/skills/triad-create/SKILL.md) |
+
+The [working guide](docs/en/agents.md) ([português](docs/pt-BR/agents.md)) explains the method and source chain. Treat the author's established foundations as the starting point; report actual implementation discrepancies at the level where they occur. Skills are project-scoped and confer no additional execution or publication permission.
+
 ## Identity and method
 
 - Present TRIAD as nonstandard quantum physics and ontology. Its identity is a fixed project premise; do not recast it as an attempt to conform to standard quantum mechanics.

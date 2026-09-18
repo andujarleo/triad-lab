@@ -45,3 +45,5 @@ Descreva problema, mudança final, validação e limites restantes no commit ou 
 Apresente a TRIAD como física quântica não padrão. Use em conjunto P1 oscilação, P2 autorreferência instantânea e memória e P3 acoplamento. Leia a cristalização de forma dinâmica, sem exigir uma rede fixa. As checagens técnicas examinam a implementação fiel e o comportamento registrado do sistema completo. O lab não adota a falsificação popperiana como método. Não isola nem remove termos como experimento TRIAD, e a concordância com MQ padrão não é seu critério de identidade. Controles históricos continuam registros de seus procedimentos, não instruções para novos experimentos TRIAD. [Referência de apresentação](triad.md).
 
 O atlas público é gerado a partir do mesmo catálogo. Para acrescentar uma pergunta representativa, imagem ou campo salvo, siga o [contrato de dados do site](../maintenance/site-data.md). Ao alterar a interface, execute `node --test tools/frontend.test.mjs` e reconstrua o site conforme [web/README.md](../../web/README.md).
+
+[Skills para agentes e as razões do método](agents.md).

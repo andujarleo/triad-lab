@@ -1,0 +1,4 @@
+interface:
+  display_name: "TRIAD · Create"
+  short_description: "Build studies and simulations within TRIAD rules"
+  default_prompt: "Use $triad-create to develop this study with the complete TRIAD dynamics."

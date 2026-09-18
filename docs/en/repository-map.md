@@ -5,6 +5,7 @@
 Research and simulations have separate homes. Themes connect them through catalog IDs, so a study keeps one canonical set of files.
 
 ```text
+.agents/skills/                   TRIAD agent skills: understand, read, create
 research/
   <theme>/README.md · README.pt-BR.md
   foundations/                    Shared reading of the TRIAD principles

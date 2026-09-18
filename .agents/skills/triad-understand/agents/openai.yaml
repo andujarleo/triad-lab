@@ -1,0 +1,4 @@
+interface:
+  display_name: "TRIAD · Understand"
+  short_description: "Understand TRIAD ontology and its complete method"
+  default_prompt: "Use $triad-understand to explain TRIAD and the reasons behind its method."

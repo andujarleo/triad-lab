@@ -25,6 +25,8 @@ The source remains intact, including passages that require reconciliation before
 
 - **§4.2 and Appendix D differ.** The initialization excerpt in §4.2 retains `hbar * k**2` and the literal declared `f_FDT`; Appendix D uses `hbar**2 * k**2` and the derived FDT amplitude, explicitly identifying those as v1.1 corrections.
 - **§§10.3–10.4 list two memory modes.** The rule in §1.6 requires at least three. Appendix A withdraws the older 3D defaults and leaves a new 3D default unstated. The two-mode tables therefore should not be presented as ready-to-run defaults conforming to the complete-equation rule.
+- **§10.1 still includes a B0 3D grid row.** Appendix A.1 describes the 1D set as the only complete default, and A.2 leaves a new 3D default unstated. The B0 row can inform an explicitly proposed configuration; it must not silently become an adopted complete 3D default.
+- **Appendix D checks construction, not integrator entry.** Its `__post_init__` validates the listed parameters, but `integrate(p)` does not repeat that check. Section 1.6 requires both. A new implementation must retain the entry check, including after a mutable parameter object changes; the supplied skeleton remains preserved.
 - **Historical local paths are source text.** The absolute archive path in the v1.1 introduction records the author’s original location. Use the repository’s [v1.0 link](../records/triad-equation-reference.md) to read that edition here.
 
 ## How document revisions relate to experiments
@@ -42,5 +44,7 @@ Read the public introduction in [English](../../en/triad.md) or [Portuguese](../
 A **seção 1.6** estabelece a regra da equação completa, com memória e banho ativos e sem modos de ablação. As recusas de parâmetros são as listadas no próprio documento; este índice não acrescenta regras. As seções **1.3–1.4** descrevem o acoplamento FDT, a **seção 7** contém o protocolo revisado e o **Apêndice D** traz o esqueleto 1D atualizado.
 
 Há trechos a conciliar na edição fornecida: a inicialização da **seção 4.2** ainda usa `hbar * k**2` e `f_FDT` literal, enquanto o **Apêndice D** registra suas correções; as tabelas das **seções 10.3–10.4** ainda têm dois modos de memória, embora a **seção 1.6** exija pelo menos três. O Apêndice A retira os antigos padrões 3D e não fornece um novo. Esses trechos foram preservados e não são apresentados aqui como uma configuração 3D pronta para execução.
+
+A **seção 10.1** também conserva uma linha de grade B0 em 3D, enquanto o Apêndice A.1 identifica o conjunto 1D como único padrão completo e A.2 deixa o novo padrão 3D em aberto. Essa linha pode orientar uma configuração proposta, com sua origem explícita; não deve virar silenciosamente um padrão 3D adotado. No **Apêndice D**, `__post_init__` verifica os parâmetros, mas `integrate(p)` não repete a checagem exigida pela seção 1.6. Uma implementação nova deve manter a checagem na entrada, inclusive após alterações em parâmetros mutáveis. O código do documento permanece intacto.
 
 Importar a edição não modifica nem reclassifica as execuções históricas. Estudos novos devem registrar a edição, a revisão da implementação e os parâmetros usados. Os hashes acima e o [registro de edições](../../../provenance/reference-editions.json) permitem verificar os arquivos.

@@ -193,7 +193,7 @@ def audit(root):
     links = 0
     # Audit only maintained repository trees, excluding generated runs and virtualenvs.
     docs = list(root.glob('*.md'))
-    for directory in ['docs', 'research', 'simulations', 'provenance', 'templates', 'web']:
+    for directory in ['docs', 'research', 'simulations', 'provenance', 'templates', 'web', '.agents/skills', 'assets/brand']:
         docs.extend((root / directory).rglob('*.md'))
     for file in docs:
         for target in local_links(file.read_text()):

@@ -45,3 +45,5 @@ Describe the problem, final change, validation and remaining limitations in the 
 Present TRIAD as nonstandard quantum physics. Use P1 oscillation, P2 instantaneous self-reference and memory, and P3 coupling together. Read crystallization dynamically, without requiring a fixed lattice. Technical checks inspect faithful implementation and recorded behavior of the complete system. The lab does not adopt Popperian falsification as its method. It does not isolate or remove terms as a TRIAD experiment, and standard-QM agreement is not its identity criterion. Historical controls remain records of their own procedures, not instructions for new TRIAD experiments. [Presentation reference](triad.md).
 
 The public atlas is generated from the same catalog. To add a representative question, image or saved field, follow the [site data contract](../maintenance/site-data.md). For interface changes, run `node --test tools/frontend.test.mjs` and rebuild as described in [web/README.md](../../web/README.md).
+
+[Agent skills and the reasons behind the method](agents.md).

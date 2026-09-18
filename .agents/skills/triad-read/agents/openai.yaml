@@ -1,0 +1,4 @@
+interface:
+  display_name: "TRIAD · Read"
+  short_description: "Read TRIAD equations, code and recorded outcomes"
+  default_prompt: "Use $triad-read to trace this TRIAD result through its source and execution record."
