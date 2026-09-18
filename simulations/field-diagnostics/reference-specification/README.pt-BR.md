@@ -12,6 +12,13 @@ Leia a sequência: protocolo → configuração → dados brutos → análise. A
 
 [Todos os arquivos](FILES.md) · [Dependências](../../../provenance/t-archive/dependencies.pt-BR.md)
 
+
+## Auditoria da execução
+
+**Contexto ou pós-processamento.** Especificação e parâmetros declarados fixados; esta entrada não contém resultado de execução.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-q00) · [specification-record.md](notes/specification-record.md#L6)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

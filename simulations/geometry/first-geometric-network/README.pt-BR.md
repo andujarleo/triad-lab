@@ -4,7 +4,7 @@
 
 # Primeira rede geométrica
 
-Um limiar severo deixa dois nós e uma aresta; preservado como falha diagnóstica.
+A extração com quantil 0,992 e distância mínima 3 deixa dois nós e uma aresta; a fonte preserva isso como falha diagnóstica. A rede seguinte, de 39 nós, usa outra extração e um quadro selecionado.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
@@ -13,6 +13,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 Esta ficha remete às listagens e dependências do registro histórico; não há um script de execução dedicado associado a ela.
 
 ![Figura original do run](results/figures/overview.png)
+
+
+## Auditoria da execução
+
+**Contexto ou pós-processamento.** Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-25) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
 
 ## Material disponível
 

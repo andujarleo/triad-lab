@@ -4,7 +4,7 @@
 
 # Memory and bounce
 
-Different radius diagnostics disagree: the record preserves both the RMS and mass-radius conclusions.
+The same trajectory gives `bounced=False` with the RMS radius and `bounced=True` with the radius enclosing half the mass (r50). That radius falls from 3.487119 to 1.385641 at t=3.7 and later rises to 9.863062. The density peak at t=4.1 precedes the memory peak at t=4.2; the diagnostic change is not a new run.
 
 Imported historical record; this organization did not rerun the simulation.
 
@@ -13,6 +13,13 @@ Imported historical record; this organization did not rerun the simulation.
 No dedicated runner is linked in this entry. Consult the note and complete record for historical listings and dependencies.
 
 ![Original run figure](results/figures/overview.png)
+
+
+## Execution audit
+
+**Execution not fully traceable.** Bounce metrics and memory records exist, but the executed bath amplitude/source is not fully bound.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-23) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
 
 ## Available material
 

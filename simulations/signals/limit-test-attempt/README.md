@@ -12,6 +12,13 @@ Imported historical record; this organization did not rerun the simulation.
 
 No dedicated runner is linked in this entry. Consult the note and complete record for historical listings and dependencies.
 
+
+## Execution audit
+
+**Execution not fully traceable.** Preparation note only; no persisted execution artifacts.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-06) · [original-record.md](notes/original-record.md#L10)
+
 ## Available material
 
 1 file associated with this entry: 1 `.md`.

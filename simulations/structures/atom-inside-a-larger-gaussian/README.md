@@ -14,6 +14,13 @@ Imported historical record; this organization did not rerun the simulation.
 
 ![Original run figure](results/figures/overview.png)
 
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. Wide envelope and two signed inner seeds; only the initial frame retains the pair.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-32) · [simulate_atom_inside_gaussian.py](code/simulate_atom_inside_gaussian.py#L39) · [simulate_atom_inside_gaussian.py](code/simulate_atom_inside_gaussian.py#L488) · [simulate_atom_inside_gaussian.py](code/simulate_atom_inside_gaussian.py#L457)
+
 ## Available material
 
 49 files associated with this entry: 4 `.csv`, 1 `.json`, 1 `.md`, 12 `.npy`, 30 `.png`, 1 `.txt`.

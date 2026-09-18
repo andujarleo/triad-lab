@@ -4,7 +4,7 @@
 
 # 3D cold-bath box
 
-Expansion is recorded in a 3D box; the note does not report a filamentary cosmic web.
+Expansion is recorded at N=44 and T=10, with final norm 1.413637. The preceding hot-bath record used N=36 and T=8 with different initial samples; this is a separate configuration, not a bath-only comparison. The note does not report a filamentary cosmic web.
 
 Imported historical record; this organization did not rerun the simulation.
 
@@ -13,6 +13,13 @@ Imported historical record; this organization did not rerun the simulation.
 No dedicated runner is linked in this entry. Consult the note and complete record for historical listings and dependencies.
 
 ![Original run figure](results/figures/overview.png)
+
+
+## Execution audit
+
+**Execution not fully traceable.** The cold-bath CSVs change grid, duration and initial samples as well as bath conditions. The generator is absent.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-20) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
 
 ## Available material
 

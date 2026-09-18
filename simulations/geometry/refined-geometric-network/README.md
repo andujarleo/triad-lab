@@ -4,7 +4,7 @@
 
 # Refined geometric network
 
-The refined extraction records 39 nodes and 25 edges, still a sparse geometric network.
+At the selected snapshot t=4.4, extraction with quantile 0.988 and minimum distance 2 records 39 nodes and 25 edges. The earlier extraction used 0.992 and 3 and retained two nodes and one edge. Both the detector and the sampled snapshot changed; the counts do not establish a change in the field dynamics.
 
 Imported historical record; this organization did not rerun the simulation.
 
@@ -13,6 +13,13 @@ Imported historical record; this organization did not rerun the simulation.
 No dedicated runner is linked in this entry. Consult the note and complete record for historical listings and dependencies.
 
 ![Original run figure](results/figures/overview.png)
+
+
+## Execution audit
+
+**Context or post-processing.** Readout or geometric reconstruction from a recorded field, not a new field evolution.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-26) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
 
 ## Available material
 

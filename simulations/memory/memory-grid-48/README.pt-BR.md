@@ -14,6 +14,13 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ![Figura original do run](results/figures/bravais-scores.png)
 
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** Há métricas N=48 e escores Bravais; faltam o gerador e a configuração exata dos termos.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-17) · [original-record.md](notes/original-record.md#L10)
+
 ## Material disponível
 
 4 arquivos associados à ficha: 2 `.csv`, 1 `.md`, 1 `.png`.

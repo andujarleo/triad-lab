@@ -4,6 +4,18 @@
 
 Um lugar para acompanhar as perguntas, os materiais publicados e os próximos passos da TRIAD. As entradas distinguem mudanças editoriais de execuções numéricas para que a história continue compreensível à medida que o lab cresce.
 
+## 2026-09-18 · Um universo, dois lugares de trabalho conectados
+
+**Edição, organização e análise estática. Nenhuma nova execução numérica.**
+
+O repositório agora separa [Pesquisa](../../research/README.pt-BR.md) de [Simulações](../../simulations/README.pt-BR.md). Sete temas conectam 21 textos fornecidos aos estudos preservados por relações explícitas nos catálogos. As introduções explicam essas conexões; as fontes mantêm seus bytes originais.
+
+A [auditoria das execuções](execution-audit.md) classifica as 65 entradas e acompanha 17 achados até os arquivos que os sustentam. Distingue contraste medido, mudança de detector, operador reduzido e ausência de rastreabilidade do runtime. A comparação de memória, as duas configurações de doze átomos, os raios do bounce, o residual com banho comum e os kernels geométricos recebem explicações detalhadas. As introduções e notas de auditoria dos estudos incorporam essas correções.
+
+As regras continuam as mesmas: equação imutável e indivisível; autocalibração; equilíbrio e cristalização dinâmicos; não isolamento de termos e ausência de protocolo popperiano. Os registros numéricos mantêm suas condições declaradas e vereditos históricos. A posição ontológica do autor é apresentada como fundamento do projeto.
+
+[O registro da migração](../../provenance/universe-migration.json) liga a árvore anterior à atual. Códigos, parâmetros e resultados numéricos registrados foram preservados. O site ganha entradas de Pesquisa e Simulações, filtros por tema e análise da execução visível em cada estudo.
+
 ## 2026-09-17 · Tornando a proposta visível
 
 **Atualização editorial e de referência. Esta entrada não relata uma nova execução numérica.**

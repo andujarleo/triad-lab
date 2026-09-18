@@ -14,6 +14,13 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ![Original run figure](results/figures/overview.png)
 
+
+## Execution audit
+
+**Execution not fully traceable.** Compact long-run montage and diagnostics lack a saved generator and numerical table.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-13) · [original-record.md](notes/original-record.md#L10)
+
 ## Available material
 
 7 files associated with this entry: 1 `.md`, 6 `.png`.

@@ -15,6 +15,6 @@ Os estudos integram o acervo de pesquisa da TRIAD. Conheça sua [identidade e me
 | [Sinais](signals/README.pt-BR.md) | Como uma perturbação se espalha? | 8 |
 | [Diagnósticos do campo](field-diagnostics/README.pt-BR.md) | Como testar a consistência, os modos e a resposta do campo? | 6 |
 | [Continuidade](continuity/README.pt-BR.md) | O que continua quando um sistema muda ou é retomado? | 2 |
-| [Validação](numerical-checks/README.pt-BR.md) | Como conferir a história que as figuras parecem contar? | 1 |
+| [Checagens numéricas](numerical-checks/README.pt-BR.md) | Como conferir a história que as figuras parecem contar? | 1 |
 
 [Comece aqui](../docs/pt-BR/start-here.md) · [Galeria comentada](../docs/pt-BR/gallery.md) · [Cronologia T01–T39](../docs/pt-BR/topics/timeline.md) · [Catálogo JSON](catalog.json)

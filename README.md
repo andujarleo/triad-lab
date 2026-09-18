@@ -1,64 +1,65 @@
-![TRIAD LAB — P1 oscillation, P2 self-reference, P3 coupling](assets/lab-header.svg)
+![TRIAD — oscillation, self-reference and coupling](assets/lab-header.svg)
 
-<p align="center">
-  <strong>English</strong> · <a href="docs/pt-BR/README.md">Português</a>
-  <br />
-  <a href="https://andujarleo.github.io/triad-lab/"><strong>ENTER THE LAB ↗</strong></a> · <a href="docs/en/triad.md">The proposal</a> · <a href="docs/en/journal.md">Lab journal</a>
-</p>
+<p align="center"><strong>English</strong> · <a href="docs/pt-BR/README.md">Português</a><br />
+<a href="https://andujarleo.github.io/triad-lab/"><strong>ENTER THE UNIVERSE ↗</strong></a> · <a href="research/README.md">Research</a> · <a href="simulations/README.md">Simulations</a> · <a href="docs/en/start-here.md">Start here</a></p>
 
-# What if one equation underlies reality?
+# TRIAD Universe Lab
 
-**TRIAD is nonstandard quantum physics, with an ontological foundation.** Created by Leonardo Andujar, this independent living lab explores his hypothesis that the universe has one underlying equation and that reality is a simulation.
+**Nonstandard quantum physics. An ontology of motion, memory and relation.**
 
-The project starts from **oscillation (P1), self-reference (P2) and coupling (P3)**. Its equation is **unique, immutable and indivisible**. Focus, memory and bath participate in the complete dynamics: a field evolves, carries its history and responds to it. The lab follows the forms and interactions that self-organize.
+TRIAD is Leonardo Andujar’s project. Its ontology places one **immutable, indivisible equation** at the foundation of reality. **P1 oscillation, P2 self-reference and P3 coupling act together.** The lab follows their complete dynamics: self-calibration from chaos to dynamic equilibrium, with crystallization continuing in that equilibrium.
 
-<p align="center">
-  <a href="simulations/geometry/field-visualizations/README.md">
-    <img src="simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png" width="720" alt="Original recorded 3D phase-vortex visualization. Cyan and pink points mark opposite directions of phase winding in denser regions." />
-  </a>
-</p>
+This is a living universe of research and simulations. Enter through an image, follow a question, then reach the sources, equation, code and recorded trajectories.
 
-**A field, seen from within.** Cyan and pink mark opposite directions of phase winding in denser regions. This is an original recorded frame, with its labels preserved. [Watch the animation](simulations/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif) · [Follow the image to its source](simulations/geometry/field-visualizations/README.md).
+<p align="center"><a href="simulations/geometry/field-visualizations/README.md"><img src="simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png" width="760" alt="Original recorded 3D phase-vortex visualization: cyan and pink indicate opposite directions of phase winding in denser regions." /></a></p>
 
-**65 studies · 8 areas · original images, code and data · English + Portuguese**
+**A field, seen from within.** An original recorded frame, with its labels preserved. [Watch the animation](simulations/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif) · [Follow its source](simulations/geometry/field-visualizations/README.md).
 
-## Choose your way in
+## Two ways to explore
 
-| Meet the idea | Explore the lab | Inspect the work |
+| Research | Simulations |
+|---|---|
+| **Understand the connections.** Ontology, memory, sound, geometry, cognition and cultural readings, with sources and interpretation side by side. | **Follow what happens.** Visual results, trajectories, implementations and recorded conditions for 65 studies across eight areas. |
+| [Open the research library →](research/README.md) | [Explore the simulation archive →](simulations/README.md) |
+
+The [interactive atlas](https://andujarleo.github.io/triad-lab/) connects these two areas by theme. The field viewer shows spatial slices through saved states; its slider moves through **space**.
+
+## Begin with your curiosity
+
+| I want to understand | I want to investigate | I want to build or run |
 |---|---|---|
-| The hypothesis, its conceptual map and words in TRIAD’s own sense. | A searchable visual atlas and interactive slices through saved fields. | The equation, implementations, parameters and recorded outcomes. |
-| [Start with a five-minute tour →](docs/en/start-here.md) | [Open the interactive lab →](https://andujarleo.github.io/triad-lab/) | [Read the research guide →](docs/en/research-guide.md) |
+| [A five-minute tour](docs/en/start-here.md), [TRIAD’s foundations](docs/en/triad.md) and a [plain-language vocabulary](docs/en/glossary.md). | [Research themes](research/README.md), [recorded comparisons](docs/en/execution-audit.md) and the [equation reference](docs/reference/equation/README.md). | [Repository map](docs/en/repository-map.md), [execution guidance](docs/en/getting-started.md) and [contributing](docs/en/contributing.md). |
 
-The interactive viewer reads preserved final states. Its slider moves through **space**, and each view links back to its original data.
+## The whole dynamics matters
 
-## Three questions to begin with
+Removing a term changes the implemented system. The archive retains those historical configurations and identifies them alongside their outputs. The [execution audit](docs/en/execution-audit.md) connects each study to its conditions and distinguishes recorded changes in behavior from changes in measurement or interpretation.
 
-| What follows a concentration? | Can a region keep its identity? | How closely does memory follow density? |
-|---|---|---|
-| ![Recorded overview of the memory-and-bounce study](simulations/memory/memory-and-bounce/results/figures/overview.png) | ![Recorded participation-ratio trajectory of a pocket in the field](simulations/structures/a-pocket-in-the-field/results/figures/PR-vs-t.png) | ![Recorded density and memory maps at the initial saved time](simulations/structures/density-memory-maps/results/figures/mapa-0p000.png) |
-| Follow concentration, memory response and expansion. The record retains two radius diagnostics that disagree. | Follow a planted Gaussian pocket and the diagnostics of its identity within a changing field. | Compare density and accumulated memory. The recorded alignment is transient. |
-| [Memory and bounce →](simulations/memory/memory-and-bounce/README.md) | [A pocket in the field →](simulations/structures/a-pocket-in-the-field/README.md) | [Density–memory maps →](simulations/structures/density-memory-maps/README.md) |
+New TRIAD work follows the [project rules](docs/en/project-rules.md): the complete equation, no external calibration toward a desired outcome, no term isolation, and no Popperian falsification protocol. Source numbers and conflicting outcomes remain visible. Documents and implementations have revisions; the equation is immutable.
 
-## A broad question, an expanding archive
+## Inside the universe
 
-The ambition is to explore many phenomena through simulation and publish the path taken. Each study connects its question to available notes, code, configurations and outcomes. Historical attempts, partial results and open questions remain part of that path.
+```text
+research/       Themes, readings, connections and preserved research sources
+simulations/    Study questions, code, configurations and recorded results
+docs/           Guides in English and Portuguese; shared equation references
+provenance/     Source identity, path history, integrity and audit records
+web/            The public experience
+tools/          Catalog, preservation checks and site build
+templates/      Research, studies and execution records
+```
 
-[Relations](simulations/relations/README.md) · [Geometry](simulations/geometry/README.md) · [Memory](simulations/memory/README.md) · [Structures](simulations/structures/README.md) · [Signals](simulations/signals/README.md) · [Field diagnostics](simulations/field-diagnostics/README.md) · [Continuity](simulations/continuity/README.md) · [Validation](simulations/numerical-checks/README.md)
+[Lab journal](docs/en/journal.md) · [About Leonardo](docs/en/author.md) · [Source preservation](provenance/README.md) · [Add a language](docs/en/languages.md)
 
-The [reference-document history](docs/reference/equation/README.md) preserves documents labeled v1.0 and v1.1; these labels identify revisions of the writing, not different equations. Historical implementations and results retain their own configurations. The [project rules](docs/en/project-rules.md) explain the complete dynamics, self-organization without external calibration toward a chosen result, and the technical checks used in this lab.
-
-[Why Leonardo created the lab](docs/en/author.md) · [TRIAD vocabulary](docs/en/glossary.md) · [Research journal](docs/en/journal.md) · [Contribute](docs/en/contributing.md) · [More languages](docs/en/languages.md)
-
-<details>
-<summary>Run, verify and navigate the repository</summary>
-
-[Historical execution guide](docs/en/getting-started.md) · [Repository map](docs/en/repository-map.md) · [Site source and local preview](web/README.md) · [Provenance](provenance/README.md)
+<details><summary>Verify and explore locally</summary>
 
 ```sh
 git lfs pull
 python3 tools/check_repository.py
+python3 -B -m unittest discover -s tools -p 'test_*.py'
+node --test tools/frontend.test.mjs
+python3 tools/build_site.py
 ```
 
-Study folders use descriptive names. Each **FILES.md** connects the associated material, and the catalog preserves its original associations.
+[Dependencies and preview](web/README.md) · [Current repository map](docs/en/repository-map.md) · [Previous paths](provenance/universe-migration.json)
 
 </details>

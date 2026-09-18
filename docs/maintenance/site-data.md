@@ -33,7 +33,7 @@ Generated JSON uses stable ordering, UTF-8 and no timestamps. Unchanged inputs p
 | `hero` | Path to the byte-identical phase-vortex PNG in `media/` |
 | `fields` | Download descriptors for the two saved density volumes |
 
-Every study includes `id`, `folder`, `series`, bilingual `title`, `status`, `availability`, repository-relative bilingual `docs`, bilingual `question` and `summary`, and `image` (a relative URL or `null`). The opening bold question and following prose are read from each existing study’s README. Studies using the published template instead supply the first paragraph of **The question / A pergunta** and **What was done / O que foi feito**. HTML comments are excluded; a missing summary is a build error. Historical pages without an explicit question receive an empty question and their first opening prose paragraph as the summary. The frontend can use the title in place of the absent question. The builder never invents an interpretation from a filename, a plot or a numerical result.
+Every study includes `id`, `folder`, `series`, bilingual `title`, `status`, `availability`, repository-relative bilingual `docs`, bilingual `question` and `summary`, and `image` (a relative URL or `null`). The opening bold question and following prose are read from each existing study’s README. Studies using the published template instead supply the first paragraph of **The question / A pergunta** and **What was done / O que foi feito**. HTML comments are excluded; a missing summary is a build error. Historical pages without an explicit question receive an empty question and their first opening prose paragraph as the summary. The frontend can use the title in place of the absent question. When a study also stores a catalog `summary`, the build requires it to match the maintained introduction after Markdown formatting is removed. The builder never invents an interpretation from a filename, a plot or a numerical result.
 
 Images are the first linked local PNG found in the study's English or Portuguese page. Their names in the site are the complete SHA-256 digest followed by `.png`; repeated bytes share one file. Images are never resized, recolored, regenerated or recompressed by the builder. A missing or unhydrated selected image is a build failure, not a silent omission. Cards without an image remain in the catalogue.
 
@@ -91,3 +91,21 @@ The public interface was inspected at 320, 390, 768, 1024 and 1440 px in the in-
 A separate local HTTP server deliberately failed the catalog download and each volume download once. Catalog and volume errors translated on language changes; reloading the catalog and retrying the volumes recovered successfully. This test changed no generated or original data files. Reduced-motion support is provided by the stylesheet; no accessibility certification is claimed.
 
 The import preserves five trailing-whitespace lines in the author-supplied v1.1 reference (370, 376, 381, 386, 391). Its original SHA-256 is verified instead of normalizing the document.
+
+## Research and execution review · 2026-09-18
+
+The same `format: 1` export now adds `research: {topics, sources}` and a `rule_audit` on every study. Existing fields and area/study IDs remain stable. The source study catalog moved to `simulations/catalog.json`, retaining its `experiments` key. The `quantum` and `validation` area IDs still work in saved URLs although the physical folders have descriptive names.
+
+Research topics export their stable ID, bilingual title/summary/docs, `source_ids` and `study_ids`. Source metadata comes from `research/sources/catalog.json`; original source bodies are linked in the repository, not embedded into the site export. The builder verifies hashes, byte lengths, contained paths, duplicate IDs, bilingual text and reciprocal source/topic relationships. Theme membership is explicit and never inferred from keywords.
+
+Each `rule_audit` carries `status`, a bilingual `summary` and repository-relative bilingual `report` paths. Status values are `complete-record` (coupled terms documented), `documented-deviation`, `not-established` and `context-only`. These describe the available implementation record, not a certification of a theory. Study cards link to the corresponding `study-{id}` anchor in the report.
+
+The existing `q`, `area`, `material`, `lang` and `#atlas` links remain valid; `theme` adds the research path. Choosing a theme clears conflicting search, area and material filters. Changing language retains the selected theme and filters. The saved-field module and original exported array values are unchanged.
+
+Em português: a exportação acrescenta temas, metadados de fontes e auditoria por estudo. Relações temáticas são explícitas; as fontes originais e resultados mantêm sua identidade. Filtros antigos continuam funcionando, e o tema selecionado permanece ao trocar o idioma.
+
+## Universe interface verification · 2026-09-18
+
+The integrated interface was inspected in a real browser at 320, 390, 768, 1024 and 1440 px. No horizontal overflow or out-of-viewport research links/filter controls was observed. Theme selection produced the declared study membership and moved keyboard focus to the simulation heading. EN/PT switching kept the theme; audit disclosures opened with Enter and linked to the study anchor. Empty search/reset and URL-restored area/material filters worked, including the historical `quantum` ID.
+
+Both original saved fields loaded when brought into view. X-axis endpoint cuts, logarithmic display and keyboard cell inspection worked; the console reported no warnings or errors during this check. The source data, renderer and exported numerical values remain unchanged. This is interface verification, not a new physical simulation.

@@ -14,6 +14,13 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ![Original run figure](results/figures/overview.png)
 
+
+## Execution audit
+
+**Execution not fully traceable.** Baseline/observer CSVs exist; the field solver and parameter mapping are absent.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-08) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
+
 ## Available material
 
 9 files associated with this entry: 1 `.csv`, 1 `.md`, 7 `.png`.

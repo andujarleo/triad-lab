@@ -19,6 +19,13 @@ Read in order: protocol → configuration → raw data → analysis. These class
 
 ![Original diagnostic](results/figures/overlay-observables.png)
 
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. Grid convergence is unresolved; the recorded spectrum follows the grid cutoff.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-q01) · [measure_spatial_convergence.py](code/measure_spatial_convergence.py#L36) · [measure_spatial_convergence.py](code/measure_spatial_convergence.py#L193) · [measure_spatial_convergence.py](code/measure_spatial_convergence.py#L165)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

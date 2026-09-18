@@ -11,6 +11,13 @@ Um script de execução longa e diagnósticos registrados exploram campos em dua
 ![Figura histórica preservada](results/figures/bravais-2d-long-evolution.png)
 
 
+
+## Auditoria da execução
+
+**Implementação divergente.** Os dois ramos dimensionais normalizam o campo a cada passo (normas-alvo 3,0 e 2,2) e usam atualização diferente da referência.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-dimension-comparison) · [bravais_long_2d3d.py](code/bravais_long_2d3d.py#L84) · [bravais_long_2d3d.py](code/bravais_long_2d3d.py#L255)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

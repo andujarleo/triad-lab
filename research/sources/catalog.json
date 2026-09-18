@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "cosmic-pulse-and-change",
+      "title": "Do Spanda ao Yijing_ Mapeando a Origem, a Ordem e o Destino Cósmico nas Cosmologias Antigas através de Analogias com a Equação Quântica",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/cosmic-pulse-and-change.md",
+      "original_filename": "Do Spanda ao Yijing_ Mapeando a Origem, a Ordem e o Destino Cósmico nas Cosmologias Antigas através de Analogias com a Equação Quântica.md",
+      "original_collection": "Fisica, Matematica e Cosmologia",
+      "sha256": "86025398bbe9ea78730d8dc5b13e86972f9ccf5c222bd1ed9adf646b5978f035",
+      "bytes": 47236,
+      "lines": 147,
+      "words": 6390,
+      "document_type": "comparative-synthesis",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "process-and-persistence",
+        "memory-and-self-reference",
+        "cosmologies-and-symbols"
+      ],
+      "notes": [
+        "Comparative synthesis organized around equation terms; overlapping citations recur in other supplied texts."
+      ]
+    },
+    {
+      "id": "energy-from-foundations-to-frontiers",
+      "title": "Energia — Um mapa da ciência, dos fundamentos às fronteiras",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/energy-from-foundations-to-frontiers.md",
+      "original_filename": "Energia — Um mapa da ciência, dos fundamentos às fronteiras.md",
+      "original_collection": "Fisica, Matematica e Cosmologia",
+      "sha256": "4ef2e2f9c1ad9dd4672868eec33832719cc73040b03b4c178a306654f9f32e75",
+      "bytes": 88893,
+      "lines": 1626,
+      "words": 12571,
+      "document_type": "literature-panorama",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "process-and-persistence",
+        "fields-and-computation",
+        "signals-and-interpretation"
+      ],
+      "notes": [
+        "Literature panorama; the supplied document states that it does not reanalyse raw data or reproduce simulations.",
+        "Conversion has incomplete formulas and references that require identification in their original publications."
+      ]
+    },
+    {
+      "id": "field-equation-and-ancient-concepts",
+      "title": "Pesquisa aprofundada — termos da equação quântica e conceitos antigos",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/field-equation-and-ancient-concepts.md",
+      "original_filename": "Pesquisa aprofundada — termos da equação quântica e conceitos antigos.md",
+      "original_collection": "Fisica, Matematica e Cosmologia",
+      "sha256": "f39de3b2e89df15bbd03bb413fbf2ce217d6a4d9a300a6332ceea98384eeb0d7",
+      "bytes": 21894,
+      "lines": 85,
+      "words": 3062,
+      "document_type": "comparative-synthesis",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "cosmologies-and-symbols"
+      ],
+      "notes": [
+        "Comparative question-and-answer synthesis; shares its conceptual structure with cosmic-pulse-and-change."
+      ]
+    },
+    {
+      "id": "vibrational-ontology-and-geometry",
+      "title": "Ontologia Vibratória e Geometria Sagrada — Mapeamento da Equação da Tríade",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/vibrational-ontology-and-geometry.md",
+      "original_filename": "Ontologia Vibratória e Geometria Sagrada — Mapeamento da Equação da Tríade.md",
+      "original_collection": "Metodo Triad e Equacao Vibratoria",
+      "sha256": "e9583251dd991d27ab8b0c050fb7fd5c629c0ca2b144719db985477980a5f585",
+      "bytes": 14362,
+      "lines": 65,
+      "words": 1927,
+      "document_type": "ontological-reading",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "process-and-persistence",
+        "memory-and-self-reference",
+        "cosmologies-and-symbols"
+      ],
+      "notes": [
+        "An earlier supplied framing uses phenomenological language; maintained project rules state TRIAD’s nonstandard-quantum-physics and ontological identity."
+      ]
+    },
+    {
+      "id": "structural-review-of-vibrational-ontology",
+      "title": "Verificação Estrutural da Ontologia Vibratória e Geometria Sagrada — Equação da Tríade",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/structural-review-of-vibrational-ontology.md",
+      "original_filename": "Verificação Estrutural da Ontologia Vibratória e Geometria Sagrada — Equação da Tríade.md",
+      "original_collection": "Metodo Triad e Equacao Vibratoria",
+      "sha256": "ab1f4eed95a0b06fd7b1e38dd8002a2d69b71df1fb3e39db1af3690182cbdb7c",
+      "bytes": 33568,
+      "lines": 135,
+      "words": 4808,
+      "document_type": "secondary-review",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "memory-and-self-reference",
+        "fields-and-computation",
+        "cosmologies-and-symbols"
+      ],
+      "notes": [
+        "A review of related supplied syntheses, not an independent numerical result.",
+        "Transcribed equation and proposed term-isolation protocols are not adopted as the canonical equation or project method.",
+        "The document explicitly states that it did not consult the complete original text (lines 126–132); its review is an indirect thematic assessment."
+      ]
+    },
+    {
+      "id": "persistence-through-movement",
+      "title": "Persistência da forma exige movimento — axioma fenomenológico",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/persistence-through-movement.md",
+      "original_filename": "Persistência da forma exige movimento — axioma fenomenológico.md",
+      "original_collection": "Metodo Triad e Equacao Vibratoria",
+      "sha256": "0c94261dbceeb3da2eb2ad61956fbe0c3f30ef53797d3da40029b6765d3fbdf5",
+      "bytes": 13067,
+      "lines": 215,
+      "words": 2087,
+      "document_type": "conceptual-note",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "process-and-persistence",
+        "memory-and-self-reference",
+        "fields-and-computation"
+      ],
+      "notes": [
+        "Contains conversion artifacts and proposed term-isolation checks; preserve as source content, not a governing protocol."
+      ]
+    },
+    {
+      "id": "lineages-of-pulse-and-form",
+      "title": "Vibração e forma — linhagens do pulso primordial",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/lineages-of-pulse-and-form.md",
+      "original_filename": "Vibração e forma — linhagens do pulso primordial.md",
+      "original_collection": "Metodo Triad e Equacao Vibratoria",
+      "sha256": "9ed800f343f0f7c7a7a7a016689c7b9978384287b302ff15412051b308df590c",
+      "bytes": 8162,
+      "lines": 181,
+      "words": 1315,
+      "document_type": "historical-synthesis",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "process-and-persistence",
+        "cosmologies-and-symbols"
+      ],
+      "notes": [
+        "Compact historical and ontological reading with conversion artifacts; similarity is distinct from a documented transmission chain."
+      ]
+    },
+    {
+      "id": "mesopotamian-tuning",
+      "title": "Afinação mesopotâmica — CBS 10996, Ur e McClain",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/mesopotamian-tuning.md",
+      "original_filename": "Afinação mesopotâmica — CBS 10996, Ur e McClain.md",
+      "original_collection": "Som, Musica e Acustica",
+      "sha256": "b787da728b77e60aab239de1fe9914cb66e14292e6ef3bf919b760d86ace492d",
+      "bytes": 4674,
+      "lines": 84,
+      "words": 741,
+      "document_type": "historical-synthesis",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "sound-and-resonance",
+        "cosmologies-and-symbols"
+      ],
+      "notes": [
+        "Historical tuning synthesis; no primary manuscript images or new acoustic measurements supplied."
+      ]
+    },
+    {
+      "id": "strings-and-musical-ratios",
+      "title": "Cordas e razões — o fato operacional antigo",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/strings-and-musical-ratios.md",
+      "original_filename": "Cordas e razões — o fato operacional antigo.md",
+      "original_collection": "Som, Musica e Acustica",
+      "sha256": "dcd1799904d50c184f855ff3fa70e9cc4b668978cf2a61b2c1c5644cbfb476cc",
+      "bytes": 7965,
+      "lines": 174,
+      "words": 1275,
+      "document_type": "technical-historical-synthesis",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "sound-and-resonance"
+      ],
+      "notes": [
+        "Historical/technical synthesis; some formulas were damaged in conversion."
+      ]
+    },
+    {
+      "id": "dynamic-tetractys",
+      "title": "Tetraktys dinâmica — frequência, som, energia e luz",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/dynamic-tetractys.md",
+      "original_filename": "Tetraktys dinâmica — frequência, som, energia e luz.md",
+      "original_collection": "Som, Musica e Acustica",
+      "sha256": "e72f67349e97acdec47ad0344c677ce447faeb45fff8b34f3c9109068c1c4bc0",
+      "bytes": 5118,
+      "lines": 96,
+      "words": 910,
+      "document_type": "ontological-reading",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "process-and-persistence",
+        "sound-and-resonance",
+        "cosmologies-and-symbols"
+      ],
+      "notes": [
+        "Modern ontological interpretation already written in dialogue with TRIAD, not an independent ancient statement of its equation."
+      ]
+    },
+    {
+      "id": "megalithic-chambers-and-brain-frequencies",
+      "title": "Câmaras Megalíticas e Frequências Cerebrais — Item 1.3, Análise Crítica das Evidências",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/megalithic-chambers-and-brain-frequencies.md",
+      "original_filename": "Câmaras Megalíticas e Frequências Cerebrais — Item 1.3, Análise Crítica das Evidências.md",
+      "original_collection": "Som, Musica e Acustica",
+      "sha256": "cd220628cca71d202dfd1c542c0661af994e2baaf1e8c2d9ad6fe7e16ecc88b2",
+      "bytes": 20862,
+      "lines": 92,
+      "words": 2942,
+      "document_type": "secondary-review",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "sound-and-resonance",
+        "signals-and-interpretation"
+      ],
+      "notes": [
+        "Secondary review revisiting several papers also cited by the historical-acoustics and cave-resonance texts."
+      ]
+    },
+    {
+      "id": "historical-acoustics-research",
+      "title": "Pesquisa Histórica e Arqueoacústica",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/historical-acoustics-research.md",
+      "original_filename": "Pesquisa Histórica e Arqueoacústica.md",
+      "original_collection": "Som, Musica e Acustica",
+      "sha256": "2282dc6d2a9a7c98c45f217b97d0b7c4bde12c2b84c17019443b4bd7c259aaed",
+      "bytes": 132022,
+      "lines": 456,
+      "words": 11088,
+      "document_type": "historical-dossier",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "sound-and-resonance",
+        "cosmologies-and-symbols"
+      ],
+      "notes": [
+        "Broad dossier with embedded images and repeated upstream acoustic sources; strong claims differ from the more focused reviews in this collection."
+      ]
+    },
+    {
+      "id": "cave-resonance-and-modes",
+      "title": "Ressonância de cavernas — pedra, modos e 110 Hz",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/cave-resonance-and-modes.md",
+      "original_filename": "Ressonância de cavernas — pedra, modos e 110 Hz.md",
+      "original_collection": "Som, Musica e Acustica",
+      "sha256": "62fd3bbd48ae4c6751c848881b680af498c84f6aa4edbea686b72a78177890c7",
+      "bytes": 7383,
+      "lines": 161,
+      "words": 1081,
+      "document_type": "technical-synthesis",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "sound-and-resonance",
+        "signals-and-interpretation"
+      ],
+      "notes": [
+        "Technical synthesis distinguishing sites and modes; frequencies belong to named measurements or reconstructions."
+      ]
+    },
+    {
+      "id": "ancient-sound-and-architectural-space",
+      "title": "Som antigo e arqueoacústica — textos e espaço",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/ancient-sound-and-architectural-space.md",
+      "original_filename": "Som antigo e arqueoacústica — textos e espaço.md",
+      "original_collection": "Som, Musica e Acustica",
+      "sha256": "7aaa82fddc7aeb12fc27fde2ce3cc0da44e96ce7a5b9b553071ea29275b10fbb",
+      "bytes": 17020,
+      "lines": 288,
+      "words": 2693,
+      "document_type": "historical-synthesis",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "sound-and-resonance",
+        "cosmologies-and-symbols"
+      ],
+      "notes": [
+        "Historical synthesis of practices, texts and spaces; these forms of evidence remain distinguishable."
+      ]
+    },
+    {
+      "id": "two-channel-field-computing",
+      "title": "Pesquisa Técnica — Arquitetura Any-to-Any de Dois Canais com Equação de Campo",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/two-channel-field-computing.md",
+      "original_filename": "Pesquisa Técnica — Arquitetura Any-to-Any de Dois Canais com Equação de Campo.md",
+      "original_collection": "Metodo Triad e Equacao Vibratoria",
+      "sha256": "03e8a322b892f0404179f2d78af6112f88e4fc402df5dbbda5847a276873f7df",
+      "bytes": 50897,
+      "lines": 214,
+      "words": 6565,
+      "document_type": "engineering-proposal",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "memory-and-self-reference",
+        "fields-and-computation",
+        "signals-and-interpretation"
+      ],
+      "notes": [
+        "Engineering proposal and literature review, not an implemented Any-to-Any system.",
+        "Recommendations that disable terms and a local propagation-sign inconsistency remain in the source; do not treat the document as a runnable TRIAD protocol."
+      ]
+    },
+    {
+      "id": "light-eye-and-geometric-symbols",
+      "title": "G, Sol, Luz e Olho — Oriente e Delta",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/light-eye-and-geometric-symbols.md",
+      "original_filename": "G, Sol, Luz e Olho — Oriente e Delta.md",
+      "original_collection": "Sociedades Secretas, Harvard e Poder",
+      "sha256": "d464a1cc518603eecd280053903285494c2fd451a6feea580cbd9d9f2be017eb",
+      "bytes": 4444,
+      "lines": 81,
+      "words": 794,
+      "document_type": "symbolic-reading",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "cosmologies-and-symbols"
+      ],
+      "notes": [
+        "Symbolic interpretation; lexical associations are not asserted as physical unit conversions or established etymology."
+      ]
+    },
+    {
+      "id": "beethoven-mozart-symphonic-form",
+      "title": "Beethoven e Mozart_ catálogo, forma, história, recepção e legado das sinfonias",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/beethoven-mozart-symphonic-form.md",
+      "original_filename": "Beethoven e Mozart_ catálogo, forma, história, recepção e legado das sinfonias.md",
+      "original_collection": "Som, Musica e Acustica",
+      "sha256": "b2add83dc6cc6e1f0ba4c5b4fa4b315637d46c953174ba93e3a4f88018b0af1f",
+      "bytes": 85300,
+      "lines": 436,
+      "words": 11468,
+      "document_type": "music-history-and-analysis",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "music-and-experience"
+      ],
+      "notes": [
+        "Musical history and analysis, not numerical TRIAD data."
+      ]
+    },
+    {
+      "id": "neural-fields-and-wilson-cowan",
+      "title": "Campo neural — Wilson-Cowan e escala contínua",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/neural-fields-and-wilson-cowan.md",
+      "original_filename": "Campo neural — Wilson-Cowan e escala contínua.md",
+      "original_collection": "Som, Musica e Acustica",
+      "sha256": "971f366094c77cdac349f10ad9b5d8dd41d62d48c0053a8d41877aba0ae635db",
+      "bytes": 5943,
+      "lines": 116,
+      "words": 934,
+      "document_type": "technical-synthesis",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "fields-and-computation"
+      ],
+      "notes": [
+        "Overview of neural-field models; local populations, kernels and limits require their own definitions."
+      ]
+    },
+    {
+      "id": "sound-symbol-and-transmission",
+      "title": "Do som paleolítico às runas — 45 mil anos de frequência, símbolo e transmissão",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/sound-symbol-and-transmission.md",
+      "original_filename": "Do som paleolítico às runas — 45 mil anos de frequência, símbolo e transmissão.md",
+      "original_collection": "Som, Musica e Acustica",
+      "sha256": "6881bddf6f9aba9758eaecde7c1de984824fdc98366c6024b95dd22be43619f1",
+      "bytes": 85589,
+      "lines": 1170,
+      "words": 10703,
+      "document_type": "historical-synthesis",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "music-and-experience",
+        "cosmologies-and-symbols",
+        "signals-and-interpretation"
+      ],
+      "notes": [
+        "Long historical synthesis distinguishing artifacts, reconstructions, formal convergence and transmission."
+      ]
+    },
+    {
+      "id": "giza-sar-signal-and-reconstruction",
+      "title": "relatorio-giza-sar-biondi-malanga",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/giza-sar-signal-and-reconstruction.md",
+      "original_filename": "relatorio-giza-sar-biondi-malanga.md",
+      "original_collection": "Som, Musica e Acustica",
+      "sha256": "6dbdf6f41d6876fa3a6880bb14c3662254ecbbf742fcdeda3173c66298bf0854",
+      "bytes": 7169,
+      "lines": 79,
+      "words": 1082,
+      "document_type": "methodological-review",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "signals-and-interpretation"
+      ],
+      "notes": [
+        "Review of a disputed reconstruction/inference chain; no original radar dataset or TRIAD execution supplied."
+      ]
+    },
+    {
+      "id": "sound-expectation-and-emotion",
+      "title": "Som e emoção — como a estrutura acústica se transforma em sensação, expectativa e afeto",
+      "language": "pt-BR",
+      "path": "research/sources/author-supplied/sound-expectation-and-emotion.md",
+      "original_filename": "Som e emoção — como a estrutura acústica se transforma em sensação, expectativa e afeto.md",
+      "original_collection": "Som, Musica e Acustica",
+      "sha256": "07de76f26dd9c09efc65be1b7c6a6163f7f4dd290796e7c133af38314881fc23",
+      "bytes": 57311,
+      "lines": 516,
+      "words": 7095,
+      "document_type": "literature-review",
+      "rights_status": "not-stated-in-supplied-material",
+      "topics": [
+        "memory-and-self-reference",
+        "music-and-experience",
+        "signals-and-interpretation"
+      ],
+      "notes": [
+        "Review of perception, expectation and affect; acoustic quantities and subjective experience have distinct roles."
+      ]
+    }
+  ]
+}

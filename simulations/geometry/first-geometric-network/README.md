@@ -4,7 +4,7 @@
 
 # First geometric network
 
-A severe threshold leaves two nodes and one edge; retained as a diagnostic failure.
+Extraction at quantile 0.992 with minimum distance 3 leaves two nodes and one edge; the source retains this as a diagnostic failure. The following 39-node network uses a different extraction and selected snapshot.
 
 Imported historical record; this organization did not rerun the simulation.
 
@@ -13,6 +13,13 @@ Imported historical record; this organization did not rerun the simulation.
 No dedicated runner is linked in this entry. Consult the note and complete record for historical listings and dependencies.
 
 ![Original run figure](results/figures/overview.png)
+
+
+## Execution audit
+
+**Context or post-processing.** Readout or geometric reconstruction from a recorded field, not a new field evolution.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-25) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
 
 ## Available material
 

@@ -8,6 +8,13 @@
 
 Post-processes a saved state into density threads, phase curves when available, and spectral note strings.
 
+
+## Execution audit
+
+**Context or post-processing.** Post-processing of saved field states; this item does not evolve the complete equation.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-bravais-02-strings) · [cordas_arte.py](code/cordas_arte.py#L1)
+
 ## Available material
 
 ![Strings from a saved state](results/figures/cordas-densidade.png)

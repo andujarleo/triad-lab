@@ -6,7 +6,14 @@
 
 **Does the spectral edge follow the system or the size of the box?**
 
-Runs the same equation in boxes L=24, 32 and 48 at fixed dx=0.5, with grids of 48³, 64³ and 96³.
+Uses the same preserved implementation across boxes L=24, 32 and 48 at fixed dx=0.5, with grids of 48³, 64³ and 96³. Its kinetic and noise updates differ from the equation reference; this sweep compares that implementation across box sizes.
+
+
+## Execution audit
+
+**Implementation differs.** The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-bravais-03-scale) · [bravais_sweep_L.py](code/pt-BR/bravais_sweep_L.py#L92) · [bravais_sweep_L.py](code/pt-BR/bravais_sweep_L.py#L175)
 
 ## Available material
 

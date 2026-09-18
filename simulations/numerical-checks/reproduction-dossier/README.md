@@ -4,7 +4,7 @@
 
 # Ten-part rerun dossier
 
-A recorded dossier with A3 refinements, QM1D, CHSH, sidebands, hot bath, tunneling history, k-star and Bravais studies.
+A historical dossier with A3 refinements, QM1D, CHSH, sidebands, hot bath, tunneling history, k-star and Bravais studies. It includes reduced configurations and comparisons with terms disabled; its recorded outcomes belong to those declared conditions.
 
 Imported historical record; this organization did not rerun the simulation.
 
@@ -13,6 +13,13 @@ Imported historical record; this organization did not rerun the simulation.
 No dedicated runner is linked in this entry. Consult the note and complete record for historical listings and dependencies.
 
 ![Original run figure](results/memory-collapse-grid-64/figures/PR-vs-t.png)
+
+
+## Execution audit
+
+**Implementation differs.** The dossier mixes numerical/analytic checks with recorded term-off comparisons, including memory-off, bath-off and frozen-memory cases.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-36) · [predictions-memory-collapse-grid-64.md](notes/memory-collapse-grid-64/predictions-memory-collapse-grid-64.md#L10) · [analysis.md](notes/memory-collapse-grid-64/analysis.md#L1) · [predictions-bell-correlation-test.md](notes/predictions/predictions-bell-correlation-test.md#L10)
 
 ## Available material
 

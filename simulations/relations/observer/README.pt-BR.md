@@ -8,6 +8,13 @@
 
 Osciladores de fase com memória contínua nas arestas comparam relações unilaterais, mútuas, aninhadas e pareadas.
 
+
+## Auditoria da execução
+
+**Contexto ou pós-processamento.** Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-entre-01-observer) · [simulate_observer_observed_relations.py](code/en/simulate_observer_observed_relations.py#L116)
+
 ## Material disponível
 
 ![Observador e observado](results/figures/observador-observado-relacoes.png)

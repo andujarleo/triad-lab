@@ -14,6 +14,13 @@ Imported historical record; this organization did not rerun the simulation.
 
 ![Original run figure](results/figures/overview.png)
 
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. Same nest continued to T=60; the shared t=8 result agrees with the short run.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-34) · [simulate_long_gaussian_nest.py](code/simulate_long_gaussian_nest.py#L36) · [simulate_long_gaussian_nest.py](code/simulate_long_gaussian_nest.py#L471) · [simulate_long_gaussian_nest.py](code/simulate_long_gaussian_nest.py#L441)
+
 ## Available material
 
 70 files associated with this entry: 4 `.csv`, 1 `.json`, 1 `.md`, 12 `.npy`, 51 `.png`, 1 `.txt`.

@@ -11,6 +11,13 @@ Registros visuais preservados do material recebido. A execução exata que gerou
 ![Figura histórica preservada](../field-visualizations/results/figures/nebulosa.png)
 
 
+
+## Auditoria da execução
+
+**Contexto ou pós-processamento.** Comparações visuais preservadas sem associação estabelecida com uma rodada geradora.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-visual-comparisons) · [README.md](README.md#L5)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

@@ -1,6 +1,7 @@
 # Preserve working-file bytes across platforms, including numerical source files.
 simulations/** -text
 docs/reference/** -text
+research/sources/author-supplied/** -text
 # Large recorded arrays and animations are stored with Git LFS.
 *.npy filter=lfs diff=lfs merge=lfs -text
 *.npz filter=lfs diff=lfs merge=lfs -text

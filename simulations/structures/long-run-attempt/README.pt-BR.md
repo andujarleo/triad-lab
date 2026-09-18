@@ -12,6 +12,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 Esta ficha remete às listagens e dependências do registro histórico; não há um script de execução dedicado associado a ela.
 
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** Somente nota de preparação; as saídas efetivas de longo prazo pertencem a outras entradas.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-11) · [original-record.md](notes/original-record.md#L10)
+
 ## Material disponível
 
 1 arquivo associado à ficha: 1 `.md`.

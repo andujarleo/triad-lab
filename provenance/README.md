@@ -4,6 +4,10 @@ The original numerical record is preserved independently of its old folder names
 
 | Record | Purpose / Finalidade |
 |---|---|
+| [Universe migration](universe-migration.json) | Previous paths at `d9c4ecb` → Research/Simulations layout; protected before/after hashes |
+| [Execution audit](../docs/en/execution-audit.md) · [Português](../docs/pt-BR/execution-audit.md) | 65 study classifications, 17 source-linked findings and comparison limits |
+| [Execution audit data](execution-audit.json) | Coverage, structured findings and file inventory with current paths |
+| [Research sources](../research/sources/catalog.json) | 21 intact supplied documents, source hashes and reciprocal theme relationships |
 | [Migration ledger](layout-migration.json) | Every old tracked path → current destination; original and current content hashes |
 | [Document link patches](document-link-changes.json) | Reversible link-only changes; source prose, equations and fenced code preserved |
 | [Unresolved references](unresolved-document-links.json) | Missing or ambiguous historical links kept visible as text |
@@ -36,3 +40,11 @@ Exact-byte consolidation does not merge experiments. Each study keeps all origin
 A consolidação por bytes não une experimentos. Cada estudo mantém suas associações originais em `simulations/catalog.json`. Hashes diferentes continuam separados, mesmo quando os nomes coincidem. Traduções de código já existentes foram preservadas; novas traduções não devem duplicar a implementação numérica.
 
 The acquisition-era inspection and coverage JSON files retain their original path vocabulary. Use `previous_destination` in the format-2 manifest or the migration ledger to resolve those paths. They describe inspection of supplied material, not new simulation runs.
+
+## Universe layout · 2026-09-18
+
+The previous layout is recoverable at commit `d9c4ecbcd7322c569d75f9424005fd6c70da5d4f`. The universe migration records 1,364 tracked path moves. All 1,169 protected payloads remain recoverable; the 1,062 non-Markdown payloads are byte-identical. The preserved Markdown changes are reversible navigation-link patches. The migration changes organization and interpretation, not a numerical execution.
+
+A organização anterior pode ser recuperada no commit acima. A migração registra 1.364 caminhos movidos; os 1.169 conteúdos protegidos continuam recuperáveis, e os 1.062 arquivos que não são Markdown mantêm bytes idênticos. A pesquisa acrescenta 21 fontes fornecidas, com hashes próprios. IDs históricos continuam nos catálogos e filtros; nomes legíveis orientam a árvore pública.
+
+The earlier author-rules audit retains its historical paths. Resolve its `experiments/` paths through the universe migration map; the new execution audit uses current `simulations/` paths. Neither inventory represents a rerun.

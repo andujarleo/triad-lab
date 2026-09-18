@@ -19,6 +19,13 @@ Leia a sequência: protocolo → configuração → dados brutos → análise. A
 
 ![Diagnóstico original](results/figures/overlay-observables.png)
 
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Refinos de espaço e passo temporal mantêm os termos conjuntos; a convergência numérica permanece em aberto.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-q01b) · [compare_grid_and_time_step.py](code/compare_grid_and_time_step.py#L38) · [compare_grid_and_time_step.py](code/compare_grid_and_time_step.py#L210) · [compare_grid_and_time_step.py](code/compare_grid_and_time_step.py#L180)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

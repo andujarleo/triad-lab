@@ -8,6 +8,13 @@
 
 Phase oscillators with continuous edge memory compare one-way, mutual, nested and paired relations.
 
+
+## Execution audit
+
+**Context or post-processing.** Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-entre-01-observer) · [simulate_observer_observed_relations.py](code/en/simulate_observer_observed_relations.py#L116)
+
 ## Available material
 
 ![Observer and observed](results/figures/observador-observado-relacoes.png)

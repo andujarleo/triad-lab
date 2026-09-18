@@ -9,6 +9,13 @@
 Two scripts collect and catalogue strings. The referenced cordas.csv is missing. The collector also refers to solver infrastructure; the full historical runtime is not included.
 
 
+
+## Execution audit
+
+**Execution not fully traceable.** The collector imports solver defaults/environment overrides; the recorded rows do not bind every generating configuration.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-string-catalogue) · [colhe_cordas.py](code/colhe_cordas.py#L29) · [colhe_cordas.py](code/colhe_cordas.py#L117)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

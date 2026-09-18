@@ -6,12 +6,19 @@
 
 **Como a memória participa da reorganização espacial contínua?**
 
-O relatório descreve cristalização dinâmica por deslocamentos recorrentes de escala. A norma registrada permanece próxima de um. A estimativa por trajetória gêmea cobre apenas o intervalo curto registrado.
+O relatório descreve cristalização dinâmica por deslocamentos recorrentes de escala em uma configuração reduzida: alpha, Gamma e FDT estão zerados, e permanecem dois campos de memória. A norma registrada fica próxima de um. A estimativa por trajetória gêmea cobre apenas o intervalo curto registrado.
 
 ![Figura histórica preservada](results/figures/density-slices-selected.png)
 
 - [passive-memory-report.md](notes/passive-memory-report.md)
 
+
+
+## Auditoria da execução
+
+**Implementação divergente.** O runner fixa alpha, Gamma e FDT em zero e mantém dois modos de memória.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-passive-r5) · [simulate_passive_memory.py](code/simulate_passive_memory.py#L23) · [simulate_passive_memory.py](code/simulate_passive_memory.py#L72) · [config.json](configuration/config.json#L9)
 
 ## Arquivos e condições de execução
 

@@ -17,6 +17,13 @@ Um script de simulação grava snapshots do campo, e cinco leitores/renderizador
 A imagem estática é compartilhada com o estudo de comparações visuais; o índice mantém sua associação original. O arquivo de entrada `filmes_data.npz` não veio no acervo: a animação e o código foram preservados, mas esse renderizador não pode ser reproduzido diretamente só com os arquivos fornecidos.
 
 
+
+## Auditoria da execução
+
+**Implementação divergente.** A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação. Isso se aplica a simula_filmes; os outros cinco arquivos são leitores/renderizadores.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-field-visualizations) · [simula_filmes.py](code/simula_filmes.py#L109) · [simula_filmes.py](code/simula_filmes.py#L234)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

@@ -14,6 +14,13 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ![Original run figure](results/figures/overview.png)
 
+
+## Execution audit
+
+**Execution not fully traceable.** NLS/memory/bath exploration survives as figures; no source or numerical table fixes the executed operator.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-02) · [original-record.md](notes/original-record.md#L10)
+
 ## Available material
 
 8 files associated with this entry: 1 `.md`, 7 `.png`.

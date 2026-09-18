@@ -11,6 +11,13 @@ Two recorded studies examine atom–string relations and changes in box size and
 ![Preserved historical figure](results/figures/L-e-A-curvas.png)
 
 
+
+## Execution audit
+
+**Implementation differs.** The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-string-structure-tests) · [probe_box_size_and_amplitude.py](code/probe_box_size_and_amplitude.py#L131) · [probe_box_size_and_amplitude.py](code/probe_box_size_and_amplitude.py#L256) · [teste_atomo_corda.py](code/teste_atomo_corda.py#L124) · [teste_atomo_corda.py](code/teste_atomo_corda.py#L249)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

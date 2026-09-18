@@ -8,6 +8,13 @@
 
 Adds eight channels named after neurotransmitters, coupled to phase, edge and memory dynamics.
 
+
+## Execution audit
+
+**Context or post-processing.** Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation. Optional chemistry/life layers are model switches, not direct P1/P2/P3 ablations.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-entre-03-chemistry) · [simulate_neurotransmitters_between.py](code/en/simulate_neurotransmitters_between.py#L113)
+
 ## Available material
 
 ![Eight coupled channels](results/figures/neurotransmissores-mudanca-no-entre.png)

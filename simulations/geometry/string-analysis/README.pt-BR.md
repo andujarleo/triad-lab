@@ -8,6 +8,13 @@
 
 Faz o pós-processamento de um estado salvo em filamentos de densidade, curvas de fase quando disponíveis e cordas-nota espectrais.
 
+
+## Auditoria da execução
+
+**Contexto ou pós-processamento.** Pós-processamento de estados de campo salvos; esta entrada não evolui a equação completa.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-bravais-02-strings) · [cordas_arte.py](code/cordas_arte.py#L1)
+
 ## Material disponível
 
 ![Cordas de um estado salvo](results/figures/cordas-densidade.png)

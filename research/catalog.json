@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "languages": [
+    "en",
+    "pt-BR"
+  ],
+  "topics": [
+    {
+      "id": "process-and-persistence",
+      "slug": "process-and-persistence",
+      "folder": "research/process-and-persistence",
+      "title": {
+        "en": "Process and persistence",
+        "pt-BR": "Processo e permanência"
+      },
+      "summary": {
+        "en": "How can a form persist while it changes?",
+        "pt-BR": "Como uma forma pode permanecer enquanto muda?"
+      },
+      "docs": {
+        "en": "research/process-and-persistence/README.md",
+        "pt-BR": "research/process-and-persistence/README.pt-BR.md"
+      },
+      "source_ids": [
+        "cosmic-pulse-and-change",
+        "energy-from-foundations-to-frontiers",
+        "vibrational-ontology-and-geometry",
+        "persistence-through-movement",
+        "lineages-of-pulse-and-form",
+        "dynamic-tetractys"
+      ],
+      "study_ids": [
+        "passive-r5",
+        "t-39",
+        "q03"
+      ]
+    },
+    {
+      "id": "memory-and-self-reference",
+      "slug": "memory-and-self-reference",
+      "folder": "research/memory-and-self-reference",
+      "title": {
+        "en": "Memory and self-reference",
+        "pt-BR": "Memória e autorreferência"
+      },
+      "summary": {
+        "en": "How does a system’s history act in its present?",
+        "pt-BR": "Como a história de um sistema atua em seu presente?"
+      },
+      "docs": {
+        "en": "research/memory-and-self-reference/README.md",
+        "pt-BR": "research/memory-and-self-reference/README.pt-BR.md"
+      },
+      "source_ids": [
+        "cosmic-pulse-and-change",
+        "vibrational-ontology-and-geometry",
+        "structural-review-of-vibrational-ontology",
+        "persistence-through-movement",
+        "two-channel-field-computing",
+        "sound-expectation-and-emotion"
+      ],
+      "study_ids": [
+        "t-23",
+        "t-39",
+        "causal-traces"
+      ]
+    },
+    {
+      "id": "sound-and-resonance",
+      "slug": "sound-and-resonance",
+      "folder": "research/sound-and-resonance",
+      "title": {
+        "en": "Sound and resonance",
+        "pt-BR": "Som e ressonância"
+      },
+      "summary": {
+        "en": "How do relationships and spaces shape a response?",
+        "pt-BR": "Como relações e espaços dão forma a uma resposta?"
+      },
+      "docs": {
+        "en": "research/sound-and-resonance/README.md",
+        "pt-BR": "research/sound-and-resonance/README.pt-BR.md"
+      },
+      "source_ids": [
+        "mesopotamian-tuning",
+        "strings-and-musical-ratios",
+        "dynamic-tetractys",
+        "megalithic-chambers-and-brain-frequencies",
+        "historical-acoustics-research",
+        "cave-resonance-and-modes",
+        "ancient-sound-and-architectural-space"
+      ],
+      "study_ids": [
+        "vibrations",
+        "bravais-02-strings",
+        "q03"
+      ]
+    },
+    {
+      "id": "music-and-experience",
+      "slug": "music-and-experience",
+      "folder": "research/music-and-experience",
+      "title": {
+        "en": "Music and experience",
+        "pt-BR": "Música e experiência"
+      },
+      "summary": {
+        "en": "What returns when a musical idea changes?",
+        "pt-BR": "O que retorna quando uma ideia musical se transforma?"
+      },
+      "docs": {
+        "en": "research/music-and-experience/README.md",
+        "pt-BR": "research/music-and-experience/README.pt-BR.md"
+      },
+      "source_ids": [
+        "beethoven-mozart-symphonic-form",
+        "sound-symbol-and-transmission",
+        "sound-expectation-and-emotion"
+      ],
+      "study_ids": [
+        "vibrations",
+        "bravais-02-strings"
+      ]
+    },
+    {
+      "id": "fields-and-computation",
+      "slug": "fields-and-computation",
+      "folder": "research/fields-and-computation",
+      "title": {
+        "en": "Fields and computation",
+        "pt-BR": "Campos e computação"
+      },
+      "summary": {
+        "en": "What can a field with history compute?",
+        "pt-BR": "O que um campo com história pode computar?"
+      },
+      "docs": {
+        "en": "research/fields-and-computation/README.md",
+        "pt-BR": "research/fields-and-computation/README.pt-BR.md"
+      },
+      "source_ids": [
+        "energy-from-foundations-to-frontiers",
+        "structural-review-of-vibrational-ontology",
+        "persistence-through-movement",
+        "two-channel-field-computing",
+        "neural-fields-and-wilson-cowan"
+      ],
+      "study_ids": [
+        "persistent-universe",
+        "entre-04-life-filter",
+        "wifi-input"
+      ]
+    },
+    {
+      "id": "cosmologies-and-symbols",
+      "slug": "cosmologies-and-symbols",
+      "folder": "research/cosmologies-and-symbols",
+      "title": {
+        "en": "Cosmologies and symbols",
+        "pt-BR": "Cosmologias e símbolos"
+      },
+      "summary": {
+        "en": "How do movement and relationships become a language?",
+        "pt-BR": "Como movimento e relações ganham uma linguagem?"
+      },
+      "docs": {
+        "en": "research/cosmologies-and-symbols/README.md",
+        "pt-BR": "research/cosmologies-and-symbols/README.pt-BR.md"
+      },
+      "source_ids": [
+        "cosmic-pulse-and-change",
+        "field-equation-and-ancient-concepts",
+        "vibrational-ontology-and-geometry",
+        "structural-review-of-vibrational-ontology",
+        "lineages-of-pulse-and-form",
+        "mesopotamian-tuning",
+        "dynamic-tetractys",
+        "historical-acoustics-research",
+        "ancient-sound-and-architectural-space",
+        "light-eye-and-geometric-symbols",
+        "sound-symbol-and-transmission"
+      ],
+      "study_ids": [
+        "entre-02-between"
+      ]
+    },
+    {
+      "id": "signals-and-interpretation",
+      "slug": "signals-and-interpretation",
+      "folder": "research/signals-and-interpretation",
+      "title": {
+        "en": "Signals and interpretation",
+        "pt-BR": "Sinais e interpretação"
+      },
+      "summary": {
+        "en": "What does a representation reveal about a process?",
+        "pt-BR": "O que uma representação permite ler de um processo?"
+      },
+      "docs": {
+        "en": "research/signals-and-interpretation/README.md",
+        "pt-BR": "research/signals-and-interpretation/README.pt-BR.md"
+      },
+      "source_ids": [
+        "energy-from-foundations-to-frontiers",
+        "megalithic-chambers-and-brain-frequencies",
+        "cave-resonance-and-modes",
+        "two-channel-field-computing",
+        "sound-symbol-and-transmission",
+        "giza-sar-signal-and-reconstruction",
+        "sound-expectation-and-emotion"
+      ],
+      "study_ids": [
+        "t-21",
+        "t-22",
+        "bravais-02-strings",
+        "t-36"
+      ]
+    }
+  ]
+}

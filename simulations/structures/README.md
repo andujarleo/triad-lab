@@ -11,7 +11,7 @@
 | [Long-run attempt](long-run-attempt/README.md) | — | — | — |
 | [Fast 3D long run](fast-3d-long-run/README.md) | — | — | ✓ |
 | [Compact 3D long run](compact-3d-long-run/README.md) | — | — | ✓ |
-| [Twelve atoms, full field](twelve-atoms-full-field/README.md) | ✓ | ✓ | ✓ |
+| [Twelve initial atoms](twelve-atoms-full-field/README.md) | ✓ | ✓ | ✓ |
 | [3D atom trajectories](3d-atom-trajectories/README.md) | ✓ | ✓ | ✓ |
 | [Two atoms](two-atoms/README.md) | ✓ | ✓ | ✓ |
 | [Nested positive Gaussians](nested-positive-gaussians/README.md) | ✓ | ✓ | ✓ |

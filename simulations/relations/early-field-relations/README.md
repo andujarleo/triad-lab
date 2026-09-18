@@ -14,6 +14,13 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ![Original run figure](results/figures/simulation-overview.png)
 
+
+## Execution audit
+
+**Execution not fully traceable.** Only field-relation images and an isolated/coupled description remain; no generator or numerical table.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-01) · [original-record.md](notes/original-record.md#L10)
+
 ## Available material
 
 7 files associated with this entry: 1 `.md`, 6 `.png`.

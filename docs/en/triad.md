@@ -2,7 +2,7 @@
 
 # One underlying reality. Many possible forms.
 
-TRIAD begins with Leonardo Andujar’s hypothesis that a single equation describes the deepest layer of the universe. Matter, interactions and what we experience as reality would emerge from that underlying dynamics. The proposal includes the idea that we live in a simulation.
+TRIAD’s ontology places one immutable equation at the deepest layer of reality. In Leonardo Andujar’s formulation, matter and interactions emerge from that underlying dynamics, and reality is read as a simulation. This is the project’s foundational position.
 
 **TRIAD is nonstandard quantum physics, with an ontological foundation.** Ontology asks what exists and what it is made of. The project’s equation is unique, immutable and indivisible; the lab explores its complete dynamics through implementations and recorded trajectories.
 
@@ -50,7 +50,7 @@ The [reference-document index](../reference/equation/README.md) preserves revisi
 
 The system self-organizes without external calibration toward a desired result. Crystallization is dynamic: patterns can oscillate, redistribute and reorganize. A fixed crystal is not the target imposed on the field. The [project rules](project-rules.md) connect this reading to technical verification.
 
-## From a large hypothesis to a readable experiment
+## From the ontology to a recorded study
 
 An individual study starts with a question that can be followed through its files. Does a concentrated region spread? Does a pattern persist? Does a later response carry an earlier history?
 

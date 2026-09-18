@@ -2,13 +2,13 @@
 
 # Por que este lab existe
 
-**Leonardo Andujar criou a TRIAD como um projeto independente para investigar uma ideia sobre a camada mais profunda da realidade.** Sua hipótese central é que uma equação de base possa dar origem às muitas formas que chamamos de matéria, interação e universo.
+**Leonardo Andujar criou a TRIAD como um projeto independente para investigar uma ideia sobre a camada mais profunda da realidade.** Sua posição fundadora é que uma equação de base dá origem às muitas formas compreendidas na TRIAD como matéria, interação e universo.
 
 A ambição do projeto é ampla: simular fenômenos diferentes e publicar o trabalho aqui, tornando cada experimento compreensível tanto para quem chega por curiosidade quanto para quem chega para examinar o código.
 
 ## O ponto de vista do autor
 
-A TRIAD é física quântica não padrão com um ponto de partida ontológico. Ela pergunta do que a realidade é feita e explora a hipótese de que o universo é uma simulação. Seu vocabulário coloca átomos, vibração, memória e suas interações no centro dessa investigação.
+A TRIAD é física quântica não padrão com um ponto de partida ontológico. Ela pergunta do que a realidade é feita e lê o universo como uma simulação. Seu vocabulário coloca átomos, vibração, memória e suas interações no centro dessa investigação.
 
 O [mapa conceitual](triad.md) apresenta essa perspectiva. A [referência da equação](../reference/equation/README.md) registra sua formulação matemática. Os [estudos](../../simulations/README.pt-BR.md) mostram o que foi implementado e registrado.
 

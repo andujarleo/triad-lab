@@ -14,6 +14,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ![Figura original do run](results/figures/iso-1atom-t0-tpeak.png)
 
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Janelas iniciais de uma e duas sementes; picos finitos ainda podem ocupar uma célula.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-35) · [simulate_early_peak.py](code/simulate_early_peak.py#L51) · [simulate_early_peak.py](code/simulate_early_peak.py#L239) · [simulate_early_peak.py](code/simulate_early_peak.py#L257) · [simulate_early_peak.py](code/simulate_early_peak.py#L332)
+
 ## Material disponível
 
 11 arquivo associado à ficha: 2 `.csv`, 1 `.json`, 1 `.md`, 6 `.png`, 1 `.txt`.

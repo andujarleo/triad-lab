@@ -8,6 +8,13 @@
 
 Evolves a complex field on a periodic 3D grid, with FFTs, a coupled proposal and an implicit fixed point.
 
+
+## Execution audit
+
+**Implementation differs.** The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-bravais-01-field) · [bravais_puro_3d.py](code/pt-BR/bravais_puro_3d.py#L116) · [bravais_puro_3d.py](code/pt-BR/bravais_puro_3d.py#L241) · [bravais_puro_3d.py](variants/phase-checkpoints/code/bravais_puro_3d.py#L116) · [bravais_puro_3d.py](variants/phase-checkpoints/code/bravais_puro_3d.py#L241)
+
 ## Available material
 
 ![Emergent 3D field](results/figures/final-density-slices.png)

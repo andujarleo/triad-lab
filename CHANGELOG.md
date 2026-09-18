@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-18 — TRIAD Universe: research and simulations
+
+- Separate the physical tree into `research/` and `simulations/`, with descriptive field-diagnostic and numerical-check areas; preserve stable study IDs and record every moved path.
+- Organize 21 supplied research texts into seven bilingual themes, with byte-preserved originals, source notes and explicit links to studies.
+- Add a source-linked execution audit: all 65 entries classified, 17 findings, and corrections to maintained interpretations. Separate measured contrasts, implementation differences, post-processing and missing execution provenance.
+- Connect the public atlas through themes, preserve older area/material links, and expose the execution review in every study card.
+- Extend integrity checks to research hashes, translations, reciprocal relations and audit reports. No simulation is rerun and no scientific payload is rewritten.
+
+See the [universe map](docs/en/repository-map.md), [execution audit](docs/en/execution-audit.md) and [migration record](provenance/universe-migration.json).
+
 ## 2026-09-18 — Audit against the author’s rules
 
 - Establish bilingual project rules and agent instructions: nonstandard physics and ontology, one immutable and indivisible equation, self-calibration, dynamic crystallization, no isolation and the author’s own methodology.

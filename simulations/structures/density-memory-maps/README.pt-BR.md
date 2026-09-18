@@ -4,7 +4,7 @@
 
 # Mapas de densidade e memória
 
-Snapshots relacionam densidade, memória, resíduo e potencial de memória; o alinhamento relatado é transitório.
+Snapshots comparam densidade, memória, resíduo e potencial de memória antes e depois de uma entrada gaussiana em t=0,5. O alinhamento local relatado é transitório; o registro também o compara com o campo ao redor.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
@@ -13,6 +13,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 [Script preservado](code/simulate_density_memory_maps.py) · [Dependências e portabilidade](../../../provenance/t-archive/dependencies.pt-BR.md)
 
 ![Figura original do run](results/figures/mapa-0p000.png)
+
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. O runner evolui novamente o caso do bolso plantado e registra mapas de densidade/memória; não é só leitor de imagens.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-39) · [simulate_density_memory_maps.py](code/simulate_density_memory_maps.py#L11) · [simulate_density_memory_maps.py](code/simulate_density_memory_maps.py#L43) · [simulate_density_memory_maps.py](code/simulate_density_memory_maps.py#L140)
 
 ## Material disponível
 

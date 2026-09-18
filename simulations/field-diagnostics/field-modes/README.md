@@ -18,6 +18,13 @@ Read in order: protocol → configuration → raw data → analysis. These class
 
 ![Original diagnostic](results/figures/explained-variance-spectrum.png)
 
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. The source includes evolution and passive POD/DMD; its post-processing correction is declared.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-q03) · [analyze_field_modes.py](code/analyze_field_modes.py#L52) · [analyze_field_modes.py](code/analyze_field_modes.py#L274) · [analyze_field_modes.py](code/analyze_field_modes.py#L292) · [analyze_field_modes.py](code/analyze_field_modes.py#L235)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

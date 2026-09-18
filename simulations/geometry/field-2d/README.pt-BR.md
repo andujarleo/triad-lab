@@ -11,6 +11,13 @@ Quatro implementações geométricas estão reunidas aqui: três usam campos 2D,
 ![Figura histórica preservada](results/figures/bravais-2d-emergent.png)
 
 
+
+## Auditoria da execução
+
+**Implementação divergente.** As implementações 1D/2D fornecidas incluem normalização durante a trajetória ou guards e divergem da evolução de referência; a expressão de dissipação do caso 2D puro atua como fase.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-field-2d) · [bravais_emergent_coupled.py](code/bravais_emergent_coupled.py#L109) · [bravais_pure_emerge.py](code/bravais_pure_emerge.py#L208)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

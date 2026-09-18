@@ -4,13 +4,20 @@
 
 # Dois bolsos
 
-Bolsos plantados de sinais opostos e suas métricas salvas; a persistência não foi estabelecida no registro.
+Dois bolsos gaussianos de sinais opostos são adicionados em t=0,5. As métricas salvas acompanham essa entrada declarada; a persistência não foi estabelecida no intervalo registrado.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
 [Ler a nota original](notes/original-record.md) · [Todos os arquivos](FILES.md)
 
 [Script preservado](code/simulate_two_field_pockets.py) · [Dependências e portabilidade](../../../provenance/t-archive/dependencies.pt-BR.md)
+
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Duas entradas gaussianas declaradas, com sinais opostos, são somadas em t=0,5.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-38) · [simulate_two_field_pockets.py](code/simulate_two_field_pockets.py#L11) · [simulate_two_field_pockets.py](code/simulate_two_field_pockets.py#L43) · [simulate_two_field_pockets.py](code/simulate_two_field_pockets.py#L88)
 
 ## Material disponível
 

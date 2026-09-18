@@ -14,6 +14,13 @@ Um protótipo registra continuidade por checkpoint com um milhão de modos resid
 - [run-notes.md](notes/run-notes.md)
 
 
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** Há checkpoints modais, leituras e testes de continuidade; a evolução é delegada a uma biblioteca nativa externa ausente das fontes fornecidas.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-persistent-universe) · [genesis_modal.py](code/genesis_modal.py#L30) · [genesis_modal.py](code/genesis_modal.py#L98) · [genesis_modal.py](code/genesis_modal.py#L156)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

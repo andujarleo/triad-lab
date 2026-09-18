@@ -1,6 +1,6 @@
 [Lab](../../README.md) · [Português](README.pt-BR.md)
 
-# Validation
+# Numerical checks
 
 **How do we check the story the figures seem to tell?**
 

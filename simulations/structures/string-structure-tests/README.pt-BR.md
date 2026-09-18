@@ -11,6 +11,13 @@ Dois estudos registrados examinam relações entre átomos e cordas e mudanças 
 ![Figura histórica preservada](results/figures/L-e-A-curvas.png)
 
 
+
+## Auditoria da execução
+
+**Implementação divergente.** A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-string-structure-tests) · [probe_box_size_and_amplitude.py](code/probe_box_size_and_amplitude.py#L131) · [probe_box_size_and_amplitude.py](code/probe_box_size_and_amplitude.py#L256) · [teste_atomo_corda.py](code/teste_atomo_corda.py#L124) · [teste_atomo_corda.py](code/teste_atomo_corda.py#L249)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

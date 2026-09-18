@@ -14,6 +14,13 @@ Imported historical record; this organization did not rerun the simulation.
 
 ![Original run figure](results/figures/overview.png)
 
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. Concentric positive seeds; the recorded two-scale flag lasts through t=0.02.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-31) · [simulate_nested_gaussians.py](code/simulate_nested_gaussians.py#L33) · [simulate_nested_gaussians.py](code/simulate_nested_gaussians.py#L374) · [simulate_nested_gaussians.py](code/simulate_nested_gaussians.py#L344)
+
 ## Available material
 
 28 files associated with this entry: 3 `.csv`, 1 `.json`, 1 `.md`, 5 `.npy`, 17 `.png`, 1 `.txt`.

@@ -4,13 +4,20 @@
 
 # Two pockets
 
-Positive/negative planted pockets and their saved metrics; persistence was not established in the record.
+Two Gaussian pockets with opposite signs are added at t=0.5. Their saved metrics follow this declared input; persistence was not established in the recorded interval.
 
 Imported historical record; this organization did not rerun the simulation.
 
 [Read the original note](notes/original-record.md) · [Every file](FILES.md)
 
 [Preserved runner](code/simulate_two_field_pockets.py) · [Dependencies and portability](../../../provenance/t-archive/dependencies.md)
+
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. Two declared signed Gaussian inputs are added at t=0.5.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-38) · [simulate_two_field_pockets.py](code/simulate_two_field_pockets.py#L11) · [simulate_two_field_pockets.py](code/simulate_two_field_pockets.py#L43) · [simulate_two_field_pockets.py](code/simulate_two_field_pockets.py#L88)
 
 ## Available material
 

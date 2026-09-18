@@ -14,6 +14,13 @@ Imported historical record; this organization did not rerun the simulation.
 
 ![Original run figure](results/figures/overview.png)
 
+
+## Execution audit
+
+**Implementation differs.** The run sets alpha=0 and uses two memory modes; its bath is active.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-29) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L2) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L27) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L189) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L213)
+
 ## Available material
 
 10 files associated with this entry: 2 `.csv`, 1 `.json`, 1 `.md`, 6 `.png`.

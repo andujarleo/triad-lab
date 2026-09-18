@@ -8,6 +8,13 @@
 
 Estende o controle químico com quatro horizontes de memória contínua e um vetor de filtro pessoal por entidade.
 
+
+## Auditoria da execução
+
+**Contexto ou pós-processamento.** Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa. Camadas opcionais de química/vida são escolhas do modelo, não ablações diretas de P1/P2/P3.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-entre-04-life-filter) · [simulate_life_filter_between.py](code/en/simulate_life_filter_between.py#L139)
+
 ## Material disponível
 
 ![Memória e filtro de vida](results/figures/memoria-filtro-vida-mudanca.png)

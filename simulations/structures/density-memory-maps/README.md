@@ -4,7 +4,7 @@
 
 # Density–memory maps
 
-Snapshots connect density, memory, residual and memory potential; the reported alignment is transient.
+Snapshots compare density, memory, residual and memory potential before and after a Gaussian input at t=0.5. The reported local alignment is transient; the record also compares it with the surrounding field.
 
 Imported historical record; this organization did not rerun the simulation.
 
@@ -13,6 +13,13 @@ Imported historical record; this organization did not rerun the simulation.
 [Preserved runner](code/simulate_density_memory_maps.py) · [Dependencies and portability](../../../provenance/t-archive/dependencies.md)
 
 ![Original run figure](results/figures/mapa-0p000.png)
+
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. The runner re-evolves the planted-pocket case and records density/memory maps; it is not only an image reader.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-39) · [simulate_density_memory_maps.py](code/simulate_density_memory_maps.py#L11) · [simulate_density_memory_maps.py](code/simulate_density_memory_maps.py#L43) · [simulate_density_memory_maps.py](code/simulate_density_memory_maps.py#L140)
 
 ## Available material
 

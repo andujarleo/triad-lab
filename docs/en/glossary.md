@@ -10,7 +10,7 @@ In the author’s operational reading, **one Gaussian packet is one atom**: a lo
 
 ## Matter and universe
 
-TRIAD’s ontological hypothesis treats matter and its forms as emerging from a deeper dynamics. “Universe as simulation” names the author’s broad hypothesis; within a run, “universe” also names the filled volume being simulated. The [original universe note](../reference/concepts/universe-as-simulation.md) explains that operational use.
+TRIAD’s ontology treats matter and its forms as emerging from a deeper dynamics. “Universe as simulation” names the author’s ontological position; within a run, “universe” also names the filled volume being simulated. The [original universe note](../reference/concepts/universe-as-simulation.md) explains that operational use.
 
 ## Vibration and friction
 

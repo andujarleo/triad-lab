@@ -20,6 +20,13 @@ Leia a sequência: protocolo → configuração → dados brutos → análise. A
 
 ![Diagnóstico original](results/figures/late-distributions.png)
 
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. As 32 sementes registradas são finitas; o lote usa complex64/float32 e declara a mudança de precisão.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-q02) · [simulate_seed_ensemble.py](code/simulate_seed_ensemble.py#L45) · [simulate_seed_ensemble.py](code/simulate_seed_ensemble.py#L281) · [simulate_seed_ensemble.py](code/simulate_seed_ensemble.py#L242)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

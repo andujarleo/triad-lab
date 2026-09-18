@@ -11,6 +11,13 @@ Post-processing measures spatial structure through the definitions and threshold
 ![Preserved historical figure](results/figures/dim-caixas.png)
 
 
+
+## Execution audit
+
+**Context or post-processing.** Post-processing of saved field states; this item does not evolve the complete equation.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-dimension-analysis) · [bravais_dimensoes.py](code/bravais_dimensoes.py#L1)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

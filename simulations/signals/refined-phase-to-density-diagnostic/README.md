@@ -4,7 +4,7 @@
 
 # Refined phase-to-density diagnostic
 
-A refined comparison uses a matched-noise control; read it alongside the earlier failed estimator.
+The refined comparison uses a matched-noise control and changes both the stimulus and the measurement: epsilon rises from 0.07 to 0.15, width changes from 1.3 to 1.25, and the probe window grows from 1.8 to 5. Arrival and RMS velocities are different diagnostic readouts; read them alongside the earlier failed estimator.
 
 Imported historical record; this organization did not rerun the simulation.
 
@@ -13,6 +13,13 @@ Imported historical record; this organization did not rerun the simulation.
 No dedicated runner is linked in this entry. Consult the note and complete record for historical listings and dependencies.
 
 ![Original run figure](results/figures/overview.png)
+
+
+## Execution audit
+
+**Execution not fully traceable.** The refined detector changes the stimulus and observation window; its generator is absent.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-22) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
 
 ## Available material
 

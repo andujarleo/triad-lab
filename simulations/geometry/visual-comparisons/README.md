@@ -11,6 +11,13 @@ Visual records retained from the supplied material. Their exact generating run h
 ![Preserved historical figure](../field-visualizations/results/figures/nebulosa.png)
 
 
+
+## Execution audit
+
+**Context or post-processing.** Preserved visual comparisons without an established generating-run association.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-visual-comparisons) · [README.md](README.md#L5)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

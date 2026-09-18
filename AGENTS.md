@@ -20,6 +20,8 @@ Read the [project rules](docs/en/project-rules.md) ([português](docs/pt-BR/proj
 
 ## Organization and delivery
 
+- Keep `research/` for themes, readings and preserved research sources, and `simulations/` for implementation/execution records. Connect them through explicit, reciprocal catalog relationships; do not duplicate original files across themes. Shared historical references stay in `docs/reference/`.
+- Every simulation entry has a bilingual `rule_audit` linked to the execution audit. Explain exactly which operators, inputs or diagnostics differ; claim a change in numerical behavior only when saved measurements support it.
 - Use descriptive names and one study folder with its associated code, notes, configurations and outputs. Preserve source associations in the catalog and ledger.
 - Maintain English and Brazilian Portuguese together. Link translations; avoid duplicating numerical implementations for new languages.
 - Keep the public site sourced from the catalog. Identify saved spatial slices, reconstructed visualizations and new numerical executions accurately.

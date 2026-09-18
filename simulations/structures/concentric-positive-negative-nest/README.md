@@ -14,6 +14,13 @@ Imported historical record; this organization did not rerun the simulation.
 
 ![Original run figure](results/figures/overview.png)
 
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. Signed concentric nest; shell and sign flags have different recorded lifetimes.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-33) · [simulate_signed_gaussian_nest.py](code/simulate_signed_gaussian_nest.py#L33) · [simulate_signed_gaussian_nest.py](code/simulate_signed_gaussian_nest.py#L466) · [simulate_signed_gaussian_nest.py](code/simulate_signed_gaussian_nest.py#L436)
+
 ## Available material
 
 51 file associated with this entry: 4 `.csv`, 1 `.json`, 1 `.md`, 12 `.npy`, 32 `.png`, 1 `.txt`.

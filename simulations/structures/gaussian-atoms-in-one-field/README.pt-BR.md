@@ -14,6 +14,13 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ![Figura original do run](results/figures/overview.png)
 
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** A exploração com múltiplas gaussianas tem figuras, sem fonte salva ou CSV.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-04) · [original-record.md](notes/original-record.md#L10)
+
 ## Material disponível
 
 8 arquivos associados à ficha: 1 `.md`, 7 `.png`.

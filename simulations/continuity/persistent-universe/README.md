@@ -14,6 +14,13 @@ A prototype records checkpoint continuation with one million resident modes. The
 - [run-notes.md](notes/run-notes.md)
 
 
+
+## Execution audit
+
+**Execution not fully traceable.** Modal checkpoints/readouts and continuation tests exist; the evolution is delegated to an external native library absent from the supplied source.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-persistent-universe) · [genesis_modal.py](code/genesis_modal.py#L30) · [genesis_modal.py](code/genesis_modal.py#L98) · [genesis_modal.py](code/genesis_modal.py#L156)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

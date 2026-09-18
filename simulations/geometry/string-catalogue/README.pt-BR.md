@@ -9,6 +9,13 @@
 Dois scripts coletam e catalogam cordas. O arquivo cordas.csv referenciado está ausente. O coletor também depende da infraestrutura do solver; o runtime histórico completo não foi incluído.
 
 
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** O coletor importa padrões do solver e sobreposições de ambiente; as linhas registradas não fixam todas as configurações geradoras.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-string-catalogue) · [colhe_cordas.py](code/colhe_cordas.py#L29) · [colhe_cordas.py](code/colhe_cordas.py#L117)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

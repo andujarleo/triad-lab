@@ -19,6 +19,13 @@ Leia a sequência: protocolo → configuração → dados brutos → análise. A
 
 ![Diagnóstico original](results/figures/overlay-observables.png)
 
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. A convergência espacial permanece em aberto; o espectro registrado acompanha o corte da malha.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-q01) · [measure_spatial_convergence.py](code/measure_spatial_convergence.py#L36) · [measure_spatial_convergence.py](code/measure_spatial_convergence.py#L193) · [measure_spatial_convergence.py](code/measure_spatial_convergence.py#L165)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

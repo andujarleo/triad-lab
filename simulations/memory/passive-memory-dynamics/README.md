@@ -6,12 +6,19 @@
 
 **How does memory participate in continuing spatial reorganization?**
 
-The report describes dynamic crystallization through recurring shifts of scale. The recorded norm remains near one. Its twin-trajectory estimate covers only the recorded short interval.
+The report describes dynamic crystallization through recurring shifts of scale in a reduced configuration: alpha, Gamma and FDT are zero, and two memory fields remain. The recorded norm stays near one. Its twin-trajectory estimate covers only the recorded short interval.
 
 ![Preserved historical figure](results/figures/density-slices-selected.png)
 
 - [passive-memory-report.md](notes/passive-memory-report.md)
 
+
+
+## Execution audit
+
+**Implementation differs.** The runner sets alpha, Gamma and FDT to zero and retains two memory modes.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-passive-r5) · [simulate_passive_memory.py](code/simulate_passive_memory.py#L23) · [simulate_passive_memory.py](code/simulate_passive_memory.py#L72) · [config.json](configuration/config.json#L9)
 
 ## Files and execution context
 

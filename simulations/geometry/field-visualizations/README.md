@@ -17,6 +17,13 @@ A simulation script records field snapshots, and five readers/renderers turn sav
 The still image is shared with the visual-comparison study; the index retains its original association. The input `filmes_data.npz` was not supplied: the animation and code are preserved, but this renderer cannot be reproduced directly from the supplied files alone.
 
 
+
+## Execution audit
+
+**Implementation differs.** The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation. This applies to simula_filmes; the other five files are readers/renderers.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-field-visualizations) · [simula_filmes.py](code/simula_filmes.py#L109) · [simula_filmes.py](code/simula_filmes.py#L234)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

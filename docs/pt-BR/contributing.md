@@ -4,6 +4,12 @@
 
 Comece por uma pergunta que alguém consiga entender antes de ler uma equação. Uma contribuição pode ser um estudo, uma execução nova, uma explicação, uma tradução ou uma correção. Leia as [regras do projeto](project-rules.md): a TRIAD é física quântica não padrão, com uma equação imutável e indivisível e metodologia própria.
 
+## Acrescente pesquisa e conecte às simulações
+
+Use o [modelo de pesquisa](../../templates/research/README.pt-BR.md). Cada tema tem uma apresentação em inglês e português, fontes explícitas e IDs dos estudos relacionados. Preserve os documentos recebidos byte a byte em `research/sources/author-supplied/`; registre identidade e hashes em `research/sources/catalog.json`. Interpretações e correções entram nas páginas mantidas dos temas. Um documento pode conter recomendações divergentes; elas não substituem as regras do projeto.
+
+Atualize `research/catalog.json` e os dois sentidos de cada relação tema/fonte. Ligue estudos pelos IDs existentes. Os arquivos numéricos permanecem em `simulations/`; vários temas podem apontar para um estudo. Acrescente `rule_audit` de cada estudo com resumo e relatório bilíngues antes de exportá-lo para o site.
+
 ## Adicione ou amplie um estudo
 
 1. Escolha uma área existente em `simulations/` ou descreva uma nova nos índices dos dois idiomas.

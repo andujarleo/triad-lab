@@ -13,7 +13,7 @@ A sequence with a specification, protocols, configurations, seeds, raw data and 
 | Q01B | [Resolution and timestep](../../../simulations/field-diagnostics/resolution-and-time-step/README.md) | N96 and timestep refinements follow Q01. The record remains INCONCLUSIVE. |
 | Q02 | [A 32-seed ensemble](../../../simulations/field-diagnostics/seed-ensemble/README.md) | An MLX ensemble with both protocol versions preserved. The recorded QM decision is INCONCLUSIVE. |
 | Q03 | [Subspaces and modes](../../../simulations/field-diagnostics/field-modes/README.md) | POD/PCA and DMD examine early and late windows across four seeds. The record does not establish a shared low-rank attractor. |
-| Q04 | [Linearity probes](../../../simulations/field-diagnostics/linearity-tests/README.md) | Two seeds compare A, B and their superposition with matched noise. The protocol deviation and INCONCLUSIVE decision are retained. |
+| Q04 | [Weighted response residual](../../../simulations/field-diagnostics/linearity-tests/README.md) | Two seeds compare A, B and a combined initial state with the same additive-noise realization. That common bath does not cancel from the weighted residual: even an affine linear response retains `(1−a−b)W`. The metric is not a pure superposition test; the original protocol deviation and INCONCLUSIVE decision remain preserved. |
 
 INCONCLUSIVE decisions and protocol deviations are part of the preserved results, attached to the questions and criteria of these records. These protocols are historical material, not the governing methodology for new TRIAD work; see the [project rules](../project-rules.md). The earlier pilots are not relabeled as confirmatory evidence for this sequence.
 

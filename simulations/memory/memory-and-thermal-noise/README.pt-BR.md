@@ -14,6 +14,13 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ![Figura original do run](results/figures/overview.png)
 
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** A exploração NLS/memória/banho foi preservada em figuras; não há fonte ou tabela que fixe o operador executado.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-02) · [original-record.md](notes/original-record.md#L10)
+
 ## Material disponível
 
 8 arquivos associados à ficha: 1 `.md`, 7 `.png`.

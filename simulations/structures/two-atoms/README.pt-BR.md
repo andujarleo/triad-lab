@@ -14,6 +14,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ![Figura original do run](results/figures/overview.png)
 
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Duas sementes gaussianas; o rastreamento do par se perde após t=0,01.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-30) · [simulate_two_atoms.py](code/simulate_two_atoms.py#L33) · [simulate_two_atoms.py](code/simulate_two_atoms.py#L437) · [simulate_two_atoms.py](code/simulate_two_atoms.py#L403)
+
 ## Material disponível
 
 22 arquivos associados à ficha: 2 `.csv`, 1 `.json`, 1 `.md`, 4 `.npy`, 13 `.png`, 1 `.txt`.

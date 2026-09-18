@@ -14,6 +14,13 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ![Original run figure](results/figures/bravais-scores.png)
 
+
+## Execution audit
+
+**Execution not fully traceable.** N=48 numerical metrics and Bravais scores are present; the generator and exact term configuration are absent.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-17) · [original-record.md](notes/original-record.md#L10)
+
 ## Available material
 
 4 files associated with this entry: 2 `.csv`, 1 `.md`, 1 `.png`.

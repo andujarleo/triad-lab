@@ -14,6 +14,13 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ![Original run figure](results/figures/overview.png)
 
+
+## Execution audit
+
+**Execution not fully traceable.** The first phase/density detector has recorded near-zero estimates; its generator is absent.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-21) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
+
 ## Available material
 
 13 files associated with this entry: 2 `.csv`, 1 `.md`, 10 `.png`.

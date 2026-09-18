@@ -14,6 +14,13 @@ Imported historical record; this organization did not rerun the simulation.
 
 ![Original run figure](results/figures/iso-1atom-t0-tpeak.png)
 
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. One- and two-seed early windows; finite peaks may still occupy one grid cell.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-35) · [simulate_early_peak.py](code/simulate_early_peak.py#L51) · [simulate_early_peak.py](code/simulate_early_peak.py#L239) · [simulate_early_peak.py](code/simulate_early_peak.py#L257) · [simulate_early_peak.py](code/simulate_early_peak.py#L332)
+
 ## Available material
 
 11 file associated with this entry: 2 `.csv`, 1 `.json`, 1 `.md`, 6 `.png`, 1 `.txt`.

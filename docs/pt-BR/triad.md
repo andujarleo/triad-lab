@@ -2,7 +2,7 @@
 
 # Uma realidade de base. Muitas formas possíveis.
 
-A TRIAD parte da hipótese de Leonardo Andujar de que uma única equação descreve a camada mais profunda do universo. Matéria, interações e aquilo que experimentamos como realidade emergiriam dessa dinâmica de base. A proposta inclui a ideia de que vivemos em uma simulação.
+A ontologia da TRIAD coloca uma equação imutável na camada mais profunda da realidade. Na formulação de Leonardo Andujar, matéria e interações emergem dessa dinâmica de base, e a realidade é lida como uma simulação. Essa é a posição fundadora do projeto.
 
 **A TRIAD é física quântica não padrão, com fundamento ontológico.** A ontologia pergunta o que existe e do que isso é feito. A equação do projeto é única, imutável e indivisível; o lab explora sua dinâmica completa por meio de implementações e trajetórias registradas.
 
@@ -50,7 +50,7 @@ O [índice da documentação de referência](../reference/equation/README.md) pr
 
 O sistema se auto-organiza sem calibração externa para obter um resultado desejado. A cristalização é dinâmica: os padrões podem oscilar, se redistribuir e se reorganizar. Um cristal fixo não é o alvo imposto ao campo. As [regras do projeto](project-rules.md) conectam essa leitura à verificação técnica.
 
-## De uma hipótese ampla a um experimento compreensível
+## Da ontologia a um estudo registrado
 
 Cada estudo começa com uma pergunta que pode ser acompanhada pelos arquivos. Uma região concentrada se espalha? Um padrão persiste? Uma resposta posterior carrega uma história anterior?
 

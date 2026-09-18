@@ -14,6 +14,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ![Figura original do run](results/figures/overview.png)
 
+
+## Auditoria da execução
+
+**Implementação divergente.** A rodada fixa alpha=0 e usa dois modos de memória; seu banho está ativo.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-29) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L2) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L27) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L189) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L213)
+
 ## Material disponível
 
 10 arquivos associados à ficha: 2 `.csv`, 1 `.json`, 1 `.md`, 6 `.png`.

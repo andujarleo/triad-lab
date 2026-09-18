@@ -11,6 +11,13 @@ Four geometric implementations are grouped here: three use 2D fields, while the 
 ![Preserved historical figure](results/figures/bravais-2d-emergent.png)
 
 
+
+## Execution audit
+
+**Implementation differs.** The supplied 1D/2D implementations include trajectory normalization or guards and differ from the reference evolution; the pure 2D damping expression is phase-like.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-field-2d) · [bravais_emergent_coupled.py](code/bravais_emergent_coupled.py#L109) · [bravais_pure_emerge.py](code/bravais_pure_emerge.py#L208)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

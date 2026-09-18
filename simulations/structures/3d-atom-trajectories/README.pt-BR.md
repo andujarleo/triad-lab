@@ -4,7 +4,7 @@
 
 # Trajetórias de átomos em 3D
 
-Centros e trajetórias estão salvos. O run registra mudança na configuração do banho, portanto é uma configuração própria.
+Centros e trajetórias estão salvos com N=40, T=12 e kT=0,001, chegando à norma final de 23,275045. A execução anterior de doze átomos usava N=32, T=15 e kT=1; a seleção de picos também mudou. A temperatura é uma entrada física alterada, junto a mudanças numéricas e do detector, portanto o contraste não isola um parâmetro.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
@@ -13,6 +13,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 [Script preservado](code/simulate_atom_trajectories.py) · [Dependências e portabilidade](../../../provenance/t-archive/dependencies.pt-BR.md)
 
 ![Figura original do run](results/figures/overview.png)
+
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** O runner de trajetórias 3D mantém três modos de memória e banho, mas importa o runtime histórico não fixado.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-28) · [simulate_atom_trajectories.py](code/simulate_atom_trajectories.py#L24) · [simulate_atom_trajectories.py](code/simulate_atom_trajectories.py#L328)
 
 ## Material disponível
 

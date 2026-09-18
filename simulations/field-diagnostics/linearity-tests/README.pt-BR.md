@@ -4,7 +4,7 @@
 
 # Testando a linearidade
 
-Duas seeds comparam A, B e sua superposição com ruído pareado. O desvio de protocolo e a decisão INCONCLUSIVE foram preservados.
+Duas sementes comparam A, B e sua superposição sob um banho aditivo comum. O residual ponderado registrado inclui uma contribuição do banho que não se cancela; por isso, não isola a resposta não linear. O desvio de protocolo e a decisão histórica INCONCLUSIVE foram preservados.
 
 Leia a sequência: protocolo → configuração → dados brutos → análise. As classificações abaixo pertencem ao registro histórico; não houve nova execução.
 
@@ -17,6 +17,13 @@ Leia a sequência: protocolo → configuração → dados brutos → análise. A
 [Todos os arquivos](FILES.md) · [Dependências](../../../provenance/t-archive/dependencies.pt-BR.md)
 
 ![Diagnóstico original](results/figures/rlin-time.png)
+
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. O residual de superposição inclui o banho aditivo comum; não mede somente a resposta não linear.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-q04) · [probe_field_linearity.py](code/probe_field_linearity.py#L54) · [probe_field_linearity.py](code/probe_field_linearity.py#L245) · [probe_field_linearity.py](code/probe_field_linearity.py#L263) · [probe_field_linearity.py](code/probe_field_linearity.py#L324)
 
 ## Arquivos e condições de execução
 

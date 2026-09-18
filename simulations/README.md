@@ -15,6 +15,6 @@ The studies belong to TRIAD’s research archive. Start with its [identity and m
 | [Signals](signals/README.md) | How does a disturbance spread? | 8 |
 | [Field diagnostics](field-diagnostics/README.md) | How do we test the field’s consistency, modes and response? | 6 |
 | [Continuity](continuity/README.md) | What carries over when a system changes or resumes? | 2 |
-| [Validation](numerical-checks/README.md) | How do we check the story the figures seem to tell? | 1 |
+| [Numerical checks](numerical-checks/README.md) | How do we check the story the figures seem to tell? | 1 |
 
 [Start here](../docs/en/start-here.md) · [Annotated gallery](../docs/en/gallery.md) · [T01–T39 timeline](../docs/en/topics/timeline.md) · [JSON catalog](catalog.json)

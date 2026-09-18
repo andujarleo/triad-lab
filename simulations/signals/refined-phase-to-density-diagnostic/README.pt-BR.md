@@ -4,7 +4,7 @@
 
 # Diagnóstico refinado de fase para densidade
 
-Comparação refinada com controle de ruído pareado; deve ser lida junto ao estimador anterior.
+A comparação refinada usa controle de ruído pareado e muda tanto o estímulo quanto a medida: epsilon passa de 0,07 para 0,15, a largura de 1,3 para 1,25 e a janela de observação de 1,8 para 5. Velocidades de chegada e RMS são leituras diagnósticas diferentes; devem ser lidas junto ao estimador anterior que falhou.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
@@ -13,6 +13,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 Esta ficha remete às listagens e dependências do registro histórico; não há um script de execução dedicado associado a ela.
 
 ![Figura original do run](results/figures/overview.png)
+
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** O detector refinado muda o estímulo e a janela de observação; seu gerador está ausente.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-22) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
 
 ## Material disponível
 

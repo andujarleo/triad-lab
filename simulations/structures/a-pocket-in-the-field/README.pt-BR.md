@@ -4,7 +4,7 @@
 
 # Um bolso no campo
 
-Bolso gaussiano plantado em um campo em evolução; há diagnósticos de identidade e memória.
+Um bolso gaussiano é adicionado em t=0,5 a um campo acoplado em evolução. O registro acompanha os diagnósticos de identidade e memória após essa entrada declarada.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
@@ -13,6 +13,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 [Script preservado](code/simulate_field_pocket.py) · [Dependências e portabilidade](../../../provenance/t-archive/dependencies.pt-BR.md)
 
 ![Figura original do run](results/figures/PR-vs-t.png)
+
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Uma entrada gaussiana declarada é somada em t=0,5; trata-se de entrada no campo acoplado.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-37) · [simulate_field_pocket.py](code/simulate_field_pocket.py#L32) · [simulate_field_pocket.py](code/simulate_field_pocket.py#L143) · [simulate_field_pocket.py](code/simulate_field_pocket.py#L160) · [simulate_field_pocket.py](code/simulate_field_pocket.py#L301)
 
 ## Material disponível
 

@@ -4,7 +4,7 @@
 
 # Dossiê de reexecução em dez partes
 
-Dossiê registrado com refinamentos A3, QM1D, CHSH, sidebands, banho quente, histórico de tunelamento, k-star e Bravais.
+Dossiê histórico com refinamentos A3, QM1D, CHSH, sidebands, banho quente, histórico de tunelamento, k-star e Bravais. Inclui configurações reduzidas e comparações com termos desligados; os resultados registrados pertencem a essas condições declaradas.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
@@ -13,6 +13,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 Esta ficha remete às listagens e dependências do registro histórico; não há um script de execução dedicado associado a ela.
 
 ![Figura original do run](results/memory-collapse-grid-64/figures/PR-vs-t.png)
+
+
+## Auditoria da execução
+
+**Implementação divergente.** O dossiê mistura checagens numéricas/analíticas com comparações registradas de termos desligados, incluindo memória desligada, banho desligado e memória congelada.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-36) · [predictions-memory-collapse-grid-64.md](notes/memory-collapse-grid-64/predictions-memory-collapse-grid-64.md#L10) · [analysis.md](notes/memory-collapse-grid-64/analysis.md#L1) · [predictions-bell-correlation-test.md](notes/predictions/predictions-bell-correlation-test.md#L10)
 
 ## Material disponível
 

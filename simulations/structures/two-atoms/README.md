@@ -14,6 +14,13 @@ Imported historical record; this organization did not rerun the simulation.
 
 ![Original run figure](results/figures/overview.png)
 
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. Two Gaussian seeds; pair tracking is lost after t=0.01.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-30) · [simulate_two_atoms.py](code/simulate_two_atoms.py#L33) · [simulate_two_atoms.py](code/simulate_two_atoms.py#L437) · [simulate_two_atoms.py](code/simulate_two_atoms.py#L403)
+
 ## Available material
 
 22 files associated with this entry: 2 `.csv`, 1 `.json`, 1 `.md`, 4 `.npy`, 13 `.png`, 1 `.txt`.

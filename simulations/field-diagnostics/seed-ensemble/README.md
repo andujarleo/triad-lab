@@ -20,6 +20,13 @@ Read in order: protocol → configuration → raw data → analysis. These class
 
 ![Original diagnostic](results/figures/late-distributions.png)
 
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. All 32 recorded seeds are finite; the batch uses complex64/float32 and records its precision change.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-q02) · [simulate_seed_ensemble.py](code/simulate_seed_ensemble.py#L45) · [simulate_seed_ensemble.py](code/simulate_seed_ensemble.py#L281) · [simulate_seed_ensemble.py](code/simulate_seed_ensemble.py#L242)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

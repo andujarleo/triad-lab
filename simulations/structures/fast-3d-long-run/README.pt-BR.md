@@ -14,6 +14,13 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ![Figura original do run](results/figures/trajectories.png)
 
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** Cinco diagnósticos de longo prazo foram preservados em imagens, sem CSV ou gerador.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-12) · [original-record.md](notes/original-record.md#L10)
+
 ## Material disponível
 
 6 arquivos associados à ficha: 1 `.md`, 5 `.png`.

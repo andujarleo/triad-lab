@@ -4,7 +4,7 @@
 
 # Caixa 3D com banho frio
 
-Há expansão registrada em uma caixa 3D; a nota não relata uma teia cósmica filamentar.
+Há expansão registrada com N=44 e T=10, chegando à norma final de 1,413637. O registro anterior de banho quente usou N=36 e T=8, com amostras iniciais diferentes; esta é outra configuração, não uma comparação que altera só o banho. A nota não relata uma teia cósmica filamentar.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
@@ -13,6 +13,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 Esta ficha remete às listagens e dependências do registro histórico; não há um script de execução dedicado associado a ela.
 
 ![Figura original do run](results/figures/overview.png)
+
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** Os CSVs de banho frio mudam malha, duração e amostras iniciais junto às condições do banho. O gerador está ausente.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-20) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
 
 ## Material disponível
 

@@ -14,6 +14,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ![Figura original do run](results/figures/overview.png)
 
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Envelope amplo e duas sementes internas com sinal; somente o quadro inicial preserva o par.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-32) · [simulate_atom_inside_gaussian.py](code/simulate_atom_inside_gaussian.py#L39) · [simulate_atom_inside_gaussian.py](code/simulate_atom_inside_gaussian.py#L488) · [simulate_atom_inside_gaussian.py](code/simulate_atom_inside_gaussian.py#L457)
+
 ## Material disponível
 
 49 arquivos associados à ficha: 4 `.csv`, 1 `.json`, 1 `.md`, 12 `.npy`, 30 `.png`, 1 `.txt`.

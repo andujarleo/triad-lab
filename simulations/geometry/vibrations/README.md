@@ -11,6 +11,13 @@ One script evolves the field while recording strings and spectral modes; the oth
 ![Preserved historical figure](results/figures/cordas-comprimento.png)
 
 
+
+## Execution audit
+
+**Implementation differs.** The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation. The separate bravais_vibracoes reader is a kinematic reconstruction.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-vibrations) · [bravais_cordas_vibracoes.py](code/bravais_cordas_vibracoes.py#L93) · [bravais_cordas_vibracoes.py](code/bravais_cordas_vibracoes.py#L173)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

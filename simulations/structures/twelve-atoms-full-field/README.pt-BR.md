@@ -2,9 +2,9 @@
 
 [Estruturas](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md) · [Regras do projeto](../../../docs/pt-BR/project-rules.md)
 
-# Doze átomos, campo completo
+# Doze átomos iniciais
 
-Doze átomos iniciais evoluem para preenchimento do volume no run registrado com a equação completa.
+Doze átomos iniciais evoluem para preenchimento do volume na execução histórica chamada de “equação completa” pela fonte. A configuração declara N=32, T=15 e kT=1; a norma final é 25585,351298. O runtime externo executado não está identificado por um hash preservado, portanto o rótulo não estabelece sozinho a execução da equação completa.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
@@ -13,6 +13,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 [Script preservado](code/simulate_twelve_atoms.py) · [Dependências e portabilidade](../../../provenance/t-archive/dependencies.pt-BR.md)
 
 ![Figura original do run](results/figures/overview.png)
+
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** O runner chama um runtime triad-lang externo em caminho absoluto histórico; essa dependência executada não está fixada por hash.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-27) · [simulate_twelve_atoms.py](code/simulate_twelve_atoms.py#L22) · [simulate_twelve_atoms.py](code/simulate_twelve_atoms.py#L173)
 
 ## Material disponível
 

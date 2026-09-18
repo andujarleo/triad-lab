@@ -14,6 +14,13 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ![Original run figure](results/figures/trajectories.png)
 
+
+## Execution audit
+
+**Execution not fully traceable.** Five long-run diagnostics are preserved as images without CSV or generator.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-12) · [original-record.md](notes/original-record.md#L10)
+
 ## Available material
 
 6 files associated with this entry: 1 `.md`, 5 `.png`.

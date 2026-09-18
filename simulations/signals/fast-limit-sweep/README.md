@@ -14,6 +14,13 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ![Original run figure](results/figures/heatmap.png)
 
+
+## Execution audit
+
+**Execution not fully traceable.** The N/radius sweep has CSV values, but no supplied generator establishes the full dynamics.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-07) · [original-record.md](notes/original-record.md#L10)
+
 ## Available material
 
 7 files associated with this entry: 1 `.csv`, 1 `.md`, 5 `.png`.

@@ -11,6 +11,13 @@ O pós-processamento mede a estrutura espacial pelas definições e pelos limiar
 ![Figura histórica preservada](results/figures/dim-caixas.png)
 
 
+
+## Auditoria da execução
+
+**Contexto ou pós-processamento.** Pós-processamento de estados de campo salvos; esta entrada não evolui a equação completa.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-dimension-analysis) · [bravais_dimensoes.py](code/bravais_dimensoes.py#L1)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

@@ -8,6 +8,13 @@
 
 Adds measurements of the “between” to the base relational dynamics, without introducing a new force.
 
+
+## Execution audit
+
+**Context or post-processing.** Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-entre-02-between) · [simulate_consciousness_between.py](code/en/simulate_consciousness_between.py#L88)
+
 ## Available material
 
 ![The between](results/figures/consciencia-emergida-no-entre.png)

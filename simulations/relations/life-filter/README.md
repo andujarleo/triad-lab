@@ -8,6 +8,13 @@
 
 Extends the chemical control with four continuous memory horizons and a personal filter vector per entity.
 
+
+## Execution audit
+
+**Context or post-processing.** Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation. Optional chemistry/life layers are model switches, not direct P1/P2/P3 ablations.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-entre-04-life-filter) · [simulate_life_filter_between.py](code/en/simulate_life_filter_between.py#L139)
+
 ## Available material
 
 ![Memory and life filter](results/figures/memoria-filtro-vida-mudanca.png)

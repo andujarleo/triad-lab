@@ -14,6 +14,13 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ![Figura original do run](results/figures/visual-atlas.png)
 
+
+## Auditoria da execução
+
+**Contexto ou pós-processamento.** Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-18) · [original-record.md](notes/original-record.md#L10)
+
 ## Material disponível
 
 25 arquivos associados à ficha: 1 `.md`, 23 `.png`, 1 `.txt`.

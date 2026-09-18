@@ -8,6 +8,13 @@
 
 Evolui um campo complexo em uma grade 3D periódica, com FFTs, uma proposta acoplada e ponto fixo implícito.
 
+
+## Auditoria da execução
+
+**Implementação divergente.** A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-bravais-01-field) · [bravais_puro_3d.py](code/pt-BR/bravais_puro_3d.py#L116) · [bravais_puro_3d.py](code/pt-BR/bravais_puro_3d.py#L241) · [bravais_puro_3d.py](variants/phase-checkpoints/code/bravais_puro_3d.py#L116) · [bravais_puro_3d.py](variants/phase-checkpoints/code/bravais_puro_3d.py#L241)
+
 ## Material disponível
 
 ![Campo 3D emergente](results/figures/final-density-slices.png)

@@ -8,6 +8,13 @@
 
 Acrescenta medidas do “entre” à dinâmica relacional base, sem introduzir uma força nova.
 
+
+## Auditoria da execução
+
+**Contexto ou pós-processamento.** Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-entre-02-between) · [simulate_consciousness_between.py](code/en/simulate_consciousness_between.py#L88)
+
 ## Material disponível
 
 ![O entre](results/figures/consciencia-emergida-no-entre.png)

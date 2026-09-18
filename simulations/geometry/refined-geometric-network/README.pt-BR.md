@@ -4,7 +4,7 @@
 
 # Rede geométrica refinada
 
-A extração refinada registra 39 nós e 25 arestas, ainda uma rede geométrica esparsa.
+No quadro selecionado em t=4,4, a extração com quantil 0,988 e distância mínima 2 registra 39 nós e 25 arestas. A extração anterior usava 0,992 e 3 e mantinha dois nós e uma aresta. Mudaram o detector e o quadro amostrado; as contagens não estabelecem uma mudança da dinâmica do campo.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
@@ -13,6 +13,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 Esta ficha remete às listagens e dependências do registro histórico; não há um script de execução dedicado associado a ela.
 
 ![Figura original do run](results/figures/overview.png)
+
+
+## Auditoria da execução
+
+**Contexto ou pós-processamento.** Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-26) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
 
 ## Material disponível
 

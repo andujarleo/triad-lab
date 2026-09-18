@@ -4,7 +4,7 @@
 
 # Hot-bath diagnostic failure
 
-The record reports strong norm growth, with final mass about 8773.75. The failed diagnostic is preserved.
+At N=36 and T=8, the historical hot-bath record reaches final mass 8773.747757; its failed diagnostic is preserved. The following cold-bath study changes the grid, duration and initial samples as well as the bath, so the pair does not isolate a temperature effect.
 
 Imported historical record; this organization did not rerun the simulation.
 
@@ -13,6 +13,13 @@ Imported historical record; this organization did not rerun the simulation.
 No dedicated runner is linked in this entry. Consult the note and complete record for historical listings and dependencies.
 
 ![Original run figure](results/figures/overview.png)
+
+
+## Execution audit
+
+**Execution not fully traceable.** The hot-bath record has CSVs but no bound solver/configuration for a completeness check.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-19) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
 
 ## Available material
 

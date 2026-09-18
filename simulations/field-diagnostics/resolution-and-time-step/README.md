@@ -19,6 +19,13 @@ Read in order: protocol → configuration → raw data → analysis. These class
 
 ![Original diagnostic](results/figures/overlay-observables.png)
 
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. Spatial and time-step refinements retain the coupled terms; numerical convergence is unresolved.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-q01b) · [compare_grid_and_time_step.py](code/compare_grid_and_time_step.py#L38) · [compare_grid_and_time_step.py](code/compare_grid_and_time_step.py#L210) · [compare_grid_and_time_step.py](code/compare_grid_and_time_step.py#L180)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

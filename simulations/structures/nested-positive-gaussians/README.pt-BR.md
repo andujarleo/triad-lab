@@ -14,6 +14,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ![Figura original do run](results/figures/overview.png)
 
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Sementes positivas concêntricas; o indicador de duas escalas permanece até t=0,02.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-31) · [simulate_nested_gaussians.py](code/simulate_nested_gaussians.py#L33) · [simulate_nested_gaussians.py](code/simulate_nested_gaussians.py#L374) · [simulate_nested_gaussians.py](code/simulate_nested_gaussians.py#L344)
+
 ## Material disponível
 
 28 arquivos associados à ficha: 3 `.csv`, 1 `.json`, 1 `.md`, 5 `.npy`, 17 `.png`, 1 `.txt`.

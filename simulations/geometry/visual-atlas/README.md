@@ -14,6 +14,13 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ![Original run figure](results/figures/visual-atlas.png)
 
+
+## Execution audit
+
+**Context or post-processing.** Readout or geometric reconstruction from a recorded field, not a new field evolution.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-18) · [original-record.md](notes/original-record.md#L10)
+
 ## Available material
 
 25 files associated with this entry: 1 `.md`, 23 `.png`, 1 `.txt`.

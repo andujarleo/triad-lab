@@ -42,7 +42,7 @@ Quatro entradas têm notas, mas nenhum artefato de execução fornecido. As conf
 | 24 | [Mapa de templates Bravais](../../../simulations/geometry/bravais-template-map/README.pt-BR.md) | Nota + artefatos |
 | 25 | [Primeira rede geométrica](../../../simulations/geometry/first-geometric-network/README.pt-BR.md) | Nota + artefatos |
 | 26 | [Rede geométrica refinada](../../../simulations/geometry/refined-geometric-network/README.pt-BR.md) | Nota + artefatos |
-| 27 | [Doze átomos, campo completo](../../../simulations/structures/twelve-atoms-full-field/README.pt-BR.md) | Nota + artefatos |
+| 27 | [Doze átomos iniciais](../../../simulations/structures/twelve-atoms-full-field/README.pt-BR.md) | Nota + artefatos |
 | 28 | [Trajetórias de átomos em 3D](../../../simulations/structures/3d-atom-trajectories/README.pt-BR.md) | Nota + artefatos |
 | 29 | [R5 com amplitude 0,2](../../../simulations/memory/memory-small-amplitude/README.pt-BR.md) | Nota + artefatos |
 | 30 | [Dois átomos](../../../simulations/structures/two-atoms/README.pt-BR.md) | Nota + artefatos |

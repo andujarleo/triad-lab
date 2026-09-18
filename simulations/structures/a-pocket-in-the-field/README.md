@@ -4,7 +4,7 @@
 
 # A pocket in the field
 
-A planted Gaussian pocket in an evolving field; inspect its identity and memory diagnostics.
+A Gaussian pocket is added at t=0.5 to an evolving coupled field. The record follows its identity and memory diagnostics after this declared input.
 
 Imported historical record; this organization did not rerun the simulation.
 
@@ -13,6 +13,13 @@ Imported historical record; this organization did not rerun the simulation.
 [Preserved runner](code/simulate_field_pocket.py) · [Dependencies and portability](../../../provenance/t-archive/dependencies.md)
 
 ![Original run figure](results/figures/PR-vs-t.png)
+
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. A declared Gaussian input is added at t=0.5; it is an input to the coupled field.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-37) · [simulate_field_pocket.py](code/simulate_field_pocket.py#L32) · [simulate_field_pocket.py](code/simulate_field_pocket.py#L143) · [simulate_field_pocket.py](code/simulate_field_pocket.py#L160) · [simulate_field_pocket.py](code/simulate_field_pocket.py#L301)
 
 ## Available material
 

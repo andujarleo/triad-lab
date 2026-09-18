@@ -14,6 +14,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ![Figura original do run](results/figures/overview.png)
 
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Mesmo ninho prolongado até T=60; o resultado comum em t=8 coincide com a rodada curta.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-34) · [simulate_long_gaussian_nest.py](code/simulate_long_gaussian_nest.py#L36) · [simulate_long_gaussian_nest.py](code/simulate_long_gaussian_nest.py#L471) · [simulate_long_gaussian_nest.py](code/simulate_long_gaussian_nest.py#L441)
+
 ## Material disponível
 
 70 arquivos associados à ficha: 4 `.csv`, 1 `.json`, 1 `.md`, 12 `.npy`, 51 `.png`, 1 `.txt`.

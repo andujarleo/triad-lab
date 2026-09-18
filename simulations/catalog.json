@@ -114,8 +114,8 @@
     {
       "id": "validation",
       "title": {
-        "en": "Validation",
-        "pt-BR": "Validação"
+        "en": "Numerical checks",
+        "pt-BR": "Checagens numéricas"
       },
       "question": {
         "en": "How do we check the story the figures seem to tell?",
@@ -197,6 +197,17 @@
         "figures": true,
         "data": true,
         "notes": false
+      },
+      "rule_audit": {
+        "status": "context-only",
+        "summary": {
+          "en": "Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation.",
+          "pt-BR": "Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -268,6 +279,17 @@
         "figures": true,
         "data": true,
         "notes": false
+      },
+      "rule_audit": {
+        "status": "context-only",
+        "summary": {
+          "en": "Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation.",
+          "pt-BR": "Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -339,6 +361,17 @@
         "figures": true,
         "data": true,
         "notes": false
+      },
+      "rule_audit": {
+        "status": "context-only",
+        "summary": {
+          "en": "Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation. Optional chemistry/life layers are model switches, not direct P1/P2/P3 ablations.",
+          "pt-BR": "Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa. Camadas opcionais de química/vida são escolhas do modelo, não ablações diretas de P1/P2/P3."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -410,6 +443,17 @@
         "figures": true,
         "data": true,
         "notes": false
+      },
+      "rule_audit": {
+        "status": "context-only",
+        "summary": {
+          "en": "Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation. Optional chemistry/life layers are model switches, not direct P1/P2/P3 ablations.",
+          "pt-BR": "Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa. Camadas opcionais de química/vida são escolhas do modelo, não ablações diretas de P1/P2/P3."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -891,6 +935,17 @@
         "figures": true,
         "data": true,
         "notes": false
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.",
+          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -1054,6 +1109,17 @@
         "figures": true,
         "data": true,
         "notes": false
+      },
+      "rule_audit": {
+        "status": "context-only",
+        "summary": {
+          "en": "Post-processing of saved field states; this item does not evolve the complete equation.",
+          "pt-BR": "Pós-processamento de estados de campo salvos; esta entrada não evolui a equação completa."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -1143,6 +1209,17 @@
         "figures": true,
         "data": true,
         "notes": false
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.",
+          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -1307,6 +1384,17 @@
       "summary": {
         "en": "Visual records retained from the supplied material. Their exact generating run has not been established; compare the captions and provenance before connecting them to a numerical claim.",
         "pt-BR": "Registros visuais preservados do material recebido. A execução exata que gerou cada imagem não foi estabelecida; consulte as legendas e a origem antes de associá-las a uma conclusão numérica."
+      },
+      "rule_audit": {
+        "status": "context-only",
+        "summary": {
+          "en": "Preserved visual comparisons without an established generating-run association.",
+          "pt-BR": "Comparações visuais preservadas sem associação estabelecida com uma rodada geradora."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -1391,6 +1479,17 @@
         "figures": true,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Only field-relation images and an isolated/coupled description remain; no generator or numerical table.",
+          "pt-BR": "Restam imagens de relações de campo e descrição isolado/acoplado, sem gerador ou tabela numérica."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -1483,6 +1582,17 @@
         "figures": true,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "NLS/memory/bath exploration survives as figures; no source or numerical table fixes the executed operator.",
+          "pt-BR": "A exploração NLS/memória/banho foi preservada em figuras; não há fonte ou tabela que fixe o operador executado."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -1591,6 +1701,17 @@
         "figures": true,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Peak-tracking figures survive, but the revised generator and numerical samples are absent.",
+          "pt-BR": "Restam figuras de rastreamento de picos, sem o gerador revisto nem amostras numéricas."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -1683,6 +1804,17 @@
         "figures": true,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Multi-Gaussian exploration has figures but no saved source or CSV.",
+          "pt-BR": "A exploração com múltiplas gaussianas tem figuras, sem fonte salva ou CSV."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -1775,6 +1907,17 @@
         "figures": true,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Separate-identity fields are described visually; the implementation and CSV are absent.",
+          "pt-BR": "Campos de identidade separada são descritos visualmente; implementação e CSV estão ausentes."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -1811,6 +1954,17 @@
         "figures": false,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Preparation note only; no persisted execution artifacts.",
+          "pt-BR": "Somente nota de preparação; não há artefatos persistidos de execução."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -1895,6 +2049,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "The N/radius sweep has CSV values, but no supplied generator establishes the full dynamics.",
+          "pt-BR": "A varredura N/raio tem valores CSV, mas não há gerador fornecido que estabeleça a dinâmica completa."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -1995,6 +2160,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Baseline/observer CSVs exist; the field solver and parameter mapping are absent.",
+          "pt-BR": "Existem CSVs baseline/observador; faltam o solver de campo e o mapeamento de parâmetros."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -2095,6 +2271,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Baseline/continuous-relation data exist without the generating solver and complete configuration.",
+          "pt-BR": "Existem dados baseline/relação contínua sem o solver gerador e a configuração completa."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -2187,6 +2374,17 @@
         "figures": true,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "The early 3D exploration survives only as figures and notes.",
+          "pt-BR": "A exploração inicial em 3D sobrevive apenas em figuras e notas."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -2223,6 +2421,17 @@
         "figures": false,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Preparation note only; effective long-run outputs belong to other entries.",
+          "pt-BR": "Somente nota de preparação; as saídas efetivas de longo prazo pertencem a outras entradas."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -2299,6 +2508,17 @@
         "figures": true,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Five long-run diagnostics are preserved as images without CSV or generator.",
+          "pt-BR": "Cinco diagnósticos de longo prazo foram preservados em imagens, sem CSV ou gerador."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -2383,6 +2603,17 @@
         "figures": true,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Compact long-run montage and diagnostics lack a saved generator and numerical table.",
+          "pt-BR": "A montagem compacta e os diagnósticos de longo prazo não têm gerador salvo nem tabela numérica."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -2419,6 +2650,17 @@
         "figures": false,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Reference-run preparation only; no output artifacts establish an execution.",
+          "pt-BR": "Somente preparação de rodada de referência; não há artefatos que estabeleçam execução."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -2455,6 +2697,17 @@
         "figures": false,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Accelerated preparation note only; outputs start in the separate N=40 record.",
+          "pt-BR": "Somente nota de preparação acelerada; as saídas começam no registro separado N=40."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -2469,8 +2722,8 @@
       "origin": "T.zip",
       "number": 16,
       "summary": {
-        "en": "Full and no-memory records at reduced resolution; keep this comparison within its declared setup.",
-        "pt-BR": "Registros completo e sem memória em resolução reduzida; a comparação pertence à montagem declarada."
+        "en": "The historical N=40 comparison labels one branch full and removes memory in the other. Their final peak densities are 0.0006409 and 3.889202, with final PR values 4720.477435 and 0.528063, respectively. The full label belongs to the source; its generating implementation was not supplied.",
+        "pt-BR": "A comparação histórica N=40 chama um ramo de full e retira a memória do outro. As densidades de pico finais são 0,0006409 e 3,889202, com PR final de 4720,477435 e 0,528063, respectivamente. O rótulo full pertence à fonte; sua implementação geradora não foi fornecida."
       },
       "files": [
         {
@@ -2587,6 +2840,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "The saved comparison explicitly includes a no-memory branch. The generating source for the branch labelled full is absent.",
+          "pt-BR": "A comparação salva inclui explicitamente um ramo sem memória. A fonte geradora do ramo chamado full está ausente."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -2647,6 +2911,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "N=48 numerical metrics and Bravais scores are present; the generator and exact term configuration are absent.",
+          "pt-BR": "Há métricas N=48 e escores Bravais; faltam o gerador e a configuração exata dos termos."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -2875,6 +3150,17 @@
         "figures": true,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "context-only",
+        "summary": {
+          "en": "Readout or geometric reconstruction from a recorded field, not a new field evolution.",
+          "pt-BR": "Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -2889,8 +3175,8 @@
       "origin": "T.zip",
       "number": 19,
       "summary": {
-        "en": "The record reports strong norm growth, with final mass about 8773.75. The failed diagnostic is preserved.",
-        "pt-BR": "O registro relata forte crescimento da norma, com massa final de cerca de 8773,75. O diagnóstico falho foi preservado."
+        "en": "At N=36 and T=8, the historical hot-bath record reaches final mass 8773.747757; its failed diagnostic is preserved. The following cold-bath study changes the grid, duration and initial samples as well as the bath, so the pair does not isolate a temperature effect.",
+        "pt-BR": "Com N=36 e T=8, o registro histórico de banho quente chega à massa final de 8773,747757; seu diagnóstico falho permanece preservado. O estudo seguinte de banho frio muda a grade, a duração e as amostras iniciais junto ao banho, portanto o par não isola um efeito de temperatura."
       },
       "files": [
         {
@@ -3023,6 +3309,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "The hot-bath record has CSVs but no bound solver/configuration for a completeness check.",
+          "pt-BR": "O registro de banho quente tem CSVs, mas não fixa solver/configuração para conferir completude."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -3037,8 +3334,8 @@
       "origin": "T.zip",
       "number": 20,
       "summary": {
-        "en": "Expansion is recorded in a 3D box; the note does not report a filamentary cosmic web.",
-        "pt-BR": "Há expansão registrada em uma caixa 3D; a nota não relata uma teia cósmica filamentar."
+        "en": "Expansion is recorded at N=44 and T=10, with final norm 1.413637. The preceding hot-bath record used N=36 and T=8 with different initial samples; this is a separate configuration, not a bath-only comparison. The note does not report a filamentary cosmic web.",
+        "pt-BR": "Há expansão registrada com N=44 e T=10, chegando à norma final de 1,413637. O registro anterior de banho quente usou N=36 e T=8, com amostras iniciais diferentes; esta é outra configuração, não uma comparação que altera só o banho. A nota não relata uma teia cósmica filamentar."
       },
       "files": [
         {
@@ -3139,6 +3436,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "The cold-bath CSVs change grid, duration and initial samples as well as bath conditions. The generator is absent.",
+          "pt-BR": "Os CSVs de banho frio mudam malha, duração e amostras iniciais junto às condições do banho. O gerador está ausente."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -3271,6 +3579,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "The first phase/density detector has recorded near-zero estimates; its generator is absent.",
+          "pt-BR": "O primeiro detector de fase/densidade registra estimativas próximas de zero; seu gerador está ausente."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -3285,8 +3604,8 @@
       "origin": "T.zip",
       "number": 22,
       "summary": {
-        "en": "A refined comparison uses a matched-noise control; read it alongside the earlier failed estimator.",
-        "pt-BR": "Comparação refinada com controle de ruído pareado; deve ser lida junto ao estimador anterior."
+        "en": "The refined comparison uses a matched-noise control and changes both the stimulus and the measurement: epsilon rises from 0.07 to 0.15, width changes from 1.3 to 1.25, and the probe window grows from 1.8 to 5. Arrival and RMS velocities are different diagnostic readouts; read them alongside the earlier failed estimator.",
+        "pt-BR": "A comparação refinada usa controle de ruído pareado e muda tanto o estímulo quanto a medida: epsilon passa de 0,07 para 0,15, a largura de 1,3 para 1,25 e a janela de observação de 1,8 para 5. Velocidades de chegada e RMS são leituras diagnósticas diferentes; devem ser lidas junto ao estimador anterior que falhou."
       },
       "files": [
         {
@@ -3387,6 +3706,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "The refined detector changes the stimulus and observation window; its generator is absent.",
+          "pt-BR": "O detector refinado muda o estímulo e a janela de observação; seu gerador está ausente."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -3401,8 +3731,8 @@
       "origin": "T.zip",
       "number": 23,
       "summary": {
-        "en": "Different radius diagnostics disagree: the record preserves both the RMS and mass-radius conclusions.",
-        "pt-BR": "Diagnósticos de raio discordam: o registro preserva as conclusões por RMS e por raios de massa."
+        "en": "The same trajectory gives bounced=False with the RMS radius and bounced=True with the radius enclosing half the mass (r50). That radius falls from 3.487119 to 1.385641 at t=3.7 and later rises to 9.863062. The density peak at t=4.1 precedes the memory peak at t=4.2; the diagnostic change is not a new run.",
+        "pt-BR": "A mesma trajetória dá bounced=False pelo raio RMS e bounced=True pelo raio que contém metade da massa (r50). Esse raio cai de 3,487119 para 1,385641 em t=3,7 e depois sobe para 9,863062. O pico de densidade em t=4,1 antecede o pico de memória em t=4,2; a mudança de diagnóstico não é uma nova execução."
       },
       "files": [
         {
@@ -3559,6 +3889,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Bounce metrics and memory records exist, but the executed bath amplitude/source is not fully bound.",
+          "pt-BR": "Existem métricas de bounce e memória, mas a amplitude efetiva do banho e a fonte executada não estão completamente fixadas."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -3683,6 +4024,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "context-only",
+        "summary": {
+          "en": "Readout or geometric reconstruction from a recorded field, not a new field evolution.",
+          "pt-BR": "Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -3697,8 +4049,8 @@
       "origin": "T.zip",
       "number": 25,
       "summary": {
-        "en": "A severe threshold leaves two nodes and one edge; retained as a diagnostic failure.",
-        "pt-BR": "Um limiar severo deixa dois nós e uma aresta; preservado como falha diagnóstica."
+        "en": "Extraction at quantile 0.992 with minimum distance 3 leaves two nodes and one edge; the source retains this as a diagnostic failure. The following 39-node network uses a different extraction and selected snapshot.",
+        "pt-BR": "A extração com quantil 0,992 e distância mínima 3 deixa dois nós e uma aresta; a fonte preserva isso como falha diagnóstica. A rede seguinte, de 39 nós, usa outra extração e um quadro selecionado."
       },
       "files": [
         {
@@ -3823,6 +4175,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "context-only",
+        "summary": {
+          "en": "Readout or geometric reconstruction from a recorded field, not a new field evolution.",
+          "pt-BR": "Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -3837,8 +4200,8 @@
       "origin": "T.zip",
       "number": 26,
       "summary": {
-        "en": "The refined extraction records 39 nodes and 25 edges, still a sparse geometric network.",
-        "pt-BR": "A extração refinada registra 39 nós e 25 arestas, ainda uma rede geométrica esparsa."
+        "en": "At the selected snapshot t=4.4, extraction with quantile 0.988 and minimum distance 2 records 39 nodes and 25 edges. The earlier extraction used 0.992 and 3 and retained two nodes and one edge. Both the detector and the sampled snapshot changed; the counts do not establish a change in the field dynamics.",
+        "pt-BR": "No quadro selecionado em t=4,4, a extração com quantil 0,988 e distância mínima 2 registra 39 nós e 25 arestas. A extração anterior usava 0,992 e 3 e mantinha dois nós e uma aresta. Mudaram o detector e o quadro amostrado; as contagens não estabelecem uma mudança da dinâmica do campo."
       },
       "files": [
         {
@@ -3963,6 +4326,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "context-only",
+        "summary": {
+          "en": "Readout or geometric reconstruction from a recorded field, not a new field evolution.",
+          "pt-BR": "Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -3970,15 +4344,15 @@
       "folder": "simulations/structures/twelve-atoms-full-field",
       "series": "structures",
       "title": {
-        "en": "Twelve atoms, full field",
-        "pt-BR": "Doze átomos, campo completo"
+        "en": "Twelve initial atoms",
+        "pt-BR": "Doze átomos iniciais"
       },
       "status": "recorded-artifacts",
       "origin": "T.zip",
       "number": 27,
       "summary": {
-        "en": "Twelve initial atoms evolve toward volume filling in the recorded full-equation run.",
-        "pt-BR": "Doze átomos iniciais evoluem para preenchimento do volume no run registrado com a equação completa."
+        "en": "Twelve initial atoms evolve toward volume filling in the historical run labelled “full equation” by the source. Its declared settings include N=32, T=15 and kT=1; final norm is 25585.351298. The executed external runtime is not identified by a preserved hash, so the label alone does not establish execution of the complete equation.",
+        "pt-BR": "Doze átomos iniciais evoluem para preenchimento do volume na execução histórica chamada de “equação completa” pela fonte. A configuração declara N=32, T=15 e kT=1; a norma final é 25585,351298. O runtime externo executado não está identificado por um hash preservado, portanto o rótulo não estabelece sozinho a execução da equação completa."
       },
       "files": [
         {
@@ -4087,6 +4461,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "The runner calls an external triad-lang runtime at a historical absolute path; that executed dependency is not bound by hash.",
+          "pt-BR": "O runner chama um runtime triad-lang externo em caminho absoluto histórico; essa dependência executada não está fixada por hash."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -4101,8 +4486,8 @@
       "origin": "T.zip",
       "number": 28,
       "summary": {
-        "en": "Centers and trajectories are saved. The run records a changed bath setting, so it is a separate configuration.",
-        "pt-BR": "Centros e trajetórias estão salvos. O run registra mudança na configuração do banho, portanto é uma configuração própria."
+        "en": "Centers and trajectories are saved at N=40, T=12 and kT=0.001, with final norm 23.275045. The preceding twelve-atom run used N=32, T=15 and kT=1; peak pruning also changed. Temperature is a changed physical input, alongside numerical and detector changes, so the contrast does not isolate one parameter.",
+        "pt-BR": "Centros e trajetórias estão salvos com N=40, T=12 e kT=0,001, chegando à norma final de 23,275045. A execução anterior de doze átomos usava N=32, T=15 e kT=1; a seleção de picos também mudou. A temperatura é uma entrada física alterada, junto a mudanças numéricas e do detector, portanto o contraste não isola um parâmetro."
       },
       "files": [
         {
@@ -4235,6 +4620,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "The 3D trajectory runner retains three memory modes and a bath but imports the unbound historical runtime.",
+          "pt-BR": "O runner de trajetórias 3D mantém três modos de memória e banho, mas importa o runtime histórico não fixado."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -4351,6 +4747,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "The run sets alpha=0 and uses two memory modes; its bath is active.",
+          "pt-BR": "A rodada fixa alpha=0 e usa dois modos de memória; seu banho está ativo."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -4563,6 +4970,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Two Gaussian seeds; pair tracking is lost after t=0.01.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Duas sementes gaussianas; o rastreamento do par se perde após t=0,01."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -4823,6 +5241,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Concentric positive seeds; the recorded two-scale flag lasts through t=0.02.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Sementes positivas concêntricas; o indicador de duas escalas permanece até t=0,02."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -5251,6 +5680,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Wide envelope and two signed inner seeds; only the initial frame retains the pair.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Envelope amplo e duas sementes internas com sinal; somente o quadro inicial preserva o par."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -5695,6 +6135,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Signed concentric nest; shell and sign flags have different recorded lifetimes.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Ninho concêntrico com sinal; os indicadores de casca e sinal têm durações registradas distintas."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -6291,6 +6742,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Same nest continued to T=60; the shared t=8 result agrees with the short run.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Mesmo ninho prolongado até T=60; o resultado comum em t=8 coincide com a rodada curta."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -6415,6 +6877,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. One- and two-seed early windows; finite peaks may still occupy one grid cell.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Janelas iniciais de uma e duas sementes; picos finitos ainda podem ocupar uma célula."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -6429,8 +6902,8 @@
       "origin": "T.zip",
       "number": 36,
       "summary": {
-        "en": "A recorded dossier with A3 refinements, QM1D, CHSH, sidebands, hot bath, tunneling history, k-star and Bravais studies.",
-        "pt-BR": "Dossiê registrado com refinamentos A3, QM1D, CHSH, sidebands, banho quente, histórico de tunelamento, k-star e Bravais."
+        "en": "A historical dossier with A3 refinements, QM1D, CHSH, sidebands, hot bath, tunneling history, k-star and Bravais studies. It includes reduced configurations and comparisons with terms disabled; its recorded outcomes belong to those declared conditions.",
+        "pt-BR": "Dossiê histórico com refinamentos A3, QM1D, CHSH, sidebands, banho quente, histórico de tunelamento, k-star e Bravais. Inclui configurações reduzidas e comparações com termos desligados; os resultados registrados pertencem a essas condições declaradas."
       },
       "files": [
         {
@@ -7384,6 +7857,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "The dossier mixes numerical/analytic checks with recorded term-off comparisons, including memory-off, bath-off and frozen-memory cases.",
+          "pt-BR": "O dossiê mistura checagens numéricas/analíticas com comparações registradas de termos desligados, incluindo memória desligada, banho desligado e memória congelada."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -7398,8 +7882,8 @@
       "origin": "T.zip",
       "number": 37,
       "summary": {
-        "en": "A planted Gaussian pocket in an evolving field; inspect its identity and memory diagnostics.",
-        "pt-BR": "Bolso gaussiano plantado em um campo em evolução; há diagnósticos de identidade e memória."
+        "en": "A Gaussian pocket is added at t=0.5 to an evolving coupled field. The record follows its identity and memory diagnostics after this declared input.",
+        "pt-BR": "Um bolso gaussiano é adicionado em t=0,5 a um campo acoplado em evolução. O registro acompanha os diagnósticos de identidade e memória após essa entrada declarada."
       },
       "files": [
         {
@@ -7476,6 +7960,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. A declared Gaussian input is added at t=0.5; it is an input to the coupled field.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Uma entrada gaussiana declarada é somada em t=0,5; trata-se de entrada no campo acoplado."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -7490,8 +7985,8 @@
       "origin": "T.zip",
       "number": 38,
       "summary": {
-        "en": "Positive/negative planted pockets and their saved metrics; persistence was not established in the record.",
-        "pt-BR": "Bolsos plantados de sinais opostos e suas métricas salvas; a persistência não foi estabelecida no registro."
+        "en": "Two Gaussian pockets with opposite signs are added at t=0.5. Their saved metrics follow this declared input; persistence was not established in the recorded interval.",
+        "pt-BR": "Dois bolsos gaussianos de sinais opostos são adicionados em t=0,5. As métricas salvas acompanham essa entrada declarada; a persistência não foi estabelecida no intervalo registrado."
       },
       "files": [
         {
@@ -7544,6 +8039,17 @@
         "figures": false,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Two declared signed Gaussian inputs are added at t=0.5.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Duas entradas gaussianas declaradas, com sinais opostos, são somadas em t=0,5."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -7558,8 +8064,8 @@
       "origin": "T.zip",
       "number": 39,
       "summary": {
-        "en": "Snapshots connect density, memory, residual and memory potential; the reported alignment is transient.",
-        "pt-BR": "Snapshots relacionam densidade, memória, resíduo e potencial de memória; o alinhamento relatado é transitório."
+        "en": "Snapshots compare density, memory, residual and memory potential before and after a Gaussian input at t=0.5. The reported local alignment is transient; the record also compares it with the surrounding field.",
+        "pt-BR": "Snapshots comparam densidade, memória, resíduo e potencial de memória antes e depois de uma entrada gaussiana em t=0,5. O alinhamento local relatado é transitório; o registro também o compara com o campo ao redor."
       },
       "files": [
         {
@@ -7918,6 +8424,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. The runner re-evolves the planted-pocket case and records density/memory maps; it is not only an image reader.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. O runner evolui novamente o caso do bolso plantado e registra mapas de densidade/memória; não é só leitor de imagens."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -7953,6 +8470,17 @@
         "figures": false,
         "data": false,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "context-only",
+        "summary": {
+          "en": "Specification and frozen declared parameters; no execution result in this item.",
+          "pt-BR": "Especificação e parâmetros declarados fixados; esta entrada não contém resultado de execução."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -8157,6 +8685,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Grid convergence is unresolved; the recorded spectrum follows the grid cutoff.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. A convergência espacial permanece em aberto; o espectro registrado acompanha o corte da malha."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -8369,6 +8908,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Spatial and time-step refinements retain the coupled terms; numerical convergence is unresolved.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Refinos de espaço e passo temporal mantêm os termos conjuntos; a convergência numérica permanece em aberto."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -9029,6 +9579,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. All 32 recorded seeds are finite; the batch uses complex64/float32 and records its precision change.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. As 32 sementes registradas são finitas; o lote usa complex64/float32 e declara a mudança de precisão."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -9472,6 +10033,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. The source includes evolution and passive POD/DMD; its post-processing correction is declared.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. A fonte inclui evolução e POD/DMD passivos; a correção de pós-processamento está declarada."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -9483,8 +10055,8 @@
         "pt-BR": "Testando a linearidade"
       },
       "summary": {
-        "en": "Two seeds compare A, B and their superposition with matched noise. The protocol deviation and INCONCLUSIVE decision are retained.",
-        "pt-BR": "Duas seeds comparam A, B e sua superposição com ruído pareado. O desvio de protocolo e a decisão INCONCLUSIVE foram preservados."
+        "en": "Two seeds compare A, B and their superposition under a common additive bath. The recorded weighted residual includes a bath contribution that does not cancel, so it does not isolate nonlinear response. The protocol deviation and historical INCONCLUSIVE decision are retained.",
+        "pt-BR": "Duas sementes comparam A, B e sua superposição sob um banho aditivo comum. O residual ponderado registrado inclui uma contribuição do banho que não se cancela; por isso, não isola a resposta não linear. O desvio de protocolo e a decisão histórica INCONCLUSIVE foram preservados."
       },
       "status": "recorded",
       "origin": "T.zip",
@@ -9743,6 +10315,17 @@
         "figures": true,
         "data": true,
         "notes": true
+      },
+      "rule_audit": {
+        "status": "complete-record",
+        "summary": {
+          "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. The superposition residual includes the common additive bath; it is not a pure measure of nonlinear response.",
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. O residual de superposição inclui o banho aditivo comum; não mede somente a resposta não linear."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -9945,6 +10528,17 @@
       "summary": {
         "en": "Four geometric implementations are grouped here: three use 2D fields, while the coupled-emergence script uses a 1D field. Each retains its own parameters and execution history.",
         "pt-BR": "Quatro implementações geométricas estão reunidas aqui: três usam campos 2D, enquanto o script de emergência acoplada usa um campo 1D. Cada uma mantém seus parâmetros e histórico de execução."
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "The supplied 1D/2D implementations include trajectory normalization or guards and differ from the reference evolution; the pure 2D damping expression is phase-like.",
+          "pt-BR": "As implementações 1D/2D fornecidas incluem normalização durante a trajetória ou guards e divergem da evolução de referência; a expressão de dissipação do caso 2D puro atua como fase."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -10057,6 +10651,17 @@
       "summary": {
         "en": "A long-run script and recorded diagnostics explore fields in two and three dimensions. Read the script parameters before comparing the separate output groups.",
         "pt-BR": "Um script de execução longa e diagnósticos registrados exploram campos em duas e três dimensões. Leia os parâmetros antes de comparar os grupos de resultados."
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "Both dimension branches normalize the field every step (target norms 3.0 and 2.2) and use an update different from the reference.",
+          "pt-BR": "Os dois ramos dimensionais normalizam o campo a cada passo (normas-alvo 3,0 e 2,2) e usam atualização diferente da referência."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -10215,6 +10820,17 @@
       "summary": {
         "en": "Post-processing measures spatial structure through the definitions and thresholds recorded in the supplied script and diagnostics.",
         "pt-BR": "O pós-processamento mede a estrutura espacial pelas definições e pelos limiares registrados no script e nos diagnósticos fornecidos."
+      },
+      "rule_audit": {
+        "status": "context-only",
+        "summary": {
+          "en": "Post-processing of saved field states; this item does not evolve the complete equation.",
+          "pt-BR": "Pós-processamento de estados de campo salvos; esta entrada não evolui a equação completa."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -10302,6 +10918,17 @@
       "summary": {
         "en": "One script evolves the field while recording strings and spectral modes; the other reconstructs motion from a saved final state. Their figures retain these distinct origins. Here, strings are curves extracted from the field.",
         "pt-BR": "Um script evolui o campo enquanto registra cordas e modos espectrais; o outro reconstrói movimento a partir de um estado final salvo. Suas figuras mantêm essas origens distintas. Aqui, cordas são curvas extraídas do campo."
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation. The separate bravais_vibracoes reader is a kinematic reconstruction.",
+          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação. O leitor separado bravais_vibracoes é uma reconstrução cinemática."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -10467,6 +11094,17 @@
       "summary": {
         "en": "A simulation script records field snapshots, and five readers/renderers turn saved data into movies and derived views. The supplied HTML embeds its data. Several readers require filmes_data.npz, which was not supplied.",
         "pt-BR": "Um script de simulação grava snapshots do campo, e cinco leitores/renderizadores transformam dados salvos em filmes e leituras derivadas. O HTML fornecido contém seus dados. Vários leitores precisam de filmes_data.npz, que não foi fornecido."
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation. This applies to simula_filmes; the other five files are readers/renderers.",
+          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação. Isso se aplica a simula_filmes; os outros cinco arquivos são leitores/renderizadores."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -10514,6 +11152,17 @@
       "summary": {
         "en": "Two scripts collect and catalogue strings. The referenced cordas.csv is missing. The collector also refers to solver infrastructure; the full historical runtime is not included.",
         "pt-BR": "Dois scripts coletam e catalogam cordas. O arquivo cordas.csv referenciado está ausente. O coletor também depende da infraestrutura do solver; o runtime histórico completo não foi incluído."
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "The collector imports solver defaults/environment overrides; the recorded rows do not bind every generating configuration.",
+          "pt-BR": "O coletor importa padrões do solver e sobreposições de ambiente; as linhas registradas não fixam todas as configurações geradoras."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -10635,6 +11284,17 @@
       "summary": {
         "en": "Four recorded protocols explore coupling, small perturbations, impacts and rhythmic forcing. Each source retains the input, comparison and parameter choices used at the time.",
         "pt-BR": "Quatro protocolos registrados exploram ligação, pequenas perturbações, impactos e excitação rítmica. Cada fonte preserva as entradas, comparações e escolhas de parâmetros usadas na ocasião."
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.",
+          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -10674,6 +11334,17 @@
       "summary": {
         "en": "The script reads real measurements from wifi_scans.csv; that file was not supplied. This entry preserves an implementation, not a demonstrated run with WiFi measurements.",
         "pt-BR": "O script lê medidas reais de wifi_scans.csv; esse arquivo não foi fornecido. A entrada preserva uma implementação, não uma execução demonstrada com medidas de WiFi."
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "The supplied source uses a different kinetic sign/noise update and conditional state guards from the reference. The required WiFi measurements were not supplied; this entry does not document a demonstrated run with those measurements.",
+          "pt-BR": "A fonte fornecida usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência. As medidas WiFi necessárias não foram fornecidas; esta entrada não documenta uma execução demonstrada com essas medidas."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -10737,6 +11408,17 @@
       "summary": {
         "en": "Two recorded studies examine atom–string relations and changes in box size and amplitude. Atoms and strings name localized structures and extracted curves in the author’s operational vocabulary.",
         "pt-BR": "Dois estudos registrados examinam relações entre átomos e cordas e mudanças no tamanho da caixa e na amplitude. Átomos e cordas nomeiam estruturas localizadas e curvas extraídas no vocabulário operacional do autor."
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.",
+          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -11166,8 +11848,19 @@
         "pt-BR": "A memória mantém um padrão fixo ou continua redistribuindo-o?"
       },
       "summary": {
-        "en": "The report describes dynamic crystallization through recurring shifts of scale. The recorded norm remains near one. Its twin-trajectory estimate covers only the recorded short interval.",
-        "pt-BR": "O relatório descreve cristalização dinâmica por deslocamentos recorrentes de escala. A norma registrada permanece próxima de um. A estimativa por trajetória gêmea cobre apenas o intervalo curto registrado."
+        "en": "The report describes dynamic crystallization through recurring shifts of scale in a reduced configuration: alpha, Gamma and FDT are zero, and two memory fields remain. The recorded norm stays near one. Its twin-trajectory estimate covers only the recorded short interval.",
+        "pt-BR": "O relatório descreve cristalização dinâmica por deslocamentos recorrentes de escala em uma configuração reduzida: alpha, Gamma e FDT estão zerados, e permanecem dois campos de memória. A norma registrada fica próxima de um. A estimativa por trajetória gêmea cobre apenas o intervalo curto registrado."
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "The runner sets alpha, Gamma and FDT to zero and retains two memory modes.",
+          "pt-BR": "O runner fixa alpha, Gamma e FDT em zero e mantém dois modos de memória."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -11269,8 +11962,19 @@
         "pt-BR": "Que efeitos permanecem depois que a fonte muda?"
       },
       "summary": {
-        "en": "The original report tests a “soul” hypothesis but finds field continuity in controls too. The evidence does not isolate a life-specific effect. Required triad_rebuild_rules/run64 inputs were not supplied.",
-        "pt-BR": "O relatório original testa uma hipótese de “alma”, mas encontra continuidade de campo também nos controles. A evidência não isola um efeito exclusivo da vida. As entradas triad_rebuild_rules/run64 necessárias não foram fornecidas."
+        "en": "The original report examines a “soul” hypothesis through deterministic two-memory continuations that omit fractional dispersion and bath terms. Field continuity also appears in the controls, so this record does not isolate a life-specific effect. Required triad_rebuild_rules/run64 inputs were not supplied.",
+        "pt-BR": "O relatório original examina uma hipótese de “alma” por continuações determinísticas com duas memórias, sem dispersão fracionária nem termos de banho. A continuidade de campo também aparece nos controles; esse registro não isola um efeito exclusivo da vida. As entradas triad_rebuild_rules/run64 necessárias não foram fornecidas."
+      },
+      "rule_audit": {
+        "status": "documented-deviation",
+        "summary": {
+          "en": "Four causal runners use a deterministic two-memory update with no fractional/bath terms.",
+          "pt-BR": "Quatro runners causais usam atualização determinística com duas memórias, sem termos fracionário/banho."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     },
     {
@@ -11470,6 +12174,17 @@
       "summary": {
         "en": "A prototype records checkpoint continuation with one million resident modes. The logical N³=10¹⁸ is representation metadata, not that many simulated cells in memory. libtriad_rt.so is missing; the included CUDA loader stub does not replace it.",
         "pt-BR": "Um protótipo registra continuidade por checkpoint com um milhão de modos residentes. O N³ lógico de 10¹⁸ é metadado da representação, não essa quantidade de células simuladas em memória. libtriad_rt.so está ausente; o stub CUDA incluído não o substitui."
+      },
+      "rule_audit": {
+        "status": "not-established",
+        "summary": {
+          "en": "Modal checkpoints/readouts and continuation tests exist; the evolution is delegated to an external native library absent from the supplied source.",
+          "pt-BR": "Há checkpoints modais, leituras e testes de continuidade; a evolução é delegada a uma biblioteca nativa externa ausente das fontes fornecidas."
+        },
+        "report": {
+          "en": "docs/en/execution-audit.md",
+          "pt-BR": "docs/pt-BR/execution-audit.md"
+        }
       }
     }
   ],

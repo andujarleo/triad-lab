@@ -42,7 +42,7 @@ Four entries have notes but no supplied run artifacts. Historical configurations
 | 24 | [Bravais template map](../../../simulations/geometry/bravais-template-map/README.md) | Note + artifacts |
 | 25 | [First geometric network](../../../simulations/geometry/first-geometric-network/README.md) | Note + artifacts |
 | 26 | [Refined geometric network](../../../simulations/geometry/refined-geometric-network/README.md) | Note + artifacts |
-| 27 | [Twelve atoms, full field](../../../simulations/structures/twelve-atoms-full-field/README.md) | Note + artifacts |
+| 27 | [Twelve initial atoms](../../../simulations/structures/twelve-atoms-full-field/README.md) | Note + artifacts |
 | 28 | [3D atom trajectories](../../../simulations/structures/3d-atom-trajectories/README.md) | Note + artifacts |
 | 29 | [R5 with amplitude 0.2](../../../simulations/memory/memory-small-amplitude/README.md) | Note + artifacts |
 | 30 | [Two atoms](../../../simulations/structures/two-atoms/README.md) | Note + artifacts |

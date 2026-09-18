@@ -1,6 +1,6 @@
 [Lab](../../docs/pt-BR/README.md) · [English](README.md)
 
-# Validação
+# Checagens numéricas
 
 **Como conferir a história que as figuras parecem contar?**
 

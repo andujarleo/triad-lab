@@ -2,9 +2,9 @@
 
 [Structures](../README.md) · [Glossary](../../../docs/en/glossary.md) · [Project rules](../../../docs/en/project-rules.md)
 
-# Twelve atoms, full field
+# Twelve initial atoms
 
-Twelve initial atoms evolve toward volume filling in the recorded full-equation run.
+Twelve initial atoms evolve toward volume filling in the historical run labelled “full equation” by the source. Its declared settings include N=32, T=15 and kT=1; final norm is 25585.351298. The executed external runtime is not identified by a preserved hash, so the label alone does not establish execution of the complete equation.
 
 Imported historical record; this organization did not rerun the simulation.
 
@@ -13,6 +13,13 @@ Imported historical record; this organization did not rerun the simulation.
 [Preserved runner](code/simulate_twelve_atoms.py) · [Dependencies and portability](../../../provenance/t-archive/dependencies.md)
 
 ![Original run figure](results/figures/overview.png)
+
+
+## Execution audit
+
+**Execution not fully traceable.** The runner calls an external triad-lang runtime at a historical absolute path; that executed dependency is not bound by hash.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-27) · [simulate_twelve_atoms.py](code/simulate_twelve_atoms.py#L22) · [simulate_twelve_atoms.py](code/simulate_twelve_atoms.py#L173)
 
 ## Available material
 

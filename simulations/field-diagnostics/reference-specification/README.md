@@ -12,6 +12,13 @@ Read in order: protocol → configuration → raw data → analysis. These class
 
 [Every file](FILES.md) · [Dependencies](../../../provenance/t-archive/dependencies.md)
 
+
+## Execution audit
+
+**Context or post-processing.** Specification and frozen declared parameters; no execution result in this item.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-q00) · [specification-record.md](notes/specification-record.md#L6)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)

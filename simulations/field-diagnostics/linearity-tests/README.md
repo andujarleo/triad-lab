@@ -4,7 +4,7 @@
 
 # Testing linearity
 
-Two seeds compare A, B and their superposition with matched noise. The protocol deviation and INCONCLUSIVE decision are retained.
+Two seeds compare A, B and their superposition under a common additive bath. The recorded weighted residual includes a bath contribution that does not cancel, so it does not isolate nonlinear response. The protocol deviation and historical INCONCLUSIVE decision are retained.
 
 Read in order: protocol → configuration → raw data → analysis. These classifications belong to the historical record; no new run was performed.
 
@@ -17,6 +17,13 @@ Read in order: protocol → configuration → raw data → analysis. These class
 [Every file](FILES.md) · [Dependencies](../../../provenance/t-archive/dependencies.md)
 
 ![Original diagnostic](results/figures/rlin-time.png)
+
+
+## Execution audit
+
+**Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. The superposition residual includes the common additive bath; it is not a pure measure of nonlinear response.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-q04) · [probe_field_linearity.py](code/probe_field_linearity.py#L54) · [probe_field_linearity.py](code/probe_field_linearity.py#L245) · [probe_field_linearity.py](code/probe_field_linearity.py#L263) · [probe_field_linearity.py](code/probe_field_linearity.py#L324)
 
 ## Files and execution context
 

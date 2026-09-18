@@ -4,7 +4,7 @@
 
 # Falha diagnóstica no banho quente
 
-O registro relata forte crescimento da norma, com massa final de cerca de 8773,75. O diagnóstico falho foi preservado.
+Com N=36 e T=8, o registro histórico de banho quente chega à massa final de 8773,747757; seu diagnóstico falho permanece preservado. O estudo seguinte de banho frio muda a grade, a duração e as amostras iniciais junto ao banho, portanto o par não isola um efeito de temperatura.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
@@ -13,6 +13,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 Esta ficha remete às listagens e dependências do registro histórico; não há um script de execução dedicado associado a ela.
 
 ![Figura original do run](results/figures/overview.png)
+
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** O registro de banho quente tem CSVs, mas não fixa solver/configuração para conferir completude.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-19) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)
 
 ## Material disponível
 

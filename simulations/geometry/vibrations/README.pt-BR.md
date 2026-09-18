@@ -11,6 +11,13 @@ Um script evolui o campo enquanto registra cordas e modos espectrais; o outro re
 ![Figura histórica preservada](results/figures/cordas-comprimento.png)
 
 
+
+## Auditoria da execução
+
+**Implementação divergente.** A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação. O leitor separado bravais_vibracoes é uma reconstrução cinemática.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-vibrations) · [bravais_cordas_vibracoes.py](code/bravais_cordas_vibracoes.py#L93) · [bravais_cordas_vibracoes.py](code/bravais_cordas_vibracoes.py#L173)
+
 ## Arquivos e condições de execução
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)

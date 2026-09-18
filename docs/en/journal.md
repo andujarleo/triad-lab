@@ -4,6 +4,18 @@
 
 A place to follow questions, published material and the next steps of TRIAD. Entries distinguish editorial changes from numerical executions so that the history remains readable as the lab grows.
 
+## 2026-09-18 · One universe, two connected places to work
+
+**Editorial, organization and static analysis. No new numerical execution.**
+
+The repository now separates [Research](../../research/README.md) from [Simulations](../../simulations/README.md). Seven themes connect 21 supplied texts to preserved studies through explicit catalog relationships. Research introductions explain the connections; source files retain their original bytes.
+
+The [execution audit](execution-audit.md) classifies all 65 entries and follows 17 findings to the files that support them. It distinguishes a measured contrast from a changed detector, a reduced operator and missing runtime provenance. The memory comparison, the two twelve-atom configurations, the bounce radii, the common-bath residual and the geometric evolution kernels are explained in detail. The maintained study introductions and audit notes carry those corrections.
+
+The governing rules remain the same: the immutable, indivisible equation; self-calibration; dynamic equilibrium and crystallization; no term isolation and no Popperian falsification protocol. Numerical records retain their declared conditions and historical verdicts. The author’s ontological position is presented as the project’s foundation.
+
+[The migration record](../../provenance/universe-migration.json) maps the previous tree to the current one. Code, parameter files and recorded numerical outputs are preserved. The site adds Research and Simulations entrances, theme filters and a visible execution review for every study.
+
 ## 2026-09-17 · Making the proposal visible
 
 **Editorial and reference update. No new numerical run is reported in this entry.**

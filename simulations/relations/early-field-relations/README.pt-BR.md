@@ -14,6 +14,13 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ![Figura original do run](results/figures/simulation-overview.png)
 
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** Restam imagens de relações de campo e descrição isolado/acoplado, sem gerador ou tabela numérica.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-01) · [original-record.md](notes/original-record.md#L10)
+
 ## Material disponível
 
 7 arquivos associados à ficha: 1 `.md`, 6 `.png`.

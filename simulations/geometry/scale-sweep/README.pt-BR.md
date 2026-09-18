@@ -6,7 +6,14 @@
 
 **A beirada espectral acompanha o sistema ou o tamanho da caixa?**
 
-Executa a mesma equação em caixas L=24, 32 e 48 com dx=0.5 fixo e grades de 48³, 64³ e 96³.
+Usa a mesma implementação preservada em caixas L=24, 32 e 48 com dx=0.5 fixo e grades de 48³, 64³ e 96³. Suas atualizações cinética e de ruído diferem da referência da equação; a varredura compara essa implementação em diferentes tamanhos de caixa.
+
+
+## Auditoria da execução
+
+**Implementação divergente.** A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-bravais-03-scale) · [bravais_sweep_L.py](code/pt-BR/bravais_sweep_L.py#L92) · [bravais_sweep_L.py](code/pt-BR/bravais_sweep_L.py#L175)
 
 ## Material disponível
 

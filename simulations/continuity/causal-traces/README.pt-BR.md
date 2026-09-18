@@ -6,12 +6,19 @@
 
 **Que efeitos permanecem depois que a fonte muda?**
 
-O relatório original testa uma hipótese de “alma”, mas encontra continuidade de campo também nos controles. A evidência não isola um efeito exclusivo da vida. As entradas triad_rebuild_rules/run64 necessárias não foram fornecidas.
+O relatório original examina uma hipótese de “alma” por continuações determinísticas com duas memórias, sem dispersão fracionária nem termos de banho. A continuidade de campo também aparece nos controles; esse registro não isola um efeito exclusivo da vida. As entradas triad_rebuild_rules/run64 necessárias não foram fornecidas.
 
 ![Figura histórica preservada](results/figures/sombra-causal-longa.png)
 
 - [causal-continuity-report.md](notes/causal-continuity-report.md)
 
+
+
+## Auditoria da execução
+
+**Implementação divergente.** Quatro runners causais usam atualização determinística com duas memórias, sem termos fracionário/banho.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-causal-traces) · [soul_causal_probe_short.py](code/soul_causal_probe_short.py#L22) · [soul_causal_probe_short.py](code/soul_causal_probe_short.py#L47) · [soul_causal_probe_short.py](code/soul_causal_probe_short.py#L84) · [soul_background_matched.py](code/soul_background_matched.py#L32)
 
 ## Arquivos e condições de execução
 

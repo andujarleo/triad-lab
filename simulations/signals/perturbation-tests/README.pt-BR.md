@@ -4,12 +4,19 @@
 
 # Respostas a perturbações
 
-**Como o campo responde quando seu estado inicial é perturbado?**
+**Como o campo responde a perturbações e entradas declaradas?**
 
 Quatro protocolos registrados exploram ligação, pequenas perturbações, impactos e excitação rítmica. Cada fonte preserva as entradas, comparações e escolhas de parâmetros usadas na ocasião.
 
 ![Figura histórica preservada](results/figures/batida-numeros.png)
 
+
+
+## Auditoria da execução
+
+**Implementação divergente.** A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-perturbation-tests) · [teste_borboleta.py](code/teste_borboleta.py#L122) · [teste_borboleta.py](code/teste_borboleta.py#L247) · [teste_ligacao.py](code/teste_ligacao.py#L131) · [teste_ligacao.py](code/teste_ligacao.py#L256)
 
 ## Arquivos e condições de execução
 

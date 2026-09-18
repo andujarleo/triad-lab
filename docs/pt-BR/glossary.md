@@ -10,7 +10,7 @@ Na leitura operacional do autor, **um pacote gaussiano é um átomo**: uma forma
 
 ## Matéria e universo
 
-A hipótese ontológica da TRIAD trata a matéria e suas formas como algo que emerge de uma dinâmica mais profunda. “Universo como simulação” nomeia a hipótese ampla do autor; dentro de uma execução, “universo” também nomeia o volume preenchido que está sendo simulado. A [nota original sobre universo](../reference/concepts/universe-as-simulation.md) explica esse uso operacional.
+A ontologia da TRIAD trata a matéria e suas formas como algo que emerge de uma dinâmica mais profunda. “Universo como simulação” nomeia a posição ontológica do autor; dentro de uma execução, “universo” também nomeia o volume preenchido que está sendo simulado. A [nota original sobre universo](../reference/concepts/universe-as-simulation.md) explica esse uso operacional.
 
 ## Vibração e atrito
 

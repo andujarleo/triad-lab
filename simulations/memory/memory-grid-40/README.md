@@ -4,7 +4,7 @@
 
 # Memory at resolution 40
 
-Full and no-memory records at reduced resolution; keep this comparison within its declared setup.
+The historical N=40 comparison labels one branch `full` and removes memory in the other. Their final peak densities are 0.0006409 and 3.889202, with final PR values 4720.477435 and 0.528063, respectively. The `full` label belongs to the source; its generating implementation was not supplied.
 
 Imported historical record; this organization did not rerun the simulation.
 
@@ -13,6 +13,13 @@ Imported historical record; this organization did not rerun the simulation.
 No dedicated runner is linked in this entry. Consult the note and complete record for historical listings and dependencies.
 
 ![Original run figure](results/figures/overview.png)
+
+
+## Execution audit
+
+**Implementation differs.** The saved comparison explicitly includes a no-memory branch. The generating source for the branch labelled full is absent.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-16) · [original-record.md](notes/original-record.md#L12) · [summary.csv](results/data/summary.csv#L1)
 
 ## Available material
 

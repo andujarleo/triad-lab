@@ -14,6 +14,13 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ![Figura original do run](results/figures/overview.png)
 
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** Restam figuras de rastreamento de picos, sem o gerador revisto nem amostras numéricas.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-03) · [original-record.md](notes/original-record.md#L10)
+
 ## Material disponível
 
 10 arquivos associados à ficha: 1 `.md`, 9 `.png`.

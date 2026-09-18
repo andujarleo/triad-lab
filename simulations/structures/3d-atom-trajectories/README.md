@@ -4,7 +4,7 @@
 
 # 3D atom trajectories
 
-Centers and trajectories are saved. The run records a changed bath setting, so it is a separate configuration.
+Centers and trajectories are saved at N=40, T=12 and kT=0.001, with final norm 23.275045. The preceding twelve-atom run used N=32, T=15 and kT=1; peak pruning also changed. Temperature is a changed physical input, alongside numerical and detector changes, so the contrast does not isolate one parameter.
 
 Imported historical record; this organization did not rerun the simulation.
 
@@ -13,6 +13,13 @@ Imported historical record; this organization did not rerun the simulation.
 [Preserved runner](code/simulate_atom_trajectories.py) · [Dependencies and portability](../../../provenance/t-archive/dependencies.md)
 
 ![Original run figure](results/figures/overview.png)
+
+
+## Execution audit
+
+**Execution not fully traceable.** The 3D trajectory runner retains three memory modes and a bath but imports the unbound historical runtime.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-28) · [simulate_atom_trajectories.py](code/simulate_atom_trajectories.py#L24) · [simulate_atom_trajectories.py](code/simulate_atom_trajectories.py#L328)
 
 ## Available material
 

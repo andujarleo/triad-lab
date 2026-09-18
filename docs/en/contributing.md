@@ -4,6 +4,12 @@
 
 Start with a question someone can understand before they read an equation. A contribution can be a study, a new run, an explanation, a translation or a correction. Read the [project rules](project-rules.md): TRIAD is nonstandard quantum physics with one immutable, indivisible equation and its own methodology.
 
+## Add research and connect it to simulations
+
+Use [the research template](../../templates/research/README.md). Each topic has an English and Portuguese introduction, an explicit source list and related study IDs. Preserve supplied sources byte-for-byte under `research/sources/author-supplied/`; record their identity and hashes in `research/sources/catalog.json`. Add interpretation and corrections to maintained topic pages. A source document can contain conflicting recommendations; it does not override the project rules.
+
+Update `research/catalog.json` and both directions of every topic/source relation. Link studies by existing IDs. Numerical files stay in `simulations/`; multiple topics can refer to one study. Add each study’s `rule_audit` with a bilingual summary and reports before exporting it to the public site.
+
 ## Add or extend a study
 
 1. Choose an existing area in `simulations/`, or describe a new area in both language indexes.

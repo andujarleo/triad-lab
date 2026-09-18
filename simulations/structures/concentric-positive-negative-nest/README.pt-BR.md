@@ -14,6 +14,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ![Figura original do run](results/figures/overview.png)
 
+
+## Auditoria da execução
+
+**Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Ninho concêntrico com sinal; os indicadores de casca e sinal têm durações registradas distintas.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-33) · [simulate_signed_gaussian_nest.py](code/simulate_signed_gaussian_nest.py#L33) · [simulate_signed_gaussian_nest.py](code/simulate_signed_gaussian_nest.py#L466) · [simulate_signed_gaussian_nest.py](code/simulate_signed_gaussian_nest.py#L436)
+
 ## Material disponível
 
 51 arquivo associado à ficha: 4 `.csv`, 1 `.json`, 1 `.md`, 12 `.npy`, 32 `.png`, 1 `.txt`.

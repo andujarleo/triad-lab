@@ -1,33 +1,34 @@
-[Lab](../../README.md) · [Português](../pt-BR/start-here.md)
+[Universe](../../README.md) · [Português](../pt-BR/start-here.md)
 
 # Your first five minutes in TRIAD
 
-Begin with the author’s question: could a single underlying equation give rise to the different forms of reality? TRIAD is nonstandard quantum physics with an ontological foundation. It explores this question through simulations of fields, memory and interactions. You can follow the tour without installing anything.
+TRIAD is nonstandard quantum physics with an ontological foundation. One immutable equation, with oscillation, self-reference and coupling together, is its starting point. You can explore the lab without installing anything.
 
-## 01 · Meet the idea
+## See
 
-Open the [proposal](triad.md). It introduces the ontological hypothesis and the conceptual path from atoms and vibration to the author’s reading of sound, light and a simulated universe.
+Open the [visual lab](https://andujarleo.github.io/triad-lab/). Choose **Simulations** to see recorded shapes and trajectories. An image is an entrance to a study; its page explains the recorded conditions and where the files came from. The field viewer cuts through space in a saved final state.
 
-Three principles act together: **P1 oscillation**, **P2 instantaneous self-reference and memory**, and **P3 coupling**. The equation is unique, immutable and indivisible. In the field, focus, memory and bath are operational aspects of this complete dynamics. Its structures self-organize and can keep changing; the lab does not calibrate the field externally to obtain a chosen pattern.
+## Understand
 
-## 02 · Watch a history unfold
+Enter [Research](../../research/README.md). Themes connect readings, sources and studies. Start with a familiar question about sound, memory or how a shape persists. Read [TRIAD’s foundations](triad.md) and use the [vocabulary](glossary.md) when a term is new.
 
-Open [memory and bounce](../../simulations/memory/memory-and-bounce/README.md). Follow the sequence of concentration, memory response and expansion. Read more than the last image: the time series records how the state arrived there, and the study describes why its diagnostics give different readings.
+**P1 oscillation, P2 present self-reference and memory, and P3 coupling act together.** The project follows self-calibration from chaos to dynamic equilibrium. Crystallization continues in that equilibrium.
 
-## 03 · Look for a region inside a larger field
+## Follow a history
 
-The [one-pocket study](../../simulations/structures/a-pocket-in-the-field/README.md) asks whether a distinguishable region can persist. Continue to [two pockets](../../simulations/structures/two-pockets/README.md) or [density–memory maps](../../simulations/structures/density-memory-maps/README.md). A structure appearing and later disappearing is part of the record you can inspect.
+The [memory-and-bounce study](../../simulations/memory/memory-and-bounce/README.md) follows concentration and expansion; two diagnostics give different readings of the same recorded run. The [density–memory maps](../../simulations/structures/density-memory-maps/README.md) compare present density and accumulated history.
 
-## 04 · Choose how deep to go
+The [execution audit](execution-audit.md) shows why the implementation and the measurement matter. Every study has an audit note and a **Files** index. A historical record keeps its actual conditions; removing a term changes the system being examined.
 
-| Your next step | Open |
+## Choose your next step
+
+| I want to… | Open |
 |---|---|
-| See more shapes and sequences | [Annotated gallery](gallery.md) |
-| Understand a word or symbol | [TRIAD vocabulary](glossary.md) |
-| Explore by question and area | [All studies](../../simulations/README.md) |
-| Inspect the equation, code and records | [Research guide](research-guide.md) |
-| Follow the project as it develops | [Lab journal](journal.md) |
+| Explore ideas and sources | [Research](../../research/README.md) |
+| Browse recorded phenomena | [Simulations](../../simulations/README.md) |
+| Inspect conditions and outcomes | [Execution audit](execution-audit.md) |
+| Understand the equation | [Reference documents](../reference/equation/README.md) |
+| Navigate or run code | [Repository map](repository-map.md) · [Execution guidance](getting-started.md) |
+| Follow new work | [Lab journal](journal.md) |
 
-Every study has a **Files** index. It connects the available notes, implementations, configurations and results. Historical records retain their original settings. The [reference-document history](../reference/equation/README.md) traces the writing, while the [project rules](project-rules.md) explain how new work follows the same complete equation.
-
-[Why this lab exists](author.md) · [Read the research chronology](topics/timeline.md)
+[Project rules](project-rules.md) · [About Leonardo](author.md)

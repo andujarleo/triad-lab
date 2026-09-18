@@ -4,12 +4,19 @@
 
 # Responses to perturbations
 
-**How does a field respond when its initial state is disturbed?**
+**How does a field respond to perturbations and declared inputs?**
 
 Four recorded protocols explore coupling, small perturbations, impacts and rhythmic forcing. Each source retains the input, comparison and parameter choices used at the time.
 
 ![Preserved historical figure](results/figures/batida-numeros.png)
 
+
+
+## Execution audit
+
+**Implementation differs.** The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-perturbation-tests) · [teste_borboleta.py](code/teste_borboleta.py#L122) · [teste_borboleta.py](code/teste_borboleta.py#L247) · [teste_ligacao.py](code/teste_ligacao.py#L131) · [teste_ligacao.py](code/teste_ligacao.py#L256)
 
 ## Files and execution context
 

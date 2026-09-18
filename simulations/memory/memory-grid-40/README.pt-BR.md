@@ -4,7 +4,7 @@
 
 # Memória com resolução 40
 
-Registros completo e sem memória em resolução reduzida; a comparação pertence à montagem declarada.
+A comparação histórica N=40 chama um ramo de `full` e retira a memória do outro. As densidades de pico finais são 0,0006409 e 3,889202, com PR final de 4720,477435 e 0,528063, respectivamente. O rótulo `full` pertence à fonte; sua implementação geradora não foi fornecida.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
@@ -13,6 +13,13 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 Esta ficha remete às listagens e dependências do registro histórico; não há um script de execução dedicado associado a ela.
 
 ![Figura original do run](results/figures/overview.png)
+
+
+## Auditoria da execução
+
+**Implementação divergente.** A comparação salva inclui explicitamente um ramo sem memória. A fonte geradora do ramo chamado full está ausente.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-16) · [original-record.md](notes/original-record.md#L12) · [summary.csv](results/data/summary.csv#L1)
 
 ## Material disponível
 

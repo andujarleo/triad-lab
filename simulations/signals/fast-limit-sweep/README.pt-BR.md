@@ -14,6 +14,13 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ![Figura original do run](results/figures/heatmap.png)
 
+
+## Auditoria da execução
+
+**Execução sem rastreabilidade completa.** A varredura N/raio tem valores CSV, mas não há gerador fornecido que estabeleça a dinâmica completa.
+
+[Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-07) · [original-record.md](notes/original-record.md#L10)
+
 ## Material disponível
 
 7 arquivos associados à ficha: 1 `.csv`, 1 `.md`, 5 `.png`.

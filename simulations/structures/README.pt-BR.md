@@ -11,7 +11,7 @@
 | [Tentativa de execução longa](long-run-attempt/README.pt-BR.md) | — | — | — |
 | [Execução longa 3D rápida](fast-3d-long-run/README.pt-BR.md) | — | — | ✓ |
 | [Execução longa 3D compacta](compact-3d-long-run/README.pt-BR.md) | — | — | ✓ |
-| [Doze átomos, campo completo](twelve-atoms-full-field/README.pt-BR.md) | ✓ | ✓ | ✓ |
+| [Doze átomos iniciais](twelve-atoms-full-field/README.pt-BR.md) | ✓ | ✓ | ✓ |
 | [Trajetórias de átomos em 3D](3d-atom-trajectories/README.pt-BR.md) | ✓ | ✓ | ✓ |
 | [Dois átomos](two-atoms/README.pt-BR.md) | ✓ | ✓ | ✓ |
 | [Gaussianas positivas aninhadas](nested-positive-gaussians/README.pt-BR.md) | ✓ | ✓ | ✓ |

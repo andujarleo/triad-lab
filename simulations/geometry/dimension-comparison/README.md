@@ -11,6 +11,13 @@ A long-run script and recorded diagnostics explore fields in two and three dimen
 ![Preserved historical figure](results/figures/bravais-2d-long-evolution.png)
 
 
+
+## Execution audit
+
+**Implementation differs.** Both dimension branches normalize the field every step (target norms 3.0 and 2.2) and use an update different from the reference.
+
+[Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-dimension-comparison) · [bravais_long_2d3d.py](code/bravais_long_2d3d.py#L84) · [bravais_long_2d3d.py](code/bravais_long_2d3d.py#L255)
+
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)
