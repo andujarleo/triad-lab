@@ -82,7 +82,7 @@ def local_links(text):
 def audit(root):
     ledger = json.loads((root / 'provenance/layout-migration.json').read_text())
     changes = json.loads((root / 'provenance/document-link-changes.json').read_text())
-    catalog = json.loads((root / 'experiments/catalog.json').read_text())
+    catalog = json.loads((root / 'simulations/catalog.json').read_text())
     errors = verify_payloads(root, ledger['content'], changes)
     editions = json.loads((root / 'provenance/reference-editions.json').read_text())
     for edition in editions['editions']:
@@ -109,7 +109,7 @@ def audit(root):
                 if (old, item['path'], item['original_sha256']) not in preserved:
                     errors.append(f'catalog provenance does not match ledger: {old}')
     for record in ledger['content']:
-        if record['path'].startswith('experiments/') and record['path'] not in associated:
+        if record['path'].startswith('simulations/') and record['path'] not in associated:
             errors.append(f'preserved experiment payload absent from catalog: {record["path"]}')
     for old, path in ledger['path_map'].items():
         if not (root / path).exists():
@@ -117,7 +117,7 @@ def audit(root):
     links = 0
     # Audit only maintained repository trees, excluding generated runs and virtualenvs.
     docs = list(root.glob('*.md'))
-    for directory in ['docs', 'experiments', 'provenance', 'templates', 'web']:
+    for directory in ['docs', 'simulations', 'provenance', 'templates', 'web']:
         docs.extend((root / directory).rglob('*.md'))
     for file in docs:
         for target in local_links(file.read_text()):

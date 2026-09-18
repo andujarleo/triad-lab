@@ -10,7 +10,7 @@ The project’s ambition is broad: simulate different phenomena and publish the 
 
 TRIAD is nonstandard quantum physics with an ontological starting point. It asks what reality is made of and explores the hypothesis that the universe is a simulation. Its vocabulary places atoms, vibration, memory and their interactions at the center of that inquiry.
 
-The [conceptual map](triad.md) introduces that perspective. The [equation reference](../reference/equation/README.md) records its mathematical formulation. The [studies](../../experiments/README.md) show what has actually been implemented and recorded.
+The [conceptual map](triad.md) introduces that perspective. The [equation reference](../reference/equation/README.md) records its mathematical formulation. The [studies](../../simulations/README.md) show what has actually been implemented and recorded.
 
 ## A lab that grows in public
 

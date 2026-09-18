@@ -28,7 +28,7 @@ Generated JSON uses stable ordering, UTF-8 and no timestamps. Unchanged inputs p
 | Field | Source or meaning |
 |---|---|
 | `repository` | Public repository URL |
-| `areas` | `series` from the [catalogue](../../experiments/catalog.json), without reinterpretation |
+| `areas` | `series` from the [catalogue](../../simulations/catalog.json), without reinterpretation |
 | `studies` | One record for each catalogued experiment, in catalogue order |
 | `hero` | Path to the byte-identical phase-vortex PNG in `media/` |
 | `fields` | Download descriptors for the two saved density volumes |
@@ -41,8 +41,8 @@ Images are the first linked local PNG found in the study's English or Portuguese
 
 The two input arrays are `rho_f` in:
 
-- [Emergent field: final_state.npz](../../experiments/geometry/field-3d/results/data/final_state.npz), shape `64 × 64 × 64`.
-- [Scale sweep: sweep_L24.npz](../../experiments/geometry/scale-sweep/results/data/sweep_L24.npz), shape `48 × 48 × 48`.
+- [Emergent field: final_state.npz](../../simulations/geometry/field-3d/results/data/final_state.npz), shape `64 × 64 × 64`.
+- [Scale sweep: sweep_L24.npz](../../simulations/geometry/scale-sweep/results/data/sweep_L24.npz), shape `48 × 48 × 48`.
 
 The source implementations construct grids using `indexing="ij"`. The export preserves the `x, y, z` axes and C-order layout: `values[(x * N + y) * N + z]`. It does not transpose, subsample, smooth or normalize the array.
 

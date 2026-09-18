@@ -34,4 +34,4 @@ Connecting the author’s conceptual vocabulary to declared observables remains 
 
 Use a date and a question. Link the study, reference-document revision, code revision, parameters, seeds and resulting files. Describe what the records show, then the interpretation and what remains open. Label an entry **planned**, **execution**, **analysis** or **editorial** according to what happened.
 
-[Browse the studies](../../experiments/README.md) · [Research history](history.md) · [How to contribute](contributing.md)
+[Browse the studies](../../simulations/README.md) · [Research history](history.md) · [How to contribute](contributing.md)

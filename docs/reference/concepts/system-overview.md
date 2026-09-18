@@ -100,7 +100,7 @@ Não desligamos termo pra forçar duração. Não baixamos $kT$ depois do result
 
 - Equação: `[[Equação de referência]]` · [TRIAD_QM_CANONICAL_V1](../records/triad-qm-canonical-v1.md)
 - Memória / anti-colapso: [Memória](memory.md) · [Anti-colapso](anti-collapse.md)
-- Cubos recentes: [37 bolso_no_universo](../../../experiments/structures/a-pocket-in-the-field/notes/original-record.md) · [38 dois_bolsos](../../../experiments/structures/two-pockets/notes/original-record.md) · [39 mapa](../../../experiments/structures/density-memory-maps/notes/original-record.md)
+- Cubos recentes: [37 bolso_no_universo](../../../simulations/structures/a-pocket-in-the-field/notes/original-record.md) · [38 dois_bolsos](../../../simulations/structures/two-pockets/notes/original-record.md) · [39 mapa](../../../simulations/structures/density-memory-maps/notes/original-record.md)
 - Tudo junto: [00 registro_completo](../records/00-registro-completo.md)
 
 Voltar: `[[TRIAD]]`

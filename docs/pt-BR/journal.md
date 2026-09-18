@@ -34,4 +34,4 @@ A conexão entre o vocabulário conceitual do autor e as grandezas declaradas co
 
 Use uma data e uma pergunta. Vincule o estudo, a revisão do documento de referência, a revisão do código, os parâmetros, as sementes e os arquivos produzidos. Descreva o que os registros mostram, depois a interpretação e o que ficou em aberto. Identifique a entrada como **planejamento**, **execução**, **análise** ou **editorial**, conforme o que aconteceu.
 
-[Explore os estudos](../../experiments/README.pt-BR.md) · [História da pesquisa](history.md) · [Como contribuir](contributing.md)
+[Explore os estudos](../../simulations/README.pt-BR.md) · [História da pesquisa](history.md) · [Como contribuir](contributing.md)

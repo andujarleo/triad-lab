@@ -16,14 +16,14 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 REPOSITORY = 'https://github.com/andujarleo/triad-lab'
-HERO = 'experiments/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png'
+HERO = 'simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png'
 LANGUAGES = ('en', 'pt-BR')
 MARKER = '.triad-site-build.json'
 FIELD_SPECS = (
     {'id': 'field-3d', 'title': {'en': 'Emergent 3D field · saved density', 'pt-BR': 'Campo 3D emergente · densidade salva'},
-     'sourcePath': 'experiments/geometry/field-3d/results/data/final_state.npz'},
+     'sourcePath': 'simulations/geometry/field-3d/results/data/final_state.npz'},
     {'id': 'scale-sweep-l24', 'title': {'en': 'Scale sweep · L = 24 · saved density', 'pt-BR': 'Varredura de escala · L = 24 · densidade salva'},
-     'sourcePath': 'experiments/geometry/scale-sweep/results/data/sweep_L24.npz'},
+     'sourcePath': 'simulations/geometry/scale-sweep/results/data/sweep_L24.npz'},
 )
 
 
@@ -137,7 +137,7 @@ def study_image(root: Path, document_path: str, document: str, files: dict[str, 
 def collect_site(root: Path, field_specs: tuple | list | None = None) -> tuple[dict, dict[str, bytes]]:
     """Collect data and original media in memory before touching an output folder."""
     root = root.resolve()
-    catalog = json.loads(source_file(root, 'experiments/catalog.json').read_text(encoding='utf-8'))
+    catalog = json.loads(source_file(root, 'simulations/catalog.json').read_text(encoding='utf-8'))
     files: dict[str, bytes] = {}
     studies = []
     ids = set()

@@ -37,12 +37,12 @@ Rebuild after changing source files. The builder checks its manifest before repl
 
 ## Data and provenance
 
-Study cards come from [catalog.json](../experiments/catalog.json) and the text of each study’s bilingual README. The published templates provide the question in **The question / A pergunta** and the summary in the first paragraph of **What was done / O que foi feito**. The builder also retains support for existing opening bold questions followed by prose. Template comments are not exported; a missing summary is a build error. The builder selects an existing PNG linked from those pages, copies its bytes and names it by SHA-256. A card without a selected preview remains searchable.
+Study cards come from [catalog.json](../simulations/catalog.json) and the text of each study’s bilingual README. The published templates provide the question in **The question / A pergunta** and the summary in the first paragraph of **What was done / O que foi feito**. The builder also retains support for existing opening bold questions followed by prose. Template comments are not exported; a missing summary is a build error. The builder selects an existing PNG linked from those pages, copies its bytes and names it by SHA-256. A card without a selected preview remains searchable.
 
 The field viewer reads `rho_f` from these historical NPZ files:
 
-- [3D field: final_state.npz](../experiments/geometry/field-3d/results/data/final_state.npz), a 64 × 64 × 64 density array.
-- [Scale sweep: sweep_L24.npz](../experiments/geometry/scale-sweep/results/data/sweep_L24.npz), a 48 × 48 × 48 density array.
+- [3D field: final_state.npz](../simulations/geometry/field-3d/results/data/final_state.npz), a 64 × 64 × 64 density array.
+- [Scale sweep: sweep_L24.npz](../simulations/geometry/scale-sweep/results/data/sweep_L24.npz), a 48 × 48 × 48 density array.
 
 Exports retain their source paths, source-file hashes, axis order and recorded values. Display scales affect color only. The position slider traverses space within each final state, not time; separate color ranges and relative positions do not turn these different runs into a matched comparison. See the [full export contract](../docs/maintenance/site-data.md).
 

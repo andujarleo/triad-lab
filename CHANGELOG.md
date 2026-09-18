@@ -48,4 +48,4 @@ See [the layout audit](provenance/layout-audit.md) for evidence and limits.
 - Added a language convention, experiment templates and a structured run record.
 - Preserved the original README in the archive; original scripts, data, figures and
   saved state remain byte-for-byte unchanged and covered by SHA-256 checksums.
-- Kept existing paths valid; new experiments can grow under `experiments/`.
+- Kept existing paths valid; new experiments can grow under `simulations/`.

@@ -28,7 +28,7 @@ No format errors were found in that inspection. The inspected arrays contained n
 
 Q00 quotes SHA-256 `e7c7d907c7109bbafc73229cb2e1943802feb47df035a7058e71ebec078d9a3e` for the canonical specification. The supplied `TRIAD_QM_CANONICAL_V1.md` has SHA-256 `f9c23b3d74554beabca7ce8c578b0fb31fdc5b14943ed053596f4962f82273f1`. This archive does not establish why they differ; the historical reference and supplied file are both preserved without declaring equivalence.
 
-[Q00](../../experiments/quantum/reference-specification/notes/specification-record.md) · [Canonical](../../docs/reference/records/triad-qm-canonical-v1.md)
+[Q00](../../simulations/field-diagnostics/reference-specification/notes/specification-record.md) · [Canonical](../../docs/reference/records/triad-qm-canonical-v1.md)
 
 [Complete manifest](manifest.json) · [Per-file inspection](inspection.json) · [File checksums](SHA256SUMS) · [Versions](versions.md)
 

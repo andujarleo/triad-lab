@@ -6,7 +6,7 @@ Begin with [TRIAD’s identity and operational reading](triad.md) and the [proje
 
 For new executions, declare the [reference-document revision](../reference/equation/README.md), implementation revision and configuration. The equation is unique, immutable and indivisible. Historical controls keep their original context; configurations with disabled terms are not relabeled as complete TRIAD executions. The document index records differences in the supplied writing, not versions of the equation.
 
-Start with a study’s question and **FILES.md**, then follow protocol → configuration → source → recorded output → interpretation. The [JSON catalog](../../experiments/catalog.json) lists all 65 studies, their bilingual pages and every associated source payload.
+Start with a study’s question and **FILES.md**, then follow protocol → configuration → source → recorded output → interpretation. The [JSON catalog](../../simulations/catalog.json) lists all 65 studies, their bilingual pages and every associated source payload.
 
 ## What the record can establish
 
@@ -16,7 +16,7 @@ The initial lab scripts have a [local execution guide](getting-started.md). Late
 
 ## Comparisons that need care
 
-- **Three 3D implementations:** `bravais_puro_3d.py` has three distinct content hashes. They remain separate under the [field study](../../experiments/geometry/field-3d/FILES.md); a hash identifier does not imply a newer or better version.
+- **Three 3D implementations:** `bravais_puro_3d.py` has three distinct content hashes. They remain separate under the [field study](../../simulations/geometry/field-3d/FILES.md); a hash identifier does not imply a newer or better version.
 - **Saved states differ:** the initial `final_state.npz` has no `psi_f`; another archived state includes it. Phase-based post-processing depends on that field.
 - **Random initialization:** the initial 3D and sweep scripts have no fixed seed by default. Their saved records should not be described as exactly replayable from defaults.
 - **QM outcomes:** Q01, Q01b, Q02, Q03 and Q04 retain their historical INCONCLUSIVE classifications. Q04 has a recorded protocol deviation. Q00’s declared canonical hash differs from the supplied canonical document; the discrepancy is retained.

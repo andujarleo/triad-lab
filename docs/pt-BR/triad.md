@@ -54,7 +54,7 @@ O sistema se auto-organiza sem calibração externa para obter um resultado dese
 
 Cada estudo começa com uma pergunta que pode ser acompanhada pelos arquivos. Uma região concentrada se espalha? Um padrão persiste? Uma resposta posterior carrega uma história anterior?
 
-O estudo de [memória e bounce](../../experiments/memory/memory-and-bounce/README.pt-BR.md) acompanha concentração e expansão. Os [estudos de bolsões](../../experiments/structures/a-pocket-in-the-field/README.pt-BR.md) acompanham uma região distinguível dentro do campo. Os [mapas de densidade e memória](../../experiments/structures/density-memory-maps/README.pt-BR.md) permitem observar onde o presente e a história acumulada se encontram.
+O estudo de [memória e bounce](../../simulations/memory/memory-and-bounce/README.pt-BR.md) acompanha concentração e expansão. Os [estudos de bolsões](../../simulations/structures/a-pocket-in-the-field/README.pt-BR.md) acompanham uma região distinguível dentro do campo. Os [mapas de densidade e memória](../../simulations/structures/density-memory-maps/README.pt-BR.md) permitem observar onde o presente e a história acumulada se encontram.
 
 Cada página conecta **a pergunta**, **a implementação** e **o resultado registrado**. Assim a proposta mais ampla ganha um lugar concreto para se desenvolver, inclusive quando uma estrutura desaparece ou um diagnóstico continua inconclusivo.
 

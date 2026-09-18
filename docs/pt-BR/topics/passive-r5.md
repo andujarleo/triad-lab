@@ -6,9 +6,9 @@ Um run N64, L=20, dt=0,0025, T=15 com Λ=−8, ν=(10; 0,5), λ=(1,125; 0,375), 
 
 Esta é uma montagem arquivada com banho desligado. Ela permanece com sua configuração exata, sem ser apresentada como uma execução TRIAD nova conforme a regra da equação completa. Suas estruturas em evolução são lidas no tempo, sem impor um cristal fixo como alvo. [Regras do projeto](../project-rules.md).
 
-[Ler o relatório original](../../../experiments/memory/passive-memory-dynamics/notes/passive-memory-report.md) · [Todos os arquivos](../../../experiments/memory/passive-memory-dynamics/FILES.md)
+[Ler o relatório original](../../../simulations/memory/passive-memory-dynamics/notes/passive-memory-report.md) · [Todos os arquivos](../../../simulations/memory/passive-memory-dynamics/FILES.md)
 
-![R5 passivo](../../../experiments/memory/passive-memory-dynamics/results/figures/spectrum-evolution.png)
+![R5 passivo](../../../simulations/memory/passive-memory-dynamics/results/figures/spectrum-evolution.png)
 
 O relatório registra norma final próxima de 1. O teste curto de trajetórias gêmeas não estabelece um expoente de Lyapunov positivo; a execução mais longa continua uma pendência histórica.
 

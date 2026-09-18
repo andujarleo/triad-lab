@@ -6,11 +6,11 @@ Comece por uma pergunta que alguém consiga entender antes de ler uma equação.
 
 ## Adicione ou amplie um estudo
 
-1. Escolha uma área existente em `experiments/` ou descreva uma nova nos índices dos dois idiomas.
-2. Use uma pasta descritiva: `experiments/<area>/<study>/`. Mantenha estável o ID do catálogo, mesmo que o título mude.
+1. Escolha uma área existente em `simulations/` ou descreva uma nova nos índices dos dois idiomas.
+2. Use uma pasta descritiva: `simulations/<area>/<study>/`. Mantenha estável o ID do catálogo, mesmo que o título mude.
 3. Copie o [modelo de estudo](../../templates/experiment/README.pt-BR.md). Escreva a pergunta, o que observar na figura representativa, as evidências disponíveis e os limites conhecidos. Mantenha a entrada em inglês; aponte para o material técnico no idioma original quando não houver tradução.
 4. Coloque implementações em `code/`, entradas explícitas em `configuration/`, relatórios em `notes/` e saídas registradas em `results/`. Novas execuções devem usar `results/<run-id>/{data,figures,logs}/`, evitando sobrescrever resultados. Crie pastas apenas quando houver conteúdo.
-5. Atualize `FILES.md`, os índices da área e [catalog.json](../../experiments/catalog.json). As entradas existentes mostram o esquema: ID estável, pasta, área, títulos, documentação, disponibilidade e associações de origem. Um conteúdo compartilhado fica em um local, mantendo todas as associações.
+5. Atualize `FILES.md`, os índices da área e [catalog.json](../../simulations/catalog.json). As entradas existentes mostram o esquema: ID estável, pasta, área, títulos, documentação, disponibilidade e associações de origem. Um conteúdo compartilhado fica em um local, mantendo todas as associações.
 6. Registre comando exato, diretório de trabalho, commit do código, dependências, hardware, parâmetros, sementes e hashes das entradas e saídas em [run.json](../../templates/run.json). Use `null` para valores indisponíveis e explique o motivo.
 
 A disponibilidade no catálogo descreve material fornecido, não validade científica. Entradas `note-only` e `specification` podem não ter saídas; `recorded` e `recorded-artifacts` indicam saídas preservadas. `implementation-available` e `archival` exigem consultar as condições de execução da página. Os campos explícitos de `availability` indicam a presença de código, dados, figuras e notas.

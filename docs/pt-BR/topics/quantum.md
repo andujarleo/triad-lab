@@ -8,12 +8,12 @@ Uma sequência de estudos com especificação, protocolos, configurações, seed
 
 | Etapa | Estudo | Registro |
 |---|---|---|
-| Q00 | [Especificação congelada](../../../experiments/quantum/reference-specification/README.pt-BR.md) | Especificação canônica Theta_core e ponto de partida da sequência QM. O hash citado em Q00 difere do arquivo canônico recebido; ambos foram preservados. |
-| Q01 | [Convergência espacial](../../../experiments/quantum/spatial-convergence/README.pt-BR.md) | N32/N48/N64 com passo temporal fixo. A decisão de convergência registrada é INCONCLUSIVE. |
-| Q01B | [Resolução e passo temporal](../../../experiments/quantum/resolution-and-time-step/README.pt-BR.md) | N96 e refinamentos do passo temporal dão continuidade a Q01. O registro permanece INCONCLUSIVE. |
-| Q02 | [Ensemble com 32 seeds](../../../experiments/quantum/seed-ensemble/README.pt-BR.md) | Ensemble MLX com as duas versões do protocolo preservadas. A decisão QM registrada é INCONCLUSIVE. |
-| Q03 | [Subespaços e modos](../../../experiments/quantum/field-modes/README.pt-BR.md) | POD/PCA e DMD examinam janelas iniciais e tardias em quatro seeds. O registro não estabelece um atrator compartilhado de baixa dimensão. |
-| Q04 | [Sondas de linearidade](../../../experiments/quantum/linearity-tests/README.pt-BR.md) | Duas seeds comparam A, B e sua superposição com ruído pareado. O desvio de protocolo e a decisão INCONCLUSIVE foram preservados. |
+| Q00 | [Especificação congelada](../../../simulations/field-diagnostics/reference-specification/README.pt-BR.md) | Especificação canônica Theta_core e ponto de partida da sequência QM. O hash citado em Q00 difere do arquivo canônico recebido; ambos foram preservados. |
+| Q01 | [Convergência espacial](../../../simulations/field-diagnostics/spatial-convergence/README.pt-BR.md) | N32/N48/N64 com passo temporal fixo. A decisão de convergência registrada é INCONCLUSIVE. |
+| Q01B | [Resolução e passo temporal](../../../simulations/field-diagnostics/resolution-and-time-step/README.pt-BR.md) | N96 e refinamentos do passo temporal dão continuidade a Q01. O registro permanece INCONCLUSIVE. |
+| Q02 | [Ensemble com 32 seeds](../../../simulations/field-diagnostics/seed-ensemble/README.pt-BR.md) | Ensemble MLX com as duas versões do protocolo preservadas. A decisão QM registrada é INCONCLUSIVE. |
+| Q03 | [Subespaços e modos](../../../simulations/field-diagnostics/field-modes/README.pt-BR.md) | POD/PCA e DMD examinam janelas iniciais e tardias em quatro seeds. O registro não estabelece um atrator compartilhado de baixa dimensão. |
+| Q04 | [Sondas de linearidade](../../../simulations/field-diagnostics/linearity-tests/README.pt-BR.md) | Duas seeds comparam A, B e sua superposição com ruído pareado. O desvio de protocolo e a decisão INCONCLUSIVE foram preservados. |
 
 As decisões INCONCLUSIVE e os desvios de protocolo fazem parte dos resultados preservados, ligados às perguntas e aos critérios desses registros. Esses protocolos são material histórico, não a metodologia que governa trabalhos TRIAD novos; veja as [regras do projeto](../project-rules.md). Os primeiros pilotos não são rebatizados como evidência confirmatória desta sequência.
 

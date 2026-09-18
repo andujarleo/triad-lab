@@ -4,14 +4,14 @@
 
 A estrutura atual reúne os estudos iniciais de osciladores e Bravais com o material recuperado de **T.zip**. O arquivo forneceu 1.330 caminhos de conteúdo, incluindo cópias repetidas, 39 registros cronológicos, seis entradas QM e outras explorações.
 
-A organização física agora segue perguntas, em vez de pastas de download. Cada estudo tem um lugar em `experiments/<area>/<study>/`. Os nomes de aquisição permanecem no registro de proveniência, permitindo rastrear cada arquivo original.
+A organização física agora segue perguntas, em vez de pastas de download. Cada estudo tem um lugar em `simulations/<area>/<study>/`. Os nomes de aquisição permanecem no registro de proveniência, permitindo rastrear cada arquivo original.
 
 A cronologia acompanha documentos, implementações e execuções. A equação TRIAD é única e imutável; estes registros não são etapas de evolução da sua forma. Os procedimentos históricos mantêm seu contexto junto às [regras do projeto](project-rules.md), definidas pelo autor.
 
 ## Leia na ordem histórica
 
 - [T01–T39](topics/timeline.md): modelos iniciais, configurações de referência, diagnósticos do solver e estruturas posteriores. Quatro tentativas têm notas, mas não têm artefatos de execução fornecidos.
-- [Q00–Q04](../../experiments/quantum/README.pt-BR.md): especificação congelada e testes de dinâmica do campo, incluindo o refinamento Q01b.
+- [Q00–Q04](../../simulations/field-diagnostics/README.pt-BR.md): especificação congelada e testes de dinâmica do campo, incluindo o refinamento Q01b.
 - [Conceitos e registros completos originais](../reference/README.md): redação histórica, equações, protocolos e interpretações.
 
 ## O que mudou na organização

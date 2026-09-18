@@ -6,11 +6,11 @@ Start with a question someone can understand before they read an equation. A con
 
 ## Add or extend a study
 
-1. Choose an existing area in `experiments/`, or describe a new area in both language indexes.
-2. Use a descriptive folder: `experiments/<area>/<study>/`. Keep its catalog ID stable even if the title changes.
+1. Choose an existing area in `simulations/`, or describe a new area in both language indexes.
+2. Use a descriptive folder: `simulations/<area>/<study>/`. Keep its catalog ID stable even if the title changes.
 3. Copy the [study template](../../templates/experiment/README.md). Write the question, what to notice in the representative figure, available evidence and known limits. Add the Portuguese entrance using its template; link to original-language technical material where translation is unavailable.
 4. Put implementations in `code/`, explicit inputs in `configuration/`, reports in `notes/` and recorded outputs in `results/`. New runs should use `results/<run-id>/{data,figures,logs}/` so results cannot silently overwrite each other. Create folders only when they contain material.
-5. Update `FILES.md`, the area indexes and [catalog.json](../../experiments/catalog.json). Existing entries demonstrate the schema: stable ID, folder, area, titles, docs, material availability and source associations. A shared payload stays in one location, with every association retained.
+5. Update `FILES.md`, the area indexes and [catalog.json](../../simulations/catalog.json). Existing entries demonstrate the schema: stable ID, folder, area, titles, docs, material availability and source associations. A shared payload stays in one location, with every association retained.
 6. Record the exact command, working directory, code commit, dependencies, hardware, parameters, seeds and input/output hashes in [run.json](../../templates/run.json). Use `null` for unavailable values and explain why.
 
 Catalog availability describes supplied material, not scientific validity. `note-only` and `specification` entries may have no outputs; `recorded` and `recorded-artifacts` indicate preserved outputs. `implementation-available` and `archival` require the page’s execution notes before attempting a run. Explicit `availability` fields say whether code, data, figures and notes are present.

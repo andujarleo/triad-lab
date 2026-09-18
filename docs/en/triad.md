@@ -54,7 +54,7 @@ The system self-organizes without external calibration toward a desired result. 
 
 An individual study starts with a question that can be followed through its files. Does a concentrated region spread? Does a pattern persist? Does a later response carry an earlier history?
 
-The [memory-and-bounce study](../../experiments/memory/memory-and-bounce/README.md) follows concentration and expansion. The [pocket studies](../../experiments/structures/a-pocket-in-the-field/README.md) follow a distinguishable region within the field. The [density–memory maps](../../experiments/structures/density-memory-maps/README.md) let you inspect where present density and accumulated history meet.
+The [memory-and-bounce study](../../simulations/memory/memory-and-bounce/README.md) follows concentration and expansion. The [pocket studies](../../simulations/structures/a-pocket-in-the-field/README.md) follow a distinguishable region within the field. The [density–memory maps](../../simulations/structures/density-memory-maps/README.md) let you inspect where present density and accumulated history meet.
 
 Each page connects **the question**, **the implementation** and **the recorded outcome**. This gives the broader proposal somewhere concrete to develop, including when a structure fades or a diagnostic remains inconclusive.
 

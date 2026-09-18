@@ -16,7 +16,7 @@ Mesmo R0=17.950673153580247.
 | baseline | 17.401860178232013 | −0.548812975348234 | 5.036317270840565 | 0 |
 | observer_observed | 17.40203710725556 | −0.5486360463246882 | 5.036382915798405 | 0.1408855554136146 |
 
-[08 triad_observer_observed_consciousness](../../../experiments/relations/observer-and-observed/notes/original-record.md)
+[08 triad_observer_observed_consciousness](../../../simulations/relations/observer-and-observed/notes/original-record.md)
 
 ## #9 continuous_C
 
@@ -27,7 +27,7 @@ Mesmo R0=17.950673153580247.
 | baseline | 23.350001386552602 | 0 | 0 | 0 |
 | continuous_C | 23.35152445562933 | 0.05885646675539304 | 0.0032211309978780103 | −0.3855089487747705 |
 
-[09 triad_field_consciousness_test](../../../experiments/relations/continuous-relational-field/notes/original-record.md)
+[09 triad_field_consciousness_test](../../../simulations/relations/continuous-relational-field/notes/original-record.md)
 
 Pré-referência. Não usam `solver.py` da fase (c).
 

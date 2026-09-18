@@ -6,7 +6,7 @@ The [interactive lab](https://andujarleo.github.io/triad-lab/) is the public ent
 
 ```text
 README.md                         A short entrance for any reader
-experiments/
+simulations/
   relations/ … validation/        Eight areas, each with an index
     <study>/
       README.md                   Question, context and known limits
@@ -40,18 +40,18 @@ Folders are created only when there is material for them. A note-only attempt is
 
 Existing translated code remains in `code/en/` and `code/pt-BR/`. New translations add documentation, not copies of numerical code. Original scripts still contain their historical input and output paths; [execution guidance](getting-started.md) separates inspecting saved data from preparing a new execution under the project rules.
 
-[All studies](../../experiments/README.md) · [Old-to-new path map](../../provenance/layout-migration.json) · [Contributing](contributing.md)
+[All studies](../../simulations/README.md) · [Old-to-new path map](../../provenance/layout-migration.json) · [Contributing](contributing.md)
 
 ## The public site and the research archive
 
-[Website source](../../web/README.md) describes the build, preview and language/module extensions. The generated `_site/` folder is disposable output; original research stays under `experiments/`. The [data contract](../maintenance/site-data.md) specifies how saved arrays and images reach the viewer.
+[Website source](../../web/README.md) describes the build, preview and language/module extensions. The generated `_site/` folder is disposable output; original research stays under `simulations/`. The [data contract](../maintenance/site-data.md) specifies how saved arrays and images reach the viewer.
 
 The [reference-document index](../reference/equation/README.md) links the texts labeled v1.1 and v1.0. Those are document revisions; the equation is immutable. The [project rules](project-rules.md), [author page](author.md), [vocabulary](glossary.md) and [journal](journal.md) provide the context for new readers.
 
 ## A real example
 
 ```text
-experiments/quantum/field-modes/
+simulations/field-diagnostics/field-modes/
 ├── README.md
 ├── README.pt-BR.md
 ├── FILES.md

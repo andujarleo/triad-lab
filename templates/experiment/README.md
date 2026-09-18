@@ -1,7 +1,7 @@
 # Study title
 
 <!--
-Copy into experiments/<area>/<study>/README.md and replace every guidance paragraph.
+Copy into simulations/<area>/<study>/README.md and replace every guidance paragraph.
 Keep the Portuguese entrance synchronized; link translations only when they exist.
 The site reads the first paragraph of "The question" and "What was done" for its card.
 These comments are editorial guidance and are not exported into the card.

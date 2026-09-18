@@ -192,139 +192,139 @@
     "reason": "absent-local-target"
   },
   {
-    "source": "experiments/relations/early-field-relations/notes/original-record.md",
+    "source": "simulations/relations/early-field-relations/notes/original-record.md",
     "target": "Equação de referência",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/memory/memory-and-thermal-noise/notes/original-record.md",
+    "source": "simulations/memory/memory-and-thermal-noise/notes/original-record.md",
     "target": "Solver",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/memory/memory-grid-40/notes/original-record.md",
+    "source": "simulations/memory/memory-grid-40/notes/original-record.md",
     "target": "Equação de referência",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/signals/hot-bath-diagnostic-failure/notes/original-record.md",
+    "source": "simulations/signals/hot-bath-diagnostic-failure/notes/original-record.md",
     "target": "Backend e unidades",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/signals/3d-cold-bath-box/notes/original-record.md",
+    "source": "simulations/signals/3d-cold-bath-box/notes/original-record.md",
     "target": "Solver",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/signals/first-phase-to-density-diagnostic/notes/original-record.md",
+    "source": "simulations/signals/first-phase-to-density-diagnostic/notes/original-record.md",
     "target": "Solver",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/signals/refined-phase-to-density-diagnostic/notes/original-record.md",
+    "source": "simulations/signals/refined-phase-to-density-diagnostic/notes/original-record.md",
     "target": "Solver",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/memory/memory-and-bounce/notes/original-record.md",
+    "source": "simulations/memory/memory-and-bounce/notes/original-record.md",
     "target": "Solver",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/geometry/refined-geometric-network/notes/original-record.md",
+    "source": "simulations/geometry/refined-geometric-network/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/structures/twelve-atoms-full-field/notes/original-record.md",
+    "source": "simulations/structures/twelve-atoms-full-field/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/structures/3d-atom-trajectories/notes/original-record.md",
+    "source": "simulations/structures/3d-atom-trajectories/notes/original-record.md",
     "target": "Equação de referência",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/structures/3d-atom-trajectories/notes/original-record.md",
+    "source": "simulations/structures/3d-atom-trajectories/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/memory/memory-small-amplitude/notes/original-record.md",
+    "source": "simulations/memory/memory-small-amplitude/notes/original-record.md",
     "target": "Equação de referência",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/memory/memory-small-amplitude/notes/original-record.md",
+    "source": "simulations/memory/memory-small-amplitude/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/structures/two-atoms/notes/original-record.md",
+    "source": "simulations/structures/two-atoms/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/structures/nested-positive-gaussians/notes/original-record.md",
+    "source": "simulations/structures/nested-positive-gaussians/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/structures/atom-inside-a-larger-gaussian/notes/original-record.md",
+    "source": "simulations/structures/atom-inside-a-larger-gaussian/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/structures/concentric-positive-negative-nest/notes/original-record.md",
+    "source": "simulations/structures/concentric-positive-negative-nest/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/structures/long-nest-trajectory/notes/original-record.md",
+    "source": "simulations/structures/long-nest-trajectory/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/structures/finite-peak-early-window/notes/original-record.md",
+    "source": "simulations/structures/finite-peak-early-window/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/structures/a-pocket-in-the-field/notes/original-record.md",
+    "source": "simulations/structures/a-pocket-in-the-field/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/structures/two-pockets/notes/original-record.md",
+    "source": "simulations/structures/two-pockets/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/structures/density-memory-maps/notes/original-record.md",
+    "source": "simulations/structures/density-memory-maps/notes/original-record.md",
     "target": "TRIAD",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
@@ -684,31 +684,31 @@
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/quantum/seed-ensemble/notes/ensemble-record.md",
+    "source": "simulations/field-diagnostics/seed-ensemble/notes/ensemble-record.md",
     "target": "Q01b",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/quantum/linearity-tests/notes/linearity-record.md",
+    "source": "simulations/field-diagnostics/linearity-tests/notes/linearity-record.md",
     "target": "Q03",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/quantum/linearity-tests/notes/linearity-record.md",
+    "source": "simulations/field-diagnostics/linearity-tests/notes/linearity-record.md",
     "target": "Q02",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/quantum/field-modes/notes/mode-analysis-record.md",
+    "source": "simulations/field-diagnostics/field-modes/notes/mode-analysis-record.md",
     "target": "Q02",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"
   },
   {
-    "source": "experiments/quantum/field-modes/notes/mode-analysis-record.md",
+    "source": "simulations/field-diagnostics/field-modes/notes/mode-analysis-record.md",
     "target": "Q01b",
     "kind": "wiki",
     "reason": "absent-or-ambiguous"

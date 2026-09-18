@@ -8,12 +8,12 @@ A sequence with a specification, protocols, configurations, seeds, raw data and 
 
 | Stage | Study | Record |
 |---|---|---|
-| Q00 | [Frozen specification](../../../experiments/quantum/reference-specification/README.md) | The canonical Theta_core specification and the starting point for the QM sequence. The hash quoted in Q00 differs from the supplied canonical file; both are preserved. |
-| Q01 | [Spatial convergence](../../../experiments/quantum/spatial-convergence/README.md) | N32/N48/N64 at fixed timestep. The recorded convergence decision is INCONCLUSIVE. |
-| Q01B | [Resolution and timestep](../../../experiments/quantum/resolution-and-time-step/README.md) | N96 and timestep refinements follow Q01. The record remains INCONCLUSIVE. |
-| Q02 | [A 32-seed ensemble](../../../experiments/quantum/seed-ensemble/README.md) | An MLX ensemble with both protocol versions preserved. The recorded QM decision is INCONCLUSIVE. |
-| Q03 | [Subspaces and modes](../../../experiments/quantum/field-modes/README.md) | POD/PCA and DMD examine early and late windows across four seeds. The record does not establish a shared low-rank attractor. |
-| Q04 | [Linearity probes](../../../experiments/quantum/linearity-tests/README.md) | Two seeds compare A, B and their superposition with matched noise. The protocol deviation and INCONCLUSIVE decision are retained. |
+| Q00 | [Frozen specification](../../../simulations/field-diagnostics/reference-specification/README.md) | The canonical Theta_core specification and the starting point for the QM sequence. The hash quoted in Q00 differs from the supplied canonical file; both are preserved. |
+| Q01 | [Spatial convergence](../../../simulations/field-diagnostics/spatial-convergence/README.md) | N32/N48/N64 at fixed timestep. The recorded convergence decision is INCONCLUSIVE. |
+| Q01B | [Resolution and timestep](../../../simulations/field-diagnostics/resolution-and-time-step/README.md) | N96 and timestep refinements follow Q01. The record remains INCONCLUSIVE. |
+| Q02 | [A 32-seed ensemble](../../../simulations/field-diagnostics/seed-ensemble/README.md) | An MLX ensemble with both protocol versions preserved. The recorded QM decision is INCONCLUSIVE. |
+| Q03 | [Subspaces and modes](../../../simulations/field-diagnostics/field-modes/README.md) | POD/PCA and DMD examine early and late windows across four seeds. The record does not establish a shared low-rank attractor. |
+| Q04 | [Linearity probes](../../../simulations/field-diagnostics/linearity-tests/README.md) | Two seeds compare A, B and their superposition with matched noise. The protocol deviation and INCONCLUSIVE decision are retained. |
 
 INCONCLUSIVE decisions and protocol deviations are part of the preserved results, attached to the questions and criteria of these records. These protocols are historical material, not the governing methodology for new TRIAD work; see the [project rules](../project-rules.md). The earlier pilots are not relabeled as confirmatory evidence for this sequence.
 

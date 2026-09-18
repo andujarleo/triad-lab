@@ -24,7 +24,7 @@ Install Git LFS before using `git lfs`. PNG figures can be read on GitHub; array
 ## Start with a saved state
 
 ```sh
-MPLBACKEND=Agg python experiments/geometry/string-analysis/code/en/bravais_strings.py experiments/geometry/field-3d/results/data/final_state.npz
+MPLBACKEND=Agg python simulations/geometry/string-analysis/code/en/bravais_strings.py simulations/geometry/field-3d/results/data/final_state.npz
 ```
 
 This command reads the saved state and writes figures into `bravais_outputs_3d/`, without rerunning field evolution. The included state has no `psi_f`, so the phase-string section is skipped. The script assumes `L=32`; for another state, set its actual box size with the `L` environment variable.
@@ -39,7 +39,7 @@ These commands are kept for tracing the historical record. The oscillator pilots
 ### Oscillator pilot
 
 ```sh
-python experiments/relations/observer/code/en/simulate_observer_observed_relations.py
+python simulations/relations/observer/code/en/simulate_observer_observed_relations.py
 ```
 
 This uses 6,000 RK4 steps with `DT=0.02`. New outputs go into `artifacts/` beside the script. The Portuguese version is in `code/pt-BR/` within the same study.
@@ -47,8 +47,8 @@ This uses 6,000 RK4 steps with `DT=0.02`. New outputs go into `artifacts/` besid
 ### Historical 3D evolution and sweep
 
 ```sh
-MPLBACKEND=Agg python experiments/geometry/field-3d/code/en/bravais_pure_3d.py
-MPLBACKEND=Agg python experiments/geometry/scale-sweep/code/en/bravais_sweep_L.py
+MPLBACKEND=Agg python simulations/geometry/field-3d/code/en/bravais_pure_3d.py
+MPLBACKEND=Agg python simulations/geometry/scale-sweep/code/en/bravais_sweep_L.py
 ```
 
 Evolution defaults to 1,200 steps on a 64³ grid. The sweep uses 800 steps per box and reaches 96³, requiring more resources. Both accept `STEPS` through the environment, but shortening a run creates a different comparison. Random initialization has no fixed seed; defaults do not exactly reconstruct the included record.

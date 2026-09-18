@@ -12,11 +12,11 @@ Three principles act together: **P1 oscillation**, **P2 instantaneous self-refer
 
 ## 02 · Watch a history unfold
 
-Open [memory and bounce](../../experiments/memory/memory-and-bounce/README.md). Follow the sequence of concentration, memory response and expansion. Read more than the last image: the time series records how the state arrived there, and the study describes why its diagnostics give different readings.
+Open [memory and bounce](../../simulations/memory/memory-and-bounce/README.md). Follow the sequence of concentration, memory response and expansion. Read more than the last image: the time series records how the state arrived there, and the study describes why its diagnostics give different readings.
 
 ## 03 · Look for a region inside a larger field
 
-The [one-pocket study](../../experiments/structures/a-pocket-in-the-field/README.md) asks whether a distinguishable region can persist. Continue to [two pockets](../../experiments/structures/two-pockets/README.md) or [density–memory maps](../../experiments/structures/density-memory-maps/README.md). A structure appearing and later disappearing is part of the record you can inspect.
+The [one-pocket study](../../simulations/structures/a-pocket-in-the-field/README.md) asks whether a distinguishable region can persist. Continue to [two pockets](../../simulations/structures/two-pockets/README.md) or [density–memory maps](../../simulations/structures/density-memory-maps/README.md). A structure appearing and later disappearing is part of the record you can inspect.
 
 ## 04 · Choose how deep to go
 
@@ -24,7 +24,7 @@ The [one-pocket study](../../experiments/structures/a-pocket-in-the-field/README
 |---|---|
 | See more shapes and sequences | [Annotated gallery](gallery.md) |
 | Understand a word or symbol | [TRIAD vocabulary](glossary.md) |
-| Explore by question and area | [All studies](../../experiments/README.md) |
+| Explore by question and area | [All studies](../../simulations/README.md) |
 | Inspect the equation, code and records | [Research guide](research-guide.md) |
 | Follow the project as it develops | [Lab journal](journal.md) |
 

@@ -47,4 +47,4 @@ Não é transformer. Não é treinar e depois congelar. Não é campo C. Não é
 
 É o mesmo sistema: ímã, memória, banho. Interface em byte.
 
-[TRIAD_resumo](system-overview.md) · [39 mapa](../../../experiments/structures/density-memory-maps/notes/original-record.md) · [Memória](memory.md) · `[[TRIAD]]`
+[TRIAD_resumo](system-overview.md) · [39 mapa](../../../simulations/structures/density-memory-maps/notes/original-record.md) · [Memória](memory.md) · `[[TRIAD]]`

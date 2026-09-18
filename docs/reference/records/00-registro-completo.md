@@ -28,42 +28,42 @@ Este arquivo é a antologia. Não substitui as notas por run. Vazios e falhas en
 
 | # | run | classe | status | resultado (PDF) |
 |---|---|---|---|---|
-| 1 | [triad_sim](../../../experiments/relations/early-field-relations/notes/original-record.md) | Exploratória / pré-referência | completo | visual 2D, duas gaussianas + termo relacional; sem CSV |
-| 2 | [triad_nls_fdt](../../../experiments/memory/memory-and-thermal-noise/notes/original-record.md) | Exploratória / pré-referência | completo | primeiro NLS+memória+FDT; visual |
-| 3 | [triad_nls_fdt_v2](../../../experiments/memory/tracking-density-peaks/notes/original-record.md) | Exploratória / pré-referência | completo | v2 + trajetórias de picos; visual |
-| 4 | [triad_atoms_gaussians](../../../experiments/structures/gaussian-atoms-in-one-field/notes/original-record.md) | Exploratória / pré-referência | completo | átomos gaussianos; visual |
-| 5 | [triad_atoms_individual_fields](../../../experiments/structures/individual-fields/notes/original-record.md) | Exploratória / pré-referência | completo | identidades gaussianas separadas; visual |
-| 6 | [triad_limit_test](../../../experiments/signals/limit-test-attempt/notes/original-record.md) | Tentativa sem artefatos | vazio | cronologia |
-| 7 | [triad_limit_test_fast](../../../experiments/signals/fast-limit-sweep/notes/original-record.md) | Exploratória quantitativa | completo | N={2,4,8,12} r={4,6,8}; δR>0 só N=2,r=4 |
-| 8 | [triad_observer_observed_consciousness](../../../experiments/relations/observer-and-observed/notes/original-record.md) | Exploratória | completo | mean_abs_C 0 vs 0.140886; R quase idêntico |
-| 9 | [triad_field_consciousness_test](../../../experiments/relations/continuous-relational-field/notes/original-record.md) | Exploratória | completo | bounce_amplitude=0; C_memory_corr=−0.385509 |
-| 10 | [triad_3d_anticollapse_test](../../../experiments/memory/3d-anti-collapse-exploration/notes/original-record.md) | Exploratória 3D / pré-ref | completo | visual |
-| 11 | [triad_3d_longrun](../../../experiments/structures/long-run-attempt/notes/original-record.md) | Tentativa sem artefatos | vazio | cronologia |
-| 12 | [triad_3d_longrun_fast](../../../experiments/structures/fast-3d-long-run/notes/original-record.md) | Exploratória 3D | completo | visual; sem 00_montagem |
-| 13 | [triad_3d_longrun_compact](../../../experiments/structures/compact-3d-long-run/notes/original-record.md) | Exploratória 3D | completo | visual |
-| 14 | [triad_R5_reference_run](../../../experiments/memory/memory-reference-attempt/notes/original-record.md) | Transição | vazio | preparação R5 |
-| 15 | [triad_R5_reference_fast](../../../experiments/memory/accelerated-memory-reference/notes/original-record.md) | Transição | vazio | preparação R5 |
-| 16 | [triad_R5_reference_N40](../../../experiments/memory/memory-grid-40/notes/original-record.md) | Equação de referência | completo | anti-colapso full vs no-memory |
-| 17 | [triad_R5_reference_N48_full](../../../experiments/memory/memory-grid-48/notes/original-record.md) | Equação de referência | completo | scores Bravais; BCC maior, não “perfeito” |
-| 18 | [triad_visual_atlas](../../../experiments/geometry/visual-atlas/notes/original-record.md) | Diagnóstico visual | completo | 22 painéis; sem cancelamento local |
-| 19 | [triad_bigbang_solver_run](../../../experiments/signals/hot-bath-diagnostic-failure/notes/original-record.md) | solver.py NumPy shim | falha-diagnóstica | FDT quente; mass_final=8773.747757 |
-| 20 | [triad_bigbang_3d_box](../../../experiments/signals/3d-cold-bath-box/notes/original-record.md) | solver.py NumPy shim | completo | FDT frio; expansão sem teia clara |
-| 21 | [triad_phase_to_density_speed](../../../experiments/signals/first-phase-to-density-diagnostic/notes/original-record.md) | solver.py | falha-diagnóstica | velocidades ~4.008763e-16 |
-| 22 | [triad_phase_to_density_speed_refined](../../../experiments/signals/refined-phase-to-density-diagnostic/notes/original-record.md) | solver.py | completo | fronts 7.301417 / 7.557409 |
-| 23 | [triad_memory_bounce_bigbang](../../../experiments/memory/memory-and-bounce/notes/original-record.md) | solver.py | completo | R_rms False; raios de massa True |
-| 24 | [triad_bravais_map](../../../experiments/geometry/bravais-template-map/notes/original-record.md) | Pós-processamento bounce | completo | PLANAR_cross=0.221126 (maior) |
-| 25 | [triad_bravais_network_map](../../../experiments/geometry/first-geometric-network/notes/original-record.md) | Pós-processamento geométrico | falha-diagnóstica | 2 nós, 1 aresta; threshold severo |
-| 26 | [triad_bravais_network_map_v2](../../../experiments/geometry/refined-geometric-network/notes/original-record.md) | Pós-processamento geométrico | completo | t=4.4: 39 nós, 25 arestas |
-| 27 | [triad_chaos_eq](../../../experiments/structures/twelve-atoms-full-field/notes/original-record.md) | solver real (triad-lang), N=32, 2026-08-20 noite | caos-eq | 12 sementes → universo; n_det 12→1238; norm 1→25585.351298 |
-| 28 | [triad_atoms_3d](../../../experiments/structures/3d-atom-trajectories/notes/original-record.md) | solver real (triad-lang), N=40 volume 3D, 2026-08-20 noite | caos-eq | 12 sementes 3D → universo no cubo; n_det 12→1007; norm 1→23.275045 |
-| 29 | [triad_R5_A2](../../../experiments/memory/memory-small-amplitude/notes/original-record.md) | spec §5 3D Strang standalone, N=96 vs 128, 2026-08-20 noite | R5-FDT | 1 átomo §9.1 A.2 → universo no cubo; peak 1.437→0.004433; PR 1.969→4035.967; R_rms 0.612→10.023 |
-| 30 | [triad_dois_atomos](../../../experiments/structures/two-atoms/notes/original-record.md) | Theta_core I0, 2 gaussianas, N=64, 2026-08-21 | par / pico finito | 2 blobs só até t=0.01 (sep 6.000→6.021); t=0.02 universo (n_raw 30, R_rms 15.88); peak_max=4.770 finito; norm 1→18033 |
-| 31 | [triad_nested](../../../experiments/structures/nested-positive-gaussians/notes/original-record.md) | Theta_core I0, 2 gaussianas aninhadas, N=64, 2026-08-21 | ninho / pico finito | two-scale até t=0.02 (cim 7.89→6.67); t=0.03 universo (R_rms 15.91); peak_max=4.525 finito; norm 1→18022 |
-| 32 | [triad_universo_atomo](../../../experiments/structures/atom-inside-a-larger-gaussian/notes/original-record.md) | Theta_core I0, universo-átomo + par +/−, N=64, 2026-08-21 | ninho 3 / ímã-repele / pico finito | par +/− só em t=0 (sep=5.000); t=0.01 universo (n_raw 8608, R_rms 15.85); peak_max=4.599 finito; norm 1→18029 |
-| 33 | [triad_ninho_pm](../../../experiments/structures/concentric-positive-negative-nest/notes/original-record.md) | Theta_core I0, ninho +/− concêntrico, N=64, 2026-08-21 | ninho sinal / oco / pico finito | oco +/− até t=0.04 (sign até 0.08, flicker t=1.0); t=0.01 universo (R_rms 15.77); peak_max=4.452 finito; norm 1→18022 |
-| 34 | [triad_ninho_pm_long](../../../experiments/structures/long-nest-trajectory/notes/original-record.md) | Theta_core I0, ninho +/− T=60, N=64, 2026-08-21 | universo preenchido / sem rebirth | depois de t=1 só universo; sem nest/par/bounce real; peak_max=4.851 em t=10.4 depois platô ~3.31; late norm 32591±72; cryst Δ=2e-6 |
-| 35 | [triad_singularidade_35](../../../experiments/structures/finite-peak-early-window/notes/original-record.md) | Theta_core I0, 1 e 2 picos, N=64 T=1, 2026-08-21 | singularidade finita | 1atom peak_max=5.3739 t=0.185 n_células 1→1 t_gone=0.005 não aperta; 2atom peak_max=4.76867 t=0.705 n_células 2→1 t_gone=0.005 não aperta |
-| 36 | [reexecucao_integral](../../../experiments/validation/reproduction-dossier/notes/original-record.md) · [TRIAD_reexecucao_integral_2026-08-21](../../../experiments/validation/reproduction-dossier/notes/original-record.md) | reexecução dossiê Grok, Linux/NumPy fp64, 21/08/2026 | completo | A.3 64/128/160 H_plateau; P1/P4 PARTIAL; P2/P3/P5/P6 MATCH; CHSH S=2.023±0.092; bandas INCONCLUSIVO; túnel sujo; banho PARTIAL; k*L=3π; Bravais chão |
+| 1 | [triad_sim](../../../simulations/relations/early-field-relations/notes/original-record.md) | Exploratória / pré-referência | completo | visual 2D, duas gaussianas + termo relacional; sem CSV |
+| 2 | [triad_nls_fdt](../../../simulations/memory/memory-and-thermal-noise/notes/original-record.md) | Exploratória / pré-referência | completo | primeiro NLS+memória+FDT; visual |
+| 3 | [triad_nls_fdt_v2](../../../simulations/memory/tracking-density-peaks/notes/original-record.md) | Exploratória / pré-referência | completo | v2 + trajetórias de picos; visual |
+| 4 | [triad_atoms_gaussians](../../../simulations/structures/gaussian-atoms-in-one-field/notes/original-record.md) | Exploratória / pré-referência | completo | átomos gaussianos; visual |
+| 5 | [triad_atoms_individual_fields](../../../simulations/structures/individual-fields/notes/original-record.md) | Exploratória / pré-referência | completo | identidades gaussianas separadas; visual |
+| 6 | [triad_limit_test](../../../simulations/signals/limit-test-attempt/notes/original-record.md) | Tentativa sem artefatos | vazio | cronologia |
+| 7 | [triad_limit_test_fast](../../../simulations/signals/fast-limit-sweep/notes/original-record.md) | Exploratória quantitativa | completo | N={2,4,8,12} r={4,6,8}; δR>0 só N=2,r=4 |
+| 8 | [triad_observer_observed_consciousness](../../../simulations/relations/observer-and-observed/notes/original-record.md) | Exploratória | completo | mean_abs_C 0 vs 0.140886; R quase idêntico |
+| 9 | [triad_field_consciousness_test](../../../simulations/relations/continuous-relational-field/notes/original-record.md) | Exploratória | completo | bounce_amplitude=0; C_memory_corr=−0.385509 |
+| 10 | [triad_3d_anticollapse_test](../../../simulations/memory/3d-anti-collapse-exploration/notes/original-record.md) | Exploratória 3D / pré-ref | completo | visual |
+| 11 | [triad_3d_longrun](../../../simulations/structures/long-run-attempt/notes/original-record.md) | Tentativa sem artefatos | vazio | cronologia |
+| 12 | [triad_3d_longrun_fast](../../../simulations/structures/fast-3d-long-run/notes/original-record.md) | Exploratória 3D | completo | visual; sem 00_montagem |
+| 13 | [triad_3d_longrun_compact](../../../simulations/structures/compact-3d-long-run/notes/original-record.md) | Exploratória 3D | completo | visual |
+| 14 | [triad_R5_reference_run](../../../simulations/memory/memory-reference-attempt/notes/original-record.md) | Transição | vazio | preparação R5 |
+| 15 | [triad_R5_reference_fast](../../../simulations/memory/accelerated-memory-reference/notes/original-record.md) | Transição | vazio | preparação R5 |
+| 16 | [triad_R5_reference_N40](../../../simulations/memory/memory-grid-40/notes/original-record.md) | Equação de referência | completo | anti-colapso full vs no-memory |
+| 17 | [triad_R5_reference_N48_full](../../../simulations/memory/memory-grid-48/notes/original-record.md) | Equação de referência | completo | scores Bravais; BCC maior, não “perfeito” |
+| 18 | [triad_visual_atlas](../../../simulations/geometry/visual-atlas/notes/original-record.md) | Diagnóstico visual | completo | 22 painéis; sem cancelamento local |
+| 19 | [triad_bigbang_solver_run](../../../simulations/signals/hot-bath-diagnostic-failure/notes/original-record.md) | solver.py NumPy shim | falha-diagnóstica | FDT quente; mass_final=8773.747757 |
+| 20 | [triad_bigbang_3d_box](../../../simulations/signals/3d-cold-bath-box/notes/original-record.md) | solver.py NumPy shim | completo | FDT frio; expansão sem teia clara |
+| 21 | [triad_phase_to_density_speed](../../../simulations/signals/first-phase-to-density-diagnostic/notes/original-record.md) | solver.py | falha-diagnóstica | velocidades ~4.008763e-16 |
+| 22 | [triad_phase_to_density_speed_refined](../../../simulations/signals/refined-phase-to-density-diagnostic/notes/original-record.md) | solver.py | completo | fronts 7.301417 / 7.557409 |
+| 23 | [triad_memory_bounce_bigbang](../../../simulations/memory/memory-and-bounce/notes/original-record.md) | solver.py | completo | R_rms False; raios de massa True |
+| 24 | [triad_bravais_map](../../../simulations/geometry/bravais-template-map/notes/original-record.md) | Pós-processamento bounce | completo | PLANAR_cross=0.221126 (maior) |
+| 25 | [triad_bravais_network_map](../../../simulations/geometry/first-geometric-network/notes/original-record.md) | Pós-processamento geométrico | falha-diagnóstica | 2 nós, 1 aresta; threshold severo |
+| 26 | [triad_bravais_network_map_v2](../../../simulations/geometry/refined-geometric-network/notes/original-record.md) | Pós-processamento geométrico | completo | t=4.4: 39 nós, 25 arestas |
+| 27 | [triad_chaos_eq](../../../simulations/structures/twelve-atoms-full-field/notes/original-record.md) | solver real (triad-lang), N=32, 2026-08-20 noite | caos-eq | 12 sementes → universo; n_det 12→1238; norm 1→25585.351298 |
+| 28 | [triad_atoms_3d](../../../simulations/structures/3d-atom-trajectories/notes/original-record.md) | solver real (triad-lang), N=40 volume 3D, 2026-08-20 noite | caos-eq | 12 sementes 3D → universo no cubo; n_det 12→1007; norm 1→23.275045 |
+| 29 | [triad_R5_A2](../../../simulations/memory/memory-small-amplitude/notes/original-record.md) | spec §5 3D Strang standalone, N=96 vs 128, 2026-08-20 noite | R5-FDT | 1 átomo §9.1 A.2 → universo no cubo; peak 1.437→0.004433; PR 1.969→4035.967; R_rms 0.612→10.023 |
+| 30 | [triad_dois_atomos](../../../simulations/structures/two-atoms/notes/original-record.md) | Theta_core I0, 2 gaussianas, N=64, 2026-08-21 | par / pico finito | 2 blobs só até t=0.01 (sep 6.000→6.021); t=0.02 universo (n_raw 30, R_rms 15.88); peak_max=4.770 finito; norm 1→18033 |
+| 31 | [triad_nested](../../../simulations/structures/nested-positive-gaussians/notes/original-record.md) | Theta_core I0, 2 gaussianas aninhadas, N=64, 2026-08-21 | ninho / pico finito | two-scale até t=0.02 (cim 7.89→6.67); t=0.03 universo (R_rms 15.91); peak_max=4.525 finito; norm 1→18022 |
+| 32 | [triad_universo_atomo](../../../simulations/structures/atom-inside-a-larger-gaussian/notes/original-record.md) | Theta_core I0, universo-átomo + par +/−, N=64, 2026-08-21 | ninho 3 / ímã-repele / pico finito | par +/− só em t=0 (sep=5.000); t=0.01 universo (n_raw 8608, R_rms 15.85); peak_max=4.599 finito; norm 1→18029 |
+| 33 | [triad_ninho_pm](../../../simulations/structures/concentric-positive-negative-nest/notes/original-record.md) | Theta_core I0, ninho +/− concêntrico, N=64, 2026-08-21 | ninho sinal / oco / pico finito | oco +/− até t=0.04 (sign até 0.08, flicker t=1.0); t=0.01 universo (R_rms 15.77); peak_max=4.452 finito; norm 1→18022 |
+| 34 | [triad_ninho_pm_long](../../../simulations/structures/long-nest-trajectory/notes/original-record.md) | Theta_core I0, ninho +/− T=60, N=64, 2026-08-21 | universo preenchido / sem rebirth | depois de t=1 só universo; sem nest/par/bounce real; peak_max=4.851 em t=10.4 depois platô ~3.31; late norm 32591±72; cryst Δ=2e-6 |
+| 35 | [triad_singularidade_35](../../../simulations/structures/finite-peak-early-window/notes/original-record.md) | Theta_core I0, 1 e 2 picos, N=64 T=1, 2026-08-21 | singularidade finita | 1atom peak_max=5.3739 t=0.185 n_células 1→1 t_gone=0.005 não aperta; 2atom peak_max=4.76867 t=0.705 n_células 2→1 t_gone=0.005 não aperta |
+| 36 | [reexecucao_integral](../../../simulations/numerical-checks/reproduction-dossier/notes/original-record.md) · [TRIAD_reexecucao_integral_2026-08-21](../../../simulations/numerical-checks/reproduction-dossier/notes/original-record.md) | reexecução dossiê Grok, Linux/NumPy fp64, 21/08/2026 | completo | A.3 64/128/160 H_plateau; P1/P4 PARTIAL; P2/P3/P5/P6 MATCH; CHSH S=2.023±0.092; bandas INCONCLUSIVO; túnel sujo; banho PARTIAL; k*L=3π; Bravais chão |
 
 Classes: [Registro integral](registro-integral.md). Equação: `[[Equação de referência]]`. Conceitos: [Anti-colapso](../concepts/anti-collapse.md) · [Bounce](../concepts/bounce.md) · [Rede Bravais](../concepts/bravais-lattice.md) · [Phase-to-density](../concepts/phase-to-density.md) · [Observador e campo C](../concepts/observer-and-c-field.md) · [FDT](../concepts/fdt.md) · [Memória](../concepts/memory.md) · [Leitura operacional](../concepts/operational-readings.md).
 
@@ -87,7 +87,7 @@ Comparar isolado vs acoplado. Sequência: separado → aproximação → acoplam
 
 Só visual. Sem CSV. Nenhuma métrica reconstruída a partir dos gráficos.
 
-![Artefatos/triad_sim/00_montagem_simulacao.png](../../../experiments/relations/early-field-relations/results/figures/simulation-overview.png)
+![Artefatos/triad_sim/00_montagem_simulacao.png](../../../simulations/relations/early-field-relations/results/figures/simulation-overview.png)
 
 ### Arquivos
 
@@ -101,7 +101,7 @@ Só visual. Sem CSV. Nenhuma métrica reconstruída a partir dos gráficos.
 
 ## triad_nls_fdt
 
-Primeira tentativa de NLS + [Memória](../concepts/memory.md) + [FDT](../concepts/fdt.md). Posteriormente revista em [03 triad_nls_fdt_v2](../../../experiments/memory/tracking-density-peaks/notes/original-record.md). Ainda não é o `[[Solver]]` da fase (c).
+Primeira tentativa de NLS + [Memória](../concepts/memory.md) + [FDT](../concepts/fdt.md). Posteriormente revista em [03 triad_nls_fdt_v2](../../../simulations/memory/tracking-density-peaks/notes/original-record.md). Ainda não é o `[[Solver]]` da fase (c).
 
 ### Objetivo
 
@@ -111,7 +111,7 @@ Traduzir a dinâmica para NLS com memória e ruído FDT.
 
 Mapas espaço-tempo de densidade, separação, aceleração relativa, perfis, memória e norma. Sem CSV. Gráficos = registro integral disponível.
 
-![Artefatos/triad_nls_fdt/00_montagem.png](../../../experiments/memory/memory-and-thermal-noise/results/figures/overview.png)
+![Artefatos/triad_nls_fdt/00_montagem.png](../../../simulations/memory/memory-and-thermal-noise/results/figures/overview.png)
 
 ### Arquivos
 
@@ -129,13 +129,13 @@ Segunda versão do ensaio NLS/FDT. Diagnósticos extras: separação e trajetór
 
 ### Objetivo
 
-Repetir [02 triad_nls_fdt](../../../experiments/memory/memory-and-thermal-noise/notes/original-record.md) com picos rastreados.
+Repetir [02 triad_nls_fdt](../../../simulations/memory/memory-and-thermal-noise/notes/original-record.md) com picos rastreados.
 
 ### Resultado preservado
 
 Evolução espaço-temporal, distância, aceleração, perfis, memória, norma, separação de picos, trajetórias. Sem CSV.
 
-![Artefatos/triad_nls_fdt_v2/00_montagem.png](../../../experiments/memory/tracking-density-peaks/results/figures/overview.png)
+![Artefatos/triad_nls_fdt_v2/00_montagem.png](../../../simulations/memory/tracking-density-peaks/results/figures/overview.png)
 
 ### Arquivos
 
@@ -157,9 +157,9 @@ Ler a nuvem multi-gaussiana como conjunto de “átomos”.
 
 ### Resultado preservado
 
-Saída visual de nuvem em evolução. Esta versão **antecede** a correção de manter identidades explicitamente separadas — ver [05 triad_atoms_individual_fields](../../../experiments/structures/individual-fields/notes/original-record.md). Sem CSV.
+Saída visual de nuvem em evolução. Esta versão **antecede** a correção de manter identidades explicitamente separadas — ver [05 triad_atoms_individual_fields](../../../simulations/structures/individual-fields/notes/original-record.md). Sem CSV.
 
-![Artefatos/triad_atoms_gaussians/00_montagem.png](../../../experiments/structures/gaussian-atoms-in-one-field/results/figures/overview.png)
+![Artefatos/triad_atoms_gaussians/00_montagem.png](../../../simulations/structures/gaussian-atoms-in-one-field/results/figures/overview.png)
 
 ### Arquivos
 
@@ -173,7 +173,7 @@ Saída visual de nuvem em evolução. Esta versão **antecede** a correção de 
 
 ## triad_atoms_individual_fields
 
-Correção metodológica sobre [04 triad_atoms_gaussians](../../../experiments/structures/gaussian-atoms-in-one-field/notes/original-record.md): cada gaussiana mantém identidade própria. Campos podem se sobrepor/interagir sem fundir numa única identidade.
+Correção metodológica sobre [04 triad_atoms_gaussians](../../../simulations/structures/gaussian-atoms-in-one-field/notes/original-record.md): cada gaussiana mantém identidade própria. Campos podem se sobrepor/interagir sem fundir numa única identidade.
 
 ### Objetivo
 
@@ -183,7 +183,7 @@ Identidades persistentes + interação, sem fusão matemática.
 
 Espaço-tempo por átomo, centros, espaçamento, espalhamento, larguras individuais, memória. Sem CSV.
 
-![Artefatos/triad_atoms_individual_fields/00_montagem.png](../../../experiments/structures/individual-fields/results/figures/overview.png)
+![Artefatos/triad_atoms_individual_fields/00_montagem.png](../../../simulations/structures/individual-fields/results/figures/overview.png)
 
 ### Arquivos
 
@@ -201,7 +201,7 @@ Primeira preparação para varrer número de elementos e escala inicial.
 
 ### Resultado preservado
 
-Diretório sem arquivos. O teste foi refeito em [07 triad_limit_test_fast](../../../experiments/signals/fast-limit-sweep/notes/original-record.md). Mantido para não apagar a cronologia. Sem CSV, sem métrica.
+Diretório sem arquivos. O teste foi refeito em [07 triad_limit_test_fast](../../../simulations/signals/fast-limit-sweep/notes/original-record.md). Mantido para não apagar a cronologia. Sem CSV, sem métrica.
 
 Ver regra de integridade: [Registro integral](registro-integral.md).
 
@@ -213,7 +213,7 @@ Ver regra de integridade: [Registro integral](registro-integral.md).
 
 ## triad_limit_test_fast
 
-Refaz [06 triad_limit_test](../../../experiments/signals/limit-test-attempt/notes/original-record.md). Varredura N={2,4,8,12}, r={4,6,8}. Mede a_R, R0, Rfinal, deltaR.
+Refaz [06 triad_limit_test](../../../simulations/signals/limit-test-attempt/notes/original-record.md). Varredura N={2,4,8,12}, r={4,6,8}. Mede a_R, R0, Rfinal, deltaR.
 
 ### Resultado preservado
 
@@ -234,13 +234,13 @@ Refaz [06 triad_limit_test](../../../experiments/signals/limit-test-attempt/note
 | 12 | 6.0 | 0.0013605645937609 | 20.71231517720798 | 20.58611413442041 | −0.1262010427875708 |
 | 12 | 8.0 | −0.000923292578859 | 27.616420236277303 | 27.36859791533509 | −0.247822320942209 |
 
-Sem `00_montagem`. CSV: [Artefatos/triad_limit_test_fast/limit_results.csv](../../../experiments/signals/fast-limit-sweep/results/data/limit_results.csv)
+Sem `00_montagem`. CSV: [Artefatos/triad_limit_test_fast/limit_results.csv](../../../simulations/signals/fast-limit-sweep/results/data/limit_results.csv)
 
 ### Arquivos
 
 `01_heatmap.png` · `02_curves.png` · `03_N_scaling.png` · `04_r_scaling.png` · `05_summary.png` · `limit_results.csv`
 
-![Artefatos/triad_limit_test_fast/01_heatmap.png](../../../experiments/signals/fast-limit-sweep/results/figures/heatmap.png)
+![Artefatos/triad_limit_test_fast/01_heatmap.png](../../../simulations/signals/fast-limit-sweep/results/figures/heatmap.png)
 
 → [Índice de runs](indice-de-runs.md)
 
@@ -265,15 +265,15 @@ R quase idêntico. C só no ramo observer_observed.
 | baseline | 17.950673153580247 | 17.401860178232013 | −0.548812975348234 | 5.2 | 5.036317270840565 | 0 |
 | observer_observed | 17.950673153580247 | 17.40203710725556 | −0.5486360463246882 | 5.2 | 5.036382915798405 | 0.1408855554136146 |
 
-![Artefatos/triad_observer_observed_consciousness/00_montagem.png](../../../experiments/relations/observer-and-observed/results/figures/overview.png)
+![Artefatos/triad_observer_observed_consciousness/00_montagem.png](../../../simulations/relations/observer-and-observed/results/figures/overview.png)
 
-CSV: [Artefatos/triad_observer_observed_consciousness/summary.csv](../../../experiments/relations/observer-and-observed/results/data/summary.csv)
+CSV: [Artefatos/triad_observer_observed_consciousness/summary.csv](../../../simulations/relations/observer-and-observed/results/data/summary.csv)
 
 ### Arquivos
 
 `00_montagem.png` · `01_spread_comparison.png` · `02_aware_trajectories.png` · `03_consciousness_states.png` · `04_aware_spacetime.png` · `05_difference.png` · `06_C_summary.png` · `summary.csv`
 
-→ [09 triad_field_consciousness_test](../../../experiments/relations/continuous-relational-field/notes/original-record.md) · [Índice de runs](indice-de-runs.md)
+→ [09 triad_field_consciousness_test](../../../simulations/relations/continuous-relational-field/notes/original-record.md) · [Índice de runs](indice-de-runs.md)
 
 ### Run 09 — 09 triad_field_consciousness_test
 
@@ -296,15 +296,15 @@ Campo C contínuo; `bounce_amplitude` e C_memory_corr.
 | baseline | 23.350001386552602 | 23.350001386552602 | 0 | 0 | 0 | 0 |
 | continuous_C | 23.35152445562933 | 23.35152445562933 | 0 | 0.05885646675539304 | 0.0032211309978780103 | −0.3855089487747705 |
 
-![Artefatos/triad_field_consciousness_test/00_montagem.png](../../../experiments/relations/continuous-relational-field/results/figures/overview.png)
+![Artefatos/triad_field_consciousness_test/00_montagem.png](../../../simulations/relations/continuous-relational-field/results/figures/overview.png)
 
-CSV: [Artefatos/triad_field_consciousness_test/summary.csv](../../../experiments/relations/continuous-relational-field/results/data/summary.csv)
+CSV: [Artefatos/triad_field_consciousness_test/summary.csv](../../../simulations/relations/continuous-relational-field/results/data/summary.csv)
 
 ### Arquivos
 
 `00_montagem.png` · `01_bounce_compare.png` · `02_C_spacetime.png` · `03_density_centers.png` · `04_C_order.png` · `05_C_memory_corr.png` · `06_snapshots.png` · `summary.csv`
 
-→ [08 triad_observer_observed_consciousness](../../../experiments/relations/observer-and-observed/notes/original-record.md) · [Bounce](../concepts/bounce.md) · [Índice de runs](indice-de-runs.md)
+→ [08 triad_observer_observed_consciousness](../../../simulations/relations/observer-and-observed/notes/original-record.md) · [Bounce](../concepts/bounce.md) · [Índice de runs](indice-de-runs.md)
 
 ### Run 10 — 10 triad_3d_anticollapse_test
 
@@ -322,13 +322,13 @@ Trajetórias, raio, distância mínima, densidade, memória em 3D.
 
 Só visual. Sem CSV. Nenhuma métrica inferida dos gráficos.
 
-![Artefatos/triad_3d_anticollapse_test/00_montagem.png](../../../experiments/memory/3d-anti-collapse-exploration/results/figures/overview.png)
+![Artefatos/triad_3d_anticollapse_test/00_montagem.png](../../../simulations/memory/3d-anti-collapse-exploration/results/figures/overview.png)
 
 ### Arquivos
 
 `00_montagem.png` · `01_3d_trajectories.png` · `02_radius_3d.png` · `03_min_pair_distance.png` · `04_density_projection.png` · `05_final_xy_density.png` · `06_final_xy_memory.png`
 
-→ [16 triad_R5_reference_N40](../../../experiments/memory/memory-grid-40/notes/original-record.md) · [Índice de runs](indice-de-runs.md)
+→ [16 triad_R5_reference_N40](../../../simulations/memory/memory-grid-40/notes/original-record.md) · [Índice de runs](indice-de-runs.md)
 
 ### Run 11 — 11 triad_3d_longrun
 
@@ -340,7 +340,7 @@ Preparação de um run 3D mais longo.
 
 ### Resultado preservado
 
-Diretório sem arquivos. Resultados efetivos em [12 triad_3d_longrun_fast](../../../experiments/structures/fast-3d-long-run/notes/original-record.md) e [13 triad_3d_longrun_compact](../../../experiments/structures/compact-3d-long-run/notes/original-record.md). Cronologia mantida. [Registro integral](registro-integral.md)
+Diretório sem arquivos. Resultados efetivos em [12 triad_3d_longrun_fast](../../../simulations/structures/fast-3d-long-run/notes/original-record.md) e [13 triad_3d_longrun_compact](../../../simulations/structures/compact-3d-long-run/notes/original-record.md). Cronologia mantida. [Registro integral](registro-integral.md)
 
 → [Índice de runs](indice-de-runs.md)
 
@@ -360,13 +360,13 @@ Trajetórias, raio, distância mínima, CV de ordem, movimento residual.
 
 Cinco gráficos. Registro visual sem conversão em métricas não salvas.
 
-![Artefatos/triad_3d_longrun_fast/01_trajectories.png](../../../experiments/structures/fast-3d-long-run/results/figures/trajectories.png)
+![Artefatos/triad_3d_longrun_fast/01_trajectories.png](../../../simulations/structures/fast-3d-long-run/results/figures/trajectories.png)
 
 ### Arquivos
 
 `01_trajectories.png` · `02_radius.png` · `03_min_pair.png` · `04_order_cv.png` · `05_residual_motion.png`
 
-→ [13 triad_3d_longrun_compact](../../../experiments/structures/compact-3d-long-run/notes/original-record.md) · [Índice de runs](indice-de-runs.md)
+→ [13 triad_3d_longrun_compact](../../../simulations/structures/compact-3d-long-run/notes/original-record.md) · [Índice de runs](indice-de-runs.md)
 
 ### Run 13 — 13 triad_3d_longrun_compact
 
@@ -380,13 +380,13 @@ Versão compacta do long-run, com montagem. Sem CSV.
 
 Montagem + cinco diagnósticos. Sem métrica numérica associada.
 
-![Artefatos/triad_3d_longrun_compact/00_montagem.png](../../../experiments/structures/compact-3d-long-run/results/figures/overview.png)
+![Artefatos/triad_3d_longrun_compact/00_montagem.png](../../../simulations/structures/compact-3d-long-run/results/figures/overview.png)
 
 ### Arquivos
 
 `00_montagem.png` · `01_trajectories.png` · `02_radius.png` · `03_min_pair.png` · `04_order_cv.png` · `05_residual_motion.png`
 
-→ [12 triad_3d_longrun_fast](../../../experiments/structures/fast-3d-long-run/notes/original-record.md) · [Índice de runs](indice-de-runs.md)
+→ [12 triad_3d_longrun_fast](../../../simulations/structures/fast-3d-long-run/notes/original-record.md) · [Índice de runs](indice-de-runs.md)
 
 ### Run 14 — 14 triad_R5_reference_run
 
@@ -398,7 +398,7 @@ Primeira preparação para reproduzir R5 da especificação.
 
 ### Resultado preservado
 
-Sem artefatos. Tentativa substituída por [15 triad_R5_reference_fast](../../../experiments/memory/accelerated-memory-reference/notes/original-record.md) / [16 triad_R5_reference_N40](../../../experiments/memory/memory-grid-40/notes/original-record.md). Sem CSV. Cronologia: [Registro integral](registro-integral.md).
+Sem artefatos. Tentativa substituída por [15 triad_R5_reference_fast](../../../simulations/memory/accelerated-memory-reference/notes/original-record.md) / [16 triad_R5_reference_N40](../../../simulations/memory/memory-grid-40/notes/original-record.md). Sem CSV. Cronologia: [Registro integral](registro-integral.md).
 
 → [Anti-colapso](../concepts/anti-collapse.md) · [Índice de runs](indice-de-runs.md)
 
@@ -412,7 +412,7 @@ Segunda preparação reduzida do regime R5.
 
 ### Resultado preservado
 
-Sem artefatos. Resultados efetivos começam em [16 triad_R5_reference_N40](../../../experiments/memory/memory-grid-40/notes/original-record.md). Sem CSV.
+Sem artefatos. Resultados efetivos começam em [16 triad_R5_reference_N40](../../../simulations/memory/memory-grid-40/notes/original-record.md). Sem CSV.
 
 → [Índice de runs](indice-de-runs.md)
 
@@ -438,19 +438,19 @@ No-memory: `peak_max=4.170131`; `peak_final=3.889202`; `PR_final=0.528063`.
 
 t ∈ [0, 15], dx=0.5. kstar full constante 0.471239 no CSV (k\*L = kstar·L = 9.424778 com L=20 se dx·N=0.5·40).
 
-![Artefatos/triad_R5_reference_N40/00_montagem.png](../../../experiments/memory/memory-grid-40/results/figures/overview.png)
+![Artefatos/triad_R5_reference_N40/00_montagem.png](../../../simulations/memory/memory-grid-40/results/figures/overview.png)
 
 ### CSVs
 
-- [Artefatos/triad_R5_reference_N40/summary.csv](../../../experiments/memory/memory-grid-40/results/data/summary.csv)
-- [Artefatos/triad_R5_reference_N40/R5_full_metrics.csv](../../../experiments/memory/memory-grid-40/results/data/memory-model-metrics.csv)
-- [Artefatos/triad_R5_reference_N40/R5_no_memory_metrics.csv](../../../experiments/memory/memory-grid-40/results/data/no-memory-control-metrics.csv)
+- [Artefatos/triad_R5_reference_N40/summary.csv](../../../simulations/memory/memory-grid-40/results/data/summary.csv)
+- [Artefatos/triad_R5_reference_N40/R5_full_metrics.csv](../../../simulations/memory/memory-grid-40/results/data/memory-model-metrics.csv)
+- [Artefatos/triad_R5_reference_N40/R5_no_memory_metrics.csv](../../../simulations/memory/memory-grid-40/results/data/no-memory-control-metrics.csv)
 
 ### Arquivos
 
 `00_montagem.png` · `01_peak.png` · `02_PR.png` · `03_kstarL.png` · `04_cryst.png` · `05_spectra.png` · `06_slices.png` · `07_fourier.png` · `08_summary.png` + 3 CSVs
 
-→ [17 triad_R5_reference_N48_full](../../../experiments/memory/memory-grid-48/notes/original-record.md) · [18 triad_visual_atlas](../../../experiments/geometry/visual-atlas/notes/original-record.md)
+→ [17 triad_R5_reference_N48_full](../../../simulations/memory/memory-grid-48/notes/original-record.md) · [18 triad_visual_atlas](../../../simulations/geometry/visual-atlas/notes/original-record.md)
 
 ### Run 17 — 17 triad_R5_reference_N48_full
 
@@ -479,14 +479,14 @@ BCC é o maior score *deste* detector *neste* run.
 
 Sem `00_montagem` neste diretório.
 
-![Artefatos/triad_R5_reference_N48_full/09_bravais_scores.png](../../../experiments/memory/memory-grid-48/results/figures/bravais-scores.png)
+![Artefatos/triad_R5_reference_N48_full/09_bravais_scores.png](../../../simulations/memory/memory-grid-48/results/figures/bravais-scores.png)
 
 ### CSVs
 
-- [Artefatos/triad_R5_reference_N48_full/bravais_scores.csv](../../../experiments/memory/memory-grid-48/results/data/bravais_scores.csv)
-- [Artefatos/triad_R5_reference_N48_full/metrics.csv](../../../experiments/memory/memory-grid-48/results/data/metrics.csv)
+- [Artefatos/triad_R5_reference_N48_full/bravais_scores.csv](../../../simulations/memory/memory-grid-48/results/data/bravais_scores.csv)
+- [Artefatos/triad_R5_reference_N48_full/metrics.csv](../../../simulations/memory/memory-grid-48/results/data/metrics.csv)
 
-→ [16 triad_R5_reference_N40](../../../experiments/memory/memory-grid-40/notes/original-record.md) · [24 triad_bravais_map](../../../experiments/geometry/bravais-template-map/notes/original-record.md)
+→ [16 triad_R5_reference_N40](../../../simulations/memory/memory-grid-40/notes/original-record.md) · [24 triad_bravais_map](../../../simulations/geometry/bravais-template-map/notes/original-record.md)
 
 ### Run 18 — 18 triad_visual_atlas
 
@@ -500,15 +500,15 @@ Sem `00_montagem` neste diretório.
 
 22 painéis + montagem. No teste simples de cancelamento local **não** houve regiões $V_{\mathrm{mem}}\approx|\Lambda\rho|$. O [Anti-colapso](../concepts/anti-collapse.md) observado não se reduz a igualdade local. Sem CSV.
 
-![Artefatos/triad_visual_atlas/00_visual_atlas.png](../../../experiments/geometry/visual-atlas/results/figures/visual-atlas.png)
+![Artefatos/triad_visual_atlas/00_visual_atlas.png](../../../simulations/geometry/visual-atlas/results/figures/visual-atlas.png)
 
 ### Painéis
 
-`01_density_xy` … `22_balance_histogram` — lista em [Artefatos/triad_visual_atlas/INDEX.txt](../../../experiments/geometry/visual-atlas/results/logs/INDEX.txt).
+`01_density_xy` … `22_balance_histogram` — lista em [Artefatos/triad_visual_atlas/INDEX.txt](../../../simulations/geometry/visual-atlas/results/logs/INDEX.txt).
 
 `08_memory_cubic_balance_xy.png` é o painel do balanço memória/cúbico.
 
-→ [16 triad_R5_reference_N40](../../../experiments/memory/memory-grid-40/notes/original-record.md) · [Memória](../concepts/memory.md) · [Índice de runs](indice-de-runs.md)
+→ [16 triad_R5_reference_N40](../../../simulations/memory/memory-grid-40/notes/original-record.md) · [Memória](../concepts/memory.md) · [Índice de runs](indice-de-runs.md)
 
 ### Run 19 — 19 triad_bigbang_solver_run
 
@@ -533,16 +533,16 @@ Primeiro run que carrega [solver.py](../solver/solver.py) / `integrate_3d`. `ntr
 
 k\*L final=21.991149. mem_amp_t final=0.922319. focus_amp_t final=1.606521.
 
-Crescimento de massa/norma associado ao FDT quente. Permanece. Motivou [20 triad_bigbang_3d_box](../../../experiments/signals/3d-cold-bath-box/notes/original-record.md).
+Crescimento de massa/norma associado ao FDT quente. Permanece. Motivou [20 triad_bigbang_3d_box](../../../simulations/signals/3d-cold-bath-box/notes/original-record.md).
 
-![Artefatos/triad_bigbang_solver_run/00_montagem.png](../../../experiments/signals/hot-bath-diagnostic-failure/results/figures/overview.png)
+![Artefatos/triad_bigbang_solver_run/00_montagem.png](../../../simulations/signals/hot-bath-diagnostic-failure/results/figures/overview.png)
 
 Animação 14.34 MB — **não embedada**; arquivo: `Artefatos/triad_bigbang_solver_run/10_bigbang_animation.gif`
 
 ### CSVs
 
-- [Artefatos/triad_bigbang_solver_run/summary.csv](../../../experiments/signals/hot-bath-diagnostic-failure/results/data/summary.csv)
-- [Artefatos/triad_bigbang_solver_run/metrics.csv](../../../experiments/signals/hot-bath-diagnostic-failure/results/data/metrics.csv)
+- [Artefatos/triad_bigbang_solver_run/summary.csv](../../../simulations/signals/hot-bath-diagnostic-failure/results/data/summary.csv)
+- [Artefatos/triad_bigbang_solver_run/metrics.csv](../../../simulations/signals/hot-bath-diagnostic-failure/results/data/metrics.csv)
 
 ### Arquivos
 
@@ -556,7 +556,7 @@ Animação 14.34 MB — **não embedada**; arquivo: `Artefatos/triad_bigbang_sol
 
 ## triad_bigbang_3d_box
 
-Resposta ao FDT quente de [19 triad_bigbang_solver_run](../../../experiments/signals/hot-bath-diagnostic-failure/notes/original-record.md). Grid 44³, L=32, dt=0.0025, T=10; FDT muito frio. `[[Solver]]` via shim. [FDT](../concepts/fdt.md)
+Resposta ao FDT quente de [19 triad_bigbang_solver_run](../../../simulations/signals/hot-bath-diagnostic-failure/notes/original-record.md). Grid 44³, L=32, dt=0.0025, T=10; FDT muito frio. `[[Solver]]` via shim. [FDT](../concepts/fdt.md)
 
 ### Objetivo
 
@@ -574,14 +574,14 @@ norm 1.0 → 1.413637.
 
 `memory_mean_final≈6.6e-5` (CSV: 6.58337145e-05). Expansão/anti-colapso visível; sem teia cósmica clara.
 
-![Artefatos/triad_bigbang_3d_box/00_montagem.png](../../../experiments/signals/3d-cold-bath-box/results/figures/overview.png)
+![Artefatos/triad_bigbang_3d_box/00_montagem.png](../../../simulations/signals/3d-cold-bath-box/results/figures/overview.png)
 
-GIF 434 KB: ![Artefatos/triad_bigbang_3d_box/06_bigbang_3d_box_animation.gif](../../../experiments/signals/3d-cold-bath-box/results/figures/bigbang-3d-box-animation.gif)
+GIF 434 KB: ![Artefatos/triad_bigbang_3d_box/06_bigbang_3d_box_animation.gif](../../../simulations/signals/3d-cold-bath-box/results/figures/bigbang-3d-box-animation.gif)
 
 ### CSVs
 
-- [Artefatos/triad_bigbang_3d_box/summary.csv](../../../experiments/signals/3d-cold-bath-box/results/data/summary.csv)
-- [Artefatos/triad_bigbang_3d_box/metrics.csv](../../../experiments/signals/3d-cold-bath-box/results/data/metrics.csv)
+- [Artefatos/triad_bigbang_3d_box/summary.csv](../../../simulations/signals/3d-cold-bath-box/results/data/summary.csv)
+- [Artefatos/triad_bigbang_3d_box/metrics.csv](../../../simulations/signals/3d-cold-bath-box/results/data/metrics.csv)
 
 ### Arquivos
 
@@ -603,14 +603,14 @@ Fundo relaxado T=12, ε=0.07, width=1.3, L=32, dt=0.0025. `background_kstarL=9.4
 
 ### Resultado preservado
 
-`density_front_speed≈4.008763e-16`, `phase_front_speed≈4.008763e-16`. Slopes low-k ≈1.045503e-15 e 6.580752e-17. Resultado zero/degenerado. Levou a [22 triad_phase_to_density_speed_refined](../../../experiments/signals/refined-phase-to-density-diagnostic/notes/original-record.md).
+`density_front_speed≈4.008763e-16`, `phase_front_speed≈4.008763e-16`. Slopes low-k ≈1.045503e-15 e 6.580752e-17. Resultado zero/degenerado. Levou a [22 triad_phase_to_density_speed_refined](../../../simulations/signals/refined-phase-to-density-diagnostic/notes/original-record.md).
 
-![Artefatos/triad_phase_to_density_speed/00_montagem.png](../../../experiments/signals/first-phase-to-density-diagnostic/results/figures/overview.png)
+![Artefatos/triad_phase_to_density_speed/00_montagem.png](../../../simulations/signals/first-phase-to-density-diagnostic/results/figures/overview.png)
 
 ### CSVs
 
-- [Artefatos/triad_phase_to_density_speed/summary.csv](../../../experiments/signals/first-phase-to-density-diagnostic/results/data/summary.csv)
-- [Artefatos/triad_phase_to_density_speed/fronts.csv](../../../experiments/signals/first-phase-to-density-diagnostic/results/data/fronts.csv)
+- [Artefatos/triad_phase_to_density_speed/summary.csv](../../../simulations/signals/first-phase-to-density-diagnostic/results/data/summary.csv)
+- [Artefatos/triad_phase_to_density_speed/fronts.csv](../../../simulations/signals/first-phase-to-density-diagnostic/results/data/fronts.csv)
 
 ### Arquivos
 
@@ -624,7 +624,7 @@ Fundo relaxado T=12, ε=0.07, width=1.3, L=32, dt=0.0025. `background_kstarL=9.4
 
 ## triad_phase_to_density_speed_refined
 
-Protocolo refinado após a falha de [21 triad_phase_to_density_speed](../../../experiments/signals/first-phase-to-density-diagnostic/notes/original-record.md). [Phase-to-density](../concepts/phase-to-density.md) · `[[Solver]]`
+Protocolo refinado após a falha de [21 triad_phase_to_density_speed](../../../simulations/signals/first-phase-to-density-diagnostic/notes/original-record.md). [Phase-to-density](../concepts/phase-to-density.md) · `[[Solver]]`
 
 ### Objetivo
 
@@ -640,9 +640,9 @@ Background T=12, kick só de fase ε=0.15, width=1.25; controle casado (mesma se
 
 x–t da densidade: abertura em V/triângulo. Fronts próximos; slopes **não** coincidem.
 
-![Artefatos/triad_phase_to_density_speed_refined/00_montagem.png](../../../experiments/signals/refined-phase-to-density-diagnostic/results/figures/overview.png)
+![Artefatos/triad_phase_to_density_speed_refined/00_montagem.png](../../../simulations/signals/refined-phase-to-density-diagnostic/results/figures/overview.png)
 
-CSV: [Artefatos/triad_phase_to_density_speed_refined/summary.csv](../../../experiments/signals/refined-phase-to-density-diagnostic/results/data/summary.csv)
+CSV: [Artefatos/triad_phase_to_density_speed_refined/summary.csv](../../../simulations/signals/refined-phase-to-density-diagnostic/results/data/summary.csv)
 
 ### Arquivos
 
@@ -678,21 +678,21 @@ Pico densidade t=4.1; pico memória t=4.2; delay=0.1.
 
 Norma 1→1.491662. peak_density max=0.149575, final=0.001110. PR 516.083→8306.608. Vmem_peak max=0.520074. overlap max=0.999909, final=0.923178.
 
-![Artefatos/triad_memory_bounce_bigbang/00_montagem.png](../../../experiments/memory/memory-and-bounce/results/figures/overview.png)
+![Artefatos/triad_memory_bounce_bigbang/00_montagem.png](../../../simulations/memory/memory-and-bounce/results/figures/overview.png)
 
-GIF 5.50 MB (abaixo de 10 MB): ![Artefatos/triad_memory_bounce_bigbang/09_memory_bounce_animation.gif](../../../experiments/memory/memory-and-bounce/results/figures/memory-bounce-animation.gif)
+GIF 5.50 MB (abaixo de 10 MB): ![Artefatos/triad_memory_bounce_bigbang/09_memory_bounce_animation.gif](../../../simulations/memory/memory-and-bounce/results/figures/memory-bounce-animation.gif)
 
 ### CSVs
 
-- [Artefatos/triad_memory_bounce_bigbang/summary.csv](../../../experiments/memory/memory-and-bounce/results/data/summary.csv)
-- [Artefatos/triad_memory_bounce_bigbang/refined_bounce_summary.csv](../../../experiments/memory/memory-and-bounce/results/data/refined_bounce_summary.csv)
-- [Artefatos/triad_memory_bounce_bigbang/metrics.csv](../../../experiments/memory/memory-and-bounce/results/data/metrics.csv)
+- [Artefatos/triad_memory_bounce_bigbang/summary.csv](../../../simulations/memory/memory-and-bounce/results/data/summary.csv)
+- [Artefatos/triad_memory_bounce_bigbang/refined_bounce_summary.csv](../../../simulations/memory/memory-and-bounce/results/data/refined_bounce_summary.csv)
+- [Artefatos/triad_memory_bounce_bigbang/metrics.csv](../../../simulations/memory/memory-and-bounce/results/data/metrics.csv)
 
 ### Arquivos
 
 `00_montagem.png` · `01_bounce_timeline_xy.png` … `08_radial_spacetime_memory.png` · `09_memory_bounce_animation.gif` · `10_summary.png` · `11_mass_enclosing_radii.png` · `12_central_mass.png` · `13_core_vs_peak.png` + 3 CSVs
 
-Pós-proc: [24 triad_bravais_map](../../../experiments/geometry/bravais-template-map/notes/original-record.md) · [25 triad_bravais_network_map](../../../experiments/geometry/first-geometric-network/notes/original-record.md) · [26 triad_bravais_network_map_v2](../../../experiments/geometry/refined-geometric-network/notes/original-record.md)
+Pós-proc: [24 triad_bravais_map](../../../simulations/geometry/bravais-template-map/notes/original-record.md) · [25 triad_bravais_network_map](../../../simulations/geometry/first-geometric-network/notes/original-record.md) · [26 triad_bravais_network_map_v2](../../../simulations/geometry/refined-geometric-network/notes/original-record.md)
 
 ### Run 24 — 24 triad_bravais_map
 
@@ -700,7 +700,7 @@ Pós-proc: [24 triad_bravais_map](../../../experiments/geometry/bravais-template
 
 ## triad_bravais_map
 
-Pós-processamento de [23 triad_memory_bounce_bigbang](../../../experiments/memory/memory-and-bounce/notes/original-record.md) — sem reintegrar. FFT 3D da densidade, shell dominante, templates angulares. [Rede Bravais](../concepts/bravais-lattice.md)
+Pós-processamento de [23 triad_memory_bounce_bigbang](../../../simulations/memory/memory-and-bounce/notes/original-record.md) — sem reintegrar. FFT 3D da densidade, shell dominante, templates angulares. [Rede Bravais](../concepts/bravais-lattice.md)
 
 ### Objetivo
 
@@ -718,14 +718,14 @@ Scores finais:
 | FCC_faces | 0.159688181177609 |
 | BCC_body | 0.1247944072953121 |
 
-Melhor match: PLANAR_cross. Diferente do R5 N48, onde BCC foi o maior noutro detector/regime ([17 triad_R5_reference_N48_full](../../../experiments/memory/memory-grid-48/notes/original-record.md)). Não unificar.
+Melhor match: PLANAR_cross. Diferente do R5 N48, onde BCC foi o maior noutro detector/regime ([17 triad_R5_reference_N48_full](../../../simulations/memory/memory-grid-48/notes/original-record.md)). Não unificar.
 
-![Artefatos/triad_bravais_map/00_montagem.png](../../../experiments/geometry/bravais-template-map/results/figures/overview.png)
+![Artefatos/triad_bravais_map/00_montagem.png](../../../simulations/geometry/bravais-template-map/results/figures/overview.png)
 
 ### CSVs
 
-- [Artefatos/triad_bravais_map/bravais_final_scores.csv](../../../experiments/geometry/bravais-template-map/results/data/bravais_final_scores.csv)
-- [Artefatos/triad_bravais_map/bravais_scores_over_time.csv](../../../experiments/geometry/bravais-template-map/results/data/bravais_scores_over_time.csv)
+- [Artefatos/triad_bravais_map/bravais_final_scores.csv](../../../simulations/geometry/bravais-template-map/results/data/bravais_final_scores.csv)
+- [Artefatos/triad_bravais_map/bravais_scores_over_time.csv](../../../simulations/geometry/bravais-template-map/results/data/bravais_scores_over_time.csv)
 
 ### Arquivos
 
@@ -739,7 +739,7 @@ Melhor match: PLANAR_cross. Diferente do R5 N48, onde BCC foi o maior noutro det
 
 ## triad_bravais_network_map
 
-Primeira rede: picos de densidade → nós; arestas por proximidade/kNN. Threshold severo demais. Preservado. Motivou [26 triad_bravais_network_map_v2](../../../experiments/geometry/refined-geometric-network/notes/original-record.md). [Rede Bravais](../concepts/bravais-lattice.md)
+Primeira rede: picos de densidade → nós; arestas por proximidade/kNN. Threshold severo demais. Preservado. Motivou [26 triad_bravais_network_map_v2](../../../simulations/geometry/refined-geometric-network/notes/original-record.md). [Rede Bravais](../concepts/bravais-lattice.md)
 
 ### Objetivo
 
@@ -758,13 +758,13 @@ Nós (CSV):
 
 Aresta: 0—1.
 
-![Artefatos/triad_bravais_network_map/00_montagem.png](../../../experiments/geometry/first-geometric-network/results/figures/overview.png)
+![Artefatos/triad_bravais_network_map/00_montagem.png](../../../simulations/geometry/first-geometric-network/results/figures/overview.png)
 
 ### CSVs
 
-- [Artefatos/triad_bravais_network_map/summary.csv](../../../experiments/geometry/first-geometric-network/results/data/summary.csv)
-- [Artefatos/triad_bravais_network_map/nodes.csv](../../../experiments/geometry/first-geometric-network/results/data/nodes.csv)
-- [Artefatos/triad_bravais_network_map/edges.csv](../../../experiments/geometry/first-geometric-network/results/data/edges.csv)
+- [Artefatos/triad_bravais_network_map/summary.csv](../../../simulations/geometry/first-geometric-network/results/data/summary.csv)
+- [Artefatos/triad_bravais_network_map/nodes.csv](../../../simulations/geometry/first-geometric-network/results/data/nodes.csv)
+- [Artefatos/triad_bravais_network_map/edges.csv](../../../simulations/geometry/first-geometric-network/results/data/edges.csv)
 
 ### Arquivos
 
@@ -778,7 +778,7 @@ Aresta: 0—1.
 
 ## triad_bravais_network_map_v2
 
-Rede refinada após [25 triad_bravais_network_map](../../../experiments/geometry/first-geometric-network/notes/original-record.md). Snapshot automático “mais estruturado”. [Rede Bravais](../concepts/bravais-lattice.md)
+Rede refinada após [25 triad_bravais_network_map](../../../simulations/geometry/first-geometric-network/notes/original-record.md). Snapshot automático “mais estruturado”. [Rede Bravais](../concepts/bravais-lattice.md)
 
 ### Objetivo
 
@@ -790,19 +790,19 @@ Snapshot **t=4.4**: nodes=39, edges=25, candidate_spacing_a0=4.931531, median_bo
 
 PDF: “A rede é esparsa, com agrupamentos e conexões locais; **não foi rotulada como rede Bravais perfeita.**”
 
-![Artefatos/triad_bravais_network_map_v2/00_montagem.png](../../../experiments/geometry/refined-geometric-network/results/figures/overview.png)
+![Artefatos/triad_bravais_network_map_v2/00_montagem.png](../../../simulations/geometry/refined-geometric-network/results/figures/overview.png)
 
 ### CSVs
 
-- [Artefatos/triad_bravais_network_map_v2/summary.csv](../../../experiments/geometry/refined-geometric-network/results/data/summary.csv)
-- [Artefatos/triad_bravais_network_map_v2/nodes.csv](../../../experiments/geometry/refined-geometric-network/results/data/nodes.csv)
-- [Artefatos/triad_bravais_network_map_v2/edges.csv](../../../experiments/geometry/refined-geometric-network/results/data/edges.csv)
+- [Artefatos/triad_bravais_network_map_v2/summary.csv](../../../simulations/geometry/refined-geometric-network/results/data/summary.csv)
+- [Artefatos/triad_bravais_network_map_v2/nodes.csv](../../../simulations/geometry/refined-geometric-network/results/data/nodes.csv)
+- [Artefatos/triad_bravais_network_map_v2/edges.csv](../../../simulations/geometry/refined-geometric-network/results/data/edges.csv)
 
 ### Arquivos
 
 `00_montagem.png` · `01_nodes_3d.png` · `02_network_3d.png` · `03_network_xy_projection.png` · `04_nearest_neighbor_histogram.png` · `05_bond_length_histogram.png` · `06_bond_directions.png` · `07_degree_histogram.png` · `08_adjacency_matrix.png` · `09_summary.png` + 3 CSVs
 
-→ [23 triad_memory_bounce_bigbang](../../../experiments/memory/memory-and-bounce/notes/original-record.md) · [24 triad_bravais_map](../../../experiments/geometry/bravais-template-map/notes/original-record.md) · `[[TRIAD]]`
+→ [23 triad_memory_bounce_bigbang](../../../simulations/memory/memory-and-bounce/notes/original-record.md) · [24 triad_bravais_map](../../../simulations/geometry/bravais-template-map/notes/original-record.md) · `[[TRIAD]]`
 
 ### Run 27 — 27 triad_chaos_eq
 
@@ -820,13 +820,13 @@ Decisão única, sem scan: `n_atoms=12`, `sigma=1.2`, `min_sep=4.8` (=4σ), seed
 
 Colocação (seed=0): `ic_pair_sep_min=5.130282`, `ic_pair_sep_mean=15.910636`. Detector no t=0 (máximo local 3³ wrap, ρ ≥ 0.20·peak): **n_det=12**, ⟨NN⟩=8.857611, NN mediana=9.103059.
 
-CSV: [Artefatos/triad_chaos_eq/atoms_ic.csv](../../../experiments/structures/3d-atom-trajectories/results/data/atoms_ic.csv)
+CSV: [Artefatos/triad_chaos_eq/atoms_ic.csv](../../../simulations/structures/3d-atom-trajectories/results/data/atoms_ic.csv)
 
 ### Parâmetros (um conjunto legal)
 
 Λ=−10, ν=(10, 0.5, 0.05), λ=(3, 1, 0.3), Γ=0.05, `fdt_couple=True`, kT=1 (default do solver atual). V_ext=None. L=32, dt=0.0025, T=15, record_every=40 (151 amostras). `noise_amplitude=0.015811388300841896` (f_FDT_e = 2Γ dx³ kT/ℏ com dx=1).
 
-Não é o IC de #23 (uma gaussiana larga σ=3.2 + chirp). Não substitui [23 triad_memory_bounce_bigbang](../../../experiments/memory/memory-and-bounce/notes/original-record.md).
+Não é o IC de #23 (uma gaussiana larga σ=3.2 + chirp). Não substitui [23 triad_memory_bounce_bigbang](../../../simulations/memory/memory-and-bounce/notes/original-record.md).
 
 ### Resultado
 
@@ -850,25 +850,25 @@ Janela late (t≥12): R_rms mean=16.008579 std=0.040049; peak mean=2.175297 std=
 
 Planos xy: em t=0 a fatia z=0 mostra as 12 sementes. De t≈0.1 em diante o volume preenche. O detector passa a contar ~10³ máximos locais — isso **não** é ruído de grade. É o universo emergindo das sementes. Os 12 átomos não “morrem”: deixam de ser o estado inteiro.
 
-Mesma família de [19 triad_bigbang_solver_run](../../../experiments/signals/hot-bath-diagnostic-failure/notes/original-record.md) (FDT quente; lá mass_final=8773.747757). Aqui o default `fdt_couple=True` com dx=1 injeta massa ~O(1) por passo; norma 1→25585.351298. #23 no mesmo Λ,ν,λ,Γ teve norma 1→1.491662 (N=40, IC diferente, FDT efetivo não registrado na nota). Este run **não** recalibrou FDT.
+Mesma família de [19 triad_bigbang_solver_run](../../../simulations/signals/hot-bath-diagnostic-failure/notes/original-record.md) (FDT quente; lá mass_final=8773.747757). Aqui o default `fdt_couple=True` com dx=1 injeta massa ~O(1) por passo; norma 1→25585.351298. #23 no mesmo Λ,ν,λ,Γ teve norma 1→1.491662 (N=40, IC diferente, FDT efetivo não registrado na nota). Este run **não** recalibrou FDT.
 
-![Artefatos/triad_chaos_eq/00_montagem.png](../../../experiments/structures/twelve-atoms-full-field/results/figures/overview.png)
+![Artefatos/triad_chaos_eq/00_montagem.png](../../../simulations/structures/twelve-atoms-full-field/results/figures/overview.png)
 
 ### O que os números sustentam
 
-Com o FDT default em N=32, as 12 sementes deixam de ser o estado inteiro em Δt=0.1. O que assenta é o volume preenchido (R_rms~16, n_det~1200). Leitura: **caos → universo**, não “átomos falharam no ruído”. Mesma família de preenchimento que [19 triad_bigbang_solver_run](../../../experiments/signals/hot-bath-diagnostic-failure/notes/original-record.md).
+Com o FDT default em N=32, as 12 sementes deixam de ser o estado inteiro em Δt=0.1. O que assenta é o volume preenchido (R_rms~16, n_det~1200). Leitura: **caos → universo**, não “átomos falharam no ruído”. Mesma família de preenchimento que [19 triad_bigbang_solver_run](../../../simulations/signals/hot-bath-diagnostic-failure/notes/original-record.md).
 
 ### CSVs
 
-- [Artefatos/triad_chaos_eq/summary.csv](../../../experiments/structures/twelve-atoms-full-field/results/data/summary.csv)
-- [Artefatos/triad_chaos_eq/metrics.csv](../../../experiments/structures/twelve-atoms-full-field/results/data/metrics.csv)
-- [Artefatos/triad_chaos_eq/atoms_ic.csv](../../../experiments/structures/3d-atom-trajectories/results/data/atoms_ic.csv)
+- [Artefatos/triad_chaos_eq/summary.csv](../../../simulations/structures/twelve-atoms-full-field/results/data/summary.csv)
+- [Artefatos/triad_chaos_eq/metrics.csv](../../../simulations/structures/twelve-atoms-full-field/results/data/metrics.csv)
+- [Artefatos/triad_chaos_eq/atoms_ic.csv](../../../simulations/structures/3d-atom-trajectories/results/data/atoms_ic.csv)
 
 ### Arquivos
 
 `00_montagem.png` · `01_radii_vs_t.png` · `02_peak_vs_t.png` · `03_atoms_count_spacing.png` · `04_midplane_snapshots.png` · `05_norm_pr_vmem.png` + 3 CSVs + `summary.json`
 
-Script: [Fontes/run_chaos_eq.py](../../../experiments/structures/twelve-atoms-full-field/code/simulate_twelve_atoms.py)
+Script: [Fontes/run_chaos_eq.py](../../../simulations/structures/twelve-atoms-full-field/code/simulate_twelve_atoms.py)
 
 Não rodados (método corrigido antes): 27b nomem, 27c harmônico, IC `init='chaos'` (campo aleatório).
 
@@ -880,7 +880,7 @@ Não rodados (método corrigido antes): 27b nomem, 27c harmônico, IC `init='cha
 
 ## triad_atoms_3d
 
-Equação TRIAD **completa** (NLS + memória + FDT) a partir da mesma nuvem de **12 átomos gaussianos** do [27 triad_chaos_eq](../../../experiments/structures/twelve-atoms-full-field/notes/original-record.md). 1 gaussiana = 1 átomo. Caos de átomos → o que assentar. **Não é ablação.** Sem controle sem-memória, sem V_harmônico, sem fit de k\*L. [Memória](../concepts/memory.md) · [FDT](../concepts/fdt.md) · [Universo como simulação](../concepts/universe-as-simulation.md)
+Equação TRIAD **completa** (NLS + memória + FDT) a partir da mesma nuvem de **12 átomos gaussianos** do [27 triad_chaos_eq](../../../simulations/structures/twelve-atoms-full-field/notes/original-record.md). 1 gaussiana = 1 átomo. Caos de átomos → o que assentar. **Não é ablação.** Sem controle sem-memória, sem V_harmônico, sem fit de k\*L. [Memória](../concepts/memory.md) · [FDT](../concepts/fdt.md) · [Universo como simulação](../concepts/universe-as-simulation.md)
 
 A **grade já era 3D no 27** (N=32³, `memory_nls_strang_step_3d`). O 27 só publicou fatias xy do plano médio — por isso parecia 2D. O 28 é o mesmo tríade em **volume**: isosuperfície, centros 3D e trajetórias. N=40 (grade do PDF #23; dx=0.8, σ=1.2 é blob real).
 
@@ -898,19 +898,19 @@ A mesma receita `place_atoms` do 27: `n_atoms=12`, `sigma=1.2`, `min_sep=4.8` (=
 
 Detector: máximo local 3³ wrap, ρ ≥ 0.20·peak, NMS min_dist=2σ=2.4. No t=0: **n_det=12**, n_raw=12, ⟨NN⟩=8.922529.
 
-CSV: [Artefatos/triad_atoms_3d/atoms_ic.csv](../../../experiments/structures/3d-atom-trajectories/results/data/atoms_ic.csv)
+CSV: [Artefatos/triad_atoms_3d/atoms_ic.csv](../../../simulations/structures/3d-atom-trajectories/results/data/atoms_ic.csv)
 
-![Artefatos/triad_atoms_3d/01_atoms_3d_ic.png](../../../experiments/structures/3d-atom-trajectories/results/figures/atoms-3d-ic.png)
+![Artefatos/triad_atoms_3d/01_atoms_3d_ic.png](../../../simulations/structures/3d-atom-trajectories/results/figures/atoms-3d-ic.png)
 
 Isosuperfície t=0 (`skimage.measure.marching_cubes`, ρ=0.3·peak): **12 blobs distintos** na caixa [−L/2, L/2]³. Isto é o que o 27 não mostrou.
 
-![Artefatos/triad_atoms_3d/02_isosurface_early.png](../../../experiments/structures/3d-atom-trajectories/results/figures/isosurface-early.png)
+![Artefatos/triad_atoms_3d/02_isosurface_early.png](../../../simulations/structures/3d-atom-trajectories/results/figures/isosurface-early.png)
 
 ### Parâmetros (um conjunto legal)
 
 Λ=−10, ν=(10, 0.5, 0.05), λ=(3, 1, 0.3), Γ=0.05, `fdt_couple=True`, **kT=0.001**. V_ext=None. L=32, N=40, dt=0.0025, T=12, record_every=40 (121 amostras). Backend: `triad.ntri` (numpy). Metal disponível (`metal_mlx` / `metal_native`) mas mlx não é drop-in para `memory_nls_strang_step_3d` com IC próprio — probe ~0.01 s, fallback numpy. Solver: `triad-lang` real, passo `memory_nls_strang_step_3d`.
 
-Não substitui [27 triad_chaos_eq](../../../experiments/structures/twelve-atoms-full-field/notes/original-record.md) nem [23 triad_memory_bounce_bigbang](../../../experiments/memory/memory-and-bounce/notes/original-record.md).
+Não substitui [27 triad_chaos_eq](../../../simulations/structures/twelve-atoms-full-field/notes/original-record.md) nem [23 triad_memory_bounce_bigbang](../../../simulations/memory/memory-and-bounce/notes/original-record.md).
 
 ### Resultado — trajetória
 
@@ -929,30 +929,30 @@ Pico de densidade máximo=0.009249 em t=0.2. Vmem_peak máximo=0.025713 em t=0.3
 
 Os 12 átomos **permanecem 12 até t=1.0** (no 27 o universo já tinha preenchido em t=0.1). Em t=1.1 n_det=22; t=1.3 n_det=162. Depois o detector conta ~10³ máximos: o volume preenchido. Isosuperfície mid/late = universo no cubo, **não** ruído, **não** espuma-falha.
 
-![Artefatos/triad_atoms_3d/03_isosurface_mid.png](../../../experiments/structures/3d-atom-trajectories/results/figures/isosurface-mid.png)
+![Artefatos/triad_atoms_3d/03_isosurface_mid.png](../../../simulations/structures/3d-atom-trajectories/results/figures/isosurface-mid.png)
 
-![Artefatos/triad_atoms_3d/04_isosurface_late.png](../../../experiments/structures/3d-atom-trajectories/results/figures/isosurface-late.png)
+![Artefatos/triad_atoms_3d/04_isosurface_late.png](../../../simulations/structures/3d-atom-trajectories/results/figures/isosurface-late.png)
 
-![Artefatos/triad_atoms_3d/05_atoms_3d_traj.png](../../../experiments/structures/3d-atom-trajectories/results/figures/atoms-3d-traj.png)
+![Artefatos/triad_atoms_3d/05_atoms_3d_traj.png](../../../simulations/structures/3d-atom-trajectories/results/figures/atoms-3d-traj.png)
 
-![Artefatos/triad_atoms_3d/00_montagem.png](../../../experiments/structures/3d-atom-trajectories/results/figures/overview.png)
+![Artefatos/triad_atoms_3d/00_montagem.png](../../../simulations/structures/3d-atom-trajectories/results/figures/overview.png)
 
 ### O que os números sustentam
 
-Com kT=0.001 da spec §A.2 as 12 sementes são **visíveis como blobs 3D no t=0** e seguem distintas ~1 unidade de tempo. O equilíbrio (n_det 12→971→1007, norma 1→23.275045, R_rms→16) é o universo preenchendo o volume — mais lento que [27 triad_chaos_eq](../../../experiments/structures/twelve-atoms-full-field/notes/original-record.md), mesma leitura. Não é cubo de ruído. Este run **não** recalibrou FDT.
+Com kT=0.001 da spec §A.2 as 12 sementes são **visíveis como blobs 3D no t=0** e seguem distintas ~1 unidade de tempo. O equilíbrio (n_det 12→971→1007, norma 1→23.275045, R_rms→16) é o universo preenchendo o volume — mais lento que [27 triad_chaos_eq](../../../simulations/structures/twelve-atoms-full-field/notes/original-record.md), mesma leitura. Não é cubo de ruído. Este run **não** recalibrou FDT.
 
 ### CSVs
 
-- [Artefatos/triad_atoms_3d/summary.csv](../../../experiments/structures/3d-atom-trajectories/results/data/summary.csv)
-- [Artefatos/triad_atoms_3d/metrics.csv](../../../experiments/structures/3d-atom-trajectories/results/data/metrics.csv)
-- [Artefatos/triad_atoms_3d/atoms_ic.csv](../../../experiments/structures/3d-atom-trajectories/results/data/atoms_ic.csv)
-- [Artefatos/triad_atoms_3d/centers.csv](../../../experiments/structures/3d-atom-trajectories/results/data/centers.csv)
+- [Artefatos/triad_atoms_3d/summary.csv](../../../simulations/structures/3d-atom-trajectories/results/data/summary.csv)
+- [Artefatos/triad_atoms_3d/metrics.csv](../../../simulations/structures/3d-atom-trajectories/results/data/metrics.csv)
+- [Artefatos/triad_atoms_3d/atoms_ic.csv](../../../simulations/structures/3d-atom-trajectories/results/data/atoms_ic.csv)
+- [Artefatos/triad_atoms_3d/centers.csv](../../../simulations/structures/3d-atom-trajectories/results/data/centers.csv)
 
 ### Arquivos
 
 `00_montagem.png` · `01_atoms_3d_ic.png` · `02_isosurface_early.png` · `03_isosurface_mid.png` · `04_isosurface_late.png` · `05_atoms_3d_traj.png` · `06_radii_peak.png` · `07_centers_3d.gif` + 4 CSVs + `summary.json`
 
-Script: [Fontes/run_atoms_3d.py](../../../experiments/structures/3d-atom-trajectories/code/simulate_atom_trajectories.py)
+Script: [Fontes/run_atoms_3d.py](../../../simulations/structures/3d-atom-trajectories/code/simulate_atom_trajectories.py)
 
 → [Índice de runs](indice-de-runs.md) · `[[TRIAD]]`
 
@@ -970,9 +970,9 @@ N=96 (reduzido vs spec N=128; N=64 deu ~0.014 s/passo < 0.05 s, subiu). Solver: 
 
 $\Psi=\mathcal{N}\exp(-|\mathbf{x}|^2/(2s^2))$, $s=0.5$, $k_0=(0,0,0)$. Um blob na origem. Pico IC=1.436697, PR=1.968701, R_rms=0.612372, norma=1.
 
-![Artefatos/triad_R5_A2/01_ic_isosurface.png](../../../experiments/memory/memory-small-amplitude/results/figures/ic-isosurface.png)
+![Artefatos/triad_R5_A2/01_ic_isosurface.png](../../../simulations/memory/memory-small-amplitude/results/figures/ic-isosurface.png)
 
-![Artefatos/triad_R5_A2/02_isosurface_early.png](../../../experiments/memory/memory-small-amplitude/results/figures/isosurface-early.png)
+![Artefatos/triad_R5_A2/02_isosurface_early.png](../../../simulations/memory/memory-small-amplitude/results/figures/isosurface-early.png)
 
 ### Parâmetros (A.2 R5-FDT)
 
@@ -980,7 +980,7 @@ $\Lambda=-8$, $\sigma=1.5$, $\alpha=0$, $\Gamma=0.01$, $T_{\mathrm{bath}}=0.001$
 
 Lock FDT igual ao 28 (`fdt_couple`): $f_{\mathrm{FDT}}=2\Gamma\,dx^3\,T_{\mathrm{bath}}/\hbar=1.808449\times10^{-7}$. **noise_amp = 0.00022360679774997898** $=\sqrt{2\Gamma T_{\mathrm{bath}}dt}$. Memória Euler ($\max\nu\cdot dt=0.025<0.05$).
 
-Não substitui [27 triad_chaos_eq](../../../experiments/structures/twelve-atoms-full-field/notes/original-record.md) nem [28 triad_atoms_3d](../../../experiments/structures/3d-atom-trajectories/notes/original-record.md).
+Não substitui [27 triad_chaos_eq](../../../simulations/structures/twelve-atoms-full-field/notes/original-record.md) nem [28 triad_atoms_3d](../../../simulations/structures/3d-atom-trajectories/notes/original-record.md).
 
 ### Resultado
 
@@ -999,31 +999,31 @@ Pico de densidade máximo=31.184811 em t=0.2 (foco 3D). Vmem_peak máximo=11.261
 
 O átomo único **sementeia o volume**. t=0: 1 blob na origem. t=2.5: esfera expandida. t=7.5–15: cubo preenchido = **universo**. Não é ruído, não é espuma, não é falha de FDT.
 
-$k_*L$ late=9.424778 (casca não-DC mais baixa; igual ao [16 triad_R5_reference_N40](../../../experiments/memory/memory-grid-40/notes/original-record.md)). Spec §10.4 cita ~16.3 em N=128 — **não** calibrado aqui.
+$k_*L$ late=9.424778 (casca não-DC mais baixa; igual ao [16 triad_R5_reference_N40](../../../simulations/memory/memory-grid-40/notes/original-record.md)). Spec §10.4 cita ~16.3 em N=128 — **não** calibrado aqui.
 
-![Artefatos/triad_R5_A2/03_isosurface_mid.png](../../../experiments/memory/memory-small-amplitude/results/figures/isosurface-mid.png)
+![Artefatos/triad_R5_A2/03_isosurface_mid.png](../../../simulations/memory/memory-small-amplitude/results/figures/isosurface-mid.png)
 
-![Artefatos/triad_R5_A2/04_isosurface_late.png](../../../experiments/memory/memory-small-amplitude/results/figures/isosurface-late.png)
+![Artefatos/triad_R5_A2/04_isosurface_late.png](../../../simulations/memory/memory-small-amplitude/results/figures/isosurface-late.png)
 
-![Artefatos/triad_R5_A2/05_observables.png](../../../experiments/memory/memory-small-amplitude/results/figures/observables.png)
+![Artefatos/triad_R5_A2/05_observables.png](../../../simulations/memory/memory-small-amplitude/results/figures/observables.png)
 
-![Artefatos/triad_R5_A2/00_montagem.png](../../../experiments/memory/memory-small-amplitude/results/figures/overview.png)
+![Artefatos/triad_R5_A2/00_montagem.png](../../../simulations/memory/memory-small-amplitude/results/figures/overview.png)
 
 ### O que os números sustentam
 
-Com A.2 R5-FDT ($\Gamma=0.01$, $T_{\mathrm{bath}}=0.001$) a semente §9.1 permanece 1 átomo visível no t=0 e se espalha até preencher a caixa (R_rms 0.61→10.02, PR 1.97→4036, norma 1→2.816). Leitura: **1 átomo → universo no cubo**. Mesma família de preenchimento que [27 triad_chaos_eq](../../../experiments/structures/twelve-atoms-full-field/notes/original-record.md) / [28 triad_atoms_3d](../../../experiments/structures/3d-atom-trajectories/notes/original-record.md), IC canônico em vez da nuvem de 12. Este run **não** recalibrou FDT nem $k_*L$.
+Com A.2 R5-FDT ($\Gamma=0.01$, $T_{\mathrm{bath}}=0.001$) a semente §9.1 permanece 1 átomo visível no t=0 e se espalha até preencher a caixa (R_rms 0.61→10.02, PR 1.97→4036, norma 1→2.816). Leitura: **1 átomo → universo no cubo**. Mesma família de preenchimento que [27 triad_chaos_eq](../../../simulations/structures/twelve-atoms-full-field/notes/original-record.md) / [28 triad_atoms_3d](../../../simulations/structures/3d-atom-trajectories/notes/original-record.md), IC canônico em vez da nuvem de 12. Este run **não** recalibrou FDT nem $k_*L$.
 
 ### CSVs
 
-- [Artefatos/triad_R5_A2/summary.csv](../../../experiments/memory/memory-small-amplitude/results/data/summary.csv)
-- [Artefatos/triad_R5_A2/metrics.csv](../../../experiments/memory/memory-small-amplitude/results/data/metrics.csv)
-- [Artefatos/triad_R5_A2/summary.json](../../../experiments/memory/memory-small-amplitude/results/data/summary.json)
+- [Artefatos/triad_R5_A2/summary.csv](../../../simulations/memory/memory-small-amplitude/results/data/summary.csv)
+- [Artefatos/triad_R5_A2/metrics.csv](../../../simulations/memory/memory-small-amplitude/results/data/metrics.csv)
+- [Artefatos/triad_R5_A2/summary.json](../../../simulations/memory/memory-small-amplitude/results/data/summary.json)
 
 ### Arquivos
 
 `00_montagem.png` · `01_ic_isosurface.png` · `02_isosurface_early.png` · `03_isosurface_mid.png` · `04_isosurface_late.png` · `05_observables.png` + metrics.csv + summary.csv + summary.json
 
-Script: [Fontes/run_R5_A2.py](../../../experiments/memory/memory-small-amplitude/code/simulate_memory_small_amplitude.py)
+Script: [Fontes/run_R5_A2.py](../../../simulations/memory/memory-small-amplitude/code/simulate_memory_small_amplitude.py)
 
 → [Índice de runs](indice-de-runs.md) · `[[TRIAD]]`
 
@@ -1035,21 +1035,21 @@ Script: [Fontes/run_R5_A2.py](../../../experiments/memory/memory-small-amplitude
 
 Equação TRIAD **completa**, Theta_core congelado (Q00 / [TRIAD_QM_CANONICAL_V1](triad-qm-canonical-v1.md)). **I0 / environment**, não scan. 1 gaussiana = 1 átomo. Duas sementes, separação 6 ao longo de x. Leitura: par (queda?) e pico finito (singularidade que não vai a infinito). Volume preenchido = universo, não ruído. **Não** é teste de interferência. Sem isolar memória/FDT. Sem mudar Theta_core para o par atrair. [Leitura operacional](../concepts/operational-readings.md) · [Anti-colapso](../concepts/anti-collapse.md) · [Universo como simulação](../concepts/universe-as-simulation.md)
 
-Solver: Strang 3D standalone (mesmo passo de [Fontes/run_q01a.py](../../../experiments/quantum/spatial-convergence/code/measure_spatial_convergence.py) / [29 triad_R5_A2](../../../experiments/memory/memory-small-amplitude/notes/original-record.md)). fp64, numpy. $V_{\mathrm{ext}}=0$, $y_j(0)=0$, caixa periódica $[-L/2,L/2)^3$.
+Solver: Strang 3D standalone (mesmo passo de [Fontes/run_q01a.py](../../../simulations/field-diagnostics/spatial-convergence/code/measure_spatial_convergence.py) / [29 triad_R5_A2](../../../simulations/memory/memory-small-amplitude/notes/original-record.md)). fp64, numpy. $V_{\mathrm{ext}}=0$, $y_j(0)=0$, caixa periódica $[-L/2,L/2)^3$.
 
 ### IC — 2 átomos
 
 Duas gaussianas iguais, $s=1.0$, fases 0, centros $(-3,0,0)$ e $(+3,0,0)$, depois $\int\rho=1$. Pico IC=0.089782, PR=31.506820, R_rms=3.240199, pair_sep=6.000, n_det=2, n_raw=2.
 
-![Artefatos/triad_dois_atomos/01_ic_isosurface.png](../../../experiments/structures/two-atoms/results/figures/ic-isosurface.png)
+![Artefatos/triad_dois_atomos/01_ic_isosurface.png](../../../simulations/structures/two-atoms/results/figures/ic-isosurface.png)
 
-![Artefatos/triad_dois_atomos/04a_midplane_t0.png](../../../experiments/structures/two-atoms/results/figures/04a-midplane-t0.png)
+![Artefatos/triad_dois_atomos/04a_midplane_t0.png](../../../simulations/structures/two-atoms/results/figures/04a-midplane-t0.png)
 
 ### Parâmetros (Theta_core, intocado)
 
 $\Lambda=-10$, $\alpha=0.15$, $\sigma=1.5$, $\Gamma=0.05$, $\nu=(10, 0.5, 0.05)$, $\lambda=(3, 1, 0.3)$, `fdt_couple=True`, **kT=1.0**. $L=32$, $N=64$, $dt=0.0025$, $T=8$, seed=0. $f_{\mathrm{FDT}}=0.0125$, noise_amp $=0.015811388300841896=\sqrt{2\Gamma\,kT\,dt}$. Memória Euler ($\max\nu\cdot dt=0.025$).
 
-Não substitui [27 triad_chaos_eq](../../../experiments/structures/twelve-atoms-full-field/notes/original-record.md) · [28 triad_atoms_3d](../../../experiments/structures/3d-atom-trajectories/notes/original-record.md) · [29 triad_R5_A2](../../../experiments/memory/memory-small-amplitude/notes/original-record.md) · Q01a.
+Não substitui [27 triad_chaos_eq](../../../simulations/structures/twelve-atoms-full-field/notes/original-record.md) · [28 triad_atoms_3d](../../../simulations/structures/3d-atom-trajectories/notes/original-record.md) · [29 triad_R5_A2](../../../simulations/memory/memory-small-amplitude/notes/original-record.md) · Q01a.
 
 ### Resultado
 
@@ -1068,23 +1068,23 @@ Wall: **55.336 s** (12:16:08–12:17:03 BRT, 21/08/2026). 3200 passos, 117 amost
 
 Pico de densidade máximo=**4.770362** em t=6.8. Vmem_peak máximo=7.556006 em t=5.7; Vmem_peak final=6.829866. Janela late ($t\ge 6.4$): peak $3.886935\pm 0.343$; PR $19197.382\pm 201$; R_rms $15.982180\pm 0.022$; norm $16771.131\pm 783$. Sem NaN, sem blowup. células½ final=1706 (não 1–2 células).
 
-Os dois átomos **permanecem 2 só até t=0.01**. Em t=0.02 o detector já conta 29–30 máximos e R_rms já é $\approx L/2$. Em t=0.1 n_raw=3603, norm=327 — a mesma família de preenchimento de Q01a / [27 triad_chaos_eq](../../../experiments/structures/twelve-atoms-full-field/notes/original-record.md) com este banho. **Com kT=1 as duas sementes viram universo antes de um par-órbita poder ser lido.** kT não foi retocado. Isso é o resultado.
+Os dois átomos **permanecem 2 só até t=0.01**. Em t=0.02 o detector já conta 29–30 máximos e R_rms já é $\approx L/2$. Em t=0.1 n_raw=3603, norm=327 — a mesma família de preenchimento de Q01a / [27 triad_chaos_eq](../../../simulations/structures/twelve-atoms-full-field/notes/original-record.md) com este banho. **Com kT=1 as duas sementes viram universo antes de um par-órbita poder ser lido.** kT não foi retocado. Isso é o resultado.
 
 pair_sep enquanto ainda havia 2 blobs: $6.000\to 6.021$ ($\Delta=+0.021$ em $\Delta t=0.01$; um passo de grade $dx=0.5$). Não é queda. Depois pair_sep é indefinido (par perdido).
 
-![Artefatos/triad_dois_atomos/01b_isosurface_early.png](../../../experiments/structures/two-atoms/results/figures/01b-isosurface-early.png)
+![Artefatos/triad_dois_atomos/01b_isosurface_early.png](../../../simulations/structures/two-atoms/results/figures/01b-isosurface-early.png)
 
-![Artefatos/triad_dois_atomos/02_isosurface_mid.png](../../../experiments/structures/two-atoms/results/figures/isosurface-mid.png)
+![Artefatos/triad_dois_atomos/02_isosurface_mid.png](../../../simulations/structures/two-atoms/results/figures/isosurface-mid.png)
 
-![Artefatos/triad_dois_atomos/03_isosurface_late.png](../../../experiments/structures/two-atoms/results/figures/isosurface-late.png)
+![Artefatos/triad_dois_atomos/03_isosurface_late.png](../../../simulations/structures/two-atoms/results/figures/isosurface-late.png)
 
-![Artefatos/triad_dois_atomos/04_midplane_xy.png](../../../experiments/structures/two-atoms/results/figures/midplane-xy.png)
+![Artefatos/triad_dois_atomos/04_midplane_xy.png](../../../simulations/structures/two-atoms/results/figures/midplane-xy.png)
 
-![Artefatos/triad_dois_atomos/05_observables.png](../../../experiments/structures/two-atoms/results/figures/observables.png)
+![Artefatos/triad_dois_atomos/05_observables.png](../../../simulations/structures/two-atoms/results/figures/observables.png)
 
-![Artefatos/triad_dois_atomos/07_early_zoom.png](../../../experiments/structures/two-atoms/results/figures/early-zoom.png)
+![Artefatos/triad_dois_atomos/07_early_zoom.png](../../../simulations/structures/two-atoms/results/figures/early-zoom.png)
 
-![Artefatos/triad_dois_atomos/00_montagem.png](../../../experiments/structures/two-atoms/results/figures/overview.png)
+![Artefatos/triad_dois_atomos/00_montagem.png](../../../simulations/structures/two-atoms/results/figures/overview.png)
 
 ### O que os números sustentam
 
@@ -1096,15 +1096,15 @@ Nunca “provou gravidade”. Theta_core intocado.
 
 ### CSVs
 
-- [Artefatos/triad_dois_atomos/summary.csv](../../../experiments/structures/two-atoms/results/data/summary.csv)
-- [Artefatos/triad_dois_atomos/metrics.csv](../../../experiments/structures/two-atoms/results/data/metrics.csv)
-- [Artefatos/triad_dois_atomos/summary.json](../../../experiments/structures/two-atoms/results/data/summary.json)
+- [Artefatos/triad_dois_atomos/summary.csv](../../../simulations/structures/two-atoms/results/data/summary.csv)
+- [Artefatos/triad_dois_atomos/metrics.csv](../../../simulations/structures/two-atoms/results/data/metrics.csv)
+- [Artefatos/triad_dois_atomos/summary.json](../../../simulations/structures/two-atoms/results/data/summary.json)
 
 ### Arquivos
 
 `00_montagem.png` · `01_ic_isosurface.png` · `01b_isosurface_early.png` · `02_isosurface_mid.png` · `03_isosurface_late.png` · `04_midplane_xy.png` + midplanes individuais · `05_observables.png` · `06_n_det.png` · `07_early_zoom.png` · metrics.csv · summary.csv · summary.json · `rho_{ic,early,mid,late}.npy`
 
-Script: [Fontes/run_dois_atomos.py](../../../experiments/structures/two-atoms/code/simulate_two_atoms.py)
+Script: [Fontes/run_dois_atomos.py](../../../simulations/structures/two-atoms/code/simulate_two_atoms.py)
 
 → [Índice de runs](indice-de-runs.md) · `[[TRIAD]]` · [Leitura operacional](../concepts/operational-readings.md)
 
@@ -1116,19 +1116,19 @@ Script: [Fontes/run_dois_atomos.py](../../../experiments/structures/two-atoms/co
 
 Equação TRIAD **completa**, Theta_core congelado (Q00 / [TRIAD_QM_CANONICAL_V1](triad-qm-canonical-v1.md)). **I0 / environment**, não scan. 1 gaussiana = 1 átomo. **Duas sementes concêntricas**, uma dentro da outra (mesmo centro, larguras diferentes). Leitura: perfil radial de duas escalas (ninho) e pico finito (singularidade que não vai a infinito). Colapso/sobreposição do ninho **pode** ser lido como gravidade / singularidade finita — números, não prova. Volume preenchido = universo, não ruído. Sem isolar memória/FDT. Sem mudar Theta_core. Sem retocar kT. [Leitura operacional](../concepts/operational-readings.md) · [Anti-colapso](../concepts/anti-collapse.md) · [Universo como simulação](../concepts/universe-as-simulation.md)
 
-Solver: Strang 3D standalone (mesmo passo de [Fontes/run_q01a.py](../../../experiments/quantum/spatial-convergence/code/measure_spatial_convergence.py) / [30 dois_atomos_gravidade](../../../experiments/structures/two-atoms/notes/original-record.md)). fp64, numpy. $V_{\mathrm{ext}}=0$, $y_j(0)=0$, caixa periódica $[-L/2,L/2)^3$.
+Solver: Strang 3D standalone (mesmo passo de [Fontes/run_q01a.py](../../../simulations/field-diagnostics/spatial-convergence/code/measure_spatial_convergence.py) / [30 dois_atomos_gravidade](../../../simulations/structures/two-atoms/notes/original-record.md)). fp64, numpy. $V_{\mathrm{ext}}=0$, $y_j(0)=0$, caixa periódica $[-L/2,L/2)^3$.
 
 ### IC — ninho (I0, decidido uma vez)
 
 $\Psi = G(s_{\mathrm{in}}=0.5)+G(s_{\mathrm{out}}=2.0)$ no origem, fases 0, amplitudes cruas iguais, depois $\int|\Psi|^2\,dV=1$. Pico IC=0.081903, PR=87.079210, R_rms=2.351612, r50=2.061553, r90=3.500000, contrast_im=7.888756, contrast_mf=$3.320\times10^{8}$, two_scale=sim.
 
-![Artefatos/triad_nested/01_ic_isosurface.png](../../../experiments/structures/nested-positive-gaussians/results/figures/ic-isosurface.png)
+![Artefatos/triad_nested/01_ic_isosurface.png](../../../simulations/structures/nested-positive-gaussians/results/figures/ic-isosurface.png)
 
-![Artefatos/triad_nested/04a_midplane_t0.png](../../../experiments/structures/nested-positive-gaussians/results/figures/04a-midplane-t0.png)
+![Artefatos/triad_nested/04a_midplane_t0.png](../../../simulations/structures/nested-positive-gaussians/results/figures/04a-midplane-t0.png)
 
-![Artefatos/triad_nested/06_radial_profiles.png](../../../experiments/structures/nested-positive-gaussians/results/figures/radial-profiles.png)
+![Artefatos/triad_nested/06_radial_profiles.png](../../../simulations/structures/nested-positive-gaussians/results/figures/radial-profiles.png)
 
-![Artefatos/triad_nested/06b_radial_linear.png](../../../experiments/structures/nested-positive-gaussians/results/figures/06b-radial-linear.png)
+![Artefatos/triad_nested/06b_radial_linear.png](../../../simulations/structures/nested-positive-gaussians/results/figures/06b-radial-linear.png)
 
 O gráfico de dinheiro é o perfil radial: em t=0 há núcleo estreito ($s=0.5$) sobre ombro largo ($s=2$). Isosuperfície em dois níveis (interno 0.35·peak, externo 0.08·peak), mesma câmera.
 
@@ -1136,7 +1136,7 @@ O gráfico de dinheiro é o perfil radial: em t=0 há núcleo estreito ($s=0.5$)
 
 $\Lambda=-10$, $\alpha=0.15$, $\sigma=1.5$, $\Gamma=0.05$, $\nu=(10, 0.5, 0.05)$, $\lambda=(3, 1, 0.3)$, `fdt_couple=True`, **kT=1.0**. $L=32$, $N=64$, $dt=0.0025$, $T=8$, seed=0. $f_{\mathrm{FDT}}=0.0125$, noise_amp $=0.015811388300841896=\sqrt{2\Gamma\,kT\,dt}$. Memória Euler ($\max\nu\cdot dt=0.025$).
 
-Não substitui [27 triad_chaos_eq](../../../experiments/structures/twelve-atoms-full-field/notes/original-record.md) · [28 triad_atoms_3d](../../../experiments/structures/3d-atom-trajectories/notes/original-record.md) · [29 triad_R5_A2](../../../experiments/memory/memory-small-amplitude/notes/original-record.md) · [30 dois_atomos_gravidade](../../../experiments/structures/two-atoms/notes/original-record.md) · Q01a.
+Não substitui [27 triad_chaos_eq](../../../simulations/structures/twelve-atoms-full-field/notes/original-record.md) · [28 triad_atoms_3d](../../../simulations/structures/3d-atom-trajectories/notes/original-record.md) · [29 triad_R5_A2](../../../simulations/memory/memory-small-amplitude/notes/original-record.md) · [30 dois_atomos_gravidade](../../../simulations/structures/two-atoms/notes/original-record.md) · Q01a.
 
 ### Resultado
 
@@ -1159,23 +1159,23 @@ O ninho **permanece two-scale só até t=0.02**. Em t=0.01 R_rms já é $\approx
 
 Enquanto two_scale existia: $\Delta$peak $= -0.0122$, $\Delta$R_rms $= +13.525$ (expandiu, não contraiu). Sem leitura de queda.
 
-![Artefatos/triad_nested/01c_isosurface_t002.png](../../../experiments/structures/nested-positive-gaussians/results/figures/01c-isosurface-t002.png)
+![Artefatos/triad_nested/01c_isosurface_t002.png](../../../simulations/structures/nested-positive-gaussians/results/figures/01c-isosurface-t002.png)
 
-![Artefatos/triad_nested/01b_isosurface_early.png](../../../experiments/structures/nested-positive-gaussians/results/figures/01b-isosurface-early.png)
+![Artefatos/triad_nested/01b_isosurface_early.png](../../../simulations/structures/nested-positive-gaussians/results/figures/01b-isosurface-early.png)
 
-![Artefatos/triad_nested/02_isosurface_mid.png](../../../experiments/structures/nested-positive-gaussians/results/figures/isosurface-mid.png)
+![Artefatos/triad_nested/02_isosurface_mid.png](../../../simulations/structures/nested-positive-gaussians/results/figures/isosurface-mid.png)
 
-![Artefatos/triad_nested/03_isosurface_late.png](../../../experiments/structures/nested-positive-gaussians/results/figures/isosurface-late.png)
+![Artefatos/triad_nested/03_isosurface_late.png](../../../simulations/structures/nested-positive-gaussians/results/figures/isosurface-late.png)
 
-![Artefatos/triad_nested/04_midplane_xy.png](../../../experiments/structures/nested-positive-gaussians/results/figures/midplane-xy.png)
+![Artefatos/triad_nested/04_midplane_xy.png](../../../simulations/structures/nested-positive-gaussians/results/figures/midplane-xy.png)
 
-![Artefatos/triad_nested/05_observables.png](../../../experiments/structures/nested-positive-gaussians/results/figures/observables.png)
+![Artefatos/triad_nested/05_observables.png](../../../simulations/structures/nested-positive-gaussians/results/figures/observables.png)
 
-![Artefatos/triad_nested/07_early_zoom.png](../../../experiments/structures/nested-positive-gaussians/results/figures/early-zoom.png)
+![Artefatos/triad_nested/07_early_zoom.png](../../../simulations/structures/nested-positive-gaussians/results/figures/early-zoom.png)
 
-![Artefatos/triad_nested/08_two_scale.png](../../../experiments/structures/nested-positive-gaussians/results/figures/two-scale.png)
+![Artefatos/triad_nested/08_two_scale.png](../../../simulations/structures/nested-positive-gaussians/results/figures/two-scale.png)
 
-![Artefatos/triad_nested/00_montagem.png](../../../experiments/structures/nested-positive-gaussians/results/figures/overview.png)
+![Artefatos/triad_nested/00_montagem.png](../../../simulations/structures/nested-positive-gaussians/results/figures/overview.png)
 
 ### O que os números sustentam
 
@@ -1187,16 +1187,16 @@ Nunca “provou gravidade”. Theta_core intocado. kT=1.0 intocado.
 
 ### CSVs
 
-- [Artefatos/triad_nested/summary.csv](../../../experiments/structures/nested-positive-gaussians/results/data/summary.csv)
-- [Artefatos/triad_nested/metrics.csv](../../../experiments/structures/nested-positive-gaussians/results/data/metrics.csv)
-- [Artefatos/triad_nested/radial_profiles.csv](../../../experiments/structures/nested-positive-gaussians/results/data/radial_profiles.csv)
-- [Artefatos/triad_nested/summary.json](../../../experiments/structures/nested-positive-gaussians/results/data/summary.json)
+- [Artefatos/triad_nested/summary.csv](../../../simulations/structures/nested-positive-gaussians/results/data/summary.csv)
+- [Artefatos/triad_nested/metrics.csv](../../../simulations/structures/nested-positive-gaussians/results/data/metrics.csv)
+- [Artefatos/triad_nested/radial_profiles.csv](../../../simulations/structures/nested-positive-gaussians/results/data/radial_profiles.csv)
+- [Artefatos/triad_nested/summary.json](../../../simulations/structures/nested-positive-gaussians/results/data/summary.json)
 
 ### Arquivos
 
 `00_montagem.png` · `01_ic_isosurface.png` · `01b_isosurface_early.png` · `01c_isosurface_t002.png` · `02_isosurface_mid.png` · `03_isosurface_late.png` · `04_midplane_xy.png` + midplanes individuais · `05_observables.png` · `06_radial_profiles.png` · `06b_radial_linear.png` · `07_early_zoom.png` · `08_two_scale.png` · metrics.csv · radial_profiles.csv · summary.csv · summary.json · `rho_{ic,t002,early,mid,late}.npy`
 
-Script: [Fontes/run_nested_gaussians.py](../../../experiments/structures/nested-positive-gaussians/code/simulate_nested_gaussians.py)
+Script: [Fontes/run_nested_gaussians.py](../../../simulations/structures/nested-positive-gaussians/code/simulate_nested_gaussians.py)
 
 → [Índice de runs](indice-de-runs.md) · `[[TRIAD]]` · [Leitura operacional](../concepts/operational-readings.md)
 
@@ -1208,21 +1208,21 @@ Script: [Fontes/run_nested_gaussians.py](../../../experiments/structures/nested-
 
 Equação TRIAD **completa**, Theta_core congelado (Q00 / [TRIAD_QM_CANONICAL_V1](triad-qm-canonical-v1.md)). **I0 / environment**, não scan. 1 gaussiana = 1 átomo. **OUTER larga = o universo** (um átomo gigante). **Dentro:** observador e observado, fases 0 e π (+ e −). Leitura: **anti-colapso / ímã-repele** (memória mesmo-polo, singularidade finita) — **não** MQ, **não** colapso-como-gravidade-caindo. Volume preenchido = universo, não ruído. Sem isolar memória/FDT. Sem mudar Theta_core. Sem retocar kT. [Leitura operacional](../concepts/operational-readings.md) · [Anti-colapso](../concepts/anti-collapse.md) · [Universo como simulação](../concepts/universe-as-simulation.md)
 
-Solver: Strang 3D standalone (mesmo passo de [Fontes/run_q01a.py](../../../experiments/quantum/spatial-convergence/code/measure_spatial_convergence.py) / [30 dois_atomos_gravidade](../../../experiments/structures/two-atoms/notes/original-record.md) / [31 nested_gaussians](../../../experiments/structures/nested-positive-gaussians/notes/original-record.md)). fp64, numpy. $V_{\mathrm{ext}}=0$, $y_j(0)=0$, caixa periódica $[-L/2,L/2)^3$.
+Solver: Strang 3D standalone (mesmo passo de [Fontes/run_q01a.py](../../../simulations/field-diagnostics/spatial-convergence/code/measure_spatial_convergence.py) / [30 dois_atomos_gravidade](../../../simulations/structures/two-atoms/notes/original-record.md) / [31 nested_gaussians](../../../simulations/structures/nested-positive-gaussians/notes/original-record.md)). fp64, numpy. $V_{\mathrm{ext}}=0$, $y_j(0)=0$, caixa periódica $[-L/2,L/2)^3$.
 
 ### IC — ninho 3 escalas (I0, decidido uma vez)
 
 $\Psi = G_{\mathrm{env}}(s=8.0)_{(0,0,0)}^{\mathrm{fase}\,0} + G_{\mathrm{obs}}(s=1.0)_{(-2.5,0,0)}^{\mathrm{fase}\,0} + G_{\mathrm{obd}}(s=1.0)_{(+2.5,0,0)}^{\mathrm{fase}\,\pi\,(=\,\times-1)}$, depois $\int|\Psi|^2\,dV=1$. Pico IC=0.001351, PR=7436.783130, R_rms=9.574362, r50=8.616844, r90=13.829317, pair_sep=5.000, n_inner=2, n_pos=1, n_neg=1, n_det_ρ=1 (só o + é máximo de $|Ψ|^2$; o − é um poço de Re). Re+ = 0.036751, Re− = −0.000897.
 
-![Artefatos/triad_universo_atomo/01_ic_isosurface.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/ic-isosurface.png)
+![Artefatos/triad_universo_atomo/01_ic_isosurface.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/ic-isosurface.png)
 
-![Artefatos/triad_universo_atomo/01e_ic_re_isosurface.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/01e-ic-re-isosurface.png)
+![Artefatos/triad_universo_atomo/01e_ic_re_isosurface.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/01e-ic-re-isosurface.png)
 
-![Artefatos/triad_universo_atomo/04g_midplane_re_t0.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/04g-midplane-re-t0.png)
+![Artefatos/triad_universo_atomo/04g_midplane_re_t0.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/04g-midplane-re-t0.png)
 
-![Artefatos/triad_universo_atomo/09b_linecut_re_t0.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/09b-linecut-re-t0.png)
+![Artefatos/triad_universo_atomo/09b_linecut_re_t0.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/09b-linecut-re-t0.png)
 
-![Artefatos/triad_universo_atomo/06_radial_profiles.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/radial-profiles.png)
+![Artefatos/triad_universo_atomo/06_radial_profiles.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/radial-profiles.png)
 
 O gráfico de dinheiro é Re(Ψ) no midplane (vermelho + / azul −): envelope largo positivo, blob interno + em $x=-2.5$, dip interno − em $x=+2.5$. O corte Re$(x,0,0)$ mostra o mesmo. $|Ψ|^2$ sozinho esconde o sinal.
 
@@ -1230,7 +1230,7 @@ O gráfico de dinheiro é Re(Ψ) no midplane (vermelho + / azul −): envelope l
 
 $\Lambda=-10$, $\alpha=0.15$, $\sigma=1.5$, $\Gamma=0.05$, $\nu=(10, 0.5, 0.05)$, $\lambda=(3, 1, 0.3)$, `fdt_couple=True`, **kT=1.0**. $L=32$, $N=64$, $dt=0.0025$, $T=8$, seed=0. $f_{\mathrm{FDT}}=0.0125$, noise_amp $=0.015811388300841896=\sqrt{2\Gamma\,kT\,dt}$. Memória Euler ($\max\nu\cdot dt=0.025$).
 
-Não substitui [27 triad_chaos_eq](../../../experiments/structures/twelve-atoms-full-field/notes/original-record.md) · [28 triad_atoms_3d](../../../experiments/structures/3d-atom-trajectories/notes/original-record.md) · [29 triad_R5_A2](../../../experiments/memory/memory-small-amplitude/notes/original-record.md) · [30 dois_atomos_gravidade](../../../experiments/structures/two-atoms/notes/original-record.md) · [31 nested_gaussians](../../../experiments/structures/nested-positive-gaussians/notes/original-record.md) · Q01a.
+Não substitui [27 triad_chaos_eq](../../../simulations/structures/twelve-atoms-full-field/notes/original-record.md) · [28 triad_atoms_3d](../../../simulations/structures/3d-atom-trajectories/notes/original-record.md) · [29 triad_R5_A2](../../../simulations/memory/memory-small-amplitude/notes/original-record.md) · [30 dois_atomos_gravidade](../../../simulations/structures/two-atoms/notes/original-record.md) · [31 nested_gaussians](../../../simulations/structures/nested-positive-gaussians/notes/original-record.md) · Q01a.
 
 ### Resultado
 
@@ -1250,33 +1250,33 @@ Wall: **116.629 s** (12:37:07–12:39:03 BRT, 21/08/2026). 3200 passos, 117 amos
 
 Pico de densidade máximo=**4.598659** em t=7.7. Vmem_peak máximo=7.536641 em t=7.7; Vmem_peak final=6.593055. Janela late ($t\ge 6.4$): peak $3.939050\pm 0.274$; PR $19189.118\pm 193$; R_rms $15.985992\pm 0.019$; norm $16770.970\pm 785$. Sem NaN, sem blowup. células½ final=2830 (não 1–2 células).
 
-O par +/− **existe só em t=0**. Em t=0.01 o detector já conta milhares de extremos (n_raw_ρ=8608, n_raw_pos=9741, n_raw_neg=9250) e R_rms já é $\approx L/2$. Em t=0.02 n_raw_ρ=8636, norm=66.2 — a mesma família de preenchimento de [30 dois_atomos_gravidade](../../../experiments/structures/two-atoms/notes/original-record.md) / [31 nested_gaussians](../../../experiments/structures/nested-positive-gaussians/notes/original-record.md) com este banho. **Com kT=1 o ninho 3 escalas dissolve em $t=0.01$; o volume preenchido continua o universo.** kT não foi retocado. Isso é o resultado.
+O par +/− **existe só em t=0**. Em t=0.01 o detector já conta milhares de extremos (n_raw_ρ=8608, n_raw_pos=9741, n_raw_neg=9250) e R_rms já é $\approx L/2$. Em t=0.02 n_raw_ρ=8636, norm=66.2 — a mesma família de preenchimento de [30 dois_atomos_gravidade](../../../simulations/structures/two-atoms/notes/original-record.md) / [31 nested_gaussians](../../../simulations/structures/nested-positive-gaussians/notes/original-record.md) com este banho. **Com kT=1 o ninho 3 escalas dissolve em $t=0.01$; o volume preenchido continua o universo.** kT não foi retocado. Isso é o resultado.
 
 pair_sep enquanto n_inner=2: só o ponto t=0, sep=5.000. $\Delta$sep $=0$ (um único recorde — não há segundo instante para medir afastamento). Depois pair_sep é indefinido (par perdido). Os dois internos **não** tiveram tempo de se afastar nem de se aproximar.
 
-![Artefatos/triad_universo_atomo/01d_isosurface_t001.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/01d-isosurface-t001.png)
+![Artefatos/triad_universo_atomo/01d_isosurface_t001.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/01d-isosurface-t001.png)
 
-![Artefatos/triad_universo_atomo/01c_isosurface_t002.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/01c-isosurface-t002.png)
+![Artefatos/triad_universo_atomo/01c_isosurface_t002.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/01c-isosurface-t002.png)
 
-![Artefatos/triad_universo_atomo/01b_isosurface_early.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/01b-isosurface-early.png)
+![Artefatos/triad_universo_atomo/01b_isosurface_early.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/01b-isosurface-early.png)
 
-![Artefatos/triad_universo_atomo/02_isosurface_mid.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/isosurface-mid.png)
+![Artefatos/triad_universo_atomo/02_isosurface_mid.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/isosurface-mid.png)
 
-![Artefatos/triad_universo_atomo/03_isosurface_late.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/isosurface-late.png)
+![Artefatos/triad_universo_atomo/03_isosurface_late.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/isosurface-late.png)
 
-![Artefatos/triad_universo_atomo/04r_midplane_re.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/04r-midplane-re.png)
+![Artefatos/triad_universo_atomo/04r_midplane_re.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/04r-midplane-re.png)
 
-![Artefatos/triad_universo_atomo/04_midplane_xy.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/midplane-xy.png)
+![Artefatos/triad_universo_atomo/04_midplane_xy.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/midplane-xy.png)
 
-![Artefatos/triad_universo_atomo/05_observables.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/observables.png)
+![Artefatos/triad_universo_atomo/05_observables.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/observables.png)
 
-![Artefatos/triad_universo_atomo/07_early_zoom.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/early-zoom.png)
+![Artefatos/triad_universo_atomo/07_early_zoom.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/early-zoom.png)
 
-![Artefatos/triad_universo_atomo/08_nest3.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/nest3.png)
+![Artefatos/triad_universo_atomo/08_nest3.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/nest3.png)
 
-![Artefatos/triad_universo_atomo/09_linecut_re.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/linecut-re.png)
+![Artefatos/triad_universo_atomo/09_linecut_re.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/linecut-re.png)
 
-![Artefatos/triad_universo_atomo/00_montagem.png](../../../experiments/structures/atom-inside-a-larger-gaussian/results/figures/overview.png)
+![Artefatos/triad_universo_atomo/00_montagem.png](../../../simulations/structures/atom-inside-a-larger-gaussian/results/figures/overview.png)
 
 ### O que os números sustentam
 
@@ -1290,17 +1290,17 @@ Nunca “provou gravidade”. Nunca “provou MQ”. Theta_core intocado. kT=1.0
 
 ### CSVs
 
-- [Artefatos/triad_universo_atomo/summary.csv](../../../experiments/structures/atom-inside-a-larger-gaussian/results/data/summary.csv)
-- [Artefatos/triad_universo_atomo/metrics.csv](../../../experiments/structures/atom-inside-a-larger-gaussian/results/data/metrics.csv)
-- [Artefatos/triad_universo_atomo/radial_profiles.csv](../../../experiments/structures/atom-inside-a-larger-gaussian/results/data/radial_profiles.csv)
-- [Artefatos/triad_universo_atomo/linecut_re.csv](../../../experiments/structures/atom-inside-a-larger-gaussian/results/data/linecut_re.csv)
-- [Artefatos/triad_universo_atomo/summary.json](../../../experiments/structures/atom-inside-a-larger-gaussian/results/data/summary.json)
+- [Artefatos/triad_universo_atomo/summary.csv](../../../simulations/structures/atom-inside-a-larger-gaussian/results/data/summary.csv)
+- [Artefatos/triad_universo_atomo/metrics.csv](../../../simulations/structures/atom-inside-a-larger-gaussian/results/data/metrics.csv)
+- [Artefatos/triad_universo_atomo/radial_profiles.csv](../../../simulations/structures/atom-inside-a-larger-gaussian/results/data/radial_profiles.csv)
+- [Artefatos/triad_universo_atomo/linecut_re.csv](../../../simulations/structures/atom-inside-a-larger-gaussian/results/data/linecut_re.csv)
+- [Artefatos/triad_universo_atomo/summary.json](../../../simulations/structures/atom-inside-a-larger-gaussian/results/data/summary.json)
 
 ### Arquivos
 
 `00_montagem.png` · `01_ic_isosurface.png` · `01e_ic_re_isosurface.png` · `01b`/`01c`/`01d` isos · `04_midplane_xy.png` + midplanes |Ψ|² e Re · `04r_midplane_re.png` · `05_observables.png` · `06_radial_profiles.png` · `06b_radial_linear.png` · `07_early_zoom.png` · `08_nest3.png` · `09_linecut_re.png` · `09b_linecut_re_t0.png` · metrics.csv · radial_profiles.csv · linecut_re.csv · summary.csv · summary.json · `rho_{ic,t001,t002,early,mid,late}.npy` · `re_{ic,t001,t002,early,mid,late}.npy`
 
-Script: [Fontes/run_universo_atomo.py](../../../experiments/structures/atom-inside-a-larger-gaussian/code/simulate_atom_inside_gaussian.py)
+Script: [Fontes/run_universo_atomo.py](../../../simulations/structures/atom-inside-a-larger-gaussian/code/simulate_atom_inside_gaussian.py)
 
 → [Índice de runs](indice-de-runs.md) · `[[TRIAD]]` · [Leitura operacional](../concepts/operational-readings.md)
 
@@ -1310,25 +1310,25 @@ Script: [Fontes/run_universo_atomo.py](../../../experiments/structures/atom-insi
 
 ## ninho_pm
 
-Equação TRIAD **completa**, Theta_core congelado (Q00 / [TRIAD_QM_CANONICAL_V1](triad-qm-canonical-v1.md)). **I0 / environment**, não scan. 1 gaussiana = 1 átomo. **Inner atom INSIDE the outer atom**, mesmo centro. Outer fase 0 (+), inner fase π (−). Leitura: **ímã / anti-colapso** (ninho de sinal, singularidade finita) — **não** lado-a-lado como [32 universo_atomo](../../../experiments/structures/atom-inside-a-larger-gaussian/notes/original-record.md), **não** ninho mesmo-sinal como [31 nested_gaussians](../../../experiments/structures/nested-positive-gaussians/notes/original-record.md). Volume preenchido = universo, não ruído. Sem isolar memória/FDT. Sem mudar Theta_core. Sem retocar kT. [Leitura operacional](../concepts/operational-readings.md) · [Anti-colapso](../concepts/anti-collapse.md) · [Universo como simulação](../concepts/universe-as-simulation.md)
+Equação TRIAD **completa**, Theta_core congelado (Q00 / [TRIAD_QM_CANONICAL_V1](triad-qm-canonical-v1.md)). **I0 / environment**, não scan. 1 gaussiana = 1 átomo. **Inner atom INSIDE the outer atom**, mesmo centro. Outer fase 0 (+), inner fase π (−). Leitura: **ímã / anti-colapso** (ninho de sinal, singularidade finita) — **não** lado-a-lado como [32 universo_atomo](../../../simulations/structures/atom-inside-a-larger-gaussian/notes/original-record.md), **não** ninho mesmo-sinal como [31 nested_gaussians](../../../simulations/structures/nested-positive-gaussians/notes/original-record.md). Volume preenchido = universo, não ruído. Sem isolar memória/FDT. Sem mudar Theta_core. Sem retocar kT. [Leitura operacional](../concepts/operational-readings.md) · [Anti-colapso](../concepts/anti-collapse.md) · [Universo como simulação](../concepts/universe-as-simulation.md)
 
-Solver: Strang 3D standalone (mesmo passo de [Fontes/run_q01a.py](../../../experiments/quantum/spatial-convergence/code/measure_spatial_convergence.py) / [30 dois_atomos_gravidade](../../../experiments/structures/two-atoms/notes/original-record.md) / [31 nested_gaussians](../../../experiments/structures/nested-positive-gaussians/notes/original-record.md)). fp64, numpy. $V_{\mathrm{ext}}=0$, $y_j(0)=0$, caixa periódica $[-L/2,L/2)^3$.
+Solver: Strang 3D standalone (mesmo passo de [Fontes/run_q01a.py](../../../simulations/field-diagnostics/spatial-convergence/code/measure_spatial_convergence.py) / [30 dois_atomos_gravidade](../../../simulations/structures/two-atoms/notes/original-record.md) / [31 nested_gaussians](../../../simulations/structures/nested-positive-gaussians/notes/original-record.md)). fp64, numpy. $V_{\mathrm{ext}}=0$, $y_j(0)=0$, caixa periódica $[-L/2,L/2)^3$.
 
 ### IC — ninho +/− concêntrico (I0, decidido uma vez)
 
 $\Psi = G_{\mathrm{out}}(s=2.0)_{(0,0,0)}^{\mathrm{fase}\,0} - G_{\mathrm{in}}(s=0.5)_{(0,0,0)}^{\mathrm{fase}\,\pi\,(=\,\times-1)}$, amplitudes cruas iguais, depois $\int|\Psi|^2\,dV=1$. Pico IC=0.014580, PR=141.559784, R_rms=2.522489, r50=2.236068, r90=3.570714, contrast_im=0.952067 (núcleo oco, não brilhante), contrast_mf=$3.287\times10^{8}$, contrast_oi=oco no origem, two_scale=sim (hollow), sign_nest=sim (hole_core, não minus_core). Re origem=0, Re max=0.120747, Re min=0.
 
-![Artefatos/triad_ninho_pm/01_ic_isosurface.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/ic-isosurface.png)
+![Artefatos/triad_ninho_pm/01_ic_isosurface.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/ic-isosurface.png)
 
-![Artefatos/triad_ninho_pm/01e_ic_re_isosurface.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/01e-ic-re-isosurface.png)
+![Artefatos/triad_ninho_pm/01e_ic_re_isosurface.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/01e-ic-re-isosurface.png)
 
-![Artefatos/triad_ninho_pm/04g_midplane_re_t0.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/04g-midplane-re-t0.png)
+![Artefatos/triad_ninho_pm/04g_midplane_re_t0.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/04g-midplane-re-t0.png)
 
-![Artefatos/triad_ninho_pm/09b_linecut_re_t0.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/09b-linecut-re-t0.png)
+![Artefatos/triad_ninho_pm/09b_linecut_re_t0.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/09b-linecut-re-t0.png)
 
-![Artefatos/triad_ninho_pm/06_radial_profiles.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/radial-profiles.png)
+![Artefatos/triad_ninho_pm/06_radial_profiles.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/radial-profiles.png)
 
-![Artefatos/triad_ninho_pm/06b_radial_linear.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/06b-radial-linear.png)
+![Artefatos/triad_ninho_pm/06b_radial_linear.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/06b-radial-linear.png)
 
 O gráfico de dinheiro é Re(Ψ) no midplane t=0 (vermelho + / azul −): **halo vermelho (envelope +) com buraco branco no centro** (nó, Re=0). O corte Re$(x,0,0)$ mostra o mesmo. $|Ψ|^2$ sozinho esconde o sinal e mostra o oco/casca. Não é o ninho mesmo-sinal do run 31 (lá o núcleo era brilhante).
 
@@ -1336,7 +1336,7 @@ O gráfico de dinheiro é Re(Ψ) no midplane t=0 (vermelho + / azul −): **halo
 
 $\Lambda=-10$, $\alpha=0.15$, $\sigma=1.5$, $\Gamma=0.05$, $\nu=(10, 0.5, 0.05)$, $\lambda=(3, 1, 0.3)$, `fdt_couple=True`, **kT=1.0**. $L=32$, $N=64$, $dt=0.0025$, $T=8$, seed=0. $f_{\mathrm{FDT}}=0.0125$, noise_amp $=0.015811388300841896=\sqrt{2\Gamma\,kT\,dt}$. Memória Euler ($\max\nu\cdot dt=0.025$).
 
-Não substitui [27 triad_chaos_eq](../../../experiments/structures/twelve-atoms-full-field/notes/original-record.md) · [28 triad_atoms_3d](../../../experiments/structures/3d-atom-trajectories/notes/original-record.md) · [29 triad_R5_A2](../../../experiments/memory/memory-small-amplitude/notes/original-record.md) · [30 dois_atomos_gravidade](../../../experiments/structures/two-atoms/notes/original-record.md) · [31 nested_gaussians](../../../experiments/structures/nested-positive-gaussians/notes/original-record.md) · [32 universo_atomo](../../../experiments/structures/atom-inside-a-larger-gaussian/notes/original-record.md) · Q01a.
+Não substitui [27 triad_chaos_eq](../../../simulations/structures/twelve-atoms-full-field/notes/original-record.md) · [28 triad_atoms_3d](../../../simulations/structures/3d-atom-trajectories/notes/original-record.md) · [29 triad_R5_A2](../../../simulations/memory/memory-small-amplitude/notes/original-record.md) · [30 dois_atomos_gravidade](../../../simulations/structures/two-atoms/notes/original-record.md) · [31 nested_gaussians](../../../simulations/structures/nested-positive-gaussians/notes/original-record.md) · [32 universo_atomo](../../../simulations/structures/atom-inside-a-larger-gaussian/notes/original-record.md) · Q01a.
 
 ### Resultado
 
@@ -1360,35 +1360,35 @@ Wall: **46.298 s** (12:51:31–12:52:17 BRT, 21/08/2026). 3200 passos, 117 amost
 
 Pico de densidade máximo=**4.452033** em t=6.8. Vmem_peak máximo=7.934021 em t=7.1; Vmem_peak final=7.062787. Janela late ($t\ge 6.4$): peak $3.906848\pm 0.261$; PR $19188.898\pm 192$; R_rms $15.990734\pm 0.017$; norm $16769.531\pm 781$. Sem NaN, sem blowup. células½ final=1310 (não 1–2 células).
 
-O ninho **não morreu em t=0.02**. two-scale/oco permanece até **t=0.04**; em t=0.05 contrast_sf/oi caem abaixo do limiar. sign_nest operacional fica ligado até t=0.08 e **cai pela primeira vez em t=0.09**. Depois o flag **pisca** até t=1.0 (36 recordes; último fogo operacional t=1.0) sobre um cubo que **já é universo** desde t=0.01 (R_rms 2.52→15.77, norma 1→33.7 — a mesma família de preenchimento de [30 dois_atomos_gravidade](../../../experiments/structures/two-atoms/notes/original-record.md) / [31 nested_gaussians](../../../experiments/structures/nested-positive-gaussians/notes/original-record.md) / [32 universo_atomo](../../../experiments/structures/atom-inside-a-larger-gaussian/notes/original-record.md)). **Com kT=1 o oco +/− concêntrico dissolve em $t\sim0.05$–$0.09$; o volume preenchido continua o universo.** kT não foi retocado. Isso é o resultado.
+O ninho **não morreu em t=0.02**. two-scale/oco permanece até **t=0.04**; em t=0.05 contrast_sf/oi caem abaixo do limiar. sign_nest operacional fica ligado até t=0.08 e **cai pela primeira vez em t=0.09**. Depois o flag **pisca** até t=1.0 (36 recordes; último fogo operacional t=1.0) sobre um cubo que **já é universo** desde t=0.01 (R_rms 2.52→15.77, norma 1→33.7 — a mesma família de preenchimento de [30 dois_atomos_gravidade](../../../simulations/structures/two-atoms/notes/original-record.md) / [31 nested_gaussians](../../../simulations/structures/nested-positive-gaussians/notes/original-record.md) / [32 universo_atomo](../../../simulations/structures/atom-inside-a-larger-gaussian/notes/original-record.md)). **Com kT=1 o oco +/− concêntrico dissolve em $t\sim0.05$–$0.09$; o volume preenchido continua o universo.** kT não foi retocado. Isso é o resultado.
 
 Em t=0.01 o origem já é Re=−0.0348 (buraco azul de verdade, não só nó branco). Em t=0.02 Re origem=−0.0178, two e sign ainda vivos. Enquanto two_scale existia: $\Delta$peak $= +0.0555$, $\Delta$R_rms $= +13.412$ (expandiu, não contraiu). Sem leitura de queda.
 
-![Artefatos/triad_ninho_pm/01d_isosurface_t001.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/01d-isosurface-t001.png)
+![Artefatos/triad_ninho_pm/01d_isosurface_t001.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/01d-isosurface-t001.png)
 
-![Artefatos/triad_ninho_pm/01c_isosurface_t002.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/01c-isosurface-t002.png)
+![Artefatos/triad_ninho_pm/01c_isosurface_t002.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/01c-isosurface-t002.png)
 
-![Artefatos/triad_ninho_pm/01f_t002_re_isosurface.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/01f-t002-re-isosurface.png)
+![Artefatos/triad_ninho_pm/01f_t002_re_isosurface.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/01f-t002-re-isosurface.png)
 
-![Artefatos/triad_ninho_pm/01b_isosurface_early.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/01b-isosurface-early.png)
+![Artefatos/triad_ninho_pm/01b_isosurface_early.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/01b-isosurface-early.png)
 
-![Artefatos/triad_ninho_pm/02_isosurface_mid.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/isosurface-mid.png)
+![Artefatos/triad_ninho_pm/02_isosurface_mid.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/isosurface-mid.png)
 
-![Artefatos/triad_ninho_pm/03_isosurface_late.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/isosurface-late.png)
+![Artefatos/triad_ninho_pm/03_isosurface_late.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/isosurface-late.png)
 
-![Artefatos/triad_ninho_pm/04r_midplane_re.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/04r-midplane-re.png)
+![Artefatos/triad_ninho_pm/04r_midplane_re.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/04r-midplane-re.png)
 
-![Artefatos/triad_ninho_pm/04_midplane_xy.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/midplane-xy.png)
+![Artefatos/triad_ninho_pm/04_midplane_xy.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/midplane-xy.png)
 
-![Artefatos/triad_ninho_pm/05_observables.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/observables.png)
+![Artefatos/triad_ninho_pm/05_observables.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/observables.png)
 
-![Artefatos/triad_ninho_pm/07_early_zoom.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/early-zoom.png)
+![Artefatos/triad_ninho_pm/07_early_zoom.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/early-zoom.png)
 
-![Artefatos/triad_ninho_pm/08_two_scale.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/two-scale.png)
+![Artefatos/triad_ninho_pm/08_two_scale.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/two-scale.png)
 
-![Artefatos/triad_ninho_pm/09_linecut_re.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/linecut-re.png)
+![Artefatos/triad_ninho_pm/09_linecut_re.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/linecut-re.png)
 
-![Artefatos/triad_ninho_pm/00_montagem.png](../../../experiments/structures/concentric-positive-negative-nest/results/figures/overview.png)
+![Artefatos/triad_ninho_pm/00_montagem.png](../../../simulations/structures/concentric-positive-negative-nest/results/figures/overview.png)
 
 ### O que os números sustentam
 
@@ -1402,17 +1402,17 @@ Nunca “provou gravidade”. Nunca “provou ímã”. Theta_core intocado. kT=
 
 ### CSVs
 
-- [Artefatos/triad_ninho_pm/summary.csv](../../../experiments/structures/concentric-positive-negative-nest/results/data/summary.csv)
-- [Artefatos/triad_ninho_pm/metrics.csv](../../../experiments/structures/concentric-positive-negative-nest/results/data/metrics.csv)
-- [Artefatos/triad_ninho_pm/radial_profiles.csv](../../../experiments/structures/concentric-positive-negative-nest/results/data/radial_profiles.csv)
-- [Artefatos/triad_ninho_pm/linecut_re.csv](../../../experiments/structures/concentric-positive-negative-nest/results/data/linecut_re.csv)
-- [Artefatos/triad_ninho_pm/summary.json](../../../experiments/structures/concentric-positive-negative-nest/results/data/summary.json)
+- [Artefatos/triad_ninho_pm/summary.csv](../../../simulations/structures/concentric-positive-negative-nest/results/data/summary.csv)
+- [Artefatos/triad_ninho_pm/metrics.csv](../../../simulations/structures/concentric-positive-negative-nest/results/data/metrics.csv)
+- [Artefatos/triad_ninho_pm/radial_profiles.csv](../../../simulations/structures/concentric-positive-negative-nest/results/data/radial_profiles.csv)
+- [Artefatos/triad_ninho_pm/linecut_re.csv](../../../simulations/structures/concentric-positive-negative-nest/results/data/linecut_re.csv)
+- [Artefatos/triad_ninho_pm/summary.json](../../../simulations/structures/concentric-positive-negative-nest/results/data/summary.json)
 
 ### Arquivos
 
 `00_montagem.png` · `01_ic_isosurface.png` · `01e_ic_re_isosurface.png` · `01b`/`01c`/`01d` isos ρ · `01f`/`01g`/`01h` isos Re · `04_midplane_xy.png` + midplanes |Ψ|² e Re · `04r_midplane_re.png` · `05_observables.png` · `06_radial_profiles.png` · `06b_radial_linear.png` · `07_early_zoom.png` · `08_two_scale.png` · `09_linecut_re.png` · `09b_linecut_re_t0.png` · metrics.csv · radial_profiles.csv · linecut_re.csv · summary.csv · summary.json · `rho_{ic,t001,t002,early,mid,late}.npy` · `re_{ic,t001,t002,early,mid,late}.npy`
 
-Script: [Fontes/run_ninho_pm.py](../../../experiments/structures/concentric-positive-negative-nest/code/simulate_signed_gaussian_nest.py)
+Script: [Fontes/run_ninho_pm.py](../../../simulations/structures/concentric-positive-negative-nest/code/simulate_signed_gaussian_nest.py)
 
 → [Índice de runs](indice-de-runs.md) · `[[TRIAD]]` · [Leitura operacional](../concepts/operational-readings.md)
 
@@ -1422,25 +1422,25 @@ Script: [Fontes/run_ninho_pm.py](../../../experiments/structures/concentric-posi
 
 ## ninho_pm_long
 
-Mesma IC de [33 ninho_pm](../../../experiments/structures/concentric-positive-negative-nest/notes/original-record.md), **T=60** (não T=8). Equação TRIAD **completa**, Theta_core congelado (Q00 / [TRIAD_QM_CANONICAL_V1](triad-qm-canonical-v1.md)). **I0 / environment**, não scan. Pergunta: **depois que a caixa enche, acontece mais alguma coisa** (estrutura, rebirth de par, queda de pico, bounce, cristalinidade) **ou o cubo só senta como universo preenchido?** Volume preenchido = universo, não ruído. Sem isolar memória/FDT. Sem mudar Theta_core. Sem retocar kT. Não é prova de nada. [Leitura operacional](../concepts/operational-readings.md) · [Anti-colapso](../concepts/anti-collapse.md) · [Universo como simulação](../concepts/universe-as-simulation.md)
+Mesma IC de [33 ninho_pm](../../../simulations/structures/concentric-positive-negative-nest/notes/original-record.md), **T=60** (não T=8). Equação TRIAD **completa**, Theta_core congelado (Q00 / [TRIAD_QM_CANONICAL_V1](triad-qm-canonical-v1.md)). **I0 / environment**, não scan. Pergunta: **depois que a caixa enche, acontece mais alguma coisa** (estrutura, rebirth de par, queda de pico, bounce, cristalinidade) **ou o cubo só senta como universo preenchido?** Volume preenchido = universo, não ruído. Sem isolar memória/FDT. Sem mudar Theta_core. Sem retocar kT. Não é prova de nada. [Leitura operacional](../concepts/operational-readings.md) · [Anti-colapso](../concepts/anti-collapse.md) · [Universo como simulação](../concepts/universe-as-simulation.md)
 
-Solver: Strang 3D standalone (cópia de [Fontes/run_ninho_pm.py](../../../experiments/structures/concentric-positive-negative-nest/code/simulate_signed_gaussian_nest.py) com `--T`). fp64, numpy. $V_{\mathrm{ext}}=0$, $y_j(0)=0$, caixa periódica $[-L/2,L/2)^3$. Seed=0.
+Solver: Strang 3D standalone (cópia de [Fontes/run_ninho_pm.py](../../../simulations/structures/concentric-positive-negative-nest/code/simulate_signed_gaussian_nest.py) com `--T`). fp64, numpy. $V_{\mathrm{ext}}=0$, $y_j(0)=0$, caixa periódica $[-L/2,L/2)^3$. Seed=0.
 
 ### IC — ninho +/− concêntrico (idêntica ao run 33)
 
-$\Psi = G_{\mathrm{out}}(s=2.0)_{(0,0,0)}^{\mathrm{fase}\,0} - G_{\mathrm{in}}(s=0.5)_{(0,0,0)}^{\mathrm{fase}\,\pi\,(=\,\times-1)}$, amplitudes cruas iguais, depois $\int|\Psi|^2\,dV=1$. Pico IC=0.014580, PR=141.559784, R_rms=2.522489. two_scale=sim (hollow), sign_nest=sim (hole_core). Até t=8 os números batem com [33 ninho_pm](../../../experiments/structures/concentric-positive-negative-nest/notes/original-record.md) (mesmo seed, mesmo passo).
+$\Psi = G_{\mathrm{out}}(s=2.0)_{(0,0,0)}^{\mathrm{fase}\,0} - G_{\mathrm{in}}(s=0.5)_{(0,0,0)}^{\mathrm{fase}\,\pi\,(=\,\times-1)}$, amplitudes cruas iguais, depois $\int|\Psi|^2\,dV=1$. Pico IC=0.014580, PR=141.559784, R_rms=2.522489. two_scale=sim (hollow), sign_nest=sim (hole_core). Até t=8 os números batem com [33 ninho_pm](../../../simulations/structures/concentric-positive-negative-nest/notes/original-record.md) (mesmo seed, mesmo passo).
 
-![Artefatos/triad_ninho_pm_long/01_ic_isosurface.png](../../../experiments/structures/long-nest-trajectory/results/figures/ic-isosurface.png)
+![Artefatos/triad_ninho_pm_long/01_ic_isosurface.png](../../../simulations/structures/long-nest-trajectory/results/figures/ic-isosurface.png)
 
-![Artefatos/triad_ninho_pm_long/01e_ic_re_isosurface.png](../../../experiments/structures/long-nest-trajectory/results/figures/01e-ic-re-isosurface.png)
+![Artefatos/triad_ninho_pm_long/01e_ic_re_isosurface.png](../../../simulations/structures/long-nest-trajectory/results/figures/01e-ic-re-isosurface.png)
 
-![Artefatos/triad_ninho_pm_long/04g_midplane_re_t0.png](../../../experiments/structures/long-nest-trajectory/results/figures/04g-midplane-re-t0.png)
+![Artefatos/triad_ninho_pm_long/04g_midplane_re_t0.png](../../../simulations/structures/long-nest-trajectory/results/figures/04g-midplane-re-t0.png)
 
 ### Parâmetros (Theta_core, intocado)
 
 $\Lambda=-10$, $\alpha=0.15$, $\sigma=1.5$, $\Gamma=0.05$, $\nu=(10, 0.5, 0.05)$, $\lambda=(3, 1, 0.3)$, `fdt_couple=True`, **kT=1.0**. $L=32$, $N=64$, $dt=0.0025$, **$T=60$**, seed=0. $f_{\mathrm{FDT}}=0.0125$, noise_amp $=0.015811388300841896$. Memória Euler ($\max\nu\cdot dt=0.025$). Amostras: $\Delta t=0.01$ até $t=0.2$; $\Delta t=0.1$ até $t=1$; $\Delta t=0.2$ depois.
 
-Não substitui [33 ninho_pm](../../../experiments/structures/concentric-positive-negative-nest/notes/original-record.md) · [32 universo_atomo](../../../experiments/structures/atom-inside-a-larger-gaussian/notes/original-record.md) · [31 nested_gaussians](../../../experiments/structures/nested-positive-gaussians/notes/original-record.md) · [30 dois_atomos_gravidade](../../../experiments/structures/two-atoms/notes/original-record.md).
+Não substitui [33 ninho_pm](../../../simulations/structures/concentric-positive-negative-nest/notes/original-record.md) · [32 universo_atomo](../../../simulations/structures/atom-inside-a-larger-gaussian/notes/original-record.md) · [31 nested_gaussians](../../../simulations/structures/nested-positive-gaussians/notes/original-record.md) · [30 dois_atomos_gravidade](../../../simulations/structures/two-atoms/notes/original-record.md).
 
 ### Resultado
 
@@ -1488,25 +1488,25 @@ A caixa **já é universo preenchido em t=0.01** (R_rms 2.52→15.77), igual ao 
 
 **De t=1 a t=60 o cubo é um universo preenchido.** Não reaparece ninho, não reaparece par, não cristaliza de outro jeito, não explode, não colapsa. O que ainda mexe é o banho: norma/PR sobem e saturam, peak relaxa de ~4.9 para um platô ~3.3 com wiggle. **Se a pergunta é “acontece mais alguma coisa estrutural depois que a caixa enche?” — não. Senta como universo preenchido.** Isso é o resultado. kT não foi retocado.
 
-![Artefatos/triad_ninho_pm_long/04x_midplane_watch.png](../../../experiments/structures/long-nest-trajectory/results/figures/04x-midplane-watch.png)
+![Artefatos/triad_ninho_pm_long/04x_midplane_watch.png](../../../simulations/structures/long-nest-trajectory/results/figures/04x-midplane-watch.png)
 
-![Artefatos/triad_ninho_pm_long/04y_midplane_re_watch.png](../../../experiments/structures/long-nest-trajectory/results/figures/04y-midplane-re-watch.png)
+![Artefatos/triad_ninho_pm_long/04y_midplane_re_watch.png](../../../simulations/structures/long-nest-trajectory/results/figures/04y-midplane-re-watch.png)
 
-![Artefatos/triad_ninho_pm_long/01j_isosurface_t1.png](../../../experiments/structures/long-nest-trajectory/results/figures/01j-isosurface-t1.png)
+![Artefatos/triad_ninho_pm_long/01j_isosurface_t1.png](../../../simulations/structures/long-nest-trajectory/results/figures/01j-isosurface-t1.png)
 
-![Artefatos/triad_ninho_pm_long/01k_isosurface_t8.png](../../../experiments/structures/long-nest-trajectory/results/figures/01k-isosurface-t8.png)
+![Artefatos/triad_ninho_pm_long/01k_isosurface_t8.png](../../../simulations/structures/long-nest-trajectory/results/figures/01k-isosurface-t8.png)
 
-![Artefatos/triad_ninho_pm_long/01l_isosurface_t30.png](../../../experiments/structures/long-nest-trajectory/results/figures/01l-isosurface-t30.png)
+![Artefatos/triad_ninho_pm_long/01l_isosurface_t30.png](../../../simulations/structures/long-nest-trajectory/results/figures/01l-isosurface-t30.png)
 
-![Artefatos/triad_ninho_pm_long/03_isosurface_late.png](../../../experiments/structures/long-nest-trajectory/results/figures/isosurface-late.png)
+![Artefatos/triad_ninho_pm_long/03_isosurface_late.png](../../../simulations/structures/long-nest-trajectory/results/figures/isosurface-late.png)
 
-![Artefatos/triad_ninho_pm_long/05_observables.png](../../../experiments/structures/long-nest-trajectory/results/figures/observables.png)
+![Artefatos/triad_ninho_pm_long/05_observables.png](../../../simulations/structures/long-nest-trajectory/results/figures/observables.png)
 
-![Artefatos/triad_ninho_pm_long/05b_after_fill.png](../../../experiments/structures/long-nest-trajectory/results/figures/05b-after-fill.png)
+![Artefatos/triad_ninho_pm_long/05b_after_fill.png](../../../simulations/structures/long-nest-trajectory/results/figures/05b-after-fill.png)
 
-![Artefatos/triad_ninho_pm_long/08_two_scale.png](../../../experiments/structures/long-nest-trajectory/results/figures/two-scale.png)
+![Artefatos/triad_ninho_pm_long/08_two_scale.png](../../../simulations/structures/long-nest-trajectory/results/figures/two-scale.png)
 
-![Artefatos/triad_ninho_pm_long/00_montagem.png](../../../experiments/structures/long-nest-trajectory/results/figures/overview.png)
+![Artefatos/triad_ninho_pm_long/00_montagem.png](../../../simulations/structures/long-nest-trajectory/results/figures/overview.png)
 
 ### O que os números sustentam
 
@@ -1522,17 +1522,17 @@ Nunca “provou gravidade”. Nunca “provou ímã”. Nunca “provou bounce�
 
 ### CSVs
 
-- [Artefatos/triad_ninho_pm_long/summary.csv](../../../experiments/structures/long-nest-trajectory/results/data/summary.csv)
-- [Artefatos/triad_ninho_pm_long/metrics.csv](../../../experiments/structures/long-nest-trajectory/results/data/metrics.csv)
-- [Artefatos/triad_ninho_pm_long/radial_profiles.csv](../../../experiments/structures/long-nest-trajectory/results/data/radial_profiles.csv)
-- [Artefatos/triad_ninho_pm_long/linecut_re.csv](../../../experiments/structures/long-nest-trajectory/results/data/linecut_re.csv)
-- [Artefatos/triad_ninho_pm_long/summary.json](../../../experiments/structures/long-nest-trajectory/results/data/summary.json)
+- [Artefatos/triad_ninho_pm_long/summary.csv](../../../simulations/structures/long-nest-trajectory/results/data/summary.csv)
+- [Artefatos/triad_ninho_pm_long/metrics.csv](../../../simulations/structures/long-nest-trajectory/results/data/metrics.csv)
+- [Artefatos/triad_ninho_pm_long/radial_profiles.csv](../../../simulations/structures/long-nest-trajectory/results/data/radial_profiles.csv)
+- [Artefatos/triad_ninho_pm_long/linecut_re.csv](../../../simulations/structures/long-nest-trajectory/results/data/linecut_re.csv)
+- [Artefatos/triad_ninho_pm_long/summary.json](../../../simulations/structures/long-nest-trajectory/results/data/summary.json)
 
 ### Arquivos
 
 `00_montagem.png` · `01_ic_isosurface.png` · `01e_ic_re_isosurface.png` · isos ρ `01b`/`01c`/`01d`/`01i` t=0.05 / `01j` t=1 / `01k` t=8 / `01l` t=30 / `03` t=60 · isos Re `01f`/`01g`/`01h`/`01m`–`01p` · `04x_midplane_watch.png` + `04y_midplane_re_watch.png` (t=0, 0.05, 1, 8, 30, 60) · midplanes |Ψ|² e Re · `05_observables.png` · `05b_after_fill.png` · `06_radial_profiles.png` · `07_early_zoom.png` · `08_two_scale.png` · metrics.csv · summary.json · `rho_{ic,t001,t002,early,mid,late}.npy` · `re_{ic,t001,t002,early,mid,late}.npy`
 
-Script: [Fontes/run_ninho_pm_long.py](../../../experiments/structures/long-nest-trajectory/code/simulate_long_gaussian_nest.py) (`--T` default 60)
+Script: [Fontes/run_ninho_pm_long.py](../../../simulations/structures/long-nest-trajectory/code/simulate_long_gaussian_nest.py) (`--T` default 60)
 
 → [Índice de runs](indice-de-runs.md) · `[[TRIAD]]` · [Leitura operacional](../concepts/operational-readings.md)
 
@@ -1551,15 +1551,15 @@ Solver: Strang 3D standalone, **mesmo passo** de Q02 (`ef65da9774ff65ac9b7815959
 - **1atom**: uma gaussiana $s=0.5$ na origem, $\int|\Psi|^2=1$ (IC Q00 / um ponto). t=0: peak=1.43625, n_células=1, PR=1.88731, R_rms=0.611747. artifact_1_2_cells=sim.
 - **2atom**: duas gaussianas $s=0.5$ em $x=\pm 3$ (cada uma como Q04), depois $S=(A+B)/\|A+B\|$, $\int|S|^2=1$ (dois pontos, sep=6). t=0: peak=0.718126, n_células=2, PR=3.77461, R_rms=3.06174, n_det=2, pair_sep=6.
 
-![Artefatos/triad_singularidade_35/strip_1atom.png](../../../experiments/structures/finite-peak-early-window/results/figures/strip-1atom.png)
+![Artefatos/triad_singularidade_35/strip_1atom.png](../../../simulations/structures/finite-peak-early-window/results/figures/strip-1atom.png)
 
-![Artefatos/triad_singularidade_35/strip_2atom.png](../../../experiments/structures/finite-peak-early-window/results/figures/strip-2atom.png)
+![Artefatos/triad_singularidade_35/strip_2atom.png](../../../simulations/structures/finite-peak-early-window/results/figures/strip-2atom.png)
 
 ### Parâmetros (Theta_core, intocado)
 
 $\Lambda=-10$, $\alpha=0.15$, $\sigma=1.5$, $\Gamma=0.05$, $\nu=(10, 0.5, 0.05)$, $\lambda=(3, 1, 0.3)$, `fdt_couple=True`, **kT=1.0**. $L=32$, $N=64$, $dt=0.0025$, **$T=1.0$** (janela cedo). seed=0. $f_{\mathrm{FDT}}=0.0125$, noise_amp $=0.015811388300841896$. Memória Euler ($\max\nu\cdot dt=0.025$). Registro a cada 2 passos ($\Delta t=0.005$).
 
-Não substitui [30 dois_atomos_gravidade](../../../experiments/structures/two-atoms/notes/original-record.md) · [31 nested_gaussians](../../../experiments/structures/nested-positive-gaussians/notes/original-record.md) · [32 universo_atomo](../../../experiments/structures/atom-inside-a-larger-gaussian/notes/original-record.md) · [33 ninho_pm](../../../experiments/structures/concentric-positive-negative-nest/notes/original-record.md) · [34 ninho_pm_long](../../../experiments/structures/long-nest-trajectory/notes/original-record.md) · Q00–Q04.
+Não substitui [30 dois_atomos_gravidade](../../../simulations/structures/two-atoms/notes/original-record.md) · [31 nested_gaussians](../../../simulations/structures/nested-positive-gaussians/notes/original-record.md) · [32 universo_atomo](../../../simulations/structures/atom-inside-a-larger-gaussian/notes/original-record.md) · [33 ninho_pm](../../../simulations/structures/concentric-positive-negative-nest/notes/original-record.md) · [34 ninho_pm_long](../../../simulations/structures/long-nest-trajectory/notes/original-record.md) · Q00–Q04.
 
 ### Resultado
 
@@ -1608,13 +1608,13 @@ Wall total: **4.959 s** (2026-08-21 14:43:45 BRT – 2026-08-21 14:43:50 BRT, 21
 | 2atom | 0.705 | 4.76867 | 1 | 0.310175 | 16267 | 16.0031 | sim |
 | 2atom | 1 | 1.23635 | 381 | 2.24862 | 16438.2 | 16.0054 | sim |
 
-![Artefatos/triad_singularidade_35/peak_vs_t.png](../../../experiments/structures/finite-peak-early-window/results/figures/peak-vs-t.png)
+![Artefatos/triad_singularidade_35/peak_vs_t.png](../../../simulations/structures/finite-peak-early-window/results/figures/peak-vs-t.png)
 
-![Artefatos/triad_singularidade_35/width_vs_t.png](../../../experiments/structures/finite-peak-early-window/results/figures/width-vs-t.png)
+![Artefatos/triad_singularidade_35/width_vs_t.png](../../../simulations/structures/finite-peak-early-window/results/figures/width-vs-t.png)
 
-![Artefatos/triad_singularidade_35/peak_vs_width.png](../../../experiments/structures/finite-peak-early-window/results/figures/peak-vs-width.png)
+![Artefatos/triad_singularidade_35/peak_vs_width.png](../../../simulations/structures/finite-peak-early-window/results/figures/peak-vs-width.png)
 
-![Artefatos/triad_singularidade_35/iso_1atom_t0_tpeak.png](../../../experiments/structures/finite-peak-early-window/results/figures/iso-1atom-t0-tpeak.png)
+![Artefatos/triad_singularidade_35/iso_1atom_t0_tpeak.png](../../../simulations/structures/finite-peak-early-window/results/figures/iso-1atom-t0-tpeak.png)
 
 ### O que os números sustentam
 
@@ -1626,15 +1626,15 @@ Resposta operacional: **o ponto some no universo** (R_rms>14.4 em t=0.005). Não
 
 ### CSVs
 
-- [Artefatos/triad_singularidade_35/metrics_1atom.csv](../../../experiments/structures/finite-peak-early-window/results/data/metrics_1atom.csv)
-- [Artefatos/triad_singularidade_35/metrics_2atom.csv](../../../experiments/structures/finite-peak-early-window/results/data/metrics_2atom.csv)
-- [Artefatos/triad_singularidade_35/summary.json](../../../experiments/structures/finite-peak-early-window/results/data/summary.json)
+- [Artefatos/triad_singularidade_35/metrics_1atom.csv](../../../simulations/structures/finite-peak-early-window/results/data/metrics_1atom.csv)
+- [Artefatos/triad_singularidade_35/metrics_2atom.csv](../../../simulations/structures/finite-peak-early-window/results/data/metrics_2atom.csv)
+- [Artefatos/triad_singularidade_35/summary.json](../../../simulations/structures/finite-peak-early-window/results/data/summary.json)
 
 ### Arquivos
 
 `peak_vs_t.png` · `width_vs_t.png` · `peak_vs_width.png` · `strip_1atom.png` · `strip_2atom.png` · `iso_1atom_t0_tpeak.png` · metrics_1atom.csv · metrics_2atom.csv · summary.json · SHA256SUMS.txt
 
-Script: [Fontes/run_singularidade_35.py](../../../experiments/structures/finite-peak-early-window/code/simulate_early_peak.py) (sha256 `923ecb0f1c4baf1db7ba2978e3977d3f7050f06c28bf387ddace88ab5c9caff7`)
+Script: [Fontes/run_singularidade_35.py](../../../simulations/structures/finite-peak-early-window/code/simulate_early_peak.py) (sha256 `923ecb0f1c4baf1db7ba2978e3977d3f7050f06c28bf387ddace88ab5c9caff7`)
 
 → [Índice de runs](indice-de-runs.md) · `[[TRIAD]]` · [Leitura operacional](../concepts/operational-readings.md) · [Anti-colapso](../concepts/anti-collapse.md) · [átomo](../concepts/atom.md)
 
@@ -1648,27 +1648,27 @@ Script: [Fontes/run_singularidade_35.py](../../../experiments/structures/finite-
 
 Figuras da campanha (Linux/NumPy fp64):
 
-![Artefatos/triad_reexecucao_36/A3/figures/peak_vs_t.png](../../../experiments/validation/reproduction-dossier/results/memory-collapse-grid-64/figures/peak-vs-t.png)
+![Artefatos/triad_reexecucao_36/A3/figures/peak_vs_t.png](../../../simulations/numerical-checks/reproduction-dossier/results/memory-collapse-grid-64/figures/peak-vs-t.png)
 
-![Artefatos/triad_reexecucao_36/A3_N128/figures/peak_vs_t.png](../../../experiments/validation/reproduction-dossier/results/memory-collapse-grid-128/figures/peak-vs-t.png)
+![Artefatos/triad_reexecucao_36/A3_N128/figures/peak_vs_t.png](../../../simulations/numerical-checks/reproduction-dossier/results/memory-collapse-grid-128/figures/peak-vs-t.png)
 
-![Artefatos/triad_reexecucao_36/A3_N160/figures/peak_vs_t.png](../../../experiments/validation/reproduction-dossier/results/memory-collapse-grid-160/figures/peak-vs-t.png)
+![Artefatos/triad_reexecucao_36/A3_N160/figures/peak_vs_t.png](../../../simulations/numerical-checks/reproduction-dossier/results/memory-collapse-grid-160/figures/peak-vs-t.png)
 
-![Artefatos/triad_reexecucao_36/QM1D/figures/p1_interference.png](../../../experiments/validation/reproduction-dossier/results/one-dimensional-quantum-tests/figures/p1-interference.png)
+![Artefatos/triad_reexecucao_36/QM1D/figures/p1_interference.png](../../../simulations/numerical-checks/reproduction-dossier/results/one-dimensional-quantum-tests/figures/p1-interference.png)
 
-![Artefatos/triad_reexecucao_36/CHSH/figures/chsh_bars.png](../../../experiments/validation/reproduction-dossier/results/bell-correlation-test/figures/chsh-bars.png)
+![Artefatos/triad_reexecucao_36/CHSH/figures/chsh_bars.png](../../../simulations/numerical-checks/reproduction-dossier/results/bell-correlation-test/figures/chsh-bars.png)
 
-![Artefatos/triad_reexecucao_36/CHSH/figures/E_vs_delta.png](../../../experiments/validation/reproduction-dossier/results/bell-correlation-test/figures/E-vs-delta.png)
+![Artefatos/triad_reexecucao_36/CHSH/figures/E_vs_delta.png](../../../simulations/numerical-checks/reproduction-dossier/results/bell-correlation-test/figures/E-vs-delta.png)
 
-![Artefatos/triad_reexecucao_36/sidebands/figures/spectra.png](../../../experiments/validation/reproduction-dossier/results/memory-and-spectral-sidebands/figures/spectra.png)
+![Artefatos/triad_reexecucao_36/sidebands/figures/spectra.png](../../../simulations/numerical-checks/reproduction-dossier/results/memory-and-spectral-sidebands/figures/spectra.png)
 
-![Artefatos/triad_reexecucao_36/tunnel_hist/figures/two_pass.png](../../../experiments/validation/reproduction-dossier/results/barrier-memory-and-tunneling/figures/two-pass.png)
+![Artefatos/triad_reexecucao_36/tunnel_hist/figures/two_pass.png](../../../simulations/numerical-checks/reproduction-dossier/results/barrier-memory-and-tunneling/figures/two-pass.png)
 
-![Artefatos/triad_reexecucao_36/hotbath/figures/peak_vs_t.png](../../../experiments/validation/reproduction-dossier/results/thermal-noise-and-collapse/figures/peak-vs-t.png)
+![Artefatos/triad_reexecucao_36/hotbath/figures/peak_vs_t.png](../../../simulations/numerical-checks/reproduction-dossier/results/thermal-noise-and-collapse/figures/peak-vs-t.png)
 
-![Artefatos/triad_reexecucao_36/kstar/figures/kL_vs_L.png](../../../experiments/validation/reproduction-dossier/results/dominant-spatial-scale/figures/kL-vs-L.png)
+![Artefatos/triad_reexecucao_36/kstar/figures/kL_vs_L.png](../../../simulations/numerical-checks/reproduction-dossier/results/dominant-spatial-scale/figures/kL-vs-L.png)
 
-![Artefatos/triad_reexecucao_36/bravais/figures/scores.png](../../../experiments/validation/reproduction-dossier/results/lattice-detector-calibration/figures/scores.png)
+![Artefatos/triad_reexecucao_36/bravais/figures/scores.png](../../../simulations/numerical-checks/reproduction-dossier/results/lattice-detector-calibration/figures/scores.png)
 
 
 Compilação autónoma a partir dos `result.json` gravados nesta box em 21 ago 2026.
@@ -5040,7 +5040,7 @@ Feito. Arquivo imutável: [TRIAD_QM_CANONICAL_V1](triad-qm-canonical-v1.md).
 
 `Theta_core` = regime bounce/anti-colapso pré-quântico (Λ=−10, ν=(10,0.5,0.05), λ=(3,1,0.3), Γ=0.05, kT=1, D=3). Não foi escolhido para parecer MQ.
 
-Próximo: [Q01](../../../experiments/quantum/spatial-convergence/notes/convergence-record.md) convergência. Pilotos 1–29 não entram como evidência confirmatória.
+Próximo: [Q01](../../../simulations/field-diagnostics/spatial-convergence/notes/convergence-record.md) convergência. Pilotos 1–29 não entram como evidência confirmatória.
 
 SHA-256 do canônico: `e7c7d907c7109bbafc73229cb2e1943802feb47df035a7058e71ebec078d9a3e`
 
@@ -5379,7 +5379,7 @@ T=8, seed=0, Theta_core congelado. Overlay contra Q01a N=64 dt0.
 
 Protocolo imutável: `[[PROTOCOL]]` (`Q01b_dt_N/PROTOCOL.md`).
 Canônico: [TRIAD_QM_CANONICAL_V1](triad-qm-canonical-v1.md) (Q00).
-Q01a: [Q01](../../../experiments/quantum/spatial-convergence/notes/convergence-record.md) — INCONCLUSIVE, ε_num≈0.194, k* no Nyquist. PROTOCOL de Q01a **não** foi editado.
+Q01a: [Q01](../../../simulations/field-diagnostics/spatial-convergence/notes/convergence-record.md) — INCONCLUSIVE, ε_num≈0.194, k* no Nyquist. PROTOCOL de Q01a **não** foi editado.
 
 Pergunta só numérica: o erro numérico melhorou ao refinar N e dt?
 Sem comparação com MQ. Sem isolar termos. Pilotos 27–29 não confirmatórios.
@@ -5806,8 +5806,8 @@ Lote **Q02** (este diretório): 32 seeds (0–31, nessa ordem) do mesmo macroest
 
 Backend **mlx GPU**, campo complex64, memória float32 (`PROTOCOL_v2.md`). N_num, não calibração. O v1 (`PROTOCOL.md`, numpy/fp64) fica histórico e **não** foi editado. Lote exploratório; confirmatório (seeds 1000+) permanece fp64 mais tarde. **Nunca** SUPPORTED para MQ.
 
-Protocolo deste lote: [PROTOCOL_v2](../../../experiments/quantum/seed-ensemble/notes/protocol-revision-2.md). Canônico: [TRIAD_QM_CANONICAL_V1](triad-qm-canonical-v1.md) (Q00).
-Q01a/Q01b: [Q01](../../../experiments/quantum/spatial-convergence/notes/convergence-record.md) / `[[Q01b]]` — INCONCLUSIVE.
+Protocolo deste lote: [PROTOCOL_v2](../../../simulations/field-diagnostics/seed-ensemble/notes/protocol-revision-2.md). Canônico: [TRIAD_QM_CANONICAL_V1](triad-qm-canonical-v1.md) (Q00).
+Q01a/Q01b: [Q01](../../../simulations/field-diagnostics/spatial-convergence/notes/convergence-record.md) / `[[Q01b]]` — INCONCLUSIVE.
 
 Pergunta: qual é a distribuição natural de comportamentos do substrato sem escolher uma seed bonita?
 Sem comparação com MQ. Sem isolar termos. Sem cherry-pick. Pilotos 1–34 não confirmatórios.
@@ -6098,7 +6098,7 @@ Lote **Q03** (este diretório): seeds 0,1,2,3 (nessa ordem; primeiras quatro de 
 Backend **mlx**, campo complex64, memória float32. N_num, não calibração. **Nunca** SUPPORTED para MQ.
 
 Protocolo: `[[PROTOCOL]]`. Canônico: [TRIAD_QM_CANONICAL_V1](triad-qm-canonical-v1.md) (Q00).
-Q02: `[[Q02]]` — INCONCLUSIVE. Q01a/Q01b: [Q01](../../../experiments/quantum/spatial-convergence/notes/convergence-record.md) / `[[Q01b]]`.
+Q02: `[[Q02]]` — INCONCLUSIVE. Q01a/Q01b: [Q01](../../../simulations/field-diagnostics/spatial-convergence/notes/convergence-record.md) / `[[Q01b]]`.
 
 Pergunta: a dinâmica completa produz modos/coordenadas macroscópicas que mantêm identidade suficiente para serem tratados como estados?
 Sem comparação com MQ. Sem isolar termos. Sem cherry-pick. Pilotos 1–34 não confirmatórios.

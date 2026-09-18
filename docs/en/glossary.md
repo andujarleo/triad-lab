@@ -6,7 +6,7 @@ Some words describe the author’s view of reality. Others describe arrays, plot
 
 ## Atom
 
-In the author’s operational reading, **one Gaussian packet is one atom**: a localized initial shape of Ψ. The same vocabulary extends to nested structures and an atom-like universe. Read the [original atom note](../reference/concepts/atom.md) and inspect [Gaussian atoms in one field](../../experiments/structures/gaussian-atoms-in-one-field/README.md).
+In the author’s operational reading, **one Gaussian packet is one atom**: a localized initial shape of Ψ. The same vocabulary extends to nested structures and an atom-like universe. Read the [original atom note](../reference/concepts/atom.md) and inspect [Gaussian atoms in one field](../../simulations/structures/gaussian-atoms-in-one-field/README.md).
 
 ## Matter and universe
 
@@ -18,7 +18,7 @@ These are stages in the author’s conceptual sequence: **atom → vibration →
 
 ## Frequency and sound
 
-“Sound” is the author’s label beside frequency in the conceptual map. In the lab, a spectrum may describe variation over time or structure across space. An audio rendering, when provided, needs its own mapping from those numbers to audible frequencies. See the [signal studies](../../experiments/signals/README.md).
+“Sound” is the author’s label beside frequency in the conceptual map. In the lab, a spectrum may describe variation over time or structure across space. An audio rendering, when provided, needs its own mapping from those numbers to audible frequencies. See the [signal studies](../../simulations/signals/README.md).
 
 ## Energy and light
 

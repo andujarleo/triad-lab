@@ -20,9 +20,9 @@ No passo Strang a memória atualiza **duas vezes** por $dt$ (antes e depois do p
 
 ## No registro
 
-- Sem memória vs full: R5 N40 — peak_final 3.889202 vs 0.0006409; PR 0.528063 vs 4720.477435. [16 triad_R5_reference_N40](../../../experiments/memory/memory-grid-40/notes/original-record.md)
-- Atlas: sem regiões de $V_{\mathrm{mem}}\approx|\Lambda\rho|$. [18 triad_visual_atlas](../../../experiments/geometry/visual-atlas/notes/original-record.md)
-- Bounce: pico de densidade t=4.1, memória t=4.2, delay=0.1. [23 triad_memory_bounce_bigbang](../../../experiments/memory/memory-and-bounce/notes/original-record.md) · [Bounce](bounce.md)
-- Campo C: `C_memory_corr_final=-0.3855089487747705` (continuous_C). [09 triad_field_consciousness_test](../../../experiments/relations/continuous-relational-field/notes/original-record.md) · [Observador e campo C](observer-and-c-field.md)
+- Sem memória vs full: R5 N40 — peak_final 3.889202 vs 0.0006409; PR 0.528063 vs 4720.477435. [16 triad_R5_reference_N40](../../../simulations/memory/memory-grid-40/notes/original-record.md)
+- Atlas: sem regiões de $V_{\mathrm{mem}}\approx|\Lambda\rho|$. [18 triad_visual_atlas](../../../simulations/geometry/visual-atlas/notes/original-record.md)
+- Bounce: pico de densidade t=4.1, memória t=4.2, delay=0.1. [23 triad_memory_bounce_bigbang](../../../simulations/memory/memory-and-bounce/notes/original-record.md) · [Bounce](bounce.md)
+- Campo C: `C_memory_corr_final=-0.3855089487747705` (continuous_C). [09 triad_field_consciousness_test](../../../simulations/relations/continuous-relational-field/notes/original-record.md) · [Observador e campo C](observer-and-c-field.md)
 
 Voltar: `[[Equação de referência]]`

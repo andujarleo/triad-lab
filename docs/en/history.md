@@ -4,14 +4,14 @@
 
 The current layout brings the initial oscillator and Bravais studies together with material recovered from **T.zip**. The source archive supplied 1,330 content paths, including repeated copies, 39 chronological records, six QM entries and further explorations.
 
-The physical organization now follows questions instead of download folders. Each study has a home under `experiments/<area>/<study>/`. The acquisition names remain in the provenance ledger so every original file can be traced.
+The physical organization now follows questions instead of download folders. Each study has a home under `simulations/<area>/<study>/`. The acquisition names remain in the provenance ledger so every original file can be traced.
 
 The chronology follows documents, implementations and executions. The TRIAD equation is unique and immutable; these records are not stages in the evolution of its form. Historical procedures keep their own context alongside the author’s [project rules](project-rules.md).
 
 ## Read in historical order
 
 - [T01–T39](topics/timeline.md): early models, reference configurations, solver diagnostics and later structures. Four attempts have notes but no supplied run artifacts.
-- [Q00–Q04](../../experiments/quantum/README.md): frozen specification and field-dynamics tests, including the Q01b refinement.
+- [Q00–Q04](../../simulations/field-diagnostics/README.md): frozen specification and field-dynamics tests, including the Q01b refinement.
 - [Original concepts and full records](../reference/README.md): historical wording, equations, protocols and interpretations.
 
 ## What changed in the organization

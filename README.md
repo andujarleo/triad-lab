@@ -13,12 +13,12 @@
 The project starts from **oscillation (P1), self-reference (P2) and coupling (P3)**. Its equation is **unique, immutable and indivisible**. Focus, memory and bath participate in the complete dynamics: a field evolves, carries its history and responds to it. The lab follows the forms and interactions that self-organize.
 
 <p align="center">
-  <a href="experiments/geometry/field-visualizations/README.md">
-    <img src="experiments/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png" width="720" alt="Original recorded 3D phase-vortex visualization. Cyan and pink points mark opposite directions of phase winding in denser regions." />
+  <a href="simulations/geometry/field-visualizations/README.md">
+    <img src="simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png" width="720" alt="Original recorded 3D phase-vortex visualization. Cyan and pink points mark opposite directions of phase winding in denser regions." />
   </a>
 </p>
 
-**A field, seen from within.** Cyan and pink mark opposite directions of phase winding in denser regions. This is an original recorded frame, with its labels preserved. [Watch the animation](experiments/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif) · [Follow the image to its source](experiments/geometry/field-visualizations/README.md).
+**A field, seen from within.** Cyan and pink mark opposite directions of phase winding in denser regions. This is an original recorded frame, with its labels preserved. [Watch the animation](simulations/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif) · [Follow the image to its source](simulations/geometry/field-visualizations/README.md).
 
 **65 studies · 8 areas · original images, code and data · English + Portuguese**
 
@@ -35,15 +35,15 @@ The interactive viewer reads preserved final states. Its slider moves through **
 
 | What follows a concentration? | Can a region keep its identity? | How closely does memory follow density? |
 |---|---|---|
-| ![Recorded overview of the memory-and-bounce study](experiments/memory/memory-and-bounce/results/figures/overview.png) | ![Recorded participation-ratio trajectory of a pocket in the field](experiments/structures/a-pocket-in-the-field/results/figures/PR-vs-t.png) | ![Recorded density and memory maps at the initial saved time](experiments/structures/density-memory-maps/results/figures/mapa-0p000.png) |
+| ![Recorded overview of the memory-and-bounce study](simulations/memory/memory-and-bounce/results/figures/overview.png) | ![Recorded participation-ratio trajectory of a pocket in the field](simulations/structures/a-pocket-in-the-field/results/figures/PR-vs-t.png) | ![Recorded density and memory maps at the initial saved time](simulations/structures/density-memory-maps/results/figures/mapa-0p000.png) |
 | Follow concentration, memory response and expansion. The record retains two radius diagnostics that disagree. | Follow a planted Gaussian pocket and the diagnostics of its identity within a changing field. | Compare density and accumulated memory. The recorded alignment is transient. |
-| [Memory and bounce →](experiments/memory/memory-and-bounce/README.md) | [A pocket in the field →](experiments/structures/a-pocket-in-the-field/README.md) | [Density–memory maps →](experiments/structures/density-memory-maps/README.md) |
+| [Memory and bounce →](simulations/memory/memory-and-bounce/README.md) | [A pocket in the field →](simulations/structures/a-pocket-in-the-field/README.md) | [Density–memory maps →](simulations/structures/density-memory-maps/README.md) |
 
 ## A broad question, an expanding archive
 
 The ambition is to explore many phenomena through simulation and publish the path taken. Each study connects its question to available notes, code, configurations and outcomes. Historical attempts, partial results and open questions remain part of that path.
 
-[Relations](experiments/relations/README.md) · [Geometry](experiments/geometry/README.md) · [Memory](experiments/memory/README.md) · [Structures](experiments/structures/README.md) · [Signals](experiments/signals/README.md) · [Field diagnostics](experiments/quantum/README.md) · [Continuity](experiments/continuity/README.md) · [Validation](experiments/validation/README.md)
+[Relations](simulations/relations/README.md) · [Geometry](simulations/geometry/README.md) · [Memory](simulations/memory/README.md) · [Structures](simulations/structures/README.md) · [Signals](simulations/signals/README.md) · [Field diagnostics](simulations/field-diagnostics/README.md) · [Continuity](simulations/continuity/README.md) · [Validation](simulations/numerical-checks/README.md)
 
 The [reference-document history](docs/reference/equation/README.md) preserves documents labeled v1.0 and v1.1; these labels identify revisions of the writing, not different equations. Historical implementations and results retain their own configurations. The [project rules](docs/en/project-rules.md) explain the complete dynamics, self-organization without external calibration toward a chosen result, and the technical checks used in this lab.
 

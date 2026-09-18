@@ -21,9 +21,9 @@ Evita rebatizar os primeiros ensaios como se já fossem o solver final.
 
 ## Sem apagamento (p. 2)
 
-- Phase-to-density bruto: velocidades ~0 por diagnóstico inadequado. [21 triad_phase_to_density_speed](../../../experiments/signals/first-phase-to-density-diagnostic/notes/original-record.md)
-- Big Bang FDT quente: `mass_final=8773.747757`. [19 triad_bigbang_solver_run](../../../experiments/signals/hot-bath-diagnostic-failure/notes/original-record.md)
-- Bounce: `R_rms` False e raios de massa True. [23 triad_memory_bounce_bigbang](../../../experiments/memory/memory-and-bounce/notes/original-record.md)
+- Phase-to-density bruto: velocidades ~0 por diagnóstico inadequado. [21 triad_phase_to_density_speed](../../../simulations/signals/first-phase-to-density-diagnostic/notes/original-record.md)
+- Big Bang FDT quente: `mass_final=8773.747757`. [19 triad_bigbang_solver_run](../../../simulations/signals/hot-bath-diagnostic-failure/notes/original-record.md)
+- Bounce: `R_rms` False e raios de massa True. [23 triad_memory_bounce_bigbang](../../../simulations/memory/memory-and-bounce/notes/original-record.md)
 - Diretórios vazios: #6, #11, #14, #15 — cronologia.
 
 ## Como este vault se relaciona ao PDF

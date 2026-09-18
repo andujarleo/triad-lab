@@ -12,11 +12,11 @@ Três princípios atuam juntos: **P1 oscilação**, **P2 autorreferência instan
 
 ## 02 · Acompanhe uma história
 
-Abra [memória e bounce](../../experiments/memory/memory-and-bounce/README.pt-BR.md). Siga a sequência de concentração, resposta da memória e expansão. Leia além da última imagem: a série temporal registra como o estado chegou até ali, e o estudo explica por que seus diagnósticos produzem leituras diferentes.
+Abra [memória e bounce](../../simulations/memory/memory-and-bounce/README.pt-BR.md). Siga a sequência de concentração, resposta da memória e expansão. Leia além da última imagem: a série temporal registra como o estado chegou até ali, e o estudo explica por que seus diagnósticos produzem leituras diferentes.
 
 ## 03 · Procure uma região dentro de um campo maior
 
-O [estudo de um bolsão](../../experiments/structures/a-pocket-in-the-field/README.pt-BR.md) pergunta se uma região distinguível consegue persistir. Continue para [dois bolsões](../../experiments/structures/two-pockets/README.pt-BR.md) ou [mapas de densidade e memória](../../experiments/structures/density-memory-maps/README.pt-BR.md). Uma estrutura que aparece e depois desaparece faz parte do registro que você pode examinar.
+O [estudo de um bolsão](../../simulations/structures/a-pocket-in-the-field/README.pt-BR.md) pergunta se uma região distinguível consegue persistir. Continue para [dois bolsões](../../simulations/structures/two-pockets/README.pt-BR.md) ou [mapas de densidade e memória](../../simulations/structures/density-memory-maps/README.pt-BR.md). Uma estrutura que aparece e depois desaparece faz parte do registro que você pode examinar.
 
 ## 04 · Escolha até onde quer ir
 
@@ -24,7 +24,7 @@ O [estudo de um bolsão](../../experiments/structures/a-pocket-in-the-field/READ
 |---|---|
 | Ver mais formas e sequências | [Galeria comentada](gallery.md) |
 | Entender uma palavra ou símbolo | [Vocabulário da TRIAD](glossary.md) |
-| Explorar por pergunta e área | [Todos os estudos](../../experiments/README.pt-BR.md) |
+| Explorar por pergunta e área | [Todos os estudos](../../simulations/README.pt-BR.md) |
 | Examinar a equação, o código e os registros | [Guia técnico](research-guide.md) |
 | Acompanhar o desenvolvimento do projeto | [Diário do lab](journal.md) |
 

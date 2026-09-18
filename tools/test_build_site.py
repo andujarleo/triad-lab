@@ -83,7 +83,7 @@ class SiteExportTests(unittest.TestCase):
         self.assertEqual(extract_intro(document), ('How does memory evolve?', ''))
 
     def test_catalog_export_includes_every_study_and_byte_exact_images(self):
-        catalog = json.loads((ROOT / 'experiments/catalog.json').read_text())
+        catalog = json.loads((ROOT / 'simulations/catalog.json').read_text())
         site, files = collect_site(ROOT)
         self.assertEqual(site['format'], 1)
         self.assertEqual(len(site['studies']), len(catalog['experiments']))
@@ -97,7 +97,7 @@ class SiteExportTests(unittest.TestCase):
             if study['image']:
                 payload = files[study['image']]
                 self.assertEqual(study['image'], f'media/{hashlib.sha256(payload).hexdigest()}.png')
-        hero = ROOT / 'experiments/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png'
+        hero = ROOT / 'simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png'
         self.assertEqual(files[site['hero']], hero.read_bytes())
         for field in site['fields']:
             decoded = json.loads(files[field['url']])
@@ -121,13 +121,13 @@ class SiteExportTests(unittest.TestCase):
             with self.assertRaisesRegex(BuildError, 'unrecognized'):
                 build(root, output, field_specs=[])
             self.assertEqual((output / 'keep.txt').read_text(), 'user material')
-            self.assertEqual((root / 'experiments/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png').read_bytes(), PNG)
+            self.assertEqual((root / 'simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png').read_bytes(), PNG)
 
     def test_build_refuses_output_over_repository_sources(self):
         with tempfile.TemporaryDirectory() as directory:
             base = Path(directory)
             root = self.make_fixture(base / 'repository')
-            for output in (root, root / 'web', root / 'experiments', root.parent):
+            for output in (root, root / 'web', root / 'simulations', root.parent):
                 with self.subTest(output=str(output)), self.assertRaises(BuildError):
                     build(root, output, field_specs=[])
             self.assertEqual((root / 'web/index.html').read_bytes(), b'<h1>Fixture</h1>')
@@ -137,10 +137,10 @@ class SiteExportTests(unittest.TestCase):
         (root / 'web').mkdir(parents=True)
         (root / 'web/index.html').write_bytes(b'<h1>Fixture</h1>')
         (root / 'web/README.md').write_text('Maintenance only')
-        hero = root / 'experiments/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png'
+        hero = root / 'simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png'
         hero.parent.mkdir(parents=True)
         hero.write_bytes(PNG)
-        (root / 'experiments/catalog.json').write_text(json.dumps({'series': [], 'experiments': []}))
+        (root / 'simulations/catalog.json').write_text(json.dumps({'series': [], 'experiments': []}))
         return root
 
 

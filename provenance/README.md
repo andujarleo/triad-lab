@@ -31,8 +31,8 @@ As listas usam caminhos atuais relativos à raiz e bytes atuais dos documentos. 
 
 The complete pre-migration Git tree is commit `5731b0d3b0f77b7249a7c94ef939edf573a338f3`. The original T.zip SHA-256 is `30276c2f96779ed1923612e82a323b06f88d00b1900272df919799c4791eee26`. A local full-file snapshot and Git bundle were made before migration. The ZIP and that local backup are not required to browse or verify this repository.
 
-Exact-byte consolidation does not merge experiments. Each study keeps all original source associations in `experiments/catalog.json`. Different hashes remain distinct even when filenames match. Existing code translations are preserved; future translations should not fork the numerical implementation.
+Exact-byte consolidation does not merge experiments. Each study keeps all original source associations in `simulations/catalog.json`. Different hashes remain distinct even when filenames match. Existing code translations are preserved; future translations should not fork the numerical implementation.
 
-A consolidação por bytes não une experimentos. Cada estudo mantém suas associações originais em `experiments/catalog.json`. Hashes diferentes continuam separados, mesmo quando os nomes coincidem. Traduções de código já existentes foram preservadas; novas traduções não devem duplicar a implementação numérica.
+A consolidação por bytes não une experimentos. Cada estudo mantém suas associações originais em `simulations/catalog.json`. Hashes diferentes continuam separados, mesmo quando os nomes coincidem. Traduções de código já existentes foram preservadas; novas traduções não devem duplicar a implementação numérica.
 
 The acquisition-era inspection and coverage JSON files retain their original path vocabulary. Use `previous_destination` in the format-2 manifest or the migration ledger to resolve those paths. They describe inspection of supplied material, not new simulation runs.

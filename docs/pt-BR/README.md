@@ -13,12 +13,12 @@
 O projeto parte de **oscilação (P1), autorreferência (P2) e acoplamento (P3)**. Sua equação é **única, imutável e indivisível**. Foco, memória e banho participam da dinâmica completa: um campo evolui, carrega sua história e responde a ela. O lab acompanha as formas e interações que se auto-organizam.
 
 <p align="center">
-  <a href="../../experiments/geometry/field-visualizations/README.pt-BR.md">
-    <img src="../../experiments/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png" width="720" alt="Visualização original registrada de vórtices de fase em 3D. Pontos ciano e rosa marcam voltas de fase em sentidos opostos nas regiões densas." />
+  <a href="../../simulations/geometry/field-visualizations/README.pt-BR.md">
+    <img src="../../simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png" width="720" alt="Visualização original registrada de vórtices de fase em 3D. Pontos ciano e rosa marcam voltas de fase em sentidos opostos nas regiões densas." />
   </a>
 </p>
 
-**Um campo visto por dentro.** Ciano e rosa marcam voltas de fase em sentidos opostos nas regiões densas. Este é um quadro original registrado, com seus rótulos preservados. [Veja a animação](../../experiments/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif) · [Siga a imagem até sua origem](../../experiments/geometry/field-visualizations/README.pt-BR.md).
+**Um campo visto por dentro.** Ciano e rosa marcam voltas de fase em sentidos opostos nas regiões densas. Este é um quadro original registrado, com seus rótulos preservados. [Veja a animação](../../simulations/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif) · [Siga a imagem até sua origem](../../simulations/geometry/field-visualizations/README.pt-BR.md).
 
 **65 estudos · 8 áreas · imagens, código e dados originais · inglês + português**
 
@@ -35,15 +35,15 @@ O visualizador interativo lê estados finais preservados. Seu controle percorre 
 
 | O que vem depois da concentração? | Uma região pode manter sua identidade? | Até onde a memória acompanha a densidade? |
 |---|---|---|
-| ![Painel original registrado do estudo de memória e bounce](../../experiments/memory/memory-and-bounce/results/figures/overview.png) | ![Trajetória registrada da razão de participação de um bolsão no campo](../../experiments/structures/a-pocket-in-the-field/results/figures/PR-vs-t.png) | ![Mapas registrados de densidade e memória no instante inicial salvo](../../experiments/structures/density-memory-maps/results/figures/mapa-0p000.png) |
+| ![Painel original registrado do estudo de memória e bounce](../../simulations/memory/memory-and-bounce/results/figures/overview.png) | ![Trajetória registrada da razão de participação de um bolsão no campo](../../simulations/structures/a-pocket-in-the-field/results/figures/PR-vs-t.png) | ![Mapas registrados de densidade e memória no instante inicial salvo](../../simulations/structures/density-memory-maps/results/figures/mapa-0p000.png) |
 | Acompanhe concentração, resposta da memória e expansão. O registro preserva dois diagnósticos de raio que discordam. | Acompanhe um bolsão gaussiano inserido no campo e os diagnósticos de sua identidade enquanto o campo muda. | Compare densidade e memória acumulada. O alinhamento registrado é transitório. |
-| [Memória e bounce →](../../experiments/memory/memory-and-bounce/README.pt-BR.md) | [Um bolsão no campo →](../../experiments/structures/a-pocket-in-the-field/README.pt-BR.md) | [Mapas de densidade e memória →](../../experiments/structures/density-memory-maps/README.pt-BR.md) |
+| [Memória e bounce →](../../simulations/memory/memory-and-bounce/README.pt-BR.md) | [Um bolsão no campo →](../../simulations/structures/a-pocket-in-the-field/README.pt-BR.md) | [Mapas de densidade e memória →](../../simulations/structures/density-memory-maps/README.pt-BR.md) |
 
 ## Uma pergunta ampla, um acervo que cresce
 
 A ambição é explorar muitos fenômenos por meio de simulações e publicar o caminho percorrido. Cada estudo conecta sua pergunta às notas, ao código, às configurações e aos resultados disponíveis. Tentativas históricas, resultados parciais e perguntas em aberto continuam fazendo parte desse caminho.
 
-[Relações](../../experiments/relations/README.pt-BR.md) · [Geometria](../../experiments/geometry/README.pt-BR.md) · [Memória](../../experiments/memory/README.pt-BR.md) · [Estruturas](../../experiments/structures/README.pt-BR.md) · [Sinais](../../experiments/signals/README.pt-BR.md) · [Diagnósticos do campo](../../experiments/quantum/README.pt-BR.md) · [Continuidade](../../experiments/continuity/README.pt-BR.md) · [Validação](../../experiments/validation/README.pt-BR.md)
+[Relações](../../simulations/relations/README.pt-BR.md) · [Geometria](../../simulations/geometry/README.pt-BR.md) · [Memória](../../simulations/memory/README.pt-BR.md) · [Estruturas](../../simulations/structures/README.pt-BR.md) · [Sinais](../../simulations/signals/README.pt-BR.md) · [Diagnósticos do campo](../../simulations/field-diagnostics/README.pt-BR.md) · [Continuidade](../../simulations/continuity/README.pt-BR.md) · [Validação](../../simulations/numerical-checks/README.pt-BR.md)
 
 O [histórico da documentação de referência](../reference/equation/README.md) preserva documentos identificados como v1.0 e v1.1; esses rótulos indicam revisões da escrita, não equações diferentes. Implementações e resultados históricos mantêm suas configurações próprias. As [regras do projeto](project-rules.md) explicam a dinâmica completa, a auto-organização sem calibração externa para obter um resultado escolhido e as checagens técnicas do lab.
 

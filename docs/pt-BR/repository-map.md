@@ -6,7 +6,7 @@ O [lab interativo](https://andujarleo.github.io/triad-lab/?lang=pt-BR) é a entr
 
 ```text
 README.md                         Entrada curta para qualquer leitor
-experiments/
+simulations/
   relations/ … validation/        Oito áreas, cada uma com índice
     <study>/
       README.md                   Pergunta, contexto e limites conhecidos
@@ -40,18 +40,18 @@ Pastas só existem quando contêm material. Uma tentativa registrada apenas em n
 
 O código traduzido que já existia permanece em `code/en/` e `code/pt-BR/`. Novas traduções acrescentam documentação, não cópias do código numérico. Os scripts originais ainda contêm seus caminhos históricos de entrada e saída; o [guia de execução](getting-started.md) distingue a consulta aos dados salvos da preparação de uma execução nova conforme as regras do projeto.
 
-[Todos os estudos](../../experiments/README.pt-BR.md) · [Mapa de caminhos antigos e novos](../../provenance/layout-migration.json) · [Contribuir](contributing.md)
+[Todos os estudos](../../simulations/README.pt-BR.md) · [Mapa de caminhos antigos e novos](../../provenance/layout-migration.json) · [Contribuir](contributing.md)
 
 ## O site público e o arquivo de pesquisa
 
-A [documentação do site](../../web/README.md) explica o build, a prévia e a expansão de idiomas e módulos. A pasta `_site/` contém saídas geradas; a pesquisa original fica em `experiments/`. O [contrato de dados](../maintenance/site-data.md) especifica como matrizes e imagens salvas chegam ao visualizador.
+A [documentação do site](../../web/README.md) explica o build, a prévia e a expansão de idiomas e módulos. A pasta `_site/` contém saídas geradas; a pesquisa original fica em `simulations/`. O [contrato de dados](../maintenance/site-data.md) especifica como matrizes e imagens salvas chegam ao visualizador.
 
 O [índice da documentação de referência](../reference/equation/README.md) conecta os textos identificados como v1.1 e v1.0. São revisões documentais; a equação é imutável. As [regras do projeto](project-rules.md), a [página do autor](author.md), o [vocabulário](glossary.md) e o [diário](journal.md) dão contexto a quem está chegando.
 
 ## Exemplo real
 
 ```text
-experiments/quantum/field-modes/
+simulations/field-diagnostics/field-modes/
 ├── README.md
 ├── README.pt-BR.md
 ├── FILES.md

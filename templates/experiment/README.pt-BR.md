@@ -1,7 +1,7 @@
 # Título do estudo
 
 <!--
-Copie para experiments/<area>/<study>/README.pt-BR.md e substitua todos os parágrafos de orientação.
+Copie para simulations/<area>/<study>/README.pt-BR.md e substitua todos os parágrafos de orientação.
 Mantenha a entrada em inglês sincronizada; só ligue traduções que existam.
 O site lê o primeiro parágrafo de "A pergunta" e de "O que foi feito" para o cartão.
 Estes comentários são orientação editorial e não entram no cartão.

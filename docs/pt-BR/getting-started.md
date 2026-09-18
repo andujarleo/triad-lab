@@ -24,7 +24,7 @@ Instale Git LFS antes de usar `git lfs`. As figuras PNG podem ser lidas no GitHu
 ## Comece por um estado salvo
 
 ```sh
-MPLBACKEND=Agg python experiments/geometry/string-analysis/code/en/bravais_strings.py experiments/geometry/field-3d/results/data/final_state.npz
+MPLBACKEND=Agg python simulations/geometry/string-analysis/code/en/bravais_strings.py simulations/geometry/field-3d/results/data/final_state.npz
 ```
 
 Esse comando lê o estado e escreve figuras em `bravais_outputs_3d/`, sem executar novamente a evolução do campo. O estado incluído não contém `psi_f`, então a seção de cordas de fase é ignorada. O script usa `L=32`; para outro estado, informe o tamanho real pela variável `L`.
@@ -39,7 +39,7 @@ Estes comandos são mantidos para rastrear o registro histórico. Os pilotos de 
 ### Piloto de osciladores
 
 ```sh
-python experiments/relations/observer/code/en/simulate_observer_observed_relations.py
+python simulations/relations/observer/code/en/simulate_observer_observed_relations.py
 ```
 
 São 6.000 passos RK4 com `DT=0.02`. As novas saídas ficam em `artifacts/` ao lado do script. A versão em português está em `code/pt-BR/` no mesmo estudo.
@@ -47,8 +47,8 @@ São 6.000 passos RK4 com `DT=0.02`. As novas saídas ficam em `artifacts/` ao l
 ### Evolução 3D e varredura históricas
 
 ```sh
-MPLBACKEND=Agg python experiments/geometry/field-3d/code/en/bravais_pure_3d.py
-MPLBACKEND=Agg python experiments/geometry/scale-sweep/code/en/bravais_sweep_L.py
+MPLBACKEND=Agg python simulations/geometry/field-3d/code/en/bravais_pure_3d.py
+MPLBACKEND=Agg python simulations/geometry/scale-sweep/code/en/bravais_sweep_L.py
 ```
 
 A evolução usa por padrão 1.200 passos em uma grade 64³. A varredura usa 800 passos por caixa e chega a 96³, exigindo mais recursos. Ambos aceitam `STEPS` pelo ambiente, mas encurtar a execução cria outra comparação. A inicialização aleatória não fixa uma semente; os padrões não reconstituem exatamente o registro incluído.

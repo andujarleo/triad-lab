@@ -6,7 +6,7 @@ Algumas palavras descrevem a leitura de realidade do autor. Outras descrevem mat
 
 ## Átomo
 
-Na leitura operacional do autor, **um pacote gaussiano é um átomo**: uma forma inicial localizada de Ψ. O mesmo vocabulário se estende a estruturas aninhadas e ao universo-átomo. Leia a [nota original sobre átomo](../reference/concepts/atom.md) e explore [átomos gaussianos em um campo](../../experiments/structures/gaussian-atoms-in-one-field/README.pt-BR.md).
+Na leitura operacional do autor, **um pacote gaussiano é um átomo**: uma forma inicial localizada de Ψ. O mesmo vocabulário se estende a estruturas aninhadas e ao universo-átomo. Leia a [nota original sobre átomo](../reference/concepts/atom.md) e explore [átomos gaussianos em um campo](../../simulations/structures/gaussian-atoms-in-one-field/README.pt-BR.md).
 
 ## Matéria e universo
 
@@ -18,7 +18,7 @@ São etapas da sequência conceitual do autor: **átomo → vibração → atrit
 
 ## Frequência e som
 
-“Som” é o nome colocado pelo autor ao lado de frequência no mapa conceitual. No lab, um espectro pode descrever variações ao longo do tempo ou estruturas no espaço. Uma conversão para áudio, quando disponível, precisa declarar como esses números foram levados a frequências audíveis. Explore os [estudos de sinais](../../experiments/signals/README.pt-BR.md).
+“Som” é o nome colocado pelo autor ao lado de frequência no mapa conceitual. No lab, um espectro pode descrever variações ao longo do tempo ou estruturas no espaço. Uma conversão para áudio, quando disponível, precisa declarar como esses números foram levados a frequências audíveis. Explore os [estudos de sinais](../../simulations/signals/README.pt-BR.md).
 
 ## Energia e luz
 

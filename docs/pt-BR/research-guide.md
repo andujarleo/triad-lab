@@ -6,7 +6,7 @@ Comece pela [identidade e leitura operacional da TRIAD](triad.md) e pelas [regra
 
 Para novas execuções, declare a [revisão do documento de referência](../reference/equation/README.md), a revisão da implementação e a configuração. A equação é única, imutável e indivisível. Os controles históricos mantêm seu contexto original; configurações com termos desligados não são renomeadas como execuções completas da TRIAD. O índice registra diferenças na escrita recebida, não versões da equação.
 
-Comece pela pergunta do estudo e pelo **FILES.md**, depois siga protocolo → configuração → código → resultado registrado → interpretação. O [catálogo JSON](../../experiments/catalog.json) lista os 65 estudos, suas páginas bilíngues e cada arquivo original associado.
+Comece pela pergunta do estudo e pelo **FILES.md**, depois siga protocolo → configuração → código → resultado registrado → interpretação. O [catálogo JSON](../../simulations/catalog.json) lista os 65 estudos, suas páginas bilíngues e cada arquivo original associado.
 
 ## O que o registro permite afirmar
 
@@ -16,7 +16,7 @@ Os scripts iniciais têm um [guia de execução local](getting-started.md). O ma
 
 ## Comparações que exigem atenção
 
-- **Três implementações 3D:** `bravais_puro_3d.py` tem três hashes distintos. Continuam separadas no [estudo de campo](../../experiments/geometry/field-3d/FILES.md); o identificador de hash não indica uma versão mais nova ou melhor.
+- **Três implementações 3D:** `bravais_puro_3d.py` tem três hashes distintos. Continuam separadas no [estudo de campo](../../simulations/geometry/field-3d/FILES.md); o identificador de hash não indica uma versão mais nova ou melhor.
 - **Estados salvos diferentes:** o `final_state.npz` inicial não tem `psi_f`; outro estado arquivado inclui esse campo. O pós-processamento de fase depende dele.
 - **Inicialização aleatória:** os scripts iniciais de evolução 3D e varredura não fixam a semente por padrão. Os registros não devem ser descritos como exatamente reproduzíveis a partir dos padrões.
 - **Resultados QM:** Q01, Q01b, Q02, Q03 e Q04 mantêm a classificação histórica INCONCLUSIVA. Q04 tem um desvio de protocolo registrado. O hash canônico declarado por Q00 difere do documento canônico fornecido; a discrepância foi mantida.

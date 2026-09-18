@@ -14,7 +14,7 @@ Leitura operacional: **1 gaussiano = 1 átomo**. Volume preenchido = universo (n
 O registro não contém um teste dessa tese. Contém:
 
 - uma `[[Equação de referência]]` e um `[[Solver]]`;
-- anti-colapso numérico no regime R5 ([16 triad_R5_reference_N40](../../../experiments/memory/memory-grid-40/notes/original-record.md));
+- anti-colapso numérico no regime R5 ([16 triad_R5_reference_N40](../../../simulations/memory/memory-grid-40/notes/original-record.md));
 - expansão com FDT quente *e* frio, sem teia cósmica clara;
 - um bounce cujo veredito depende do diagnóstico;
 - scores Bravais e uma rede esparsa — não um cristal cósmico.
