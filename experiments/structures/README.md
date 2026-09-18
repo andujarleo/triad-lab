@@ -24,6 +24,6 @@
 | [Density–memory maps](density-memory-maps/README.md) | ✓ | ✓ | ✓ |
 | [Strings, atoms and scale](string-structure-tests/README.md) | ✓ | — | ✓ |
 
-✓ indicates available material, not validation of a hypothesis or a complete execution environment.
+✓ marks files available in this repository. Each study documents its execution conditions and dependencies.
 
 [All areas](../README.md)

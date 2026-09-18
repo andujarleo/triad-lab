@@ -13,3 +13,5 @@ The notes record 1,000,000 resident modes and 64 ticks of 8 steps. The logical v
 [Run notes](../../../experiments/continuity/persistent-universe/notes/run-notes.md)
 
 [Dependencies and portability](../../../provenance/t-archive/dependencies.md)
+
+This page describes the supplied implementation and its recorded output. The missing runtime limits implementation review; the page does not certify a new execution against the [complete TRIAD rules](../project-rules.md).

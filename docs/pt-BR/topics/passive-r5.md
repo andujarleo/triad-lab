@@ -4,6 +4,8 @@
 
 Um run N64, L=20, dt=0,0025, T=15 com Λ=−8, ν=(10; 0,5), λ=(1,125; 0,375), Γ=0 e FDT=0. Esses parâmetros pertencem a este pacote e não devem ser confundidos com Theta_core. O relatório descreve estrutura periódica com escala migrando ao longo do tempo. Há snapshots, checkpoints, análise posterior e duas ramificações de sensibilidade.
 
+Esta é uma montagem arquivada com banho desligado. Ela permanece com sua configuração exata, sem ser apresentada como uma execução TRIAD nova conforme a regra da equação completa. Suas estruturas em evolução são lidas no tempo, sem impor um cristal fixo como alvo. [Regras do projeto](../project-rules.md).
+
 [Ler o relatório original](../../../experiments/memory/passive-memory-dynamics/notes/passive-memory-report.md) · [Todos os arquivos](../../../experiments/memory/passive-memory-dynamics/FILES.md)
 
 ![R5 passivo](../../../experiments/memory/passive-memory-dynamics/results/figures/spectrum-evolution.png)

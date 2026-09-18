@@ -1,6 +1,6 @@
 [Lab](../../../README.md) · **English** · [Português](README.pt-BR.md)
 
-[Structures](../README.md) · [Glossary](../../../docs/en/glossary.md)
+[Structures](../README.md) · [Glossary](../../../docs/en/glossary.md) · [Project rules](../../../docs/en/project-rules.md)
 
 # Finite peak, early window
 
@@ -16,7 +16,7 @@ Imported historical record; this organization did not rerun the simulation.
 
 ## Available material
 
-11 files associated with this entry: 2 `.csv`, 1 `.json`, 1 `.md`, 6 `.png`, 1 `.txt`.
+11 file associated with this entry: 2 `.csv`, 1 `.json`, 1 `.md`, 6 `.png`, 1 `.txt`.
 
 [Timeline](../../../docs/en/topics/timeline.md) · [← 34](../long-nest-trajectory/README.md) · [36 →](../../validation/reproduction-dossier/README.md)
 
@@ -24,6 +24,6 @@ Imported historical record; this organization did not rerun the simulation.
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)
 
-This page organizes historical records. Code availability does not guarantee a complete execution environment. Paths embedded in source code were preserved; check dependencies before adapting a run.
+The files retain their recorded implementation and conditions. Read the [implementation audit](../../../docs/maintenance/author-rules-audit.md) for documented differences and the dependency record below before preparing a new execution.
 
 [Dependencies and missing inputs](../../../provenance/t-archive/dependencies.md)

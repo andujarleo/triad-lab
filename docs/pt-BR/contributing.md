@@ -2,7 +2,7 @@
 
 # Ajude o lab a crescer
 
-Comece por uma pergunta que alguém consiga entender antes de ler uma equação. Uma contribuição pode ser um estudo, uma execução nova, uma explicação, uma tradução ou uma correção.
+Comece por uma pergunta que alguém consiga entender antes de ler uma equação. Uma contribuição pode ser um estudo, uma execução nova, uma explicação, uma tradução ou uma correção. Leia as [regras do projeto](project-rules.md): a TRIAD é física quântica não padrão, com uma equação imutável e indivisível e metodologia própria.
 
 ## Adicione ou amplie um estudo
 
@@ -17,7 +17,7 @@ A disponibilidade no catálogo descreve material fornecido, não validade cient�
 
 ## Preserve a comparação
 
-Mudar uma equação, parâmetro, solver, backend ou entrada cria uma nova comparação. Preserve o registro anterior e documente a diferença. Mantenha resultados negativos e inconclusivos com seu contexto. Separe observações numéricas da interpretação que elas podem sustentar.
+A equação permanece inalterada. Uma nova entrada, configuração declarada, escolha numérica, revisão do solver ou backend precisa de registro próprio. Não desligue termos, calibre para obter um desfecho desejado nem reescreva um resultado para ajustá-lo a uma interpretação. Preserve os registros existentes, incluindo diagnósticos falhos e inconclusivos, com suas configurações e critérios reais.
 
 Os arquivos históricos listados no registro de proveniência têm hashes originais fixos. Não atualize esses hashes para esconder uma mudança. Acrescente uma implementação adaptada ou uma execução nova separadamente. Uma adaptação apenas de caminhos ainda pode mudar a seleção de arquivos ou o diretório de trabalho; verifique isso explicitamente.
 
@@ -36,6 +36,6 @@ Descreva problema, mudança final, validação e limites restantes no commit ou 
 
 ## Preserve o ponto de partida
 
-Apresente a TRIAD como proposta de física quântica não padrão. Vincule novas interpretações à leitura operacional do autor e ao regime realmente executado. Diferencie a tríade completa, os pilotos históricos e os controles; não transforme um diagnóstico de mecânica quântica convencional na definição de todo o projeto. [Referência de apresentação](triad.md).
+Apresente a TRIAD como física quântica não padrão. Use em conjunto P1 oscilação, P2 autorreferência instantânea e memória e P3 acoplamento. Leia a cristalização de forma dinâmica, sem exigir uma rede fixa. As checagens técnicas examinam a implementação fiel e o comportamento registrado do sistema completo. O lab não adota a falsificação popperiana como método. Não isola nem remove termos como experimento TRIAD, e a concordância com MQ padrão não é seu critério de identidade. Controles históricos continuam registros de seus procedimentos, não instruções para novos experimentos TRIAD. [Referência de apresentação](triad.md).
 
 O atlas público é gerado a partir do mesmo catálogo. Para acrescentar uma pergunta representativa, imagem ou campo salvo, siga o [contrato de dados do site](../maintenance/site-data.md). Ao alterar a interface, execute `node --test tools/frontend.test.mjs` e reconstrua o site conforme [web/README.md](../../web/README.md).

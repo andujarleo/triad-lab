@@ -11,3 +11,5 @@ O pacote histórico `triad_soul_hypothesis` usa sondas pequenas no campo, acompa
 O relatório encontra continuidade causal do campo também nos controles. Ele não a estabelece como algo exclusivo da vida, nem como demonstração de alma ou reencarnação. Os scripts referenciam uma trajetória externa `triad_rebuild_rules/run64` que não veio neste ZIP.
 
 [Dependências e portabilidade](../../../provenance/t-archive/dependencies.pt-BR.md)
+
+Os controles e critérios acima descrevem este relatório histórico. Eles não prescrevem um protocolo de retirada de termos para trabalhos TRIAD novos. As [regras do projeto](../project-rules.md) mantêm a dinâmica completa em conjunto.

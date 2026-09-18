@@ -13,3 +13,5 @@ As notas registram 1.000.000 de modos residentes e 64 ticks de 8 passos. O volum
 [Notas da execução](../../../experiments/continuity/persistent-universe/notes/run-notes.md)
 
 [Dependências e portabilidade](../../../provenance/t-archive/dependencies.pt-BR.md)
+
+Esta página descreve a implementação fornecida e sua saída registrada. O runtime ausente limita a revisão da implementação; a página não certifica uma execução nova conforme as [regras da TRIAD completa](../project-rules.md).

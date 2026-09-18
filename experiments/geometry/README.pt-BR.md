@@ -21,6 +21,6 @@
 | [Filmes e leituras visuais do campo](field-visualizations/README.pt-BR.md) | ✓ | — | ✓ |
 | [Catálogo de cordas](string-catalogue/README.pt-BR.md) | ✓ | — | — |
 
-✓ indica material disponível, não uma validação da hipótese ou um ambiente completo de execução.
+✓ marca arquivos disponíveis neste repositório. Cada estudo documenta suas condições de execução e dependências.
 
 [Todas as áreas](../README.pt-BR.md) · [Guia da área](../../docs/pt-BR/topics/bravais.md)

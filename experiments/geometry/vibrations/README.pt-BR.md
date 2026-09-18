@@ -1,12 +1,12 @@
 [Lab](../../../docs/pt-BR/README.md) · [English](README.md) · **Português**
 
-[Geometria](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md)
+[Geometria](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md) · [Regras do projeto](../../../docs/pt-BR/project-rules.md)
 
 # Cordas e vibração
 
 **Como curvas extraídas do campo mudam no tempo?**
 
-Dois scripts de análise e figuras registradas examinam cordas e vibração. “Corda” nomeia uma extração numérica neste lab; não é evidência da teoria física de cordas.
+Um script evolui o campo enquanto registra cordas e modos espectrais; o outro reconstrói movimento a partir de um estado final salvo. Suas figuras mantêm essas origens distintas. Aqui, cordas são curvas extraídas do campo.
 
 ![Figura histórica preservada](results/figures/cordas-comprimento.png)
 
@@ -15,6 +15,12 @@ Dois scripts de análise e figuras registradas examinam cordas e vibração. “
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)
 
-Esta página organiza registros históricos. A presença de código não garante um ambiente completo de execução. Caminhos embutidos no código foram preservados; consulte as dependências antes de adaptar uma execução.
+Os arquivos mantêm a implementação e as condições registradas. Consulte a [auditoria das implementações](../../../docs/maintenance/author-rules-audit.md#português) para as diferenças documentadas e o registro de dependências abaixo antes de preparar uma nova execução.
 
 [Dependências e entradas ausentes](../../../provenance/t-archive/dependencies.pt-BR.md)
+
+## Notas da implementação
+
+O renderizador de vibrações reconstrói movimento a partir de um estado final salvo e de modos espectrais selecionados, usando `omega=|k|²/2`. Esse movimento renderizado é pós-processamento, não outra integração da dinâmica completa. [Fonte, linha 5](code/bravais_vibracoes.py).
+
+[Auditoria estática completa e referências das fontes](../../../docs/maintenance/author-rules-audit.md).

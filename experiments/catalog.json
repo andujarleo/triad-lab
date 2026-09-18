@@ -1697,8 +1697,8 @@
       "origin": "T.zip",
       "number": 5,
       "summary": {
-        "en": "A separate-field construction follows atom identities; its setup differs from run 04.",
-        "pt-BR": "Uma construção com campos separados acompanha identidades; a montagem difere do run 04."
+        "en": "A separate-field construction follows atom identities; its setup differs from Gaussian atoms in one field.",
+        "pt-BR": "Uma construção com campos separados acompanha identidades; a montagem difere de Átomos gaussianos em um campo."
       },
       "files": [
         {
@@ -2397,8 +2397,8 @@
       "origin": "T.zip",
       "number": 14,
       "summary": {
-        "en": "A transition to the reference equation, recorded without saved artifacts.",
-        "pt-BR": "Transição para a equação de referência, registrada sem artefatos persistidos."
+        "en": "An attempt to implement the reference specification, recorded without saved outputs.",
+        "pt-BR": "Tentativa de implementar a especificação de referência, registrada sem saídas persistidas."
       },
       "files": [
         {
@@ -2601,8 +2601,8 @@
       "origin": "T.zip",
       "number": 17,
       "summary": {
-        "en": "Reference-stage structure diagnostics; template scores are measurements, not a perfect-crystal label.",
-        "pt-BR": "Diagnósticos estruturais da etapa de referência; pontuações de templates são medidas, não um rótulo de cristal perfeito."
+        "en": "Structure diagnostics from the recorded configuration, including template scores for reading the evolving field.",
+        "pt-BR": "Diagnósticos estruturais da configuração registrada, com pontuações de templates para ler o campo em evolução."
       },
       "files": [
         {
@@ -9943,8 +9943,8 @@
         "pt-BR": "Como um campo se organiza em duas dimensões?"
       },
       "summary": {
-        "en": "Four distinct implementations explore coupled evolution and initial conditions on a 2D grid. They are separate experiments, not interchangeable versions of one validated configuration.",
-        "pt-BR": "Quatro implementações distintas exploram evolução acoplada e condições iniciais em uma grade 2D. São explorações separadas, não versões intercambiáveis de uma configuração validada."
+        "en": "Four geometric implementations are grouped here: three use 2D fields, while the coupled-emergence script uses a 1D field. Each retains its own parameters and execution history.",
+        "pt-BR": "Quatro implementações geométricas estão reunidas aqui: três usam campos 2D, enquanto o script de emergência acoplada usa um campo 1D. Cada uma mantém seus parâmetros e histórico de execução."
       }
     },
     {
@@ -10213,8 +10213,8 @@
         "pt-BR": "Como medir a estrutura espacial?"
       },
       "summary": {
-        "en": "Post-processing probes spatial structure beyond a visual impression. The available script and diagnostics retain their original definitions and thresholds.",
-        "pt-BR": "O pós-processamento investiga a estrutura espacial além da impressão visual. O script e os diagnósticos mantêm suas definições e limiares originais."
+        "en": "Post-processing measures spatial structure through the definitions and thresholds recorded in the supplied script and diagnostics.",
+        "pt-BR": "O pós-processamento mede a estrutura espacial pelas definições e pelos limiares registrados no script e nos diagnósticos fornecidos."
       }
     },
     {
@@ -10300,8 +10300,8 @@
         "pt-BR": "Como curvas extraídas do campo mudam no tempo?"
       },
       "summary": {
-        "en": "Two analysis scripts and recorded figures examine strings and vibration. “String” names a numerical extraction in this lab; it is not evidence for physical string theory.",
-        "pt-BR": "Dois scripts de análise e figuras registradas examinam cordas e vibração. “Corda” nomeia uma extração numérica neste lab; não é evidência da teoria física de cordas."
+        "en": "One script evolves the field while recording strings and spectral modes; the other reconstructs motion from a saved final state. Their figures retain these distinct origins. Here, strings are curves extracted from the field.",
+        "pt-BR": "Um script evolui o campo enquanto registra cordas e modos espectrais; o outro reconstrói movimento a partir de um estado final salvo. Suas figuras mantêm essas origens distintas. Aqui, cordas são curvas extraídas do campo."
       }
     },
     {
@@ -10465,8 +10465,8 @@
         "pt-BR": "O que uma imagem em movimento revela sobre o campo?"
       },
       "summary": {
-        "en": "Six renderers and visual readouts turn field data into movies and views. The supplied HTML embeds its data. Several Python renderers require filmes_data.npz, which was not supplied.",
-        "pt-BR": "Seis renderizadores e leituras visuais transformam dados do campo em filmes e visualizações. O HTML fornecido contém seus dados. Vários renderizadores Python precisam de filmes_data.npz, que não foi fornecido."
+        "en": "A simulation script records field snapshots, and five readers/renderers turn saved data into movies and derived views. The supplied HTML embeds its data. Several readers require filmes_data.npz, which was not supplied.",
+        "pt-BR": "Um script de simulação grava snapshots do campo, e cinco leitores/renderizadores transformam dados salvos em filmes e leituras derivadas. O HTML fornecido contém seus dados. Vários leitores precisam de filmes_data.npz, que não foi fornecido."
       }
     },
     {
@@ -10633,8 +10633,8 @@
         "pt-BR": "Como o campo responde quando seu estado inicial é perturbado?"
       },
       "summary": {
-        "en": "Four probes explore coupling, small perturbations, impacts and rhythmic forcing. Compare each probe with its own control and parameter choices.",
-        "pt-BR": "Quatro sondagens exploram ligação, pequenas perturbações, impactos e excitação rítmica. Compare cada sondagem com seu próprio controle e seus parâmetros."
+        "en": "Four recorded protocols explore coupling, small perturbations, impacts and rhythmic forcing. Each source retains the input, comparison and parameter choices used at the time.",
+        "pt-BR": "Quatro protocolos registrados exploram ligação, pequenas perturbações, impactos e excitação rítmica. Cada fonte preserva as entradas, comparações e escolhas de parâmetros usadas na ocasião."
       }
     },
     {
@@ -10735,8 +10735,8 @@
         "pt-BR": "Como padrões localizados respondem a mudanças de tamanho e amplitude?"
       },
       "summary": {
-        "en": "Two probes investigate atom–string relations and box-size/amplitude choices. Their names describe model constructs; they do not establish that these structures are physical atoms.",
-        "pt-BR": "Duas sondagens investigam relações entre átomos e cordas e escolhas de tamanho da caixa e amplitude. Os nomes descrevem construções do modelo; não estabelecem que sejam átomos físicos."
+        "en": "Two recorded studies examine atom–string relations and changes in box size and amplitude. Atoms and strings name localized structures and extracted curves in the author’s operational vocabulary.",
+        "pt-BR": "Dois estudos registrados examinam relações entre átomos e cordas e mudanças no tamanho da caixa e na amplitude. Átomos e cordas nomeiam estruturas localizadas e curvas extraídas no vocabulário operacional do autor."
       }
     },
     {
@@ -11166,8 +11166,8 @@
         "pt-BR": "A memória mantém um padrão fixo ou continua redistribuindo-o?"
       },
       "summary": {
-        "en": "The report describes recurring shifts of scale, rather than a permanently fixed crystal. The recorded norm remains near one. A short twin trajectory is not a long-time Lyapunov result.",
-        "pt-BR": "O relatório descreve deslocamentos recorrentes de escala, em vez de um cristal permanentemente fixo. A norma registrada permanece próxima de um. Uma trajetória gêmea curta não constitui um resultado de Lyapunov de longo prazo."
+        "en": "The report describes dynamic crystallization through recurring shifts of scale. The recorded norm remains near one. Its twin-trajectory estimate covers only the recorded short interval.",
+        "pt-BR": "O relatório descreve cristalização dinâmica por deslocamentos recorrentes de escala. A norma registrada permanece próxima de um. A estimativa por trajetória gêmea cobre apenas o intervalo curto registrado."
       }
     },
     {
@@ -11474,8 +11474,8 @@
     }
   ],
   "research_context": {
-    "en": "TRIAD is Leonardo Andujar’s proposal for nonstandard quantum physics. The historical QM sequence is part of its diagnostics and research chronology, not a definition of the whole proposal.",
-    "pt-BR": "TRIAD é a proposta de física quântica não padrão de Leonardo Andujar. A sequência histórica QM faz parte dos diagnósticos e da cronologia, não define a proposta inteira.",
+    "en": "TRIAD is Leonardo Andujar’s nonstandard quantum physics and ontology, grounded in an immutable, indivisible equation and its own research method. The historical QM sequence preserves diagnostic records with their declared conditions.",
+    "pt-BR": "TRIAD é a física quântica não padrão e ontologia de Leonardo Andujar, baseada em uma equação imutável e indivisível e em metodologia própria. A sequência histórica QM preserva registros diagnósticos com suas condições declaradas.",
     "docs": {
       "en": "docs/en/triad.md",
       "pt-BR": "docs/pt-BR/triad.md"

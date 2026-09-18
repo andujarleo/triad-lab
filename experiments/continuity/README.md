@@ -9,6 +9,6 @@
 | [Following causal traces](causal-traces/README.md) | ✓ | ✓ | ✓ |
 | [A persistent field prototype](persistent-universe/README.md) | ✓ | ✓ | ✓ |
 
-✓ indicates available material, not validation of a hypothesis or a complete execution environment.
+✓ marks files available in this repository. Each study documents its execution conditions and dependencies.
 
 [All areas](../README.md)

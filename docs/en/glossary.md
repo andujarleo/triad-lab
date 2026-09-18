@@ -29,15 +29,25 @@ These are stages in the author’s conceptual sequence: **atom → vibration →
 | Word | In the complete dynamics |
 |---|---|
 | **Focus** | The attractive self-interaction regime, Λ < 0, can concentrate the field. |
-| **Memory / P2** | The yⱼ fields respond to density on time scales 1/νⱼ. Their weighted sum acts on Ψ as V_mem. Positive and negative λⱼ produce different responses. |
-| **Bath / P3** | Dissipation Γ and stochastic excitation η act together. Version 1.1 specifies their FDT coupling and keeps the bath active. |
+| **Memory · part of P2** | The yⱼ fields respond to density on time scales 1/νⱼ. Their weighted sum acts on Ψ as V_mem. Positive and negative λⱼ produce different responses. |
+| **Bath · expression of P3** | Dissipation Γ and stochastic excitation η act within the complete coupled dynamics. The reference document describes their FDT coupling. |
 | **Anti-collapse** | The author’s name for the memory response opposing persistent concentration. A spread-out final state and intense earlier peaks can occur in the same record. |
 
-The [versioned equation reference](../reference/equation/README.md) supplies the notation and the rule for the complete equation.
+The [reference-document index](../reference/equation/README.md) supplies the notation and document history. The equation itself is unique, immutable and indivisible.
 
 ## P1, P2, P3 and finitude
 
-**P1 + P2 + P3** records the author’s formulation of a finite underlying total. The supplied reference explicitly calls memory P2 and bath P3. It does not specify P1, what is being counted, the units of the sum or a corresponding conserved observable. These remain definitions to develop; focus is not silently assigned the label P1.
+| Principle | Meaning |
+|---|---|
+| **P1 · Oscillation** | Oscillation is part of what constitutes the system. |
+| **P2 · Self-reference** | The present state acts on its own dynamics, and memory carries the action of its history. P2 includes both. |
+| **P3 · Coupling** | The system exists through coupling; the bath participates in that coupled dynamics. |
+
+**P1 + P2 + P3** expresses the author’s integrated reading of these principles and finitude. The principles are defined. A unit, counted quantity or conserved observable for the sum must not be invented from that notation.
+
+## Dynamic crystallization
+
+TRIAD reads crystallization as dynamic organization. Oscillation, moving scales and reorganization can be part of the ordered state. A fixed lattice is not a required outcome. Read each time window, diagnostic and recorded configuration, without calibrating the field externally to obtain a preferred pattern. [Project rules](project-rules.md).
 
 ## Reading a simulation
 
@@ -56,7 +66,7 @@ The [versioned equation reference](../reference/equation/README.md) supplies the
 | **R5 / Θ_core** | Names found in historical configurations. Read the actual parameters and implementation attached to each study. |
 | **QM / Q00–Q04** | Historical identifiers for field diagnostics, retained for chronology. |
 | **Recorded / Registrado** | Material from a run is available; the word describes availability. |
-| **Inconclusive / Inconclusivo** | The recorded test left the proposed conclusion open under its stated criteria. |
-| **Hash / SHA-256** | A fingerprint of file bytes, used here to preserve source material and distinguish editions. |
+| **Inconclusive / Inconclusivo** | A preserved diagnostic did not settle its question under that record’s criteria. This is not a classification of TRIAD’s identity. |
+| **Hash / SHA-256** | A fingerprint of file bytes, used here to preserve source material and distinguish document revisions. |
 
 [Five-minute tour](start-here.md) · [Research guide](research-guide.md) · [Research journal](journal.md)

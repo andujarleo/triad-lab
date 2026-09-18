@@ -29,15 +29,25 @@ São etapas da sequência conceitual do autor: **átomo → vibração → atrit
 | Palavra | Na dinâmica completa |
 |---|---|
 | **Foco** | O regime de auto-interação atrativa, Λ < 0, pode concentrar o campo. |
-| **Memória / P2** | Os campos yⱼ respondem à densidade em escalas de tempo 1/νⱼ. Sua soma ponderada atua sobre Ψ como V_mem. Valores positivos e negativos de λⱼ produzem respostas diferentes. |
-| **Banho / P3** | Dissipação Γ e excitação estocástica η atuam juntas. A versão 1.1 especifica seu acoplamento FDT e mantém o banho ativo. |
+| **Memória · parte de P2** | Os campos yⱼ respondem à densidade em escalas de tempo 1/νⱼ. Sua soma ponderada atua sobre Ψ como V_mem. Valores positivos e negativos de λⱼ produzem respostas diferentes. |
+| **Banho · expressão de P3** | Dissipação Γ e excitação estocástica η atuam dentro da dinâmica completa e acoplada. O documento de referência descreve seu acoplamento FDT. |
 | **Anti-colapso** | Nome dado pelo autor à resposta da memória contra a concentração persistente. Um estado final espalhado e picos intensos anteriores podem ocorrer no mesmo registro. |
 
-A [referência versionada da equação](../reference/equation/README.md) apresenta a notação e a regra da equação completa.
+O [índice da documentação de referência](../reference/equation/README.md) apresenta a notação e o histórico documental. A equação em si é única, imutável e indivisível.
 
 ## P1, P2, P3 e finitude
 
-**P1 + P2 + P3** registra a formulação do autor para um total finito de base. A referência fornecida chama explicitamente a memória de P2 e o banho de P3. Ela não especifica P1, o que está sendo contado, as unidades da soma ou uma grandeza conservada correspondente. Essas definições seguem em desenvolvimento; o rótulo P1 não é atribuído ao foco por suposição.
+| Princípio | Significado |
+|---|---|
+| **P1 · Oscilação** | A oscilação faz parte daquilo que constitui o sistema. |
+| **P2 · Autorreferência** | O estado presente atua sobre sua própria dinâmica, e a memória carrega a ação de sua história. P2 inclui ambos. |
+| **P3 · Acoplamento** | O sistema existe por meio do acoplamento; o banho participa dessa dinâmica acoplada. |
+
+**P1 + P2 + P3** expressa a leitura integrada do autor sobre esses princípios e a finitude. Os princípios estão definidos. Uma unidade, quantidade contada ou grandeza conservada da soma não deve ser inventada a partir dessa notação.
+
+## Cristalização dinâmica
+
+A TRIAD lê a cristalização como organização dinâmica. Oscilação, escalas móveis e reorganização podem fazer parte do estado ordenado. Uma rede fixa não é um resultado obrigatório. Leia cada janela temporal, diagnóstico e configuração registrada, sem calibrar o campo externamente para obter um padrão preferido. [Regras do projeto](project-rules.md).
 
 ## Lendo uma simulação
 
@@ -56,7 +66,7 @@ A [referência versionada da equação](../reference/equation/README.md) apresen
 | **R5 / Θ_core** | Nomes encontrados em configurações históricas. Leia os parâmetros e a implementação associados a cada estudo. |
 | **QM / Q00–Q04** | Identificadores históricos de diagnósticos do campo, mantidos para a cronologia. |
 | **Registrado / Recorded** | Há material de uma execução disponível; a palavra descreve disponibilidade. |
-| **Inconclusivo / Inconclusive** | O teste registrado deixou a conclusão proposta em aberto segundo seus critérios. |
-| **Hash / SHA-256** | Uma impressão digital dos bytes de um arquivo, usada aqui para preservar fontes e distinguir edições. |
+| **Inconclusivo / Inconclusive** | Um diagnóstico preservado não resolveu sua pergunta segundo os critérios daquele registro. Isso não classifica a identidade da TRIAD. |
+| **Hash / SHA-256** | Uma impressão digital dos bytes de um arquivo, usada aqui para preservar fontes e distinguir revisões documentais. |
 
 [Visita de cinco minutos](start-here.md) · [Guia técnico](research-guide.md) · [Diário de pesquisa](journal.md)

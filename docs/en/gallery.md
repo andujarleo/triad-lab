@@ -2,7 +2,7 @@
 
 # Figures with context
 
-Six entry points using original figures. Captions help you read each image; internal labels retain their original language. Colors in different figures do not necessarily use the same scale.
+Six entry points using original figures. Captions help you read each image; internal labels retain their original language. Colors in different figures do not necessarily use the same scale. These figures retain the configurations of their records; the [project rules](project-rules.md) explain how new TRIAD work follows the complete equation.
 
 ## Change the connection, change the dynamics
 
@@ -40,7 +40,7 @@ Read the scenario columns and follow their rows through time. The lower diagnost
 
 ![Follow the changing scales](../../experiments/memory/passive-memory-dynamics/results/figures/spectrum-evolution.png)
 
-Time runs across the recorded interval; radial shells separate spatial frequencies. Color represents log10 power. Moving bands reveal redistribution across scales; this alone does not establish a permanent crystal.
+Time runs across the recorded interval; radial shells separate spatial frequencies. Color represents log10 power. Moving bands reveal redistribution across scales. Dynamic crystallization is read through that evolution, without requiring a permanent fixed lattice. This figure comes from the historical bath-off configuration described in [Passive R5](topics/passive-r5.md).
 
 [Context, code and all files](../../experiments/memory/passive-memory-dynamics/README.md)
 
@@ -48,7 +48,7 @@ Time runs across the recorded interval; radial shells separate spatial frequenci
 
 ![Check sensitivity to the time step](../../experiments/quantum/resolution-and-time-step/results/figures/dt-refine-N64.png)
 
-The horizontal axis changes the integration step; the curves compare normalized diagnostics at N=64. Read this alongside the complete protocol: the historical convergence classification remains INCONCLUSIVE.
+The horizontal axis changes the integration step; the curves compare normalized diagnostics at N=64. Read this alongside the complete protocol: the historical convergence classification remains INCONCLUSIVE for this diagnostic and its stated criteria.
 
 [Context, code and all files](../../experiments/quantum/resolution-and-time-step/README.md)
 

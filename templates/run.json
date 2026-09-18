@@ -3,6 +3,12 @@
   "run_id": null,
   "recorded_at": null,
   "source_commit": null,
+  "reference_document": {
+    "path": null,
+    "sha256": null,
+    "revision": null
+  },
+  "implementation_revision": null,
   "command": null,
   "working_directory": null,
   "environment": {
@@ -18,5 +24,5 @@
   "outcome": null,
   "observations": [],
   "interpretation": null,
-  "notes": "Template only. Replace fields with observed values. For inputs/artifacts record path and sha256; explain unavailable values here."
+  "notes": "Template only. Replace fields with recorded values. Reference-document and implementation revisions identify records of one immutable equation, never different equations. For inputs/artifacts record path and sha256; explain unavailable values here. Declare run conditions before execution and preserve raw outputs."
 }

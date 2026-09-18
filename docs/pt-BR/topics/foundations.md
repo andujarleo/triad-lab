@@ -4,11 +4,14 @@
 
 As notas conceituais explicam o vocabulário do autor. Os documentos de referência registram a equação, as montagens e a história dos estudos. Leia cada resultado junto à sua configuração: os ensaios iniciais, R5, Theta_core e o protótipo modal pertencem a registros distintos.
 
+A TRIAD é física quântica não padrão, com uma equação imutável e indivisível. **P1 é oscilação; P2 é autorreferência instantânea e memória; P3 é acoplamento.** As [regras do projeto](../project-rules.md) orientam trabalhos novos; as fontes abaixo preservam sua própria história documental.
+
 ```text
 i·ℏ·∂_t Ψ = [-ℏ²/(2m)∇² + V_ext + Λ|Ψ|² + V_mem + α(-Δ)^(σ/2) - iΓ]Ψ + η
 ```
 
-- [Equação de referência / Reference equation](../../reference/records/triad-equation-reference.md)
+- [Histórico documental da referência](../../reference/equation/README.md)
+- [Documento de referência preservado com o rótulo v1.0](../../reference/records/triad-equation-reference.md)
 - [Resumo do sistema / System overview](../../reference/concepts/system-overview.md)
 - [Substrato / Substrate](../../reference/concepts/substrate.md)
 - [Origem dos registros / Record provenance](../../reference/records/registro-integral.md)

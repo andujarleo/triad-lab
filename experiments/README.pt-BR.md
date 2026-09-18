@@ -4,6 +4,8 @@
 
 65 estudos organizados em oito áreas. Cada página reúne contexto, arquivos e limites conhecidos. A numeração T01–T39 mantém a ordem histórica; os temas ajudam a encontrar o que interessa agora.
 
+Os estudos integram o acervo de pesquisa da TRIAD. Conheça sua [identidade e metodologia](../docs/pt-BR/project-rules.md); cada registro mantém sua implementação e suas condições.
+
 | Área | Pergunta | Estudos |
 |---|---|---|
 | [Relações](relations/README.pt-BR.md) | O que muda quando as coisas interagem? | 7 |

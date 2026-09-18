@@ -2,13 +2,13 @@
 
 # Your first five minutes in TRIAD
 
-Begin with the author’s question: could a single underlying equation give rise to the different forms of reality? TRIAD explores this idea through simulations of fields, memory and interactions. You can follow the tour without installing anything.
+Begin with the author’s question: could a single underlying equation give rise to the different forms of reality? TRIAD is nonstandard quantum physics with an ontological foundation. It explores this question through simulations of fields, memory and interactions. You can follow the tour without installing anything.
 
 ## 01 · Meet the idea
 
 Open the [proposal](triad.md). It introduces the ontological hypothesis and the conceptual path from atoms and vibration to the author’s reading of sound, light and a simulated universe.
 
-In the numerical field, three actions happen together: **focus** can concentrate density, **memory** carries earlier density into the present, and the **bath** contributes dissipation and excitation. The current reference calls for the complete equation.
+Three principles act together: **P1 oscillation**, **P2 instantaneous self-reference and memory**, and **P3 coupling**. The equation is unique, immutable and indivisible. In the field, focus, memory and bath are operational aspects of this complete dynamics. Its structures self-organize and can keep changing; the lab does not calibrate the field externally to obtain a chosen pattern.
 
 ## 02 · Watch a history unfold
 
@@ -25,9 +25,9 @@ The [one-pocket study](../../experiments/structures/a-pocket-in-the-field/README
 | See more shapes and sequences | [Annotated gallery](gallery.md) |
 | Understand a word or symbol | [TRIAD vocabulary](glossary.md) |
 | Explore by question and area | [All studies](../../experiments/README.md) |
-| Inspect equations, code and evidence | [Research guide](research-guide.md) |
+| Inspect the equation, code and records | [Research guide](research-guide.md) |
 | Follow the project as it develops | [Lab journal](journal.md) |
 
-Every study has a **Files** index. It connects the available notes, implementations, configurations and results. Historical experiments retain their original settings; [reference editions](../reference/equation/README.md) let you distinguish those records from the current specification.
+Every study has a **Files** index. It connects the available notes, implementations, configurations and results. Historical records retain their original settings. The [reference-document history](../reference/equation/README.md) traces the writing, while the [project rules](project-rules.md) explain how new work follows the same complete equation.
 
 [Why this lab exists](author.md) · [Read the research chronology](topics/timeline.md)

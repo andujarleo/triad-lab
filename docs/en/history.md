@@ -6,6 +6,8 @@ The current layout brings the initial oscillator and Bravais studies together wi
 
 The physical organization now follows questions instead of download folders. Each study has a home under `experiments/<area>/<study>/`. The acquisition names remain in the provenance ledger so every original file can be traced.
 
+The chronology follows documents, implementations and executions. The TRIAD equation is unique and immutable; these records are not stages in the evolution of its form. Historical procedures keep their own context alongside the author’s [project rules](project-rules.md).
+
 ## Read in historical order
 
 - [T01–T39](topics/timeline.md): early models, reference configurations, solver diagnostics and later structures. Four attempts have notes but no supplied run artifacts.

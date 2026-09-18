@@ -1,6 +1,6 @@
 [Lab](../../../docs/pt-BR/README.md) · [English](README.md) · **Português**
 
-[Geometria](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md)
+[Geometria](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md) · [Regras do projeto](../../../docs/pt-BR/project-rules.md)
 
 # Cordas de um estado salvo
 
@@ -15,9 +15,9 @@ Faz o pós-processamento de um estado salvo em filamentos de densidade, curvas d
 - [cordas-densidade.png](results/figures/cordas-densidade.png)
 - [final_state.npz](../field-3d/results/data/final_state.npz)
 
-## Executar
+## Implementação preservada
 
-[Prepare o ambiente](../../../docs/pt-BR/getting-started.md) e execute da raiz do repositório.
+O comando abaixo chama a implementação preservada. Comece pelas [condições de execução](../../../docs/pt-BR/getting-started.md) e pela [auditoria das implementações](../../../docs/maintenance/author-rules-audit.md#português); mantenha novas saídas separadas do registro original. Execute da raiz do repositório em uma cópia de trabalho.
 
 ```sh
 MPLBACKEND=Agg python experiments/geometry/string-analysis/code/pt-BR/bravais_cordas.py experiments/geometry/field-3d/results/data/final_state.npz

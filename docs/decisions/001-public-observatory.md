@@ -1,5 +1,7 @@
 # A public observatory connected to the research archive
 
+> **2026-09-18 amendment:** the identity and terminology in this original decision are superseded by [Author-defined identity and method](002-author-defined-method.md). P1 is oscillation, P2 self-reference and P3 coupling. The equation is immutable; reference documents have revisions. The static-site architecture remains in force.
+
 ## Decision
 
 Build the TRIAD public experience as a small static site in `web/`, generated from the existing experiment catalog by `tools/build_site.py`. Publish through GitHub Pages. Keep English and Portuguese in one interface, with URL-addressable language and atlas filters.

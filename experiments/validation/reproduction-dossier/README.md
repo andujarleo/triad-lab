@@ -1,6 +1,6 @@
 [Lab](../../../README.md) · **English** · [Português](README.pt-BR.md)
 
-[Validation](../README.md) · [Glossary](../../../docs/en/glossary.md)
+[Validation](../README.md) · [Glossary](../../../docs/en/glossary.md) · [Project rules](../../../docs/en/project-rules.md)
 
 # Ten-part rerun dossier
 
@@ -20,16 +20,16 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ### Dossier studies
 
-- [A3](notes/memory-collapse-grid-64/analysis.md)
-- [A3_N128](notes/memory-collapse-grid-128/analysis.md)
-- [A3_N160](notes/memory-collapse-grid-160/analysis.md)
-- [QM1D](notes/one-dimensional-quantum-tests/analysis.md)
-- [CHSH](notes/bell-correlation-test/analysis.md)
-- [sidebands](notes/memory-and-spectral-sidebands/analysis.md)
-- [hotbath](notes/thermal-noise-and-collapse/analysis.md)
-- [tunnel_hist](notes/barrier-memory-and-tunneling/analysis.md)
-- [kstar](notes/dominant-spatial-scale/analysis.md)
-- [bravais](notes/lattice-detector-calibration/analysis.md)
+- [Memory and collapse · grid 64](notes/memory-collapse-grid-64/analysis.md)
+- [Memory and collapse · grid 128](notes/memory-collapse-grid-128/analysis.md)
+- [Memory and collapse · grid 160](notes/memory-collapse-grid-160/analysis.md)
+- [One-dimensional diagnostics](notes/one-dimensional-quantum-tests/analysis.md)
+- [Bell correlations](notes/bell-correlation-test/analysis.md)
+- [Memory and spectral sidebands](notes/memory-and-spectral-sidebands/analysis.md)
+- [Thermal noise and collapse](notes/thermal-noise-and-collapse/analysis.md)
+- [Barrier, memory and tunneling](notes/barrier-memory-and-tunneling/analysis.md)
+- [Dominant spatial scale](notes/dominant-spatial-scale/analysis.md)
+- [Lattice detector response](notes/lattice-detector-calibration/analysis.md)
 
 [Timeline](../../../docs/en/topics/timeline.md) · [← 35](../../structures/finite-peak-early-window/README.md) · [37 →](../../structures/a-pocket-in-the-field/README.md)
 
@@ -37,6 +37,14 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)
 
-This page organizes historical records. Code availability does not guarantee a complete execution environment. Paths embedded in source code were preserved; check dependencies before adapting a run.
+The files retain their recorded implementation and conditions. Read the [implementation audit](../../../docs/maintenance/author-rules-audit.md) for documented differences and the dependency record below before preparing a new execution.
 
 [Dependencies and missing inputs](../../../provenance/t-archive/dependencies.md)
+
+## Implementation notes
+
+This dossier preserves documented configurations with `alpha=Gamma=f_FDT=0` and comparisons that set memory couplings to zero. Those historical protocols are not the method for new TRIAD experiments. Their parameters, predictions, recorded results and verdicts remain intact. [Source, line 10](notes/memory-collapse-grid-64/predictions-memory-collapse-grid-64.md).
+
+Here, detector calibration means measuring template scores against synthetic networks and shells. The report explicitly records no retuning of the equation coefficients. This use of calibration must be distinguished from adjusting a field to obtain a chosen outcome. [Source, line 1](notes/lattice-detector-calibration/analysis.md).
+
+[Full static audit and source references](../../../docs/maintenance/author-rules-audit.md).

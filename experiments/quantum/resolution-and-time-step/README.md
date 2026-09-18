@@ -1,6 +1,6 @@
 [Lab](../../../README.md) · **English** · [Português](README.pt-BR.md)
 
-[Field diagnostics](../README.md) · [Glossary](../../../docs/en/glossary.md)
+[Field diagnostics](../README.md) · [Glossary](../../../docs/en/glossary.md) · [Project rules](../../../docs/en/project-rules.md)
 
 # Resolution and timestep
 
@@ -23,6 +23,12 @@ Read in order: protocol → configuration → raw data → analysis. These class
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)
 
-This page organizes historical records. Code availability does not guarantee a complete execution environment. Paths embedded in source code were preserved; check dependencies before adapting a run.
+The files retain their recorded implementation and conditions. Read the [implementation audit](../../../docs/maintenance/author-rules-audit.md) for documented differences and the dependency record below before preparing a new execution.
 
 [Dependencies and missing inputs](../../../provenance/t-archive/dependencies.md)
+
+## Implementation notes
+
+The inspected runner retains nonzero instantaneous, fractional, memory and bath coefficients, with three memory rates and `V_ext=0`. Its recorded numerical verdict remains attached to its declared grid, timestep and diagnostic. This is static inspection, not a new execution. [Source, line 34](../spatial-convergence/code/measure_spatial_convergence.py) · [This study’s source, line 36](code/compare_grid_and_time_step.py).
+
+[Full static audit and source references](../../../docs/maintenance/author-rules-audit.md).

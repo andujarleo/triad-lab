@@ -1,6 +1,6 @@
 [Lab](../../../README.md) · **English** · [Português](README.pt-BR.md)
 
-[Field diagnostics](../README.md) · [Glossary](../../../docs/en/glossary.md)
+[Field diagnostics](../README.md) · [Glossary](../../../docs/en/glossary.md) · [Project rules](../../../docs/en/project-rules.md)
 
 # Reference specification
 
@@ -16,6 +16,6 @@ Read in order: protocol → configuration → raw data → analysis. These class
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)
 
-This page organizes historical records. Code availability does not guarantee a complete execution environment. Paths embedded in source code were preserved; check dependencies before adapting a run.
+The files retain their recorded implementation and conditions. Read the [implementation audit](../../../docs/maintenance/author-rules-audit.md) for documented differences and the dependency record below before preparing a new execution.
 
 [Dependencies and missing inputs](../../../provenance/t-archive/dependencies.md)

@@ -1,6 +1,6 @@
 [Lab](../../../README.md) · **English** · [Português](README.pt-BR.md)
 
-[Continuity](../README.md) · [Glossary](../../../docs/en/glossary.md)
+[Continuity](../README.md) · [Glossary](../../../docs/en/glossary.md) · [Project rules](../../../docs/en/project-rules.md)
 
 # A persistent field prototype
 
@@ -18,7 +18,7 @@ A prototype records checkpoint continuation with one million resident modes. The
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)
 
-This page organizes historical records. Code availability does not guarantee a complete execution environment. Paths embedded in source code were preserved; check dependencies before adapting a run.
+The files retain their recorded implementation and conditions. Read the [implementation audit](../../../docs/maintenance/author-rules-audit.md) for documented differences and the dependency record below before preparing a new execution.
 
 [Dependencies and missing inputs](../../../provenance/t-archive/dependencies.md)
 

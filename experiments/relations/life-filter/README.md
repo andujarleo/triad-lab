@@ -1,6 +1,6 @@
 [Lab](../../../README.md) · **English** · [Português](README.pt-BR.md)
 
-[Relations](../README.md) · [Glossary](../../../docs/en/glossary.md)
+[Relations](../README.md) · [Glossary](../../../docs/en/glossary.md) · [Project rules](../../../docs/en/project-rules.md)
 
 # Memory and life filter
 
@@ -17,9 +17,9 @@ Extends the chemical control with four continuous memory horizons and a personal
 - [life-filter-between-data.json](results/data/life-filter-between-data.json)
 - [filtro-vida-entre-dados.json](results/data/filtro-vida-entre-dados.json)
 
-## Run
+## Archived implementation
 
-[Set up the environment](../../../docs/en/getting-started.md), then run from the repository root.
+The command below invokes the preserved implementation. Start with its [execution context](../../../docs/en/getting-started.md) and [implementation audit](../../../docs/maintenance/author-rules-audit.md); keep new output separate from the source record. Run from the repository root in a working copy.
 
 ```sh
 python experiments/relations/life-filter/code/en/simulate_life_filter_between.py
@@ -34,3 +34,9 @@ The scripts use 6,000 steps and `DT=0.02`. New files go to `artifacts/` beside t
 ## Files and execution context
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)
+
+## Implementation notes
+
+These relational scripts evolve phases and edge memory with RK4. Optional chemistry and life-filter layers belong to their declared relational system. Their switches must not be described as named terms of the complete reference field equation. [Source, line 116](../observer/code/en/simulate_observer_observed_relations.py) · [This study’s source, line 139](code/en/simulate_life_filter_between.py).
+
+[Full static audit and source references](../../../docs/maintenance/author-rules-audit.md).

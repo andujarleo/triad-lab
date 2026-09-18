@@ -1,4 +1,4 @@
-![TRIAD LAB — foco, memória, banho](../../assets/lab-header.pt-BR.svg)
+![TRIAD LAB — P1 oscilação, P2 autorreferência, P3 acoplamento](../../assets/lab-header.pt-BR.svg)
 
 <p align="center">
   <a href="../../README.md">English</a> · <strong>Português</strong>
@@ -8,9 +8,9 @@
 
 # E se uma equação fosse a base da realidade?
 
-**Um laboratório independente e vivo de física quântica não padrão e ontologia.** A TRIAD explora a hipótese de Leonardo Andujar de que uma única equação descreve a camada mais profunda do universo, incluindo a ideia de que a realidade seja uma simulação.
+**A TRIAD é física quântica não padrão, com fundamento ontológico.** Criado por Leonardo Andujar, este lab independente e vivo explora sua hipótese de que o universo tem uma equação de base e de que a realidade seja uma simulação.
 
-O trabalho parte de **foco, memória e banho agindo juntos**. Um campo evolui, carrega sua história e responde a ela. O lab explora as formas e interações que aparecem a partir daí, uma pergunta e um experimento registrado de cada vez.
+O projeto parte de **oscilação (P1), autorreferência (P2) e acoplamento (P3)**. Sua equação é **única, imutável e indivisível**. Foco, memória e banho participam da dinâmica completa: um campo evolui, carrega sua história e responde a ela. O lab acompanha as formas e interações que se auto-organizam.
 
 <p align="center">
   <a href="../../experiments/geometry/field-visualizations/README.pt-BR.md">
@@ -45,7 +45,7 @@ A ambição é explorar muitos fenômenos por meio de simulações e publicar o 
 
 [Relações](../../experiments/relations/README.pt-BR.md) · [Geometria](../../experiments/geometry/README.pt-BR.md) · [Memória](../../experiments/memory/README.pt-BR.md) · [Estruturas](../../experiments/structures/README.pt-BR.md) · [Sinais](../../experiments/signals/README.pt-BR.md) · [Diagnósticos do campo](../../experiments/quantum/README.pt-BR.md) · [Continuidade](../../experiments/continuity/README.pt-BR.md) · [Validação](../../experiments/validation/README.pt-BR.md)
 
-A [referência vigente da equação é a v1.1](../reference/equation/README.md), que estabelece a regra da equação completa. Os estudos anteriores mantêm suas implementações e configurações originais; o histórico de edições deixa essa distinção explícita.
+O [histórico da documentação de referência](../reference/equation/README.md) preserva documentos identificados como v1.0 e v1.1; esses rótulos indicam revisões da escrita, não equações diferentes. Implementações e resultados históricos mantêm suas configurações próprias. As [regras do projeto](project-rules.md) explicam a dinâmica completa, a auto-organização sem calibração externa para obter um resultado escolhido e as checagens técnicas do lab.
 
 [Por que Leonardo criou o lab](author.md) · [Vocabulário da TRIAD](glossary.md) · [Diário de pesquisa](journal.md) · [Contribua](contributing.md) · [Mais idiomas](languages.md)
 

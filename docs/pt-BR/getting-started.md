@@ -1,8 +1,10 @@
 [Lab](README.md) · [English](../en/getting-started.md) · **Português**
 
-# Execute um estudo
+# Examine registros e prepare uma execução TRIAD
 
-Estes comandos examinam ou executam implementações históricas preservadas. Eles não certificam conformidade com a referência 1.1. Consulte o [histórico de versões](../reference/equation/README.md) e a configuração declarada de cada estudo antes de iniciar uma nova execução.
+Comece pelos dados salvos e pelas [regras do projeto](project-rules.md). Uma nova execução TRIAD precisa manter a equação completa e imutável, sem termos desligados e sem calibração externa para obter um resultado desejado.
+
+Os comandos arquivados abaixo documentam implementações preservadas. Sua presença não certifica que atendam a essas regras. Consulte a configuração de cada estudo e o [histórico documental da referência](../reference/equation/README.md); não use uma montagem histórica com termos desligados como um novo experimento TRIAD.
 
 Os comandos usam um shell POSIX, a partir da raiz do repositório, e Python 3.10 ou mais recente. Os requisitos são uma base de instalação; não são um lockfile recuperado do ambiente original.
 
@@ -27,7 +29,14 @@ MPLBACKEND=Agg python experiments/geometry/string-analysis/code/en/bravais_strin
 
 Esse comando lê o estado e escreve figuras em `bravais_outputs_3d/`, sem executar novamente a evolução do campo. O estado incluído não contém `psi_f`, então a seção de cordas de fase é ignorada. O script usa `L=32`; para outro estado, informe o tamanho real pela variável `L`.
 
-## Execute os osciladores
+## Comandos de execução arquivados
+
+Estes comandos são mantidos para rastrear o registro histórico. Os pilotos de osciladores e as implementações 3D precisam ser examinados conforme as regras da equação completa antes de qualquer execução TRIAD nova; o código-fonte não foi alterado por esta auditoria editorial.
+
+<details>
+<summary>Examine os comandos históricos e seus padrões originais</summary>
+
+### Piloto de osciladores
 
 ```sh
 python experiments/relations/observer/code/en/simulate_observer_observed_relations.py
@@ -35,7 +44,7 @@ python experiments/relations/observer/code/en/simulate_observer_observed_relatio
 
 São 6.000 passos RK4 com `DT=0.02`. As novas saídas ficam em `artifacts/` ao lado do script. A versão em português está em `code/pt-BR/` no mesmo estudo.
 
-## Evolução 3D e varredura
+### Evolução 3D e varredura históricas
 
 ```sh
 MPLBACKEND=Agg python experiments/geometry/field-3d/code/en/bravais_pure_3d.py
@@ -43,6 +52,8 @@ MPLBACKEND=Agg python experiments/geometry/scale-sweep/code/en/bravais_sweep_L.p
 ```
 
 A evolução usa por padrão 1.200 passos em uma grade 64³. A varredura usa 800 passos por caixa e chega a 96³, exigindo mais recursos. Ambos aceitam `STEPS` pelo ambiente, mas encurtar a execução cria outra comparação. A inicialização aleatória não fixa uma semente; os padrões não reconstituem exatamente o registro incluído.
+
+</details>
 
 ## Separe cada execução
 

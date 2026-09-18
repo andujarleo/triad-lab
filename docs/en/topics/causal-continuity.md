@@ -11,3 +11,5 @@ The historical `triad_soul_hypothesis` bundle applies small field probes, follow
 The report finds causal field continuity in the controls too. It does not establish it as exclusive to life or as a demonstration of souls or reincarnation. The scripts reference an external `triad_rebuild_rules/run64` trajectory that was not supplied in this ZIP.
 
 [Dependencies and portability](../../../provenance/t-archive/dependencies.md)
+
+The controls and criteria above describe this historical report. They do not prescribe a term-removal protocol for new TRIAD work. The [project rules](../project-rules.md) keep the complete dynamics together.

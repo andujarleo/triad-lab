@@ -1,9 +1,9 @@
 {
   "format": 1,
-  "title": "TRIAD equation reference editions",
+  "title": "TRIAD equation reference: document revisions",
   "current_version": "1.1",
   "imported_on": "2026-09-17",
-  "policy": "Reference editions are preserved as supplied. Importing an edition does not modify or retroactively assign that edition to historical code, configurations or results.",
+  "policy": "The TRIAD equation is immutable. Version fields identify revisions of the reference document, not versions of the equation. Documents are preserved as supplied; importing a revision does not modify or retroactively assign it to historical code, configurations or results.",
   "editions": [
     {
       "version": "1.0",

@@ -2,7 +2,7 @@
 
 # Campos, formas e escalas
 
-Comece pelo campo, depois escolha uma forma de medi-lo. Cada grupo abaixo tem código e resultados organizados junto ao estudo.
+Comece pelo campo, depois escolha uma forma de medi-lo. Cada grupo abaixo tem código e resultados organizados junto ao estudo. A TRIAD lê a cristalização como organização dinâmica, sem calibrar o campo externamente para obter uma rede escolhida. Os estudos históricos mantêm suas configurações registradas; execuções novas seguem as [regras do projeto](../project-rules.md).
 
 - [Explorações de campo 2D](../../../experiments/geometry/field-2d/README.pt-BR.md)
 - [Campo 3D emergente](../../../experiments/geometry/field-3d/README.pt-BR.md)

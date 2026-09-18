@@ -1,10 +1,10 @@
 [Lab](../../../docs/pt-BR/README.md) · [English](README.md) · **Português**
 
-[Estruturas](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md)
+[Estruturas](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md) · [Regras do projeto](../../../docs/pt-BR/project-rules.md)
 
 # Campos individuais
 
-Uma construção com campos separados acompanha identidades; a montagem difere do run 04.
+Uma construção com campos separados acompanha identidades; a montagem difere de Átomos gaussianos em um campo.
 
 Registro histórico importado; esta organização não reexecutou a simulação.
 
@@ -24,6 +24,6 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)
 
-Esta página organiza registros históricos. A presença de código não garante um ambiente completo de execução. Caminhos embutidos no código foram preservados; consulte as dependências antes de adaptar uma execução.
+Os arquivos mantêm a implementação e as condições registradas. Consulte a [auditoria das implementações](../../../docs/maintenance/author-rules-audit.md#português) para as diferenças documentadas e o registro de dependências abaixo antes de preparar uma nova execução.
 
 [Dependências e entradas ausentes](../../../provenance/t-archive/dependencies.pt-BR.md)

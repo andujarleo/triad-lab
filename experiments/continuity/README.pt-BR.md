@@ -9,6 +9,6 @@
 | [Rastreamento de efeitos causais](causal-traces/README.pt-BR.md) | ✓ | ✓ | ✓ |
 | [Protótipo de campo persistente](persistent-universe/README.pt-BR.md) | ✓ | ✓ | ✓ |
 
-✓ indica material disponível, não uma validação da hipótese ou um ambiente completo de execução.
+✓ marca arquivos disponíveis neste repositório. Cada estudo documenta suas condições de execução e dependências.
 
 [Todas as áreas](../README.pt-BR.md)

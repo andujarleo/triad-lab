@@ -33,7 +33,7 @@ Generated JSON uses stable ordering, UTF-8 and no timestamps. Unchanged inputs p
 | `hero` | Path to the byte-identical phase-vortex PNG in `media/` |
 | `fields` | Download descriptors for the two saved density volumes |
 
-Every study includes `id`, `folder`, `series`, bilingual `title`, `status`, `availability`, repository-relative bilingual `docs`, bilingual `question` and `summary`, and `image` (a relative URL or `null`). The opening bold question and following prose are read from each study's README. Historical pages without an explicit question receive an empty question and their first opening prose paragraph as the summary. The frontend can use the title in place of the absent question. The builder never invents an interpretation from a filename, a plot or a numerical result.
+Every study includes `id`, `folder`, `series`, bilingual `title`, `status`, `availability`, repository-relative bilingual `docs`, bilingual `question` and `summary`, and `image` (a relative URL or `null`). The opening bold question and following prose are read from each existing study’s README. Studies using the published template instead supply the first paragraph of **The question / A pergunta** and **What was done / O que foi feito**. HTML comments are excluded; a missing summary is a build error. Historical pages without an explicit question receive an empty question and their first opening prose paragraph as the summary. The frontend can use the title in place of the absent question. The builder never invents an interpretation from a filename, a plot or a numerical result.
 
 Images are the first linked local PNG found in the study's English or Portuguese page. Their names in the site are the complete SHA-256 digest followed by `.png`; repeated bytes share one file. Images are never resized, recolored, regenerated or recompressed by the builder. A missing or unhydrated selected image is a build failure, not a silent omission. Cards without an image remain in the catalogue.
 
@@ -78,7 +78,7 @@ New catalogue entries appear automatically. Add their English and Portuguese int
 
 O atlas organiza os registros existentes. As imagens são cópias idênticas dos PNG originais, e o visualizador percorre cortes espaciais de dois campos finais salvos. O controle de corte não representa o tempo. O build não executa simulações, normaliza os dados, cria unidades físicas nem altera os resultados.
 
-Os cartões vêm do catálogo e da introdução de cada estudo. Quando o registro não traz uma pergunta explícita, ela fica vazia e a interface pode apresentar o título. Os caminhos e hashes dos NPZ permitem consultar a origem de cada volume. Para gerar e conferir o site, use os comandos acima; Python 3.12 ou mais recente é necessário.
+Os cartões vêm do catálogo e da introdução de cada estudo. No template publicado, a primeira pergunta e o resumo vêm das seções **A pergunta** e **O que foi feito**; comentários HTML são ignorados, e a ausência de resumo interrompe o build. Quando o registro não traz uma pergunta explícita, ela fica vazia e a interface pode apresentar o título. Os caminhos e hashes dos NPZ permitem consultar a origem de cada volume. Para gerar e conferir o site, use os comandos acima; Python 3.12 ou mais recente é necessário.
 
 ## Display scaling
 

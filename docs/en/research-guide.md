@@ -2,9 +2,9 @@
 
 # Inspect the experiment behind the figure
 
-Begin with [TRIAD’s proposal and operational reading](triad.md). This research presents itself as nonstandard quantum physics; the historical diagnostics need that context.
+Begin with [TRIAD’s identity and operational reading](triad.md) and the [project rules](project-rules.md). TRIAD is nonstandard quantum physics. Its methodology reads the complete coupled dynamics; historical diagnostics do not define that identity.
 
-For new executions, declare the [equation edition](../reference/equation/README.md) and implementation revision. The current 1.1 reference specifies the complete dynamics; historical controls keep their original context. Its edition index also records unresolved differences within the supplied specification.
+For new executions, declare the [reference-document revision](../reference/equation/README.md), implementation revision and configuration. The equation is unique, immutable and indivisible. Historical controls keep their original context; configurations with disabled terms are not relabeled as complete TRIAD executions. The document index records differences in the supplied writing, not versions of the equation.
 
 Start with a study’s question and **FILES.md**, then follow protocol → configuration → source → recorded output → interpretation. The [JSON catalog](../../experiments/catalog.json) lists all 65 studies, their bilingual pages and every associated source payload.
 
@@ -30,7 +30,7 @@ git lfs pull
 python3 tools/check_repository.py
 ```
 
-The check validates preserved payloads, document transformations, catalog associations and local links. It does not execute historical scripts. Record any path, dependency, equation or parameter adaptation as a separate change, and publish its outputs as a new run.
+The check validates preserved payloads, document transformations, catalog associations and local links. It does not execute historical scripts. Record implementation, path, dependency or declared-configuration changes separately, and publish their outputs as new runs. The equation is not adapted to a target result; no term is disabled. Numerical diagnostics examine the full dynamics and remain attached to the specific execution.
 
 [Chronology](topics/timeline.md) · [Source inspection](../../provenance/t-archive/inspection.json) · [Preservation policy](../../provenance/README.md) · [New study template](../../templates/experiment/README.md)
 

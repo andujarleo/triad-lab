@@ -4,11 +4,14 @@
 
 The concept notes explain the author’s vocabulary. Reference documents record the equation, setups and research history. Read each result with its configuration: early trials, R5, Theta_core and the modal prototype belong to distinct records.
 
+TRIAD is nonstandard quantum physics with one immutable, indivisible equation. **P1 is oscillation; P2 is instantaneous self-reference and memory; P3 is coupling.** The [project rules](../project-rules.md) guide new work; the sources below preserve their own documentary history.
+
 ```text
 i·ℏ·∂_t Ψ = [-ℏ²/(2m)∇² + V_ext + Λ|Ψ|² + V_mem + α(-Δ)^(σ/2) - iΓ]Ψ + η
 ```
 
-- [Equação de referência / Reference equation](../../reference/records/triad-equation-reference.md)
+- [Reference-document history](../../reference/equation/README.md)
+- [Preserved reference document labeled v1.0](../../reference/records/triad-equation-reference.md)
 - [Resumo do sistema / System overview](../../reference/concepts/system-overview.md)
 - [Substrato / Substrate](../../reference/concepts/substrate.md)
 - [Origem dos registros / Record provenance](../../reference/records/registro-integral.md)

@@ -1,4 +1,4 @@
-![TRIAD LAB — focus, memory, bath](assets/lab-header.svg)
+![TRIAD LAB — P1 oscillation, P2 self-reference, P3 coupling](assets/lab-header.svg)
 
 <p align="center">
   <strong>English</strong> · <a href="docs/pt-BR/README.md">Português</a>
@@ -8,9 +8,9 @@
 
 # What if one equation underlies reality?
 
-**An independent, living laboratory for nonstandard quantum physics and ontology.** TRIAD explores Leonardo Andujar’s hypothesis that a single equation describes the deepest layer of the universe, including the idea that reality is a simulation.
+**TRIAD is nonstandard quantum physics, with an ontological foundation.** Created by Leonardo Andujar, this independent living lab explores his hypothesis that the universe has one underlying equation and that reality is a simulation.
 
-The work begins with **focus, memory and bath acting together**. A field evolves, carries its history and responds to that history. The lab explores the forms and interactions that follow, one question and one recorded experiment at a time.
+The project starts from **oscillation (P1), self-reference (P2) and coupling (P3)**. Its equation is **unique, immutable and indivisible**. Focus, memory and bath participate in the complete dynamics: a field evolves, carries its history and responds to it. The lab follows the forms and interactions that self-organize.
 
 <p align="center">
   <a href="experiments/geometry/field-visualizations/README.md">
@@ -45,7 +45,7 @@ The ambition is to explore many phenomena through simulation and publish the pat
 
 [Relations](experiments/relations/README.md) · [Geometry](experiments/geometry/README.md) · [Memory](experiments/memory/README.md) · [Structures](experiments/structures/README.md) · [Signals](experiments/signals/README.md) · [Field diagnostics](experiments/quantum/README.md) · [Continuity](experiments/continuity/README.md) · [Validation](experiments/validation/README.md)
 
-The [current equation reference is v1.1](docs/reference/equation/README.md), which states the rule of the complete equation. Earlier studies keep their original implementations and settings; the edition history makes that distinction explicit.
+The [reference-document history](docs/reference/equation/README.md) preserves documents labeled v1.0 and v1.1; these labels identify revisions of the writing, not different equations. Historical implementations and results retain their own configurations. The [project rules](docs/en/project-rules.md) explain the complete dynamics, self-organization without external calibration toward a chosen result, and the technical checks used in this lab.
 
 [Why Leonardo created the lab](docs/en/author.md) · [TRIAD vocabulary](docs/en/glossary.md) · [Research journal](docs/en/journal.md) · [Contribute](docs/en/contributing.md) · [More languages](docs/en/languages.md)
 

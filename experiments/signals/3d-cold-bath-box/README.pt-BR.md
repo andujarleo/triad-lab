@@ -1,6 +1,6 @@
 [Lab](../../../docs/pt-BR/README.md) · [English](README.md) · **Português**
 
-[Sinais](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md)
+[Sinais](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md) · [Regras do projeto](../../../docs/pt-BR/project-rules.md)
 
 # Caixa 3D com banho frio
 
@@ -16,7 +16,7 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ## Material disponível
 
-11 arquivos associados à ficha: 2 `.csv`, 1 `.gif`, 1 `.md`, 7 `.png`.
+11 arquivo associado à ficha: 2 `.csv`, 1 `.gif`, 1 `.md`, 7 `.png`.
 
 [Cronologia](../../../docs/pt-BR/topics/timeline.md) · [← 19](../hot-bath-diagnostic-failure/README.pt-BR.md) · [21 →](../first-phase-to-density-diagnostic/README.pt-BR.md)
 
@@ -24,6 +24,6 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)
 
-Esta página organiza registros históricos. A presença de código não garante um ambiente completo de execução. Caminhos embutidos no código foram preservados; consulte as dependências antes de adaptar uma execução.
+Os arquivos mantêm a implementação e as condições registradas. Consulte a [auditoria das implementações](../../../docs/maintenance/author-rules-audit.md#português) para as diferenças documentadas e o registro de dependências abaixo antes de preparar uma nova execução.
 
 [Dependências e entradas ausentes](../../../provenance/t-archive/dependencies.pt-BR.md)

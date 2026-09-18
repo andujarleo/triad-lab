@@ -6,6 +6,8 @@ A estrutura atual reúne os estudos iniciais de osciladores e Bravais com o mate
 
 A organização física agora segue perguntas, em vez de pastas de download. Cada estudo tem um lugar em `experiments/<area>/<study>/`. Os nomes de aquisição permanecem no registro de proveniência, permitindo rastrear cada arquivo original.
 
+A cronologia acompanha documentos, implementações e execuções. A equação TRIAD é única e imutável; estes registros não são etapas de evolução da sua forma. Os procedimentos históricos mantêm seu contexto junto às [regras do projeto](project-rules.md), definidas pelo autor.
+
 ## Leia na ordem histórica
 
 - [T01–T39](topics/timeline.md): modelos iniciais, configurações de referência, diagnósticos do solver e estruturas posteriores. Quatro tentativas têm notas, mas não têm artefatos de execução fornecidos.

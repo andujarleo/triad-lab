@@ -2,7 +2,7 @@
 
 # Help the lab grow
 
-Start with a question someone can understand before they read an equation. A contribution can be a study, a new run, an explanation, a translation or a correction.
+Start with a question someone can understand before they read an equation. A contribution can be a study, a new run, an explanation, a translation or a correction. Read the [project rules](project-rules.md): TRIAD is nonstandard quantum physics with one immutable, indivisible equation and its own methodology.
 
 ## Add or extend a study
 
@@ -17,7 +17,7 @@ Catalog availability describes supplied material, not scientific validity. `note
 
 ## Preserve the comparison
 
-Changing an equation, parameter, solver, backend or input creates a new comparison. Preserve the old record and document the difference. Keep negative and inconclusive outcomes with their context. Separate numerical observations from the interpretation they may support.
+The equation remains unchanged. A new input, declared configuration, numerical method, solver revision or backend needs its own execution record. Do not disable terms, calibrate toward a desired outcome or rewrite a result to fit an interpretation. Preserve existing records, including failed and inconclusive diagnostics, with their actual configurations and criteria.
 
 The historical files listed in the provenance ledger have fixed original hashes. Do not update those hashes to conceal a change. Add an adapted implementation or a new run separately. A path-only adaptation can still affect file selection or working directories, so verify it explicitly.
 
@@ -36,6 +36,6 @@ Describe the problem, final change, validation and remaining limitations in the 
 
 ## Preserve the starting point
 
-Present TRIAD as a proposal for nonstandard quantum physics. Connect new interpretations to the author’s operational reading and the regime actually executed. Distinguish the complete triad, historical pilots and controls; do not make a conventional quantum-mechanical diagnostic the definition of the entire project. [Presentation reference](triad.md).
+Present TRIAD as nonstandard quantum physics. Use P1 oscillation, P2 instantaneous self-reference and memory, and P3 coupling together. Read crystallization dynamically, without requiring a fixed lattice. Technical checks inspect faithful implementation and recorded behavior of the complete system. The lab does not adopt Popperian falsification as its method. It does not isolate or remove terms as a TRIAD experiment, and standard-QM agreement is not its identity criterion. Historical controls remain records of their own procedures, not instructions for new TRIAD experiments. [Presentation reference](triad.md).
 
 The public atlas is generated from the same catalog. To add a representative question, image or saved field, follow the [site data contract](../maintenance/site-data.md). For interface changes, run `node --test tools/frontend.test.mjs` and rebuild as described in [web/README.md](../../web/README.md).

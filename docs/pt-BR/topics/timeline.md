@@ -1,18 +1,20 @@
 [English](../../en/topics/timeline.md) · **Português** · [Acervo](../history.md)
 
-# Cronologia de 39 runs
+# Cronologia de 39 registros de pesquisa
 
-A numeração original foi preservada. Ela inclui explorações iniciais, transição para a equação de referência, execuções com solver, pós-processamentos e estudos posteriores. Cada ficha leva à nota histórica e aos artefatos que realmente vieram no ZIP.
+A numeração original foi preservada. Ela acompanha explorações, documentação, implementações, execuções com solver, pós-processamentos e estudos posteriores. São registros de trabalho, não formas sucessivas da equação TRIAD, que é imutável. Cada ficha leva à nota histórica e aos artefatos que realmente vieram no ZIP.
 
-| Etapa | Runs | Leitura |
+Quatro entradas têm notas, mas nenhum artefato de execução fornecido. As configurações históricas mantêm seus parâmetros, inclusive termos que tenham sido desligados; elas não são instruções para experimentos TRIAD novos com a equação completa. [Regras do projeto](../project-rules.md).
+
+| Etapa | Registros | Leitura |
 |---|---|---|
-| Explorações iniciais | 01–13 | Montagens anteriores à referência estrita. |
-| Referência e atlas | 14–18 | Tentativas R5 e diagnósticos visuais. |
+| Explorações iniciais | 01–13 | Montagens e implementações documentadas inicialmente. |
+| Documentos de referência e atlas | 14–18 | Tentativas R5 e diagnósticos visuais. |
 | Solver e geometria | 19–26 | Banho, bounce, propagação e redes. |
 | Átomos e estruturas aninhadas | 27–35 | Trajetórias, identidade e janelas iniciais. |
 | Dossiê e mapas | 36–39 | Reexecuções registradas e observação do campo. |
 
-| Run | Pergunta e registro | Material |
+| Registro | Pergunta e registro | Material |
 |---|---|---|
 | 01 | [Relações iniciais do campo](../../../experiments/relations/early-field-relations/README.pt-BR.md) | Nota + artefatos |
 | 02 | [NLS, memória e FDT](../../../experiments/memory/memory-and-thermal-noise/README.pt-BR.md) | Nota + artefatos |
@@ -50,8 +52,8 @@ A numeração original foi preservada. Ela inclui explorações iniciais, transi
 | 34 | [Trajetória longa do ninho](../../../experiments/structures/long-nest-trajectory/README.pt-BR.md) | Nota + artefatos |
 | 35 | [Pico finito, janela inicial](../../../experiments/structures/finite-peak-early-window/README.pt-BR.md) | Nota + artefatos |
 | 36 | [Dossiê de reexecução em dez partes](../../../experiments/validation/reproduction-dossier/README.pt-BR.md) | Nota + artefatos |
-| 37 | [Um bolso no campo](../../../experiments/structures/a-pocket-in-the-field/README.pt-BR.md) | Nota + artefatos |
-| 38 | [Dois bolsos](../../../experiments/structures/two-pockets/README.pt-BR.md) | Nota + artefatos |
+| 37 | [Um bolsão no campo](../../../experiments/structures/a-pocket-in-the-field/README.pt-BR.md) | Nota + artefatos |
+| 38 | [Dois bolsões](../../../experiments/structures/two-pockets/README.pt-BR.md) | Nota + artefatos |
 | 39 | [Mapas de densidade e memória](../../../experiments/structures/density-memory-maps/README.pt-BR.md) | Nota + artefatos |
 
 [Registro completo original](../../reference/records/00-registro-completo.md) · [Contexto da cronologia](../../reference/records/registro-integral.md)

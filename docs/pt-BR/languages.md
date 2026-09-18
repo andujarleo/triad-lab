@@ -9,6 +9,8 @@ Inglês é a base da documentação editorial; português brasileiro é a primei
 | English | [Home](../../README.md) |
 | Português | [Início](README.md) |
 
+As traduções preservam as [regras do projeto](project-rules.md): física quântica não padrão, equação imutável e indivisível, os três princípios e auto-organização dinâmica. Descreva v1.0/v1.1 como revisões documentais. Mantenha resultados históricos e seu contexto em todos os idiomas.
+
 ## Acrescente um idioma
 
 1. Use uma tag como `es` ou `fr` e crie `docs/<tag>/README.md`.

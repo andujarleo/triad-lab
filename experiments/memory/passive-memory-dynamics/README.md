@@ -1,12 +1,12 @@
 [Lab](../../../README.md) · **English** · [Português](README.pt-BR.md)
 
-[Memory](../README.md) · [Glossary](../../../docs/en/glossary.md)
+[Memory](../README.md) · [Glossary](../../../docs/en/glossary.md) · [Project rules](../../../docs/en/project-rules.md)
 
 # Passive memory dynamics
 
-**Does memory hold a fixed pattern or keep redistributing it?**
+**How does memory participate in continuing spatial reorganization?**
 
-The report describes recurring shifts of scale, rather than a permanently fixed crystal. The recorded norm remains near one. A short twin trajectory is not a long-time Lyapunov result.
+The report describes dynamic crystallization through recurring shifts of scale. The recorded norm remains near one. Its twin-trajectory estimate covers only the recorded short interval.
 
 ![Preserved historical figure](results/figures/density-slices-selected.png)
 
@@ -17,8 +17,14 @@ The report describes recurring shifts of scale, rather than a permanently fixed 
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)
 
-This page organizes historical records. Code availability does not guarantee a complete execution environment. Paths embedded in source code were preserved; check dependencies before adapting a run.
+The files retain their recorded implementation and conditions. Read the [implementation audit](../../../docs/maintenance/author-rules-audit.md) for documented differences and the dependency record below before preparing a new execution.
 
 [Dependencies and missing inputs](../../../provenance/t-archive/dependencies.md)
 
 [Context and diagnostics](../../../docs/en/topics/passive-r5.md)
+
+## Implementation notes
+
+The preserved runner and configuration set `alpha=0`, `Gamma=0`, `f_FDT=0` and use two memory fields. The update loop has no stochastic increment. Read its recorded dynamic crystallization within those actual conditions; this file is not an implementation with every term active. [Source, line 23](code/simulate_passive_memory.py).
+
+[Full static audit and source references](../../../docs/maintenance/author-rules-audit.md).

@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-09-18 — Audit against the author’s rules
+
+- Establish bilingual project rules and agent instructions: nonstandard physics and ontology, one immutable and indivisible equation, self-calibration, dynamic crystallization, no isolation and the author’s own methodology.
+- Correct P1/P2/P3 definitions and reference-document terminology across public guides, study navigation and the website. This supersedes the earlier focus/memory/bath shorthand below.
+- Audit all 65 studies, inventory the complete base tree and record static implementation findings without changing scientific source files, parameters or outputs.
+- Fix template-based study descriptions in the site exporter, with English and Portuguese regression coverage; extend run records with reference-document hashes and implementation revisions.
+
+See the [audit and coverage](docs/maintenance/author-rules-audit.md), [project rules](docs/en/project-rules.md) and [regras em português](docs/pt-BR/project-rules.md).
+
 ## 2026-09-17 — A public observatory for TRIAD
 
 - Present the author’s ontological hypothesis in English and Portuguese, with a conceptual map, vocabulary, author page and editorial journal.

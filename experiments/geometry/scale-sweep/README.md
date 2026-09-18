@@ -1,6 +1,6 @@
 [Lab](../../../README.md) · **English** · [Português](README.pt-BR.md)
 
-[Geometry](../README.md) · [Glossary](../../../docs/en/glossary.md)
+[Geometry](../README.md) · [Glossary](../../../docs/en/glossary.md) · [Project rules](../../../docs/en/project-rules.md)
 
 # Intrinsic scale
 
@@ -13,9 +13,9 @@ Runs the same equation in boxes L=24, 32 and 48 at fixed dx=0.5, with grids of 4
 The original implementation and archived sweep outputs are included. See the complete file index below.
 
 
-## Run
+## Archived implementation
 
-[Set up the environment](../../../docs/en/getting-started.md), then run from the repository root.
+The command below invokes the preserved implementation. Start with its [execution context](../../../docs/en/getting-started.md) and [implementation audit](../../../docs/maintenance/author-rules-audit.md); keep new output separate from the source record. Run from the repository root in a working copy.
 
 ```sh
 MPLBACKEND=Agg python experiments/geometry/scale-sweep/code/en/bravais_sweep_L.py

@@ -1,6 +1,6 @@
 [Lab](../../../README.md) · **English** · [Português](README.pt-BR.md)
 
-[Geometry](../README.md) · [Glossary](../../../docs/en/glossary.md)
+[Geometry](../README.md) · [Glossary](../../../docs/en/glossary.md) · [Project rules](../../../docs/en/project-rules.md)
 
 # Strings from a saved state
 
@@ -15,9 +15,9 @@ Post-processes a saved state into density threads, phase curves when available, 
 - [cordas-densidade.png](results/figures/cordas-densidade.png)
 - [final_state.npz](../field-3d/results/data/final_state.npz)
 
-## Run
+## Archived implementation
 
-[Set up the environment](../../../docs/en/getting-started.md), then run from the repository root.
+The command below invokes the preserved implementation. Start with its [execution context](../../../docs/en/getting-started.md) and [implementation audit](../../../docs/maintenance/author-rules-audit.md); keep new output separate from the source record. Run from the repository root in a working copy.
 
 ```sh
 MPLBACKEND=Agg python experiments/geometry/string-analysis/code/en/bravais_strings.py experiments/geometry/field-3d/results/data/final_state.npz

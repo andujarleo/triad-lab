@@ -9,6 +9,8 @@ English is the base for editorial documentation; Brazilian Portuguese is the fir
 | English | [Home](../../README.md) |
 | Português | [Início](../pt-BR/README.md) |
 
+Translations preserve the [project rules](project-rules.md): nonstandard quantum physics, the immutable and indivisible equation, the three principles and dynamic self-organization. Describe v1.0/v1.1 as document revisions. Keep historical results and their qualifications intact in every language.
+
 ## Add a language
 
 1. Use a tag such as `es` or `fr` and create `docs/<tag>/README.md`.

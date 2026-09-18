@@ -2,7 +2,7 @@
 
 # The QM sequence
 
-This is the historical QM diagnostic sequence within TRIAD. Original protocols and verdicts are preserved. The nonstandard quantum-physics proposal is presented through the complete dynamics and the author’s operational reading; these tests do not replace it. [Understand TRIAD](../triad.md).
+This is the historical QM diagnostic sequence within TRIAD. Original protocols and verdicts are preserved. TRIAD is nonstandard quantum physics by its project identity. Its complete dynamics and the author’s operational reading define the approach; agreement with standard QM is not its identity criterion. [Understand TRIAD](../triad.md).
 
 A sequence with a specification, protocols, configurations, seeds, raw data and analyses. Q00 fixes the starting point; Q01 and Q01b investigate resolution; Q02 expands to an ensemble; Q03 and Q04 examine subspaces and linearity.
 
@@ -15,6 +15,6 @@ A sequence with a specification, protocols, configurations, seeds, raw data and 
 | Q03 | [Subspaces and modes](../../../experiments/quantum/field-modes/README.md) | POD/PCA and DMD examine early and late windows across four seeds. The record does not establish a shared low-rank attractor. |
 | Q04 | [Linearity probes](../../../experiments/quantum/linearity-tests/README.md) | Two seeds compare A, B and their superposition with matched noise. The protocol deviation and INCONCLUSIVE decision are retained. |
 
-INCONCLUSIVE decisions and protocol deviations are part of the preserved results. The earlier pilots are not relabeled as confirmatory evidence for this sequence.
+INCONCLUSIVE decisions and protocol deviations are part of the preserved results, attached to the questions and criteria of these records. These protocols are historical material, not the governing methodology for new TRIAD work; see the [project rules](../project-rules.md). The earlier pilots are not relabeled as confirmatory evidence for this sequence.
 
 [Blueprint](../../reference/records/triad-qm-blueprint.md) · [Supplied specification](../../reference/records/triad-qm-canonical-v1.md) · [Integrity note](../../../provenance/t-archive/coverage.md)

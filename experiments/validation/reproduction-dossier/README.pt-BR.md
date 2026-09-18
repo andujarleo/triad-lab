@@ -1,6 +1,6 @@
 [Lab](../../../docs/pt-BR/README.md) · [English](README.md) · **Português**
 
-[Validação](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md)
+[Validação](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md) · [Regras do projeto](../../../docs/pt-BR/project-rules.md)
 
 # Dossiê de reexecução em dez partes
 
@@ -20,16 +20,16 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ### Estudos do dossiê
 
-- [A3](notes/memory-collapse-grid-64/analysis.md)
-- [A3_N128](notes/memory-collapse-grid-128/analysis.md)
-- [A3_N160](notes/memory-collapse-grid-160/analysis.md)
-- [QM1D](notes/one-dimensional-quantum-tests/analysis.md)
-- [CHSH](notes/bell-correlation-test/analysis.md)
-- [sidebands](notes/memory-and-spectral-sidebands/analysis.md)
-- [hotbath](notes/thermal-noise-and-collapse/analysis.md)
-- [tunnel_hist](notes/barrier-memory-and-tunneling/analysis.md)
-- [kstar](notes/dominant-spatial-scale/analysis.md)
-- [bravais](notes/lattice-detector-calibration/analysis.md)
+- [Memória e colapso · grade 64](notes/memory-collapse-grid-64/analysis.md)
+- [Memória e colapso · grade 128](notes/memory-collapse-grid-128/analysis.md)
+- [Memória e colapso · grade 160](notes/memory-collapse-grid-160/analysis.md)
+- [Diagnósticos em uma dimensão](notes/one-dimensional-quantum-tests/analysis.md)
+- [Correlações de Bell](notes/bell-correlation-test/analysis.md)
+- [Memória e bandas espectrais laterais](notes/memory-and-spectral-sidebands/analysis.md)
+- [Ruído térmico e colapso](notes/thermal-noise-and-collapse/analysis.md)
+- [Barreira, memória e tunelamento](notes/barrier-memory-and-tunneling/analysis.md)
+- [Escala espacial dominante](notes/dominant-spatial-scale/analysis.md)
+- [Resposta do detector de redes](notes/lattice-detector-calibration/analysis.md)
 
 [Cronologia](../../../docs/pt-BR/topics/timeline.md) · [← 35](../../structures/finite-peak-early-window/README.pt-BR.md) · [37 →](../../structures/a-pocket-in-the-field/README.pt-BR.md)
 
@@ -37,6 +37,14 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)
 
-Esta página organiza registros históricos. A presença de código não garante um ambiente completo de execução. Caminhos embutidos no código foram preservados; consulte as dependências antes de adaptar uma execução.
+Os arquivos mantêm a implementação e as condições registradas. Consulte a [auditoria das implementações](../../../docs/maintenance/author-rules-audit.md#português) para as diferenças documentadas e o registro de dependências abaixo antes de preparar uma nova execução.
 
 [Dependências e entradas ausentes](../../../provenance/t-archive/dependencies.pt-BR.md)
+
+## Notas da implementação
+
+Este dossiê preserva configurações documentadas com `alpha=Gamma=f_FDT=0` e comparações que zeram os acoplamentos de memória. Esses protocolos históricos não são o método para novos experimentos TRIAD. Seus parâmetros, previsões, resultados registrados e vereditos permanecem intactos. [Fonte, linha 10](notes/memory-collapse-grid-64/predictions-memory-collapse-grid-64.md).
+
+Aqui, calibração do detector significa medir pontuações de templates diante de redes e cascas sintéticas. O relatório registra explicitamente que não houve reajuste dos coeficientes da equação. Esse uso de calibração deve ser distinguido de ajustar o campo para obter um resultado escolhido. [Fonte, linha 1](notes/lattice-detector-calibration/analysis.md).
+
+[Auditoria estática completa e referências das fontes](../../../docs/maintenance/author-rules-audit.md).

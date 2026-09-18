@@ -9,6 +9,8 @@ The original numerical record is preserved independently of its old folder names
 | [Unresolved references](unresolved-document-links.json) | Missing or ambiguous historical links kept visible as text |
 | [Initial lab](initial-lab/README.md) | Baseline from commit `468d66d` |
 | [T.zip manifest](t-archive/manifest.json) | All acquisition entries, including excluded metadata and nested ZIP containers |
+| [Author-rules audit](../docs/maintenance/author-rules-audit.md) | Author-defined method, editorial corrections and static implementation findings |
+| [File coverage](author-rules-audit.json) | Every base-tree file, review method and source-linked findings from the 2026-09-18 audit |
 | [Layout audit](layout-audit.md) | Scope, classification, deduplication and verification limits |
 | [Runtime dependencies](t-archive/dependencies.md) | Missing inputs, historical paths and incomplete runtime infrastructure |
 

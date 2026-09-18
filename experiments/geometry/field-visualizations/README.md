@@ -1,12 +1,12 @@
 [Lab](../../../README.md) · **English** · [Português](README.pt-BR.md)
 
-[Geometry](../README.md) · [Glossary](../../../docs/en/glossary.md)
+[Geometry](../README.md) · [Glossary](../../../docs/en/glossary.md) · [Project rules](../../../docs/en/project-rules.md)
 
 # Field movies and visual readouts
 
 **What can a moving picture reveal about the field?**
 
-Six renderers and visual readouts turn field data into movies and views. The supplied HTML embeds its data. Several Python renderers require filmes_data.npz, which was not supplied.
+A simulation script records field snapshots, and five readers/renderers turn saved data into movies and derived views. The supplied HTML embeds its data. Several readers require filmes_data.npz, which was not supplied.
 
 ![Phase vortices in denser regions](../visual-comparisons/results/figures/phase-vortices-final-frame.png)
 
@@ -21,6 +21,12 @@ The still image is shared with the visual-comparison study; the index retains it
 
 [Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)
 
-This page organizes historical records. Code availability does not guarantee a complete execution environment. Paths embedded in source code were preserved; check dependencies before adapting a run.
+The files retain their recorded implementation and conditions. Read the [implementation audit](../../../docs/maintenance/author-rules-audit.md) for documented differences and the dependency record below before preparing a new execution.
 
 [Dependencies and missing inputs](../../../provenance/t-archive/dependencies.md)
+
+## Implementation notes
+
+The `som_e_luz.py` reader derives density, phase and spectral-band displays from saved snapshots. The separate `simula_filmes.py` script evolves a field and records snapshots. Preserve that distinction when presenting each image or movie. [Derived readouts](code/som_e_luz.py) · [Simulation and recording](code/simula_filmes.py).
+
+[Full static audit and source references](../../../docs/maintenance/author-rules-audit.md).

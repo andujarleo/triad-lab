@@ -1,6 +1,6 @@
 [Lab](../../../docs/pt-BR/README.md) · [English](README.md) · **Português**
 
-[Geometria](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md)
+[Geometria](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md) · [Regras do projeto](../../../docs/pt-BR/project-rules.md)
 
 # Escala própria
 
@@ -13,9 +13,9 @@ Executa a mesma equação em caixas L=24, 32 e 48 com dx=0.5 fixo e grades de 48
 A implementação original e saídas históricas da varredura estão incluídas. Consulte o índice completo abaixo.
 
 
-## Executar
+## Implementação preservada
 
-[Prepare o ambiente](../../../docs/pt-BR/getting-started.md) e execute da raiz do repositório.
+O comando abaixo chama a implementação preservada. Comece pelas [condições de execução](../../../docs/pt-BR/getting-started.md) e pela [auditoria das implementações](../../../docs/maintenance/author-rules-audit.md#português); mantenha novas saídas separadas do registro original. Execute da raiz do repositório em uma cópia de trabalho.
 
 ```sh
 MPLBACKEND=Agg python experiments/geometry/scale-sweep/code/pt-BR/bravais_sweep_L.py

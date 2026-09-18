@@ -2,6 +2,7 @@
 import base64
 import hashlib
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -59,6 +60,27 @@ class SiteExportTests(unittest.TestCase):
         self.assertEqual(question, 'What does rho_f show?')
         self.assertEqual(summary, 'Recorded density from this run.')
         self.assertEqual(extract_intro('# History\n\nRecorded attempt; no new run.\n\n![plot](plot.png)'), ('', 'Recorded attempt; no new run.'))
+
+    def test_published_templates_export_the_authored_question_and_summary(self):
+        variants = [
+            ('README.md', 'The question', 'What was done', 'How does the field evolve?', 'Recorded **density** from `rho_f`.'),
+            ('README.pt-BR.md', 'A pergunta', 'O que foi feito', 'Como o campo evolui?', 'Densidade **registrada** em `rho_f`.'),
+        ]
+        for filename, question_heading, summary_heading, question, summary in variants:
+            document = (ROOT / 'templates/experiment' / filename).read_text()
+            for heading, replacement in ((question_heading, question), (summary_heading, summary)):
+                document, replaced = re.subn(
+                    rf'(^## {re.escape(heading)}\n\n).*?(?=^## |\Z)',
+                    lambda match: match[1] + replacement + '\n\n',
+                    document, count=1, flags=re.MULTILINE | re.DOTALL,
+                )
+                self.assertEqual(replaced, 1, f'Missing published template section: {heading}')
+            with self.subTest(language=filename):
+                self.assertEqual(extract_intro(document), (question, summary.replace('**', '').replace('`', '')))
+
+    def test_sectioned_study_cannot_use_copy_instructions_as_its_summary(self):
+        document = '# Study\n\nCopy this template.\n\n## The question\n\nHow does memory evolve?\n'
+        self.assertEqual(extract_intro(document), ('How does memory evolve?', ''))
 
     def test_catalog_export_includes_every_study_and_byte_exact_images(self):
         catalog = json.loads((ROOT / 'experiments/catalog.json').read_text())

@@ -2,7 +2,7 @@
 
 # Fields, shapes and scales
 
-Start with the field, then choose a way to measure it. Each group below keeps code and results with its study.
+Start with the field, then choose a way to measure it. Each group below keeps code and results with its study. TRIAD reads crystallization as dynamic organization, without calibrating the field externally to obtain a selected lattice. Historical studies keep their recorded configurations; new executions follow the [project rules](../project-rules.md).
 
 - [2D field explorations](../../../experiments/geometry/field-2d/README.md)
 - [Emergent 3D field](../../../experiments/geometry/field-3d/README.md)

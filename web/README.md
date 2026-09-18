@@ -2,7 +2,9 @@
 
 [Public lab](https://andujarleo.github.io/triad-lab/) · [Português](https://andujarleo.github.io/triad-lab/?lang=pt-BR) · [Repository](../README.md) · [Data contract](../docs/maintenance/site-data.md)
 
-The public site introduces the author’s ontological proposal, makes every catalogued study searchable and lets readers inspect spatial slices of two saved density volumes. It uses the original research archive as its source. Building or browsing it does not execute the TRIAD equation.
+The public site presents TRIAD as Leonardo Andujar’s nonstandard quantum physics and ontology, makes every catalogued study searchable and lets readers inspect spatial slices of two saved density volumes. It uses the original research archive as its source. Building or browsing it does not execute the TRIAD equation.
+
+The [project rules](../docs/en/project-rules.md) describe one immutable, indivisible equation and the author’s own methodology. P1 is oscillation; P2 is self-reference, including present self-interaction and memory; P3 is coupling. Present the terms together and self-organization without external calibration. Equilibrium and crystallization name dynamic organization. Revisions of reference documents and implementations describe records of the same equation; historical material remains attached to its actual execution conditions.
 
 ## Build locally
 
@@ -23,19 +25,19 @@ Rebuild after changing source files. The builder checks its manifest before repl
 
 ## Source map
 
-| File | Responsibility |
-|---|---|
-| [index.html](index.html) | Page structure and semantic controls |
-| [styles.css](styles.css) | Responsive presentation, focus states and reduced motion |
-| [content.js](content.js) | English and Portuguese interface text and concept panels |
-| [app.js](app.js) | Startup, language selection, navigation and URL state |
-| [atlas.js](atlas.js) | Search, area/material filters and study cards |
-| [field.js](field.js) | Saved-density slices, display scales and cell inspection |
+| File                                    | Responsibility                                                 |
+| --------------------------------------- | -------------------------------------------------------------- |
+| [index.html](index.html)                | Page structure and semantic controls                           |
+| [styles.css](styles.css)                | Responsive presentation, focus states and reduced motion       |
+| [content.js](content.js)                | English and Portuguese interface text and concept panels       |
+| [app.js](app.js)                        | Startup, language selection, navigation and URL state          |
+| [atlas.js](atlas.js)                    | Search, area/material filters and study cards                  |
+| [field.js](field.js)                    | Saved-density slices, display scales and cell inspection       |
 | [build_site.py](../tools/build_site.py) | Export catalog records, source images and saved density arrays |
 
 ## Data and provenance
 
-Study cards come from [catalog.json](../experiments/catalog.json) and the opening text of each study’s bilingual README. The builder selects an existing PNG linked from those pages, copies its bytes and names it by SHA-256. A card without a selected preview remains searchable.
+Study cards come from [catalog.json](../experiments/catalog.json) and the text of each study’s bilingual README. The published templates provide the question in **The question / A pergunta** and the summary in the first paragraph of **What was done / O que foi feito**. The builder also retains support for existing opening bold questions followed by prose. Template comments are not exported; a missing summary is a build error. The builder selects an existing PNG linked from those pages, copies its bytes and names it by SHA-256. A card without a selected preview remains searchable.
 
 The field viewer reads `rho_f` from these historical NPZ files:
 
@@ -67,8 +69,8 @@ The [Pages workflow](../.github/workflows/pages.yml) runs preservation checks, P
 
 ## Português
 
-O site apresenta a proposta, organiza o atlas e permite examinar cortes espaciais de dados preservados. O código está dividido entre estrutura, estilo, conteúdo bilíngue, navegação, busca e visualizador. O build gera **`_site/`**, ignorado pelo Git; use essa pasta para a prévia local.
+O site apresenta a TRIAD como física quântica não padrão e ontologia de Leonardo Andujar, organiza o atlas e permite examinar cortes espaciais de dados preservados. O código está dividido entre estrutura, estilo, conteúdo bilíngue, navegação, busca e visualizador. O build gera **`_site/`**, ignorado pelo Git; use essa pasta para a prévia local.
 
-Os cartões vêm do catálogo e dos READMEs dos estudos. Imagens mantêm os bytes originais; volumes mantêm os valores registrados e os hashes dos arquivos de origem. O controle de posição atravessa espaço, não tempo. A [referência v1.1](../docs/reference/equation/README.md) não é atribuída retroativamente a esses estados históricos.
+Os cartões vêm do catálogo e dos READMEs dos estudos. Imagens mantêm os bytes originais; volumes mantêm os valores registrados e os hashes dos arquivos de origem. O controle de posição atravessa espaço, não tempo. A [revisão 1.1 do documento de referência](../docs/reference/equation/README.md) registra a mesma equação imutável. Documentos, implementações e execuções históricas mantêm sua proveniência; não são versões da equação. As [regras do projeto](../docs/pt-BR/project-rules.md) orientam a apresentação da dinâmica completa, da auto-organização sem calibração externa e do equilíbrio e cristalização dinâmicos.
 
 Para ampliar o site, use os comandos acima e siga os pontos de extensão: novo estudo pelo catálogo, novo idioma nas páginas e nos módulos de conteúdo/navegação, nova interação em módulo próprio com contrato de dados e testes. [Guia de contribuição em português](../docs/pt-BR/contributing.md).

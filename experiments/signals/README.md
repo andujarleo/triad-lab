@@ -15,6 +15,6 @@
 | [Responses to perturbations](perturbation-tests/README.md) | ✓ | — | ✓ |
 | [Fields initialized from WiFi scans](wifi-input/README.md) | ✓ | — | — |
 
-✓ indicates available material, not validation of a hypothesis or a complete execution environment.
+✓ marks files available in this repository. Each study documents its execution conditions and dependencies.
 
 [All areas](../README.md)

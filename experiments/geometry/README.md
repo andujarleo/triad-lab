@@ -21,6 +21,6 @@
 | [Field movies and visual readouts](field-visualizations/README.md) | ✓ | — | ✓ |
 | [A catalogue of strings](string-catalogue/README.md) | ✓ | — | — |
 
-✓ indicates available material, not validation of a hypothesis or a complete execution environment.
+✓ marks files available in this repository. Each study documents its execution conditions and dependencies.
 
 [All areas](../README.md) · [Area guide](../../docs/en/topics/bravais.md)

@@ -4,7 +4,7 @@
 
 TRIAD begins with Leonardo Andujar’s hypothesis that a single equation describes the deepest layer of the universe. Matter, interactions and what we experience as reality would emerge from that underlying dynamics. The proposal includes the idea that we live in a simulation.
 
-This is the starting point of an independent lab in **nonstandard quantum physics and ontology**. Ontology asks what exists and what it is made of. TRIAD approaches that question through a field that evolves, carries its history and responds to that history.
+**TRIAD is nonstandard quantum physics, with an ontological foundation.** Ontology asks what exists and what it is made of. The project’s equation is unique, immutable and indivisible; the lab explores its complete dynamics through implementations and recorded trajectories.
 
 > “O que a dinâmica faz é o que a coisa é.”
 >
@@ -26,6 +26,10 @@ flowchart LR
 
 [Atom](glossary.md#atom) · [Vibration and friction](glossary.md#vibration-and-friction) · [Frequency and sound](glossary.md#frequency-and-sound) · [Energy and light](glossary.md#energy-and-light)
 
+## Three inseparable principles
+
+**P1 is oscillation. P2 is self-reference, both instantaneous and through memory. P3 is coupling.** They describe the complete system together. Focus, memory and bath are operational aspects of that dynamics, not replacements for the principles.
+
 ## The dynamics we can inspect
 
 | Together | In the field |
@@ -42,7 +46,9 @@ V_mem = Σ_j λ_j y_j
 ∂_t y_j = ν_j (|Ψ|² − y_j)
 ```
 
-The [current reference, version 1.1](../reference/equation/README.md), states the rule of the complete equation. New work under that edition keeps the dynamics together, with memory and bath active. Historical studies retain the parameters and implementations with which they were recorded.
+The [reference-document index](../reference/equation/README.md) preserves revisions labeled v1.0 and v1.1. These are revisions of the documentation, not of the equation. A TRIAD execution keeps the complete dynamics active; historical records with disabled terms remain explicitly historical records.
+
+The system self-organizes without external calibration toward a desired result. Crystallization is dynamic: patterns can oscillate, redistribute and reorganize. A fixed crystal is not the target imposed on the field. The [project rules](project-rules.md) connect this reading to technical verification.
 
 ## From a large hypothesis to a readable experiment
 
@@ -52,8 +58,8 @@ The [memory-and-bounce study](../../experiments/memory/memory-and-bounce/README.
 
 Each page connects **the question**, **the implementation** and **the recorded outcome**. This gives the broader proposal somewhere concrete to develop, including when a structure fades or a diagnostic remains inconclusive.
 
-## A vocabulary still taking shape
+## The principles and finitude
 
-The author also writes the idea as **P1 + P2 + P3**, associated with a finite amount of something in the universe. The current reference names **P2 as memory** and **P3 as bath**. It does not define P1 or the quantity being summed. Those definitions remain open in the [vocabulary](glossary.md#p1-p2-p3-and-finitude); the lab does not assign them an invented unit or conservation law.
+The author also writes the idea as **P1 + P2 + P3**, associated with finitude in the universe. The principles are defined: oscillation, self-reference and coupling. A numerical unit or conserved total for that expression is not supplied by this introduction. The [vocabulary](glossary.md#p1-p2-p3-and-finitude) keeps the principle definitions separate from quantities that a particular study measures.
 
 Read [why this lab exists](author.md), take the [five-minute tour](start-here.md), or open the [research journal](journal.md) to follow what is being developed next.

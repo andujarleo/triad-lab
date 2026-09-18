@@ -2,7 +2,7 @@
 
 # Diagnósticos do campo
 
-Esta é a sequência histórica de diagnósticos QM dentro da TRIAD. Os protocolos e vereditos originais foram preservados. A proposta de física quântica não padrão é apresentada pela dinâmica completa e pela leitura operacional do autor; estes testes não a substituem. [Entenda a TRIAD](../../docs/pt-BR/triad.md).
+TRIAD é física quântica não padrão, com metodologia própria. Esta área preserva a sequência histórica de diagnósticos QM, com seus protocolos originais e vereditos registrados. Leia esses diagnósticos nas condições declaradas, junto às [regras do projeto](../../docs/pt-BR/project-rules.md). [Entenda a TRIAD](../../docs/pt-BR/triad.md).
 
 **Como testar a consistência, os modos e a resposta do campo?**
 
@@ -15,6 +15,6 @@ Esta é a sequência histórica de diagnósticos QM dentro da TRIAD. Os protocol
 | [Modos e subespaços do campo](field-modes/README.pt-BR.md) | ✓ | ✓ | ✓ |
 | [Testando a linearidade](linearity-tests/README.pt-BR.md) | ✓ | ✓ | ✓ |
 
-✓ indica material disponível, não uma validação da hipótese ou um ambiente completo de execução.
+✓ marca arquivos disponíveis neste repositório. Cada estudo documenta suas condições de execução e dependências.
 
 [Todas as áreas](../README.pt-BR.md) · [Guia da área](../../docs/pt-BR/topics/quantum.md)

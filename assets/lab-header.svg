@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="TRIAD LAB: FOCUS / MEMORY / BATH">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="TRIAD LAB: OSCILLATION / SELF-REFERENCE / COUPLING">
 <rect width="1280" height="300" rx="20" fill="#101e2b"/>
 <g fill="none" stroke="#3cc7b5" stroke-width="1.5" opacity=".5"><circle cx="1070" cy="148" r="96"/><circle cx="990" cy="148" r="96"/><circle cx="1030" cy="214" r="96"/><path d="M894 148h272M1030 52v226" stroke-dasharray="3 8"/></g>
 <g fill="#f3bd76"><circle cx="1030" cy="148" r="6"/><circle cx="1070" cy="148" r="4"/><circle cx="990" cy="148" r="4"/></g>
 <text x="64" y="65" fill="#60d5c4" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">NONSTANDARD QUANTUM PHYSICS</text>
 <text x="60" y="163" fill="#f5f7f8" font-family="Arial,sans-serif" font-size="82" font-weight="700" letter-spacing="-2">TRIAD LAB</text>
-<text x="65" y="228" fill="#bacbd6" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">FOCUS / MEMORY / BATH</text>
+<text x="65" y="228" fill="#bacbd6" font-family="Arial,sans-serif" font-size="17" letter-spacing="1.4">OSCILLATION / SELF-REFERENCE / COUPLING</text>
 </svg>

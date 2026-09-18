@@ -1,18 +1,20 @@
 **English** · [Português](../../pt-BR/topics/timeline.md) · [Collection](../history.md)
 
-# A chronology of 39 runs
+# A chronology of 39 research records
 
-The original numbering is preserved. It includes early explorations, a transition to the reference equation, solver runs, post-processing and later studies. Each entry leads to the historical note and the artifacts actually supplied in the ZIP.
+The original numbering is preserved. It follows explorations, documentation, implementations, solver runs, post-processing and later studies. These are records of work, not successive forms of the TRIAD equation, which is immutable. Each entry leads to the historical note and the artifacts actually supplied in the ZIP.
 
-| Stage | Runs | Reading |
+Four entries have notes but no supplied run artifacts. Historical configurations keep their own settings, including any disabled terms; they are not instructions for new complete-equation TRIAD experiments. [Project rules](../project-rules.md).
+
+| Stage | Records | Reading |
 |---|---|---|
-| Early explorations | 01–13 | Setups preceding the strict reference. |
-| Reference and atlas | 14–18 | R5 attempts and visual diagnostics. |
+| Early explorations | 01–13 | Early documented setups and implementations. |
+| Reference documents and atlas | 14–18 | R5 attempts and visual diagnostics. |
 | Solver and geometry | 19–26 | Bath, bounce, propagation and networks. |
 | Atoms and nested structures | 27–35 | Trajectories, identity and early windows. |
 | Dossier and maps | 36–39 | Recorded reruns and field observation. |
 
-| Run | Question and record | Material |
+| Record | Question and record | Material |
 |---|---|---|
 | 01 | [Early field relations](../../../experiments/relations/early-field-relations/README.md) | Note + artifacts |
 | 02 | [NLS, memory and FDT](../../../experiments/memory/memory-and-thermal-noise/README.md) | Note + artifacts |

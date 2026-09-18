@@ -63,18 +63,32 @@ def plain_text(value: str) -> str:
     return ' '.join(html.unescape(value).split())
 
 
+def intro_paragraphs(text: str) -> list[str]:
+    """Keep authored paragraphs; template guidance may live in HTML comments."""
+    text = re.sub(r'<!--.*?-->', '', text, flags=re.DOTALL)
+    return [part.strip() for part in re.split(r'\n\s*\n', text) if part.strip()]
+
+
+def first_prose(paragraphs: list[str]) -> str:
+    return next((plain_text(part) for part in paragraphs if not part.startswith(('#', '![', '[', '-', '|', '```', '<'))), '')
+
+
 def extract_intro(document: str) -> tuple[str, str]:
-    """Use the opening question when explicit; never infer one from a result."""
+    """Read a recorded introduction or the published EN/PT study template."""
     heading = re.search(r'^# .+$', document, re.MULTILINE)
     if heading is None:
         return '', ''
-    opening = re.split(r'^## ', document[heading.end():], maxsplit=1, flags=re.MULTILINE)[0]
-    paragraphs = [part.strip() for part in re.split(r'\n\s*\n', opening) if part.strip()]
+    parts = re.split(r'^##[ \t]+(.+?)[ \t]*$', document[heading.end():], flags=re.MULTILINE)
+    sections = {parts[i].casefold(): parts[i + 1] for i in range(1, len(parts), 2)}
+    question_section = next((sections[key] for key in ('the question', 'a pergunta') if key in sections), None)
+    if question_section is not None:
+        summary_section = next((sections[key] for key in ('what was done', 'o que foi feito') if key in sections), '')
+        return first_prose(intro_paragraphs(question_section)), first_prose(intro_paragraphs(summary_section))
+    paragraphs = intro_paragraphs(parts[0])
     question = ''
     if paragraphs and re.fullmatch(r'\*\*.+\*\*', paragraphs[0], re.DOTALL):
         question = plain_text(paragraphs.pop(0))
-    summary = next((plain_text(part) for part in paragraphs if not part.startswith(('#', '![', '[', '-', '|', '```', '<'))), '')
-    return question, summary
+    return question, first_prose(paragraphs)
 
 
 def load_field(root: Path, spec: dict) -> dict:

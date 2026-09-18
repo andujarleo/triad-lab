@@ -64,10 +64,12 @@ function renderConcepts() {
 function renderLanguage() {
   const t = translate();
   document.documentElement.lang = lang;
-  document.title =
-    lang === "en"
-      ? "TRIAD Lab · A different question about reality"
-      : "TRIAD Lab · Outra pergunta sobre a realidade";
+  document.title = t.pageTitle;
+  document.querySelector('meta[name="description"]').content =
+    t.pageDescription;
+  document.querySelector('meta[property="og:title"]').content = t.pageTitle;
+  document.querySelector('meta[property="og:description"]').content =
+    t.pageDescription;
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const value = t[element.dataset.i18n];
     if (typeof value === "string") element.textContent = value;

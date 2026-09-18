@@ -1,6 +1,6 @@
 [Lab](../../../docs/pt-BR/README.md) · [English](README.md) · **Português**
 
-[Memória](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md)
+[Memória](../README.pt-BR.md) · [Glossário](../../../docs/pt-BR/glossary.md) · [Regras do projeto](../../../docs/pt-BR/project-rules.md)
 
 # Memória com amplitude pequena
 
@@ -24,6 +24,12 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 [Índice completo dos materiais](FILES.md) · [Guia técnico](../../../docs/pt-BR/research-guide.md)
 
-Esta página organiza registros históricos. A presença de código não garante um ambiente completo de execução. Caminhos embutidos no código foram preservados; consulte as dependências antes de adaptar uma execução.
+Os arquivos mantêm a implementação e as condições registradas. Consulte a [auditoria das implementações](../../../docs/maintenance/author-rules-audit.md#português) para as diferenças documentadas e o registro de dependências abaixo antes de preparar uma nova execução.
 
 [Dependências e entradas ausentes](../../../provenance/t-archive/dependencies.pt-BR.md)
+
+## Notas da implementação
+
+O runner tem `ALPHA=0` e dois modos de memória, com banho ativo (`GAMMA=0.01`, `T_BATH=0.001`). O ramo fracionário está desligado nesta implementação; o nome histórico não substitui esses valores declarados. [Fonte, linha 2](code/simulate_memory_small_amplitude.py).
+
+[Auditoria estática completa e referências das fontes](../../../docs/maintenance/author-rules-audit.md).

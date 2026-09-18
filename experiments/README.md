@@ -4,6 +4,8 @@
 
 65 studies organized into eight areas. Each page connects context, files and known limits. T01–T39 keeps the historical order; topics help you find what interests you now.
 
+The studies belong to TRIAD’s research archive. Start with its [identity and method](../docs/en/project-rules.md); each record keeps its own implementation and conditions.
+
 | Area | Question | Studies |
 |---|---|---|
 | [Relations](relations/README.md) | What changes when things interact? | 7 |

@@ -14,6 +14,6 @@
 | [Relações de observação em um campo](observer-and-observed/README.pt-BR.md) | — | ✓ | ✓ |
 | [Campo contínuo de relações](continuous-relational-field/README.pt-BR.md) | — | ✓ | ✓ |
 
-✓ indica material disponível, não uma validação da hipótese ou um ambiente completo de execução.
+✓ marca arquivos disponíveis neste repositório. Cada estudo documenta suas condições de execução e dependências.
 
 [Todas as áreas](../README.pt-BR.md)

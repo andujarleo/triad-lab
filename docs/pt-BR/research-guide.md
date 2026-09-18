@@ -2,9 +2,9 @@
 
 # Examine o experimento por trás da figura
 
-Comece pela [proposta e leitura operacional da TRIAD](triad.md). Esta pesquisa se apresenta como física quântica não padrão; o papel dos diagnósticos históricos precisa ser lido dentro desse contexto.
+Comece pela [identidade e leitura operacional da TRIAD](triad.md) e pelas [regras do projeto](project-rules.md). A TRIAD é física quântica não padrão. Sua metodologia lê a dinâmica completa e acoplada; os diagnósticos históricos não definem essa identidade.
 
-Para novas execuções, declare a [edição da equação](../reference/equation/README.md) e a revisão da implementação. A referência vigente 1.1 especifica a dinâmica completa; os controles históricos mantêm seu contexto original. O índice de edições também registra diferenças ainda não conciliadas dentro da especificação fornecida.
+Para novas execuções, declare a [revisão do documento de referência](../reference/equation/README.md), a revisão da implementação e a configuração. A equação é única, imutável e indivisível. Os controles históricos mantêm seu contexto original; configurações com termos desligados não são renomeadas como execuções completas da TRIAD. O índice registra diferenças na escrita recebida, não versões da equação.
 
 Comece pela pergunta do estudo e pelo **FILES.md**, depois siga protocolo → configuração → código → resultado registrado → interpretação. O [catálogo JSON](../../experiments/catalog.json) lista os 65 estudos, suas páginas bilíngues e cada arquivo original associado.
 
@@ -30,7 +30,7 @@ git lfs pull
 python3 tools/check_repository.py
 ```
 
-A checagem valida arquivos preservados, transformações de documentos, associações do catálogo e links locais. Não executa scripts históricos. Registre adaptações de caminho, dependência, equação ou parâmetro como uma mudança separada e publique as saídas como uma nova execução.
+A checagem valida arquivos preservados, transformações de documentos, associações do catálogo e links locais. Não executa scripts históricos. Registre mudanças de implementação, caminho, dependência ou configuração declarada separadamente e publique suas saídas como novas execuções. A equação não é adaptada para obter um resultado alvo; nenhum termo é desligado. Diagnósticos numéricos examinam a dinâmica completa e permanecem ligados à execução específica.
 
 [Cronologia](topics/timeline.md) · [Inspeção das fontes](../../provenance/t-archive/inspection.json) · [Política de preservação](../../provenance/README.md) · [Modelo de novo estudo](../../templates/experiment/README.pt-BR.md)
 

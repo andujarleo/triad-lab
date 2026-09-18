@@ -2,7 +2,7 @@
 
 # Find your way around
 
-The [interactive lab](https://andujarleo.github.io/triad-lab/) is the public entrance. The repository connects that view to study files, reference editions and the records behind each image.
+The [interactive lab](https://andujarleo.github.io/triad-lab/) is the public entrance. The repository connects that view to study files, reference documents and the records behind each image.
 
 ```text
 README.md                         A short entrance for any reader
@@ -20,9 +20,9 @@ experiments/
       results/logs/               Execution records
       variants/<name>/code/       Distinct implementations, when needed
   catalog.json                    Complete machine-readable catalog
-docs/en/ · docs/pt-BR/            Tours, glossary and technical guides
+docs/en/ · docs/pt-BR/            Tours, glossary, project rules and technical guides
 docs/reference/
-  equation/                       Current v1.1 reference and edition index
+  equation/                       Reference documents v1.0/v1.1 and their history
   concepts/ · records/ · solver/   Original research sources
 provenance/                       Origins, path map, hashes and audit
 templates/                        New studies and run records
@@ -38,7 +38,7 @@ Folders are created only when there is material for them. A note-only attempt is
 
 **A payload has one storage location.** If identical bytes appeared in multiple bundles, their study indexes link to that same file. The catalog retains every original association. Files with the same name but different bytes remain separate; descriptive variant names or separate output bundles distinguish them. Hashes remain in the provenance ledger, without implying a version order.
 
-Existing translated code remains in `code/en/` and `code/pt-BR/`. New translations add documentation, not copies of numerical code. Original scripts still contain their historical input and output paths; [execution guidance](getting-started.md) explains what can be run directly.
+Existing translated code remains in `code/en/` and `code/pt-BR/`. New translations add documentation, not copies of numerical code. Original scripts still contain their historical input and output paths; [execution guidance](getting-started.md) separates inspecting saved data from preparing a new execution under the project rules.
 
 [All studies](../../experiments/README.md) · [Old-to-new path map](../../provenance/layout-migration.json) · [Contributing](contributing.md)
 
@@ -46,7 +46,7 @@ Existing translated code remains in `code/en/` and `code/pt-BR/`. New translatio
 
 [Website source](../../web/README.md) describes the build, preview and language/module extensions. The generated `_site/` folder is disposable output; original research stays under `experiments/`. The [data contract](../maintenance/site-data.md) specifies how saved arrays and images reach the viewer.
 
-The [equation edition index](../reference/equation/README.md) links the current v1.1 and preserved v1.0. The [author page](author.md), [vocabulary](glossary.md) and [journal](journal.md) provide the context for new readers.
+The [reference-document index](../reference/equation/README.md) links the texts labeled v1.1 and v1.0. Those are document revisions; the equation is immutable. The [project rules](project-rules.md), [author page](author.md), [vocabulary](glossary.md) and [journal](journal.md) provide the context for new readers.
 
 ## A real example
 

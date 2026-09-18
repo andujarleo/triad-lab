@@ -1,19 +1,25 @@
 export const copy = {
   en: {
+    pageTitle: "TRIAD Lab · Nonstandard physics and ontology",
+    pageDescription:
+      "Explore TRIAD: nonstandard quantum physics and ontology through one immutable, indivisible equation, original records and a living experiment atlas.",
+    projectRules: "Read the project’s rules and methodology ↗",
+    referenceRevision: "Document 1.1 ↗",
     skip: "Skip to content",
     homeLabel: "TRIAD Lab home",
     languageLabel: "Language",
-    triadLabel: "Focus, memory and bath acting together",
+    triadLabel:
+      "P1 oscillation, P2 self-reference and P3 coupling, acting together",
     navIdea: "The idea",
     navAtlas: "The atlas",
     navField: "Inside a field",
     heroEyebrow: "An independent, living laboratory",
     heroTitle: "What if one equation underlies reality?",
     heroIntro:
-      "TRIAD explores a hypothesis about the deepest layer of the universe — through focus, memory and bath acting together.",
+      "TRIAD is Leonardo Andujar’s nonstandard quantum physics and ontology. One immutable, indivisible equation, with all its terms acting together.",
     explore: "Explore the studies",
     meet: "Meet the idea ↓",
-    heroCredit: "A proposal by Leonardo Andujar · Nonstandard quantum physics",
+    heroCredit: "Leonardo Andujar · Nonstandard quantum physics and ontology",
     figureLabel: "FROM THE ARCHIVE / 3D FIELD",
     figureCaption:
       "Opposite phase windings, made visible. An original recorded visualization.",
@@ -27,17 +33,17 @@ export const copy = {
     ideaLead: "What we call matter may be an expression of a deeper dynamic.",
     readProposal: "Read the full proposal ↗",
     ideaBody:
-      "TRIAD is Leonardo Andujar’s ontological proposal: an investigation into whether one fundamental equation could underlie the universe, including the hypothesis that reality is a simulation.",
+      "The central hypothesis of TRIAD places one immutable equation at the deepest layer of the universe, including the hypothesis that reality is a simulation. The lab follows the author’s own structural and ontological methodology.",
     ideaBody2:
-      "The laboratory makes that exploration inspectable. The author’s interpretation, the numerical implementation and the recorded outcome each have a place.",
-    focus: "Focus",
-    focusCopy: "Concentration within the field.",
-    memory: "Memory",
-    memoryCopy: "A history that acts back.",
-    bath: "Bath",
-    bathCopy: "Excitation and dissipation in the same dynamics.",
+      "In TRIAD, self-calibration leads from chaos to dynamic equilibrium, without external calibration. Crystallization describes an organization that continues to evolve. Each study connects its declared conditions to the behavior actually recorded.",
+    focus: "P1 · Oscillation",
+    focusCopy: "Persistence through intrinsic oscillation.",
+    memory: "P2 · Self-reference",
+    memoryCopy: "Present self-interaction and memory act together.",
+    bath: "P3 · Coupling",
+    bathCopy: "Continuous coupling through dissipation and excitation.",
     whole:
-      "One complete system. The current reference keeps the equation’s terms together.",
+      "One immutable, indivisible equation. All terms remain together throughout the evolution.",
     vocabLabel: "WORDS, IN TRIAD’S OWN SENSE",
     vocabLink: "Explore the vocabulary ↗",
     atlasIndex: "02 / THE EXPERIMENT ATLAS",
@@ -57,7 +63,7 @@ export const copy = {
     notesOnly: "Notes only",
     reset: "Reset",
     loading: "Opening the archive…",
-    availabilityNote: "Material availability, not a verdict on the hypothesis.",
+    availabilityNote: "Labels show which materials are available.",
     emptyTitle: "No studies match this view.",
     emptyCopy: "Try a broader word or clear a filter to reopen the atlas.",
     loadMore: "Show more studies ↓",
@@ -89,11 +95,11 @@ export const copy = {
     inspect: "Point at a cell or focus the image and use the arrow keys.",
     canvasLabel: "Density slice. Use arrow keys to inspect neighboring cells.",
     referenceIndex: "04 / THE LAW & ITS RECORD",
-    referenceTitle: "The complete equation.\nAn accessible record.",
+    referenceTitle: "One immutable equation.\nIts documentation.",
     referenceCopy:
-      "Go from the proposal to the mathematical specification, then to the methods and files behind each study.",
-    equationLabel: "Equation reference",
-    equationNote: "Current edition + preserved version history",
+      "The reference document records the same equation. Follow its documentation, project rules and the methods and files behind each study.",
+    equationLabel: "Equation reference document",
+    equationNote: "Document revisions and preserved records",
     technicalLabel: "Research guide",
     technicalNote: "Methods, provenance and recorded outcomes",
     runLabel: "Run or inspect a study",
@@ -108,20 +114,26 @@ export const copy = {
     footerCopy: "The idea stays connected to its records.",
   },
   "pt-BR": {
+    pageTitle: "TRIAD Lab · Física não padrão e ontologia",
+    pageDescription:
+      "Explore a TRIAD: física quântica não padrão e ontologia por uma equação imutável e indivisível, registros originais e um atlas vivo de experimentos.",
+    projectRules: "Ler as regras e a metodologia do projeto ↗",
+    referenceRevision: "Documento 1.1 ↗",
     skip: "Ir para o conteúdo",
     homeLabel: "Página inicial do TRIAD Lab",
     languageLabel: "Idioma",
-    triadLabel: "Foco, memória e banho agindo juntos",
+    triadLabel:
+      "P1 oscilação, P2 autorreferência e P3 acoplamento, agindo juntos",
     navIdea: "A ideia",
     navAtlas: "O atlas",
     navField: "Dentro do campo",
     heroEyebrow: "Um laboratório independente e vivo",
     heroTitle: "E se uma equação fosse a base da realidade?",
     heroIntro:
-      "A TRIAD explora uma hipótese sobre a camada mais profunda do universo — pela ação conjunta de foco, memória e banho.",
+      "A TRIAD é a física quântica não padrão e a ontologia de Leonardo Andujar. Uma equação imutável e indivisível, com todos os termos atuando juntos.",
     explore: "Explorar os estudos",
     meet: "Conhecer a ideia ↓",
-    heroCredit: "Uma proposta de Leonardo Andujar · Física quântica não padrão",
+    heroCredit: "Leonardo Andujar · Física quântica não padrão e ontologia",
     figureLabel: "DO ACERVO / CAMPO 3D",
     figureCaption:
       "Voltas de fase em sentidos opostos, tornadas visíveis. Uma visualização original registrada.",
@@ -136,17 +148,17 @@ export const copy = {
       "O que chamamos de matéria pode ser a expressão de uma dinâmica mais profunda.",
     readProposal: "Ler a proposta completa ↗",
     ideaBody:
-      "A TRIAD é a proposta ontológica de Leonardo Andujar: uma investigação sobre a possibilidade de uma equação fundamental estar na base do universo, incluindo a hipótese de que a realidade seja uma simulação.",
+      "A hipótese central da TRIAD situa uma equação imutável na camada mais profunda do universo, incluindo a hipótese de que a realidade seja uma simulação. O lab segue a metodologia estrutural e ontológica própria do autor.",
     ideaBody2:
-      "O laboratório permite acompanhar essa exploração. A interpretação do autor, a implementação numérica e o resultado registrado têm seu lugar.",
-    focus: "Foco",
-    focusCopy: "Concentração dentro do campo.",
-    memory: "Memória",
-    memoryCopy: "Uma história que age de volta.",
-    bath: "Banho",
-    bathCopy: "Excitação e dissipação na mesma dinâmica.",
+      "Na TRIAD, a autocalibração conduz do caos ao equilíbrio dinâmico, sem calibração externa. A cristalização descreve uma organização que continua evoluindo. Cada estudo liga suas condições declaradas ao comportamento registrado.",
+    focus: "P1 · Oscilação",
+    focusCopy: "Persistência por oscilação intrínseca.",
+    memory: "P2 · Autorreferência",
+    memoryCopy: "Autointeração presente e memória atuam juntas.",
+    bath: "P3 · Acoplamento",
+    bathCopy: "Acoplamento contínuo por dissipação e excitação.",
     whole:
-      "Um sistema completo. A referência vigente mantém os termos da equação juntos.",
+      "Uma equação imutável e indivisível. Todos os termos permanecem juntos ao longo da evolução.",
     vocabLabel: "PALAVRAS NO SENTIDO DA TRIAD",
     vocabLink: "Explorar o vocabulário ↗",
     atlasIndex: "02 / O ATLAS DE EXPERIMENTOS",
@@ -166,8 +178,7 @@ export const copy = {
     notesOnly: "Somente notas",
     reset: "Limpar",
     loading: "Abrindo o acervo…",
-    availabilityNote:
-      "Disponibilidade de material, não um veredito sobre a hipótese.",
+    availabilityNote: "Os rótulos indicam quais materiais estão disponíveis.",
     emptyTitle: "Nenhum estudo corresponde a esta busca.",
     emptyCopy:
       "Tente uma palavra mais ampla ou remova um filtro para reabrir o atlas.",
@@ -201,11 +212,11 @@ export const copy = {
     canvasLabel:
       "Fatia de densidade. Use as setas para examinar células vizinhas.",
     referenceIndex: "04 / A LEI E SEUS REGISTROS",
-    referenceTitle: "A equação completa.\nUm registro acessível.",
+    referenceTitle: "Uma equação imutável.\nSua documentação.",
     referenceCopy:
-      "Da proposta à especificação matemática, seguindo até os métodos e arquivos de cada estudo.",
-    equationLabel: "Referência da equação",
-    equationNote: "Edição vigente e histórico preservado",
+      "O documento de referência registra a mesma equação. Acompanhe sua documentação, as regras do projeto e os métodos e arquivos de cada estudo.",
+    equationLabel: "Documento de referência da equação",
+    equationNote: "Revisões do documento e registros preservados",
     technicalLabel: "Guia técnico",
     technicalNote: "Métodos, proveniência e resultados registrados",
     runLabel: "Executar ou examinar um estudo",
@@ -224,37 +235,37 @@ export const concepts = {
   en: [
     [
       "Atom",
-      "In the author’s operational vocabulary, a Gaussian seed is read as an atom. The wider proposal treats what we call matter as dynamics; this use of “atom” belongs to TRIAD’s own account.",
+      "A Gaussian packet is one atom in TRIAD’s operational vocabulary. The ontological reading treats matter as forms of the same underlying dynamics, including structures nested within larger structures.",
     ],
     [
-      "Memory",
-      "Auxiliary fields respond to density over several time scales. The history they carry acts back on the field. Its direction depends on the declared coupling signs.",
+      "P2 · Self-reference",
+      "P2 includes present self-interaction and the memory of earlier states. The auxiliary fields carry density history on several time scales, and their weighted sum acts back on the present.",
     ],
     [
       "Sound & light",
-      "The author proposes a conceptual path from vibrating atoms through friction and frequency (sound) to energy (light). This is a reading to explore; it is not a mathematical equivalence supplied by the reference.",
+      "In TRIAD’s ontological vocabulary, vibration, friction, frequency (sound) and energy (light) form a conceptual sequence. Each numerical record identifies the quantity that its plot or signal actually shows.",
     ],
     [
       "Universe",
-      "TRIAD asks whether a common underlying dynamics could account for reality, including the hypothesis that we live in a simulation. A simulated volume is a place to explore that proposal.",
+      "The central hypothesis places the immutable equation at the deepest layer of reality, including the possibility that we live in a simulation. The lab explores this through documented simulations and their recorded outcomes.",
     ],
   ],
   "pt-BR": [
     [
       "Átomo",
-      "No vocabulário operacional do autor, uma semente gaussiana é lida como um átomo. A proposta mais ampla trata o que chamamos de matéria como dinâmica; esse uso de “átomo” pertence à leitura própria da TRIAD.",
+      "Um pacote gaussiano é um átomo no vocabulário operacional da TRIAD. A leitura ontológica trata a matéria como formas da mesma dinâmica fundamental, incluindo estruturas dentro de estruturas maiores.",
     ],
     [
-      "Memória",
-      "Campos auxiliares respondem à densidade em diferentes escalas de tempo. A história que carregam volta a agir sobre o campo. O sentido dessa ação depende dos sinais de acoplamento declarados.",
+      "P2 · Autorreferência",
+      "P2 inclui a autointeração presente e a memória de estados anteriores. Os campos auxiliares carregam a história da densidade em diferentes escalas de tempo, e sua soma ponderada volta a agir sobre o presente.",
     ],
     [
       "Som e luz",
-      "O autor propõe um percurso conceitual de átomos vibrando, passando por atrito e frequência (som), até energia (luz). É uma leitura a explorar; não uma equivalência matemática fornecida pela referência.",
+      "No vocabulário ontológico da TRIAD, vibração, atrito, frequência (som) e energia (luz) formam uma sequência conceitual. Cada registro numérico identifica a grandeza que sua figura ou seu sinal mostra.",
     ],
     [
       "Universo",
-      "A TRIAD pergunta se uma dinâmica fundamental comum poderia explicar a realidade, incluindo a hipótese de vivermos em uma simulação. Um volume simulado é um lugar para explorar essa proposta.",
+      "A hipótese central situa a equação imutável na camada mais profunda da realidade, incluindo a possibilidade de vivermos em uma simulação. O lab explora isso por simulações documentadas e seus resultados registrados.",
     ],
   ],
 };

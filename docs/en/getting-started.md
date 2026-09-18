@@ -1,8 +1,10 @@
 [Lab](../../README.md) · **English** · [Português](../pt-BR/getting-started.md)
 
-# Run a study
+# Inspect records and prepare a TRIAD execution
 
-These commands inspect or execute preserved historical implementations. They do not certify conformity with reference 1.1. Consult the [edition history](../reference/equation/README.md) and each study’s declared configuration before starting a new run.
+Start with the saved data and the [project rules](project-rules.md). A new TRIAD execution must retain the complete immutable equation, with no disabled terms and no external calibration toward a desired result.
+
+The archived commands below document preserved implementations. Their presence does not certify that they satisfy these rules. Consult each study’s configuration and the [reference-document history](../reference/equation/README.md); do not use a historical term-off setup as a new TRIAD experiment.
 
 Commands use a POSIX shell from the repository root and Python 3.10 or newer. The requirements are an installation starting point, not a recovered lockfile of the original environment.
 
@@ -27,7 +29,14 @@ MPLBACKEND=Agg python experiments/geometry/string-analysis/code/en/bravais_strin
 
 This command reads the saved state and writes figures into `bravais_outputs_3d/`, without rerunning field evolution. The included state has no `psi_f`, so the phase-string section is skipped. The script assumes `L=32`; for another state, set its actual box size with the `L` environment variable.
 
-## Run the oscillators
+## Archived execution commands
+
+These commands are kept for tracing the historical record. The oscillator pilots and the 3D implementations must be assessed against the complete-equation rules before any new TRIAD execution; the source code has not been altered by this editorial audit.
+
+<details>
+<summary>Inspect the historical commands and their original defaults</summary>
+
+### Oscillator pilot
 
 ```sh
 python experiments/relations/observer/code/en/simulate_observer_observed_relations.py
@@ -35,7 +44,7 @@ python experiments/relations/observer/code/en/simulate_observer_observed_relatio
 
 This uses 6,000 RK4 steps with `DT=0.02`. New outputs go into `artifacts/` beside the script. The Portuguese version is in `code/pt-BR/` within the same study.
 
-## 3D evolution and sweep
+### Historical 3D evolution and sweep
 
 ```sh
 MPLBACKEND=Agg python experiments/geometry/field-3d/code/en/bravais_pure_3d.py
@@ -43,6 +52,8 @@ MPLBACKEND=Agg python experiments/geometry/scale-sweep/code/en/bravais_sweep_L.p
 ```
 
 Evolution defaults to 1,200 steps on a 64³ grid. The sweep uses 800 steps per box and reaches 96³, requiring more resources. Both accept `STEPS` through the environment, but shortening a run creates a different comparison. Random initialization has no fixed seed; defaults do not exactly reconstruct the included record.
+
+</details>
 
 ## Keep each run separate
 
