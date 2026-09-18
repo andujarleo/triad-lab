@@ -11,3 +11,12 @@ Source: the user-provided T.zip. Existing experiment code and recorded results m
 Acceptance: every archive entry is accounted for; every content file has a preserved destination; existing files stay intact; each research family has an understandable English and Portuguese entry; no historical result is presented as newly reproduced.
 
 Heavy artifacts will use Git LFS if needed. The supplied ZIP remains untouched. This is an additive import, not a physical migration of the author's folders.
+
+## Delivery record
+
+- Preserved 1,330 content paths from 2,779 non-directory entries; indexed 117 directory entries separately.
+- Checked all source hashes and the 54-file lab baseline; 4,712 rendered local links passed.
+- Published the preservation commit `2432a33` and bilingual navigation commit `3ead233` to `origin/main`.
+- Uploaded all 133 distinct LFS objects (295,490,233 bytes); local LFS integrity check passed.
+- Reviewed the English/Portuguese collection home, figures and a detailed run page in a local Markdown preview.
+- No historical simulation was executed or numerically modified.
