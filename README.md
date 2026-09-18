@@ -1,19 +1,28 @@
-![TRIAD — oscillation, self-reference and coupling](assets/lab-header.svg)
+![TRIAD Universe Lab — A universe in motion.](assets/brand/readme-cover.en.png)
 
 <p align="center"><strong>English</strong> · <a href="docs/pt-BR/README.md">Português</a><br />
 <a href="https://andujarleo.github.io/triad-lab/"><strong>ENTER THE UNIVERSE ↗</strong></a> · <a href="research/README.md">Research</a> · <a href="simulations/README.md">Simulations</a> · <a href="docs/en/start-here.md">Start here</a></p>
 
 # TRIAD Universe Lab
 
-**Nonstandard quantum physics. An ontology of motion, memory and relation.**
+**Nonstandard quantum physics. Oscillation, self-reference and coupling, always together.**
 
-TRIAD is Leonardo Andujar’s project. Its ontology places one **immutable, indivisible equation** at the foundation of reality. **P1 oscillation, P2 self-reference and P3 coupling act together.** The lab follows their complete dynamics: self-calibration from chaos to dynamic equilibrium, with crystallization continuing in that equilibrium.
+TRIAD is Leonardo Andujar’s nonstandard quantum physics and ontology. One immutable, indivisible equation is its foundation: P1 oscillation, P2 self-reference in the present and through memory, and P3 coupling act together.
 
-This is a living universe of research and simulations. Enter through an image, follow a question, then reach the sources, equation, code and recorded trajectories.
+From chaos to dynamic equilibrium, crystallization continues. Research connects ideas and sources. The simulation archive brings recorded fields, trajectories and code into view.
 
-<p align="center"><a href="simulations/geometry/field-visualizations/README.md"><img src="simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png" width="760" alt="Original recorded 3D phase-vortex visualization: cyan and pink indicate opposite directions of phase winding in denser regions." /></a></p>
+## See the dynamics unfold
 
-**A field, seen from within.** An original recorded frame, with its labels preserved. [Watch the animation](simulations/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif) · [Follow its source](simulations/geometry/field-visualizations/README.md).
+<p align="center"><a href="simulations/geometry/field-visualizations/README.md"><img src="simulations/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif" width="820" alt="Phase becomes visible" /></a></p>
+
+**Phase becomes visible.** Cyan and pink trace opposite phase windings in denser regions. Follow the field snapshots as the camera moves around them. [Explore the animation and its source](simulations/geometry/field-visualizations/README.md).
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="simulations/memory/memory-and-bounce/README.md"><img src="simulations/memory/memory-and-bounce/results/figures/bounce-timeline-xy.png" width="400" alt="Original density slices at t=0, 4, 8 and 12 in the memory-and-bounce record." /></a><br /><strong>Contraction, then expansion</strong><p>Watch a concentrated region contract and spread again. The radius enclosing half the mass reaches its minimum at t=3.7, then expands; the saved frames and radius curves let you follow the same trajectory.</p><a href="simulations/memory/memory-and-bounce/README.md">Follow the trajectory →</a></td>
+<td width="50%" valign="top"><a href="simulations/structures/long-nest-trajectory/README.md"><img src="simulations/structures/long-nest-trajectory/results/figures/overview.png" width="400" alt="Original long-nest record: initial, early and late 3D views, an initial field slice, radial profiles and peak/radius curves through t=60." /></a><br /><strong>From nested form to a filled field</strong><p>Follow the field from its nested initial shape to t=60. Original 3D views, radial profiles and time curves show the volume filling and the later fluctuations of a finite density peak.</p><a href="simulations/structures/long-nest-trajectory/README.md">Explore the long record →</a></td>
+</tr>
+</table>
 
 ## Two ways to explore
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-18 — Official TRIAD identity and visible dynamics
+
+- Adopt the author-supplied symbol, preserve its original bytes and document the identity assets.
+- Add English and Portuguese README covers, an original field animation and two featured trajectories with source links.
+- Carry the identity into the public site with large typography, responsive logo framing and a section for original recorded figures.
+- Export brand assets and featured figures unchanged; retain the existing saved-field data and catalog.
+
 ## 2026-09-18 — TRIAD Universe: research and simulations
 
 - Separate the physical tree into `research/` and `simulations/`, with descriptive field-diagnostic and numerical-check areas; preserve stable study IDs and record every moved path.

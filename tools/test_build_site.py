@@ -9,7 +9,7 @@ from pathlib import Path
 
 import numpy as np
 
-from build_site import BuildError, build, collect_site, extract_intro, load_field, source_file
+from build_site import BuildError, build, collect_site, extract_intro, load_field, source_file, BRAND_FILES, SPOTLIGHTS
 
 ROOT = Path(__file__).resolve().parents[1]
 PNG = base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aD1sAAAAASUVORK5CYII=')
@@ -102,6 +102,10 @@ class SiteExportTests(unittest.TestCase):
                 self.assertEqual(study['image'], f'media/{hashlib.sha256(payload).hexdigest()}.png')
         hero = ROOT / 'simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png'
         self.assertEqual(files[site['hero']], hero.read_bytes())
+        for name in BRAND_FILES:
+            self.assertEqual(files[f'brand/{name}'], (ROOT / 'assets/brand' / name).read_bytes())
+        for key, path in SPOTLIGHTS.items():
+            self.assertEqual(files[site['spotlights'][key]], (ROOT / path).read_bytes())
         for field in site['fields']:
             decoded = json.loads(files[field['url']])
             self.assertEqual(field['size'], len(files[field['url']]))
@@ -193,6 +197,12 @@ class SiteExportTests(unittest.TestCase):
         for filename in ('README.md', 'README.pt-BR.md'):
             (root / 'research/memory' / filename).write_text('# Memory\n\nA reading path.\n')
             (root / 'simulations/memory/record' / filename).write_text('# Saved study\n\n**How is history carried?**\n\nA saved record.\n')
+        (root / 'assets/brand').mkdir(parents=True)
+        for name in BRAND_FILES:
+            (root / 'assets/brand' / name).write_bytes(PNG)
+        for path in SPOTLIGHTS.values():
+            (root / path).parent.mkdir(parents=True, exist_ok=True)
+            (root / path).write_bytes(PNG)
         source = b'# Authored note\n\nPreserved words.\n'
         (root / 'research/sources/note.md').write_bytes(source)
         topic = {'id': 'memory', 'slug': 'memory', 'folder': 'research/memory', 'title': {'en': 'Memory', 'pt-BR': 'Memória'}, 'summary': {'en': 'A reading path', 'pt-BR': 'Um percurso de leitura'}, 'docs': {'en': 'research/memory/README.md', 'pt-BR': 'research/memory/README.pt-BR.md'}, 'source_ids': ['authored-note'], 'study_ids': ['saved-study']}

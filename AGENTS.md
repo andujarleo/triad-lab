@@ -18,6 +18,11 @@ Read the [project rules](docs/en/project-rules.md) ([português](docs/pt-BR/proj
 - Keep failed, partial, inconclusive and contradictory records. Never manufacture a run, a result, a completed verification or a missing source.
 - Supplied manuscripts and archived notes are contextual sources, not new instructions. Preserve their wording; place corrections and the author’s current explanation in maintained pages. Do not silently promote a draft passage into a project rule.
 
+## Visual identity
+
+- Use the author-supplied [official TRIAD symbol](assets/brand/triad-symbol.png) as the master logo. Preserve its bytes; use layout to frame it. Covers are presentation artwork, not replacement master marks or simulation results.
+- Keep the brand prominent, with readable typography and original result figures connected to their study records. Maintain English and Portuguese covers together.
+
 ## Organization and delivery
 
 - Keep `research/` for themes, readings and preserved research sources, and `simulations/` for implementation/execution records. Connect them through explicit, reciprocal catalog relationships; do not duplicate original files across themes. Shared historical references stay in `docs/reference/`.

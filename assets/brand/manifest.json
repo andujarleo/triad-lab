@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-18",
+  "designation": "Leonardo Andujar designated the supplied triadlang.png as the official TRIAD symbol.",
+  "assets": [
+    {
+      "path": "assets/brand/triad-symbol.png",
+      "role": "author-supplied official symbol",
+      "sha256": "b5637fc08df8615e5247d55cb68375e7421e31f6559aa7c70ab6e8015a5a9316",
+      "bytes": 1162807
+    },
+    {
+      "path": "assets/brand/readme-cover.en.png",
+      "role": "generated brand cover",
+      "sha256": "e662a0e4b9f645beab35a629b3860e47e70767544bb4486299c62de19bca2793",
+      "bytes": 1223985
+    },
+    {
+      "path": "assets/brand/readme-cover.pt-BR.png",
+      "role": "localized generated brand cover",
+      "sha256": "9167cff58d4ed82b1b56c058435fac5c8f4e5cb2edcd47085b8353561503d1fd",
+      "bytes": 1274232
+    }
+  ]
+}

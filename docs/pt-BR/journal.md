@@ -4,6 +4,12 @@
 
 Um lugar para acompanhar as perguntas, os materiais publicados e os próximos passos da TRIAD. As entradas distinguem mudanças editoriais de execuções numéricas para que a história continue compreensível à medida que o lab cresce.
 
+## 2026-09-18 · O símbolo TRIAD em primeiro plano
+
+**Apresentação visual. Registros numéricos originais preservados.**
+
+O símbolo fornecido por Leonardo Andujar passa a ser a marca oficial. Capas em inglês e português dão ao lab uma identidade visual compartilhada. O README apresenta a animação original do campo, a contração e expansão e a trajetória longa do campo aninhado. O site conecta esses destaques aos estudos de origem. [Arquivos de identidade e proveniência](../../assets/brand/README.md).
+
 ## 2026-09-18 · Um universo, dois lugares de trabalho conectados
 
 **Edição, organização e análise estática. Nenhuma nova execução numérica.**

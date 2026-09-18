@@ -18,6 +18,11 @@ ROOT = Path(__file__).resolve().parents[1]
 REPOSITORY = 'https://github.com/andujarleo/triad-lab'
 HERO = 'simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png'
 LANGUAGES = ('en', 'pt-BR')
+BRAND_FILES = ('triad-symbol.png', 'readme-cover.en.png', 'readme-cover.pt-BR.png')
+SPOTLIGHTS = {
+    'contraction': 'simulations/memory/memory-and-bounce/results/figures/bounce-timeline-xy.png',
+    'longTrajectory': 'simulations/structures/long-nest-trajectory/results/figures/overview.png',
+}
 MARKER = '.triad-site-build.json'
 FIELD_SPECS = (
     {'id': 'field-3d', 'title': {'en': 'Emergent 3D field · saved density', 'pt-BR': 'Campo 3D emergente · densidade salva'},
@@ -260,6 +265,10 @@ def collect_site(root: Path, field_specs: tuple | list | None = None) -> tuple[d
         fields.append({key: field[key] for key in ('id', 'title', 'sourcePath', 'sha256')} | {'url': url, 'size': len(files[url])})
     site = {'format': 1, 'repository': REPOSITORY, 'areas': catalog['series'], 'studies': studies,
             'hero': add_image(root, HERO, files), 'fields': fields, 'research': collect_research(root, ids)}
+    for name in BRAND_FILES:
+        files[f'brand/{name}'] = source_file(root, f'assets/brand/{name}').read_bytes()
+    site['brand'] = {'symbol': 'brand/triad-symbol.png', 'covers': {lang: f'brand/readme-cover.{lang}.png' for lang in LANGUAGES}}
+    site['spotlights'] = {key: add_image(root, path, files) for key, path in SPOTLIGHTS.items()}
     files['data/site.json'] = json_bytes(site)
     return site, files
 

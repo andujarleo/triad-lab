@@ -1,5 +1,34 @@
 export const copy = {
   en: {
+    identityAlt:
+      "Official TRIAD symbol: luminous orbital ribbons surrounding a central star.",
+    identityPrinciples: "OSCILLATION · SELF-REFERENCE · COUPLING",
+    resultsEyebrow: "THE DYNAMICS, IN VIEW",
+    resultsTitle: "Watch the field take form.",
+    resultsIntro:
+      "Fields, trajectories and structures. Follow the images into the simulations that produced them.",
+    phaseEyebrow: "01 / PHASE & STRUCTURE",
+    phaseTitle: "A field, seen from within.",
+    phaseCopy:
+      "Cyan and pink trace opposite phase windings in denser regions. Open the animation to follow the field snapshots as the camera moves around them.",
+    phaseLink: "Explore the field and its animation ↗",
+    phaseAlt:
+      "Opposite phase windings in denser regions of a recorded 3D field.",
+    contractionEyebrow: "02 / CONTRACTION & EXPANSION",
+    contractionTitle: "A region contracts. Then expands.",
+    contractionCopy:
+      "The radius enclosing half the mass reaches its minimum at t=3.7, then expands. Follow the trajectory through density frames and measured radii.",
+    contractionAlt:
+      "Original density slices across the recorded contraction and expansion.",
+    trajectoryLink: "Follow the trajectory ↗",
+    longEyebrow: "03 / A LONGER EVOLUTION",
+    longTitle: "From nested form to a filled field.",
+    longCopy:
+      "Follow the field through t=60: three-dimensional views, radial profiles and the later fluctuations of a finite density peak.",
+    longAlt:
+      "Original 3D views and time curves of the long nested-field trajectory.",
+    longLink: "Explore the long record ↗",
+
     pageTitle: "TRIAD Universe Lab · Research, simulations and connections",
     pageDescription:
       "A living universe of research and simulations around TRIAD, Leonardo Andujar’s nonstandard quantum physics and ontology. Explore themes, original sources and recorded studies.",
@@ -14,7 +43,7 @@ export const copy = {
     navAtlas: "Simulations",
     navField: "Inside a field",
     heroEyebrow: "TRIAD Universe Lab · An independent, living laboratory",
-    heroTitle: "One equation. A universe to explore.",
+    heroTitle: "A universe in motion.",
     heroIntro:
       "TRIAD is Leonardo Andujar’s nonstandard quantum physics and ontology. One immutable, indivisible equation, with all its terms acting together.",
     explore: "Explore simulations",
@@ -162,6 +191,35 @@ export const copy = {
     },
   },
   "pt-BR": {
+    identityAlt:
+      "Símbolo oficial TRIAD: faixas orbitais luminosas ao redor de uma estrela central.",
+    identityPrinciples: "OSCILAÇÃO · AUTORREFERÊNCIA · ACOPLAMENTO",
+    resultsEyebrow: "A DINÂMICA, À VISTA",
+    resultsTitle: "Veja o campo ganhar forma.",
+    resultsIntro:
+      "Campos, trajetórias e estruturas. Acompanhe as imagens até as simulações que as produziram.",
+    phaseEyebrow: "01 / FASE E ESTRUTURA",
+    phaseTitle: "Um campo, visto por dentro.",
+    phaseCopy:
+      "Ciano e rosa mostram enrolamentos de fase em sentidos opostos nas regiões mais densas. Abra a animação para acompanhar os quadros do campo enquanto a câmera percorre a estrutura.",
+    phaseLink: "Explore o campo e sua animação ↗",
+    phaseAlt:
+      "Enrolamentos de fase em sentidos opostos nas regiões mais densas de um campo 3D registrado.",
+    contractionEyebrow: "02 / CONTRAÇÃO E EXPANSÃO",
+    contractionTitle: "Uma região se contrai. Depois se expande.",
+    contractionCopy:
+      "O raio que contém metade da massa chega ao mínimo em t=3,7 e depois se expande. Acompanhe a trajetória pelos quadros de densidade e pelos raios medidos.",
+    contractionAlt:
+      "Cortes originais de densidade durante a contração e a expansão registradas.",
+    trajectoryLink: "Acompanhe a trajetória ↗",
+    longEyebrow: "03 / UMA EVOLUÇÃO MAIS LONGA",
+    longTitle: "Da forma aninhada ao campo preenchido.",
+    longCopy:
+      "Siga o campo até t=60: vistas tridimensionais, perfis radiais e as flutuações posteriores de um pico de densidade finito.",
+    longAlt:
+      "Vistas 3D e curvas temporais originais da trajetória longa do campo aninhado.",
+    longLink: "Explore o registro longo ↗",
+
     pageTitle: "Universo TRIAD · Pesquisa, simulações e conexões",
     pageDescription:
       "Um universo vivo de pesquisa e simulações em torno da TRIAD, a física quântica não padrão e a ontologia de Leonardo Andujar. Explore temas, fontes originais e estudos registrados.",
@@ -176,7 +234,7 @@ export const copy = {
     navAtlas: "Simulações",
     navField: "Dentro do campo",
     heroEyebrow: "Universo TRIAD · Um laboratório independente e vivo",
-    heroTitle: "Uma equação. Um universo para explorar.",
+    heroTitle: "Um universo em movimento.",
     heroIntro:
       "A TRIAD é a física quântica não padrão e a ontologia de Leonardo Andujar. Uma equação imutável e indivisível, com todos os termos atuando juntos.",
     explore: "Explorar simulações",
@@ -279,8 +337,8 @@ export const copy = {
     contributeLink: "Contribuir com o próximo capítulo ↗",
     footerCopy: "A ideia continua ligada aos seus registros.",
     wingsLabel: "Pesquisa e simulações",
-    brandMain: "UNIVERSO",
-    brandQualifier: "TRIAD",
+    brandMain: "TRIAD",
+    brandQualifier: "UNIVERSO LAB",
     navResearch: "Pesquisa",
     themes: "temas de pesquisa",
     wingResearchTitle: "Pesquisa",

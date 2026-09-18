@@ -17,7 +17,12 @@
       content="A living universe of research and simulations around TRIAD, Leonardo Andujar’s nonstandard quantum physics and ontology. Explore themes, original sources and recorded studies."
     />
     <title>TRIAD Universe Lab · Research, simulations and connections</title>
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="brand/triad-symbol.png" type="image/png" />
+    <meta
+      property="og:image"
+      content="https://andujarleo.github.io/triad-lab/brand/readme-cover.en.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="app.js"></script>
   </head>
@@ -29,6 +34,12 @@
         href="#home"
         aria-label="TRIAD Universe Lab home"
         data-i18n-aria="homeLabel"
+        ><span class="brand-symbol" aria-hidden="true"
+          ><img
+            src="brand/triad-symbol.png"
+            alt=""
+            width="1254"
+            height="1254" /></span
         ><strong data-i18n="brandMain">TRIAD</strong
         ><span data-i18n="brandQualifier">UNIVERSE LAB</span></a
       >
@@ -60,9 +71,15 @@
               >TRIAD Universe Lab · An independent, living laboratory</span
             >
           </p>
-          <h1 id="hero-title" data-i18n="heroTitle">
-            One equation. A universe to explore.
+          <h1 id="hero-title">
+            <span class="hero-name">TRIAD </span
+            ><span class="hero-subtitle" data-i18n="brandQualifier"
+              >UNIVERSE LAB</span
+            >
           </h1>
+          <p class="hero-tagline" data-i18n="heroTitle">
+            A universe in motion.
+          </p>
           <p class="hero-intro" data-i18n="heroIntro">
             TRIAD is Leonardo Andujar’s nonstandard quantum physics and
             ontology. One immutable, indivisible equation, with all its terms
@@ -80,31 +97,119 @@
             Leonardo Andujar · Nonstandard quantum physics and ontology
           </p>
         </div>
-        <figure class="hero-figure">
-          <div class="figure-corner corner-a" aria-hidden="true"></div>
-          <div class="figure-corner corner-b" aria-hidden="true"></div>
-          <img
-            id="hero-image"
-            alt="Recorded 3D phase-vortex visualization in cyan and pink"
-            width="900"
-            height="800"
-            fetchpriority="high"
-          />
-          <figcaption>
-            <span class="mono" data-i18n="figureLabel"
-              >FROM THE ARCHIVE / 3D FIELD</span
-            >
-            <p data-i18n="figureCaption">
-              Opposite phase windings, made visible. An original recorded
-              visualization.
-            </p>
-            <a
-              data-doc="simulations/geometry/field-visualizations"
-              data-i18n="figureSource"
-              >Follow the image to its source ↗</a
-            >
+        <figure class="identity-figure">
+          <div class="identity-orbit">
+            <img
+              id="hero-image"
+              src="brand/triad-symbol.png"
+              width="1254"
+              height="1254"
+              fetchpriority="high"
+              alt="Official TRIAD symbol: luminous orbital ribbons surrounding a central star."
+            />
+          </div>
+          <figcaption data-i18n="identityPrinciples">
+            OSCILLATION · SELF-REFERENCE · COUPLING
           </figcaption>
         </figure>
+      </section>
+      <section
+        class="spotlight wrap"
+        id="results"
+        aria-labelledby="results-title"
+      >
+        <div class="spotlight-heading">
+          <p class="eyebrow" data-i18n="resultsEyebrow">
+            THE DYNAMICS, IN VIEW
+          </p>
+          <h2 id="results-title" data-i18n="resultsTitle">
+            Watch the field take form.
+          </h2>
+          <p data-i18n="resultsIntro">
+            Fields, trajectories and structures. Follow the images into the
+            simulations that produced them.
+          </p>
+        </div>
+        <div class="spotlight-lead">
+          <a
+            data-doc="simulations/geometry/field-visualizations"
+            class="spotlight-image"
+            ><img
+              id="phase-image"
+              width="900"
+              height="800"
+              loading="lazy"
+              alt="Opposite phase windings in denser regions of a recorded 3D field."
+          /></a>
+          <div class="spotlight-copy">
+            <span class="mono" data-i18n="phaseEyebrow"
+              >01 / PHASE & STRUCTURE</span
+            >
+            <h3 data-i18n="phaseTitle">A field, seen from within.</h3>
+            <p data-i18n="phaseCopy">
+              Cyan and pink trace opposite phase windings in denser regions.
+              Open the animation to follow the field snapshots as the camera
+              moves around them.
+            </p>
+            <a
+              class="text-link"
+              data-doc="simulations/geometry/field-visualizations"
+              data-i18n="phaseLink"
+              >Explore the field and its animation ↗</a
+            >
+          </div>
+        </div>
+        <div class="spotlight-pair">
+          <article>
+            <a data-doc="simulations/memory/memory-and-bounce"
+              ><img
+                id="contraction-image"
+                width="2520"
+                height="1440"
+                loading="lazy"
+                alt="Original density slices across the recorded contraction and expansion." /></a
+            ><span class="mono" data-i18n="contractionEyebrow"
+              >02 / CONTRACTION & EXPANSION</span
+            >
+            <h3 data-i18n="contractionTitle">
+              A region contracts. Then expands.
+            </h3>
+            <p data-i18n="contractionCopy">
+              The radius enclosing half the mass reaches its minimum at t=3.7,
+              then expands. Follow the trajectory through density frames and
+              measured radii.
+            </p>
+            <a
+              class="text-link"
+              data-doc="simulations/memory/memory-and-bounce"
+              data-i18n="trajectoryLink"
+              >Follow the trajectory ↗</a
+            >
+          </article>
+          <article>
+            <a data-doc="simulations/structures/long-nest-trajectory"
+              ><img
+                id="long-trajectory-image"
+                width="1950"
+                height="1320"
+                loading="lazy"
+                alt="Original 3D views and time curves of the long nested-field trajectory." /></a
+            ><span class="mono" data-i18n="longEyebrow"
+              >03 / A LONGER EVOLUTION</span
+            >
+            <h3 data-i18n="longTitle">From nested form to a filled field.</h3>
+            <p data-i18n="longCopy">
+              Follow the field through t=60: three-dimensional views, radial
+              profiles and the later fluctuations of a finite density peak.
+            </p>
+            <a
+              class="text-link"
+              data-doc="simulations/structures/long-nest-trajectory"
+              data-i18n="longLink"
+              >Explore the long record ↗</a
+            >
+          </article>
+        </div>
       </section>
       <nav
         class="wing-nav wrap"
@@ -544,6 +649,12 @@
     </main>
     <footer class="wrap">
       <a class="wordmark" href="#home"
+        ><span class="brand-symbol" aria-hidden="true"
+          ><img
+            src="brand/triad-symbol.png"
+            alt=""
+            width="1254"
+            height="1254" /></span
         ><strong data-i18n="brandMain">TRIAD</strong
         ><span data-i18n="brandQualifier">UNIVERSE LAB</span></a
       >

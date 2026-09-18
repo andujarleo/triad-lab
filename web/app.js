@@ -86,10 +86,15 @@ function renderLanguage() {
       button.setAttribute("aria-pressed", String(button.dataset.lang === lang)),
     );
   document.querySelector("#search").placeholder = t.searchPlaceholder;
-  document.querySelector("#hero-image").alt =
-    lang === "en"
-      ? "Original 3D field visualization: cyan and pink points mark opposite phase windings."
-      : "Visualização original de um campo 3D: pontos ciano e rosa marcam voltas de fase em sentidos opostos.";
+  document.querySelector("#hero-image").alt = t.identityAlt;
+  for (const [id, key] of [
+    ["phase-image", "phaseAlt"],
+    ["contraction-image", "contractionAlt"],
+    ["long-trajectory-image", "longAlt"],
+  ])
+    document.querySelector(`#${id}`).alt = t[key];
+  document.querySelector('meta[property="og:image"]').content =
+    `https://andujarleo.github.io/triad-lab/brand/readme-cover.${lang}.png`;
   document
     .querySelector(".site-header nav")
     .setAttribute(
@@ -145,7 +150,12 @@ try {
     !Array.isArray(data.research?.sources)
   )
     throw new Error("Invalid archive");
-  document.querySelector("#hero-image").src = data.hero;
+  document.querySelector("#hero-image").src = data.brand.symbol;
+  document.querySelector("#phase-image").src = data.hero;
+  document.querySelector("#contraction-image").src =
+    data.spotlights.contraction;
+  document.querySelector("#long-trajectory-image").src =
+    data.spotlights.longTrajectory;
   document.querySelector("#study-total").textContent = data.studies.length;
   document.querySelector("#area-total").textContent = String(
     data.areas.length,

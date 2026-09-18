@@ -1,19 +1,28 @@
-![TRIAD — oscilação, autorreferência e acoplamento](../../assets/lab-header.pt-BR.svg)
+![TRIAD Universe Lab — Um universo em movimento.](../../assets/brand/readme-cover.pt-BR.png)
 
 <p align="center"><a href="../../README.md">English</a> · <strong>Português</strong><br />
 <a href="https://andujarleo.github.io/triad-lab/?lang=pt-BR"><strong>ENTRE NO UNIVERSO ↗</strong></a> · <a href="../../research/README.pt-BR.md">Pesquisa</a> · <a href="../../simulations/README.pt-BR.md">Simulações</a> · <a href="start-here.md">Comece aqui</a></p>
 
 # Universo TRIAD
 
-**Física quântica não padrão. Uma ontologia de movimento, memória e relação.**
+**Física quântica não padrão. Oscilação, autorreferência e acoplamento, sempre juntos.**
 
-A TRIAD é o projeto de Leonardo Andujar. Sua ontologia coloca uma **equação imutável e indivisível** na base da realidade. **P1 oscilação, P2 autorreferência e P3 acoplamento atuam juntos.** O lab acompanha a dinâmica completa: autocalibração do caos ao equilíbrio dinâmico, com a cristalização continuando nesse equilíbrio.
+A TRIAD é a física quântica não padrão e a ontologia de Leonardo Andujar. Uma equação imutável e indivisível é seu fundamento: P1 oscilação, P2 autorreferência no presente e pela memória, e P3 acoplamento atuam juntos.
 
-Este é um universo vivo de pesquisa e simulações. Entre por uma imagem, acompanhe uma pergunta e alcance as fontes, a equação, o código e as trajetórias registradas.
+Do caos ao equilíbrio dinâmico, a cristalização continua. Pesquisa conecta ideias e fontes. O acervo de simulações coloca campos, trajetórias e código registrados à vista.
 
-<p align="center"><a href="../../simulations/geometry/field-visualizations/README.pt-BR.md"><img src="../../simulations/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png" width="760" alt="Visualização 3D original de vórtices de fase: ciano e rosa indicam sentidos opostos do enrolamento da fase nas regiões mais densas." /></a></p>
+## Veja a dinâmica acontecer
 
-**Um campo, visto por dentro.** Um quadro original registrado, com seus rótulos preservados. [Veja a animação](../../simulations/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif) · [Acompanhe sua origem](../../simulations/geometry/field-visualizations/README.pt-BR.md).
+<p align="center"><a href="../../simulations/geometry/field-visualizations/README.pt-BR.md"><img src="../../simulations/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif" width="820" alt="A fase ganha forma" /></a></p>
+
+**A fase ganha forma.** Ciano e rosa mostram enrolamentos de fase em sentidos opostos nas regiões mais densas. Acompanhe os quadros do campo enquanto a câmera percorre a estrutura. [Explore a animação e sua origem](../../simulations/geometry/field-visualizations/README.pt-BR.md).
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="../../simulations/memory/memory-and-bounce/README.pt-BR.md"><img src="../../simulations/memory/memory-and-bounce/results/figures/bounce-timeline-xy.png" width="400" alt="Cortes originais de densidade em t=0, 4, 8 e 12 no registro de memória e bounce." /></a><br /><strong>Contração, depois expansão</strong><p>Acompanhe uma região concentrada encolher e se espalhar outra vez. O raio que contém metade da massa chega ao mínimo em t=3,7 e depois se expande; os quadros e as curvas de raio permitem seguir a mesma trajetória.</p><a href="../../simulations/memory/memory-and-bounce/README.pt-BR.md">Acompanhe a trajetória →</a></td>
+<td width="50%" valign="top"><a href="../../simulations/structures/long-nest-trajectory/README.pt-BR.md"><img src="../../simulations/structures/long-nest-trajectory/results/figures/overview.png" width="400" alt="Registro original do ninho longo: vistas 3D inicial, precoce e tardia, corte inicial do campo, perfis radiais e curvas de pico/raio até t=60." /></a><br /><strong>Da forma aninhada ao campo preenchido</strong><p>Siga o campo da forma inicial aninhada até t=60. Vistas 3D, perfis radiais e curvas temporais originais mostram o preenchimento do volume e as flutuações posteriores de um pico de densidade finito.</p><a href="../../simulations/structures/long-nest-trajectory/README.pt-BR.md">Explore o registro longo →</a></td>
+</tr>
+</table>
 
 ## Dois caminhos para explorar
 

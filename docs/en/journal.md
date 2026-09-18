@@ -4,6 +4,12 @@
 
 A place to follow questions, published material and the next steps of TRIAD. Entries distinguish editorial changes from numerical executions so that the history remains readable as the lab grows.
 
+## 2026-09-18 · The TRIAD symbol, front and center
+
+**Visual presentation. Original numerical records preserved.**
+
+The symbol supplied by Leonardo Andujar becomes the official master mark. New English and Portuguese covers give the lab a shared visual identity. The README opens onto the original field animation, contraction and expansion, and the long nested-field trajectory. The site connects these featured records to their source studies. [Identity files and provenance](../../assets/brand/README.md).
+
 ## 2026-09-18 · One universe, two connected places to work
 
 **Editorial, organization and static analysis. No new numerical execution.**

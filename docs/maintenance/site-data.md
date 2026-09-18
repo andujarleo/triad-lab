@@ -30,7 +30,9 @@ Generated JSON uses stable ordering, UTF-8 and no timestamps. Unchanged inputs p
 | `repository` | Public repository URL |
 | `areas` | `series` from the [catalogue](../../simulations/catalog.json), without reinterpretation |
 | `studies` | One record for each catalogued experiment, in catalogue order |
-| `hero` | Path to the byte-identical phase-vortex PNG in `media/` |
+| `hero` | Path to the byte-identical phase-vortex PNG in `media/`, shown in the results section |
+| `brand` | `symbol` and bilingual `covers`, copied byte for byte from `assets/brand/` |
+| `spotlights` | `contraction` and `longTrajectory`, paths to the original study PNGs in `media/` |
 | `fields` | Download descriptors for the two saved density volumes |
 
 Every study includes `id`, `folder`, `series`, bilingual `title`, `status`, `availability`, repository-relative bilingual `docs`, bilingual `question` and `summary`, and `image` (a relative URL or `null`). The opening bold question and following prose are read from each existing study’s README. Studies using the published template instead supply the first paragraph of **The question / A pergunta** and **What was done / O que foi feito**. HTML comments are excluded; a missing summary is a build error. Historical pages without an explicit question receive an empty question and their first opening prose paragraph as the summary. The frontend can use the title in place of the absent question. When a study also stores a catalog `summary`, the build requires it to match the maintained introduction after Markdown formatting is removed. The builder never invents an interpretation from a filename, a plot or a numerical result.
@@ -109,3 +111,13 @@ Em português: a exportação acrescenta temas, metadados de fontes e auditoria 
 The integrated interface was inspected in a real browser at 320, 390, 768, 1024 and 1440 px. No horizontal overflow or out-of-viewport research links/filter controls was observed. Theme selection produced the declared study membership and moved keyboard focus to the simulation heading. EN/PT switching kept the theme; audit disclosures opened with Enter and linked to the study anchor. Empty search/reset and URL-restored area/material filters worked, including the historical `quantum` ID.
 
 Both original saved fields loaded when brought into view. X-axis endpoint cuts, logarithmic display and keyboard cell inspection worked; the console reported no warnings or errors during this check. The source data, renderer and exported numerical values remain unchanged. This is interface verification, not a new physical simulation.
+
+## Visual identity and featured records · 2026-09-18
+
+The [official symbol and covers](../../assets/brand/README.md) live outside the scientific archive. `brand.symbol` displays the author-supplied master; `brand.covers.en` and `brand.covers["pt-BR"]` identify the README artwork. The builder copies all three files unchanged. Their source identity and hashes are recorded in the brand manifest.
+
+The field image remains available at `hero` for compatibility and now appears under Results. `spotlights.contraction` and `spotlights.longTrajectory` reuse original PNGs from memory-and-bounce and long-nest-trajectory. These paths use the existing SHA-256 image export and do not create new studies or change source images. The frontend provides bilingual captions and direct links to their study records.
+
+Em português: a marca usa o símbolo oficial fornecido pelo autor, preservado integralmente. As capas são peças de identidade; os destaques visuais vêm dos registros de simulação. Marca, imagens científicas e valores numéricos mantêm suas origens.
+
+The new identity and results section were checked in English and Portuguese at 320, 390, 768, 1024 and 1440 px. No horizontal overflow was observed; selected images loaded at their original dimensions, language switches updated captions, alt text and source links, and the browser reported no console warnings or errors. The mobile layout places the official symbol directly after the title.
