@@ -2,6 +2,8 @@
 
 # Execute um estudo
 
+Estes comandos examinam ou executam implementações históricas preservadas. Eles não certificam conformidade com a referência 1.1. Consulte o [histórico de versões](../reference/equation/README.md) e a configuração declarada de cada estudo antes de iniciar uma nova execução.
+
 Os comandos usam um shell POSIX, a partir da raiz do repositório, e Python 3.10 ou mais recente. Os requisitos são uma base de instalação; não são um lockfile recuperado do ambiente original.
 
 ```sh

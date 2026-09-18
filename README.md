@@ -3,63 +3,62 @@
 <p align="center">
   <strong>English</strong> · <a href="docs/pt-BR/README.md">Português</a>
   <br />
-  <a href="docs/en/triad.md">Meet TRIAD</a> · <a href="docs/en/gallery.md">Explore the images</a> · <a href="experiments/README.md">All studies</a>
+  <a href="https://andujarleo.github.io/triad-lab/"><strong>ENTER THE LAB ↗</strong></a> · <a href="docs/en/triad.md">The proposal</a> · <a href="docs/en/journal.md">Lab journal</a>
 </p>
 
-# What if a field carried its own history?
+# What if one equation underlies reality?
 
-**A living laboratory for nonstandard quantum physics.** Leonardo Andujar’s TRIAD investigates matter, observation and the universe through **focus, memory and bath acting together**. The field changes memory — and that memory acts back on the field.
+**An independent, living laboratory for nonstandard quantum physics and ontology.** TRIAD explores Leonardo Andujar’s hypothesis that a single equation describes the deepest layer of the universe, including the idea that reality is a simulation.
+
+The work begins with **focus, memory and bath acting together**. A field evolves, carries its history and responds to that history. The lab explores the forms and interactions that follow, one question and one recorded experiment at a time.
 
 <p align="center">
   <a href="experiments/geometry/field-visualizations/README.md">
-    <img src="experiments/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png" width="680" alt="Original visualization of a 3D field: cyan and pink phase vortices form structures against a dark background. The colors mark opposite directions of phase winding." />
+    <img src="experiments/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png" width="720" alt="Original recorded 3D phase-vortex visualization. Cyan and pink points mark opposite directions of phase winding in denser regions." />
   </a>
 </p>
 
-**A field, seen from within.** Cyan and pink points mark phase winding in opposite directions, detected in denser regions. This is an original frame from the archive, with its labels preserved. [Watch the animation](experiments/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif) · [Read the image and explore its code](experiments/geometry/field-visualizations/README.md).
+**A field, seen from within.** Cyan and pink mark opposite directions of phase winding in denser regions. This is an original recorded frame, with its labels preserved. [Watch the animation](experiments/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif) · [Follow the image to its source](experiments/geometry/field-visualizations/README.md).
 
-**65 studies · 8 areas · connected images, code and data · English + Portuguese**
+**65 studies · 8 areas · original images, code and data · English + Portuguese**
 
-## Where would you like to begin?
+## Choose your way in
 
-| Discover the idea | Explore visually | Go deeper |
+| Meet the idea | Explore the lab | Inspect the work |
 |---|---|---|
-| A plain-language introduction to the proposal and its vocabulary. | Annotated figures that help you follow changes in the field. | The equation, methods, implementations and recorded outcomes. |
-| [Take the five-minute tour →](docs/en/start-here.md) | [Open the gallery →](docs/en/gallery.md) | [Enter the research guide →](docs/en/research-guide.md) |
+| The hypothesis, its conceptual map and words in TRIAD’s own sense. | A searchable visual atlas and interactive slices through saved fields. | The equation, implementations, parameters and recorded outcomes. |
+| [Start with a five-minute tour →](docs/en/start-here.md) | [Open the interactive lab →](https://andujarleo.github.io/triad-lab/) | [Read the research guide →](docs/en/research-guide.md) |
 
-## Focus, memory and bath — together
+The interactive viewer reads preserved final states. Its slider moves through **space**, and each view links back to its original data.
 
-**Focus concentrates. Memory keeps history and acts back. The bath participates in the dynamics.** TRIAD investigates what emerges from their joint action: how the field organizes, responds, expands and forms structures.
+## Three questions to begin with
 
-[What TRIAD proposes — and where its difference begins →](docs/en/triad.md)
+| What follows a concentration? | Can a region keep its identity? | How closely does memory follow density? |
+|---|---|---|
+| ![Recorded overview of the memory-and-bounce study](experiments/memory/memory-and-bounce/results/figures/overview.png) | ![Recorded participation-ratio trajectory of a pocket in the field](experiments/structures/a-pocket-in-the-field/results/figures/PR-vs-t.png) | ![Recorded density and memory maps at the initial saved time](experiments/structures/density-memory-maps/results/figures/mapa-0p000.png) |
+| Follow concentration, memory response and expansion. The record retains two radius diagnostics that disagree. | Follow a planted Gaussian pocket and the diagnostics of its identity within a changing field. | Compare density and accumulated memory. The recorded alignment is transient. |
+| [Memory and bounce →](experiments/memory/memory-and-bounce/README.md) | [A pocket in the field →](experiments/structures/a-pocket-in-the-field/README.md) | [Density–memory maps →](experiments/structures/density-memory-maps/README.md) |
 
-## Follow a question
+## A broad question, an expanding archive
 
-| Area | Question |
-|---|---|
-| [Relations](experiments/relations/README.md) | What changes when things interact? |
-| [Geometry](experiments/geometry/README.md) | How do patterns take shape? |
-| [Memory](experiments/memory/README.md) | Can the past change what happens next? |
-| [Structures](experiments/structures/README.md) | Can a pattern persist inside a changing field? |
-| [Signals](experiments/signals/README.md) | How does a disturbance spread? |
-| [Field diagnostics](experiments/quantum/README.md) | How do we test the field’s consistency, modes and response? |
-| [Continuity](experiments/continuity/README.md) | What carries over when a system changes or resumes? |
-| [Validation](experiments/validation/README.md) | How do we check the story the figures seem to tell? |
+The ambition is to explore many phenomena through simulation and publish the path taken. Each study connects its question to available notes, code, configurations and outcomes. Historical attempts, partial results and open questions remain part of that path.
 
-## A living lab that keeps its history
+[Relations](experiments/relations/README.md) · [Geometry](experiments/geometry/README.md) · [Memory](experiments/memory/README.md) · [Structures](experiments/structures/README.md) · [Signals](experiments/signals/README.md) · [Field diagnostics](experiments/quantum/README.md) · [Continuity](experiments/continuity/README.md) · [Validation](experiments/validation/README.md)
 
-You will find attempts, partial results, failed diagnostics and open hypotheses. TRIAD’s operational vocabulary connects atoms, memory and observation to what the dynamics does. Each study links that reading to its implementation and recorded outcome.
+The [current equation reference is v1.1](docs/reference/equation/README.md), which states the rule of the complete equation. Earlier studies keep their original implementations and settings; the edition history makes that distinction explicit.
 
-[All studies](experiments/README.md) · [Lab history](docs/en/history.md) · [How to contribute](docs/en/contributing.md) · [More languages](docs/en/languages.md)
+[Why Leonardo created the lab](docs/en/author.md) · [TRIAD vocabulary](docs/en/glossary.md) · [Research journal](docs/en/journal.md) · [Contribute](docs/en/contributing.md) · [More languages](docs/en/languages.md)
 
 <details>
-<summary>Run, verify and navigate the structure</summary>
+<summary>Run, verify and navigate the repository</summary>
 
-[Run locally](docs/en/getting-started.md) · [Repository map](docs/en/repository-map.md) · [Provenance and integrity](provenance/README.md)
+[Historical execution guide](docs/en/getting-started.md) · [Repository map](docs/en/repository-map.md) · [Site source and local preview](web/README.md) · [Provenance](provenance/README.md)
 
 ```sh
 git lfs pull
 python3 tools/check_repository.py
 ```
+
+Study folders use descriptive names. Each **FILES.md** connects the associated material, and the catalog preserves its original associations.
 
 </details>

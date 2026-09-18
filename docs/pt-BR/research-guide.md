@@ -4,6 +4,8 @@
 
 Comece pela [proposta e leitura operacional da TRIAD](triad.md). Esta pesquisa se apresenta como física quântica não padrão; o papel dos diagnósticos históricos precisa ser lido dentro desse contexto.
 
+Para novas execuções, declare a [edição da equação](../reference/equation/README.md) e a revisão da implementação. A referência vigente 1.1 especifica a dinâmica completa; os controles históricos mantêm seu contexto original. O índice de edições também registra diferenças ainda não conciliadas dentro da especificação fornecida.
+
 Comece pela pergunta do estudo e pelo **FILES.md**, depois siga protocolo → configuração → código → resultado registrado → interpretação. O [catálogo JSON](../../experiments/catalog.json) lista os 65 estudos, suas páginas bilíngues e cada arquivo original associado.
 
 ## O que o registro permite afirmar

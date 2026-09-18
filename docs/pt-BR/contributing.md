@@ -37,3 +37,5 @@ Descreva problema, mudança final, validação e limites restantes no commit ou 
 ## Preserve o ponto de partida
 
 Apresente a TRIAD como proposta de física quântica não padrão. Vincule novas interpretações à leitura operacional do autor e ao regime realmente executado. Diferencie a tríade completa, os pilotos históricos e os controles; não transforme um diagnóstico de mecânica quântica convencional na definição de todo o projeto. [Referência de apresentação](triad.md).
+
+O atlas público é gerado a partir do mesmo catálogo. Para acrescentar uma pergunta representativa, imagem ou campo salvo, siga o [contrato de dados do site](../maintenance/site-data.md). Ao alterar a interface, execute `node --test tools/frontend.test.mjs` e reconstrua o site conforme [web/README.md](../../web/README.md).

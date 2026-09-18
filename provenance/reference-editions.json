@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "title": "TRIAD equation reference editions",
+  "current_version": "1.1",
+  "imported_on": "2026-09-17",
+  "policy": "Reference editions are preserved as supplied. Importing an edition does not modify or retroactively assign that edition to historical code, configurations or results.",
+  "editions": [
+    {
+      "version": "1.0",
+      "status": "historical",
+      "path": "docs/reference/records/triad-equation-reference.md",
+      "sha256": "e2e0c39784ba76192b7c14ef31949607c5d15835eb33e27f0ff6c43251b0166a",
+      "provenance": "Previously preserved repository reference; original acquisition history remains in layout-migration.json."
+    },
+    {
+      "version": "1.1",
+      "status": "current_author_supplied_reference",
+      "document_date": "2026-09-13",
+      "path": "docs/reference/equation/v1.1.md",
+      "sha256": "afb4ac1c7dc391a127e10548b12d0e5eaafd50f2e5093db2f27fcad0ea15d6d8",
+      "source_filename": "triad_equation_reference.md",
+      "source_sha256": "afb4ac1c7dc391a127e10548b12d0e5eaafd50f2e5093db2f27fcad0ea15d6d8",
+      "provenance": "Supplied by Leonardo Andujar for this update; copied byte for byte."
+    }
+  ]
+}

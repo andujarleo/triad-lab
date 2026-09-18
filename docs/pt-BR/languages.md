@@ -19,3 +19,5 @@ Inglês é a base da documentação editorial; português brasileiro é a primei
 6. Atualize traduções junto da base ou sinalize visivelmente que aguardam sincronização.
 
 Novos idiomas acrescentam explicações. Não duplique o código numérico para cada idioma. As variantes traduzidas que já existiam foram preservadas em `code/en/` e `code/pt-BR/`.
+
+O site interativo possui [pontos próprios de tradução](../../web/README.md). Amplie em conjunto os textos da interface, conceitos, alternativas do catálogo e seletor de idioma; verifique rótulos longos e URLs compartilhadas no novo idioma.

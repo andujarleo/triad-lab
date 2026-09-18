@@ -4,6 +4,8 @@
 
 Begin with [TRIAD’s proposal and operational reading](triad.md). This research presents itself as nonstandard quantum physics; the historical diagnostics need that context.
 
+For new executions, declare the [equation edition](../reference/equation/README.md) and implementation revision. The current 1.1 reference specifies the complete dynamics; historical controls keep their original context. Its edition index also records unresolved differences within the supplied specification.
+
 Start with a study’s question and **FILES.md**, then follow protocol → configuration → source → recorded output → interpretation. The [JSON catalog](../../experiments/catalog.json) lists all 65 studies, their bilingual pages and every associated source payload.
 
 ## What the record can establish

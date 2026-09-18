@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-09-17 — A public observatory for TRIAD
+
+- Present the author’s ontological hypothesis in English and Portuguese, with a conceptual map, vocabulary, author page and editorial journal.
+- Add an interactive atlas sourced from all 65 study records, with bilingual search and shareable area/material filters.
+- Add spatial inspection of two preserved final density volumes; preserve the source values and identify source paths, hashes, display ranges and relative positions.
+- Add the author-supplied equation reference v1.1 byte for byte, retain v1.0 and document their edition history without reclassifying historical runs.
+- Refresh both README entrances with the original phase-vortex image, three curated studies and paths into the public site and research archive.
+- Add a reproducible static build, data/interface tests and a GitHub Pages workflow gated on preservation checks and tests.
+
+See [the site source guide](web/README.md), [data contract](docs/maintenance/site-data.md) and [equation editions](docs/reference/equation/README.md).
+
 ## 2026-09-17 — Organize the lab by study
 
 - Consolidate the physical repository into 65 studies across eight areas, with code, notes, configurations and recorded outputs together.

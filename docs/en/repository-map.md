@@ -2,6 +2,8 @@
 
 # Find your way around
 
+The [interactive lab](https://andujarleo.github.io/triad-lab/) is the public entrance. The repository connects that view to study files, reference editions and the records behind each image.
+
 ```text
 README.md                         A short entrance for any reader
 experiments/
@@ -19,10 +21,17 @@ experiments/
       variants/<name>/code/       Distinct implementations, when needed
   catalog.json                    Complete machine-readable catalog
 docs/en/ · docs/pt-BR/            Tours, glossary and technical guides
-docs/reference/                   Original concepts, records and solver
+docs/reference/
+  equation/                       Current v1.1 reference and edition index
+  concepts/ · records/ · solver/   Original research sources
 provenance/                       Origins, path map, hashes and audit
 templates/                        New studies and run records
-tools/check_repository.py         Integrity and navigation checks
+web/                              Public interface and bilingual content
+tools/
+  build_site.py                   Export the site from preserved material
+  check_repository.py             Integrity and navigation checks
+  test_*.py · frontend.test.mjs    Preservation and interface tests
+_site/                            Generated site, ignored by Git
 ```
 
 Folders are created only when there is material for them. A note-only attempt is a valid record. Inside some studies, subfolders retain separate diagnostic groups or runs; merging files with similar names would erase distinctions.
@@ -32,6 +41,12 @@ Folders are created only when there is material for them. A note-only attempt is
 Existing translated code remains in `code/en/` and `code/pt-BR/`. New translations add documentation, not copies of numerical code. Original scripts still contain their historical input and output paths; [execution guidance](getting-started.md) explains what can be run directly.
 
 [All studies](../../experiments/README.md) · [Old-to-new path map](../../provenance/layout-migration.json) · [Contributing](contributing.md)
+
+## The public site and the research archive
+
+[Website source](../../web/README.md) describes the build, preview and language/module extensions. The generated `_site/` folder is disposable output; original research stays under `experiments/`. The [data contract](../maintenance/site-data.md) specifies how saved arrays and images reach the viewer.
+
+The [equation edition index](../reference/equation/README.md) links the current v1.1 and preserved v1.0. The [author page](author.md), [vocabulary](glossary.md) and [journal](journal.md) provide the context for new readers.
 
 ## A real example
 

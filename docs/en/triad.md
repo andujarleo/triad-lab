@@ -1,45 +1,59 @@
 [Lab](../../README.md) · [Português](../pt-BR/triad.md)
 
-# TRIAD: a proposal for nonstandard quantum physics
+# One underlying reality. Many possible forms.
 
-Leonardo Andujar’s TRIAD starts from the joint dynamics of **focus, memory and bath** to develop its account of matter, observation and the universe. Its starting point is operational: what the dynamics does defines the meaning assigned to a phenomenon.
+TRIAD begins with Leonardo Andujar’s hypothesis that a single equation describes the deepest layer of the universe. Matter, interactions and what we experience as reality would emerge from that underlying dynamics. The proposal includes the idea that we live in a simulation.
 
-The author’s notes put it directly: **“What the dynamics does is what the thing is.”** This translation reflects the original Portuguese wording. The project is not presented as a reproduction of standard quantum mechanics or a term-by-term translation of superposition, Born, qubits or Bell. [Original operational reading](../reference/concepts/operational-readings.md).
+This is the starting point of an independent lab in **nonstandard quantum physics and ontology**. Ontology asks what exists and what it is made of. TRIAD approaches that question through a field that evolves, carries its history and responds to that history.
 
-## The triad in motion
+> “O que a dinâmica faz é o que a coisa é.”
+>
+> “What the dynamics does is what the thing is.” — English translation of the [author’s operational reading](../reference/concepts/operational-readings.md).
 
-| Component | Role in the proposal |
+## The idea, before the notation
+
+In the author’s account, matter is not the deepest building block. Everything is read through “atoms” and their activity: vibration, interaction and the forms that follow. An atom in the lab’s operational vocabulary begins as a localized Gaussian field packet; it is also used to think about structures inside larger structures, including an atom-like universe.
+
+The following map records the author’s conceptual sequence. Its arrows describe the proposed connection between ideas; they do not assert a measured conversion or a mathematical identity.
+
+```mermaid
+flowchart LR
+    A["Atom"] --> B["Vibration"]
+    B --> C["Friction"]
+    C --> D["Frequency · sound"]
+    D --> E["Energy · light"]
+```
+
+[Atom](glossary.md#atom) · [Vibration and friction](glossary.md#vibration-and-friction) · [Frequency and sound](glossary.md#frequency-and-sound) · [Energy and light](glossary.md#energy-and-light)
+
+## The dynamics we can inspect
+
+| Together | In the field |
 |---|---|
-| **Focus** | Attractive self-interaction concentrates the field: existing density can draw further concentration. |
-| **Memory** | Memory fields retain the history of density. In the repulsive regime, that history acts against persistent concentration. |
-| **Bath** | Dissipation and excitation act together with the dynamics. In the author’s operational reading, the filling of the volume participates in the formation of the modeled universe. |
+| **Focus** | Attractive self-interaction can concentrate density. |
+| **Memory** | Fields retain earlier density on several time scales and act back on the present. Their coupling determines the direction of that response. |
+| **Bath** | Dissipation and stochastic excitation participate throughout the evolution. |
 
-The central investigation concerns these components acting together. Controls and reductions help examine behavior, but do not replace the definition of the complete system. The historical record contains these distinct stages. [The system in the author’s words](../reference/concepts/system-overview.md).
-
-## Its own operational vocabulary
-
-- **Atom:** a Gaussian seed in TRIAD’s operational reading.
-- **Universe:** the volume filled by the system; the proposal also investigates structures inside a larger structure.
-- **Memory:** the field’s own history, represented by variables that respond to density on different time scales.
-- **Anti-collapse:** dynamic opposition to persistent concentration. The notes distinguish a spread-out final state from intense pulses that can occur earlier.
-- **Observer and observed:** relations investigated within the system. Early trials with an additional C field belong to an exploratory stage; they do not define TRIAD’s memory.
-
-These are the project’s definitions and interpretations. Each study exposes records that support, limit or leave open the proposed reading.
-
-## Keep the law and its history together
+The reference describes their joint evolution through the field Ψ and memory fields yⱼ:
 
 ```text
-i·ℏ·∂_t Ψ = [-ℏ²/(2m)∇² + V_ext + Λ|Ψ|² + V_mem + α(-Δ)^(σ/2) - iΓ]Ψ + η
+i·ℏ·∂_t Ψ = [-ℏ²/(2m)∇² + V_ext + Λ|Ψ|² + V_mem + α(-Δ)^(σ/2) − iΓ]Ψ + η
 V_mem = Σ_j λ_j y_j
 ∂_t y_j = ν_j (|Ψ|² − y_j)
 ```
 
-The field changes memory, and memory acts back on the field. Signs, parameters, initial state and active terms matter: historical configurations are not interchangeable. The [mathematical reference](../reference/records/triad-equation-reference.md) specifies operators and methods; the [operational reading](../reference/concepts/operational-readings.md) explains the meaning the author assigns to the whole system.
+The [current reference, version 1.1](../reference/equation/README.md), states the rule of the complete equation. New work under that edition keeps the dynamics together, with memory and bath active. Historical studies retain the parameters and implementations with which they were recorded.
 
-## How the lab investigates the proposal
+## From a large hypothesis to a readable experiment
 
-[Memory and bounce](../../experiments/memory/memory-and-bounce/README.md), [nested structures](../../experiments/structures/README.md) and [density–memory maps](../../experiments/structures/density-memory-maps/README.md) expose questions about the dynamics. The [historical QM sequence](topics/quantum.md) records diagnostics of resolution, ensembles, modes and linearity. It belongs to the engineering and chronology of the research; it does not define all of TRIAD through conventional quantum-mechanical criteria.
+An individual study starts with a question that can be followed through its files. Does a concentrated region spread? Does a pattern persist? Does a later response carry an earlier history?
 
-The physical proposal, its implementation and a test’s outcome are distinct parts of the work. The lab keeps all three accessible, including inconclusive outcomes, differences between versions and open questions.
+The [memory-and-bounce study](../../experiments/memory/memory-and-bounce/README.md) follows concentration and expansion. The [pocket studies](../../experiments/structures/a-pocket-in-the-field/README.md) follow a distinguishable region within the field. The [density–memory maps](../../experiments/structures/density-memory-maps/README.md) let you inspect where present density and accumulated history meet.
 
-[Five-minute tour](start-here.md) · [Gallery](gallery.md) · [Research guide](research-guide.md)
+Each page connects **the question**, **the implementation** and **the recorded outcome**. This gives the broader proposal somewhere concrete to develop, including when a structure fades or a diagnostic remains inconclusive.
+
+## A vocabulary still taking shape
+
+The author also writes the idea as **P1 + P2 + P3**, associated with a finite amount of something in the universe. The current reference names **P2 as memory** and **P3 as bath**. It does not define P1 or the quantity being summed. Those definitions remain open in the [vocabulary](glossary.md#p1-p2-p3-and-finitude); the lab does not assign them an invented unit or conservation law.
+
+Read [why this lab exists](author.md), take the [five-minute tour](start-here.md), or open the [research journal](journal.md) to follow what is being developed next.

@@ -6,3 +6,6 @@ The files below record earlier organization work. Their dated decisions describe
 
 - [Earlier plan](tasks/plan.md)
 - [Earlier delivery checklist](tasks/todo.md)
+
+- [Public atlas data and build](site-data.md)
+- [Public observatory architecture](../decisions/001-public-observatory.md)

@@ -2,6 +2,8 @@
 
 # Encontre seu caminho
 
+O [lab interativo](https://andujarleo.github.io/triad-lab/?lang=pt-BR) é a entrada pública. O repositório conecta essa apresentação aos arquivos dos estudos, às edições da referência e aos registros por trás de cada imagem.
+
 ```text
 README.md                         Entrada curta para qualquer leitor
 experiments/
@@ -19,10 +21,17 @@ experiments/
       variants/<name>/code/       Implementações diferentes, quando necessário
   catalog.json                    Catálogo completo para ferramentas
 docs/en/ · docs/pt-BR/            Visitas, glossário e guias técnicos
-docs/reference/                   Conceitos, registros e solver originais
+docs/reference/
+  equation/                       Referência v1.1 vigente e índice de edições
+  concepts/ · records/ · solver/   Fontes originais da pesquisa
 provenance/                       Origens, mapa de caminhos, hashes e auditoria
 templates/                        Novos estudos e registros de execução
-tools/check_repository.py         Checagens de integridade e navegação
+web/                              Interface pública e conteúdo bilíngue
+tools/
+  build_site.py                   Gera o site a partir do material preservado
+  check_repository.py             Verifica integridade e navegação
+  test_*.py · frontend.test.mjs    Testes de preservação e interface
+_site/                            Site gerado, ignorado pelo Git
 ```
 
 Pastas só existem quando contêm material. Uma tentativa registrada apenas em nota é um registro válido. Dentro de alguns estudos, subpastas mantêm grupos de diagnósticos ou execuções separados; juntar arquivos de nomes parecidos apagaria distinções.
@@ -32,6 +41,12 @@ Pastas só existem quando contêm material. Uma tentativa registrada apenas em n
 O código traduzido que já existia permanece em `code/en/` e `code/pt-BR/`. Novas traduções acrescentam documentação, não cópias do código numérico. Os scripts originais ainda contêm seus caminhos históricos de entrada e saída; o [guia de execução](getting-started.md) explica o que pode ser executado diretamente.
 
 [Todos os estudos](../../experiments/README.pt-BR.md) · [Mapa de caminhos antigos e novos](../../provenance/layout-migration.json) · [Contribuir](contributing.md)
+
+## O site público e o arquivo de pesquisa
+
+A [documentação do site](../../web/README.md) explica o build, a prévia e a expansão de idiomas e módulos. A pasta `_site/` contém saídas geradas; a pesquisa original fica em `experiments/`. O [contrato de dados](../maintenance/site-data.md) especifica como matrizes e imagens salvas chegam ao visualizador.
+
+O [índice de edições da equação](../reference/equation/README.md) conecta a v1.1 vigente à v1.0 preservada. A [página do autor](author.md), o [vocabulário](glossary.md) e o [diário](journal.md) dão contexto a quem está chegando.
 
 ## Exemplo real
 

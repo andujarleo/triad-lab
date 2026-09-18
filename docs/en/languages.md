@@ -19,3 +19,5 @@ English is the base for editorial documentation; Brazilian Portuguese is the fir
 6. Update translations with their source or mark them visibly as awaiting synchronization.
 
 New languages add explanations. Do not duplicate numerical code per language. Existing translated variants are preserved in `code/en/` and `code/pt-BR/`.
+
+The interactive site has its own [translation entry points](../../web/README.md). Extend its interface text, concept descriptions, catalog fallbacks and language selector together; verify long labels and shared URLs in the new language.

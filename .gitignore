@@ -8,3 +8,5 @@ __pycache__/
 **/artifacts/
 **/bravais_outputs_3d/
 /runs/
+
+/_site/

@@ -84,6 +84,11 @@ def audit(root):
     changes = json.loads((root / 'provenance/document-link-changes.json').read_text())
     catalog = json.loads((root / 'experiments/catalog.json').read_text())
     errors = verify_payloads(root, ledger['content'], changes)
+    editions = json.loads((root / 'provenance/reference-editions.json').read_text())
+    for edition in editions['editions']:
+        file = root / edition['path']
+        if not file.is_file() or digest(file.read_bytes()) != edition['sha256']:
+            errors.append(f"reference edition changed or missing: {edition['path']}")
     preserved = {(x['old_path'], x['path'], x['original_sha256']) for x in ledger['content']}
     ids, folders, associated = set(), set(), set()
     for study in catalog['experiments']:

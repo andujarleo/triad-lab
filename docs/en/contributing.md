@@ -37,3 +37,5 @@ Describe the problem, final change, validation and remaining limitations in the 
 ## Preserve the starting point
 
 Present TRIAD as a proposal for nonstandard quantum physics. Connect new interpretations to the author’s operational reading and the regime actually executed. Distinguish the complete triad, historical pilots and controls; do not make a conventional quantum-mechanical diagnostic the definition of the entire project. [Presentation reference](triad.md).
+
+The public atlas is generated from the same catalog. To add a representative question, image or saved field, follow the [site data contract](../maintenance/site-data.md). For interface changes, run `node --test tools/frontend.test.mjs` and rebuild as described in [web/README.md](../../web/README.md).

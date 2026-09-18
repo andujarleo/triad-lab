@@ -1,0 +1,2 @@
+# Read saved NPZ densities for the static site; no simulation is executed.
+numpy==2.5.1

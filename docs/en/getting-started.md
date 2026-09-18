@@ -2,6 +2,8 @@
 
 # Run a study
 
+These commands inspect or execute preserved historical implementations. They do not certify conformity with reference 1.1. Consult the [edition history](../reference/equation/README.md) and each study’s declared configuration before starting a new run.
+
 Commands use a POSIX shell from the repository root and Python 3.10 or newer. The requirements are an installation starting point, not a recovered lockfile of the original environment.
 
 ```sh
