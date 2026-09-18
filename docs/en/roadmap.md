@@ -14,3 +14,9 @@ directions, not completed results or dated commitments.
   frequency warrants them.
 
 [How to contribute](contributing.md) · [Experiment template](../../templates/experiment/README.md)
+
+## Building on the T archive
+
+- Prepare runnable bundles per study, starting with the dependencies actually available.
+- Recover missing runtimes, inputs and references listed in provenance.
+- Record new runs separately and compare parameters and results with the preserved source.

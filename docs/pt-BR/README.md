@@ -6,16 +6,17 @@
 
 **Explorar relações, memória e estruturas emergentes — com código, dados e resultados lado a lado.**
 
-TRIAD Lab reúne séries independentes de experimentos numéricos de Leonardo Andujar. Cada experimento tem uma pergunta, uma implementação e um registro do material disponível. O laboratório cresce por novas séries e execuções, preservando o que já foi registrado.
+TRIAD Lab reúne séries independentes de experimentos numéricos de Leonardo Andujar. Cada entrada do catálogo liga uma pergunta à implementação e aos registros disponíveis. O laboratório cresce por novas séries e execuções, preservando o que já foi registrado.
 
 **[Explorar experimentos](../../experiments/README.pt-BR.md) · [Executar localmente](getting-started.md) · [Ver a galeria](gallery.md) · [Contribuir](contributing.md)**
 
-## Duas séries para começar
+## Explore o laboratório
 
 | Série | O que explora | Percurso |
 |---|---|---|
 | **Entre** | Osciladores acoplados, memória nas relações e camadas contínuas | [4 experimentos](../../experiments/entre-01-observer/README.pt-BR.md) |
 | **Bravais 3D** | Campo complexo, geometria espacial e estrutura espectral | [3 experimentos](../../experiments/bravais-01-field/README.pt-BR.md) |
+| **Acervo T** | 39 runs, sequência QM e explorações de campo, geometria e continuidade | [7 percursos de leitura](../../collections/t-archive/README.pt-BR.md) |
 
 ![Cortes do estado Bravais salvo](../../bravais/resultados/pure_final_slices.png)
 
@@ -31,6 +32,7 @@ TRIAD Lab reúne séries independentes de experimentos numéricos de Leonardo An
 ## Como o laboratório se organiza
 
 ```text
+collections/       Acervos históricos, índices e proveniência
 experiments/       Catálogo e páginas; novos experimentos crescem aqui
 docs/en/           Guias de leitura, execução e contribuição em inglês
 docs/pt-BR/        Guias equivalentes em português
@@ -48,6 +50,8 @@ Scripts, configurações e resultados originais foram preservados. Confira os ha
 
 ```sh
 shasum -a 256 -c docs/archive/SHA256SUMS
+# Acervo T (após git lfs pull):
+shasum -a 256 -c collections/t-archive/SHA256SUMS
 ```
 
 [Próximos passos](roadmap.md) · [Histórico da organização](../../CHANGELOG.md) · [Registro original](../../docs/archive/README.md)

@@ -21,3 +21,7 @@ Sete entradas em duas séries. Cada ID permanece estável entre idiomas. “Regi
 **Bravais:** evolução 3D → estado salvo → cordas; a varredura investiga o tamanho da caixa.
 
 [Gallery / Galeria](../docs/pt-BR/gallery.md) · [Contribute / Contribuir](../docs/pt-BR/contributing.md) · [JSON catalog](catalog.json)
+
+## Acervos de pesquisa
+
+[T — acervo de simulações](../collections/t-archive/README.pt-BR.md) reúne 39 runs numerados, 6 etapas QM e linhas de geometria, R5 passivo, continuidade causal e universo persistente. As fichas distinguem nota histórica, artefatos e dependências; o acervo não implica que todos os estudos estejam prontos para executar.

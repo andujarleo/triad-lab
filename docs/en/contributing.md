@@ -60,3 +60,7 @@ State the question or usability problem, what changed, how it was checked and an
 execution limits. Keep editorial changes separate from changes to experimental behavior.
 Include translation updates, or mark the affected translation as needing synchronization.
 The current snapshot has no license file; preserve authorship and do not invent a license.
+
+## Extend an archived study
+
+Keep `collections/t-archive/source/` immutable. Create the new study in `experiments/<id>/`, link its source entry and record the hashes used. Path, dependency or backend adaptations need their own change record and validation. Document new results as new runs; update English and Portuguese entries together.

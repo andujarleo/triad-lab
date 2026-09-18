@@ -198,3 +198,7 @@ Figuras e animações originais, sem alteração. Os rótulos em português são
 ![pure_timeseries](../../bravais/resultados/pure_timeseries.png)
 
 </details>
+
+## Mais figuras no acervo T
+
+[Explore os percursos visuais e as fichas de cada run](../../collections/t-archive/README.pt-BR.md).

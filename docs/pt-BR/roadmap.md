@@ -14,3 +14,9 @@ não resultados prontos nem compromissos com prazos.
   quando a frequência de contribuições justificar.
 
 [Como contribuir](contributing.md) · [Modelo de experimento](../../templates/experiment/README.pt-BR.md)
+
+## A partir do acervo T
+
+- Preparar pacotes executáveis por estudo, começando pelas dependências realmente disponíveis.
+- Recuperar os runtimes, entradas e referências ausentes listados na proveniência.
+- Registrar novas execuções separadamente, comparando parâmetros e resultados com a fonte preservada.

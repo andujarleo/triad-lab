@@ -1,0 +1,94 @@
+# Bravais results and outer versions / Resultados Bravais e versões externas
+
+[Collection / Acervo](../README.md) · [All files / Todos os arquivos](README.md)
+
+86 files / arquivos. Original bytes; hashes and duplicate paths in the [manifest](../provenance/manifest.json).
+
+| File / Arquivo | Format / Formato | Bytes | SHA-256 (prefix) |
+|---|---|---:|---|
+| [pasta sem título/X/bravais_outputs_3d/cordas_densidade.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/cordas_densidade.png) | `.png` | 350,032 | `0b42c0e96959` |
+| [pasta sem título/X/bravais_outputs_3d/cordas_notas.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/cordas_notas.png) | `.png` | 514,827 | `13c78c9b385a` |
+| [pasta sem título/X/bravais_outputs_3d/dim_caixas.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/dim_caixas.png) | `.png` | 90,437 | `cee5d6928d2c` |
+| [pasta sem título/X/bravais_outputs_3d/dim_censo.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/dim_censo.png) | `.png` | 87,223 | `a481fff68cb5` |
+| [pasta sem título/X/bravais_outputs_3d/dim_crescimento.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/dim_crescimento.png) | `.png` | 49,689 | `831d276d8b79` |
+| [pasta sem título/X/bravais_outputs_3d/dim_direcoes.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/dim_direcoes.png) | `.png` | 43,318 | `ec1e3b79db3b` |
+| [pasta sem título/X/bravais_outputs_3d/dim_espectro.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/dim_espectro.png) | `.png` | 111,649 | `b0ca1685185b` |
+| [pasta sem título/X/bravais_outputs_3d/dim_local.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/dim_local.png) | `.png` | 485,153 | `12c58008f440` |
+| [pasta sem título/X/bravais_outputs_3d/dim_orcamento.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/dim_orcamento.png) | `.png` | 109,987 | `b7b895ebfbc7` |
+| [pasta sem título/X/bravais_outputs_3d/dim_passeio.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/dim_passeio.png) | `.png` | 126,414 | `598b1b79d09f` |
+| [pasta sem título/X/bravais_outputs_3d/final_state.npz](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/final_state.npz) | `.npz` | 2,001,104 | `32f1ca52994f` |
+| [pasta sem título/X/bravais_outputs_3d/pure_autocorr.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_autocorr.png) | `.png` | 74,882 | `feb2c714856b` |
+| [pasta sem título/X/bravais_outputs_3d/pure_density_bw.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_density_bw.png) | `.png` | 36,614 | `e737c46ea026` |
+| [pasta sem título/X/bravais_outputs_3d/pure_evolution.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_evolution.png) | `.png` | 1,227,042 | `110b900bb023` |
+| [pasta sem título/X/bravais_outputs_3d/pure_fft.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_fft.png) | `.png` | 46,947 | `6e138d043d3a` |
+| [pasta sem título/X/bravais_outputs_3d/pure_fft_bw.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_fft_bw.png) | `.png` | 37,472 | `389349ad8c92` |
+| [pasta sem título/X/bravais_outputs_3d/pure_fft_floors.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_fft_floors.png) | `.png` | 53,729 | `2d5de20da2f4` |
+| [pasta sem título/X/bravais_outputs_3d/pure_fft_projections.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_fft_projections.png) | `.png` | 43,789 | `5ad02267ad3f` |
+| [pasta sem título/X/bravais_outputs_3d/pure_fft_pyramid_test.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_fft_pyramid_test.png) | `.png` | 57,610 | `02186ebd5add` |
+| [pasta sem título/X/bravais_outputs_3d/pure_fft_rays.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_fft_rays.png) | `.png` | 63,333 | `4e40ec43e446` |
+| [pasta sem título/X/bravais_outputs_3d/pure_fft_relief.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_fft_relief.png) | `.png` | 732,145 | `7e3bc4de58fb` |
+| [pasta sem título/X/bravais_outputs_3d/pure_fft_shell.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_fft_shell.png) | `.png` | 1,144,534 | `1b9292fe5bb0` |
+| [pasta sem título/X/bravais_outputs_3d/pure_fft_time.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_fft_time.png) | `.png` | 86,441 | `a5e81b73e6bc` |
+| [pasta sem título/X/bravais_outputs_3d/pure_fft_views.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_fft_views.png) | `.png` | 1,371,643 | `7a4d00a24b10` |
+| [pasta sem título/X/bravais_outputs_3d/pure_final_peaks3d.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_final_peaks3d.png) | `.png` | 519,631 | `c99d22eab9d4` |
+| [pasta sem título/X/bravais_outputs_3d/pure_final_slices.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_final_slices.png) | `.png` | 552,429 | `dec92bf73411` |
+| [pasta sem título/X/bravais_outputs_3d/pure_isosurface.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_isosurface.png) | `.png` | 947,620 | `856cd5e72ada` |
+| [pasta sem título/X/bravais_outputs_3d/pure_symmetry.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_symmetry.png) | `.png` | 35,548 | `9a291a512379` |
+| [pasta sem título/X/bravais_outputs_3d/pure_timeseries.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/pure_timeseries.png) | `.png` | 323,320 | `a78aeb6ff9c5` |
+| [pasta sem título/X/bravais_outputs_3d/sweep_L24.npz](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/sweep_L24.npz) | `.npz` | 838,326 | `7e0f95b616b6` |
+| [pasta sem título/X/bravais_outputs_3d/sweep_L32.npz](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/sweep_L32.npz) | `.npz` | 1,985,909 | `9f7e6203e872` |
+| [pasta sem título/X/bravais_outputs_3d/sweep_L48.npz](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/sweep_L48.npz) | `.npz` | 6,714,537 | `bad63376af04` |
+| [pasta sem título/X/bravais_outputs_3d/sweep_verdict.png](../source/pasta%20sem%20t%C3%ADtulo/X/bravais_outputs_3d/sweep_verdict.png) | `.png` | 137,787 | `8e2039db3338` |
+| [pasta sem título/bravais_outputs/bravais_2d_emergent.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/bravais_2d_emergent.png) | `.png` | 78,637 | `01542237de65` |
+| [pasta sem título/bravais_outputs/bravais_2d_long_evolution.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/bravais_2d_long_evolution.png) | `.png` | 342,167 | `043139cadc17` |
+| [pasta sem título/bravais_outputs/bravais_2d_long_final.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/bravais_2d_long_final.png) | `.png` | 144,350 | `c83ae48732ed` |
+| [pasta sem título/bravais_outputs/bravais_2d_multi_gauss.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/bravais_2d_multi_gauss.png) | `.png` | 337,591 | `286015295943` |
+| [pasta sem título/bravais_outputs/bravais_3d_final.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/bravais_3d_final.png) | `.png` | 151,048 | `2d5da37b75b7` |
+| [pasta sem título/bravais_outputs/compare_2d_3d.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/compare_2d_3d.png) | `.png` | 62,188 | `42926375ac75` |
+| [pasta sem título/bravais_outputs/density_evolution.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/density_evolution.png) | `.png` | 47,797 | `b91d5d63dcc4` |
+| [pasta sem título/bravais_outputs/energy_ell.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/energy_ell.png) | `.png` | 54,622 | `e3636093722b` |
+| [pasta sem título/bravais_outputs/final_state.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/final_state.png) | `.png` | 41,470 | `46760e1355bf` |
+| [pasta sem título/bravais_outputs/lattice_params.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/lattice_params.png) | `.png` | 85,273 | `051731bda164` |
+| [pasta sem título/bravais_outputs/order_2d.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/order_2d.png) | `.png` | 27,802 | `77963c65adf6` |
+| [pasta sem título/bravais_outputs/order_2d_long.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/order_2d_long.png) | `.png` | 30,794 | `53eb3a3a4c55` |
+| [pasta sem título/bravais_outputs/order_2d_multi.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/order_2d_multi.png) | `.png` | 29,460 | `39ceef030fd7` |
+| [pasta sem título/bravais_outputs/order_3d.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/order_3d.png) | `.png` | 28,588 | `be374f4b7bba` |
+| [pasta sem título/bravais_outputs/order_parameter.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/order_parameter.png) | `.png` | 41,806 | `59fd3c910ce4` |
+| [pasta sem título/bravais_outputs/pure_evolution.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/pure_evolution.png) | `.png` | 1,838,473 | `c667ec795c8b` |
+| [pasta sem título/bravais_outputs/pure_fft.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/pure_fft.png) | `.png` | 48,083 | `6d0344d23e94` |
+| [pasta sem título/bravais_outputs/pure_final.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/pure_final.png) | `.png` | 1,169,920 | `0d36fa64457e` |
+| [pasta sem título/bravais_outputs/pure_timeseries.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/pure_timeseries.png) | `.png` | 262,706 | `426f5a345200` |
+| [pasta sem título/bravais_outputs/v_2d_long.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/v_2d_long.png) | `.png` | 146,594 | `b5852e2517a6` |
+| [pasta sem título/bravais_outputs/v_3d.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/v_3d.png) | `.png` | 225,080 | `e5cfff367ea4` |
+| [pasta sem título/bravais_outputs/v_params_2d.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/v_params_2d.png) | `.png` | 238,586 | `a11498b2c5ef` |
+| [pasta sem título/bravais_outputs/v_params_2d_multi.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs/v_params_2d_multi.png) | `.png` | 250,554 | `85495457c201` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/bravais_cordas.py](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/bravais_cordas.py) | `.py` | 10,315 | `497c189516cd` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/bravais_puro_3d.py](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/bravais_puro_3d.py) | `.py` | 31,722 | `31d4d69f4fb1` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/bravais_sweep_L.py](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/bravais_sweep_L.py) | `.py` | 12,294 | `289a7c0fe3c1` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/cordas_densidade.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/cordas_densidade.png) | `.png` | 350,032 | `0b42c0e96959` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/cordas_notas.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/cordas_notas.png) | `.png` | 514,827 | `13c78c9b385a` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/final_state.npz](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/final_state.npz) | `.npz` | 2,001,104 | `32f1ca52994f` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_autocorr.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_autocorr.png) | `.png` | 74,882 | `feb2c714856b` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_density_bw.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_density_bw.png) | `.png` | 36,614 | `e737c46ea026` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_evolution.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_evolution.png) | `.png` | 1,227,042 | `110b900bb023` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_fft.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_fft.png) | `.png` | 46,947 | `6e138d043d3a` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_fft_bw.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_fft_bw.png) | `.png` | 37,472 | `389349ad8c92` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_fft_floors.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_fft_floors.png) | `.png` | 53,729 | `2d5de20da2f4` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_fft_projections.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_fft_projections.png) | `.png` | 43,789 | `5ad02267ad3f` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_fft_pyramid_test.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_fft_pyramid_test.png) | `.png` | 57,610 | `02186ebd5add` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_fft_rays.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_fft_rays.png) | `.png` | 63,333 | `4e40ec43e446` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_fft_relief.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_fft_relief.png) | `.png` | 732,145 | `7e3bc4de58fb` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_fft_shell.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_fft_shell.png) | `.png` | 1,144,534 | `1b9292fe5bb0` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_fft_time.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_fft_time.png) | `.png` | 86,441 | `a5e81b73e6bc` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_fft_views.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_fft_views.png) | `.png` | 1,371,643 | `7a4d00a24b10` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_final_peaks3d.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_final_peaks3d.png) | `.png` | 519,631 | `c99d22eab9d4` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_final_slices.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_final_slices.png) | `.png` | 552,429 | `dec92bf73411` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_isosurface.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_isosurface.png) | `.png` | 947,620 | `856cd5e72ada` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_symmetry.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_symmetry.png) | `.png` | 35,548 | `9a291a512379` |
+| [pasta sem título/bravais_outputs_3d/bravais_outputs_3d/pure_timeseries.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/bravais_outputs_3d/pure_timeseries.png) | `.png` | 323,320 | `a78aeb6ff9c5` |
+| [pasta sem título/bravais_outputs_3d/pure_evolution.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/pure_evolution.png) | `.png` | 1,407,537 | `eada59593d89` |
+| [pasta sem título/bravais_outputs_3d/pure_fft.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/pure_fft.png) | `.png` | 59,249 | `94a741debf8b` |
+| [pasta sem título/bravais_outputs_3d/pure_final_peaks3d.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/pure_final_peaks3d.png) | `.png` | 643,270 | `a754ed1e235a` |
+| [pasta sem título/bravais_outputs_3d/pure_final_slices.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/pure_final_slices.png) | `.png` | 602,957 | `61ed17b4fb0e` |
+| [pasta sem título/bravais_outputs_3d/pure_isosurface.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/pure_isosurface.png) | `.png` | 982,188 | `a60aca31e18f` |
+| [pasta sem título/bravais_outputs_3d/pure_timeseries.png](../source/pasta%20sem%20t%C3%ADtulo/bravais_outputs_3d/pure_timeseries.png) | `.png` | 351,603 | `6230252c7238` |

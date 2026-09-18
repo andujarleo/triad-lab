@@ -1,0 +1,770 @@
+[
+  {
+    "source": "source/Conceitos/Universo como simulação.md",
+    "reading": "reading/Conceitos/Universo como simulação.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/Universo como simulação.md",
+    "reading": "reading/Conceitos/Universo como simulação.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/Universo como simulação.md",
+    "reading": "reading/Conceitos/Universo como simulação.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/Memória.md",
+    "reading": "reading/Conceitos/Memória.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/Memória.md",
+    "reading": "reading/Conceitos/Memória.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/Anti-colapso.md",
+    "reading": "reading/Conceitos/Anti-colapso.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/Leitura operacional.md",
+    "reading": "reading/Conceitos/Leitura operacional.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/Substrato.md",
+    "reading": "reading/Conceitos/Substrato.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/Phase-to-density.md",
+    "reading": "reading/Conceitos/Phase-to-density.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/Phase-to-density.md",
+    "reading": "reading/Conceitos/Phase-to-density.md",
+    "target": "Backend e unidades",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/FDT.md",
+    "reading": "reading/Conceitos/FDT.md",
+    "target": "Backend e unidades",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/FDT.md",
+    "reading": "reading/Conceitos/FDT.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/FDT.md",
+    "reading": "reading/Conceitos/FDT.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/O sistema.md",
+    "reading": "reading/Conceitos/O sistema.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Conceitos/O sistema.md",
+    "reading": "reading/Conceitos/O sistema.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/30 dois_atomos_gravidade.md",
+    "reading": "reading/Simulações/30 dois_atomos_gravidade.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/37 bolso_no_universo.md",
+    "reading": "reading/Simulações/37 bolso_no_universo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/35 singularidade_finita.md",
+    "reading": "reading/Simulações/35 singularidade_finita.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/22 triad_phase_to_density_speed_refined.md",
+    "reading": "reading/Simulações/22 triad_phase_to_density_speed_refined.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/29 triad_R5_A2.md",
+    "reading": "reading/Simulações/29 triad_R5_A2.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/29 triad_R5_A2.md",
+    "reading": "reading/Simulações/29 triad_R5_A2.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/31 nested_gaussians.md",
+    "reading": "reading/Simulações/31 nested_gaussians.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/19 triad_bigbang_solver_run.md",
+    "reading": "reading/Simulações/19 triad_bigbang_solver_run.md",
+    "target": "Backend e unidades",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/20 triad_bigbang_3d_box.md",
+    "reading": "reading/Simulações/20 triad_bigbang_3d_box.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/28 triad_atoms_3d.md",
+    "reading": "reading/Simulações/28 triad_atoms_3d.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/28 triad_atoms_3d.md",
+    "reading": "reading/Simulações/28 triad_atoms_3d.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/01 triad_sim.md",
+    "reading": "reading/Simulações/01 triad_sim.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/23 triad_memory_bounce_bigbang.md",
+    "reading": "reading/Simulações/23 triad_memory_bounce_bigbang.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/16 triad_R5_reference_N40.md",
+    "reading": "reading/Simulações/16 triad_R5_reference_N40.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/33 ninho_pm.md",
+    "reading": "reading/Simulações/33 ninho_pm.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Backend e unidades",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "PROTOCOL",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "analysis",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "PROTOCOL",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "analysis",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Q01b",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "analysis",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "PROTOCOL",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Q02",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Q01b",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "analysis",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "PROTOCOL",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Q03",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "Q02",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "PROTOCOL",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/00 registro_completo.md",
+    "reading": "reading/Simulações/00 registro_completo.md",
+    "target": "analysis",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Simulações/Índice de runs.md",
+    "reading": "reading/Simulações/Índice de runs.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/Índice de runs.md",
+    "reading": "reading/Simulações/Índice de runs.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/02 triad_nls_fdt.md",
+    "reading": "reading/Simulações/02 triad_nls_fdt.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/38 dois_bolsos.md",
+    "reading": "reading/Simulações/38 dois_bolsos.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/21 triad_phase_to_density_speed.md",
+    "reading": "reading/Simulações/21 triad_phase_to_density_speed.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/34 ninho_pm_long.md",
+    "reading": "reading/Simulações/34 ninho_pm_long.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/27 triad_chaos_eq.md",
+    "reading": "reading/Simulações/27 triad_chaos_eq.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/39 mapa.md",
+    "reading": "reading/Simulações/39 mapa.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/32 universo_atomo.md",
+    "reading": "reading/Simulações/32 universo_atomo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Simulações/26 triad_bravais_network_map_v2.md",
+    "reading": "reading/Simulações/26 triad_bravais_network_map_v2.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_resumo.md",
+    "reading": "reading/Fontes/TRIAD_resumo.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_resumo.md",
+    "reading": "reading/Fontes/TRIAD_resumo.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/Registro integral.md",
+    "reading": "reading/Fontes/Registro integral.md",
+    "target": "Backend e unidades",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/Registro integral.md",
+    "reading": "reading/Fontes/Registro integral.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Backend e unidades",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "PROTOCOL",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "analysis",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "PROTOCOL",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "analysis",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Q01b",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "analysis",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "PROTOCOL",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Q02",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Q01b",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "analysis",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "PROTOCOL",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Q03",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "Q02",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "PROTOCOL",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "reading": "reading/Fontes/TRIAD_registro_completo_simulacoes_2026-08-21.md",
+    "target": "analysis",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/Fontes/TRIAD_QM_CANONICAL_V1.md",
+    "reading": "reading/Fontes/TRIAD_QM_CANONICAL_V1.md",
+    "target": "Equação de referência",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Fontes/TRIAD_substrato.md",
+    "reading": "reading/Fontes/TRIAD_substrato.md",
+    "target": "TRIAD",
+    "reason": "missing"
+  },
+  {
+    "source": "source/Artefatos/conceitual/Imagens conceituais.md",
+    "reading": "reading/Artefatos/conceitual/Imagens conceituais.md",
+    "target": "Solver",
+    "reason": "missing"
+  },
+  {
+    "source": "source/QM/Q02_ensemble/Q02.md",
+    "reading": "reading/QM/Q02_ensemble/Q02.md",
+    "target": "Q01b",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/QM/Q04_linearidade/Q04.md",
+    "reading": "reading/QM/Q04_linearidade/Q04.md",
+    "target": "Q03",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/QM/Q04_linearidade/Q04.md",
+    "reading": "reading/QM/Q04_linearidade/Q04.md",
+    "target": "Q02",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/QM/Q03_subespacos/Q03.md",
+    "reading": "reading/QM/Q03_subespacos/Q03.md",
+    "target": "Q02",
+    "reason": "ambiguous"
+  },
+  {
+    "source": "source/QM/Q03_subespacos/Q03.md",
+    "reading": "reading/QM/Q03_subespacos/Q03.md",
+    "target": "Q01b",
+    "reason": "ambiguous"
+  }
+]

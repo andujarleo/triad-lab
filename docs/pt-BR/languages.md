@@ -8,8 +8,8 @@ As figuras e os dados salvos mantêm seus rótulos originais.
 
 | Idioma | Entrada | Cobertura |
 |---|---|---|
-| English (`en`) | [Home](../../README.md) | Início, catálogo, sete experimentos e guias |
-| Português (`pt-BR`) | [Início](README.md) | Início, catálogo, sete experimentos e guias |
+| English (`en`) | [Home](../../README.md) | Início, catálogo, sete experimentos, guias e 45 fichas do acervo T |
+| Português (`pt-BR`) | [Início](README.md) | Início, catálogo, sete experimentos, guias e 45 fichas do acervo T |
 
 ## Acrescentar um idioma
 
@@ -34,3 +34,5 @@ Os scripts de `en/`, `entre/` e `bravais/` foram mantidos. Novos idiomas acresce
 documentação e, quando houver suporte, rótulos separados. Não copie implementações
 numéricas por idioma. Unificar os scripts existentes é uma mudança separada, que
 pode afetar comportamento, e não faz parte de uma tradução.
+
+O acervo T tem apresentação, percursos, 39 fichas cronológicas e seis fichas QM em ambos os idiomas. Os documentos históricos na edição de leitura mantêm o idioma original; não são traduções. Índices de arquivos usam rótulos nos dois idiomas.

@@ -153,5 +153,16 @@
       },
       "artifacts": []
     }
+  ],
+  "collections": [
+    {
+      "id": "t-archive",
+      "status": "archival-import",
+      "docs": {
+        "en": "collections/t-archive/README.md",
+        "pt-BR": "collections/t-archive/README.pt-BR.md"
+      },
+      "catalog": "collections/t-archive/catalog.json"
+    }
   ]
 }

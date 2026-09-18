@@ -6,16 +6,17 @@
 
 **Explore relations, memory and emergent structures — with code, data and results side by side.**
 
-TRIAD Lab brings together independent series of numerical experiments by Leonardo Andujar. Each experiment has a question, an implementation and a record of the available material. The lab grows through new series and runs while preserving its existing records.
+TRIAD Lab brings together independent series of numerical experiments by Leonardo Andujar. Each catalog entry connects a question to its available implementation and records. The lab grows through new series and runs while preserving its existing records.
 
 **[Explore experiments](experiments/README.md) · [Run locally](docs/en/getting-started.md) · [Browse the gallery](docs/en/gallery.md) · [Contribute](docs/en/contributing.md)**
 
-## Two series to start with
+## Explore the lab
 
 | Series | What it explores | Path |
 |---|---|---|
 | **Entre** | Coupled oscillators, relational memory and continuous layers | [4 experiments](experiments/entre-01-observer/README.md) |
 | **Bravais 3D** | Complex fields, spatial geometry and spectral structure | [3 experiments](experiments/bravais-01-field/README.md) |
+| **T research archive** | 39 runs, the QM sequence and explorations of fields, geometry and continuity | [7 reading paths](collections/t-archive/README.md) |
 
 ![Orthogonal slices of the saved Bravais state](bravais/resultados/pure_final_slices.png)
 
@@ -31,6 +32,7 @@ TRIAD Lab brings together independent series of numerical experiments by Leonard
 ## How the lab is organized
 
 ```text
+collections/       Historical collections, indexes and provenance
 experiments/       Catalog + experiment pages; new experiment folders grow here
 docs/en/           English reading, running and contribution guides
 docs/pt-BR/        Equivalent Portuguese guides
@@ -48,6 +50,8 @@ Original scripts, configurations and results have been preserved. Check their ha
 
 ```sh
 shasum -a 256 -c docs/archive/SHA256SUMS
+# T archive (after git lfs pull):
+shasum -a 256 -c collections/t-archive/SHA256SUMS
 ```
 
 [Next steps](docs/en/roadmap.md) · [Organization history](CHANGELOG.md) · [Original record](docs/archive/README.md)

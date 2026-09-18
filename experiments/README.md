@@ -21,3 +21,7 @@ Seven entries across two series. IDs stay stable across languages. “Recorded�
 **Bravais:** 3D evolution → saved state → strings; the sweep investigates box size.
 
 [Gallery / Galeria](../docs/en/gallery.md) · [Contribute / Contribuir](../docs/en/contributing.md) · [JSON catalog](catalog.json)
+
+## Research collections
+
+[T — simulation archive](../collections/t-archive/README.md) contains 39 numbered runs, 6 QM stages and lines on geometry, passive R5, causal continuity and a persistent universe. Its entries distinguish historical notes, artifacts and dependencies; inclusion does not imply that every study is ready to run.

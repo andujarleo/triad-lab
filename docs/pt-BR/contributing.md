@@ -62,3 +62,7 @@ Descreva a pergunta ou dificuldade de uso, a mudança, a verificação e os limi
 da execução. Separe alterações editoriais das mudanças de comportamento experimental.
 Atualize traduções ou marque as afetadas como pendentes de sincronização.
 O snapshot atual não tem arquivo de licença; preserve a autoria e não invente uma.
+
+## Expandir um estudo do acervo
+
+Mantenha `collections/t-archive/source/` imutável. Crie o novo estudo em `experiments/<id>/`, vincule a ficha de origem e registre os hashes usados. Adaptações de caminhos, dependências ou backend devem ter seu próprio registro de mudança e validação. Documente novos resultados como novos runs; atualize as entradas em inglês e português juntas.

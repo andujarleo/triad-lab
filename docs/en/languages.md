@@ -8,8 +8,8 @@ historical source material. Original figures and saved data retain their labels.
 
 | Language | Entry | Coverage |
 |---|---|---|
-| English (`en`) | [Home](../../README.md) | Home, catalog, seven experiment pages and guides |
-| Português (`pt-BR`) | [Início](../pt-BR/README.md) | Início, catálogo, sete páginas de experimentos e guias |
+| English (`en`) | [Home](../../README.md) | Home, catalog, seven experiment pages, T archive guides and 45 archive entries |
+| Português (`pt-BR`) | [Início](../pt-BR/README.md) | Início, catálogo, sete páginas de experimentos, guias do acervo T e 45 fichas do acervo |
 
 ## Add another language
 
@@ -34,3 +34,5 @@ The existing `en/`, `entre/` and `bravais/` scripts are retained. New languages
 should add documentation and, when supported, separate display labels. Do not
 copy numerical implementations for every language. Do not deduplicate the existing
 scripts as part of a translation; that would be a separate behavior-sensitive change.
+
+The T archive has a home, reading paths, 39 chronological entries and six QM entries in both languages. Historical documents in the reading edition retain their original language; they are not translations. File indexes use labels in both languages.

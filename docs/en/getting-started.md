@@ -76,3 +76,15 @@ shasum -a 256 -c docs/archive/SHA256SUMS
 This verifies the supplied files. It does not assert exact replay of a historical
 execution. The included arrays, plots and script defaults are the available
 record; capture dependency versions and hardware for each new run.
+
+## Historical T archive
+
+The archive’s numerical data and animations use Git LFS. After installing Git LFS, run from the repository root:
+
+```sh
+git lfs install
+git lfs pull --include="collections/t-archive/**"
+shasum -a 256 -c collections/t-archive/SHA256SUMS
+```
+
+Read the [bundle-specific dependencies](../../collections/t-archive/provenance/dependencies.md) before executing historical code. Bundles include MLX and TriadLang environments outside the basic setup above.

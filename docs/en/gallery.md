@@ -198,3 +198,7 @@ Original figures and animations, unchanged. Their Portuguese labels are preserve
 ![pure_timeseries](../../bravais/resultados/pure_timeseries.png)
 
 </details>
+
+## More figures in the T archive
+
+[Explore the visual paths and individual run entries](../../collections/t-archive/README.md).

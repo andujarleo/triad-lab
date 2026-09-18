@@ -75,3 +75,15 @@ shasum -a 256 -c docs/archive/SHA256SUMS
 A verificação confere os arquivos incluídos, sem afirmar repetição exata de uma
 execução histórica. Arrays, figuras e parâmetros dos scripts são o registro
 disponível; registre versões de dependências e hardware em cada nova execução.
+
+## Acervo histórico T
+
+Os dados numéricos e as animações do acervo usam Git LFS. Depois de instalar Git LFS, execute na raiz do repositório:
+
+```sh
+git lfs install
+git lfs pull --include="collections/t-archive/**"
+shasum -a 256 -c collections/t-archive/SHA256SUMS
+```
+
+Consulte as [dependências específicas](../../collections/t-archive/provenance/dependencies.pt-BR.md) antes de executar código histórico. Os pacotes incluem ambientes MLX e TriadLang externos ao ambiente básico acima.

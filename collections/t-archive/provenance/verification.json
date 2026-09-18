@@ -1,0 +1,20 @@
+{
+  "content_files": 1330,
+  "unique_content": 1140,
+  "entries": 2779,
+  "baseline_files": 54,
+  "rendered_documents": 313,
+  "local_links": 4712,
+  "errors": [],
+  "date": "2026-09-17",
+  "scope": "Archive organization and technical integrity, not simulation reproduction",
+  "directory_entries": 117,
+  "original_zip_unchanged": true,
+  "staged_source_content_verified": true,
+  "lfs_fsck": "pass",
+  "visual_review": "English and Portuguese collection home, original figures and run 36 entry checked in a local Markdown preview",
+  "historical_python_execution": "none",
+  "baseline_commit": "472b6ca65e275e31d949fe83565b2f2b5f00902c",
+  "preservation_commit": "2432a33",
+  "link_scope": "Rendered editorial and reading Markdown; byte-preserved source Markdown and pre-existing docs/archive excluded"
+}
