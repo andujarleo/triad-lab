@@ -48,3 +48,7 @@ The previous layout is recoverable at commit `d9c4ecbcd7322c569d75f9424005fd6c70
 A organização anterior pode ser recuperada no commit acima. A migração registra 1.364 caminhos movidos; os 1.169 conteúdos protegidos continuam recuperáveis, e os 1.062 arquivos que não são Markdown mantêm bytes idênticos. A pesquisa acrescenta 21 fontes fornecidas, com hashes próprios. IDs históricos continuam nos catálogos e filtros; nomes legíveis orientam a árvore pública.
 
 The earlier author-rules audit retains its historical paths. Resolve its `experiments/` paths through the universe migration map; the new execution audit uses current `simulations/` paths. Neither inventory represents a rerun.
+
+The 21 supplied research originals retain their Markdown spacing. A full migration diff reports 318 whitespace diagnostics across seven of those files; these are original bytes, including Markdown hard line breaks. The maintained pages and code pass the whitespace check when that explicitly preserved source directory is excluded. Source integrity remains checked by SHA-256 rather than by reformatting the originals.
+
+Os 21 originais de pesquisa conservam a formatação recebida. Os 318 avisos de espaços em sete fontes foram mantidos para preservar seus bytes; as páginas editadas e o código passam na checagem de espaços. Os hashes verificam a identidade dos originais.
