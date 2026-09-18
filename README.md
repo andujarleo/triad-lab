@@ -17,12 +17,17 @@ From chaos to dynamic equilibrium, crystallization continues. Research connects 
 
 **Phase becomes visible.** Cyan and pink trace opposite phase windings in denser regions. Follow the field snapshots as the camera moves around them. [Explore the animation and its source](simulations/geometry/field-visualizations/README.md).
 
-<table>
-<tr>
-<td width="50%" valign="top"><a href="simulations/memory/memory-and-bounce/README.md"><img src="simulations/memory/memory-and-bounce/results/figures/bounce-timeline-xy.png" width="400" alt="Original density slices at t=0, 4, 8 and 12 in the memory-and-bounce record." /></a><br /><strong>Contraction, then expansion</strong><p>Watch a concentrated region contract and spread again. The radius enclosing half the mass reaches its minimum at t=3.7, then expands; the saved frames and radius curves let you follow the same trajectory.</p><a href="simulations/memory/memory-and-bounce/README.md">Follow the trajectory →</a></td>
-<td width="50%" valign="top"><a href="simulations/structures/long-nest-trajectory/README.md"><img src="simulations/structures/long-nest-trajectory/results/figures/overview.png" width="400" alt="Original long-nest record: initial, early and late 3D views, an initial field slice, radial profiles and peak/radius curves through t=60." /></a><br /><strong>From nested form to a filled field</strong><p>Follow the field from its nested initial shape to t=60. Original 3D views, radial profiles and time curves show the volume filling and the later fluctuations of a finite density peak.</p><a href="simulations/structures/long-nest-trajectory/README.md">Explore the long record →</a></td>
-</tr>
-</table>
+### Contraction, then expansion
+
+<p align="center"><a href="simulations/memory/memory-and-bounce/README.md"><img src="simulations/memory/memory-and-bounce/results/figures/bounce-timeline-xy.png" width="720" alt="Original density slices at t=0, 4, 8 and 12 in the memory-and-bounce record." /></a></p>
+
+A concentrated region contracts and spreads again. The radius enclosing half the mass reaches its minimum at **t=3.7**, then expands. [Follow the trajectory →](simulations/memory/memory-and-bounce/README.md)
+
+### From nested form to a filled field
+
+<p align="center"><a href="simulations/structures/long-nest-trajectory/README.md"><img src="simulations/structures/long-nest-trajectory/results/figures/overview.png" width="720" alt="Original 3D views, radial profiles and peak/radius curves through t=60." /></a></p>
+
+Follow the field to **t=60**: the volume fills, and the finite density peak continues to fluctuate. The original views and curves show the trajectory. [Explore the long record →](simulations/structures/long-nest-trajectory/README.md)
 
 ## Two ways to explore
 

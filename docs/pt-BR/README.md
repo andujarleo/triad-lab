@@ -17,12 +17,17 @@ Do caos ao equilíbrio dinâmico, a cristalização continua. Pesquisa conecta i
 
 **A fase ganha forma.** Ciano e rosa mostram enrolamentos de fase em sentidos opostos nas regiões mais densas. Acompanhe os quadros do campo enquanto a câmera percorre a estrutura. [Explore a animação e sua origem](../../simulations/geometry/field-visualizations/README.pt-BR.md).
 
-<table>
-<tr>
-<td width="50%" valign="top"><a href="../../simulations/memory/memory-and-bounce/README.pt-BR.md"><img src="../../simulations/memory/memory-and-bounce/results/figures/bounce-timeline-xy.png" width="400" alt="Cortes originais de densidade em t=0, 4, 8 e 12 no registro de memória e bounce." /></a><br /><strong>Contração, depois expansão</strong><p>Acompanhe uma região concentrada encolher e se espalhar outra vez. O raio que contém metade da massa chega ao mínimo em t=3,7 e depois se expande; os quadros e as curvas de raio permitem seguir a mesma trajetória.</p><a href="../../simulations/memory/memory-and-bounce/README.pt-BR.md">Acompanhe a trajetória →</a></td>
-<td width="50%" valign="top"><a href="../../simulations/structures/long-nest-trajectory/README.pt-BR.md"><img src="../../simulations/structures/long-nest-trajectory/results/figures/overview.png" width="400" alt="Registro original do ninho longo: vistas 3D inicial, precoce e tardia, corte inicial do campo, perfis radiais e curvas de pico/raio até t=60." /></a><br /><strong>Da forma aninhada ao campo preenchido</strong><p>Siga o campo da forma inicial aninhada até t=60. Vistas 3D, perfis radiais e curvas temporais originais mostram o preenchimento do volume e as flutuações posteriores de um pico de densidade finito.</p><a href="../../simulations/structures/long-nest-trajectory/README.pt-BR.md">Explore o registro longo →</a></td>
-</tr>
-</table>
+### Contração, depois expansão
+
+<p align="center"><a href="../../simulations/memory/memory-and-bounce/README.pt-BR.md"><img src="../../simulations/memory/memory-and-bounce/results/figures/bounce-timeline-xy.png" width="720" alt="Cortes originais de densidade em t=0, 4, 8 e 12 no registro de memória e bounce." /></a></p>
+
+Uma região concentrada se contrai e volta a se expandir. O raio que contém metade da massa chega ao mínimo em **t=3,7** e depois cresce. [Acompanhe a trajetória →](../../simulations/memory/memory-and-bounce/README.pt-BR.md)
+
+### Da forma aninhada ao campo preenchido
+
+<p align="center"><a href="../../simulations/structures/long-nest-trajectory/README.pt-BR.md"><img src="../../simulations/structures/long-nest-trajectory/results/figures/overview.png" width="720" alt="Vistas 3D, perfis radiais e curvas originais de pico e raio até t=60." /></a></p>
+
+Siga o campo até **t=60**: o volume se preenche e o pico finito de densidade continua flutuando. As vistas e curvas originais mostram essa trajetória. [Explore o registro longo →](../../simulations/structures/long-nest-trajectory/README.pt-BR.md)
 
 ## Dois caminhos para explorar
 
