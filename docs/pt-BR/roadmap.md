@@ -10,8 +10,7 @@ não resultados prontos nem compromissos com prazos.
 - **Mais execuções:** registrar ambientes e saídas adicionais com proveniência própria.
 - **Mais idiomas:** traduzir navegação e explicações usando os mesmos IDs e artefatos.
 - **Exploração interativa:** acrescentar visualizadores que leiam os dados preservados.
-- **Manutenção:** acrescentar verificação automática de links e cobertura de traduções
-  quando a frequência de contribuições justificar.
+- **Manutenção:** usar as checagens de integridade, links locais e tradução conforme o catálogo crescer.
 
 [Como contribuir](contributing.md) · [Modelo de experimento](../../templates/experiment/README.pt-BR.md)
 

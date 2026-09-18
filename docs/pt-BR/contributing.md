@@ -1,68 +1,39 @@
-[Início](README.md) · [English](../en/contributing.md) · **Português**
+[Lab](README.md) · [English](../en/contributing.md) · **Português**
 
-# Expandir o laboratório
+# Ajude o lab a crescer
 
-Uma contribuição pode ser um experimento, uma execução adicional, uma explicação,
-uma tradução ou uma correção. Mantenha pergunta, implementação, observações e
-interpretação do autor conectadas e distinguíveis.
+Comece por uma pergunta que alguém consiga entender antes de ler uma equação. Uma contribuição pode ser um estudo, uma execução nova, uma explicação, uma tradução ou uma correção.
 
-## Adicionar um experimento
+## Adicione ou amplie um estudo
 
-1. Escolha uma série existente ou apresente uma nova com uma descrição curta.
-2. Dê um ID estável em minúsculas, como `series-01-topic`.
-3. Copie os modelos em [inglês](../../templates/experiment/README.md) e
-   [português](../../templates/experiment/README.pt-BR.md) para `experiments/<id>/`.
-   Substitua os campos; só crie a página traduzida quando ela estiver pronta.
-4. Mantenha uma implementação em `src/`, entradas explícitas em `configs/` e
-   registros selecionados em `results/<run-id>/` dentro do experimento. Crie pastas
-   quando houver conteúdo; uma proposta não precisa de pastas de código vazias.
-5. Acrescente ID, série, títulos, documentação, scripts e artefatos ao
-   [catalog.json](../../experiments/catalog.json) e atualize os dois catálogos de leitura.
-6. Inclua a pergunta e uma imagem representativa no guia pertinente quando útil.
+1. Escolha uma área existente em `experiments/` ou descreva uma nova nos índices dos dois idiomas.
+2. Use uma pasta descritiva: `experiments/<area>/<study>/`. Mantenha estável o ID do catálogo, mesmo que o título mude.
+3. Copie o [modelo de estudo](../../templates/experiment/README.pt-BR.md). Escreva a pergunta, o que observar na figura representativa, as evidências disponíveis e os limites conhecidos. Mantenha a entrada em inglês; aponte para o material técnico no idioma original quando não houver tradução.
+4. Coloque implementações em `code/`, entradas explícitas em `configuration/`, relatórios em `notes/` e saídas registradas em `results/`. Novas execuções devem usar `results/<run-id>/{data,figures,logs}/`, evitando sobrescrever resultados. Crie pastas apenas quando houver conteúdo.
+5. Atualize `FILES.md`, os índices da área e [catalog.json](../../experiments/catalog.json). As entradas existentes mostram o esquema: ID estável, pasta, área, títulos, documentação, disponibilidade e associações de origem. Um conteúdo compartilhado fica em um local, mantendo todas as associações.
+6. Registre comando exato, diretório de trabalho, commit do código, dependências, hardware, parâmetros, sementes e hashes das entradas e saídas em [run.json](../../templates/run.json). Use `null` para valores indisponíveis e explique o motivo.
 
-Séries novas não exigem mudar o código numérico do laboratório. Use nomes descritivos;
-os caminhos atuais de Entre e Bravais continuam válidos. Os scripts existentes
-permanecem nos caminhos históricos, ligados às páginas dos experimentos.
+A disponibilidade no catálogo descreve material fornecido, não validade científica. Entradas `note-only` e `specification` podem não ter saídas; `recorded` e `recorded-artifacts` indicam saídas preservadas. `implementation-available` e `archival` exigem consultar as condições de execução da página. Os campos explícitos de `availability` indicam a presença de código, dados, figuras e notas.
 
-## Registrar uma execução
+## Preserve a comparação
 
-Use [run.json](../../templates/run.json). Registre commit e comando exatos, ambiente,
-parâmetros, caminhos e hashes das entradas, artefatos gerados e resultado. Use `null`
-quando um valor não estiver disponível e explique nas notas; não invente semente,
-versão ou medida. Guarde resultados negativos, parciais e falhos com seu contexto.
-Use IDs de execução distintos e nunca sobrescreva dados publicados para fazer
-uma execução posterior concordar com eles.
+Mudar uma equação, parâmetro, solver, backend ou entrada cria uma nova comparação. Preserve o registro anterior e documente a diferença. Mantenha resultados negativos e inconclusivos com seu contexto. Separe observações numéricas da interpretação que elas podem sustentar.
 
-O `status` do catálogo descreve material disponível: `proposed`,
-`implementation-available` ou `recorded`. Não é uma classificação de validade
-científica. Use `recorded` quando houver um artefato incluído ou explicitamente ligado.
+Os arquivos históricos listados no registro de proveniência têm hashes originais fixos. Não atualize esses hashes para esconder uma mudança. Acrescente uma implementação adaptada ou uma execução nova separadamente. Uma adaptação apenas de caminhos ainda pode mudar a seleção de arquivos ou o diretório de trabalho; verifique isso explicitamente.
 
-## Preservar a continuidade
-
-Mudar equação, parâmetro, método numérico ou fonte de dados cria uma comparação
-nova a documentar. Mantenha o registro anterior acessível. Separe observações
-numéricas da interpretação que sustentam. Traduções editoriais preservam equações,
-valores de parâmetros e qualificações.
-
-Confira links relativos, as duas entradas de idioma e os comandos alterados.
-Para mudanças apenas na navegação, confira a base preservada sem executar todas
-as simulações novamente:
+## Revise uma contribuição
 
 ```sh
-shasum -a 256 -c docs/archive/SHA256SUMS
+python3 -m unittest discover -s tools -p 'test_*.py'
+python3 tools/check_repository.py
 ```
 
-Não atualize os hashes da base para esconder uma alteração no original. Acrescente
-uma versão ou resultado com proveniência própria. O [arquivo](../archive/README.md)
-registra a base.
+Baixe os arquivos pelo Git LFS antes, quando faltarem matrizes ou animações. Revise links locais, traduções e comandos alterados. Em mudanças de navegação, confira integridade em vez de reexecutar todas as simulações. Em mudanças numéricas, declare qual comparação foi realmente realizada.
 
-## Pull requests
+Descreva problema, mudança final, validação e limites restantes no commit ou pull request. Inglês é a base editorial; atualize o português na mesma mudança. [Outros idiomas](languages.md) podem ser acrescentados sem duplicar implementações numéricas. O repositório não tem licença declarada; preserve a autoria e não invente uma licença.
 
-Descreva a pergunta ou dificuldade de uso, a mudança, a verificação e os limites
-da execução. Separe alterações editoriais das mudanças de comportamento experimental.
-Atualize traduções ou marque as afetadas como pendentes de sincronização.
-O snapshot atual não tem arquivo de licença; preserve a autoria e não invente uma.
+[Próximos passos](roadmap.md)
 
-## Expandir um estudo do acervo
+## Preserve o ponto de partida
 
-Mantenha `collections/t-archive/source/` imutável. Crie o novo estudo em `experiments/<id>/`, vincule a ficha de origem e registre os hashes usados. Adaptações de caminhos, dependências ou backend devem ter seu próprio registro de mudança e validação. Documente novos resultados como novos runs; atualize as entradas em inglês e português juntas.
+Apresente a TRIAD como proposta de física quântica não padrão. Vincule novas interpretações à leitura operacional do autor e ao regime realmente executado. Diferencie a tríade completa, os pilotos históricos e os controles; não transforme um diagnóstico de mecânica quântica convencional na definição de todo o projeto. [Referência de apresentação](triad.md).

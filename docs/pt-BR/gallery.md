@@ -1,204 +1,55 @@
-[Início](README.md) · [English](../en/gallery.md) · **Português**
+[Lab](README.md) · [English](../en/gallery.md) · **Português**
 
-# Galeria de resultados
+# Figuras com contexto
 
-Figuras e animações originais, sem alteração. Os rótulos em português são preservados.
+Seis portas de entrada com figuras originais. As legendas ajudam a ler cada imagem; rótulos internos permanecem no idioma em que foram produzidos. Cores de figuras diferentes não necessariamente usam a mesma escala.
 
-## Entre
+## Mude a conexão, mude a dinâmica
 
-<details>
-<summary>campo quantico tres cristalizacoes</summary>
+![Mude a conexão, mude a dinâmica](../../experiments/relations/observer/results/figures/observador-observado-relacoes.png)
 
-![campo-quantico-tres-cristalizacoes](../../entre/resultados/campo-quantico-tres-cristalizacoes.png)
+Leia os quatro padrões de conexão e depois acompanhe o tempo de cima para baixo. Pontos marcam fases dos osciladores; setas mostram a direção da influência. Compare as curvas inferiores com sua coluna.
 
-</details>
+[Contexto, código e todos os arquivos](../../experiments/relations/observer/README.pt-BR.md)
 
-<details>
-<summary>consciencia emergida no entre</summary>
+## Veja a densidade se organizar
 
-![consciencia-emergida-no-entre](../../entre/resultados/consciencia-emergida-no-entre.png)
+![Veja a densidade se organizar](../../experiments/geometry/field-3d/results/figures/field-evolution.png)
 
-[Abrir animação](../../entre/resultados/consciencia-emergida-no-entre.gif)
+Seis fatias registradas mostram um campo 3D em transformação. Regiões claras marcam maior densidade na escala desenhada. Os rótulos são passos registrados, não segundos decorridos.
 
-</details>
+[Contexto, código e todos os arquivos](../../experiments/geometry/field-3d/README.pt-BR.md)
 
-<details>
-<summary>cristalizacao fixa vs continua</summary>
+## Siga as regiões mais densas
 
-![cristalizacao-fixa-vs-continua](../../entre/resultados/cristalizacao-fixa-vs-continua.png)
+![Siga as regiões mais densas](../../experiments/geometry/string-analysis/results/figures/cordas-densidade.png)
 
-</details>
+Três vistas mostram 24 linhas de densidade extraídas com o limiar escolhido dos 3% superiores. Essas curvas dependem da regra de extração; são uma forma de inspecionar o campo salvo.
 
-<details>
-<summary>memoria filtro vida mudanca</summary>
+[Contexto, código e todos os arquivos](../../experiments/geometry/string-analysis/README.pt-BR.md)
 
-![memoria-filtro-vida-mudanca](../../entre/resultados/memoria-filtro-vida-mudanca.png)
+## Compare histórias sob a mesma regra
 
-[Abrir animação](../../entre/resultados/memoria-filtro-vida-mudanca.gif)
+![Compare histórias sob a mesma regra](../../experiments/relations/life-filter/results/figures/memoria-filtro-vida-mudanca.png)
 
-</details>
+Leia as colunas de cenários e acompanhe as linhas no tempo. Os diagnósticos inferiores acompanham deslocamento de fase e separação entre filtros. “Filtro de vida” é o nome de um mecanismo do modelo, não uma medida biológica.
 
-<details>
-<summary>neurotransmissores mudanca no entre</summary>
+[Contexto, código e todos os arquivos](../../experiments/relations/life-filter/README.pt-BR.md)
 
-![neurotransmissores-mudanca-no-entre](../../entre/resultados/neurotransmissores-mudanca-no-entre.png)
+## Acompanhe as escalas em mudança
 
-[Abrir animação](../../entre/resultados/neurotransmissores-mudanca-no-entre.gif)
+![Acompanhe as escalas em mudança](../../experiments/memory/passive-memory-dynamics/results/figures/spectrum-evolution.png)
 
-</details>
+O tempo percorre o intervalo registrado; cascas radiais separam frequências espaciais. A cor representa potência em log10. Faixas que mudam revelam redistribuição entre escalas; isso sozinho não estabelece um cristal permanente.
 
-<details>
-<summary>observador observado relacoes</summary>
+[Contexto, código e todos os arquivos](../../experiments/memory/passive-memory-dynamics/README.pt-BR.md)
 
-![observador-observado-relacoes](../../entre/resultados/observador-observado-relacoes.png)
+## Confira a sensibilidade ao passo de tempo
 
-[Abrir animação](../../entre/resultados/observador-observado-relacoes.gif)
+![Confira a sensibilidade ao passo de tempo](../../experiments/quantum/resolution-and-time-step/results/figures/dt-refine-N64.png)
 
-</details>
+O eixo horizontal muda o passo de integração; as curvas comparam diagnósticos normalizados em N=64. Leia junto com o protocolo completo: a classificação histórica de convergência permanece INCONCLUSIVA.
 
+[Contexto, código e todos os arquivos](../../experiments/quantum/resolution-and-time-step/README.pt-BR.md)
 
-## Bravais 3D
-
-<details>
-<summary>cordas densidade</summary>
-
-![cordas_densidade](../../bravais/resultados/cordas_densidade.png)
-
-</details>
-
-<details>
-<summary>cordas notas</summary>
-
-![cordas_notas](../../bravais/resultados/cordas_notas.png)
-
-</details>
-
-<details>
-<summary>pure autocorr</summary>
-
-![pure_autocorr](../../bravais/resultados/pure_autocorr.png)
-
-</details>
-
-<details>
-<summary>pure density bw</summary>
-
-![pure_density_bw](../../bravais/resultados/pure_density_bw.png)
-
-</details>
-
-<details>
-<summary>pure evolution</summary>
-
-![pure_evolution](../../bravais/resultados/pure_evolution.png)
-
-</details>
-
-<details>
-<summary>pure fft</summary>
-
-![pure_fft](../../bravais/resultados/pure_fft.png)
-
-</details>
-
-<details>
-<summary>pure fft bw</summary>
-
-![pure_fft_bw](../../bravais/resultados/pure_fft_bw.png)
-
-</details>
-
-<details>
-<summary>pure fft floors</summary>
-
-![pure_fft_floors](../../bravais/resultados/pure_fft_floors.png)
-
-</details>
-
-<details>
-<summary>pure fft projections</summary>
-
-![pure_fft_projections](../../bravais/resultados/pure_fft_projections.png)
-
-</details>
-
-<details>
-<summary>pure fft pyramid test</summary>
-
-![pure_fft_pyramid_test](../../bravais/resultados/pure_fft_pyramid_test.png)
-
-</details>
-
-<details>
-<summary>pure fft rays</summary>
-
-![pure_fft_rays](../../bravais/resultados/pure_fft_rays.png)
-
-</details>
-
-<details>
-<summary>pure fft relief</summary>
-
-![pure_fft_relief](../../bravais/resultados/pure_fft_relief.png)
-
-</details>
-
-<details>
-<summary>pure fft shell</summary>
-
-![pure_fft_shell](../../bravais/resultados/pure_fft_shell.png)
-
-</details>
-
-<details>
-<summary>pure fft time</summary>
-
-![pure_fft_time](../../bravais/resultados/pure_fft_time.png)
-
-</details>
-
-<details>
-<summary>pure fft views</summary>
-
-![pure_fft_views](../../bravais/resultados/pure_fft_views.png)
-
-</details>
-
-<details>
-<summary>pure final peaks3d</summary>
-
-![pure_final_peaks3d](../../bravais/resultados/pure_final_peaks3d.png)
-
-</details>
-
-<details>
-<summary>pure final slices</summary>
-
-![pure_final_slices](../../bravais/resultados/pure_final_slices.png)
-
-</details>
-
-<details>
-<summary>pure isosurface</summary>
-
-![pure_isosurface](../../bravais/resultados/pure_isosurface.png)
-
-</details>
-
-<details>
-<summary>pure symmetry</summary>
-
-![pure_symmetry](../../bravais/resultados/pure_symmetry.png)
-
-</details>
-
-<details>
-<summary>pure timeseries</summary>
-
-![pure_timeseries](../../bravais/resultados/pure_timeseries.png)
-
-</details>
-
-## Mais figuras no acervo T
-
-[Explore os percursos visuais e as fichas de cada run](../../collections/t-archive/README.pt-BR.md).
+[Explore as oito áreas](../../experiments/README.pt-BR.md) · [Glossário](glossary.md)

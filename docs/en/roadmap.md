@@ -10,8 +10,7 @@ directions, not completed results or dated commitments.
 - **More runs:** record additional environments and outputs with their own provenance.
 - **More languages:** translate navigation and explanations around the same IDs and artifacts.
 - **Interactive exploration:** add viewers that read the preserved data.
-- **Maintenance:** add automated link and translation coverage checks when contribution
-  frequency warrants them.
+- **Maintenance:** use the included integrity, local-link and translation checks as the catalog grows.
 
 [How to contribute](contributing.md) · [Experiment template](../../templates/experiment/README.md)
 

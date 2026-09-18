@@ -1,204 +1,55 @@
-[Lab home](../../README.md) · **English** · [Português](../pt-BR/gallery.md)
+[Lab](../../README.md) · **English** · [Português](../pt-BR/gallery.md)
 
-# Results gallery
+# Figures with context
 
-Original figures and animations, unchanged. Their Portuguese labels are preserved.
+Six entry points using original figures. Captions help you read each image; internal labels retain their original language. Colors in different figures do not necessarily use the same scale.
 
-## Entre
+## Change the connection, change the dynamics
 
-<details>
-<summary>campo quantico tres cristalizacoes</summary>
+![Change the connection, change the dynamics](../../experiments/relations/observer/results/figures/observador-observado-relacoes.png)
 
-![campo-quantico-tres-cristalizacoes](../../entre/resultados/campo-quantico-tres-cristalizacoes.png)
+Read across the four connection patterns, then down through time. Dots mark oscillator phases; arrows show the direction of influence. Compare the lower curves with the corresponding column.
 
-</details>
+[Context, code and all files](../../experiments/relations/observer/README.md)
 
-<details>
-<summary>consciencia emergida no entre</summary>
+## Watch density organize
 
-![consciencia-emergida-no-entre](../../entre/resultados/consciencia-emergida-no-entre.png)
+![Watch density organize](../../experiments/geometry/field-3d/results/figures/field-evolution.png)
 
-[Open animation](../../entre/resultados/consciencia-emergida-no-entre.gif)
+Six recorded slices show a changing 3D field. Bright regions mark larger density within the plotted scale. The labels are recorded steps, not elapsed seconds.
 
-</details>
+[Context, code and all files](../../experiments/geometry/field-3d/README.md)
 
-<details>
-<summary>cristalizacao fixa vs continua</summary>
+## Trace the denser regions
 
-![cristalizacao-fixa-vs-continua](../../entre/resultados/cristalizacao-fixa-vs-continua.png)
+![Trace the denser regions](../../experiments/geometry/string-analysis/results/figures/cordas-densidade.png)
 
-</details>
+Three views show 24 extracted density threads for the chosen top-3% threshold. These curves depend on the extraction rule; they are a way to inspect this saved field.
 
-<details>
-<summary>memoria filtro vida mudanca</summary>
+[Context, code and all files](../../experiments/geometry/string-analysis/README.md)
 
-![memoria-filtro-vida-mudanca](../../entre/resultados/memoria-filtro-vida-mudanca.png)
+## Compare histories under one rule
 
-[Open animation](../../entre/resultados/memoria-filtro-vida-mudanca.gif)
+![Compare histories under one rule](../../experiments/relations/life-filter/results/figures/memoria-filtro-vida-mudanca.png)
 
-</details>
+Read the scenario columns and follow their rows through time. The lower diagnostics track phase displacement and filter separation. The “life filter” is the model’s name for a mechanism, not a biological measurement.
 
-<details>
-<summary>neurotransmissores mudanca no entre</summary>
+[Context, code and all files](../../experiments/relations/life-filter/README.md)
 
-![neurotransmissores-mudanca-no-entre](../../entre/resultados/neurotransmissores-mudanca-no-entre.png)
+## Follow the changing scales
 
-[Open animation](../../entre/resultados/neurotransmissores-mudanca-no-entre.gif)
+![Follow the changing scales](../../experiments/memory/passive-memory-dynamics/results/figures/spectrum-evolution.png)
 
-</details>
+Time runs across the recorded interval; radial shells separate spatial frequencies. Color represents log10 power. Moving bands reveal redistribution across scales; this alone does not establish a permanent crystal.
 
-<details>
-<summary>observador observado relacoes</summary>
+[Context, code and all files](../../experiments/memory/passive-memory-dynamics/README.md)
 
-![observador-observado-relacoes](../../entre/resultados/observador-observado-relacoes.png)
+## Check sensitivity to the time step
 
-[Open animation](../../entre/resultados/observador-observado-relacoes.gif)
+![Check sensitivity to the time step](../../experiments/quantum/resolution-and-time-step/results/figures/dt-refine-N64.png)
 
-</details>
+The horizontal axis changes the integration step; the curves compare normalized diagnostics at N=64. Read this alongside the complete protocol: the historical convergence classification remains INCONCLUSIVE.
 
+[Context, code and all files](../../experiments/quantum/resolution-and-time-step/README.md)
 
-## Bravais 3D
-
-<details>
-<summary>cordas densidade</summary>
-
-![cordas_densidade](../../bravais/resultados/cordas_densidade.png)
-
-</details>
-
-<details>
-<summary>cordas notas</summary>
-
-![cordas_notas](../../bravais/resultados/cordas_notas.png)
-
-</details>
-
-<details>
-<summary>pure autocorr</summary>
-
-![pure_autocorr](../../bravais/resultados/pure_autocorr.png)
-
-</details>
-
-<details>
-<summary>pure density bw</summary>
-
-![pure_density_bw](../../bravais/resultados/pure_density_bw.png)
-
-</details>
-
-<details>
-<summary>pure evolution</summary>
-
-![pure_evolution](../../bravais/resultados/pure_evolution.png)
-
-</details>
-
-<details>
-<summary>pure fft</summary>
-
-![pure_fft](../../bravais/resultados/pure_fft.png)
-
-</details>
-
-<details>
-<summary>pure fft bw</summary>
-
-![pure_fft_bw](../../bravais/resultados/pure_fft_bw.png)
-
-</details>
-
-<details>
-<summary>pure fft floors</summary>
-
-![pure_fft_floors](../../bravais/resultados/pure_fft_floors.png)
-
-</details>
-
-<details>
-<summary>pure fft projections</summary>
-
-![pure_fft_projections](../../bravais/resultados/pure_fft_projections.png)
-
-</details>
-
-<details>
-<summary>pure fft pyramid test</summary>
-
-![pure_fft_pyramid_test](../../bravais/resultados/pure_fft_pyramid_test.png)
-
-</details>
-
-<details>
-<summary>pure fft rays</summary>
-
-![pure_fft_rays](../../bravais/resultados/pure_fft_rays.png)
-
-</details>
-
-<details>
-<summary>pure fft relief</summary>
-
-![pure_fft_relief](../../bravais/resultados/pure_fft_relief.png)
-
-</details>
-
-<details>
-<summary>pure fft shell</summary>
-
-![pure_fft_shell](../../bravais/resultados/pure_fft_shell.png)
-
-</details>
-
-<details>
-<summary>pure fft time</summary>
-
-![pure_fft_time](../../bravais/resultados/pure_fft_time.png)
-
-</details>
-
-<details>
-<summary>pure fft views</summary>
-
-![pure_fft_views](../../bravais/resultados/pure_fft_views.png)
-
-</details>
-
-<details>
-<summary>pure final peaks3d</summary>
-
-![pure_final_peaks3d](../../bravais/resultados/pure_final_peaks3d.png)
-
-</details>
-
-<details>
-<summary>pure final slices</summary>
-
-![pure_final_slices](../../bravais/resultados/pure_final_slices.png)
-
-</details>
-
-<details>
-<summary>pure isosurface</summary>
-
-![pure_isosurface](../../bravais/resultados/pure_isosurface.png)
-
-</details>
-
-<details>
-<summary>pure symmetry</summary>
-
-![pure_symmetry](../../bravais/resultados/pure_symmetry.png)
-
-</details>
-
-<details>
-<summary>pure timeseries</summary>
-
-![pure_timeseries](../../bravais/resultados/pure_timeseries.png)
-
-</details>
-
-## More figures in the T archive
-
-[Explore the visual paths and individual run entries](../../collections/t-archive/README.md).
+[Explore the eight areas](../../experiments/README.md) · [Glossary](glossary.md)

@@ -5,13 +5,13 @@
       "tag": "en",
       "name": "English",
       "entry": "README.md",
-      "coverage": "home, catalog, seven experiment pages, guides; T archive home, seven reading paths, 39 run entries and six QM entries; original source documents are not translated"
+      "coverage": "home, 65 study entrances, eight area indexes, tours, gallery, glossary and technical guides; historical source documents and figures retain original languages"
     },
     {
       "tag": "pt-BR",
       "name": "Português",
       "entry": "docs/pt-BR/README.md",
-      "coverage": "home, catalog, seven experiment pages, guides; T archive home, seven reading paths, 39 run entries and six QM entries; original source documents are not translated"
+      "coverage": "home, 65 study entrances, eight area indexes, tours, gallery, glossary and technical guides; historical source documents and figures retain original languages"
     }
   ]
 }

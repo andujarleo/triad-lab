@@ -1,37 +1,31 @@
-# Experiment title
+# Study title
 
-Template: copy into `experiments/<stable-id>/README.md`, then replace placeholders.
-Add language links only when the corresponding translated pages exist.
+Copy into `experiments/<area>/<study>/README.md`. Replace placeholders and keep the Portuguese entrance synchronized. Add language links only when those pages exist.
 
-## Question
+## The question
 
-What is being investigated? Describe the series and the connection to prior work.
+One sentence that needs no prerequisites. What comparison would answer it?
 
-## Model and method
+## How to read the figure
 
-State the equations, assumptions, inputs and numerical procedure. Keep the coupled
-model intact; document any change from previous versions explicitly.
+Include a real figure when available. Explain axes, colors, panels and what to notice. State what it cannot establish. If there is no result yet, say so.
 
-## Available material
+## What was done
 
-Identify what exists: proposal, implementation, recorded run, data, plots or animation.
-Link to actual files. Never present a planned output as an existing result.
+Explain the idea in everyday language. Then record equations, assumptions, initial conditions, parameters and numerical method. Link available configurations and protocols.
 
-## Run
+## Evidence and limits
 
-Give the exact working directory, dependency setup and command. Explain inputs,
-output locations, runtime requirements and whether repeated runs overwrite files.
+Separate recorded observations from interpretation. Include negative and inconclusive outcomes. State missing code, inputs or dependencies. Link all material through `FILES.md`.
 
-## Observations and interpretation
+## Run or inspect
 
-Describe recorded observations and the author's interpretation separately.
-Include incomplete or negative outcomes. Link each result to its run record.
+Give working directory, environment, exact command, inputs and outputs. State hardware needs and whether outputs can be overwritten. If the supplied material cannot be run, explain what is missing.
 
-## Continue this experiment
+## Next comparison
 
-List open questions and specific next runs, with the previous record preserved.
+What question remains? What change would test it? Keep earlier results and record new runs separately.
 
-## Provenance
+## Origin
 
-Record source commit, relevant references, authorship and run records. Start with
-`templates/run.json`. Keep one implementation shared across language documentation.
+Authorship, sources, commit and a run record using `templates/run.json`. Share one implementation across languages.

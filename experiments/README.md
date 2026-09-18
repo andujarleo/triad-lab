@@ -1,27 +1,18 @@
-**English** · [Português](README.pt-BR.md) · [Lab home](../README.md)
+[Lab](../README.md) · **English** · [Português](README.pt-BR.md)
 
-# Experiment catalog
+# Explore by question
 
-Seven entries across two series. IDs stay stable across languages. “Recorded” means saved artifacts are available; “implementation available” does not imply a published result.
+65 studies organized into eight areas. Each page connects context, files and known limits. T01–T39 keeps the historical order; topics help you find what interests you now.
 
-| ID | Experiment | Series | Material |
-|---|---|---|---|
-| `entre-01-observer` | [Observer and observed](entre-01-observer/README.md) | entre | Recorded |
-| `entre-02-between` | [The between](entre-02-between/README.md) | entre | Recorded |
-| `entre-03-chemistry` | [Eight coupled channels](entre-03-chemistry/README.md) | entre | Recorded |
-| `entre-04-life-filter` | [Memory and life filter](entre-04-life-filter/README.md) | entre | Recorded |
-| `bravais-01-field` | [Emergent 3D field](bravais-01-field/README.md) | bravais | Recorded |
-| `bravais-02-strings` | [Strings from a saved state](bravais-02-strings/README.md) | bravais | Recorded |
-| `bravais-03-scale` | [Intrinsic scale](bravais-03-scale/README.md) | bravais | Implementation available |
+| Area | Question | Studies |
+|---|---|---|
+| [Relations](relations/README.md) | What changes when things interact? | 7 |
+| [Geometry](geometry/README.md) | How do patterns take shape? | 14 |
+| [Memory](memory/README.md) | Can the past change what happens next? | 10 |
+| [Structures](structures/README.md) | Can a pattern persist inside a changing field? | 17 |
+| [Signals](signals/README.md) | How does a disturbance spread? | 8 |
+| [Field diagnostics](quantum/README.md) | How do we test the field’s consistency, modes and response? | 6 |
+| [Continuity](continuity/README.md) | What carries over when a system changes or resumes? | 2 |
+| [Validation](validation/README.md) | How do we check the story the figures seem to tell? | 1 |
 
-## Reading paths
-
-**Entre:** observer → between measurements → chemical channels → memory and life filter.
-
-**Bravais:** 3D evolution → saved state → strings; the sweep investigates box size.
-
-[Gallery / Galeria](../docs/en/gallery.md) · [Contribute / Contribuir](../docs/en/contributing.md) · [JSON catalog](catalog.json)
-
-## Research collections
-
-[T — simulation archive](../collections/t-archive/README.md) contains 39 numbered runs, 6 QM stages and lines on geometry, passive R5, causal continuity and a persistent universe. Its entries distinguish historical notes, artifacts and dependencies; inclusion does not imply that every study is ready to run.
+[Start here](../docs/en/start-here.md) · [Annotated gallery](../docs/en/gallery.md) · [T01–T39 timeline](../docs/en/topics/timeline.md) · [JSON catalog](catalog.json)

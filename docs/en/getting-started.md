@@ -1,90 +1,51 @@
-[Lab home](../../README.md) · **English** · [Português](../pt-BR/getting-started.md)
+[Lab](../../README.md) · **English** · [Português](../pt-BR/getting-started.md)
 
-# Run an experiment
+# Run a study
 
-## Set up
-
-Commands below use a POSIX shell, from the repository root. Use Python 3.10 or newer
-(the scripts use modern type annotations). Dependencies here are installation
-requirements, not a recovered lockfile of the original environment.
+Commands use a POSIX shell from the repository root and Python 3.10 or newer. The requirements are an installation starting point, not a recovered lockfile of the original environment.
 
 ```sh
 git clone https://github.com/andujarleo/triad-lab.git
 cd triad-lab
+git lfs install
+git lfs pull
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements-visualization.txt
+python tools/check_repository.py
 ```
 
-`requirements.txt` supplies NumPy, Matplotlib and Pillow. The visualization list
-also installs SciPy and scikit-image. The Bravais scripts have NumPy fallbacks
-for SciPy helpers; isosurface plots require scikit-image. Installing or removing
-these packages can change which plots are available and which helper path runs.
+Install Git LFS before using `git lfs`. PNG figures can be read on GitHub; arrays and animations use LFS. `requirements.txt` includes NumPy, Matplotlib and Pillow; the visualization list adds SciPy and scikit-image. Their availability can change helper execution paths and which plots are produced.
 
 ## Start with a saved state
 
-Generate density and spectral strings without running the 3D evolution:
-
 ```sh
-MPLBACKEND=Agg python en/bravais/bravais_strings.py bravais/final_state.npz
+MPLBACKEND=Agg python experiments/geometry/string-analysis/code/en/bravais_strings.py experiments/geometry/field-3d/results/data/final_state.npz
 ```
 
-Outputs go to `bravais_outputs_3d/`. The bundled state has no `psi_f`, so the phase
-strings section is skipped by the script. This is expected for that saved file.
-The script assumes `L=32`; set `L` to the actual box size for a different state.
+This command reads the saved state and writes figures into `bravais_outputs_3d/`, without rerunning field evolution. The included state has no `psi_f`, so the phase-string section is skipped. The script assumes `L=32`; for another state, set its actual box size with the `L` environment variable.
 
-## Run a simulation
+## Run the oscillators
 
 ```sh
-python en/entre/simulate_observer_observed_relations.py
+python experiments/relations/observer/code/en/simulate_observer_observed_relations.py
 ```
 
-The base experiment uses 6,000 RK4 steps with `DT=0.02`. It writes new PNG, GIF,
-JSON and NPZ files into `en/entre/artifacts/`. Other Entre entry points are listed
-in the [catalog](../../experiments/README.md). Portuguese scripts write to
-`entre/artifacts/` instead.
+This uses 6,000 RK4 steps with `DT=0.02`. New outputs go into `artifacts/` beside the script. The Portuguese version is in `code/pt-BR/` within the same study.
 
-For the Bravais evolution or box sweep:
+## 3D evolution and sweep
 
 ```sh
-MPLBACKEND=Agg python en/bravais/bravais_pure_3d.py
-MPLBACKEND=Agg python en/bravais/bravais_sweep_L.py
+MPLBACKEND=Agg python experiments/geometry/field-3d/code/en/bravais_pure_3d.py
+MPLBACKEND=Agg python experiments/geometry/scale-sweep/code/en/bravais_sweep_L.py
 ```
 
-The evolution defaults to 1,200 steps on a `64³` grid. The sweep defaults to 800
-steps per box and reaches `96³`; resource needs are higher. Both accept `STEPS`
-through the environment, but a shorter run is a different run. Both initialize
-randomly without a fixed seed. Saved figures are available without rerunning.
+Evolution defaults to 1,200 steps on a 64³ grid. The sweep uses 800 steps per box and reaches 96³, requiring more resources. Both accept `STEPS` through the environment, but shortening a run creates a different comparison. Random initialization has no fixed seed; defaults do not exactly reconstruct the included record.
 
-## Keep runs separate
+## Keep each run separate
 
-Scripts use fixed output names and can overwrite earlier generated files. After
-each run, move its generated output directory into `runs/<experiment-id>/<run-id>/`
-before starting another run. Keep a copy of [run.json](../../templates/run.json)
-with the command, commit, environment, parameters and outcome. `runs/` is ignored
-by Git; selectively publish a reviewed record under its experiment folder.
+Scripts use fixed output names and can overwrite generated files. Before the next run, move new outputs to `runs/<study-id>/<run-id>/`, which Git ignores. Record command, working directory, environment, parameters and hashes in the run template. Publish new outputs separately from old ones.
 
-Many historical scripts execute at import time. Run them as scripts; importing
-a module is not a harmless way to list its options.
+[Run template](../../templates/run.json) · [Historical dependencies](../../provenance/t-archive/dependencies.md)
 
-## What is preserved
-
-```sh
-shasum -a 256 -c docs/archive/SHA256SUMS
-```
-
-This verifies the supplied files. It does not assert exact replay of a historical
-execution. The included arrays, plots and script defaults are the available
-record; capture dependency versions and hardware for each new run.
-
-## Historical T archive
-
-The archive’s numerical data and animations use Git LFS. After installing Git LFS, run from the repository root:
-
-```sh
-git lfs install
-git lfs pull --include="collections/t-archive/**"
-shasum -a 256 -c collections/t-archive/SHA256SUMS
-```
-
-Read the [bundle-specific dependencies](../../collections/t-archive/provenance/dependencies.md) before executing historical code. Bundles include MLX and TriadLang environments outside the basic setup above.
+Many historical scripts execute on import and contain old paths. Do not import them merely to list options. Path or dependency adaptations need their own record; this reorganization preserved the numerical source code.

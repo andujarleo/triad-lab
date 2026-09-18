@@ -1,0 +1,27 @@
+[Lab](../../../README.md) · **English** · [Português](README.pt-BR.md)
+
+[Field diagnostics](../README.md) · [Glossary](../../../docs/en/glossary.md)
+
+# Testing linearity
+
+Two seeds compare A, B and their superposition with matched noise. The protocol deviation and INCONCLUSIVE decision are retained.
+
+Read in order: protocol → configuration → raw data → analysis. These classifications belong to the historical record; no new run was performed.
+
+- [protocol.md](notes/protocol.md)
+- [linearity-record.md](notes/linearity-record.md)
+- [analysis.md](notes/analysis.md)
+- [config.json](configuration/config.json)
+- [result.json](results/data/result.json)
+
+[Every file](FILES.md) · [Dependencies](../../../provenance/t-archive/dependencies.md)
+
+![Original diagnostic](results/figures/rlin-time.png)
+
+## Files and execution context
+
+[Complete material index](FILES.md) · [Research guide](../../../docs/en/research-guide.md)
+
+This page organizes historical records. Code availability does not guarantee a complete execution environment. Paths embedded in source code were preserved; check dependencies before adapting a run.
+
+[Dependencies and missing inputs](../../../provenance/t-archive/dependencies.md)

@@ -1,27 +1,18 @@
-**Português** · [English](README.md) · [Início](../docs/pt-BR/README.md)
+[Lab](../docs/pt-BR/README.md) · [English](README.md) · **Português**
 
-# Catálogo de experimentos
+# Explore por pergunta
 
-Sete entradas em duas séries. Cada ID permanece estável entre idiomas. “Registrado” indica que há artefatos salvos; “implementação disponível” não pressupõe resultado publicado.
+65 estudos organizados em oito áreas. Cada página reúne contexto, arquivos e limites conhecidos. A numeração T01–T39 mantém a ordem histórica; os temas ajudam a encontrar o que interessa agora.
 
-| ID | Experimento | Série | Material |
-|---|---|---|---|
-| `entre-01-observer` | [Observador e observado](entre-01-observer/README.pt-BR.md) | entre | Registrado |
-| `entre-02-between` | [O entre](entre-02-between/README.pt-BR.md) | entre | Registrado |
-| `entre-03-chemistry` | [Oito canais acoplados](entre-03-chemistry/README.pt-BR.md) | entre | Registrado |
-| `entre-04-life-filter` | [Memória e filtro de vida](entre-04-life-filter/README.pt-BR.md) | entre | Registrado |
-| `bravais-01-field` | [Campo 3D emergente](bravais-01-field/README.pt-BR.md) | bravais | Registrado |
-| `bravais-02-strings` | [Cordas de um estado salvo](bravais-02-strings/README.pt-BR.md) | bravais | Registrado |
-| `bravais-03-scale` | [Escala própria](bravais-03-scale/README.pt-BR.md) | bravais | Implementação disponível |
+| Área | Pergunta | Estudos |
+|---|---|---|
+| [Relações](relations/README.pt-BR.md) | O que muda quando as coisas interagem? | 7 |
+| [Geometria](geometry/README.pt-BR.md) | Como os padrões ganham forma? | 14 |
+| [Memória](memory/README.pt-BR.md) | O passado pode mudar o que acontece depois? | 10 |
+| [Estruturas](structures/README.pt-BR.md) | Um padrão pode persistir em um campo que muda? | 17 |
+| [Sinais](signals/README.pt-BR.md) | Como uma perturbação se espalha? | 8 |
+| [Diagnósticos do campo](quantum/README.pt-BR.md) | Como testar a consistência, os modos e a resposta do campo? | 6 |
+| [Continuidade](continuity/README.pt-BR.md) | O que continua quando um sistema muda ou é retomado? | 2 |
+| [Validação](validation/README.pt-BR.md) | Como conferir a história que as figuras parecem contar? | 1 |
 
-## Percursos de leitura
-
-**Entre:** observador → medidas do entre → canais químicos → memória e filtro de vida.
-
-**Bravais:** evolução 3D → estado salvo → cordas; a varredura investiga o tamanho da caixa.
-
-[Gallery / Galeria](../docs/pt-BR/gallery.md) · [Contribute / Contribuir](../docs/pt-BR/contributing.md) · [JSON catalog](catalog.json)
-
-## Acervos de pesquisa
-
-[T — acervo de simulações](../collections/t-archive/README.pt-BR.md) reúne 39 runs numerados, 6 etapas QM e linhas de geometria, R5 passivo, continuidade causal e universo persistente. As fichas distinguem nota histórica, artefatos e dependências; o acervo não implica que todos os estudos estejam prontos para executar.
+[Comece aqui](../docs/pt-BR/start-here.md) · [Galeria comentada](../docs/pt-BR/gallery.md) · [Cronologia T01–T39](../docs/pt-BR/topics/timeline.md) · [Catálogo JSON](catalog.json)

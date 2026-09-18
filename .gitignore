@@ -7,8 +7,4 @@ __pycache__/
 !.env.example
 **/artifacts/
 **/bravais_outputs_3d/
-runs/
-
-# Imported historical artifacts are intentionally preserved.
-!collections/t-archive/source/
-!collections/t-archive/source/**
+/runs/

@@ -1,38 +1,21 @@
-[Início](README.md) · [English](../en/languages.md) · **Português**
+[Lab](README.md) · [English](../en/languages.md) · **Português**
 
 # Idiomas
 
-Inglês é a base da nova documentação editorial; português brasileiro é a primeira
-tradução mantida. Isso não muda o idioma nem a autoridade das fontes históricas.
-As figuras e os dados salvos mantêm seus rótulos originais.
+Inglês é a base da documentação editorial; português brasileiro é a primeira tradução mantida. As 65 apresentações de estudos, os oito índices de área e os guias públicos existem nos dois idiomas. Documentos científicos, figuras e código históricos mantêm seus idiomas e rótulos originais.
 
-| Idioma | Entrada | Cobertura |
-|---|---|---|
-| English (`en`) | [Home](../../README.md) | Início, catálogo, sete experimentos, guias e 45 fichas do acervo T |
-| Português (`pt-BR`) | [Início](README.md) | Início, catálogo, sete experimentos, guias e 45 fichas do acervo T |
+| Idioma | Entrada |
+|---|---|
+| English | [Home](../../README.md) |
+| Português | [Início](README.md) |
 
-## Acrescentar um idioma
+## Acrescente um idioma
 
-1. Use uma etiqueta como `es` ou `fr`; crie `docs/<tag>/README.md`.
-2. Traduza primeiro a entrada e o catálogo; para páginas ausentes, ofereça o inglês.
-3. Use `experiments/<id>/README.<tag>.md` para as páginas. Preserve IDs, caminhos,
-   equações, unidades e dados. Traduza as explicações, não os resultados registrados.
-4. Acrescente idioma e cobertura real a [languages.json](../languages.json), a esta
-   tabela e aos seletores. Acrescente as páginas disponíveis ao `catalog.json`.
-5. Inclua `<!-- Translation of: path; source commit: SHA -->` nas novas traduções.
-   Registre o commit em inglês efetivamente traduzido, sem adivinhar uma revisão.
-6. Ao mudar o inglês, atualize as traduções na mesma pull request ou marque-as
-   visivelmente como aguardando sincronização. Traduções parciais ligam para a fonte.
+1. Use uma tag como `es` ou `fr` e crie `docs/<tag>/README.md`.
+2. Traduza a entrada, a visita e o catálogo primeiro. Aponte para o inglês onde ainda faltar tradução.
+3. Use `experiments/<area>/<study>/README.<tag>.md` nas páginas dos estudos e índices das áreas. Preserve IDs, caminhos, equações, unidades e valores.
+4. Registre a cobertura real em `docs/languages.json` e acrescente apenas as páginas existentes ao catálogo e aos seletores de idioma. Não acrescente uma tradução parcial à lista de idiomas integralmente mantidos do catálogo.
+5. Registre a revisão traduzida com `<!-- Translation of: path; source commit: SHA -->`. Não invente o SHA. As páginas atuais em inglês e português foram escritas juntas.
+6. Atualize traduções junto da base ou sinalize visivelmente que aguardam sincronização.
 
-A documentação inicial em inglês e português foi escrita em conjunto. Atualizações
-posteriores devem registrar a revisão de origem. O README arquivado e as traduções
-de código existentes são anteriores a esta convenção.
-
-## Uma implementação para novos experimentos
-
-Os scripts de `en/`, `entre/` e `bravais/` foram mantidos. Novos idiomas acrescentam
-documentação e, quando houver suporte, rótulos separados. Não copie implementações
-numéricas por idioma. Unificar os scripts existentes é uma mudança separada, que
-pode afetar comportamento, e não faz parte de uma tradução.
-
-O acervo T tem apresentação, percursos, 39 fichas cronológicas e seis fichas QM em ambos os idiomas. Os documentos históricos na edição de leitura mantêm o idioma original; não são traduções. Índices de arquivos usam rótulos nos dois idiomas.
+Novos idiomas acrescentam explicações. Não duplique o código numérico para cada idioma. As variantes traduzidas que já existiam foram preservadas em `code/en/` e `code/pt-BR/`.

@@ -1,0 +1,716 @@
+[
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "en/",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "en/",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "entre/resultados/observador-observado-relacoes.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "entre/resultados/observador-observado-relacoes.gif",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "entre/resultados/consciencia-emergida-no-entre.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "entre/resultados/consciencia-emergida-no-entre.gif",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "entre/resultados/neurotransmissores-mudanca-no-entre.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "entre/resultados/neurotransmissores-mudanca-no-entre.gif",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "entre/resultados/memoria-filtro-vida-mudanca.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "entre/resultados/memoria-filtro-vida-mudanca.gif",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "entre/resultados/campo-quantico-tres-cristalizacoes.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "entre/resultados/cristalizacao-fixa-vs-continua.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_evolution.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_final_slices.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_final_peaks3d.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_isosurface.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_fft.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_fft_views.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_fft_relief.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_fft_shell.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_fft_pyramid_test.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_fft_floors.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_fft_rays.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_fft_projections.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_fft_bw.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_density_bw.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_autocorr.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_symmetry.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_fft_time.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/pure_timeseries.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/cordas_densidade.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "provenance/initial-lab/README.original.md",
+    "target": "bravais/resultados/cordas_notas.png",
+    "kind": "markdown",
+    "reason": "absent-local-target"
+  },
+  {
+    "source": "experiments/relations/early-field-relations/notes/original-record.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/memory/memory-and-thermal-noise/notes/original-record.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/memory/memory-grid-40/notes/original-record.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/signals/hot-bath-diagnostic-failure/notes/original-record.md",
+    "target": "Backend e unidades",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/signals/3d-cold-bath-box/notes/original-record.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/signals/first-phase-to-density-diagnostic/notes/original-record.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/signals/refined-phase-to-density-diagnostic/notes/original-record.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/memory/memory-and-bounce/notes/original-record.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/geometry/refined-geometric-network/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/structures/twelve-atoms-full-field/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/structures/3d-atom-trajectories/notes/original-record.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/structures/3d-atom-trajectories/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/memory/memory-small-amplitude/notes/original-record.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/memory/memory-small-amplitude/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/structures/two-atoms/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/structures/nested-positive-gaussians/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/structures/atom-inside-a-larger-gaussian/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/structures/concentric-positive-negative-nest/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/structures/long-nest-trajectory/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/structures/finite-peak-early-window/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/structures/a-pocket-in-the-field/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/structures/two-pockets/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/structures/density-memory-maps/notes/original-record.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/universe-as-simulation.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/universe-as-simulation.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/universe-as-simulation.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/memory.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/memory.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/anti-collapse.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/operational-readings.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/substrate.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/phase-to-density.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/phase-to-density.md",
+    "target": "Backend e unidades",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/fdt.md",
+    "target": "Backend e unidades",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/fdt.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/fdt.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/system-overview.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concepts/system-overview.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Backend e unidades",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "PROTOCOL",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "analysis",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "PROTOCOL",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "analysis",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Q01b",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "analysis",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "PROTOCOL",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Q02",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Q01b",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "analysis",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "PROTOCOL",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Q03",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "Q02",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "PROTOCOL",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/00-registro-completo.md",
+    "target": "analysis",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/indice-de-runs.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/indice-de-runs.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/registro-integral.md",
+    "target": "Backend e unidades",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/registro-integral.md",
+    "target": "TRIAD",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/records/triad-qm-canonical-v1.md",
+    "target": "Equação de referência",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "docs/reference/concept-illustrations/imagens-conceituais.md",
+    "target": "Solver",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/quantum/seed-ensemble/notes/ensemble-record.md",
+    "target": "Q01b",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/quantum/linearity-tests/notes/linearity-record.md",
+    "target": "Q03",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/quantum/linearity-tests/notes/linearity-record.md",
+    "target": "Q02",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/quantum/field-modes/notes/mode-analysis-record.md",
+    "target": "Q02",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  },
+  {
+    "source": "experiments/quantum/field-modes/notes/mode-analysis-record.md",
+    "target": "Q01b",
+    "kind": "wiki",
+    "reason": "absent-or-ambiguous"
+  }
+]

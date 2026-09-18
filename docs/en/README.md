@@ -1,10 +1,3 @@
 # English documentation
 
-[Lab home](../../README.md) · [Português](../pt-BR/README.md)
-
-- [Experiment catalog](../../experiments/README.md)
-- [Getting started](getting-started.md)
-- [Gallery](gallery.md)
-- [Contributing](contributing.md)
-- [Languages](languages.md)
-- [Roadmap](roadmap.md)
+[Lab home](../../README.md) · [Start here](start-here.md) · [Gallery](gallery.md) · [Research guide](research-guide.md) · [Repository map](repository-map.md)

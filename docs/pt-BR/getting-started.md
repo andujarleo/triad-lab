@@ -1,89 +1,51 @@
-[Início](README.md) · [English](../en/getting-started.md) · **Português**
+[Lab](README.md) · [English](../en/getting-started.md) · **Português**
 
-# Executar um experimento
+# Execute um estudo
 
-## Preparar
-
-Os comandos usam um shell POSIX, a partir da raiz do repositório. Use Python 3.10
-ou posterior (os scripts usam anotações de tipos modernas). As dependências são
-requisitos de instalação, não um lockfile recuperado do ambiente original.
+Os comandos usam um shell POSIX, a partir da raiz do repositório, e Python 3.10 ou mais recente. Os requisitos são uma base de instalação; não são um lockfile recuperado do ambiente original.
 
 ```sh
 git clone https://github.com/andujarleo/triad-lab.git
 cd triad-lab
+git lfs install
+git lfs pull
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements-visualization.txt
+python tools/check_repository.py
 ```
 
-`requirements.txt` contém NumPy, Matplotlib e Pillow. A lista de visualização
-acrescenta SciPy e scikit-image. Bravais tem alternativas NumPy para funções do
-SciPy; as isosuperfícies precisam de scikit-image. A presença dessas bibliotecas
-pode mudar os gráficos disponíveis e a implementação auxiliar executada.
+Instale Git LFS antes de usar `git lfs`. As figuras PNG podem ser lidas no GitHub; matrizes e animações usam LFS. `requirements.txt` inclui NumPy, Matplotlib e Pillow; a lista de visualização acrescenta SciPy e scikit-image. A presença dessas bibliotecas pode mudar o caminho de execução dos auxiliares e as figuras disponíveis.
 
-## Começar por um estado salvo
-
-Gere cordas de densidade e de espectro sem executar a evolução 3D:
+## Comece por um estado salvo
 
 ```sh
-MPLBACKEND=Agg python en/bravais/bravais_strings.py bravais/final_state.npz
+MPLBACKEND=Agg python experiments/geometry/string-analysis/code/en/bravais_strings.py experiments/geometry/field-3d/results/data/final_state.npz
 ```
 
-As saídas vão para `bravais_outputs_3d/`. O estado incluído não contém `psi_f`, por
-isso o script pula as cordas de fase. Isso é esperado para esse arquivo. A caixa
-é assumida como `L=32`; informe o tamanho real pela variável `L` para outro estado.
+Esse comando lê o estado e escreve figuras em `bravais_outputs_3d/`, sem executar novamente a evolução do campo. O estado incluído não contém `psi_f`, então a seção de cordas de fase é ignorada. O script usa `L=32`; para outro estado, informe o tamanho real pela variável `L`.
 
-## Executar uma simulação
+## Execute os osciladores
 
 ```sh
-python entre/simulate_observer_observed_relations.py
+python experiments/relations/observer/code/en/simulate_observer_observed_relations.py
 ```
 
-O experimento base usa 6.000 passos RK4 com `DT=0.02`. Grava PNG, GIF, JSON e NPZ
-em `entre/artifacts/`. Consulte os outros scripts no [catálogo](../../experiments/README.pt-BR.md).
-As versões em inglês gravam em `en/entre/artifacts/`.
+São 6.000 passos RK4 com `DT=0.02`. As novas saídas ficam em `artifacts/` ao lado do script. A versão em português está em `code/pt-BR/` no mesmo estudo.
 
-Para a evolução Bravais ou a varredura de caixas:
+## Evolução 3D e varredura
 
 ```sh
-MPLBACKEND=Agg python bravais/bravais_puro_3d.py
-MPLBACKEND=Agg python bravais/bravais_sweep_L.py
+MPLBACKEND=Agg python experiments/geometry/field-3d/code/en/bravais_pure_3d.py
+MPLBACKEND=Agg python experiments/geometry/scale-sweep/code/en/bravais_sweep_L.py
 ```
 
-A evolução padrão tem 1.200 passos em uma grade `64³`. A varredura usa 800 passos
-por caixa e chega a `96³`, com maior consumo de recursos. Ambas aceitam `STEPS`
-pelo ambiente; uma execução mais curta é outra execução. Ambas inicializam
-aleatoriamente, sem semente fixa. As figuras salvas podem ser lidas sem executar.
+A evolução usa por padrão 1.200 passos em uma grade 64³. A varredura usa 800 passos por caixa e chega a 96³, exigindo mais recursos. Ambos aceitam `STEPS` pelo ambiente, mas encurtar a execução cria outra comparação. A inicialização aleatória não fixa uma semente; os padrões não reconstituem exatamente o registro incluído.
 
-## Separar execuções
+## Separe cada execução
 
-Os scripts usam nomes de saída fixos e podem sobrescrever arquivos gerados antes.
-Após cada execução, mova sua pasta de saída para `runs/<experiment-id>/<run-id>/`
-antes de iniciar outra. Preencha uma cópia de [run.json](../../templates/run.json)
-com comando, commit, ambiente, parâmetros e resultado. `runs/` é ignorado pelo Git;
-publique seletivamente um registro revisado na pasta do experimento.
+Scripts usam nomes fixos de saída e podem sobrescrever arquivos gerados. Antes da próxima execução, mova as novas saídas para `runs/<study-id>/<run-id>/`, que é ignorado pelo Git. Registre comando, diretório de trabalho, ambiente, parâmetros e hashes no modelo de execução. Não publique saídas novas por cima das antigas.
 
-Vários scripts históricos executam ao serem importados. Use-os como scripts;
-importar um módulo não é uma forma inofensiva de listar opções.
+[Modelo de execução](../../templates/run.json) · [Dependências históricas](../../provenance/t-archive/dependencies.pt-BR.md)
 
-## Conferir a preservação
-
-```sh
-shasum -a 256 -c docs/archive/SHA256SUMS
-```
-
-A verificação confere os arquivos incluídos, sem afirmar repetição exata de uma
-execução histórica. Arrays, figuras e parâmetros dos scripts são o registro
-disponível; registre versões de dependências e hardware em cada nova execução.
-
-## Acervo histórico T
-
-Os dados numéricos e as animações do acervo usam Git LFS. Depois de instalar Git LFS, execute na raiz do repositório:
-
-```sh
-git lfs install
-git lfs pull --include="collections/t-archive/**"
-shasum -a 256 -c collections/t-archive/SHA256SUMS
-```
-
-Consulte as [dependências específicas](../../collections/t-archive/provenance/dependencies.pt-BR.md) antes de executar código histórico. Os pacotes incluem ambientes MLX e TriadLang externos ao ambiente básico acima.
+Muitos scripts históricos executam ao importar e contêm caminhos antigos. Não os importe apenas para listar opções. Adaptações de caminhos ou dependências precisam de um registro próprio; a reorganização preservou o código numérico.

@@ -1,57 +1,65 @@
-<p align="center"><img src="assets/lab-header.svg" alt="TRIAD LAB — a living lab of numerical experiments" width="100%" /></p>
+![TRIAD LAB — focus, memory, bath](assets/lab-header.svg)
 
-**English** · [Português](docs/pt-BR/README.md)
+<p align="center">
+  <strong>English</strong> · <a href="docs/pt-BR/README.md">Português</a>
+  <br />
+  <a href="docs/en/triad.md">Meet TRIAD</a> · <a href="docs/en/gallery.md">Explore the images</a> · <a href="experiments/README.md">All studies</a>
+</p>
 
-# A living laboratory
+# What if a field carried its own history?
 
-**Explore relations, memory and emergent structures — with code, data and results side by side.**
+**A living laboratory for nonstandard quantum physics.** Leonardo Andujar’s TRIAD investigates matter, observation and the universe through **focus, memory and bath acting together**. The field changes memory — and that memory acts back on the field.
 
-TRIAD Lab brings together independent series of numerical experiments by Leonardo Andujar. Each catalog entry connects a question to its available implementation and records. The lab grows through new series and runs while preserving its existing records.
+<p align="center">
+  <a href="experiments/geometry/field-visualizations/README.md">
+    <img src="experiments/geometry/visual-comparisons/results/figures/phase-vortices-final-frame.png" width="680" alt="Original visualization of a 3D field: cyan and pink phase vortices form structures against a dark background. The colors mark opposite directions of phase winding." />
+  </a>
+</p>
 
-**[Explore experiments](experiments/README.md) · [Run locally](docs/en/getting-started.md) · [Browse the gallery](docs/en/gallery.md) · [Contribute](docs/en/contributing.md)**
+**A field, seen from within.** Cyan and pink points mark phase winding in opposite directions, detected in denser regions. This is an original frame from the archive, with its labels preserved. [Watch the animation](experiments/geometry/field-visualizations/results/figures/cordas-fase-vivas.gif) · [Read the image and explore its code](experiments/geometry/field-visualizations/README.md).
 
-## Explore the lab
+**65 studies · 8 areas · connected images, code and data · English + Portuguese**
 
-| Series | What it explores | Path |
+## Where would you like to begin?
+
+| Discover the idea | Explore visually | Go deeper |
 |---|---|---|
-| **Entre** | Coupled oscillators, relational memory and continuous layers | [4 experiments](experiments/entre-01-observer/README.md) |
-| **Bravais 3D** | Complex fields, spatial geometry and spectral structure | [3 experiments](experiments/bravais-01-field/README.md) |
-| **T research archive** | 39 runs, the QM sequence and explorations of fields, geometry and continuity | [7 reading paths](collections/t-archive/README.md) |
+| A plain-language introduction to the proposal and its vocabulary. | Annotated figures that help you follow changes in the field. | The equation, methods, implementations and recorded outcomes. |
+| [Take the five-minute tour →](docs/en/start-here.md) | [Open the gallery →](docs/en/gallery.md) | [Enter the research guide →](docs/en/research-guide.md) |
 
-![Orthogonal slices of the saved Bravais state](bravais/resultados/pure_final_slices.png)
+## Focus, memory and bath — together
 
-*Preserved original figure. Existing images retain their Portuguese labels.*
+**Focus concentrates. Memory keeps history and acts back. The bath participates in the dynamics.** TRIAD investigates what emerges from their joint action: how the field organizes, responds, expands and forms structures.
 
-## Choose your entry point
+[What TRIAD proposes — and where its difference begins →](docs/en/triad.md)
 
-- **Read:** open the [catalog](experiments/README.md); each page connects a question to code, data and images.
-- **Run:** follow the [local guide](docs/en/getting-started.md), starting with post-processing a saved state.
-- **Extend:** use the [experiment template](templates/experiment/README.md) to record a new investigation.
-- **Translate:** follow the [language guide](docs/en/languages.md); English is the editorial base, Portuguese is the first translation.
+## Follow a question
 
-## How the lab is organized
+| Area | Question |
+|---|---|
+| [Relations](experiments/relations/README.md) | What changes when things interact? |
+| [Geometry](experiments/geometry/README.md) | How do patterns take shape? |
+| [Memory](experiments/memory/README.md) | Can the past change what happens next? |
+| [Structures](experiments/structures/README.md) | Can a pattern persist inside a changing field? |
+| [Signals](experiments/signals/README.md) | How does a disturbance spread? |
+| [Field diagnostics](experiments/quantum/README.md) | How do we test the field’s consistency, modes and response? |
+| [Continuity](experiments/continuity/README.md) | What carries over when a system changes or resumes? |
+| [Validation](experiments/validation/README.md) | How do we check the story the figures seem to tell? |
 
-```text
-collections/       Historical collections, indexes and provenance
-experiments/       Catalog + experiment pages; new experiment folders grow here
-docs/en/           English reading, running and contribution guides
-docs/pt-BR/        Equivalent Portuguese guides
-templates/         Starting points for experiments and run records
-entre/             Original Portuguese scripts, data and recorded figures
-bravais/           Original Portuguese scripts, saved state and figures
-en/                Existing English scripts and data
-```
+## A living lab that keeps its history
 
-Historical paths remain valid. New experiments use a shared implementation and documentation per language; existing translated scripts are preserved. [Conventions and growth](docs/en/contributing.md).
+You will find attempts, partial results, failed diagnostics and open hypotheses. TRIAD’s operational vocabulary connects atoms, memory and observation to what the dynamics does. Each study links that reading to its implementation and recorded outcome.
 
-## Continuity
+[All studies](experiments/README.md) · [Lab history](docs/en/history.md) · [How to contribute](docs/en/contributing.md) · [More languages](docs/en/languages.md)
 
-Original scripts, configurations and results have been preserved. Check their hashes with:
+<details>
+<summary>Run, verify and navigate the structure</summary>
+
+[Run locally](docs/en/getting-started.md) · [Repository map](docs/en/repository-map.md) · [Provenance and integrity](provenance/README.md)
 
 ```sh
-shasum -a 256 -c docs/archive/SHA256SUMS
-# T archive (after git lfs pull):
-shasum -a 256 -c collections/t-archive/SHA256SUMS
+git lfs pull
+python3 tools/check_repository.py
 ```
 
-[Next steps](docs/en/roadmap.md) · [Organization history](CHANGELOG.md) · [Original record](docs/archive/README.md)
+</details>

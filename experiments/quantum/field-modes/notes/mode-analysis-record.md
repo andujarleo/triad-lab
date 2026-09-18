@@ -1,0 +1,27 @@
+---
+tags: [triad, qm, q03, subespacos]
+aliases: [Q03]
+status: active
+data: 2026-08-21
+---
+
+# Q03 — Identificação de subespaços persistentes (POD/DMD passivos)
+
+Lote **Q03** (este diretório): seeds 0,1,2,3 (nessa ordem; primeiras quatro de Q02), mesmo macroestado físico (1 gaussiana = 1 átomo), tríade completa, N=64, dt=0.0025, T=8, L=32, Theta_core congelado. Análise passiva POD/PCA + DMD. Snapshots são sensores; **não** controlam o solver.
+
+Backend **mlx**, campo complex64, memória float32. N_num, não calibração. **Nunca** SUPPORTED para MQ.
+
+Protocolo: [PROTOCOL](protocol.md). Canônico: [TRIAD_QM_CANONICAL_V1](../../../../docs/reference/records/triad-qm-canonical-v1.md) (Q00).
+Q02: `[[Q02]]` — INCONCLUSIVE. Q01a/Q01b: [Q01](../../spatial-convergence/notes/convergence-record.md) / `[[Q01b]]`.
+
+Pergunta: a dinâmica completa produz modos/coordenadas macroscópicas que mantêm identidade suficiente para serem tratados como estados?
+Sem comparação com MQ. Sem isolar termos. Sem cherry-pick. Pilotos 1–34 não confirmatórios.
+
+SHA-256 PROTOCOL: `f565abde737256058c8c7e7f5a3ce963b89039b0555da908a1563f3c867e8c16`
+SHA-256 do solver executado `code/run_q03.py`: `8a9c1cefd4cc98dc753071a8c7c62dfc8d09240c5d328956388c48a2d8ce4115`
+SHA-256 passo Q02: `ef65da9774ff65ac9b781595944f59bc1892f04665370a2de190ad22f94ba365`
+SHA-256 canônico Q00: `e7c7d907c7109bbafc73229cb2e1943802feb47df035a7058e71ebec078d9a3e`
+
+Veredito Q03 (janela late / atrator): **INCONCLUSIVE**. Early (contexto): **INCONCLUSIVE**. Q03 **não** é teste de MQ. Nunca SUPPORTED para MQ. Detalhe em [analysis](analysis.md) e `result.json`.
+
+Início 2026-08-21 14:08:16 BRT; fim 2026-08-21 14:10:19 BRT; wall 62.62 s (1 GPU, sequencial).

@@ -1,13 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
-<title id="title">TRIAD LAB</title><desc id="desc">A living collection of numerical experiments. Explore, run, record, extend. Decorative lab identity, not measured data.</desc>
-<rect width="1280" height="320" rx="22" fill="#101824"/>
-<path d="M900 0V320M0 258H1280" stroke="#263448"/>
-<g font-family="Arial,Helvetica,sans-serif">
-<text x="54" y="57" font-size="14" letter-spacing="4" fill="#81d9cc">NUMERICAL EXPERIMENTS · OPEN NOTEBOOK</text>
-<text x="48" y="159" font-size="88" font-weight="700" letter-spacing="-3" fill="#f4f7fc">TRIAD <tspan fill="#81d9cc">LAB</tspan></text>
-<text x="54" y="208" font-size="24" fill="#abbcd0">Relations. Memory. Emergent structure.</text>
-<text x="54" y="294" font-size="16" fill="#abbcd0">A living collection of experiments, code and recorded results.</text>
-<path d="M955 73V209" stroke="#81d9cc" stroke-width="2"/>
-<g fill="#81d9cc"><circle cx="955" cy="73" r="5"/><circle cx="955" cy="119" r="5"/><circle cx="955" cy="165" r="5"/><circle cx="955" cy="209" r="5"/></g>
-<g font-size="20" fill="#e4edf7"><text x="979" y="79">Explore</text><text x="979" y="125">Run</text><text x="979" y="171">Record</text><text x="979" y="215">Extend</text></g>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="TRIAD LAB: FOCUS / MEMORY / BATH">
+<rect width="1280" height="300" rx="20" fill="#101e2b"/>
+<g fill="none" stroke="#3cc7b5" stroke-width="1.5" opacity=".5"><circle cx="1070" cy="148" r="96"/><circle cx="990" cy="148" r="96"/><circle cx="1030" cy="214" r="96"/><path d="M894 148h272M1030 52v226" stroke-dasharray="3 8"/></g>
+<g fill="#f3bd76"><circle cx="1030" cy="148" r="6"/><circle cx="1070" cy="148" r="4"/><circle cx="990" cy="148" r="4"/></g>
+<text x="64" y="65" fill="#60d5c4" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">NONSTANDARD QUANTUM PHYSICS</text>
+<text x="60" y="163" fill="#f5f7f8" font-family="Arial,sans-serif" font-size="82" font-weight="700" letter-spacing="-2">TRIAD LAB</text>
+<text x="65" y="228" fill="#bacbd6" font-family="Arial,sans-serif" font-size="19" letter-spacing="2">FOCUS / MEMORY / BATH</text>
+</svg>

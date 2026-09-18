@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-09-17 — Organize the lab by study
+
+- Consolidate the physical repository into 65 studies across eight areas, with code, notes, configurations and recorded outputs together.
+- Account for every previous tracked path and all 1,384 original content paths; consolidate 215 exact duplicate paths into 1,169 unique preserved payloads.
+- Preserve distinct source versions, numerical bytes and historical outcomes. Normalize source-document links with reversible patches instead of maintaining parallel reading copies.
+- Add bilingual public entrances, a five-minute tour, annotated gallery, glossary, research guide, repository map and contribution conventions.
+- Use descriptive study and file names; retain chronological identifiers in the provenance records.
+- Present TRIAD explicitly as nonstandard quantum physics through focus, memory and bath; feature an original phase-vortex image with bilingual reading guidance.
+- Add a standard-library integrity/catalog/link checker and regression tests. Verify relocated saved-state post-processing in an isolated directory.
+
+See [the layout audit](provenance/layout-audit.md) for evidence and limits.
+
+
 ## 2026-09-17 — The T research archive
 
 - Organized the complete supplied archive into seven bilingual reading paths, 39 chronological entries and six QM entries.

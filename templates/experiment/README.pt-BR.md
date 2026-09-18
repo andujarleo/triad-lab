@@ -1,37 +1,31 @@
-# Título do experimento
+# Título do estudo
 
-Modelo: copie para `experiments/<id-estável>/README.pt-BR.md` e substitua os campos.
-Acrescente links de idioma apenas quando as páginas traduzidas existirem.
+Copie para `experiments/<area>/<study>/README.pt-BR.md`. Substitua os campos e mantenha a apresentação em inglês sincronizada. Não acrescente links para traduções inexistentes.
 
-## Pergunta
+## A pergunta
 
-O que está sendo investigado? Descreva a série e a ligação com trabalhos anteriores.
+Uma frase compreensível sem pré-requisitos. Qual comparação permitiria responder?
 
-## Modelo e método
+## Como ler a figura
 
-Declare equações, pressupostos, entradas e procedimento numérico. Mantenha o modelo
-acoplado íntegro e registre explicitamente mudanças em relação a versões anteriores.
+Inclua uma figura real quando houver. Explique eixos, cores, painéis e o que observar. Declare o que ela não permite concluir. Se ainda não houver resultado, diga isso.
 
-## Material disponível
+## O que foi feito
 
-Identifique o que existe: proposta, implementação, execução, dados, gráficos ou animação.
-Ligue para arquivos reais. Não apresente uma saída planejada como resultado existente.
+Explique a ideia em linguagem comum. Em seguida, registre equações, pressupostos, condições iniciais, parâmetros e método numérico. Aponte para configurações e protocolos disponíveis.
 
-## Executar
+## Evidências e limites
 
-Informe diretório, dependências e comando exatos. Explique entradas, destinos das
-saídas, recursos necessários e se novas execuções sobrescrevem arquivos.
+Separe observações registradas de interpretação. Inclua resultados negativos e inconclusivos. Declare código, entradas ou dependências ausentes. Ligue os materiais em `FILES.md`.
 
-## Observações e interpretação
+## Executar ou inspecionar
 
-Separe observações registradas da interpretação do autor. Inclua resultados parciais
-ou negativos. Ligue cada resultado ao registro da execução correspondente.
+Informe diretório de trabalho, ambiente, comando exato, entradas e saídas. Declare necessidade de hardware e risco de sobrescrita de saídas. Se não for executável com o material disponível, explique o que falta.
 
-## Continuar o experimento
+## Próxima comparação
 
-Liste perguntas abertas e próximas execuções, preservando o registro anterior.
+Qual pergunta permanece? Que mudança permitiria testá-la? Mantenha os resultados anteriores e registre novas execuções separadamente.
 
-## Proveniência
+## Origem
 
-Registre commit, referências, autoria e execuções. Comece por `templates/run.json`.
-Mantenha uma implementação compartilhada entre as documentações por idioma.
+Autoria, fontes, commit e registro de execução usando `templates/run.json`. Compartilhe uma implementação entre idiomas.

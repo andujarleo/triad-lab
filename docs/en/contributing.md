@@ -1,66 +1,39 @@
-[Lab home](../../README.md) · **English** · [Português](../pt-BR/contributing.md)
+[Lab](../../README.md) · **English** · [Português](../pt-BR/contributing.md)
 
-# Grow the lab
+# Help the lab grow
 
-A contribution can be a new experiment, an additional run, a clearer explanation,
-a translation or a correction. Keep the question, implementation, observations
-and author's interpretation connected and distinguishable.
+Start with a question someone can understand before they read an equation. A contribution can be a study, a new run, an explanation, a translation or a correction.
 
-## Add an experiment
+## Add or extend a study
 
-1. Choose an existing series or introduce a new one with a short description.
-2. Give the experiment a stable lowercase ID, such as `series-01-topic`.
-3. Copy the [English](../../templates/experiment/README.md) and
-   [Portuguese](../../templates/experiment/README.pt-BR.md) templates into
-   `experiments/<id>/`. Replace every placeholder; omit untranslated pages until ready.
-4. Keep one implementation in `src/`, explicit inputs in `configs/`, and selected
-   run records in `results/<run-id>/` inside that experiment. Create folders when
-   they contain something; a proposed experiment does not need empty code folders.
-5. Add its ID, series, titles, docs, scripts and artifacts to
-   [catalog.json](../../experiments/catalog.json), and update both human catalogs.
-6. Add the question and a representative artifact to the relevant guide when useful.
+1. Choose an existing area in `experiments/`, or describe a new area in both language indexes.
+2. Use a descriptive folder: `experiments/<area>/<study>/`. Keep its catalog ID stable even if the title changes.
+3. Copy the [study template](../../templates/experiment/README.md). Write the question, what to notice in the representative figure, available evidence and known limits. Add the Portuguese entrance using its template; link to original-language technical material where translation is unavailable.
+4. Put implementations in `code/`, explicit inputs in `configuration/`, reports in `notes/` and recorded outputs in `results/`. New runs should use `results/<run-id>/{data,figures,logs}/` so results cannot silently overwrite each other. Create folders only when they contain material.
+5. Update `FILES.md`, the area indexes and [catalog.json](../../experiments/catalog.json). Existing entries demonstrate the schema: stable ID, folder, area, titles, docs, material availability and source associations. A shared payload stays in one location, with every association retained.
+6. Record the exact command, working directory, code commit, dependencies, hardware, parameters, seeds and input/output hashes in [run.json](../../templates/run.json). Use `null` for unavailable values and explain why.
 
-New series need no change to the lab's numerical code. Use descriptive series
-names; the current Entre and Bravais paths remain supported. Existing scripts
-are preserved at their historical locations and linked from their experiment pages.
+Catalog availability describes supplied material, not scientific validity. `note-only` and `specification` entries may have no outputs; `recorded` and `recorded-artifacts` indicate preserved outputs. `implementation-available` and `archival` require the page’s execution notes before attempting a run. Explicit `availability` fields say whether code, data, figures and notes are present.
 
-## Record a run
+## Preserve the comparison
 
-Use [run.json](../../templates/run.json). Record the exact commit and command,
-environment, parameters, input paths and checksums, generated artifacts and outcome.
-Use `null` for unavailable values and explain why in notes; do not invent a seed,
-version or measurement. Keep negative, partial and failed outcomes with their context.
-Use distinct run IDs and never overwrite published data to make a later run agree.
+Changing an equation, parameter, solver, backend or input creates a new comparison. Preserve the old record and document the difference. Keep negative and inconclusive outcomes with their context. Separate numerical observations from the interpretation they may support.
 
-The catalog's `status` describes available material: `proposed`,
-`implementation-available`, or `recorded`. It is not a rating of scientific validity.
-Only use `recorded` once at least one run artifact is included or explicitly linked.
+The historical files listed in the provenance ledger have fixed original hashes. Do not update those hashes to conceal a change. Add an adapted implementation or a new run separately. A path-only adaptation can still affect file selection or working directories, so verify it explicitly.
 
-## Preserve continuity
-
-Changing an equation, parameter, numerical method or data source creates a new
-comparison to document. Keep the previous record accessible. Describe numerical
-observations separately from the interpretation they support. Editorial translations
-must retain equations, parameter values and qualifications.
-
-Check relative links, both language entry points and any command you changed.
-For changes limited to navigation, verify the baseline rather than rerunning the
-full simulations:
+## Review a contribution
 
 ```sh
-shasum -a 256 -c docs/archive/SHA256SUMS
+python3 -m unittest discover -s tools -p 'test_*.py'
+python3 tools/check_repository.py
 ```
 
-Do not update baseline hashes to conceal a modified original. Add a new result or
-version with its own provenance. [The archive](../archive/README.md) records the baseline.
+Hydrate Git LFS first when arrays or animations are missing. Review local links, translations and any changed execution command. For navigation changes, check integrity rather than rerunning all simulations. For a numerical change, state the comparison that was actually performed.
 
-## Pull requests
+Describe the problem, final change, validation and remaining limitations in the commit or pull request. English is the editorial base; update Portuguese in the same change. [Other languages](languages.md) can be added without copying numerical implementations. The repository has no declared license; preserve authorship and do not invent a license.
 
-State the question or usability problem, what changed, how it was checked and any
-execution limits. Keep editorial changes separate from changes to experimental behavior.
-Include translation updates, or mark the affected translation as needing synchronization.
-The current snapshot has no license file; preserve authorship and do not invent a license.
+[Next steps](roadmap.md)
 
-## Extend an archived study
+## Preserve the starting point
 
-Keep `collections/t-archive/source/` immutable. Create the new study in `experiments/<id>/`, link its source entry and record the hashes used. Path, dependency or backend adaptations need their own change record and validation. Document new results as new runs; update English and Portuguese entries together.
+Present TRIAD as a proposal for nonstandard quantum physics. Connect new interpretations to the author’s operational reading and the regime actually executed. Distinguish the complete triad, historical pilots and controls; do not make a conventional quantum-mechanical diagnostic the definition of the entire project. [Presentation reference](triad.md).
