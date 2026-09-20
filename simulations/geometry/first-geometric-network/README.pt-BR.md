@@ -17,6 +17,10 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é execução TRIAD — contexto ou pós-processamento.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-25) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-25) · [Español](../../../docs/es/triad-identity-audit.md#study-t-25) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-25) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-25) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-25) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-25) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-25)
+
 **Contexto ou pós-processamento.** Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-25) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)

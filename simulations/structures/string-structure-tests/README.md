@@ -14,6 +14,10 @@ Two recorded studies examine atom–string relations and changes in box size and
 
 ## Execution audit
 
+> **TRIAD identity: NOT complete TRIAD — documented departure.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-string-structure-tests) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-string-structure-tests) · [Español](../../../docs/es/triad-identity-audit.md#study-string-structure-tests) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-string-structure-tests) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-string-structure-tests) · [Norsk](../../../docs/no/triad-identity-audit.md#study-string-structure-tests) · [Dansk](../../../docs/da/triad-identity-audit.md#study-string-structure-tests) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-string-structure-tests)
+
 **Implementation differs.** The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-string-structure-tests) · [probe_box_size_and_amplitude.py](code/probe_box_size_and_amplitude.py#L131) · [probe_box_size_and_amplitude.py](code/probe_box_size_and_amplitude.py#L256) · [teste_atomo_corda.py](code/teste_atomo_corda.py#L124) · [teste_atomo_corda.py](code/teste_atomo_corda.py#L249)

@@ -16,6 +16,10 @@ O relatório descreve cristalização dinâmica por deslocamentos recorrentes de
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é TRIAD completa — divergência documentada.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-passive-r5) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-passive-r5) · [Español](../../../docs/es/triad-identity-audit.md#study-passive-r5) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-passive-r5) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-passive-r5) · [Norsk](../../../docs/no/triad-identity-audit.md#study-passive-r5) · [Dansk](../../../docs/da/triad-identity-audit.md#study-passive-r5) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-passive-r5)
+
 **Implementação divergente.** O runner fixa alpha, Gamma e FDT em zero e mantém dois modos de memória.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-passive-r5) · [simulate_passive_memory.py](code/simulate_passive_memory.py#L23) · [simulate_passive_memory.py](code/simulate_passive_memory.py#L72) · [config.json](configuration/config.json#L9)

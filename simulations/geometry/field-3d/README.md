@@ -11,6 +11,10 @@ Evolves a complex field on a periodic 3D grid, with FFTs, a coupled proposal and
 
 ## Execution audit
 
+> **TRIAD identity: NOT complete TRIAD — documented departure.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-bravais-01-field) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-bravais-01-field) · [Español](../../../docs/es/triad-identity-audit.md#study-bravais-01-field) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-bravais-01-field) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-bravais-01-field) · [Norsk](../../../docs/no/triad-identity-audit.md#study-bravais-01-field) · [Dansk](../../../docs/da/triad-identity-audit.md#study-bravais-01-field) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-bravais-01-field)
+
 **Implementation differs.** The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-bravais-01-field) · [bravais_puro_3d.py](code/pt-BR/bravais_puro_3d.py#L116) · [bravais_puro_3d.py](code/pt-BR/bravais_puro_3d.py#L241) · [bravais_puro_3d.py](variants/phase-checkpoints/code/bravais_puro_3d.py#L116) · [bravais_puro_3d.py](variants/phase-checkpoints/code/bravais_puro_3d.py#L241)

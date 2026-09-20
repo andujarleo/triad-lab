@@ -15,6 +15,10 @@ Leia a sequência: protocolo → configuração → dados brutos → análise. A
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é execução TRIAD — contexto ou pós-processamento.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-q00) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-q00) · [Español](../../../docs/es/triad-identity-audit.md#study-q00) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-q00) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-q00) · [Norsk](../../../docs/no/triad-identity-audit.md#study-q00) · [Dansk](../../../docs/da/triad-identity-audit.md#study-q00) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-q00)
+
 **Contexto ou pós-processamento.** Especificação e parâmetros declarados fixados; esta entrada não contém resultado de execução.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-q00) · [specification-record.md](notes/specification-record.md#L6)

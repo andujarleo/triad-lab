@@ -18,7 +18,15 @@ The still image is shared with the visual-comparison study; the index retains it
 
 
 
+## In one minute
+
+One evolving source plus five readers and renderers: the movies are made from saved states, not from new evolutions. The evolving kernel differs from the reference update. [Audit record](../../../docs/en/execution-audit.md#study-field-visualizations) · [Identity verdict](../../../docs/en/triad-identity-audit.md#study-field-visualizations)
+
 ## Execution audit
+
+> **TRIAD identity: NOT complete TRIAD — documented departure.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-field-visualizations) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-field-visualizations) · [Español](../../../docs/es/triad-identity-audit.md#study-field-visualizations) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-field-visualizations) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-field-visualizations) · [Norsk](../../../docs/no/triad-identity-audit.md#study-field-visualizations) · [Dansk](../../../docs/da/triad-identity-audit.md#study-field-visualizations) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-field-visualizations)
 
 **Implementation differs.** The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation. This applies to simula_filmes; the other five files are readers/renderers.
 

@@ -4,10 +4,18 @@
 
 English is the base for editorial documentation; Brazilian Portuguese is the first maintained translation. All 65 study entrances, eight area indexes and public guides exist in both languages. Historical scientific documents, figures and code retain their original languages and labels.
 
+The point-to-point TRIAD identity audit is maintained in eight languages: English (principal), Portuguese, Spanish, German, Swedish, Norwegian, Danish and Simplified Chinese. The six newer languages cover the identity audit and link to English elsewhere; see the actual coverage in [languages.json](../languages.json).
+
 | Language | Entrance |
 |---|---|
 | English | [Home](../../README.md) |
 | Português | [Início](../pt-BR/README.md) |
+| Español | [Español](../es/README.md) |
+| Deutsch | [Deutsch](../de/README.md) |
+| Svenska | [Svenska](../sv/README.md) |
+| Norsk | [Norsk](../no/README.md) |
+| Dansk | [Dansk](../da/README.md) |
+| 中文（简体） | [中文](../zh-CN/README.md) |
 
 Translations preserve the [project rules](project-rules.md): nonstandard quantum physics, the immutable and indivisible equation, the three principles and dynamic self-organization. Describe v1.0/v1.1 as document revisions. Keep historical results and their qualifications intact in every language.
 

@@ -17,6 +17,10 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO estabelecido como TRIAD completa — rastreabilidade incompleta.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-28) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-28) · [Español](../../../docs/es/triad-identity-audit.md#study-t-28) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-28) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-28) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-28) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-28) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-28)
+
 **Execução sem rastreabilidade completa.** O runner de trajetórias 3D mantém três modos de memória e banho, mas importa o runtime histórico não fixado.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-28) · [simulate_atom_trajectories.py](code/simulate_atom_trajectories.py#L24) · [simulate_atom_trajectories.py](code/simulate_atom_trajectories.py#L328)

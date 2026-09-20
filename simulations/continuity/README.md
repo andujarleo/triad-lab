@@ -4,6 +4,10 @@
 
 **What carries over when a system changes or resumes?**
 
+## In one minute
+
+2 studies. Identity verdicts: 1 documented departure · 1 traceability incomplete. Each verdict carries its evidence in the [identity audit](../../docs/en/triad-identity-audit.md).
+
 | Study | Code | Data | Figures |
 |---|:---:|:---:|:---:|
 | [Following causal traces](causal-traces/README.md) | ✓ | ✓ | ✓ |

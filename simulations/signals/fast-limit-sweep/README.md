@@ -17,6 +17,10 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ## Execution audit
 
+> **TRIAD identity: NOT established as complete TRIAD — incomplete traceability.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-t-07) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-07) · [Español](../../../docs/es/triad-identity-audit.md#study-t-07) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-07) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-07) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-07) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-07) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-07)
+
 **Execution not fully traceable.** The N/radius sweep has CSV values, but no supplied generator establishes the full dynamics.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-07) · [original-record.md](notes/original-record.md#L10)

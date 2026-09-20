@@ -14,6 +14,10 @@ Quatro protocolos registrados exploram ligação, pequenas perturbações, impac
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é TRIAD completa — divergência documentada.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-perturbation-tests) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-perturbation-tests) · [Español](../../../docs/es/triad-identity-audit.md#study-perturbation-tests) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-perturbation-tests) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-perturbation-tests) · [Norsk](../../../docs/no/triad-identity-audit.md#study-perturbation-tests) · [Dansk](../../../docs/da/triad-identity-audit.md#study-perturbation-tests) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-perturbation-tests)
+
 **Implementação divergente.** A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-perturbation-tests) · [teste_borboleta.py](code/teste_borboleta.py#L122) · [teste_borboleta.py](code/teste_borboleta.py#L247) · [teste_ligacao.py](code/teste_ligacao.py#L131) · [teste_ligacao.py](code/teste_ligacao.py#L256)

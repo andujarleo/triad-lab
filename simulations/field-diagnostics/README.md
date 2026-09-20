@@ -6,6 +6,10 @@ TRIAD is nonstandard quantum physics with its own method. This area preserves th
 
 **How do we test the field’s consistency, modes and response?**
 
+## In one minute
+
+6 studies. Identity verdicts: 5 TRIAD complete · 1 context/post-processing. Each verdict carries its evidence in the [identity audit](../../docs/en/triad-identity-audit.md).
+
 | Study | Code | Data | Figures |
 |---|:---:|:---:|:---:|
 | [Reference specification](reference-specification/README.md) | — | — | — |

@@ -21,6 +21,10 @@ Read in order: protocol → configuration → raw data → analysis. These class
 
 ## Execution audit
 
+> **TRIAD identity: TRIAD complete — coupled terms documented.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-q04) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-q04) · [Español](../../../docs/es/triad-identity-audit.md#study-q04) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-q04) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-q04) · [Norsk](../../../docs/no/triad-identity-audit.md#study-q04) · [Dansk](../../../docs/da/triad-identity-audit.md#study-q04) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-q04)
+
 **Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. The superposition residual includes the common additive bath; it is not a pure measure of nonlinear response.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-q04) · [probe_field_linearity.py](code/probe_field_linearity.py#L54) · [probe_field_linearity.py](code/probe_field_linearity.py#L245) · [probe_field_linearity.py](code/probe_field_linearity.py#L263) · [probe_field_linearity.py](code/probe_field_linearity.py#L324)

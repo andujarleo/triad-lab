@@ -4,6 +4,10 @@
 
 **Como conferir a história que as figuras parecem contar?**
 
+## Em um minuto
+
+1 estudo. Vereditos de identidade: 1 divergência documentada. Cada veredito traz sua evidência na [auditoria de identidade](../../docs/pt-BR/triad-identity-audit.md).
+
 | Estudo | Código | Dados | Figuras |
 |---|:---:|:---:|:---:|
 | [Dossiê de reexecução em dez partes](reproduction-dossier/README.pt-BR.md) | — | ✓ | ✓ |

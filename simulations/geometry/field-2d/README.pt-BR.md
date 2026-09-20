@@ -14,6 +14,10 @@ Quatro implementações geométricas estão reunidas aqui: três usam campos 2D,
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é TRIAD completa — divergência documentada.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-field-2d) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-field-2d) · [Español](../../../docs/es/triad-identity-audit.md#study-field-2d) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-field-2d) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-field-2d) · [Norsk](../../../docs/no/triad-identity-audit.md#study-field-2d) · [Dansk](../../../docs/da/triad-identity-audit.md#study-field-2d) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-field-2d)
+
 **Implementação divergente.** As implementações 1D/2D fornecidas incluem normalização durante a trajetória ou guards e divergem da evolução de referência; a expressão de dissipação do caso 2D puro atua como fase.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-field-2d) · [bravais_emergent_coupled.py](code/bravais_emergent_coupled.py#L109) · [bravais_pure_emerge.py](code/bravais_pure_emerge.py#L208)

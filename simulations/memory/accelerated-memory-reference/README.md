@@ -15,6 +15,10 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ## Execution audit
 
+> **TRIAD identity: NOT established as complete TRIAD — incomplete traceability.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-t-15) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-15) · [Español](../../../docs/es/triad-identity-audit.md#study-t-15) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-15) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-15) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-15) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-15) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-15)
+
 **Execution not fully traceable.** Accelerated preparation note only; outputs start in the separate N=40 record.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-15) · [original-record.md](notes/original-record.md#L10)

@@ -11,6 +11,10 @@ Extends the chemical control with four continuous memory horizons and a personal
 
 ## Execution audit
 
+> **TRIAD identity: NOT a TRIAD execution — context or post-processing.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-entre-04-life-filter) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-entre-04-life-filter) · [Español](../../../docs/es/triad-identity-audit.md#study-entre-04-life-filter) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-entre-04-life-filter) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-entre-04-life-filter) · [Norsk](../../../docs/no/triad-identity-audit.md#study-entre-04-life-filter) · [Dansk](../../../docs/da/triad-identity-audit.md#study-entre-04-life-filter) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-entre-04-life-filter)
+
 **Context or post-processing.** Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation. Optional chemistry/life layers are model switches, not direct P1/P2/P3 ablations.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-entre-04-life-filter) · [simulate_life_filter_between.py](code/en/simulate_life_filter_between.py#L139)

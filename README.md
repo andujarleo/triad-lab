@@ -1,7 +1,7 @@
 ![TRIAD Universe Lab — A universe in motion.](assets/brand/readme-cover.en.png)
 
 <p align="center"><strong>English</strong> · <a href="docs/pt-BR/README.md">Português</a><br />
-<a href="https://andujarleo.github.io/triad-lab/"><strong>ENTER THE UNIVERSE ↗</strong></a> · <a href="research/README.md">Research</a> · <a href="simulations/README.md">Simulations</a> · <a href="docs/en/start-here.md">Start here</a></p>
+<a href="https://andujarleo.github.io/triad-lab/"><strong>ENTER THE UNIVERSE ↗</strong></a> · <a href="docs/en/editions.md">Issue 01 · September 2026 ↗</a></p>
 
 # TRIAD Universe Lab
 
@@ -10,6 +10,22 @@
 TRIAD is Leonardo Andujar’s nonstandard quantum physics and ontology. One immutable, indivisible equation is its foundation: P1 oscillation, P2 self-reference in the present and through memory, and P3 coupling act together.
 
 From chaos to dynamic equilibrium, crystallization continues. Research connects ideas and sources. The simulation archive brings recorded fields, trajectories and code into view.
+
+## In this issue
+
+*One line here · one minute in the [edition](docs/en/editions.md) · the full record behind every link.*
+
+**What is complete TRIAD — all 65 studies, decided in the open.** Every study now carries an explicit identity verdict, readable in eight languages. [One minute →](docs/en/editions.md#issue-01) · [The full audit →](docs/en/triad-identity-audit.md)
+
+**Watch a region of the field contract, then expand.** The radius enclosing half the mass reaches its minimum at **t=3.7**. [One minute →](docs/en/editions.md#issue-01) · [Follow the trajectory →](simulations/memory/memory-and-bounce/README.md)
+
+**From a nested form to a filled field, up to t=60.** The volume fills while the finite density peak keeps fluctuating. [One minute →](docs/en/editions.md#issue-01) · [Explore the long record →](simulations/structures/long-nest-trajectory/README.md)
+
+## Three doors
+
+| I want to feel it | I want to verify it | I want to build it |
+|---|---|---|
+| [A five-minute tour](docs/en/start-here.md), [TRIAD’s foundations](docs/en/triad.md) and [plain-language words](docs/en/glossary.md). | [Evidence room](docs/en/evidence-room.md), [identity audit](docs/en/triad-identity-audit.md), [recorded comparisons](docs/en/execution-audit.md) and the [equation reference](docs/reference/equation/README.md). | [Engine room](docs/en/engine-room.md), [repository map](docs/en/repository-map.md), [execution guidance](docs/en/getting-started.md) and [contributing](docs/en/contributing.md). |
 
 ## See the dynamics unfold
 
@@ -38,12 +54,6 @@ Follow the field to **t=60**: the volume fills, and the finite density peak cont
 
 The [interactive atlas](https://andujarleo.github.io/triad-lab/) connects these two areas by theme. The field viewer shows spatial slices through saved states; its slider moves through **space**.
 
-## Begin with your curiosity
-
-| I want to understand | I want to investigate | I want to build or run |
-|---|---|---|
-| [A five-minute tour](docs/en/start-here.md), [TRIAD’s foundations](docs/en/triad.md) and a [plain-language vocabulary](docs/en/glossary.md). | [Research themes](research/README.md), [recorded comparisons](docs/en/execution-audit.md) and the [equation reference](docs/reference/equation/README.md). | [Repository map](docs/en/repository-map.md), [execution guidance](docs/en/getting-started.md) and [contributing](docs/en/contributing.md). |
-
 ## The whole dynamics matters
 
 Removing a term changes the implemented system. The archive retains those historical configurations and identifies them alongside their outputs. The [execution audit](docs/en/execution-audit.md) connects each study to its conditions and distinguishes recorded changes in behavior from changes in measurement or interpretation.
@@ -53,7 +63,6 @@ New TRIAD work follows the [project rules](docs/en/project-rules.md): the comple
 ## Inside the universe
 
 ```text
-.agents/skills/  Agent guidance for understanding, reading and creating in TRIAD
 research/       Themes, readings, connections and preserved research sources
 simulations/    Study questions, code, configurations and recorded results
 docs/           Guides in English and Portuguese; shared equation references
@@ -63,7 +72,7 @@ tools/          Catalog, preservation checks and site build
 templates/      Research, studies and execution records
 ```
 
-[Work with TRIAD agents](docs/en/agents.md) · [Lab journal](docs/en/journal.md) · [About Leonardo](docs/en/author.md) · [Source preservation](provenance/README.md) · [Add a language](docs/en/languages.md)
+[Issues of the lab](docs/en/editions.md) · [Lab journal](docs/en/journal.md) · [About Leonardo](docs/en/author.md) · [Source preservation](provenance/README.md) · [Add a language](docs/en/languages.md) · [Work with TRIAD agents](docs/en/agents.md)
 
 <details><summary>Verify and explore locally</summary>
 

@@ -4,6 +4,10 @@
 
 **Can the past change what happens next?**
 
+## In one minute
+
+10 studies. Identity verdicts: 3 documented departure · 7 traceability incomplete. Each verdict carries its evidence in the [identity audit](../../docs/en/triad-identity-audit.md).
+
 | Study | Code | Data | Figures |
 |---|:---:|:---:|:---:|
 | [Memory and thermal noise](memory-and-thermal-noise/README.md) | — | — | ✓ |

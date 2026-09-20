@@ -11,6 +11,10 @@ Evolui um campo complexo em uma grade 3D periódica, com FFTs, uma proposta acop
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é TRIAD completa — divergência documentada.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-bravais-01-field) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-bravais-01-field) · [Español](../../../docs/es/triad-identity-audit.md#study-bravais-01-field) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-bravais-01-field) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-bravais-01-field) · [Norsk](../../../docs/no/triad-identity-audit.md#study-bravais-01-field) · [Dansk](../../../docs/da/triad-identity-audit.md#study-bravais-01-field) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-bravais-01-field)
+
 **Implementação divergente.** A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-bravais-01-field) · [bravais_puro_3d.py](code/pt-BR/bravais_puro_3d.py#L116) · [bravais_puro_3d.py](code/pt-BR/bravais_puro_3d.py#L241) · [bravais_puro_3d.py](variants/phase-checkpoints/code/bravais_puro_3d.py#L116) · [bravais_puro_3d.py](variants/phase-checkpoints/code/bravais_puro_3d.py#L241)

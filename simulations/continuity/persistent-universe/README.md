@@ -17,6 +17,10 @@ A prototype records checkpoint continuation with one million resident modes. The
 
 ## Execution audit
 
+> **TRIAD identity: NOT established as complete TRIAD — incomplete traceability.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-persistent-universe) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-persistent-universe) · [Español](../../../docs/es/triad-identity-audit.md#study-persistent-universe) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-persistent-universe) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-persistent-universe) · [Norsk](../../../docs/no/triad-identity-audit.md#study-persistent-universe) · [Dansk](../../../docs/da/triad-identity-audit.md#study-persistent-universe) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-persistent-universe)
+
 **Execution not fully traceable.** Modal checkpoints/readouts and continuation tests exist; the evolution is delegated to an external native library absent from the supplied source.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-persistent-universe) · [genesis_modal.py](code/genesis_modal.py#L30) · [genesis_modal.py](code/genesis_modal.py#L98) · [genesis_modal.py](code/genesis_modal.py#L156)

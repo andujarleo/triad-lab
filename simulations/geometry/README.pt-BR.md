@@ -4,6 +4,10 @@
 
 **Como os padrões ganham forma?**
 
+## Em um minuto
+
+14 estudos. Vereditos de identidade: 6 divergência documentada · 1 rastreabilidade incompleta · 7 contexto/pós-processamento. Cada veredito traz sua evidência na [auditoria de identidade](../../docs/pt-BR/triad-identity-audit.md).
+
 | Estudo | Código | Dados | Figuras |
 |---|:---:|:---:|:---:|
 | [Campo 3D emergente](field-3d/README.pt-BR.md) | ✓ | ✓ | ✓ |

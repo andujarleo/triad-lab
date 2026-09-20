@@ -17,6 +17,10 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é TRIAD completa — divergência documentada.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-16) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-16) · [Español](../../../docs/es/triad-identity-audit.md#study-t-16) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-16) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-16) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-16) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-16) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-16)
+
 **Implementação divergente.** A comparação salva inclui explicitamente um ramo sem memória. A fonte geradora do ramo chamado full está ausente.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-16) · [original-record.md](notes/original-record.md#L12) · [summary.csv](results/data/summary.csv#L1)

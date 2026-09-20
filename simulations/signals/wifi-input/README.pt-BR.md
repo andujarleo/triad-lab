@@ -12,6 +12,10 @@ O script lê medidas reais de wifi_scans.csv; esse arquivo não foi fornecido. A
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é TRIAD completa — divergência documentada.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-wifi-input) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-wifi-input) · [Español](../../../docs/es/triad-identity-audit.md#study-wifi-input) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-wifi-input) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-wifi-input) · [Norsk](../../../docs/no/triad-identity-audit.md#study-wifi-input) · [Dansk](../../../docs/da/triad-identity-audit.md#study-wifi-input) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-wifi-input)
+
 **Implementação divergente.** A fonte fornecida usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência. As medidas WiFi necessárias não foram fornecidas; esta entrada não documenta uma execução demonstrada com essas medidas.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-wifi-input) · [bravais_wifi.py](code/bravais_wifi.py#L148) · [bravais_wifi.py](code/bravais_wifi.py#L226)

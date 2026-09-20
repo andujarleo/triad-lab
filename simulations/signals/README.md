@@ -4,6 +4,10 @@
 
 **How does a disturbance spread?**
 
+## In one minute
+
+8 studies. Identity verdicts: 2 documented departure · 6 traceability incomplete. Each verdict carries its evidence in the [identity audit](../../docs/en/triad-identity-audit.md).
+
 | Study | Code | Data | Figures |
 |---|:---:|:---:|:---:|
 | [Limit-test attempt](limit-test-attempt/README.md) | — | — | — |

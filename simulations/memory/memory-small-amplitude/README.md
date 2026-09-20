@@ -17,6 +17,10 @@ Imported historical record; this organization did not rerun the simulation.
 
 ## Execution audit
 
+> **TRIAD identity: NOT complete TRIAD — documented departure.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-t-29) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-29) · [Español](../../../docs/es/triad-identity-audit.md#study-t-29) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-29) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-29) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-29) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-29) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-29)
+
 **Implementation differs.** The run sets alpha=0 and uses two memory modes; its bath is active.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-29) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L2) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L27) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L189) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L213)

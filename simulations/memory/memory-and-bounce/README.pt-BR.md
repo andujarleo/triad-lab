@@ -15,7 +15,15 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 ![Figura original do run](results/figures/overview.png)
 
 
+## Em um minuto
+
+O raio que contém metade da massa se contrai até o mínimo em **t=3,7** e depois se expande — enquanto outro raio não vê mínimo interior algum. A densidade atinge o pico em t=4,1; a memória segue em t=4,2. [Registro de auditoria](../../../docs/pt-BR/execution-audit.md#study-t-23) · [Veredito de identidade](../../../docs/pt-BR/triad-identity-audit.md#study-t-23)
+
 ## Auditoria da execução
+
+> **Identidade TRIAD: NÃO estabelecido como TRIAD completa — rastreabilidade incompleta.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-23) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-23) · [Español](../../../docs/es/triad-identity-audit.md#study-t-23) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-23) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-23) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-23) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-23) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-23)
 
 **Execução sem rastreabilidade completa.** Existem métricas de bounce e memória, mas a amplitude efetiva do banho e a fonte executada não estão completamente fixadas.
 

@@ -4,6 +4,10 @@
 
 **Um padrão pode persistir em um campo que muda?**
 
+## Em um minuto
+
+17 estudos. Vereditos de identidade: 9 TRIAD completa · 1 divergência documentada · 7 rastreabilidade incompleta. Cada veredito traz sua evidência na [auditoria de identidade](../../docs/pt-BR/triad-identity-audit.md).
+
 | Estudo | Código | Dados | Figuras |
 |---|:---:|:---:|:---:|
 | [Átomos gaussianos em um campo](gaussian-atoms-in-one-field/README.pt-BR.md) | — | — | ✓ |

@@ -14,6 +14,10 @@ Four recorded protocols explore coupling, small perturbations, impacts and rhyth
 
 ## Execution audit
 
+> **TRIAD identity: NOT complete TRIAD — documented departure.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-perturbation-tests) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-perturbation-tests) · [Español](../../../docs/es/triad-identity-audit.md#study-perturbation-tests) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-perturbation-tests) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-perturbation-tests) · [Norsk](../../../docs/no/triad-identity-audit.md#study-perturbation-tests) · [Dansk](../../../docs/da/triad-identity-audit.md#study-perturbation-tests) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-perturbation-tests)
+
 **Implementation differs.** The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-perturbation-tests) · [teste_borboleta.py](code/teste_borboleta.py#L122) · [teste_borboleta.py](code/teste_borboleta.py#L247) · [teste_ligacao.py](code/teste_ligacao.py#L131) · [teste_ligacao.py](code/teste_ligacao.py#L256)

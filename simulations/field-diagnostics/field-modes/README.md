@@ -21,6 +21,10 @@ Read in order: protocol → configuration → raw data → analysis. These class
 
 ## Execution audit
 
+> **TRIAD identity: TRIAD complete — coupled terms documented.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-q03) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-q03) · [Español](../../../docs/es/triad-identity-audit.md#study-q03) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-q03) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-q03) · [Norsk](../../../docs/no/triad-identity-audit.md#study-q03) · [Dansk](../../../docs/da/triad-identity-audit.md#study-q03) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-q03)
+
 **Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. The source includes evolution and passive POD/DMD; its post-processing correction is declared.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-q03) · [analyze_field_modes.py](code/analyze_field_modes.py#L52) · [analyze_field_modes.py](code/analyze_field_modes.py#L274) · [analyze_field_modes.py](code/analyze_field_modes.py#L292) · [analyze_field_modes.py](code/analyze_field_modes.py#L235)

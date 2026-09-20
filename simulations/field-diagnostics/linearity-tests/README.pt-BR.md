@@ -21,6 +21,10 @@ Leia a sequência: protocolo → configuração → dados brutos → análise. A
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: TRIAD completa — termos conjuntos documentados.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-q04) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-q04) · [Español](../../../docs/es/triad-identity-audit.md#study-q04) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-q04) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-q04) · [Norsk](../../../docs/no/triad-identity-audit.md#study-q04) · [Dansk](../../../docs/da/triad-identity-audit.md#study-q04) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-q04)
+
 **Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. O residual de superposição inclui o banho aditivo comum; não mede somente a resposta não linear.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-q04) · [probe_field_linearity.py](code/probe_field_linearity.py#L54) · [probe_field_linearity.py](code/probe_field_linearity.py#L245) · [probe_field_linearity.py](code/probe_field_linearity.py#L263) · [probe_field_linearity.py](code/probe_field_linearity.py#L324)

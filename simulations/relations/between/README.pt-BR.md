@@ -11,6 +11,10 @@ Acrescenta medidas do “entre” à dinâmica relacional base, sem introduzir u
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é execução TRIAD — contexto ou pós-processamento.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-entre-02-between) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-entre-02-between) · [Español](../../../docs/es/triad-identity-audit.md#study-entre-02-between) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-entre-02-between) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-entre-02-between) · [Norsk](../../../docs/no/triad-identity-audit.md#study-entre-02-between) · [Dansk](../../../docs/da/triad-identity-audit.md#study-entre-02-between) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-entre-02-between)
+
 **Contexto ou pós-processamento.** Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-entre-02-between) · [simulate_consciousness_between.py](code/en/simulate_consciousness_between.py#L88)

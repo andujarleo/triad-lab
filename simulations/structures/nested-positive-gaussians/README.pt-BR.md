@@ -17,6 +17,10 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: TRIAD completa — termos conjuntos documentados.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-31) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-31) · [Español](../../../docs/es/triad-identity-audit.md#study-t-31) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-31) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-31) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-31) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-31) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-31)
+
 **Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Sementes positivas concêntricas; o indicador de duas escalas permanece até t=0,02.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-31) · [simulate_nested_gaussians.py](code/simulate_nested_gaussians.py#L33) · [simulate_nested_gaussians.py](code/simulate_nested_gaussians.py#L374) · [simulate_nested_gaussians.py](code/simulate_nested_gaussians.py#L344)

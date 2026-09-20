@@ -17,6 +17,10 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO estabelecido como TRIAD completa — rastreabilidade incompleta.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-07) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-07) · [Español](../../../docs/es/triad-identity-audit.md#study-t-07) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-07) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-07) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-07) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-07) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-07)
+
 **Execução sem rastreabilidade completa.** A varredura N/raio tem valores CSV, mas não há gerador fornecido que estabeleça a dinâmica completa.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-07) · [original-record.md](notes/original-record.md#L10)

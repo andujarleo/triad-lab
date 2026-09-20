@@ -17,6 +17,10 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO estabelecido como TRIAD completa — rastreabilidade incompleta.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-19) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-19) · [Español](../../../docs/es/triad-identity-audit.md#study-t-19) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-19) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-19) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-19) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-19) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-19)
+
 **Execução sem rastreabilidade completa.** O registro de banho quente tem CSVs, mas não fixa solver/configuração para conferir completude.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-19) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)

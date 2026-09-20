@@ -17,6 +17,10 @@ Um protótipo registra continuidade por checkpoint com um milhão de modos resid
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO estabelecido como TRIAD completa — rastreabilidade incompleta.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-persistent-universe) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-persistent-universe) · [Español](../../../docs/es/triad-identity-audit.md#study-persistent-universe) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-persistent-universe) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-persistent-universe) · [Norsk](../../../docs/no/triad-identity-audit.md#study-persistent-universe) · [Dansk](../../../docs/da/triad-identity-audit.md#study-persistent-universe) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-persistent-universe)
+
 **Execução sem rastreabilidade completa.** Há checkpoints modais, leituras e testes de continuidade; a evolução é delegada a uma biblioteca nativa externa ausente das fontes fornecidas.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-persistent-universe) · [genesis_modal.py](code/genesis_modal.py#L30) · [genesis_modal.py](code/genesis_modal.py#L98) · [genesis_modal.py](code/genesis_modal.py#L156)

@@ -4,6 +4,10 @@
 
 **What changes when things interact?**
 
+## In one minute
+
+7 studies. Identity verdicts: 3 traceability incomplete · 4 context/post-processing. Each verdict carries its evidence in the [identity audit](../../docs/en/triad-identity-audit.md).
+
 | Study | Code | Data | Figures |
 |---|:---:|:---:|:---:|
 | [Observer and observed](observer/README.md) | ✓ | ✓ | ✓ |

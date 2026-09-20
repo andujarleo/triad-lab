@@ -22,6 +22,10 @@ Leia a sequência: protocolo → configuração → dados brutos → análise. A
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: TRIAD completa — termos conjuntos documentados.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-q01b) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-q01b) · [Español](../../../docs/es/triad-identity-audit.md#study-q01b) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-q01b) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-q01b) · [Norsk](../../../docs/no/triad-identity-audit.md#study-q01b) · [Dansk](../../../docs/da/triad-identity-audit.md#study-q01b) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-q01b)
+
 **Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Refinos de espaço e passo temporal mantêm os termos conjuntos; a convergência numérica permanece em aberto.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-q01b) · [compare_grid_and_time_step.py](code/compare_grid_and_time_step.py#L38) · [compare_grid_and_time_step.py](code/compare_grid_and_time_step.py#L210) · [compare_grid_and_time_step.py](code/compare_grid_and_time_step.py#L180)

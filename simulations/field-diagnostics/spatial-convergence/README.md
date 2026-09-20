@@ -22,6 +22,10 @@ Read in order: protocol → configuration → raw data → analysis. These class
 
 ## Execution audit
 
+> **TRIAD identity: TRIAD complete — coupled terms documented.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-q01) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-q01) · [Español](../../../docs/es/triad-identity-audit.md#study-q01) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-q01) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-q01) · [Norsk](../../../docs/no/triad-identity-audit.md#study-q01) · [Dansk](../../../docs/da/triad-identity-audit.md#study-q01) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-q01)
+
 **Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. Grid convergence is unresolved; the recorded spectrum follows the grid cutoff.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-q01) · [measure_spatial_convergence.py](code/measure_spatial_convergence.py#L36) · [measure_spatial_convergence.py](code/measure_spatial_convergence.py#L193) · [measure_spatial_convergence.py](code/measure_spatial_convergence.py#L165)

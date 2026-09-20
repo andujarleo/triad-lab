@@ -15,7 +15,15 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 ![Figura original do run](results/figures/overview.png)
 
 
+## Em um minuto
+
+O mesmo ninho concêntrico, evoluído até **T=60**: no t=8 compartilhado ele coincide com a rodada curta pico a pico, e segue flutuando até um pico finito de 3,372458 ao fim. [Registro de auditoria](../../../docs/pt-BR/execution-audit.md#study-t-34) · [Veredito de identidade](../../../docs/pt-BR/triad-identity-audit.md#study-t-34)
+
 ## Auditoria da execução
+
+> **Identidade TRIAD: TRIAD completa — termos conjuntos documentados.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-34) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-34) · [Español](../../../docs/es/triad-identity-audit.md#study-t-34) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-34) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-34) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-34) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-34) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-34)
 
 **Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Mesmo ninho prolongado até T=60; o resultado comum em t=8 coincide com a rodada curta.
 

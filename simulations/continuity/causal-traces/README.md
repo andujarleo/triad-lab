@@ -16,6 +16,10 @@ The original report examines a “soul” hypothesis through deterministic two-m
 
 ## Execution audit
 
+> **TRIAD identity: NOT complete TRIAD — documented departure.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-causal-traces) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-causal-traces) · [Español](../../../docs/es/triad-identity-audit.md#study-causal-traces) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-causal-traces) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-causal-traces) · [Norsk](../../../docs/no/triad-identity-audit.md#study-causal-traces) · [Dansk](../../../docs/da/triad-identity-audit.md#study-causal-traces) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-causal-traces)
+
 **Implementation differs.** Four causal runners use a deterministic two-memory update with no fractional/bath terms.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-causal-traces) · [soul_causal_probe_short.py](code/soul_causal_probe_short.py#L22) · [soul_causal_probe_short.py](code/soul_causal_probe_short.py#L47) · [soul_causal_probe_short.py](code/soul_causal_probe_short.py#L84) · [soul_background_matched.py](code/soul_background_matched.py#L32)

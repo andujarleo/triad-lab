@@ -202,11 +202,23 @@
         "status": "context-only",
         "summary": {
           "en": "Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation.",
-          "pt-BR": "Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa."
+          "pt-BR": "Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa.",
+          "es": "Modelo de fases y memoria de aristas en nodos finitos para relaciones conceptuales, no una ejecución de la ecuación de campo completa.",
+          "de": "Phasen-/Kanten-Gedächtnismodell auf endlichen Knoten für konzeptuelle Relationen, keine Ausführung der vollständigen Feldgleichung.",
+          "sv": "Fas/minnesmodell med ändligt antal noder för konceptuella relationer, ingen körning av den fullständiga fältekvationen.",
+          "no": "Fase-/kantminnemodell med endelig antall noder for konseptuelle relasjoner, ingen kjøring av den fullstendige feltligningen.",
+          "da": "Fase-/kantshukommelsesmodel med endeligt antal knuder for konceptuelle relationer, ingen kørsel af den fuldstændige feltligning.",
+          "zh-CN": "有限节点相位/边记忆概念关系模型，非完整场方程的执行。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -284,11 +296,23 @@
         "status": "context-only",
         "summary": {
           "en": "Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation.",
-          "pt-BR": "Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa."
+          "pt-BR": "Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa.",
+          "es": "Modelo de fases y memoria de aristas en nodos finitos para relaciones conceptuales, no una ejecución de la ecuación de campo completa.",
+          "de": "Phasen-/Kanten-Gedächtnismodell auf endlichen Knoten für konzeptuelle Relationen, keine Ausführung der vollständigen Feldgleichung.",
+          "sv": "Fas/minnesmodell med ändligt antal noder för konceptuella relationer, ingen körning av den fullständiga fältekvationen.",
+          "no": "Fase-/kantminnemodell med endelig antall noder for konseptuelle relasjoner, ingen kjøring av den fullstendige feltligningen.",
+          "da": "Fase-/kantshukommelsesmodel med endeligt antal knuder for konceptuelle relationer, ingen kørsel af den fuldstændige feltligning.",
+          "zh-CN": "有限节点相位/边记忆概念关系模型，非完整场方程的执行。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -366,11 +390,23 @@
         "status": "context-only",
         "summary": {
           "en": "Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation. Optional chemistry/life layers are model switches, not direct P1/P2/P3 ablations.",
-          "pt-BR": "Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa. Camadas opcionais de química/vida são escolhas do modelo, não ablações diretas de P1/P2/P3."
+          "pt-BR": "Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa. Camadas opcionais de química/vida são escolhas do modelo, não ablações diretas de P1/P2/P3.",
+          "es": "Modelo de fases y memoria de aristas en nodos finitos para relaciones conceptuales, no una ejecución de la ecuación de campo completa. Las capas opcionales de química/vida son interruptores del modelo, no ablaciones directas de P1/P2/P3.",
+          "de": "Phasen-/Kanten-Gedächtnismodell auf endlichen Knoten für konzeptuelle Relationen, keine Ausführung der vollständigen Feldgleichung. Optionale Chemie-/Lebensschichten sind Modellschalter, keine direkten P1/P2/P3-Ablationen.",
+          "sv": "Fas/minnesmodell med ändligt antal noder för konceptuella relationer, ingen körning av den fullständiga fältekvationen. Valfria kemi-/livslager är modellomkopplare, inte direkta P1/P2/P3-ablationer.",
+          "no": "Fase-/kantminnemodell med endelig antall noder for konseptuelle relasjoner, ingen kjøring av den fullstendige feltligningen. Valgfrie kjemi-/livslag er modellbrytere, ikke direkte P1/P2/P3-ablasjoner.",
+          "da": "Fase-/kantshukommelsesmodel med endeligt antal knuder for konceptuelle relationer, ingen kørsel af den fuldstændige feltligning. Valgfrie kemi-/livslag er modelomskiftere, ikke direkte P1/P2/P3-ablationer.",
+          "zh-CN": "有限节点相位/边记忆概念关系模型，非完整场方程的执行。可选的化学/生命层是模型开关，而非直接的 P1/P2/P3 消融。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -448,11 +484,23 @@
         "status": "context-only",
         "summary": {
           "en": "Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation. Optional chemistry/life layers are model switches, not direct P1/P2/P3 ablations.",
-          "pt-BR": "Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa. Camadas opcionais de química/vida são escolhas do modelo, não ablações diretas de P1/P2/P3."
+          "pt-BR": "Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa. Camadas opcionais de química/vida são escolhas do modelo, não ablações diretas de P1/P2/P3.",
+          "es": "Modelo de fases y memoria de aristas en nodos finitos para relaciones conceptuales, no una ejecución de la ecuación de campo completa. Las capas opcionales de química/vida son interruptores del modelo, no ablaciones directas de P1/P2/P3.",
+          "de": "Phasen-/Kanten-Gedächtnismodell auf endlichen Knoten für konzeptuelle Relationen, keine Ausführung der vollständigen Feldgleichung. Optionale Chemie-/Lebensschichten sind Modellschalter, keine direkten P1/P2/P3-Ablationen.",
+          "sv": "Fas/minnesmodell med ändligt antal noder för konceptuella relationer, ingen körning av den fullständiga fältekvationen. Valfria kemi-/livslager är modellomkopplare, inte direkta P1/P2/P3-ablationer.",
+          "no": "Fase-/kantminnemodell med endelig antall noder for konseptuelle relasjoner, ingen kjøring av den fullstendige feltligningen. Valgfrie kjemi-/livslag er modellbrytere, ikke direkte P1/P2/P3-ablasjoner.",
+          "da": "Fase-/kantshukommelsesmodel med endeligt antal knuder for konceptuelle relationer, ingen kørsel af den fuldstændige feltligning. Valgfrie kemi-/livslag er modelomskiftere, ikke direkte P1/P2/P3-ablationer.",
+          "zh-CN": "有限节点相位/边记忆概念关系模型，非完整场方程的执行。可选的化学/生命层是模型开关，而非直接的 P1/P2/P3 消融。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -940,11 +988,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.",
-          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação."
+          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação.",
+          "es": "La fuente de evolución usa un signo cinético/actualización de ruido y guardas condicionales de estado distintos de la referencia; sus resultados guardados siguen siendo registros de esa implementación.",
+          "de": "Die evolvierende Quelle verwendet ein anderes kinetisches Vorzeichen/Rausch-Update und bedingte Zustandswachen als die Referenz; ihre gespeicherten Ergebnisse bleiben Datensätze dieser Implementierung.",
+          "sv": "Den evolverande källan använder annat kinetiskt tecken/brusuppdatering och villkorliga tillståndsvakter än referensen; dess sparade resultat förblir poster över den implementationen.",
+          "no": "Den evolverende kilden bruker annet kinetisk tegn/støyoppdatering og betingede tilstandsvakter enn referansen; dens lagrede resultater forblir poster over den implementasjonen.",
+          "da": "Den evolverende kilde bruger andet kinetisk tegn/støjopdatering og betingede tilstandsvagter end referencen; dens gemte resultater forbliver poster over den implementering.",
+          "zh-CN": "演化源码使用了与参考不同的动能符号/噪声更新和条件状态守卫；其保存结果仍是该实现的记录。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -1114,11 +1174,23 @@
         "status": "context-only",
         "summary": {
           "en": "Post-processing of saved field states; this item does not evolve the complete equation.",
-          "pt-BR": "Pós-processamento de estados de campo salvos; esta entrada não evolui a equação completa."
+          "pt-BR": "Pós-processamento de estados de campo salvos; esta entrada não evolui a equação completa.",
+          "es": "Posprocesamiento de estados de campo guardados; esta entrada no evoluciona la ecuación completa.",
+          "de": "Nachverarbeitung gespeicherter Feldzustände; dieser Eintrag evolviert nicht die vollständige Gleichung.",
+          "sv": "Efterbehandling av sparade fälttillstånd; denna post evolverar inte den fullständiga ekvationen.",
+          "no": "Etterbehandling av lagrede felttilstander; denne posten evolverer ikke den fullstendige ligningen.",
+          "da": "Efterbehandling af gemte felttilstande; denne post evolverer ikke den fuldstændige ligning.",
+          "zh-CN": "对已保存场状态的后处理；本条目不演化完整方程。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -1214,11 +1286,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.",
-          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação."
+          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação.",
+          "es": "La fuente de evolución usa un signo cinético/actualización de ruido y guardas condicionales de estado distintos de la referencia; sus resultados guardados siguen siendo registros de esa implementación.",
+          "de": "Die evolvierende Quelle verwendet ein anderes kinetisches Vorzeichen/Rausch-Update und bedingte Zustandswachen als die Referenz; ihre gespeicherten Ergebnisse bleiben Datensätze dieser Implementierung.",
+          "sv": "Den evolverande källan använder annat kinetiskt tecken/brusuppdatering och villkorliga tillståndsvakter än referensen; dess sparade resultat förblir poster över den implementationen.",
+          "no": "Den evolverende kilden bruker annet kinetisk tegn/støyoppdatering og betingede tilstandsvakter enn referansen; dens lagrede resultater forblir poster over den implementasjonen.",
+          "da": "Den evolverende kilde bruger andet kinetisk tegn/støjopdatering og betingede tilstandsvagter end referencen; dens gemte resultater forbliver poster over den implementering.",
+          "zh-CN": "演化源码使用了与参考不同的动能符号/噪声更新和条件状态守卫；其保存结果仍是该实现的记录。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -1389,11 +1473,23 @@
         "status": "context-only",
         "summary": {
           "en": "Preserved visual comparisons without an established generating-run association.",
-          "pt-BR": "Comparações visuais preservadas sem associação estabelecida com uma rodada geradora."
+          "pt-BR": "Comparações visuais preservadas sem associação estabelecida com uma rodada geradora.",
+          "es": "Comparaciones visuales preservadas sin asociación establecida con una ejecución generadora.",
+          "de": "Erhaltene visuelle Vergleiche ohne festgestellte Zuordnung zu einem erzeugenden Lauf.",
+          "sv": "Bevarade visuella jämförelser utan fastställd koppling till en genererande körning.",
+          "no": "Bevarte visuelle sammenligninger uten fastslått kobling til en genererende kjøring.",
+          "da": "Bevarede visuelle sammenligninger uden fastslået kobling til en genererende kørsel.",
+          "zh-CN": "保存的可视比较，未确立与生成运行的关联。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -1484,11 +1580,23 @@
         "status": "not-established",
         "summary": {
           "en": "Only field-relation images and an isolated/coupled description remain; no generator or numerical table.",
-          "pt-BR": "Restam imagens de relações de campo e descrição isolado/acoplado, sem gerador ou tabela numérica."
+          "pt-BR": "Restam imagens de relações de campo e descrição isolado/acoplado, sem gerador ou tabela numérica.",
+          "es": "Solo quedan imágenes de relaciones de campo y una descripción aislado/acoplado; sin generador ni tabla numérica.",
+          "de": "Nur Feldrelationsbilder und eine isoliert/gekoppelt-Beschreibung bleiben; kein Generator, keine Zahlentabelle.",
+          "sv": "Endast fältrelationsbilder och en isolerad/kopplad beskrivning återstår; ingen generator eller numerisk tabell.",
+          "no": "Bare feltrelasjonsbilder og en isolert/koblet beskrivelse gjenstår; ingen generator eller numerisk tabell.",
+          "da": "Kun feltrelationsbilleder og en isoleret/koblet beskrivelse resterer; ingen generator eller numerisk tabel.",
+          "zh-CN": "仅存场关系图像与孤立/耦合描述；无生成器与数值表。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -1587,11 +1695,23 @@
         "status": "not-established",
         "summary": {
           "en": "NLS/memory/bath exploration survives as figures; no source or numerical table fixes the executed operator.",
-          "pt-BR": "A exploração NLS/memória/banho foi preservada em figuras; não há fonte ou tabela que fixe o operador executado."
+          "pt-BR": "A exploração NLS/memória/banho foi preservada em figuras; não há fonte ou tabela que fixe o operador executado.",
+          "es": "La exploración NLS/memoria/baño sobrevive en figuras; ninguna fuente o tabla fija el operador ejecutado.",
+          "de": "Die NLS/Gedächtnis/Bad-Erkundung überlebt als Abbildungen; keine Quelle oder Tabelle fixiert den ausgeführten Operator.",
+          "sv": "NLS/minne/bad-utforskningen överlever som figurer; ingen källa eller tabell fixerar den utförda operatorn.",
+          "no": "NLS/minne/bad-utforskningen overlever som figurer; ingen kilde eller tabell fikserer den utførte operatoren.",
+          "da": "NLS/hukommelse/bad-udforskningen overlever som figurer; ingen kilde eller tabel fikserer den udførte operator.",
+          "zh-CN": "NLS/记忆/热浴探索仅存为图像；无源码或数值表可固定所执行的算子。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -1706,11 +1826,23 @@
         "status": "not-established",
         "summary": {
           "en": "Peak-tracking figures survive, but the revised generator and numerical samples are absent.",
-          "pt-BR": "Restam figuras de rastreamento de picos, sem o gerador revisto nem amostras numéricas."
+          "pt-BR": "Restam figuras de rastreamento de picos, sem o gerador revisto nem amostras numéricas.",
+          "es": "Sobreviven figuras de seguimiento de picos, pero faltan el generador revisado y las muestras numéricas.",
+          "de": "Peak-Tracking-Abbildungen überleben, doch der überarbeitete Generator und numerische Stichproben fehlen.",
+          "sv": "Toppspårningsfigurer överlever, men den reviderade generatorn och numeriska stickprov saknas.",
+          "no": "Toppsporingsfigurer overlever, men den reviderte generatoren og numeriske stikkprøver mangler.",
+          "da": "Topsporingsfigurer overlever, men den reviderede generator og numeriske stikprøver mangler.",
+          "zh-CN": "峰值跟踪图像得以保存，但修订后的生成器与数值样本缺失。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -1809,11 +1941,23 @@
         "status": "not-established",
         "summary": {
           "en": "Multi-Gaussian exploration has figures but no saved source or CSV.",
-          "pt-BR": "A exploração com múltiplas gaussianas tem figuras, sem fonte salva ou CSV."
+          "pt-BR": "A exploração com múltiplas gaussianas tem figuras, sem fonte salva ou CSV.",
+          "es": "La exploración multigaussiana tiene figuras, pero no fuente guardada ni CSV.",
+          "de": "Die Multi-Gauß-Erkundung hat Abbildungen, aber keine gespeicherte Quelle und kein CSV.",
+          "sv": "Multigaussutforskningen har figurer men ingen sparad källa eller CSV.",
+          "no": "Multigaussutforskningen har figurer, men ingen lagret kilde eller CSV.",
+          "da": "Multigaussudforskningen har figurer, men ingen gemt kilde eller CSV.",
+          "zh-CN": "多高斯探索有图像，但无保存的源码或 CSV。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -1912,11 +2056,23 @@
         "status": "not-established",
         "summary": {
           "en": "Separate-identity fields are described visually; the implementation and CSV are absent.",
-          "pt-BR": "Campos de identidade separada são descritos visualmente; implementação e CSV estão ausentes."
+          "pt-BR": "Campos de identidade separada são descritos visualmente; implementação e CSV estão ausentes.",
+          "es": "Los campos de identidad separada se describen visualmente; faltan la implementación y el CSV.",
+          "de": "Felder separater Identität sind visuell beschrieben; Implementierung und CSV fehlen.",
+          "sv": "Fält med separat identitet beskrivs visuellt; implementationen och CSV saknas.",
+          "no": "Felt med separat identitet beskrives visuelt; implementasjonen og CSV mangler.",
+          "da": "Felter med separat identitet beskrives visuelt; implementeringen og CSV mangler.",
+          "zh-CN": "分离标识的场以可视方式描述；实现与 CSV 缺失。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -1959,11 +2115,23 @@
         "status": "not-established",
         "summary": {
           "en": "Preparation note only; no persisted execution artifacts.",
-          "pt-BR": "Somente nota de preparação; não há artefatos persistidos de execução."
+          "pt-BR": "Somente nota de preparação; não há artefatos persistidos de execução.",
+          "es": "Solo nota de preparación; sin artefactos persistidos de ejecución.",
+          "de": "Nur Vorbereitungsnotiz; keine persistierten Ausführungsartefakte.",
+          "sv": "Endast förberedelseanteckning; inga bestående körningsartefakter.",
+          "no": "Bare forberedelsesnotat; ingen vedvarende kjøringsartefakter.",
+          "da": "Kun forberedelsesnote; ingen bevarede kørselsartefakter.",
+          "zh-CN": "仅有准备说明；无持久化的执行产物。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -2054,11 +2222,23 @@
         "status": "not-established",
         "summary": {
           "en": "The N/radius sweep has CSV values, but no supplied generator establishes the full dynamics.",
-          "pt-BR": "A varredura N/raio tem valores CSV, mas não há gerador fornecido que estabeleça a dinâmica completa."
+          "pt-BR": "A varredura N/raio tem valores CSV, mas não há gerador fornecido que estabeleça a dinâmica completa.",
+          "es": "El barrido N/radio tiene valores CSV, pero ningún generador suministrado establece la dinámica completa.",
+          "de": "Der N/Radius-Sweep hat CSV-Werte, doch kein mitgelieferter Generator belegt die vollständige Dynamik.",
+          "sv": "N/radie-svepet har CSV-värden, men ingen medföljande generator fastställer den fullständiga dynamiken.",
+          "no": "N/radius-sveipet har CSV-verdier, men ingen medfølgende generator fastslår den fullstendige dynamikken.",
+          "da": "N/radius-sweepet har CSV-værdier, men ingen medfølgende generator fastslår den fuldstændige dynamik.",
+          "zh-CN": "N/半径扫描有 CSV 数值，但所提供的生成器不能确立完整动力学。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -2165,11 +2345,23 @@
         "status": "not-established",
         "summary": {
           "en": "Baseline/observer CSVs exist; the field solver and parameter mapping are absent.",
-          "pt-BR": "Existem CSVs baseline/observador; faltam o solver de campo e o mapeamento de parâmetros."
+          "pt-BR": "Existem CSVs baseline/observador; faltam o solver de campo e o mapeamento de parâmetros.",
+          "es": "Existen CSV base/observador; faltan el resolvedor de campo y el mapeo de parámetros.",
+          "de": "Basis/Beobachter-CSVs existieren; Feldlöser und Parameterabbildung fehlen.",
+          "sv": "Baslinje/observatör-CSV:er finns; fältlösaren och parametermappningen saknas.",
+          "no": "Basislinje/observatør-CSV-er finnes; feltløseren og parameterkartleggingen mangler.",
+          "da": "Basislinje/observatør-CSV'er findes; feltløseren og parameterkortlægningen mangler.",
+          "zh-CN": "存在基线/观察者 CSV；场求解器与参数映射缺失。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -2276,11 +2468,23 @@
         "status": "not-established",
         "summary": {
           "en": "Baseline/continuous-relation data exist without the generating solver and complete configuration.",
-          "pt-BR": "Existem dados baseline/relação contínua sem o solver gerador e a configuração completa."
+          "pt-BR": "Existem dados baseline/relação contínua sem o solver gerador e a configuração completa.",
+          "es": "Existen datos base/relación continua sin el resolvedor generador ni la configuración completa.",
+          "de": "Basis/Kontinuierlich-Relation-Daten existieren ohne den erzeugenden Löser und die vollständige Konfiguration.",
+          "sv": "Baslinje/kontinuerlig relationsdata finns utan den genererande lösaren och fullständig konfiguration.",
+          "no": "Basislinje/kontinuerlig relasjonsdata finnes uten den genererende løseren og fullstendig konfigurasjon.",
+          "da": "Basislinje/kontinuert relationsdata findes uden den genererende løser og fuldstændig konfiguration.",
+          "zh-CN": "存在基线/连续关系数据，但无生成求解器与完整配置。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -2379,11 +2583,23 @@
         "status": "not-established",
         "summary": {
           "en": "The early 3D exploration survives only as figures and notes.",
-          "pt-BR": "A exploração inicial em 3D sobrevive apenas em figuras e notas."
+          "pt-BR": "A exploração inicial em 3D sobrevive apenas em figuras e notas.",
+          "es": "La exploración 3D inicial sobrevive solo en figuras y notas.",
+          "de": "Die frühe 3D-Erkundung überlebt nur als Abbildungen und Notizen.",
+          "sv": "Den tidiga 3D-utforskningen överlever endast som figurer och anteckningar.",
+          "no": "Den tidlige 3D-utforskningen overlever bare som figurer og notater.",
+          "da": "Den tidlige 3D-udforskning overlever kun som figurer og noter.",
+          "zh-CN": "早期三维探索仅存为图像与说明。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -2426,11 +2642,23 @@
         "status": "not-established",
         "summary": {
           "en": "Preparation note only; effective long-run outputs belong to other entries.",
-          "pt-BR": "Somente nota de preparação; as saídas efetivas de longo prazo pertencem a outras entradas."
+          "pt-BR": "Somente nota de preparação; as saídas efetivas de longo prazo pertencem a outras entradas.",
+          "es": "Solo nota de preparación; las salidas efectivas de largo plazo pertenecen a otras entradas.",
+          "de": "Nur Vorbereitungsnotiz; die effektiven Langzeit-Ausgaben gehören zu anderen Einträgen.",
+          "sv": "Endast förberedelseanteckning; de verksamma långkörningsutdata tillhör andra poster.",
+          "no": "Bare forberedelsesnotat; de virksomme langkjøringsutdata tilhører andre poster.",
+          "da": "Kun forberedelsesnote; de virksomme langkørselsoutput tilhører andre poster.",
+          "zh-CN": "仅有准备说明；有效的长时输出属于其他条目。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -2513,11 +2741,23 @@
         "status": "not-established",
         "summary": {
           "en": "Five long-run diagnostics are preserved as images without CSV or generator.",
-          "pt-BR": "Cinco diagnósticos de longo prazo foram preservados em imagens, sem CSV ou gerador."
+          "pt-BR": "Cinco diagnósticos de longo prazo foram preservados em imagens, sem CSV ou gerador.",
+          "es": "Cinco diagnósticos de largo plazo se preservan en imágenes, sin CSV ni generador.",
+          "de": "Fünf Langzeit-Diagnostiken sind als Bilder erhalten, ohne CSV oder Generator.",
+          "sv": "Fem långkörningsdiagnostiker är bevarade som bilder, utan CSV eller generator.",
+          "no": "Fem langkjøringsdiagnostikker er bevart som bilder, uten CSV eller generator.",
+          "da": "Fem langkørselsdiagnostik er bevaret som billeder, uden CSV eller generator.",
+          "zh-CN": "五项长时诊断保存为图像，无 CSV 或生成器。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -2608,11 +2848,23 @@
         "status": "not-established",
         "summary": {
           "en": "Compact long-run montage and diagnostics lack a saved generator and numerical table.",
-          "pt-BR": "A montagem compacta e os diagnósticos de longo prazo não têm gerador salvo nem tabela numérica."
+          "pt-BR": "A montagem compacta e os diagnósticos de longo prazo não têm gerador salvo nem tabela numérica.",
+          "es": "El montaje compacto y los diagnósticos de largo plazo carecen de generador guardado y tabla numérica.",
+          "de": "Kompakte Langzeit-Montage und Diagnostik ohne gespeicherten Generator und Zahlentabelle.",
+          "sv": "Kompakt långkörningsmontage och diagnostik saknar sparad generator och numerisk tabell.",
+          "no": "Kompakt langkjøringsmontasje og diagnostikk mangler lagret generator og numerisk tabell.",
+          "da": "Kompakt langkørselsmontage og diagnostik mangler gemt generator og numerisk tabel.",
+          "zh-CN": "紧凑长时拼图与诊断无保存的生成器与数值表。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -2655,11 +2907,23 @@
         "status": "not-established",
         "summary": {
           "en": "Reference-run preparation only; no output artifacts establish an execution.",
-          "pt-BR": "Somente preparação de rodada de referência; não há artefatos que estabeleçam execução."
+          "pt-BR": "Somente preparação de rodada de referência; não há artefatos que estabeleçam execução.",
+          "es": "Solo preparación de ejecución de referencia; ningún artefacto establece una ejecución.",
+          "de": "Nur Referenzlauf-Vorbereitung; keine Output-Artefakte belegen eine Ausführung.",
+          "sv": "Endast referenskörningsförberedelse; inga artefakter fastställer en körning.",
+          "no": "Bare referansekjøringsforberedelse; ingen artefakter fastslår en kjøring.",
+          "da": "Kun referencekørselsforberedelse; ingen artefakter fastslår en kørsel.",
+          "zh-CN": "仅有参考运行的准备；无产物可确立一次执行。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -2702,11 +2966,23 @@
         "status": "not-established",
         "summary": {
           "en": "Accelerated preparation note only; outputs start in the separate N=40 record.",
-          "pt-BR": "Somente nota de preparação acelerada; as saídas começam no registro separado N=40."
+          "pt-BR": "Somente nota de preparação acelerada; as saídas começam no registro separado N=40.",
+          "es": "Solo nota de preparación acelerada; las salidas comienzan en el registro separado N=40.",
+          "de": "Nur beschleunigte Vorbereitungsnotiz; die Ausgaben beginnen im separaten N=40-Datensatz.",
+          "sv": "Endast accelererad förberedelseanteckning; utdata börjar i den separata N=40-posten.",
+          "no": "Bare akselerert forberedelsesnotat; utdata begynner i den separate N=40-posten.",
+          "da": "Kun accelereret forberedelsesnote; output begynder i den separate N=40-post.",
+          "zh-CN": "仅有加速准备说明；输出始于独立的 N=40 记录。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -2845,11 +3121,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "The saved comparison explicitly includes a no-memory branch. The generating source for the branch labelled full is absent.",
-          "pt-BR": "A comparação salva inclui explicitamente um ramo sem memória. A fonte geradora do ramo chamado full está ausente."
+          "pt-BR": "A comparação salva inclui explicitamente um ramo sem memória. A fonte geradora do ramo chamado full está ausente.",
+          "es": "La comparación guardada incluye explícitamente una rama sin memoria. Falta la fuente generadora de la rama llamada full.",
+          "de": "Der gespeicherte Vergleich enthält ausdrücklich einen Zweig ohne Gedächtnis. Die erzeugende Quelle für den full genannten Zweig fehlt.",
+          "sv": "Den sparade jämförelsen innehåller uttryckligen en gren utan minne. Den genererande källan för grenen kallad full saknas.",
+          "no": "Den lagrede sammenligningen inneholder uttrykkelig en gren uten minne. Den genererende kilden for grenen kalt full mangler.",
+          "da": "Den gemte sammenligning indeholder udtrykkeligt en gren uden hukommelse. Den genererende kilde for grenen kaldet full mangler.",
+          "zh-CN": "保存的比较明确包含一个无记忆分支。名为 full 的分支的生成源码缺失。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -2916,11 +3204,23 @@
         "status": "not-established",
         "summary": {
           "en": "N=48 numerical metrics and Bravais scores are present; the generator and exact term configuration are absent.",
-          "pt-BR": "Há métricas N=48 e escores Bravais; faltam o gerador e a configuração exata dos termos."
+          "pt-BR": "Há métricas N=48 e escores Bravais; faltam o gerador e a configuração exata dos termos.",
+          "es": "Hay métricas N=48 y puntajes Bravais; faltan el generador y la configuración exacta de términos.",
+          "de": "N=48-Kennzahlen und Bravais-Werte liegen vor; Generator und exakte Termkonfiguration fehlen.",
+          "sv": "N=48-mått och Bravais-poäng finns; generatorn och den exakta termkonfigurationen saknas.",
+          "no": "N=48-mål og Bravais-skårer finnes; generatoren og den nøyaktige leddkonfigurasjonen mangler.",
+          "da": "N=48-mål og Bravais-scorer findes; generatoren og den nøjagtige ledskonfiguration mangler.",
+          "zh-CN": "有 N=48 数值指标与 Bravais 评分；生成器与确切的方程项配置缺失。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -3155,11 +3455,23 @@
         "status": "context-only",
         "summary": {
           "en": "Readout or geometric reconstruction from a recorded field, not a new field evolution.",
-          "pt-BR": "Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo."
+          "pt-BR": "Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo.",
+          "es": "Lectura o reconstrucción geométrica de un campo registrado, no una evolución nueva de campo.",
+          "de": "Auslesung oder geometrische Rekonstruktion aus einem aufgezeichneten Feld, keine neue Feldevolution.",
+          "sv": "Avläsning eller geometrisk rekonstruktion från ett registrerat fält, ingen ny fältevolution.",
+          "no": "Avlesning eller geometrisk rekonstruksjon fra et registrert felt, ingen ny feltevolusjon.",
+          "da": "Aflæsning eller geometrisk rekonstruktion fra et registreret felt, ingen ny feltevolution.",
+          "zh-CN": "对已记录场的读出或几何重建，非新的场演化。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -3314,11 +3626,23 @@
         "status": "not-established",
         "summary": {
           "en": "The hot-bath record has CSVs but no bound solver/configuration for a completeness check.",
-          "pt-BR": "O registro de banho quente tem CSVs, mas não fixa solver/configuração para conferir completude."
+          "pt-BR": "O registro de banho quente tem CSVs, mas não fixa solver/configuração para conferir completude.",
+          "es": "El registro de baño caliente tiene CSV, pero no fija resolvedor/configuración para comprobar completitud.",
+          "de": "Der Heißbad-Datensatz hat CSVs, fixiert aber keinen Löser/keine Konfiguration für eine Vollständigkeitsprüfung.",
+          "sv": "Varmbadsposten har CSV:er men binder ingen lösare/konfiguration för en fullständighetskontroll.",
+          "no": "Varmbadposten har CSV-er, men binder ingen løser/konfigurasjon for en fullstendighetskontroll.",
+          "da": "Varmbadsposten har CSV'er, men binder ingen løser/konfiguration til en fuldstændighedskontrol.",
+          "zh-CN": "热浴记录有 CSV，但未绑定求解器/配置以核查完整性。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -3441,11 +3765,23 @@
         "status": "not-established",
         "summary": {
           "en": "The cold-bath CSVs change grid, duration and initial samples as well as bath conditions. The generator is absent.",
-          "pt-BR": "Os CSVs de banho frio mudam malha, duração e amostras iniciais junto às condições do banho. O gerador está ausente."
+          "pt-BR": "Os CSVs de banho frio mudam malha, duração e amostras iniciais junto às condições do banho. O gerador está ausente.",
+          "es": "Los CSV de baño frío cambian malla, duración y muestras iniciales además de las condiciones del baño. Falta el generador.",
+          "de": "Die Kaltbad-CSVs ändern Gitter, Dauer und Startsamples sowie die Badbedingungen. Der Generator fehlt.",
+          "sv": "Kallbads-CSV:erna ändrar nät, varaktighet och startsampel samt badvillkor. Generatorn saknas.",
+          "no": "Kaldbad-CSV-ene endrer gitter, varighet og startutvalg samt badvilkår. Generatoren mangler.",
+          "da": "Koldbads-CSV'erne ændrer gitter, varighed og startudvalg samt badvilkår. Generatoren mangler.",
+          "zh-CN": "冷浴 CSV 同时改变了网格、时长、初始样本和热浴条件。生成器缺失。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -3584,11 +3920,23 @@
         "status": "not-established",
         "summary": {
           "en": "The first phase/density detector has recorded near-zero estimates; its generator is absent.",
-          "pt-BR": "O primeiro detector de fase/densidade registra estimativas próximas de zero; seu gerador está ausente."
+          "pt-BR": "O primeiro detector de fase/densidade registra estimativas próximas de zero; seu gerador está ausente.",
+          "es": "El primer detector de fase/densidad registra estimaciones cercanas a cero; falta su generador.",
+          "de": "Der erste Phasen/Dichte-Detektor verzeichnet Nahe-null-Schätzungen; sein Generator fehlt.",
+          "sv": "Den första fas/täthetsdetektorn har registrerade näranollskattningar; dess generator saknas.",
+          "no": "Den første fase/tetthetsdetektoren har registrerte nærnullestimater; dens generator mangler.",
+          "da": "Den første fase/tæthedsdetektor har registrerede nærnul-estimater; dens generator mangler.",
+          "zh-CN": "首个相位/密度探测器记录了近零估计；其生成器缺失。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -3711,11 +4059,23 @@
         "status": "not-established",
         "summary": {
           "en": "The refined detector changes the stimulus and observation window; its generator is absent.",
-          "pt-BR": "O detector refinado muda o estímulo e a janela de observação; seu gerador está ausente."
+          "pt-BR": "O detector refinado muda o estímulo e a janela de observação; seu gerador está ausente.",
+          "es": "El detector refinado cambia el estímulo y la ventana de observación; falta su generador.",
+          "de": "Der verfeinerte Detektor ändert Stimulus und Beobachtungsfenster; sein Generator fehlt.",
+          "sv": "Den förfinade detektorn ändrar stimulans och observationsfönster; dess generator saknas.",
+          "no": "Den raffinerte detektoren endrer stimulus og observasjonsvindu; dens generator mangler.",
+          "da": "Den raffinerede detektor ændrer stimulus og observationsvindue; dens generator mangler.",
+          "zh-CN": "精细化探测器改变了刺激与观测窗口；其生成器缺失。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -3894,11 +4254,23 @@
         "status": "not-established",
         "summary": {
           "en": "Bounce metrics and memory records exist, but the executed bath amplitude/source is not fully bound.",
-          "pt-BR": "Existem métricas de bounce e memória, mas a amplitude efetiva do banho e a fonte executada não estão completamente fixadas."
+          "pt-BR": "Existem métricas de bounce e memória, mas a amplitude efetiva do banho e a fonte executada não estão completamente fixadas.",
+          "es": "Existen métricas de rebote y memoria, pero la amplitud efectiva del baño y la fuente ejecutada no están totalmente fijadas.",
+          "de": "Bounce-Kennzahlen und Gedächtnisdaten existieren, doch wirksame Badamplitude und ausgeführte Quelle sind nicht vollständig gebunden.",
+          "sv": "Studs-mått och minnesposter finns, men den utförda badamplituden/källan är inte fullt bunden.",
+          "no": "Sprettmål og minneposter finnes, men den utførte badamplituden/kilden er ikke fullt bundet.",
+          "da": "Hopmål og hukommelsesposter findes, men den udførte badamplitude/kilde er ikke fuldt bundet.",
+          "zh-CN": "存在反弹指标与记忆记录，但所执行的热浴幅度/源码未完全绑定。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -4029,11 +4401,23 @@
         "status": "context-only",
         "summary": {
           "en": "Readout or geometric reconstruction from a recorded field, not a new field evolution.",
-          "pt-BR": "Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo."
+          "pt-BR": "Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo.",
+          "es": "Lectura o reconstrucción geométrica de un campo registrado, no una evolución nueva de campo.",
+          "de": "Auslesung oder geometrische Rekonstruktion aus einem aufgezeichneten Feld, keine neue Feldevolution.",
+          "sv": "Avläsning eller geometrisk rekonstruktion från ett registrerat fält, ingen ny fältevolution.",
+          "no": "Avlesning eller geometrisk rekonstruksjon fra et registrert felt, ingen ny feltevolusjon.",
+          "da": "Aflæsning eller geometrisk rekonstruktion fra et registreret felt, ingen ny feltevolution.",
+          "zh-CN": "对已记录场的读出或几何重建，非新的场演化。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -4180,11 +4564,23 @@
         "status": "context-only",
         "summary": {
           "en": "Readout or geometric reconstruction from a recorded field, not a new field evolution.",
-          "pt-BR": "Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo."
+          "pt-BR": "Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo.",
+          "es": "Lectura o reconstrucción geométrica de un campo registrado, no una evolución nueva de campo.",
+          "de": "Auslesung oder geometrische Rekonstruktion aus einem aufgezeichneten Feld, keine neue Feldevolution.",
+          "sv": "Avläsning eller geometrisk rekonstruktion från ett registrerat fält, ingen ny fältevolution.",
+          "no": "Avlesning eller geometrisk rekonstruksjon fra et registrert felt, ingen ny feltevolusjon.",
+          "da": "Aflæsning eller geometrisk rekonstruktion fra et registreret felt, ingen ny feltevolution.",
+          "zh-CN": "对已记录场的读出或几何重建，非新的场演化。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -4331,11 +4727,23 @@
         "status": "context-only",
         "summary": {
           "en": "Readout or geometric reconstruction from a recorded field, not a new field evolution.",
-          "pt-BR": "Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo."
+          "pt-BR": "Leitura ou reconstrução geométrica de um campo registrado, não uma nova evolução de campo.",
+          "es": "Lectura o reconstrucción geométrica de un campo registrado, no una evolución nueva de campo.",
+          "de": "Auslesung oder geometrische Rekonstruktion aus einem aufgezeichneten Feld, keine neue Feldevolution.",
+          "sv": "Avläsning eller geometrisk rekonstruktion från ett registrerat fält, ingen ny fältevolution.",
+          "no": "Avlesning eller geometrisk rekonstruksjon fra et registrert felt, ingen ny feltevolusjon.",
+          "da": "Aflæsning eller geometrisk rekonstruktion fra et registreret felt, ingen ny feltevolution.",
+          "zh-CN": "对已记录场的读出或几何重建，非新的场演化。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -4466,11 +4874,23 @@
         "status": "not-established",
         "summary": {
           "en": "The runner calls an external triad-lang runtime at a historical absolute path; that executed dependency is not bound by hash.",
-          "pt-BR": "O runner chama um runtime triad-lang externo em caminho absoluto histórico; essa dependência executada não está fixada por hash."
+          "pt-BR": "O runner chama um runtime triad-lang externo em caminho absoluto histórico; essa dependência executada não está fixada por hash.",
+          "es": "El runner llama a un runtime triad-lang externo en una ruta absoluta histórica; esa dependencia ejecutada no está fijada por hash.",
+          "de": "Der Runner ruft eine externe triad-lang-Laufzeit unter einem historischen absoluten Pfad auf; diese ausgeführte Abhängigkeit ist nicht per Hash gebunden.",
+          "sv": "Köraren anropar en extern triad-lang-körningsmiljö under en historisk absolut sökväg; det utförda beroendet är inte hashbundet.",
+          "no": "Kjøreren kaller en ekstern triad-lang-kjøretidsmiljø under en historisk absolutt sti; den utførte avhengigheten er ikke hashbundet.",
+          "da": "Køreren kalder en ekstern triad-lang-kørselsmiljø under en historisk absolut sti; den udførte afhængighed er ikke hashbundet.",
+          "zh-CN": "运行器调用历史绝对路径下的外部 triad-lang 运行时；该已执行的依赖未以哈希绑定。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -4625,11 +5045,23 @@
         "status": "not-established",
         "summary": {
           "en": "The 3D trajectory runner retains three memory modes and a bath but imports the unbound historical runtime.",
-          "pt-BR": "O runner de trajetórias 3D mantém três modos de memória e banho, mas importa o runtime histórico não fixado."
+          "pt-BR": "O runner de trajetórias 3D mantém três modos de memória e banho, mas importa o runtime histórico não fixado.",
+          "es": "El runner de trayectorias 3D conserva tres modos de memoria y un baño, pero importa el runtime histórico no fijado.",
+          "de": "Der 3D-Trajektorien-Runner behält drei Gedächtnismodi und ein Bad, importiert aber die ungebundene historische Laufzeit.",
+          "sv": "3D-baneköraren behåller tre minnesmoder och ett bad men importerar den obundna historiska körningsmiljön.",
+          "no": "3D-banekjøreren beholder tre minnemodi og et bad, men importerer den ubundne historiske kjøretidsmiljøet.",
+          "da": "3D-banekøreren bevarer tre hukommelsesmoder og et bad, men importerer det ubundne historiske kørselsmiljø.",
+          "zh-CN": "三维轨迹运行器保留三个记忆模式与热浴，但导入了未绑定的历史运行时。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -4752,11 +5184,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "The run sets alpha=0 and uses two memory modes; its bath is active.",
-          "pt-BR": "A rodada fixa alpha=0 e usa dois modos de memória; seu banho está ativo."
+          "pt-BR": "A rodada fixa alpha=0 e usa dois modos de memória; seu banho está ativo.",
+          "es": "La ejecución fija alpha=0 y usa dos modos de memoria; su baño está activo.",
+          "de": "Der Lauf setzt alpha=0 und nutzt zwei Gedächtnismodi; sein Bad ist aktiv.",
+          "sv": "Körningen sätter alpha=0 och använder två minnesmoder; dess bad är aktivt.",
+          "no": "Kjøringen setter alpha=0 og bruker to minnemodi; dens bad er aktivt.",
+          "da": "Kørslen sætter alpha=0 og bruger to hukommelsesmoder; dens bad er aktivt.",
+          "zh-CN": "该运行设 alpha=0 并使用两个记忆模式；其热浴处于活跃状态。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -4975,11 +5419,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Two Gaussian seeds; pair tracking is lost after t=0.01.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Duas sementes gaussianas; o rastreamento do par se perde após t=0,01."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Duas sementes gaussianas; o rastreamento do par se perde após t=0,01.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. Dos semillas gaussianas; el seguimiento del par se pierde después de t=0,01.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Zwei Gauß-Seeds; das Paar-Tracking geht nach t=0,01 verloren.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Två gaussfrön; parspårningen förloras efter t=0,01.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. To gaussfrø; parsporingen tapes etter t=0,01.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. To gaussfrø; parsporingen mistes efter t=0,01.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。两个高斯种子；t=0.01 之后失去对该对的跟踪。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -5246,11 +5702,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Concentric positive seeds; the recorded two-scale flag lasts through t=0.02.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Sementes positivas concêntricas; o indicador de duas escalas permanece até t=0,02."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Sementes positivas concêntricas; o indicador de duas escalas permanece até t=0,02.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. Semillas positivas concéntricas; el indicador de dos escalas permanece hasta t=0,02.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Konzentrische positive Seeds; die aufgezeichnete Zwei-Skalen-Kennzeichnung dauert bis t=0,02.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Koncentriska positiva frön; den registrerade tvåskalemarkeringen varar till t=0,02.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. Konsentriske positive frø; den registrerte toskalamarkeringen varer til t=0,02.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. Koncentriske positive frø; den registrerede toskalamarkering varer til t=0,02.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。同心正种子；记录的双尺度标志持续至 t=0.02。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -5685,11 +6153,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Wide envelope and two signed inner seeds; only the initial frame retains the pair.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Envelope amplo e duas sementes internas com sinal; somente o quadro inicial preserva o par."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Envelope amplo e duas sementes internas com sinal; somente o quadro inicial preserva o par.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. Envolvente amplia y dos semillas internas con signo; solo el cuadro inicial conserva el par.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Breite Hüllkurve und zwei vorzeichenbehaftete innere Seeds; nur das Anfangsbild behält das Paar.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Bred envelopp och två teckenbärande inre frön; endast den inledande bilden behåller paret.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. Bred envelope og to tegnbærende indre frø; bare det innledende bildet beholder paret.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. Bred envelope og to tegnbærende indre frø; kun det indledende billede bevarer parret.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。宽包络与两个带符号的内部种子；仅初始帧保留该对。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -6140,11 +6620,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Signed concentric nest; shell and sign flags have different recorded lifetimes.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Ninho concêntrico com sinal; os indicadores de casca e sinal têm durações registradas distintas."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Ninho concêntrico com sinal; os indicadores de casca e sinal têm durações registradas distintas.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. Nido concéntrico con signo; los indicadores de capa y signo tienen duraciones registradas distintas.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Vorzeichenbehaftetes konzentrisches Nest; Schalen- und Vorzeichenkennzeichen haben unterschiedliche aufgezeichnete Lebensdauern.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Teckenbärande koncentriskt bo; skal- och teckenmarkeringarna har olika registrerade livslängder.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. Tegnbærende konsentrisk rede; skall- og tegnmarkeringene har ulike registrerte levetider.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. Tegnbærende koncentrisk rede; skal- og tegnmarkeringerne har forskellige registrerede levetider.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。带符号的同心嵌套；壳层与符号标志的记录寿命不同。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -6747,11 +7239,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Same nest continued to T=60; the shared t=8 result agrees with the short run.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Mesmo ninho prolongado até T=60; o resultado comum em t=8 coincide com a rodada curta."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Mesmo ninho prolongado até T=60; o resultado comum em t=8 coincide com a rodada curta.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. El mismo nido se prolonga hasta T=60; el resultado común en t=8 coincide con la ejecución corta.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Dasselbe Nest wird bis T=60 fortgesetzt; das gemeinsame t=8-Ergebnis stimmt mit dem kurzen Lauf überein.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Samma bo fortsätter till T=60; det gemensamma t=8-resultatet stämmer med den korta körningen.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. Samme rede fortsetter til T=60; det felles t=8-resultatet stemmer med den korte kjøringen.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. Samme rede fortsætter til T=60; det fælles t=8-resultat stemmer med den korte kørsel.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。同一嵌套延续至 T=60；t=8 的共同结果与短时运行一致。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -6882,11 +7386,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. One- and two-seed early windows; finite peaks may still occupy one grid cell.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Janelas iniciais de uma e duas sementes; picos finitos ainda podem ocupar uma célula."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Janelas iniciais de uma e duas sementes; picos finitos ainda podem ocupar uma célula.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. Ventanas iniciales de una y dos semillas; los picos finitos aún pueden ocupar una celda.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Frühe Ein- und Zwei-Seed-Fenster; finite Peaks können weiterhin eine Gitterzelle belegen.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Tidiga en- och tvåfröfönster; ändliga toppar kan fortfarande uppta en nätcell.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. Tidlige en- og tofrøvinduer; endelige topper kan fortsatt oppta en gittercelle.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. Tidlige en- og tofrøvinduer; endelige toppe kan stadig optage én gittercelle.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。单种子与双种子的早期窗口；有限峰值仍可能占据一个网格单元。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -7862,11 +8378,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "The dossier mixes numerical/analytic checks with recorded term-off comparisons, including memory-off, bath-off and frozen-memory cases.",
-          "pt-BR": "O dossiê mistura checagens numéricas/analíticas com comparações registradas de termos desligados, incluindo memória desligada, banho desligado e memória congelada."
+          "pt-BR": "O dossiê mistura checagens numéricas/analíticas com comparações registradas de termos desligados, incluindo memória desligada, banho desligado e memória congelada.",
+          "es": "El dosier mezcla comprobaciones numéricas/analíticas con comparaciones registradas de términos desactivados, incluidos memoria desactivada, baño desactivado y memoria congelada.",
+          "de": "Das Dossier mischt numerische/analytische Prüfungen mit aufgezeichneten Term-off-Vergleichen, darunter Gedächtnis-off, Bad-off und eingefrorenes Gedächtnis.",
+          "sv": "Dossiéren blandar numeriska/analytiska kontroller med registrerade term-av-jämförelser, inklusive minne-av, bad-av och fryst minne.",
+          "no": "Dosieret blander numeriske/analytiske kontroller med registrerte ledd-av-sammenligninger, inkludert minne-av, bad-av og frosset minne.",
+          "da": "Dossieret blander numeriske/analytiske kontroller med registrerede led-af-sammenligninger, inklusive hukommelse-af, bad-af og frossen hukommelse.",
+          "zh-CN": "该卷宗将数值/解析核查与记录的关闭项比较混合，包括关闭记忆、关闭热浴与冻结记忆情形。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -7965,11 +8493,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. A declared Gaussian input is added at t=0.5; it is an input to the coupled field.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Uma entrada gaussiana declarada é somada em t=0,5; trata-se de entrada no campo acoplado."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Uma entrada gaussiana declarada é somada em t=0,5; trata-se de entrada no campo acoplado.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. Una entrada gaussiana declarada se suma en t=0,5; es una entrada al campo acoplado.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Eine erklärte Gauß-Eingabe wird bei t=0,5 addiert; sie ist eine Eingabe in das gekoppelte Feld.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. En deklarerad gaussinsignal adderas vid t=0,5; det är en insignal till det kopplade fältet.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. Et erklært gaussinngang legges til ved t=0,5; det er en inngang til det koblede feltet.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. Et erklæret gaussinput lægges til ved t=0,5; det er et input til det koblede felt.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。在 t=0.5 处加入声明的高斯输入；它是耦合场的输入。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -8044,11 +8584,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Two declared signed Gaussian inputs are added at t=0.5.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Duas entradas gaussianas declaradas, com sinais opostos, são somadas em t=0,5."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Duas entradas gaussianas declaradas, com sinais opostos, são somadas em t=0,5.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. Dos entradas gaussianas declaradas, con signos opuestos, se suman en t=0,5.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Zwei erklärte vorzeichenbehaftete Gauß-Eingaben werden bei t=0,5 addiert.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Två deklarerade teckenbärande gaussinsignaler adderas vid t=0,5.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. To erklærte tegnbærende gaussinnganger legges til ved t=0,5.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. To erklærede tegnbærende gaussinput lægges til ved t=0,5.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。在 t=0.5 处加入两个声明的带符号高斯输入。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -8429,11 +8981,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. The runner re-evolves the planted-pocket case and records density/memory maps; it is not only an image reader.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. O runner evolui novamente o caso do bolso plantado e registra mapas de densidade/memória; não é só leitor de imagens."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. O runner evolui novamente o caso do bolso plantado e registra mapas de densidade/memória; não é só leitor de imagens.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. El runner vuelve a evolucionar el caso del bolsillo plantado y registra mapas de densidad/memoria; no es solo un lector de imágenes.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Der Runner evolviert den Planted-Pocket-Fall erneut und zeichnet Dichte/Gedächtnis-Karten auf; er ist nicht nur ein Bildleser.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Köraren omevolverar fallet med planterad ficka och registrerar täthets-/minneskartor; det är inte bara en bildläsare.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. Kjøreren re-evolverer tilfellet med plantet lomme og registrerer tetthets-/minnekart; den er ikke bare en bildeleser.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. Køreren genevolverer tilfældet med plantet lomme og registrerer tætheds-/hukommelseskort; den er ikke kun en billedlæser.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。运行器重新演化植入口袋情形并记录密度/记忆图；它不仅是图像读取器。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -8475,11 +9039,23 @@
         "status": "context-only",
         "summary": {
           "en": "Specification and frozen declared parameters; no execution result in this item.",
-          "pt-BR": "Especificação e parâmetros declarados fixados; esta entrada não contém resultado de execução."
+          "pt-BR": "Especificação e parâmetros declarados fixados; esta entrada não contém resultado de execução.",
+          "es": "Especificación y parámetros declarados fijados; esta entrada no contiene resultado de ejecución.",
+          "de": "Spezifikation und eingefrorene erklärte Parameter; dieser Eintrag enthält kein Ausführungsergebnis.",
+          "sv": "Specifikation och frysta deklarerade parametrar; denna post innehåller inget körningsresultat.",
+          "no": "Spesifikasjon og frosne erklærte parametere; denne posten inneholder intet kjøringsresultat.",
+          "da": "Specifikation og frosne erklærede parametre; denne post indeholder intet kørselsresultat.",
+          "zh-CN": "规范说明与冻结的声明参数；本条目无执行结果。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -8690,11 +9266,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Grid convergence is unresolved; the recorded spectrum follows the grid cutoff.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. A convergência espacial permanece em aberto; o espectro registrado acompanha o corte da malha."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. A convergência espacial permanece em aberto; o espectro registrado acompanha o corte da malha.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. La convergencia espacial queda sin resolver; el espectro registrado acompaña el corte de la malla.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Gitterkonvergenz bleibt ungelöst; das aufgezeichnete Spektrum folgt dem Gitter-Cutoff.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Nätkonvergens är olöst; det registrerade spektrumet följer nätets gränsvärde.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. Gitterkonvergens er uløst; det registrerte spekteret følger gitterets grenseverdi.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. Gitterkonvergens er uløst; det registrerede spektrum følger gitterets grænseværdi.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。网格收敛尚未解决；记录的谱跟随网格截断。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -8913,11 +9501,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. Spatial and time-step refinements retain the coupled terms; numerical convergence is unresolved.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Refinos de espaço e passo temporal mantêm os termos conjuntos; a convergência numérica permanece em aberto."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Refinos de espaço e passo temporal mantêm os termos conjuntos; a convergência numérica permanece em aberto.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. Los refinamientos de espacio y paso temporal conservan los términos conjuntos; la convergencia numérica queda sin resolver.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Raum- und Zeitschritt-Verfeinerungen behalten die gekoppelten Terme; numerische Konvergenz bleibt ungelöst.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Rums- och tidsstegsförfiningar behåller de samverkande termerna; numerisk konvergens är olöst.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. Rom- og tidsstegsforfininger beholder de samvirkende leddene; numerisk konvergens er uløst.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. Rum- og tidsskridtsforfinelser bevarer de samvirkende led; numerisk konvergens er uløst.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。空间与时间步长加密保留联合作用项；数值收敛尚未解决。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -9584,11 +10184,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. All 32 recorded seeds are finite; the batch uses complex64/float32 and records its precision change.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. As 32 sementes registradas são finitas; o lote usa complex64/float32 e declara a mudança de precisão."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. As 32 sementes registradas são finitas; o lote usa complex64/float32 e declara a mudança de precisão.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. Las 32 semillas registradas son finitas; el lote usa complex64/float32 y declara el cambio de precisión.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Alle 32 aufgezeichneten Seeds sind finit; der Batch nutzt complex64/float32 und vermerkt seinen Präzisionswechsel.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Alla 32 registrerade frön är ändliga; batchen använder complex64/float32 och redovisar sitt precisionsbyte.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. Alle 32 registrerte frø er endelige; batchen bruker complex64/float32 og oppgir sitt presisjonsbytte.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. Alle 32 registrerede frø er endelige; batchen bruger complex64/float32 og opgiver sit præcisionsskift.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。记录的 32 个种子均为有限值；该批次使用 complex64/float32 并声明了精度变化。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -10038,11 +10650,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. The source includes evolution and passive POD/DMD; its post-processing correction is declared.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. A fonte inclui evolução e POD/DMD passivos; a correção de pós-processamento está declarada."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. A fonte inclui evolução e POD/DMD passivos; a correção de pós-processamento está declarada.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. La fuente incluye evolución y POD/DMD pasivos; la corrección de posprocesamiento está declarada.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Die Quelle umfasst Evolution sowie passives POD/DMD; ihre Nachverarbeitungskorrektur ist erklärt.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Källan omfattar evolution och passiv POD/DMD; dess efterbehandlingskorrektion är deklarerad.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. Kilden omfatter evolusjon og passiv POD/DMD; dens etterbehandlingskorreksjon er erklært.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. Kilden omfatter evolution og passiv POD/DMD; dens efterbehandlingskorrektion er erklæret.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。源码包含演化与被动 POD/DMD；其后处理修正已声明。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -10320,11 +10944,23 @@
         "status": "complete-record",
         "summary": {
           "en": "The supplied standalone update documents the coupled terms and three memory modes with FDT active. The superposition residual includes the common additive bath; it is not a pure measure of nonlinear response.",
-          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. O residual de superposição inclui o banho aditivo comum; não mede somente a resposta não linear."
+          "pt-BR": "A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. O residual de superposição inclui o banho aditivo comum; não mede somente a resposta não linear.",
+          "es": "La actualización autónoma suministrada documenta los términos conjuntos y tres modos de memoria con FDT activo. El residual de superposición incluye el baño aditivo común; no mide solo la respuesta no lineal.",
+          "de": "Der mitgelieferte eigenständige Update-Schritt dokumentiert die gekoppelten Terme und drei Gedächtnismodi bei aktivem FDT. Das Superpositionsresiduum enthält das gemeinsame additive Bad; es ist kein reines Maß nichtlinearer Antwort.",
+          "sv": "Den medföljande fristående uppdateringen dokumenterar de samverkande termerna och tre minnesmoder med aktiv FDT. Superpositionsresidualen innehåller det gemensamma additiva badet; den är inget rent mått på ickelinjär respons.",
+          "no": "Den medfølgende frittstående oppdateringen dokumenterer de samvirkende leddene og tre minnemodi med aktiv FDT. Superposisjonsresidualen inneholder det felles additive badet; den er intet rent mål på ikke-lineær respons.",
+          "da": "Den medfølgende fritstående opdatering dokumenterer de samvirkende led og tre hukommelsesmoder med aktiv FDT. Superpositionsresidualet indeholder det fælles additive bad; det er intet rent mål for ikkelineær respons.",
+          "zh-CN": "所提供的独立更新记录了联合作用项与三个记忆模式，FDT 处于活跃状态。叠加残差包含公共的加性热浴；它不是非线性响应的纯粹度量。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -10533,11 +11169,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "The supplied 1D/2D implementations include trajectory normalization or guards and differ from the reference evolution; the pure 2D damping expression is phase-like.",
-          "pt-BR": "As implementações 1D/2D fornecidas incluem normalização durante a trajetória ou guards e divergem da evolução de referência; a expressão de dissipação do caso 2D puro atua como fase."
+          "pt-BR": "As implementações 1D/2D fornecidas incluem normalização durante a trajetória ou guards e divergem da evolução de referência; a expressão de dissipação do caso 2D puro atua como fase.",
+          "es": "Las implementaciones 1D/2D suministradas incluyen normalización durante la trayectoria o guardas y divergen de la evolución de referencia; la expresión de disipación del caso 2D puro actúa como fase.",
+          "de": "Die mitgelieferten 1D/2D-Implementierungen enthalten Trajektorien-Normierung oder Wachen und weichen von der Referenz-Evolution ab; der reine 2D-Dämpfungsausdruck wirkt phasenartig.",
+          "sv": "De medföljande 1D/2D-implementationerna innehåller banrenormalisering eller vakter och avviker från referensevolutionen; det rena 2D-dämpningsuttrycket är faslikt.",
+          "no": "De medfølgende 1D/2D-implementasjonene inneholder banenormalisering eller vakter og avviker fra referanseevolusjonen; det rene 2D-dempningsuttrykket er faselikt.",
+          "da": "De medfølgende 1D/2D-implementeringer indeholder banenormalisering eller vagter og afviger fra referenceevolutionen; det rene 2D-dæmpningsudtryk er faselignende.",
+          "zh-CN": "所提供的一维/二维实现包含轨迹归一化或守卫，与参考演化不同；纯二维耗散表达式呈相位型。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -10656,11 +11304,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "Both dimension branches normalize the field every step (target norms 3.0 and 2.2) and use an update different from the reference.",
-          "pt-BR": "Os dois ramos dimensionais normalizam o campo a cada passo (normas-alvo 3,0 e 2,2) e usam atualização diferente da referência."
+          "pt-BR": "Os dois ramos dimensionais normalizam o campo a cada passo (normas-alvo 3,0 e 2,2) e usam atualização diferente da referência.",
+          "es": "Ambas ramas dimensionales normalizan el campo en cada paso (normas objetivo 3,0 y 2,2) y usan una actualización distinta de la referencia.",
+          "de": "Beide Dimensionszweige normieren das Feld jeden Schritt (Zielnormen 3,0 und 2,2) und verwenden einen anderen Update-Schritt als die Referenz.",
+          "sv": "Båda dimensionsgrenarna normaliserar fältet varje steg (målnormer 3,0 och 2,2) och använder ett annat uppdateringssteg än referensen.",
+          "no": "Begge dimensjonsgrener normaliserer feltet hvert trinn (målnormer 3,0 og 2,2) og bruker et annet oppdateringstrinn enn referansen.",
+          "da": "Begge dimensionsgrene normaliserer feltet hvert trin (målnormer 3,0 og 2,2) og bruger et andet opdateringstrin end referencen.",
+          "zh-CN": "两个维度分支每步都归一化场（目标范数 3.0 与 2.2），且使用与参考不同的更新。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -10825,11 +11485,23 @@
         "status": "context-only",
         "summary": {
           "en": "Post-processing of saved field states; this item does not evolve the complete equation.",
-          "pt-BR": "Pós-processamento de estados de campo salvos; esta entrada não evolui a equação completa."
+          "pt-BR": "Pós-processamento de estados de campo salvos; esta entrada não evolui a equação completa.",
+          "es": "Posprocesamiento de estados de campo guardados; esta entrada no evoluciona la ecuación completa.",
+          "de": "Nachverarbeitung gespeicherter Feldzustände; dieser Eintrag evolviert nicht die vollständige Gleichung.",
+          "sv": "Efterbehandling av sparade fälttillstånd; denna post evolverar inte den fullständiga ekvationen.",
+          "no": "Etterbehandling av lagrede felttilstander; denne posten evolverer ikke den fullstendige ligningen.",
+          "da": "Efterbehandling af gemte felttilstande; denne post evolverer ikke den fuldstændige ligning.",
+          "zh-CN": "对已保存场状态的后处理；本条目不演化完整方程。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -10923,11 +11595,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation. The separate bravais_vibracoes reader is a kinematic reconstruction.",
-          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação. O leitor separado bravais_vibracoes é uma reconstrução cinemática."
+          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação. O leitor separado bravais_vibracoes é uma reconstrução cinemática.",
+          "es": "La fuente de evolución usa un signo cinético/actualización de ruido y guardas condicionales de estado distintos de la referencia; sus resultados guardados siguen siendo registros de esa implementación. El lector separado bravais_vibracoes es una reconstrucción cinemática.",
+          "de": "Die evolvierende Quelle verwendet ein anderes kinetisches Vorzeichen/Rausch-Update und bedingte Zustandswachen als die Referenz; ihre gespeicherten Ergebnisse bleiben Datensätze dieser Implementierung. Der separate bravais_vibracoes-Leser ist eine kinematische Rekonstruktion.",
+          "sv": "Den evolverande källan använder annat kinetiskt tecken/brusuppdatering och villkorliga tillståndsvakter än referensen; dess sparade resultat förblir poster över den implementationen. Den separata bravais_vibracoes-läsaren är en kinematisk rekonstruktion.",
+          "no": "Den evolverende kilden bruker annet kinetisk tegn/støyoppdatering og betingede tilstandsvakter enn referansen; dens lagrede resultater forblir poster over den implementasjonen. Den separate bravais_vibracoes-leseren er en kinematisk rekonstruksjon.",
+          "da": "Den evolverende kilde bruger andet kinetisk tegn/støjopdatering og betingede tilstandsvagter end referencen; dens gemte resultater forbliver poster over den implementering. Den separate bravais_vibracoes-læser er en kinematisk rekonstruktion.",
+          "zh-CN": "演化源码使用了与参考不同的动能符号/噪声更新和条件状态守卫；其保存结果仍是该实现的记录。独立的 bravais_vibracoes 读取器是运动学重建。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -11099,11 +11783,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation. This applies to simula_filmes; the other five files are readers/renderers.",
-          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação. Isso se aplica a simula_filmes; os outros cinco arquivos são leitores/renderizadores."
+          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação. Isso se aplica a simula_filmes; os outros cinco arquivos são leitores/renderizadores.",
+          "es": "La fuente de evolución usa un signo cinético/actualización de ruido y guardas condicionales de estado distintos de la referencia; sus resultados guardados siguen siendo registros de esa implementación. Esto se aplica a simula_filmes; los otros cinco archivos son lectores/renderizadores.",
+          "de": "Die evolvierende Quelle verwendet ein anderes kinetisches Vorzeichen/Rausch-Update und bedingte Zustandswachen als die Referenz; ihre gespeicherten Ergebnisse bleiben Datensätze dieser Implementierung. Dies gilt für simula_filmes; die fünf anderen Dateien sind Leser/Renderer.",
+          "sv": "Den evolverande källan använder annat kinetiskt tecken/brusuppdatering och villkorliga tillståndsvakter än referensen; dess sparade resultat förblir poster över den implementationen. Detta gäller simula_filmes; de fem övriga filerna är läsare/renderare.",
+          "no": "Den evolverende kilden bruker annet kinetisk tegn/støyoppdatering og betingede tilstandsvakter enn referansen; dens lagrede resultater forblir poster over den implementasjonen. Dette gjelder simula_filmes; de fem øvrige filene er lesere/renderere.",
+          "da": "Den evolverende kilde bruger andet kinetisk tegn/støjopdatering og betingede tilstandsvagter end referencen; dens gemte resultater forbliver poster over den implementering. Dette gælder simula_filmes; de fem øvrige filer er læsere/renderere.",
+          "zh-CN": "演化源码使用了与参考不同的动能符号/噪声更新和条件状态守卫；其保存结果仍是该实现的记录。这适用于 simula_filmes；其余五个文件是读取器/渲染器。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -11157,11 +11853,23 @@
         "status": "not-established",
         "summary": {
           "en": "The collector imports solver defaults/environment overrides; the recorded rows do not bind every generating configuration.",
-          "pt-BR": "O coletor importa padrões do solver e sobreposições de ambiente; as linhas registradas não fixam todas as configurações geradoras."
+          "pt-BR": "O coletor importa padrões do solver e sobreposições de ambiente; as linhas registradas não fixam todas as configurações geradoras.",
+          "es": "El colector importa valores del resolvedor y sobreposiciones de entorno; las filas registradas no fijan todas las configuraciones generadoras.",
+          "de": "Der Sammler importiert Löser-Defaults/Umgebungs-Overrides; die aufgezeichneten Zeilen binden nicht jede erzeugende Konfiguration.",
+          "sv": "Samlaren importerar lösarstandarder/miljööverskridanden; de registrerade raderna binder inte varje genererande konfiguration.",
+          "no": "Samleren importerer løserstandarder/miljøoverstyringer; de registrerte radene binder ikke hver genererende konfigurasjon.",
+          "da": "Samleren importerer løserstandarder/miljøtilsidesættelser; de registrerede rækker binder ikke hver genererende konfiguration.",
+          "zh-CN": "采集器导入求解器默认值/环境覆盖；记录的行未绑定每个生成配置。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -11289,11 +11997,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.",
-          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação."
+          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação.",
+          "es": "La fuente de evolución usa un signo cinético/actualización de ruido y guardas condicionales de estado distintos de la referencia; sus resultados guardados siguen siendo registros de esa implementación.",
+          "de": "Die evolvierende Quelle verwendet ein anderes kinetisches Vorzeichen/Rausch-Update und bedingte Zustandswachen als die Referenz; ihre gespeicherten Ergebnisse bleiben Datensätze dieser Implementierung.",
+          "sv": "Den evolverande källan använder annat kinetiskt tecken/brusuppdatering och villkorliga tillståndsvakter än referensen; dess sparade resultat förblir poster över den implementationen.",
+          "no": "Den evolverende kilden bruker annet kinetisk tegn/støyoppdatering og betingede tilstandsvakter enn referansen; dens lagrede resultater forblir poster over den implementasjonen.",
+          "da": "Den evolverende kilde bruger andet kinetisk tegn/støjopdatering og betingede tilstandsvagter end referencen; dens gemte resultater forbliver poster over den implementering.",
+          "zh-CN": "演化源码使用了与参考不同的动能符号/噪声更新和条件状态守卫；其保存结果仍是该实现的记录。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -11339,11 +12059,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "The supplied source uses a different kinetic sign/noise update and conditional state guards from the reference. The required WiFi measurements were not supplied; this entry does not document a demonstrated run with those measurements.",
-          "pt-BR": "A fonte fornecida usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência. As medidas WiFi necessárias não foram fornecidas; esta entrada não documenta uma execução demonstrada com essas medidas."
+          "pt-BR": "A fonte fornecida usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência. As medidas WiFi necessárias não foram fornecidas; esta entrada não documenta uma execução demonstrada com essas medidas.",
+          "es": "La fuente suministrada usa un signo cinético/actualización de ruido y guardas condicionales de estado distintos de la referencia. No se suministraron las mediciones WiFi necesarias; esta entrada no documenta una ejecución demostrada con esas mediciones.",
+          "de": "Die mitgelieferte Quelle verwendet ein anderes kinetisches Vorzeichen/Rausch-Update und bedingte Zustandswachen als die Referenz. Die erforderlichen WLAN-Messungen wurden nicht mitgeliefert; dieser Eintrag dokumentiert keinen demonstrierten Lauf mit diesen Messungen.",
+          "sv": "Den medföljande källan använder annat kinetiskt tecken/brusuppdatering och villkorliga tillståndsvakter än referensen. De nödvändiga WiFi-mätningarna medföljde inte; denna post dokumenterar ingen demonstrerad körning med dessa mätningar.",
+          "no": "Den medfølgende kilden bruker annet kinetisk tegn/støyoppdatering og betingede tilstandsvakter enn referansen. De nødvendige WiFi-målingene fulgte ikke med; denne posten dokumenterer ingen demonstrert kjøring med disse målingene.",
+          "da": "Den medfølgende kilde bruger andet kinetisk tegn/støjopdatering og betingede tilstandsvagter end referencen. De nødvendige WiFi-målinger fulgte ikke med; denne post dokumenterer ingen demonstreret kørsel med disse målinger.",
+          "zh-CN": "所提供的源码使用了与参考不同的动能符号/噪声更新和条件状态守卫。所需的 WiFi 测量未提供；本条目未记录使用这些测量的已演示运行。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -11413,11 +12145,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation.",
-          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação."
+          "pt-BR": "A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação.",
+          "es": "La fuente de evolución usa un signo cinético/actualización de ruido y guardas condicionales de estado distintos de la referencia; sus resultados guardados siguen siendo registros de esa implementación.",
+          "de": "Die evolvierende Quelle verwendet ein anderes kinetisches Vorzeichen/Rausch-Update und bedingte Zustandswachen als die Referenz; ihre gespeicherten Ergebnisse bleiben Datensätze dieser Implementierung.",
+          "sv": "Den evolverande källan använder annat kinetiskt tecken/brusuppdatering och villkorliga tillståndsvakter än referensen; dess sparade resultat förblir poster över den implementationen.",
+          "no": "Den evolverende kilden bruker annet kinetisk tegn/støyoppdatering og betingede tilstandsvakter enn referansen; dens lagrede resultater forblir poster over den implementasjonen.",
+          "da": "Den evolverende kilde bruger andet kinetisk tegn/støjopdatering og betingede tilstandsvagter end referencen; dens gemte resultater forbliver poster over den implementering.",
+          "zh-CN": "演化源码使用了与参考不同的动能符号/噪声更新和条件状态守卫；其保存结果仍是该实现的记录。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -11855,11 +12599,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "The runner sets alpha, Gamma and FDT to zero and retains two memory modes.",
-          "pt-BR": "O runner fixa alpha, Gamma e FDT em zero e mantém dois modos de memória."
+          "pt-BR": "O runner fixa alpha, Gamma e FDT em zero e mantém dois modos de memória.",
+          "es": "La ejecución fija alpha, Gamma y FDT en cero y conserva dos modos de memoria.",
+          "de": "Der Runner setzt alpha, Gamma und FDT auf null und behält zwei Gedächtnismodi.",
+          "sv": "Köraren sätter alpha, Gamma och FDT till noll och behåller två minnesmoder.",
+          "no": "Kjøreren setter alpha, Gamma og FDT til null og beholder to minnemodi.",
+          "da": "Køreren sætter alpha, Gamma og FDT til nul og bevarer to hukommelsesmoder.",
+          "zh-CN": "运行器将 alpha、Gamma 与 FDT 置零，保留两个记忆模式。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -11969,11 +12725,23 @@
         "status": "documented-deviation",
         "summary": {
           "en": "Four causal runners use a deterministic two-memory update with no fractional/bath terms.",
-          "pt-BR": "Quatro runners causais usam atualização determinística com duas memórias, sem termos fracionário/banho."
+          "pt-BR": "Quatro runners causais usam atualização determinística com duas memórias, sem termos fracionário/banho.",
+          "es": "Cuatro runners causales usan una actualización determinista con dos memorias, sin términos fraccionario/baño.",
+          "de": "Vier kausale Runner verwenden ein deterministisches Zwei-Gedächtnis-Update ohne fraktionale/Bad-Terme.",
+          "sv": "Fyra kausala körare använder en deterministisk tvåminnesuppdatering utan fraktionella/bad-termer.",
+          "no": "Fire kausale kjørere bruker en deterministisk tomminneoppdatering uten brøk-/badledd.",
+          "da": "Fire kausale kørere bruger en deterministisk tohukommelsesopdatering uden brøk-/badled.",
+          "zh-CN": "四个因果运行器使用确定性的双记忆更新，无分数阶/热浴项。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     },
@@ -12179,11 +12947,23 @@
         "status": "not-established",
         "summary": {
           "en": "Modal checkpoints/readouts and continuation tests exist; the evolution is delegated to an external native library absent from the supplied source.",
-          "pt-BR": "Há checkpoints modais, leituras e testes de continuidade; a evolução é delegada a uma biblioteca nativa externa ausente das fontes fornecidas."
+          "pt-BR": "Há checkpoints modais, leituras e testes de continuidade; a evolução é delegada a uma biblioteca nativa externa ausente das fontes fornecidas.",
+          "es": "Hay puntos de control modales, lecturas y pruebas de continuidad; la evolución se delega a una biblioteca nativa externa ausente de las fuentes suministradas.",
+          "de": "Modale Checkpoints/Auslesungen und Fortsetzungstests existieren; die Evolution ist an eine externe native Bibliothek delegiert, die in den mitgelieferten Quellen fehlt.",
+          "sv": "Modala kontrollpunkter/avläsningar och fortsättningstester finns; evolutionen är delegerad till ett externt nativt bibliotek som saknas i de medföljande källorna.",
+          "no": "Modale kontrollpunkter/avlesninger og fortsettelsestester finnes; evolusjonen er delegert til et eksternt nativt bibliotek som mangler i de medfølgende kildene.",
+          "da": "Modale kontrolpunkter/aflæsninger og fortsættelsestest findes; evolutionen er delegeret til et eksternt nativt bibliotek, som mangler i de medfølgende kilder.",
+          "zh-CN": "存在模态检查点/读出与连续性测试；演化委托给所提供源码中缺失的外部原生库。"
         },
         "report": {
           "en": "docs/en/execution-audit.md",
-          "pt-BR": "docs/pt-BR/execution-audit.md"
+          "pt-BR": "docs/pt-BR/execution-audit.md",
+          "es": "docs/es/triad-identity-audit.md",
+          "de": "docs/de/triad-identity-audit.md",
+          "sv": "docs/sv/triad-identity-audit.md",
+          "no": "docs/no/triad-identity-audit.md",
+          "da": "docs/da/triad-identity-audit.md",
+          "zh-CN": "docs/zh-CN/triad-identity-audit.md"
         }
       }
     }

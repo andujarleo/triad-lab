@@ -14,6 +14,10 @@ Visual records retained from the supplied material. Their exact generating run h
 
 ## Execution audit
 
+> **TRIAD identity: NOT a TRIAD execution — context or post-processing.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-visual-comparisons) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-visual-comparisons) · [Español](../../../docs/es/triad-identity-audit.md#study-visual-comparisons) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-visual-comparisons) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-visual-comparisons) · [Norsk](../../../docs/no/triad-identity-audit.md#study-visual-comparisons) · [Dansk](../../../docs/da/triad-identity-audit.md#study-visual-comparisons) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-visual-comparisons)
+
 **Context or post-processing.** Preserved visual comparisons without an established generating-run association.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-visual-comparisons) · [README.md](README.md#L5)

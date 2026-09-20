@@ -11,6 +11,10 @@ Estende o controle químico com quatro horizontes de memória contínua e um vet
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é execução TRIAD — contexto ou pós-processamento.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-entre-04-life-filter) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-entre-04-life-filter) · [Español](../../../docs/es/triad-identity-audit.md#study-entre-04-life-filter) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-entre-04-life-filter) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-entre-04-life-filter) · [Norsk](../../../docs/no/triad-identity-audit.md#study-entre-04-life-filter) · [Dansk](../../../docs/da/triad-identity-audit.md#study-entre-04-life-filter) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-entre-04-life-filter)
+
 **Contexto ou pós-processamento.** Modelo de fases e memória de arestas em nós finitos para relações conceituais, não uma execução da equação de campo completa. Camadas opcionais de química/vida são escolhas do modelo, não ablações diretas de P1/P2/P3.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-entre-04-life-filter) · [simulate_life_filter_between.py](code/en/simulate_life_filter_between.py#L139)

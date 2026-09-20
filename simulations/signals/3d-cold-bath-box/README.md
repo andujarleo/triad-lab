@@ -17,6 +17,10 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ## Execution audit
 
+> **TRIAD identity: NOT established as complete TRIAD — incomplete traceability.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-t-20) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-20) · [Español](../../../docs/es/triad-identity-audit.md#study-t-20) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-20) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-20) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-20) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-20) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-20)
+
 **Execution not fully traceable.** The cold-bath CSVs change grid, duration and initial samples as well as bath conditions. The generator is absent.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-20) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)

@@ -17,6 +17,10 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: TRIAD completa — termos conjuntos documentados.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-33) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-33) · [Español](../../../docs/es/triad-identity-audit.md#study-t-33) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-33) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-33) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-33) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-33) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-33)
+
 **Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Ninho concêntrico com sinal; os indicadores de casca e sinal têm durações registradas distintas.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-33) · [simulate_signed_gaussian_nest.py](code/simulate_signed_gaussian_nest.py#L33) · [simulate_signed_gaussian_nest.py](code/simulate_signed_gaussian_nest.py#L466) · [simulate_signed_gaussian_nest.py](code/simulate_signed_gaussian_nest.py#L436)

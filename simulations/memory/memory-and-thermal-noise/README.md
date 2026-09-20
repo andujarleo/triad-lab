@@ -17,6 +17,10 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ## Execution audit
 
+> **TRIAD identity: NOT established as complete TRIAD — incomplete traceability.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-t-02) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-02) · [Español](../../../docs/es/triad-identity-audit.md#study-t-02) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-02) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-02) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-02) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-02) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-02)
+
 **Execution not fully traceable.** NLS/memory/bath exploration survives as figures; no source or numerical table fixes the executed operator.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-02) · [original-record.md](notes/original-record.md#L10)

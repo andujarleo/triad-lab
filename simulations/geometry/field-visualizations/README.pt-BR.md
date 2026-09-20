@@ -18,7 +18,15 @@ A imagem estática é compartilhada com o estudo de comparações visuais; o ín
 
 
 
+## Em um minuto
+
+Uma fonte de evolução mais cinco leitores e renderizadores: os filmes nascem de estados salvos, não de novas evoluções. O núcleo de evolução difere da atualização de referência. [Registro de auditoria](../../../docs/pt-BR/execution-audit.md#study-field-visualizations) · [Veredito de identidade](../../../docs/pt-BR/triad-identity-audit.md#study-field-visualizations)
+
 ## Auditoria da execução
+
+> **Identidade TRIAD: NÃO é TRIAD completa — divergência documentada.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-field-visualizations) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-field-visualizations) · [Español](../../../docs/es/triad-identity-audit.md#study-field-visualizations) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-field-visualizations) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-field-visualizations) · [Norsk](../../../docs/no/triad-identity-audit.md#study-field-visualizations) · [Dansk](../../../docs/da/triad-identity-audit.md#study-field-visualizations) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-field-visualizations)
 
 **Implementação divergente.** A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação. Isso se aplica a simula_filmes; os outros cinco arquivos são leitores/renderizadores.
 

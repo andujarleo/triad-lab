@@ -1,7 +1,7 @@
 ![TRIAD Universe Lab — Um universo em movimento.](../../assets/brand/readme-cover.pt-BR.png)
 
 <p align="center"><a href="../../README.md">English</a> · <strong>Português</strong><br />
-<a href="https://andujarleo.github.io/triad-lab/?lang=pt-BR"><strong>ENTRE NO UNIVERSO ↗</strong></a> · <a href="../../research/README.pt-BR.md">Pesquisa</a> · <a href="../../simulations/README.pt-BR.md">Simulações</a> · <a href="start-here.md">Comece aqui</a></p>
+<a href="https://andujarleo.github.io/triad-lab/?lang=pt-BR"><strong>ENTRE NO UNIVERSO ↗</strong></a> · <a href="editions.md">Edição 01 · setembro de 2026 ↗</a></p>
 
 # Universo TRIAD
 
@@ -10,6 +10,22 @@
 A TRIAD é a física quântica não padrão e a ontologia de Leonardo Andujar. Uma equação imutável e indivisível é seu fundamento: P1 oscilação, P2 autorreferência no presente e pela memória, e P3 acoplamento atuam juntos.
 
 Do caos ao equilíbrio dinâmico, a cristalização continua. Pesquisa conecta ideias e fontes. O acervo de simulações coloca campos, trajetórias e código registrados à vista.
+
+## Nesta edição
+
+*Uma frase aqui · um minuto na [edição](editions.md) · o registro completo atrás de cada link.*
+
+**O que é TRIAD completa — os 65 estudos, decididos às claras.** Cada estudo agora traz um veredito explícito de identidade, legível em oito idiomas. [Um minuto →](editions.md#issue-01) · [A auditoria completa →](triad-identity-audit.md)
+
+**Veja uma região do campo se contrair e depois se expandir.** O raio que contém metade da massa chega ao mínimo em **t=3,7**. [Um minuto →](editions.md#issue-01) · [Acompanhe a trajetória →](../../simulations/memory/memory-and-bounce/README.pt-BR.md)
+
+**Da forma aninhada ao campo preenchido, até t=60.** O volume se preenche enquanto o pico finito de densidade segue flutuando. [Um minuto →](editions.md#issue-01) · [Explore o registro longo →](../../simulations/structures/long-nest-trajectory/README.pt-BR.md)
+
+## Três portas
+
+| Quero sentir | Quero verificar | Quero construir |
+|---|---|---|
+| [Um passeio de cinco minutos](start-here.md), [fundamentos da TRIAD](triad.md) e [palavras acessíveis](glossary.md). | [Sala de evidências](evidence-room.md), [auditoria de identidade](triad-identity-audit.md), [comparações registradas](execution-audit.md) e [referência da equação](../reference/equation/README.md). | [Sala de máquinas](engine-room.md), [mapa do repositório](repository-map.md), [orientação de execução](getting-started.md) e [como contribuir](contributing.md). |
 
 ## Veja a dinâmica acontecer
 
@@ -38,12 +54,6 @@ Siga o campo até **t=60**: o volume se preenche e o pico finito de densidade co
 
 O [atlas interativo](https://andujarleo.github.io/triad-lab/?lang=pt-BR) conecta essas duas áreas por tema. O visualizador de campo mostra cortes espaciais de estados salvos; seu controle percorre o **espaço**.
 
-## Comece pela sua curiosidade
-
-| Quero entender | Quero investigar | Quero desenvolver ou executar |
-|---|---|---|
-| [Um passeio de cinco minutos](start-here.md), [fundamentos da TRIAD](triad.md) e [vocabulário acessível](glossary.md). | [Temas de pesquisa](../../research/README.pt-BR.md), [comparações registradas](execution-audit.md) e [referência da equação](../reference/equation/README.md). | [Mapa do repositório](repository-map.md), [orientação de execução](getting-started.md) e [como contribuir](contributing.md). |
-
 ## A dinâmica completa importa
 
 Retirar um termo muda o sistema implementado. O acervo preserva essas configurações históricas e as identifica junto dos resultados. A [auditoria das execuções](execution-audit.md) liga cada estudo às suas condições e distingue mudanças registradas no comportamento de mudanças na medição ou na interpretação.
@@ -53,7 +63,6 @@ Trabalhos TRIAD novos seguem as [regras do projeto](project-rules.md): equação
 ## Dentro do universo
 
 ```text
-.agents/skills/  Orientações para entender, ler e criar em TRIAD
 research/       Temas, leituras, conexões e fontes de pesquisa preservadas
 simulations/    Perguntas, código, configurações e resultados registrados
 docs/           Guias em inglês e português; referências comuns da equação
@@ -63,7 +72,7 @@ tools/          Catálogo, checagens de preservação e construção do site
 templates/      Pesquisas, estudos e registros de execução
 ```
 
-[Trabalhe com agentes TRIAD](agents.md) · [Diário do lab](journal.md) · [Sobre Leonardo](author.md) · [Preservação das fontes](../../provenance/README.md) · [Adicionar um idioma](languages.md)
+[Edições do lab](editions.md) · [Diário do lab](journal.md) · [Sobre Leonardo](author.md) · [Preservação das fontes](../../provenance/README.md) · [Adicionar um idioma](languages.md) · [Trabalhe com agentes TRIAD](agents.md)
 
 <details><summary>Verificar e explorar localmente</summary>
 

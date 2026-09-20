@@ -14,6 +14,10 @@ Um script de execução longa e diagnósticos registrados exploram campos em dua
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é TRIAD completa — divergência documentada.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-dimension-comparison) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-dimension-comparison) · [Español](../../../docs/es/triad-identity-audit.md#study-dimension-comparison) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-dimension-comparison) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-dimension-comparison) · [Norsk](../../../docs/no/triad-identity-audit.md#study-dimension-comparison) · [Dansk](../../../docs/da/triad-identity-audit.md#study-dimension-comparison) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-dimension-comparison)
+
 **Implementação divergente.** Os dois ramos dimensionais normalizam o campo a cada passo (normas-alvo 3,0 e 2,2) e usam atualização diferente da referência.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-dimension-comparison) · [bravais_long_2d3d.py](code/bravais_long_2d3d.py#L84) · [bravais_long_2d3d.py](code/bravais_long_2d3d.py#L255)

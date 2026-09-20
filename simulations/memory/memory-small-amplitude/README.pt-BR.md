@@ -17,6 +17,10 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é TRIAD completa — divergência documentada.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-29) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-29) · [Español](../../../docs/es/triad-identity-audit.md#study-t-29) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-29) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-29) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-29) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-29) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-29)
+
 **Implementação divergente.** A rodada fixa alpha=0 e usa dois modos de memória; seu banho está ativo.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-29) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L2) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L27) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L189) · [simulate_memory_small_amplitude.py](code/simulate_memory_small_amplitude.py#L213)

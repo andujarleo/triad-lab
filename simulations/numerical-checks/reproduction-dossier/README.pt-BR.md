@@ -17,6 +17,10 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é TRIAD completa — divergência documentada.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-36) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-36) · [Español](../../../docs/es/triad-identity-audit.md#study-t-36) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-36) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-36) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-36) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-36) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-36)
+
 **Implementação divergente.** O dossiê mistura checagens numéricas/analíticas com comparações registradas de termos desligados, incluindo memória desligada, banho desligado e memória congelada.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-36) · [predictions-memory-collapse-grid-64.md](notes/memory-collapse-grid-64/predictions-memory-collapse-grid-64.md#L10) · [analysis.md](notes/memory-collapse-grid-64/analysis.md#L1) · [predictions-bell-correlation-test.md](notes/predictions/predictions-bell-correlation-test.md#L10)

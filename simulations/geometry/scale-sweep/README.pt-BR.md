@@ -11,6 +11,10 @@ Usa a mesma implementação preservada em caixas L=24, 32 e 48 com dx=0.5 fixo e
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é TRIAD completa — divergência documentada.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-bravais-03-scale) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-bravais-03-scale) · [Español](../../../docs/es/triad-identity-audit.md#study-bravais-03-scale) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-bravais-03-scale) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-bravais-03-scale) · [Norsk](../../../docs/no/triad-identity-audit.md#study-bravais-03-scale) · [Dansk](../../../docs/da/triad-identity-audit.md#study-bravais-03-scale) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-bravais-03-scale)
+
 **Implementação divergente.** A fonte de evolução usa sinal cinético/atualização de ruído e guards condicionais de estado diferentes da referência; as saídas salvas permanecem registros dessa implementação.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-bravais-03-scale) · [bravais_sweep_L.py](code/pt-BR/bravais_sweep_L.py#L92) · [bravais_sweep_L.py](code/pt-BR/bravais_sweep_L.py#L175)

@@ -4,6 +4,10 @@
 
 **O que muda quando as coisas interagem?**
 
+## Em um minuto
+
+7 estudos. Vereditos de identidade: 3 rastreabilidade incompleta · 4 contexto/pós-processamento. Cada veredito traz sua evidência na [auditoria de identidade](../../docs/pt-BR/triad-identity-audit.md).
+
 | Estudo | Código | Dados | Figuras |
 |---|:---:|:---:|:---:|
 | [Observador e observado](observer/README.pt-BR.md) | ✓ | ✓ | ✓ |

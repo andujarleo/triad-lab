@@ -17,6 +17,10 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: TRIAD completa — termos conjuntos documentados.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-35) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-35) · [Español](../../../docs/es/triad-identity-audit.md#study-t-35) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-35) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-35) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-35) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-35) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-35)
+
 **Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Janelas iniciais de uma e duas sementes; picos finitos ainda podem ocupar uma célula.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-35) · [simulate_early_peak.py](code/simulate_early_peak.py#L51) · [simulate_early_peak.py](code/simulate_early_peak.py#L239) · [simulate_early_peak.py](code/simulate_early_peak.py#L257) · [simulate_early_peak.py](code/simulate_early_peak.py#L332)

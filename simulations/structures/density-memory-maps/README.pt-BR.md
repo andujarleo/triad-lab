@@ -17,6 +17,10 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: TRIAD completa — termos conjuntos documentados.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-39) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-39) · [Español](../../../docs/es/triad-identity-audit.md#study-t-39) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-39) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-39) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-39) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-39) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-39)
+
 **Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. O runner evolui novamente o caso do bolso plantado e registra mapas de densidade/memória; não é só leitor de imagens.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-39) · [simulate_density_memory_maps.py](code/simulate_density_memory_maps.py#L11) · [simulate_density_memory_maps.py](code/simulate_density_memory_maps.py#L43) · [simulate_density_memory_maps.py](code/simulate_density_memory_maps.py#L140)

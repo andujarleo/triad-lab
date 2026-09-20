@@ -17,6 +17,10 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 
 ## Execution audit
 
+> **TRIAD identity: NOT established as complete TRIAD — incomplete traceability.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-t-08) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-08) · [Español](../../../docs/es/triad-identity-audit.md#study-t-08) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-08) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-08) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-08) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-08) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-08)
+
 **Execution not fully traceable.** Baseline/observer CSVs exist; the field solver and parameter mapping are absent.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-08) · [original-record.md](notes/original-record.md#L10) · [summary.csv](results/data/summary.csv#L1)

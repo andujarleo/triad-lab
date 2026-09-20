@@ -4,6 +4,10 @@
 
 **How do patterns take shape?**
 
+## In one minute
+
+14 studies. Identity verdicts: 6 documented departure · 1 traceability incomplete · 7 context/post-processing. Each verdict carries its evidence in the [identity audit](../../docs/en/triad-identity-audit.md).
+
 | Study | Code | Data | Figures |
 |---|:---:|:---:|:---:|
 | [Emergent 3D field](field-3d/README.md) | ✓ | ✓ | ✓ |

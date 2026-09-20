@@ -14,6 +14,10 @@ Registros visuais preservados do material recebido. A execução exata que gerou
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO é execução TRIAD — contexto ou pós-processamento.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-visual-comparisons) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-visual-comparisons) · [Español](../../../docs/es/triad-identity-audit.md#study-visual-comparisons) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-visual-comparisons) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-visual-comparisons) · [Norsk](../../../docs/no/triad-identity-audit.md#study-visual-comparisons) · [Dansk](../../../docs/da/triad-identity-audit.md#study-visual-comparisons) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-visual-comparisons)
+
 **Contexto ou pós-processamento.** Comparações visuais preservadas sem associação estabelecida com uma rodada geradora.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-visual-comparisons) · [README.md](README.md#L5)

@@ -17,6 +17,10 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO estabelecido como TRIAD completa — rastreabilidade incompleta.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-13) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-13) · [Español](../../../docs/es/triad-identity-audit.md#study-t-13) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-13) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-13) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-13) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-13) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-13)
+
 **Execução sem rastreabilidade completa.** A montagem compacta e os diagnósticos de longo prazo não têm gerador salvo nem tabela numérica.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-13) · [original-record.md](notes/original-record.md#L10)

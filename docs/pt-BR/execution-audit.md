@@ -6,7 +6,7 @@
 
 Esta auditoria segue esses resultados até os códigos, configurações e medições registrados. A pergunta é concreta: **o que foi evoluído, o que mudou e o que esta comparação permite concluir?** Os **65 itens do catálogo** foram cobertos por inventário de arquivos e classificação fundamentada, com leitura mais próxima das fontes e registros por trás dos achados abaixo. Nenhuma simulação foi reexecutada.
 
-[A equação completa](#the-complete-equation) · [Cinco casos centrais](#five-central-cases) · [Todos os 17 achados](#all-17-findings) · [Cada estudo](#every-study) · [Cobertura](#coverage)
+[A equação completa](#the-complete-equation) · [Cinco casos centrais](#five-central-cases) · [Todos os 17 achados](#all-17-findings) · [Cada estudo](#every-study) · [Cobertura](#coverage) · [Auditoria de identidade em oito idiomas](triad-identity-audit.md)
 
 <a id="the-complete-equation"></a>
 ## Por que a equação completa é o ponto de partida

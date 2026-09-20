@@ -17,6 +17,10 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: TRIAD completa — termos conjuntos documentados.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-30) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-30) · [Español](../../../docs/es/triad-identity-audit.md#study-t-30) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-30) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-30) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-30) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-30) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-30)
+
 **Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Duas sementes gaussianas; o rastreamento do par se perde após t=0,01.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-30) · [simulate_two_atoms.py](code/simulate_two_atoms.py#L33) · [simulate_two_atoms.py](code/simulate_two_atoms.py#L437) · [simulate_two_atoms.py](code/simulate_two_atoms.py#L403)

@@ -4,6 +4,10 @@
 
 **Como uma perturbação se espalha?**
 
+## Em um minuto
+
+8 estudos. Vereditos de identidade: 2 divergência documentada · 6 rastreabilidade incompleta. Cada veredito traz sua evidência na [auditoria de identidade](../../docs/pt-BR/triad-identity-audit.md).
+
 | Estudo | Código | Dados | Figuras |
 |---|:---:|:---:|:---:|
 | [Tentativa de teste de limite](limit-test-attempt/README.pt-BR.md) | — | — | — |

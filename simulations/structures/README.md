@@ -4,6 +4,10 @@
 
 **Can a pattern persist inside a changing field?**
 
+## In one minute
+
+17 studies. Identity verdicts: 9 TRIAD complete · 1 documented departure · 7 traceability incomplete. Each verdict carries its evidence in the [identity audit](../../docs/en/triad-identity-audit.md).
+
 | Study | Code | Data | Figures |
 |---|:---:|:---:|:---:|
 | [Gaussian atoms in one field](gaussian-atoms-in-one-field/README.md) | — | — | ✓ |

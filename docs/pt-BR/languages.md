@@ -4,10 +4,18 @@
 
 Inglês é a base da documentação editorial; português brasileiro é a primeira tradução mantida. As 65 apresentações de estudos, os oito índices de área e os guias públicos existem nos dois idiomas. Documentos científicos, figuras e código históricos mantêm seus idiomas e rótulos originais.
 
+A auditoria de identidade TRIAD ponto a ponto é mantida em oito idiomas: inglês (principal), português, espanhol, alemão, sueco, norueguês, dinamarquês e chinês simplificado. Os seis idiomas mais novos cobrem a auditoria de identidade e apontam para o inglês no restante; veja a cobertura real em [languages.json](../languages.json).
+
 | Idioma | Entrada |
 |---|---|
 | English | [Home](../../README.md) |
 | Português | [Início](README.md) |
+| Español | [Español](../es/README.md) |
+| Deutsch | [Deutsch](../de/README.md) |
+| Svenska | [Svenska](../sv/README.md) |
+| Norsk | [Norsk](../no/README.md) |
+| Dansk | [Dansk](../da/README.md) |
+| 中文（简体） | [中文](../zh-CN/README.md) |
 
 As traduções preservam as [regras do projeto](project-rules.md): física quântica não padrão, equação imutável e indivisível, os três princípios e auto-organização dinâmica. Descreva v1.0/v1.1 como revisões documentais. Mantenha resultados históricos e seu contexto em todos os idiomas.
 

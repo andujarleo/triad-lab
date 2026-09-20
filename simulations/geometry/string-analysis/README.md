@@ -11,6 +11,10 @@ Post-processes a saved state into density threads, phase curves when available, 
 
 ## Execution audit
 
+> **TRIAD identity: NOT a TRIAD execution — context or post-processing.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-bravais-02-strings) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-bravais-02-strings) · [Español](../../../docs/es/triad-identity-audit.md#study-bravais-02-strings) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-bravais-02-strings) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-bravais-02-strings) · [Norsk](../../../docs/no/triad-identity-audit.md#study-bravais-02-strings) · [Dansk](../../../docs/da/triad-identity-audit.md#study-bravais-02-strings) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-bravais-02-strings)
+
 **Context or post-processing.** Post-processing of saved field states; this item does not evolve the complete equation.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-bravais-02-strings) · [cordas_arte.py](code/cordas_arte.py#L1)

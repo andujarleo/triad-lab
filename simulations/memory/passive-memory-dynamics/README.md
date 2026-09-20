@@ -16,6 +16,10 @@ The report describes dynamic crystallization through recurring shifts of scale i
 
 ## Execution audit
 
+> **TRIAD identity: NOT complete TRIAD — documented departure.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-passive-r5) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-passive-r5) · [Español](../../../docs/es/triad-identity-audit.md#study-passive-r5) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-passive-r5) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-passive-r5) · [Norsk](../../../docs/no/triad-identity-audit.md#study-passive-r5) · [Dansk](../../../docs/da/triad-identity-audit.md#study-passive-r5) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-passive-r5)
+
 **Implementation differs.** The runner sets alpha, Gamma and FDT to zero and retains two memory modes.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-passive-r5) · [simulate_passive_memory.py](code/simulate_passive_memory.py#L23) · [simulate_passive_memory.py](code/simulate_passive_memory.py#L72) · [config.json](configuration/config.json#L9)

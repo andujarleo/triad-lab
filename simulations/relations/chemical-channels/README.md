@@ -11,6 +11,10 @@ Adds eight channels named after neurotransmitters, coupled to phase, edge and me
 
 ## Execution audit
 
+> **TRIAD identity: NOT a TRIAD execution — context or post-processing.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-entre-03-chemistry) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-entre-03-chemistry) · [Español](../../../docs/es/triad-identity-audit.md#study-entre-03-chemistry) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-entre-03-chemistry) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-entre-03-chemistry) · [Norsk](../../../docs/no/triad-identity-audit.md#study-entre-03-chemistry) · [Dansk](../../../docs/da/triad-identity-audit.md#study-entre-03-chemistry) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-entre-03-chemistry)
+
 **Context or post-processing.** Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation. Optional chemistry/life layers are model switches, not direct P1/P2/P3 ablations.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-entre-03-chemistry) · [simulate_neurotransmitters_between.py](code/en/simulate_neurotransmitters_between.py#L113)

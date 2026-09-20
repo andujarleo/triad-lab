@@ -11,6 +11,10 @@ Adds measurements of the “between” to the base relational dynamics, without 
 
 ## Execution audit
 
+> **TRIAD identity: NOT a TRIAD execution — context or post-processing.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-entre-02-between) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-entre-02-between) · [Español](../../../docs/es/triad-identity-audit.md#study-entre-02-between) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-entre-02-between) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-entre-02-between) · [Norsk](../../../docs/no/triad-identity-audit.md#study-entre-02-between) · [Dansk](../../../docs/da/triad-identity-audit.md#study-entre-02-between) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-entre-02-between)
+
 **Context or post-processing.** Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-entre-02-between) · [simulate_consciousness_between.py](code/en/simulate_consciousness_between.py#L88)

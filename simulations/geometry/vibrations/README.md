@@ -14,6 +14,10 @@ One script evolves the field while recording strings and spectral modes; the oth
 
 ## Execution audit
 
+> **TRIAD identity: NOT complete TRIAD — documented departure.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-vibrations) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-vibrations) · [Español](../../../docs/es/triad-identity-audit.md#study-vibrations) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-vibrations) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-vibrations) · [Norsk](../../../docs/no/triad-identity-audit.md#study-vibrations) · [Dansk](../../../docs/da/triad-identity-audit.md#study-vibrations) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-vibrations)
+
 **Implementation differs.** The evolving source uses a different kinetic sign/noise update and conditional state guards from the reference; its saved results remain records of that implementation. The separate bravais_vibracoes reader is a kinematic reconstruction.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-vibrations) · [bravais_cordas_vibracoes.py](code/bravais_cordas_vibracoes.py#L93) · [bravais_cordas_vibracoes.py](code/bravais_cordas_vibracoes.py#L173)

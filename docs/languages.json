@@ -5,13 +5,49 @@
       "tag": "en",
       "name": "English",
       "entry": "README.md",
-      "coverage": "home, 65 study entrances, eight area indexes, tours, gallery, glossary and technical guides; historical source documents and figures retain original languages"
+      "coverage": "home, 65 study entrances, eight area indexes, tours, gallery, glossary and technical guides; research source translations 17/21; historical source documents and figures retain original languages"
     },
     {
       "tag": "pt-BR",
       "name": "Português",
       "entry": "docs/pt-BR/README.md",
-      "coverage": "home, 65 study entrances, eight area indexes, tours, gallery, glossary and technical guides; historical source documents and figures retain original languages"
+      "coverage": "home, 65 study entrances, eight area indexes, tours, gallery, glossary and technical guides; 21/21 research sources in original Portuguese; historical figures retain original languages"
+    },
+    {
+      "tag": "es",
+      "name": "Español",
+      "entry": "docs/es/README.md",
+      "coverage": "point-to-point TRIAD identity audit; research source translations 17/21; study pages, guides and figures fall back to English"
+    },
+    {
+      "tag": "de",
+      "name": "Deutsch",
+      "entry": "docs/de/README.md",
+      "coverage": "point-to-point TRIAD identity audit; research source translations 17/21; study pages, guides and figures fall back to English"
+    },
+    {
+      "tag": "sv",
+      "name": "Svenska",
+      "entry": "docs/sv/README.md",
+      "coverage": "point-to-point TRIAD identity audit; research source translations 17/21; study pages, guides and figures fall back to English"
+    },
+    {
+      "tag": "no",
+      "name": "Norsk",
+      "entry": "docs/no/README.md",
+      "coverage": "point-to-point TRIAD identity audit; research source translations 17/21; study pages, guides and figures fall back to English"
+    },
+    {
+      "tag": "da",
+      "name": "Dansk",
+      "entry": "docs/da/README.md",
+      "coverage": "point-to-point TRIAD identity audit; research source translations 17/21; study pages, guides and figures fall back to English"
+    },
+    {
+      "tag": "zh-CN",
+      "name": "中文（简体）",
+      "entry": "docs/zh-CN/README.md",
+      "coverage": "point-to-point TRIAD identity audit; research source translations 17/21; study pages, guides and figures fall back to English"
     }
   ]
 }

@@ -17,6 +17,10 @@ Imported historical record; this organization did not rerun the simulation.
 
 ## Execution audit
 
+> **TRIAD identity: TRIAD complete — coupled terms documented.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-t-32) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-32) · [Español](../../../docs/es/triad-identity-audit.md#study-t-32) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-32) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-32) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-32) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-32) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-32)
+
 **Coupled terms documented.** The supplied standalone update documents the coupled terms and three memory modes with FDT active. Wide envelope and two signed inner seeds; only the initial frame retains the pair.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-32) · [simulate_atom_inside_gaussian.py](code/simulate_atom_inside_gaussian.py#L39) · [simulate_atom_inside_gaussian.py](code/simulate_atom_inside_gaussian.py#L488) · [simulate_atom_inside_gaussian.py](code/simulate_atom_inside_gaussian.py#L457)

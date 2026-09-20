@@ -17,6 +17,10 @@ Imported historical record; this organization did not rerun the simulation.
 
 ## Execution audit
 
+> **TRIAD identity: NOT established as complete TRIAD — incomplete traceability.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-t-27) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-27) · [Español](../../../docs/es/triad-identity-audit.md#study-t-27) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-27) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-27) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-27) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-27) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-27)
+
 **Execution not fully traceable.** The runner calls an external triad-lang runtime at a historical absolute path; that executed dependency is not bound by hash.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-t-27) · [simulate_twelve_atoms.py](code/simulate_twelve_atoms.py#L22) · [simulate_twelve_atoms.py](code/simulate_twelve_atoms.py#L173)

@@ -14,6 +14,10 @@ Four geometric implementations are grouped here: three use 2D fields, while the 
 
 ## Execution audit
 
+> **TRIAD identity: NOT complete TRIAD — documented departure.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-field-2d) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-field-2d) · [Español](../../../docs/es/triad-identity-audit.md#study-field-2d) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-field-2d) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-field-2d) · [Norsk](../../../docs/no/triad-identity-audit.md#study-field-2d) · [Dansk](../../../docs/da/triad-identity-audit.md#study-field-2d) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-field-2d)
+
 **Implementation differs.** The supplied 1D/2D implementations include trajectory normalization or guards and differ from the reference evolution; the pure 2D damping expression is phase-like.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-field-2d) · [bravais_emergent_coupled.py](code/bravais_emergent_coupled.py#L109) · [bravais_pure_emerge.py](code/bravais_pure_emerge.py#L208)

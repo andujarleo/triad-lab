@@ -17,6 +17,10 @@ Esta ficha remete às listagens e dependências do registro histórico; não há
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO estabelecido como TRIAD completa — rastreabilidade incompleta.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-05) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-05) · [Español](../../../docs/es/triad-identity-audit.md#study-t-05) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-05) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-05) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-05) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-05) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-05)
+
 **Execução sem rastreabilidade completa.** Campos de identidade separada são descritos visualmente; implementação e CSV estão ausentes.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-05) · [original-record.md](notes/original-record.md#L10)

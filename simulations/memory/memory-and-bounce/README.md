@@ -15,7 +15,15 @@ No dedicated runner is linked in this entry. Consult the note and complete recor
 ![Original run figure](results/figures/overview.png)
 
 
+## In one minute
+
+The radius holding half the mass contracts to its minimum at **t=3.7**, then expands — while a different radius sees no interior minimum at all. Density peaks at t=4.1, memory follows at t=4.2. [Audit record](../../../docs/en/execution-audit.md#study-t-23) · [Identity verdict](../../../docs/en/triad-identity-audit.md#study-t-23)
+
 ## Execution audit
+
+> **TRIAD identity: NOT established as complete TRIAD — incomplete traceability.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-t-23) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-23) · [Español](../../../docs/es/triad-identity-audit.md#study-t-23) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-23) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-23) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-23) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-23) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-23)
 
 **Execution not fully traceable.** Bounce metrics and memory records exist, but the executed bath amplitude/source is not fully bound.
 

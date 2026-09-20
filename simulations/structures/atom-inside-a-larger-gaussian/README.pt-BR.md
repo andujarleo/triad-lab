@@ -17,6 +17,10 @@ Registro histórico importado; esta organização não reexecutou a simulação.
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: TRIAD completa — termos conjuntos documentados.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-t-32) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-t-32) · [Español](../../../docs/es/triad-identity-audit.md#study-t-32) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-t-32) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-t-32) · [Norsk](../../../docs/no/triad-identity-audit.md#study-t-32) · [Dansk](../../../docs/da/triad-identity-audit.md#study-t-32) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-t-32)
+
 **Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. Envelope amplo e duas sementes internas com sinal; somente o quadro inicial preserva o par.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-t-32) · [simulate_atom_inside_gaussian.py](code/simulate_atom_inside_gaussian.py#L39) · [simulate_atom_inside_gaussian.py](code/simulate_atom_inside_gaussian.py#L488) · [simulate_atom_inside_gaussian.py](code/simulate_atom_inside_gaussian.py#L457)

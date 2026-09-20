@@ -23,6 +23,10 @@ Leia a sequência: protocolo → configuração → dados brutos → análise. A
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: TRIAD completa — termos conjuntos documentados.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-q02) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-q02) · [Español](../../../docs/es/triad-identity-audit.md#study-q02) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-q02) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-q02) · [Norsk](../../../docs/no/triad-identity-audit.md#study-q02) · [Dansk](../../../docs/da/triad-identity-audit.md#study-q02) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-q02)
+
 **Termos conjuntos documentados.** A atualização standalone fornecida documenta os termos conjuntos e três modos de memória com FDT ativo. As 32 sementes registradas são finitas; o lote usa complex64/float32 e declara a mudança de precisão.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-q02) · [simulate_seed_ensemble.py](code/simulate_seed_ensemble.py#L45) · [simulate_seed_ensemble.py](code/simulate_seed_ensemble.py#L281) · [simulate_seed_ensemble.py](code/simulate_seed_ensemble.py#L242)

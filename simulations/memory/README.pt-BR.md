@@ -4,6 +4,10 @@
 
 **O passado pode mudar o que acontece depois?**
 
+## Em um minuto
+
+10 estudos. Vereditos de identidade: 3 divergência documentada · 7 rastreabilidade incompleta. Cada veredito traz sua evidência na [auditoria de identidade](../../docs/pt-BR/triad-identity-audit.md).
+
 | Estudo | Código | Dados | Figuras |
 |---|:---:|:---:|:---:|
 | [Memória e ruído térmico](memory-and-thermal-noise/README.pt-BR.md) | — | — | ✓ |

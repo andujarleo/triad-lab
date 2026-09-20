@@ -12,6 +12,10 @@ Dois scripts coletam e catalogam cordas. O arquivo cordas.csv referenciado está
 
 ## Auditoria da execução
 
+> **Identidade TRIAD: NÃO estabelecido como TRIAD completa — rastreabilidade incompleta.**
+>
+> Registro ponto a ponto: [English](../../../docs/en/triad-identity-audit.md#study-string-catalogue) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-string-catalogue) · [Español](../../../docs/es/triad-identity-audit.md#study-string-catalogue) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-string-catalogue) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-string-catalogue) · [Norsk](../../../docs/no/triad-identity-audit.md#study-string-catalogue) · [Dansk](../../../docs/da/triad-identity-audit.md#study-string-catalogue) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-string-catalogue)
+
 **Execução sem rastreabilidade completa.** O coletor importa padrões do solver e sobreposições de ambiente; as linhas registradas não fixam todas as configurações geradoras.
 
 [Condições e contrastes registrados](../../../docs/pt-BR/execution-audit.md#study-string-catalogue) · [colhe_cordas.py](code/colhe_cordas.py#L29) · [colhe_cordas.py](code/colhe_cordas.py#L117)

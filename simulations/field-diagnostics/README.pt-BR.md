@@ -6,6 +6,10 @@ TRIAD é física quântica não padrão, com metodologia própria. Esta área pr
 
 **Como testar a consistência, os modos e a resposta do campo?**
 
+## Em um minuto
+
+6 estudos. Vereditos de identidade: 5 TRIAD completa · 1 contexto/pós-processamento. Cada veredito traz sua evidência na [auditoria de identidade](../../docs/pt-BR/triad-identity-audit.md).
+
 | Estudo | Código | Dados | Figuras |
 |---|:---:|:---:|:---:|
 | [Especificação de referência](reference-specification/README.pt-BR.md) | — | — | — |

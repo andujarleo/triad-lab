@@ -6,7 +6,7 @@
 
 This audit follows those results back to their code, configurations and recorded measurements. It asks a practical question: **what was actually evolved, what was changed, and what can this particular comparison tell us?** It covers all **65 catalog entries** through file inventory and a documented status for each, with closer source and record review behind the findings below. No simulation was rerun.
 
-[The complete equation](#the-complete-equation) · [Five central cases](#five-central-cases) · [All 17 findings](#all-17-findings) · [Every study](#every-study) · [Coverage](#coverage)
+[The complete equation](#the-complete-equation) · [Five central cases](#five-central-cases) · [All 17 findings](#all-17-findings) · [Every study](#every-study) · [Coverage](#coverage) · [Identity audit in eight languages](triad-identity-audit.md)
 
 <a id="the-complete-equation"></a>
 ## Why the complete equation is the starting point

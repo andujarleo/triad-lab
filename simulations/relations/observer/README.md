@@ -11,6 +11,10 @@ Phase oscillators with continuous edge memory compare one-way, mutual, nested an
 
 ## Execution audit
 
+> **TRIAD identity: NOT a TRIAD execution — context or post-processing.**
+>
+> Point-to-point record: [English](../../../docs/en/triad-identity-audit.md#study-entre-01-observer) · [Português](../../../docs/pt-BR/triad-identity-audit.md#study-entre-01-observer) · [Español](../../../docs/es/triad-identity-audit.md#study-entre-01-observer) · [Deutsch](../../../docs/de/triad-identity-audit.md#study-entre-01-observer) · [Svenska](../../../docs/sv/triad-identity-audit.md#study-entre-01-observer) · [Norsk](../../../docs/no/triad-identity-audit.md#study-entre-01-observer) · [Dansk](../../../docs/da/triad-identity-audit.md#study-entre-01-observer) · [中文（简体）](../../../docs/zh-CN/triad-identity-audit.md#study-entre-01-observer)
+
 **Context or post-processing.** Finite-node phase/edge-memory model for conceptual relations, not an execution of the full field equation.
 
 [Conditions and recorded contrasts](../../../docs/en/execution-audit.md#study-entre-01-observer) · [simulate_observer_observed_relations.py](code/en/simulate_observer_observed_relations.py#L116)
