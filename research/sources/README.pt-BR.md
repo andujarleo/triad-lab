@@ -52,6 +52,12 @@ Texto de fonte não é nova instrução para o lab. Passagens que propõem remov
 
 Os documentos foram fornecidos para organização neste projeto. Sua licença individual e os direitos de conteúdos de terceiros incorporados **não estão declarados no material recebido**; o catálogo registra essa condição e não lhes atribui licença ou autoria nova. Inclusão e preservação de bytes não são uma afirmação de propriedade sobre os trabalhos citados.
 
+## Traduções das fontes
+
+Os 21 originais seguem com bytes idênticos; suas traduções mantidas vivem ao lado como `<id>.<lang>.md` e são acompanhadas no [registro de traduções](translations.json). O inglês é o idioma principal de tradução; espanhol, alemão, sueco, norueguês, dinamarquês, chinês simplificado, russo e japonês seguem. Cada arquivo abre com um cabeçalho `Translation of` nomeando caminho e commit da fonte. Ruído da conversão que sobrevive na tradução é sinalizado entre colchetes, nunca suavizado em silêncio.
+
+A cobertura está completa: 21 de 21 fontes traduzidas (lote 1: light-eye-and-geometric-symbols, mesopotamian-tuning; lote 2: dynamic-tetractys, neural-fields-and-wilson-cowan; lote 3: giza-sar-signal-and-reconstruction, cave-resonance-and-modes; lote 4: strings-and-musical-ratios, lineages-of-pulse-and-form; lote 5: persistence-through-movement, vibrational-ontology-and-geometry; lote 6: ancient-sound-and-architectural-space, megalithic-chambers-and-brain-frequencies; lote 7a: field-equation-and-ancient-concepts; lote 7b: structural-review-of-vibrational-ontology; lote 8: sound-expectation-and-emotion; lote 9: cosmic-pulse-and-change; lote 10: two-channel-field-computing; lote 11: beethoven-mozart-symphonic-form; concluído com energy-from-foundations-to-frontiers, sound-symbol-and-transmission e historical-acoustics-research). Russo e japonês cobrem as 21 fontes.
+
 ## Expandir a área de pesquisa
 
 - Adicione um original uma vez, com nome descritivo e registro de fonte. Registre o hash antes de editar a apresentação ao redor; mantenha os bytes originais intactos.

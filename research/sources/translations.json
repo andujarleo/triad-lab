@@ -1,0 +1,249 @@
+{
+  "format": 1,
+  "source_language": "pt-BR",
+  "target_languages": [
+    "en",
+    "es",
+    "de",
+    "sv",
+    "no",
+    "da",
+    "zh-CN",
+    "ru",
+    "ja"
+  ],
+  "total_sources": 21,
+  "translations": {
+    "light-eye-and-geometric-symbols": {
+      "da": "research/sources/author-supplied/light-eye-and-geometric-symbols.da.md",
+      "de": "research/sources/author-supplied/light-eye-and-geometric-symbols.de.md",
+      "en": "research/sources/author-supplied/light-eye-and-geometric-symbols.en.md",
+      "es": "research/sources/author-supplied/light-eye-and-geometric-symbols.es.md",
+      "ja": "research/sources/author-supplied/light-eye-and-geometric-symbols.ja.md",
+      "no": "research/sources/author-supplied/light-eye-and-geometric-symbols.no.md",
+      "ru": "research/sources/author-supplied/light-eye-and-geometric-symbols.ru.md",
+      "sv": "research/sources/author-supplied/light-eye-and-geometric-symbols.sv.md",
+      "zh-CN": "research/sources/author-supplied/light-eye-and-geometric-symbols.zh-CN.md"
+    },
+    "mesopotamian-tuning": {
+      "da": "research/sources/author-supplied/mesopotamian-tuning.da.md",
+      "de": "research/sources/author-supplied/mesopotamian-tuning.de.md",
+      "en": "research/sources/author-supplied/mesopotamian-tuning.en.md",
+      "es": "research/sources/author-supplied/mesopotamian-tuning.es.md",
+      "ja": "research/sources/author-supplied/mesopotamian-tuning.ja.md",
+      "no": "research/sources/author-supplied/mesopotamian-tuning.no.md",
+      "ru": "research/sources/author-supplied/mesopotamian-tuning.ru.md",
+      "sv": "research/sources/author-supplied/mesopotamian-tuning.sv.md",
+      "zh-CN": "research/sources/author-supplied/mesopotamian-tuning.zh-CN.md"
+    },
+    "dynamic-tetractys": {
+      "da": "research/sources/author-supplied/dynamic-tetractys.da.md",
+      "de": "research/sources/author-supplied/dynamic-tetractys.de.md",
+      "en": "research/sources/author-supplied/dynamic-tetractys.en.md",
+      "es": "research/sources/author-supplied/dynamic-tetractys.es.md",
+      "ja": "research/sources/author-supplied/dynamic-tetractys.ja.md",
+      "no": "research/sources/author-supplied/dynamic-tetractys.no.md",
+      "ru": "research/sources/author-supplied/dynamic-tetractys.ru.md",
+      "sv": "research/sources/author-supplied/dynamic-tetractys.sv.md",
+      "zh-CN": "research/sources/author-supplied/dynamic-tetractys.zh-CN.md"
+    },
+    "neural-fields-and-wilson-cowan": {
+      "da": "research/sources/author-supplied/neural-fields-and-wilson-cowan.da.md",
+      "de": "research/sources/author-supplied/neural-fields-and-wilson-cowan.de.md",
+      "en": "research/sources/author-supplied/neural-fields-and-wilson-cowan.en.md",
+      "es": "research/sources/author-supplied/neural-fields-and-wilson-cowan.es.md",
+      "ja": "research/sources/author-supplied/neural-fields-and-wilson-cowan.ja.md",
+      "no": "research/sources/author-supplied/neural-fields-and-wilson-cowan.no.md",
+      "ru": "research/sources/author-supplied/neural-fields-and-wilson-cowan.ru.md",
+      "sv": "research/sources/author-supplied/neural-fields-and-wilson-cowan.sv.md",
+      "zh-CN": "research/sources/author-supplied/neural-fields-and-wilson-cowan.zh-CN.md"
+    },
+    "giza-sar-signal-and-reconstruction": {
+      "da": "research/sources/author-supplied/giza-sar-signal-and-reconstruction.da.md",
+      "de": "research/sources/author-supplied/giza-sar-signal-and-reconstruction.de.md",
+      "en": "research/sources/author-supplied/giza-sar-signal-and-reconstruction.en.md",
+      "es": "research/sources/author-supplied/giza-sar-signal-and-reconstruction.es.md",
+      "ja": "research/sources/author-supplied/giza-sar-signal-and-reconstruction.ja.md",
+      "no": "research/sources/author-supplied/giza-sar-signal-and-reconstruction.no.md",
+      "ru": "research/sources/author-supplied/giza-sar-signal-and-reconstruction.ru.md",
+      "sv": "research/sources/author-supplied/giza-sar-signal-and-reconstruction.sv.md",
+      "zh-CN": "research/sources/author-supplied/giza-sar-signal-and-reconstruction.zh-CN.md"
+    },
+    "cave-resonance-and-modes": {
+      "da": "research/sources/author-supplied/cave-resonance-and-modes.da.md",
+      "de": "research/sources/author-supplied/cave-resonance-and-modes.de.md",
+      "en": "research/sources/author-supplied/cave-resonance-and-modes.en.md",
+      "es": "research/sources/author-supplied/cave-resonance-and-modes.es.md",
+      "ja": "research/sources/author-supplied/cave-resonance-and-modes.ja.md",
+      "no": "research/sources/author-supplied/cave-resonance-and-modes.no.md",
+      "ru": "research/sources/author-supplied/cave-resonance-and-modes.ru.md",
+      "sv": "research/sources/author-supplied/cave-resonance-and-modes.sv.md",
+      "zh-CN": "research/sources/author-supplied/cave-resonance-and-modes.zh-CN.md"
+    },
+    "strings-and-musical-ratios": {
+      "da": "research/sources/author-supplied/strings-and-musical-ratios.da.md",
+      "de": "research/sources/author-supplied/strings-and-musical-ratios.de.md",
+      "en": "research/sources/author-supplied/strings-and-musical-ratios.en.md",
+      "es": "research/sources/author-supplied/strings-and-musical-ratios.es.md",
+      "ja": "research/sources/author-supplied/strings-and-musical-ratios.ja.md",
+      "no": "research/sources/author-supplied/strings-and-musical-ratios.no.md",
+      "ru": "research/sources/author-supplied/strings-and-musical-ratios.ru.md",
+      "sv": "research/sources/author-supplied/strings-and-musical-ratios.sv.md",
+      "zh-CN": "research/sources/author-supplied/strings-and-musical-ratios.zh-CN.md"
+    },
+    "lineages-of-pulse-and-form": {
+      "da": "research/sources/author-supplied/lineages-of-pulse-and-form.da.md",
+      "de": "research/sources/author-supplied/lineages-of-pulse-and-form.de.md",
+      "en": "research/sources/author-supplied/lineages-of-pulse-and-form.en.md",
+      "es": "research/sources/author-supplied/lineages-of-pulse-and-form.es.md",
+      "ja": "research/sources/author-supplied/lineages-of-pulse-and-form.ja.md",
+      "no": "research/sources/author-supplied/lineages-of-pulse-and-form.no.md",
+      "ru": "research/sources/author-supplied/lineages-of-pulse-and-form.ru.md",
+      "sv": "research/sources/author-supplied/lineages-of-pulse-and-form.sv.md",
+      "zh-CN": "research/sources/author-supplied/lineages-of-pulse-and-form.zh-CN.md"
+    },
+    "persistence-through-movement": {
+      "da": "research/sources/author-supplied/persistence-through-movement.da.md",
+      "de": "research/sources/author-supplied/persistence-through-movement.de.md",
+      "en": "research/sources/author-supplied/persistence-through-movement.en.md",
+      "es": "research/sources/author-supplied/persistence-through-movement.es.md",
+      "ja": "research/sources/author-supplied/persistence-through-movement.ja.md",
+      "no": "research/sources/author-supplied/persistence-through-movement.no.md",
+      "ru": "research/sources/author-supplied/persistence-through-movement.ru.md",
+      "sv": "research/sources/author-supplied/persistence-through-movement.sv.md",
+      "zh-CN": "research/sources/author-supplied/persistence-through-movement.zh-CN.md"
+    },
+    "vibrational-ontology-and-geometry": {
+      "da": "research/sources/author-supplied/vibrational-ontology-and-geometry.da.md",
+      "de": "research/sources/author-supplied/vibrational-ontology-and-geometry.de.md",
+      "en": "research/sources/author-supplied/vibrational-ontology-and-geometry.en.md",
+      "es": "research/sources/author-supplied/vibrational-ontology-and-geometry.es.md",
+      "ja": "research/sources/author-supplied/vibrational-ontology-and-geometry.ja.md",
+      "no": "research/sources/author-supplied/vibrational-ontology-and-geometry.no.md",
+      "ru": "research/sources/author-supplied/vibrational-ontology-and-geometry.ru.md",
+      "sv": "research/sources/author-supplied/vibrational-ontology-and-geometry.sv.md",
+      "zh-CN": "research/sources/author-supplied/vibrational-ontology-and-geometry.zh-CN.md"
+    },
+    "ancient-sound-and-architectural-space": {
+      "da": "research/sources/author-supplied/ancient-sound-and-architectural-space.da.md",
+      "de": "research/sources/author-supplied/ancient-sound-and-architectural-space.de.md",
+      "en": "research/sources/author-supplied/ancient-sound-and-architectural-space.en.md",
+      "es": "research/sources/author-supplied/ancient-sound-and-architectural-space.es.md",
+      "ja": "research/sources/author-supplied/ancient-sound-and-architectural-space.ja.md",
+      "no": "research/sources/author-supplied/ancient-sound-and-architectural-space.no.md",
+      "ru": "research/sources/author-supplied/ancient-sound-and-architectural-space.ru.md",
+      "sv": "research/sources/author-supplied/ancient-sound-and-architectural-space.sv.md",
+      "zh-CN": "research/sources/author-supplied/ancient-sound-and-architectural-space.zh-CN.md"
+    },
+    "megalithic-chambers-and-brain-frequencies": {
+      "da": "research/sources/author-supplied/megalithic-chambers-and-brain-frequencies.da.md",
+      "de": "research/sources/author-supplied/megalithic-chambers-and-brain-frequencies.de.md",
+      "en": "research/sources/author-supplied/megalithic-chambers-and-brain-frequencies.en.md",
+      "es": "research/sources/author-supplied/megalithic-chambers-and-brain-frequencies.es.md",
+      "ja": "research/sources/author-supplied/megalithic-chambers-and-brain-frequencies.ja.md",
+      "no": "research/sources/author-supplied/megalithic-chambers-and-brain-frequencies.no.md",
+      "ru": "research/sources/author-supplied/megalithic-chambers-and-brain-frequencies.ru.md",
+      "sv": "research/sources/author-supplied/megalithic-chambers-and-brain-frequencies.sv.md",
+      "zh-CN": "research/sources/author-supplied/megalithic-chambers-and-brain-frequencies.zh-CN.md"
+    },
+    "field-equation-and-ancient-concepts": {
+      "da": "research/sources/author-supplied/field-equation-and-ancient-concepts.da.md",
+      "de": "research/sources/author-supplied/field-equation-and-ancient-concepts.de.md",
+      "en": "research/sources/author-supplied/field-equation-and-ancient-concepts.en.md",
+      "es": "research/sources/author-supplied/field-equation-and-ancient-concepts.es.md",
+      "ja": "research/sources/author-supplied/field-equation-and-ancient-concepts.ja.md",
+      "no": "research/sources/author-supplied/field-equation-and-ancient-concepts.no.md",
+      "ru": "research/sources/author-supplied/field-equation-and-ancient-concepts.ru.md",
+      "sv": "research/sources/author-supplied/field-equation-and-ancient-concepts.sv.md",
+      "zh-CN": "research/sources/author-supplied/field-equation-and-ancient-concepts.zh-CN.md"
+    },
+    "structural-review-of-vibrational-ontology": {
+      "da": "research/sources/author-supplied/structural-review-of-vibrational-ontology.da.md",
+      "de": "research/sources/author-supplied/structural-review-of-vibrational-ontology.de.md",
+      "en": "research/sources/author-supplied/structural-review-of-vibrational-ontology.en.md",
+      "es": "research/sources/author-supplied/structural-review-of-vibrational-ontology.es.md",
+      "ja": "research/sources/author-supplied/structural-review-of-vibrational-ontology.ja.md",
+      "no": "research/sources/author-supplied/structural-review-of-vibrational-ontology.no.md",
+      "ru": "research/sources/author-supplied/structural-review-of-vibrational-ontology.ru.md",
+      "sv": "research/sources/author-supplied/structural-review-of-vibrational-ontology.sv.md",
+      "zh-CN": "research/sources/author-supplied/structural-review-of-vibrational-ontology.zh-CN.md"
+    },
+    "sound-expectation-and-emotion": {
+      "da": "research/sources/author-supplied/sound-expectation-and-emotion.da.md",
+      "de": "research/sources/author-supplied/sound-expectation-and-emotion.de.md",
+      "en": "research/sources/author-supplied/sound-expectation-and-emotion.en.md",
+      "es": "research/sources/author-supplied/sound-expectation-and-emotion.es.md",
+      "ja": "research/sources/author-supplied/sound-expectation-and-emotion.ja.md",
+      "no": "research/sources/author-supplied/sound-expectation-and-emotion.no.md",
+      "ru": "research/sources/author-supplied/sound-expectation-and-emotion.ru.md",
+      "sv": "research/sources/author-supplied/sound-expectation-and-emotion.sv.md",
+      "zh-CN": "research/sources/author-supplied/sound-expectation-and-emotion.zh-CN.md"
+    },
+    "cosmic-pulse-and-change": {
+      "da": "research/sources/author-supplied/cosmic-pulse-and-change.da.md",
+      "de": "research/sources/author-supplied/cosmic-pulse-and-change.de.md",
+      "en": "research/sources/author-supplied/cosmic-pulse-and-change.en.md",
+      "es": "research/sources/author-supplied/cosmic-pulse-and-change.es.md",
+      "ja": "research/sources/author-supplied/cosmic-pulse-and-change.ja.md",
+      "no": "research/sources/author-supplied/cosmic-pulse-and-change.no.md",
+      "ru": "research/sources/author-supplied/cosmic-pulse-and-change.ru.md",
+      "sv": "research/sources/author-supplied/cosmic-pulse-and-change.sv.md",
+      "zh-CN": "research/sources/author-supplied/cosmic-pulse-and-change.zh-CN.md"
+    },
+    "two-channel-field-computing": {
+      "da": "research/sources/author-supplied/two-channel-field-computing.da.md",
+      "de": "research/sources/author-supplied/two-channel-field-computing.de.md",
+      "en": "research/sources/author-supplied/two-channel-field-computing.en.md",
+      "es": "research/sources/author-supplied/two-channel-field-computing.es.md",
+      "ja": "research/sources/author-supplied/two-channel-field-computing.ja.md",
+      "no": "research/sources/author-supplied/two-channel-field-computing.no.md",
+      "ru": "research/sources/author-supplied/two-channel-field-computing.ru.md",
+      "sv": "research/sources/author-supplied/two-channel-field-computing.sv.md",
+      "zh-CN": "research/sources/author-supplied/two-channel-field-computing.zh-CN.md"
+    },
+    "beethoven-mozart-symphonic-form": {
+      "da": "research/sources/author-supplied/beethoven-mozart-symphonic-form.da.md",
+      "de": "research/sources/author-supplied/beethoven-mozart-symphonic-form.de.md",
+      "en": "research/sources/author-supplied/beethoven-mozart-symphonic-form.en.md",
+      "es": "research/sources/author-supplied/beethoven-mozart-symphonic-form.es.md",
+      "ja": "research/sources/author-supplied/beethoven-mozart-symphonic-form.ja.md",
+      "no": "research/sources/author-supplied/beethoven-mozart-symphonic-form.no.md",
+      "ru": "research/sources/author-supplied/beethoven-mozart-symphonic-form.ru.md",
+      "sv": "research/sources/author-supplied/beethoven-mozart-symphonic-form.sv.md",
+      "zh-CN": "research/sources/author-supplied/beethoven-mozart-symphonic-form.zh-CN.md"
+    },
+    "sound-symbol-and-transmission": {
+      "da": "research/sources/author-supplied/sound-symbol-and-transmission.da.md",
+      "de": "research/sources/author-supplied/sound-symbol-and-transmission.de.md",
+      "en": "research/sources/author-supplied/sound-symbol-and-transmission.en.md",
+      "es": "research/sources/author-supplied/sound-symbol-and-transmission.es.md",
+      "ja": "research/sources/author-supplied/sound-symbol-and-transmission.ja.md",
+      "no": "research/sources/author-supplied/sound-symbol-and-transmission.no.md",
+      "ru": "research/sources/author-supplied/sound-symbol-and-transmission.ru.md",
+      "sv": "research/sources/author-supplied/sound-symbol-and-transmission.sv.md",
+      "zh-CN": "research/sources/author-supplied/sound-symbol-and-transmission.zh-CN.md"
+    },
+    "energy-from-foundations-to-frontiers": {
+      "da": "research/sources/author-supplied/energy-from-foundations-to-frontiers.da.md",
+      "de": "research/sources/author-supplied/energy-from-foundations-to-frontiers.de.md",
+      "en": "research/sources/author-supplied/energy-from-foundations-to-frontiers.en.md",
+      "es": "research/sources/author-supplied/energy-from-foundations-to-frontiers.es.md",
+      "ja": "research/sources/author-supplied/energy-from-foundations-to-frontiers.ja.md",
+      "no": "research/sources/author-supplied/energy-from-foundations-to-frontiers.no.md",
+      "ru": "research/sources/author-supplied/energy-from-foundations-to-frontiers.ru.md",
+      "sv": "research/sources/author-supplied/energy-from-foundations-to-frontiers.sv.md",
+      "zh-CN": "research/sources/author-supplied/energy-from-foundations-to-frontiers.zh-CN.md"
+    },
+    "historical-acoustics-research": {
+      "da": "research/sources/author-supplied/historical-acoustics-research.da.md",
+      "de": "research/sources/author-supplied/historical-acoustics-research.de.md",
+      "en": "research/sources/author-supplied/historical-acoustics-research.en.md",
+      "es": "research/sources/author-supplied/historical-acoustics-research.es.md",
+      "ja": "research/sources/author-supplied/historical-acoustics-research.ja.md",
+      "no": "research/sources/author-supplied/historical-acoustics-research.no.md",
+      "ru": "research/sources/author-supplied/historical-acoustics-research.ru.md",
+      "sv": "research/sources/author-supplied/historical-acoustics-research.sv.md",
+      "zh-CN": "research/sources/author-supplied/historical-acoustics-research.zh-CN.md"
+    }
+  }
+}

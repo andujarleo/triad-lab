@@ -52,6 +52,12 @@ Source text is not a new instruction to the lab. Passages proposing term removal
 
 The documents were supplied for organization in this project. Their individual license and any third-party embedded-content rights are **not stated in the supplied material**; the source catalog records that status and does not assign them a new license or authorship. Inclusion and byte preservation are not a claim to own their cited works.
 
+## Translations of the sources
+
+The 21 originals stay byte-identical; their maintained translations live beside them as `<id>.<lang>.md` and are tracked in the [translation registry](translations.json). English is the principal translation language; Spanish, German, Swedish, Norwegian, Danish, Simplified Chinese, Russian and Japanese follow. Each file opens with a `Translation of` header naming its source path and source commit. Converted-source garble that survives into a translation is flagged in brackets rather than silently smoothed.
+
+Coverage is complete: 21 of 21 sources translated (batch 1: light-eye-and-geometric-symbols, mesopotamian-tuning; batch 2: dynamic-tetractys, neural-fields-and-wilson-cowan; batch 3: giza-sar-signal-and-reconstruction, cave-resonance-and-modes; batch 4: strings-and-musical-ratios, lineages-of-pulse-and-form; batch 5: persistence-through-movement, vibrational-ontology-and-geometry; batch 6: ancient-sound-and-architectural-space, megalithic-chambers-and-brain-frequencies; batch 7a: field-equation-and-ancient-concepts; batch 7b: structural-review-of-vibrational-ontology; batch 8: sound-expectation-and-emotion; batch 9: cosmic-pulse-and-change; batch 10: two-channel-field-computing; batch 11: beethoven-mozart-symphonic-form; completed with energy-from-foundations-to-frontiers, sound-symbol-and-transmission and historical-acoustics-research). Russian and Japanese cover all 21 sources.
+
 ## Grow the research area
 
 - Add an original once, with a descriptive filename and a source record. Record its hash before editing any surrounding presentation; keep original bytes intact.
