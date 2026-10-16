@@ -1,8 +1,7 @@
 ![TRIAD Universe Lab — A universe in motion.](assets/brand/readme-cover.en.png)
 
 
-( [
-](https://github.com/qrv0/triad) old repository )
+( https://github.com/qrv0/triad old repository )
 
 
 <p align="center"><strong>English</strong> · <a href="docs/pt-BR/README.md">Português</a><br />
